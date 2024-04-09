@@ -709,3 +709,33 @@
 [2024-04-10 00:15:31] INFO root fetch - processPackages [cirq-google]: Remove: archive file [/home/abi/fetcher/tmp/cirq_google-1.4.0.dev20240409221218-py3-none-any.whl.zip]
 [2024-04-10 00:15:31] INFO root fetch - main [MainThread]: End processing [cirq-google]: success
 [2024-04-10 00:15:31] INFO root fetch - main [MainThread]: Store serial: [22691254]
+[2024-04-10 00:17:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22691254]
+[2024-04-10 00:17:40] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-10 00:17:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hcs-core
+[2024-04-10 00:17:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Drumpler
+[2024-04-10 00:17:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: instagram-dlpy
+[2024-04-10 00:17:40] INFO root fetch - processPackages [Drumpler]: New version: [1.1.0] Old Version: [1.0.9]
+[2024-04-10 00:17:40] INFO root fetch - processPackages [Drumpler]: Downloading https://files.pythonhosted.org/packages/df/23/08dea5980ef9327888dc6ad126028803445897ca5a80e6213f113292156c/Drumpler-1.0.9.tar.gz
+[2024-04-10 00:17:40] INFO root fetch - processPackages [hcs-core]: New version: [0.1.225] Old Version: [0.1.224]
+[2024-04-10 00:17:40] INFO root fetch - processPackages [instagram-dlpy]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-10 00:17:40] INFO root fetch - processPackages [instagram-dlpy]: Downloading https://files.pythonhosted.org/packages/2e/fe/eb60e0a8008abec7e204c46b92f0f0781218f87a969a922fc653777371f2/instagram-dlpy-1.0.0.tar.gz
+[2024-04-10 00:17:40] INFO root fetch - processPackages [hcs-core]: Downloading https://files.pythonhosted.org/packages/1c/70/61cde47f8bd53ef941a09bcd15c0f906f839c2fa28211637fa4ced71da10/hcs-core-0.1.224.tar.gz
+[2024-04-10 00:17:41] INFO root fetch - processPackages [Drumpler]: Downloading https://files.pythonhosted.org/packages/26/b7/1c81323bf56a38a7e3e7bf503d9bc5964abfe672a109bee2676a523ee83c/Drumpler-1.1.0.tar.gz
+[2024-04-10 00:17:41] INFO root fetch - processPackages [Drumpler]: executing diffoscope
+[2024-04-10 00:17:41] INFO root fetch - processPackages [Drumpler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Drumpler-1.0.9.tar.gz tmp/Drumpler-1.1.0.tar.gz --markdown 20240410/D/Drumpler/1.0.9-1.1.0/README.md --exclude *.pyd
+[2024-04-10 00:17:41] INFO root fetch - processPackages [hcs-core]: Downloading https://files.pythonhosted.org/packages/49/2f/789bb2d792eea0fad9b92a06f722f43ea167711c7a1cb7c9da830602b99d/hcs-core-0.1.225.tar.gz
+[2024-04-10 00:17:41] INFO root fetch - processPackages [instagram-dlpy]: Downloading https://files.pythonhosted.org/packages/47/80/adea82293293899869f9ef3f4dc7e549d9c6c8055a2f4d077c52ccfe1fe6/instagram-dlpy-1.1.0.tar.gz
+[2024-04-10 00:17:41] INFO root fetch - processPackages [hcs-core]: executing diffoscope
+[2024-04-10 00:17:41] INFO root fetch - processPackages [hcs-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcs-core-0.1.224.tar.gz tmp/hcs-core-0.1.225.tar.gz --markdown 20240410/h/hcs-core/0.1.224-0.1.225/README.md --exclude *.pyd
+[2024-04-10 00:17:41] INFO root fetch - processPackages [instagram-dlpy]: executing diffoscope
+[2024-04-10 00:17:41] INFO root fetch - processPackages [instagram-dlpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/instagram-dlpy-1.0.0.tar.gz tmp/instagram-dlpy-1.1.0.tar.gz --markdown 20240410/i/instagram-dlpy/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-04-10 00:17:41] INFO root fetch - processPackages [Drumpler]: Remove: archive file [/home/abi/fetcher/tmp/Drumpler-1.0.9.tar.gz]
+[2024-04-10 00:17:41] INFO root fetch - processPackages [Drumpler]: Remove: archive file [/home/abi/fetcher/tmp/Drumpler-1.1.0.tar.gz]
+[2024-04-10 00:17:41] INFO root fetch - main [MainThread]: End processing [Drumpler]: success
+[2024-04-10 00:17:41] INFO root fetch - processPackages [hcs-core]: Remove: archive file [/home/abi/fetcher/tmp/hcs-core-0.1.224.tar.gz]
+[2024-04-10 00:17:41] INFO root fetch - processPackages [hcs-core]: Remove: archive file [/home/abi/fetcher/tmp/hcs-core-0.1.225.tar.gz]
+[2024-04-10 00:17:41] INFO root fetch - main [MainThread]: End processing [hcs-core]: success
+[2024-04-10 00:17:42] INFO root fetch - processPackages [instagram-dlpy]: Remove: archive file [/home/abi/fetcher/tmp/instagram-dlpy-1.0.0.tar.gz]
+[2024-04-10 00:17:42] INFO root fetch - processPackages [instagram-dlpy]: Remove: archive file [/home/abi/fetcher/tmp/instagram-dlpy-1.1.0.tar.gz]
+[2024-04-10 00:17:42] INFO root fetch - main [MainThread]: End processing [instagram-dlpy]: success
+[2024-04-10 00:17:42] INFO root fetch - main [MainThread]: Store serial: [22691262]

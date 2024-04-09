@@ -1889,3 +1889,45 @@
 [2024-04-10 01:18:38] INFO root fetch - processPackages [am-viewer]: Remove: archive file [/home/abi/fetcher/tmp/am_viewer-4.1.0-py3-none-any.whl.zip]
 [2024-04-10 01:18:38] INFO root fetch - main [MainThread]: End processing [am-viewer]: success
 [2024-04-10 01:18:38] INFO root fetch - main [MainThread]: Store serial: [22691827]
+[2024-04-10 01:20:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22691827]
+[2024-04-10 01:20:47] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-10 01:20:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spm-release-tracker
+[2024-04-10 01:20:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: poetry-kit
+[2024-04-10 01:20:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crowbar-package-manager
+[2024-04-10 01:20:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: metasequoia-sql
+[2024-04-10 01:20:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: agentdesk
+[2024-04-10 01:20:47] INFO root fetch - processPackages [poetry-kit]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-10 01:20:47] INFO root fetch - processPackages [crowbar-package-manager]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-10 01:20:47] INFO root fetch - processPackages [agentdesk]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-10 01:20:47] INFO root fetch - processPackages [crowbar-package-manager]: Downloading https://files.pythonhosted.org/packages/00/f2/97571b07928b685b24b2e07f77cb8030c83de06ca5bb457191537a8582a5/crowbar_package_manager-0.1.2.tar.gz
+[2024-04-10 01:20:47] INFO root fetch - processPackages [poetry-kit]: Downloading https://files.pythonhosted.org/packages/09/e8/9d02824558d978814d36f76819ca5cf43bf1650d71109a14fd380c6e0cfc/poetry_kit-0.1.4.tar.gz
+[2024-04-10 01:20:47] WARNING root fetch - processPackages [spm-release-tracker]: Skipping, unable to determine old version
+[2024-04-10 01:20:47] INFO root fetch - main [MainThread]: End processing [spm-release-tracker] error
+[2024-04-10 01:20:47] INFO root fetch - processPackages [metasequoia-sql]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-10 01:20:47] INFO root fetch - processPackages [agentdesk]: Downloading https://files.pythonhosted.org/packages/cf/ca/cd5dfbf2d07fb86e168858977c8668fdff291aaf19cf93c8ae884b0959b1/agentdesk-0.2.8.tar.gz
+[2024-04-10 01:20:47] INFO root fetch - processPackages [metasequoia-sql]: Downloading https://files.pythonhosted.org/packages/6e/4a/290738c3071684d12072ed56a157920da6a42ff1a507da0295655dae2b4c/metasequoia-sql-0.1.0.tar.gz
+[2024-04-10 01:20:47] INFO root fetch - processPackages [crowbar-package-manager]: Downloading https://files.pythonhosted.org/packages/58/fa/5c95109c9823f610e15ff2b053b0a1f761c1fecbac5ec1c83ef182ff8bac/crowbar_package_manager-0.1.3.tar.gz
+[2024-04-10 01:20:47] INFO root fetch - processPackages [agentdesk]: Downloading https://files.pythonhosted.org/packages/24/26/ad035fd9f7aedb4d5a78e0198ca36d0599d9ed6d9f5cfeeb84e922907596/agentdesk-0.2.9.tar.gz
+[2024-04-10 01:20:47] INFO root fetch - processPackages [poetry-kit]: Downloading https://files.pythonhosted.org/packages/86/65/c71579213ea1e6cc97e5ff34b365dcb690e57ceea4914dd2aff44df7f280/poetry_kit-0.1.5.tar.gz
+[2024-04-10 01:20:47] INFO root fetch - processPackages [crowbar-package-manager]: executing diffoscope
+[2024-04-10 01:20:47] INFO root fetch - processPackages [crowbar-package-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crowbar_package_manager-0.1.2.tar.gz tmp/crowbar_package_manager-0.1.3.tar.gz --markdown 20240410/c/crowbar-package-manager/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-10 01:20:47] INFO root fetch - processPackages [agentdesk]: executing diffoscope
+[2024-04-10 01:20:47] INFO root fetch - processPackages [agentdesk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentdesk-0.2.8.tar.gz tmp/agentdesk-0.2.9.tar.gz --markdown 20240410/a/agentdesk/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-10 01:20:47] INFO root fetch - processPackages [poetry-kit]: executing diffoscope
+[2024-04-10 01:20:47] INFO root fetch - processPackages [poetry-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry_kit-0.1.4.tar.gz tmp/poetry_kit-0.1.5.tar.gz --markdown 20240410/p/poetry-kit/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-10 01:20:47] INFO root fetch - processPackages [metasequoia-sql]: Downloading https://files.pythonhosted.org/packages/d1/57/05d2546ffbfda626d5663c31d157ecbe76464059f32663a75f09ce9f78e5/metasequoia-sql-0.1.1.tar.gz
+[2024-04-10 01:20:48] INFO root fetch - processPackages [metasequoia-sql]: executing diffoscope
+[2024-04-10 01:20:48] INFO root fetch - processPackages [metasequoia-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metasequoia-sql-0.1.0.tar.gz tmp/metasequoia-sql-0.1.1.tar.gz --markdown 20240410/m/metasequoia-sql/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-10 01:20:48] INFO root fetch - processPackages [crowbar-package-manager]: Remove: archive file [/home/abi/fetcher/tmp/crowbar_package_manager-0.1.2.tar.gz]
+[2024-04-10 01:20:48] INFO root fetch - processPackages [crowbar-package-manager]: Remove: archive file [/home/abi/fetcher/tmp/crowbar_package_manager-0.1.3.tar.gz]
+[2024-04-10 01:20:48] INFO root fetch - main [MainThread]: End processing [crowbar-package-manager]: success
+[2024-04-10 01:20:48] INFO root fetch - processPackages [agentdesk]: Remove: archive file [/home/abi/fetcher/tmp/agentdesk-0.2.8.tar.gz]
+[2024-04-10 01:20:48] INFO root fetch - processPackages [agentdesk]: Remove: archive file [/home/abi/fetcher/tmp/agentdesk-0.2.9.tar.gz]
+[2024-04-10 01:20:48] INFO root fetch - main [MainThread]: End processing [agentdesk]: success
+[2024-04-10 01:20:48] INFO root fetch - processPackages [poetry-kit]: Remove: archive file [/home/abi/fetcher/tmp/poetry_kit-0.1.4.tar.gz]
+[2024-04-10 01:20:48] INFO root fetch - processPackages [poetry-kit]: Remove: archive file [/home/abi/fetcher/tmp/poetry_kit-0.1.5.tar.gz]
+[2024-04-10 01:20:48] INFO root fetch - main [MainThread]: End processing [poetry-kit]: success
+[2024-04-10 01:20:48] INFO root fetch - processPackages [metasequoia-sql]: Remove: archive file [/home/abi/fetcher/tmp/metasequoia-sql-0.1.0.tar.gz]
+[2024-04-10 01:20:48] INFO root fetch - processPackages [metasequoia-sql]: Remove: archive file [/home/abi/fetcher/tmp/metasequoia-sql-0.1.1.tar.gz]
+[2024-04-10 01:20:48] INFO root fetch - main [MainThread]: End processing [metasequoia-sql]: success
+[2024-04-10 01:20:48] INFO root fetch - main [MainThread]: Store serial: [22691842]

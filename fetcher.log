@@ -873,3 +873,30 @@
 [2024-04-10 00:26:22] INFO root fetch - processPackages [mslarkin-utils]: Remove: archive file [/home/abi/fetcher/tmp/mslarkin-utils-1.9.tar.gz]
 [2024-04-10 00:26:22] INFO root fetch - main [MainThread]: End processing [mslarkin-utils]: success
 [2024-04-10 00:26:22] INFO root fetch - main [MainThread]: Store serial: [22691311]
+[2024-04-10 00:28:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22691311]
+[2024-04-10 00:28:30] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-10 00:28:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-proxy-api-client
+[2024-04-10 00:28:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gimmetool
+[2024-04-10 00:28:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: enwiki-offline
+[2024-04-10 00:28:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PoreAnalyser
+[2024-04-10 00:28:30] INFO root fetch - processPackages [cdk-proxy-api-client]: New version: [3.0.0rc1] Old Version: [2.3.0]
+[2024-04-10 00:28:30] WARNING root fetch - processPackages [enwiki-offline]: Skipping, unable to determine old version
+[2024-04-10 00:28:30] INFO root fetch - main [MainThread]: End processing [enwiki-offline] error
+[2024-04-10 00:28:30] INFO root fetch - processPackages [cdk-proxy-api-client]: Downloading https://files.pythonhosted.org/packages/a1/ac/855ff1882dc2159846b92f813aef75fb3d023b023c802fc724c41413daae/cdk_proxy_api_client-2.3.0.tar.gz
+[2024-04-10 00:28:30] WARNING root fetch - processPackages [gimmetool]: Skipping, unable to determine old version
+[2024-04-10 00:28:30] INFO root fetch - main [MainThread]: End processing [gimmetool] error
+[2024-04-10 00:28:30] INFO root fetch - processPackages [PoreAnalyser]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-10 00:28:31] INFO root fetch - processPackages [cdk-proxy-api-client]: Downloading https://files.pythonhosted.org/packages/07/cf/d8b1ec6f622aab256fcf00e20a3b5412d76a727279d8586152369ce533f7/cdk_proxy_api_client-3.0.0rc1.tar.gz
+[2024-04-10 00:28:31] INFO root fetch - processPackages [PoreAnalyser]: Downloading https://files.pythonhosted.org/packages/cb/c7/b4683c33969ab333a4a5d6bcb8c6559fb33995bcb4cae6b920be2f906996/poreanalyser-0.0.3.tar.gz
+[2024-04-10 00:28:31] INFO root fetch - processPackages [cdk-proxy-api-client]: executing diffoscope
+[2024-04-10 00:28:31] INFO root fetch - processPackages [cdk-proxy-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_proxy_api_client-2.3.0.tar.gz tmp/cdk_proxy_api_client-3.0.0rc1.tar.gz --markdown 20240410/c/cdk-proxy-api-client/2.3.0-3.0.0rc1/README.md --exclude *.pyd
+[2024-04-10 00:28:31] INFO root fetch - processPackages [PoreAnalyser]: Downloading https://files.pythonhosted.org/packages/9d/b5/396970abbc04830f866ad04b15863e7fb283a7940478da87208e66f2e30c/poreanalyser-0.0.4.tar.gz
+[2024-04-10 00:28:31] INFO root fetch - processPackages [cdk-proxy-api-client]: Remove: archive file [/home/abi/fetcher/tmp/cdk_proxy_api_client-2.3.0.tar.gz]
+[2024-04-10 00:28:31] INFO root fetch - processPackages [cdk-proxy-api-client]: Remove: archive file [/home/abi/fetcher/tmp/cdk_proxy_api_client-3.0.0rc1.tar.gz]
+[2024-04-10 00:28:31] INFO root fetch - main [MainThread]: End processing [cdk-proxy-api-client]: success
+[2024-04-10 00:28:32] INFO root fetch - processPackages [PoreAnalyser]: executing diffoscope
+[2024-04-10 00:28:32] INFO root fetch - processPackages [PoreAnalyser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poreanalyser-0.0.3.tar.gz tmp/poreanalyser-0.0.4.tar.gz --markdown 20240410/P/PoreAnalyser/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-10 00:28:34] INFO root fetch - processPackages [PoreAnalyser]: Remove: archive file [/home/abi/fetcher/tmp/poreanalyser-0.0.3.tar.gz]
+[2024-04-10 00:28:34] INFO root fetch - processPackages [PoreAnalyser]: Remove: archive file [/home/abi/fetcher/tmp/poreanalyser-0.0.4.tar.gz]
+[2024-04-10 00:28:34] INFO root fetch - main [MainThread]: End processing [PoreAnalyser]: success
+[2024-04-10 00:28:34] INFO root fetch - main [MainThread]: Store serial: [22691326]

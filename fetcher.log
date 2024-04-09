@@ -900,3 +900,72 @@
 [2024-04-10 00:28:34] INFO root fetch - processPackages [PoreAnalyser]: Remove: archive file [/home/abi/fetcher/tmp/poreanalyser-0.0.4.tar.gz]
 [2024-04-10 00:28:34] INFO root fetch - main [MainThread]: End processing [PoreAnalyser]: success
 [2024-04-10 00:28:34] INFO root fetch - main [MainThread]: Store serial: [22691326]
+[2024-04-10 00:30:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22691326]
+[2024-04-10 00:30:43] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-10 00:30:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eth-pydantic-types
+[2024-04-10 00:30:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: experiment-lab
+[2024-04-10 00:30:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: resamp
+[2024-04-10 00:30:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: paxml
+[2024-04-10 00:30:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: praxis
+[2024-04-10 00:30:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qablet-basic
+[2024-04-10 00:30:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: everyvoice
+[2024-04-10 00:30:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: thrivescraper
+[2024-04-10 00:30:43] INFO root fetch - processPackages [resamp]: New version: [1.6.4] Old Version: [1.6.3]
+[2024-04-10 00:30:43] INFO root fetch - processPackages [experiment-lab]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-10 00:30:43] INFO root fetch - processPackages [resamp]: Downloading https://files.pythonhosted.org/packages/ac/56/2567f926df0a951cef60a61699f14f770e1064c780333713b78b18e1b554/resamp-1.6.3.tar.gz
+[2024-04-10 00:30:43] INFO root fetch - processPackages [everyvoice]: New version: [0.1.20230307] Old Version: [0.1.0a0.dev0]
+[2024-04-10 00:30:43] INFO root fetch - processPackages [paxml]: New version: [1.4.0] Old Version: [1.3.1]
+[2024-04-10 00:30:43] INFO root fetch - processPackages [qablet-basic]: New version: [0.3.0] Old Version: [0.2.6]
+[2024-04-10 00:30:43] INFO root fetch - processPackages [eth-pydantic-types]: New version: [0.1.0a5] Old Version: [0.1.0a4]
+[2024-04-10 00:30:43] INFO root fetch - processPackages [praxis]: New version: [1.4.0] Old Version: [1.3.1]
+[2024-04-10 00:30:43] WARNING root fetch - processPackages [thrivescraper]: Skipping, unable to determine old version
+[2024-04-10 00:30:43] INFO root fetch - main [MainThread]: End processing [thrivescraper] error
+[2024-04-10 00:30:43] INFO root fetch - processPackages [experiment-lab]: Downloading https://files.pythonhosted.org/packages/21/64/22bb52c0d0df84b1da9b7e5b6f33c75e29b592499add76dc75956014d96e/experiment-lab-1.0.5.tar.gz
+[2024-04-10 00:30:43] INFO root fetch - processPackages [everyvoice]: Downloading https://files.pythonhosted.org/packages/e5/c9/31fe74dcddb655c514cf7c72ff30ff3affb8d96e3379526c6f2967a11a11/everyvoice-0.1.0a0.dev0.tar.gz
+[2024-04-10 00:30:43] INFO root fetch - processPackages [paxml]: Downloading https://files.pythonhosted.org/packages/2a/dd/0672e937e63a1db95dc1ae548f715601cca6ecab93a0b24d8e5c0180d853/paxml-1.3.1-py3-none-any.whl
+[2024-04-10 00:30:43] INFO root fetch - processPackages [praxis]: Downloading https://files.pythonhosted.org/packages/6d/f7/f1935875b3ae67214c4512043e35807c2d398b9bea332f131f2bc132630a/praxis-1.3.1-py3-none-any.whl
+[2024-04-10 00:30:43] INFO root fetch - processPackages [eth-pydantic-types]: Downloading https://files.pythonhosted.org/packages/ba/50/9dabc9869ea1c65d68e138362624b758542c03700095a48e0ef463faebd9/eth-pydantic-types-0.1.0a4.tar.gz
+[2024-04-10 00:30:43] INFO root fetch - processPackages [qablet-basic]: Downloading https://files.pythonhosted.org/packages/2a/de/a803392627e702c8c5d1beb6f8503170a94a2ff928801d50124f55423dab/qablet_basic-0.2.6-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-10 00:30:43] INFO root fetch - processPackages [resamp]: Downloading https://files.pythonhosted.org/packages/a2/9d/548c3f9733862807db7a59f58f53788b7a90ddccfabf656c0baf0eb7198f/resamp-1.6.4.tar.gz
+[2024-04-10 00:30:44] INFO root fetch - processPackages [resamp]: executing diffoscope
+[2024-04-10 00:30:44] INFO root fetch - processPackages [resamp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resamp-1.6.3.tar.gz tmp/resamp-1.6.4.tar.gz --markdown 20240410/r/resamp/1.6.3-1.6.4/README.md --exclude *.pyd
+[2024-04-10 00:30:44] INFO root fetch - processPackages [experiment-lab]: Downloading https://files.pythonhosted.org/packages/42/9e/b5f8d91574d1e19908571bfb279ed572f955c9ba590e394c918e462c9037/experiment-lab-1.0.6.tar.gz
+[2024-04-10 00:30:44] INFO root fetch - processPackages [everyvoice]: Downloading https://files.pythonhosted.org/packages/63/f9/a0530fd354133452a817c6d9a4e185eb1a84575072a99c57bc8933ddde9b/everyvoice-0.1.20230307.tar.gz
+[2024-04-10 00:30:44] INFO root fetch - processPackages [experiment-lab]: executing diffoscope
+[2024-04-10 00:30:44] INFO root fetch - processPackages [experiment-lab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/experiment-lab-1.0.5.tar.gz tmp/experiment-lab-1.0.6.tar.gz --markdown 20240410/e/experiment-lab/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-04-10 00:30:44] INFO root fetch - processPackages [qablet-basic]: Downloading https://files.pythonhosted.org/packages/0e/00/05b66b49c636b44af231119c52ce9ddf894b8f2af4e205651db1efae0135/qablet_basic-0.3.0-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-10 00:30:44] INFO root fetch - processPackages [paxml]: Downloading https://files.pythonhosted.org/packages/21/ec/817b8148fb56cdc4b0ff179ea9af3ff48c0e9f282a9af5521f5f81411d0a/paxml-1.4.0-py3-none-any.whl
+[2024-04-10 00:30:44] INFO root fetch - processPackages [eth-pydantic-types]: Downloading https://files.pythonhosted.org/packages/d3/0b/0c9cda0c692c6586bf87f0d2e1cf89cfe80f1d51cbf49af2121593e014b6/eth-pydantic-types-0.1.0a5.tar.gz
+[2024-04-10 00:30:44] INFO root fetch - processPackages [praxis]: Downloading https://files.pythonhosted.org/packages/ae/b2/23f3d8ac48ed91abbbbfa9b479e0d4f3c70848066632983a3b125ce64925/praxis-1.4.0-py3-none-any.whl
+[2024-04-10 00:30:44] INFO root fetch - processPackages [everyvoice]: executing diffoscope
+[2024-04-10 00:30:44] INFO root fetch - processPackages [everyvoice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/everyvoice-0.1.0a0.dev0.tar.gz tmp/everyvoice-0.1.20230307.tar.gz --markdown 20240410/e/everyvoice/0.1.0a0.dev0-0.1.20230307/README.md --exclude *.pyd
+[2024-04-10 00:30:44] INFO root fetch - processPackages [paxml]: executing diffoscope
+[2024-04-10 00:30:44] INFO root fetch - processPackages [paxml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paxml-1.3.1-py3-none-any.whl.zip tmp/paxml-1.4.0-py3-none-any.whl.zip --markdown 20240410/p/paxml/1.3.1-1.4.0/README.md --exclude *.pyd
+[2024-04-10 00:30:44] INFO root fetch - processPackages [praxis]: executing diffoscope
+[2024-04-10 00:30:44] INFO root fetch - processPackages [praxis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/praxis-1.3.1-py3-none-any.whl.zip tmp/praxis-1.4.0-py3-none-any.whl.zip --markdown 20240410/p/praxis/1.3.1-1.4.0/README.md --exclude *.pyd
+[2024-04-10 00:30:44] INFO root fetch - processPackages [eth-pydantic-types]: executing diffoscope
+[2024-04-10 00:30:44] INFO root fetch - processPackages [eth-pydantic-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eth-pydantic-types-0.1.0a4.tar.gz tmp/eth-pydantic-types-0.1.0a5.tar.gz --markdown 20240410/e/eth-pydantic-types/0.1.0a4-0.1.0a5/README.md --exclude *.pyd
+[2024-04-10 00:30:44] INFO root fetch - processPackages [qablet-basic]: executing diffoscope
+[2024-04-10 00:30:44] INFO root fetch - processPackages [qablet-basic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qablet_basic-0.2.6-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/qablet_basic-0.3.0-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240410/q/qablet-basic/0.2.6-0.3.0/README.md --exclude *.pyd
+[2024-04-10 00:30:44] INFO root fetch - processPackages [resamp]: Remove: archive file [/home/abi/fetcher/tmp/resamp-1.6.3.tar.gz]
+[2024-04-10 00:30:44] INFO root fetch - processPackages [resamp]: Remove: archive file [/home/abi/fetcher/tmp/resamp-1.6.4.tar.gz]
+[2024-04-10 00:30:44] INFO root fetch - main [MainThread]: End processing [resamp]: success
+[2024-04-10 00:30:45] INFO root fetch - processPackages [experiment-lab]: Remove: archive file [/home/abi/fetcher/tmp/experiment-lab-1.0.5.tar.gz]
+[2024-04-10 00:30:45] INFO root fetch - processPackages [experiment-lab]: Remove: archive file [/home/abi/fetcher/tmp/experiment-lab-1.0.6.tar.gz]
+[2024-04-10 00:30:45] INFO root fetch - main [MainThread]: End processing [experiment-lab]: success
+[2024-04-10 00:30:45] INFO root fetch - processPackages [eth-pydantic-types]: Remove: archive file [/home/abi/fetcher/tmp/eth-pydantic-types-0.1.0a4.tar.gz]
+[2024-04-10 00:30:45] INFO root fetch - processPackages [eth-pydantic-types]: Remove: archive file [/home/abi/fetcher/tmp/eth-pydantic-types-0.1.0a5.tar.gz]
+[2024-04-10 00:30:45] INFO root fetch - main [MainThread]: End processing [eth-pydantic-types]: success
+[2024-04-10 00:30:45] INFO root fetch - processPackages [everyvoice]: Remove: archive file [/home/abi/fetcher/tmp/everyvoice-0.1.0a0.dev0.tar.gz]
+[2024-04-10 00:30:45] INFO root fetch - processPackages [everyvoice]: Remove: archive file [/home/abi/fetcher/tmp/everyvoice-0.1.20230307.tar.gz]
+[2024-04-10 00:30:45] INFO root fetch - main [MainThread]: End processing [everyvoice]: success
+[2024-04-10 00:30:46] INFO root fetch - processPackages [paxml]: Remove: archive file [/home/abi/fetcher/tmp/paxml-1.3.1-py3-none-any.whl.zip]
+[2024-04-10 00:30:46] INFO root fetch - processPackages [paxml]: Remove: archive file [/home/abi/fetcher/tmp/paxml-1.4.0-py3-none-any.whl.zip]
+[2024-04-10 00:30:46] INFO root fetch - main [MainThread]: End processing [paxml]: success
+[2024-04-10 00:30:46] INFO root fetch - processPackages [praxis]: Remove: archive file [/home/abi/fetcher/tmp/praxis-1.3.1-py3-none-any.whl.zip]
+[2024-04-10 00:30:46] INFO root fetch - processPackages [praxis]: Remove: archive file [/home/abi/fetcher/tmp/praxis-1.4.0-py3-none-any.whl.zip]
+[2024-04-10 00:30:46] INFO root fetch - main [MainThread]: End processing [praxis]: success
+[2024-04-10 00:30:52] INFO root fetch - processPackages [qablet-basic]: Remove: archive file [/home/abi/fetcher/tmp/qablet_basic-0.2.6-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-10 00:30:52] INFO root fetch - processPackages [qablet-basic]: Remove: archive file [/home/abi/fetcher/tmp/qablet_basic-0.3.0-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-10 00:30:52] INFO root fetch - main [MainThread]: End processing [qablet-basic]: success
+[2024-04-10 00:30:52] INFO root fetch - main [MainThread]: Store serial: [22691378]

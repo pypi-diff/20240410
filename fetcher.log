@@ -1154,3 +1154,27 @@
 [2024-04-10 00:39:38] INFO root fetch - processPackages [SimPEG]: Remove: archive file [/home/abi/fetcher/tmp/SimPEG-0.9.4.tar.gz]
 [2024-04-10 00:39:38] INFO root fetch - main [MainThread]: End processing [SimPEG]: success
 [2024-04-10 00:39:38] INFO root fetch - main [MainThread]: Store serial: [22691479]
+[2024-04-10 00:41:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22691479]
+[2024-04-10 00:41:47] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-10 00:41:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: peach-reactives
+[2024-04-10 00:41:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ASUllm
+[2024-04-10 00:41:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gimmetool
+[2024-04-10 00:41:47] WARNING root fetch - processPackages [gimmetool]: Skipping, unable to determine old version
+[2024-04-10 00:41:47] INFO root fetch - main [MainThread]: End processing [gimmetool] error
+[2024-04-10 00:41:47] INFO root fetch - processPackages [ASUllm]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-10 00:41:47] INFO root fetch - processPackages [peach-reactives]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-10 00:41:47] INFO root fetch - processPackages [ASUllm]: Downloading https://files.pythonhosted.org/packages/93/5e/fc258c6a0fe05ed0e58a548c088b9fd5d5a29cd44a7ffd3fb159149451eb/ASUllm-0.0.2.tar.gz
+[2024-04-10 00:41:47] INFO root fetch - processPackages [peach-reactives]: Downloading https://files.pythonhosted.org/packages/d5/54/656294faac862ec90aac3027bbd69982960337ef1c4e52f5d7a99911b9b9/peach-reactives-0.0.4.tar.gz
+[2024-04-10 00:41:48] INFO root fetch - processPackages [ASUllm]: Downloading https://files.pythonhosted.org/packages/91/be/094c3311c5fb7bd4c98edb321869ae642d6774ae877ef2b4fbde238e9fdb/ASUllm-0.0.3.tar.gz
+[2024-04-10 00:41:48] INFO root fetch - processPackages [ASUllm]: executing diffoscope
+[2024-04-10 00:41:48] INFO root fetch - processPackages [ASUllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ASUllm-0.0.2.tar.gz tmp/ASUllm-0.0.3.tar.gz --markdown 20240410/A/ASUllm/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-10 00:41:48] INFO root fetch - processPackages [peach-reactives]: Downloading https://files.pythonhosted.org/packages/61/3e/594a56b34712dfe30866f01591d1e0bf5f1ee0fed5ee081aeb462da969d6/peach-reactives-0.0.5.tar.gz
+[2024-04-10 00:41:48] INFO root fetch - processPackages [peach-reactives]: executing diffoscope
+[2024-04-10 00:41:48] INFO root fetch - processPackages [peach-reactives]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peach-reactives-0.0.4.tar.gz tmp/peach-reactives-0.0.5.tar.gz --markdown 20240410/p/peach-reactives/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-10 00:41:48] INFO root fetch - processPackages [ASUllm]: Remove: archive file [/home/abi/fetcher/tmp/ASUllm-0.0.2.tar.gz]
+[2024-04-10 00:41:48] INFO root fetch - processPackages [ASUllm]: Remove: archive file [/home/abi/fetcher/tmp/ASUllm-0.0.3.tar.gz]
+[2024-04-10 00:41:48] INFO root fetch - main [MainThread]: End processing [ASUllm]: success
+[2024-04-10 00:41:48] INFO root fetch - processPackages [peach-reactives]: Remove: archive file [/home/abi/fetcher/tmp/peach-reactives-0.0.4.tar.gz]
+[2024-04-10 00:41:48] INFO root fetch - processPackages [peach-reactives]: Remove: archive file [/home/abi/fetcher/tmp/peach-reactives-0.0.5.tar.gz]
+[2024-04-10 00:41:48] INFO root fetch - main [MainThread]: End processing [peach-reactives]: success
+[2024-04-10 00:41:48] INFO root fetch - main [MainThread]: Store serial: [22691489]

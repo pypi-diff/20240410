@@ -2189,3 +2189,33 @@
 [2024-04-10 01:40:24] INFO root fetch - processPackages [mov-cli-youtube]: Remove: archive file [/home/abi/fetcher/tmp/mov-cli-youtube-1.1.2.tar.gz]
 [2024-04-10 01:40:24] INFO root fetch - main [MainThread]: End processing [mov-cli-youtube]: success
 [2024-04-10 01:40:24] INFO root fetch - main [MainThread]: Store serial: [22691944]
+[2024-04-10 01:42:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22691944]
+[2024-04-10 01:42:33] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-10 01:42:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stringx
+[2024-04-10 01:42:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dispatch-py
+[2024-04-10 01:42:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: smaht-submitr
+[2024-04-10 01:42:33] INFO root fetch - processPackages [stringx]: New version: [0.7.4] Old Version: [0.7.3]
+[2024-04-10 01:42:33] INFO root fetch - processPackages [smaht-submitr]: New version: [0.8.0.1b9] Old Version: [0.8.0.1b8]
+[2024-04-10 01:42:33] INFO root fetch - processPackages [stringx]: Downloading https://files.pythonhosted.org/packages/da/cf/f94a1e726fb2808f1a45844c4ba2c433f3f7b419fffa789f5d5be9ab15f4/stringx-0.7.3.tar.gz
+[2024-04-10 01:42:33] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/79/ad/69a49972361f3dd7698be4e52572630203c3c66d2562b3864e2814efd485/smaht_submitr-0.8.0.1b8.tar.gz
+[2024-04-10 01:42:33] INFO root fetch - processPackages [dispatch-py]: New version: [0.5.1] Old Version: [0.4.2]
+[2024-04-10 01:42:33] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/a9/b9/54c39138072c920a1d8d5107253bf98513c92a68aae12fec8962cedc0dd9/smaht_submitr-0.8.0.1b9.tar.gz
+[2024-04-10 01:42:33] INFO root fetch - processPackages [dispatch-py]: Downloading https://files.pythonhosted.org/packages/6d/27/be1f0ff44f78cb4bcda12797e9e4fe46f29dcb5a2640fc59eee3912da28c/dispatch-py-0.4.2.tar.gz
+[2024-04-10 01:42:33] INFO root fetch - processPackages [stringx]: Downloading https://files.pythonhosted.org/packages/c7/99/7303a4d0ff7b6b00f1229638738ef239d16acea80d1dc5fc64596d5c041b/stringx-0.7.4.tar.gz
+[2024-04-10 01:42:33] INFO root fetch - processPackages [smaht-submitr]: executing diffoscope
+[2024-04-10 01:42:33] INFO root fetch - processPackages [smaht-submitr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smaht_submitr-0.8.0.1b8.tar.gz tmp/smaht_submitr-0.8.0.1b9.tar.gz --markdown 20240410/s/smaht-submitr/0.8.0.1b8-0.8.0.1b9/README.md --exclude *.pyd
+[2024-04-10 01:42:33] INFO root fetch - processPackages [stringx]: executing diffoscope
+[2024-04-10 01:42:33] INFO root fetch - processPackages [stringx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stringx-0.7.3.tar.gz tmp/stringx-0.7.4.tar.gz --markdown 20240410/s/stringx/0.7.3-0.7.4/README.md --exclude *.pyd
+[2024-04-10 01:42:33] INFO root fetch - processPackages [dispatch-py]: Downloading https://files.pythonhosted.org/packages/ea/a5/217673a6b3fb94d886198b569260b0c53518a3bfd1383fd09c1e6749764d/dispatch-py-0.5.1.tar.gz
+[2024-04-10 01:42:34] INFO root fetch - processPackages [dispatch-py]: executing diffoscope
+[2024-04-10 01:42:34] INFO root fetch - processPackages [dispatch-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dispatch-py-0.4.2.tar.gz tmp/dispatch-py-0.5.1.tar.gz --markdown 20240410/d/dispatch-py/0.4.2-0.5.1/README.md --exclude *.pyd
+[2024-04-10 01:42:34] INFO root fetch - processPackages [stringx]: Remove: archive file [/home/abi/fetcher/tmp/stringx-0.7.3.tar.gz]
+[2024-04-10 01:42:34] INFO root fetch - processPackages [stringx]: Remove: archive file [/home/abi/fetcher/tmp/stringx-0.7.4.tar.gz]
+[2024-04-10 01:42:34] INFO root fetch - main [MainThread]: End processing [stringx]: success
+[2024-04-10 01:42:34] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.0.1b8.tar.gz]
+[2024-04-10 01:42:34] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.0.1b9.tar.gz]
+[2024-04-10 01:42:34] INFO root fetch - main [MainThread]: End processing [smaht-submitr]: success
+[2024-04-10 01:42:34] INFO root fetch - processPackages [dispatch-py]: Remove: archive file [/home/abi/fetcher/tmp/dispatch-py-0.4.2.tar.gz]
+[2024-04-10 01:42:34] INFO root fetch - processPackages [dispatch-py]: Remove: archive file [/home/abi/fetcher/tmp/dispatch-py-0.5.1.tar.gz]
+[2024-04-10 01:42:34] INFO root fetch - main [MainThread]: End processing [dispatch-py]: success
+[2024-04-10 01:42:34] INFO root fetch - main [MainThread]: Store serial: [22691979]

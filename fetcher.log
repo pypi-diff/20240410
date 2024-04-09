@@ -1543,3 +1543,48 @@
 [2024-04-10 01:01:30] INFO root fetch - processPackages [chartfactor-jlab-ext]: Remove: archive file [/home/abi/fetcher/tmp/chartfactor-jlab-ext-5.0.5.tar.gz]
 [2024-04-10 01:01:30] INFO root fetch - main [MainThread]: End processing [chartfactor-jlab-ext]: success
 [2024-04-10 01:01:30] INFO root fetch - main [MainThread]: Store serial: [22691633]
+[2024-04-10 01:03:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22691633]
+[2024-04-10 01:03:40] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-10 01:03:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: segmentation-skeleton-metrics
+[2024-04-10 01:03:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deterministic-keygen
+[2024-04-10 01:03:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: modin
+[2024-04-10 01:03:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: poetry-kit
+[2024-04-10 01:03:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: FancySchmancyTestsplit
+[2024-04-10 01:03:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sampyling
+[2024-04-10 01:03:40] INFO root fetch - processPackages [FancySchmancyTestsplit]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-10 01:03:40] INFO root fetch - processPackages [segmentation-skeleton-metrics]: New version: [4.1.1] Old Version: [4.1.0]
+[2024-04-10 01:03:40] WARNING root fetch - processPackages [poetry-kit]: Skipping, unable to determine old version
+[2024-04-10 01:03:40] INFO root fetch - main [MainThread]: End processing [poetry-kit] error
+[2024-04-10 01:03:40] WARNING root fetch - processPackages [sampyling]: Skipping, unable to determine old version
+[2024-04-10 01:03:40] INFO root fetch - main [MainThread]: End processing [sampyling] error
+[2024-04-10 01:03:40] INFO root fetch - processPackages [segmentation-skeleton-metrics]: Downloading https://files.pythonhosted.org/packages/91/dc/0e723b5347a9bd1c432e31bf3344f980f819d304cb7863bffc3b20d5ea2b/segmentation_skeleton_metrics-4.1.0.tar.gz
+[2024-04-10 01:03:40] INFO root fetch - processPackages [FancySchmancyTestsplit]: Downloading https://files.pythonhosted.org/packages/03/62/ffd4b205936349eff649705ddb5db03278ddaae98781760c40d357fb27b8/FancySchmancyTestsplit-0.1.1.tar.gz
+[2024-04-10 01:03:40] INFO root fetch - processPackages [modin]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-10 01:03:40] INFO root fetch - processPackages [deterministic-keygen]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-10 01:03:40] INFO root fetch - processPackages [segmentation-skeleton-metrics]: Downloading https://files.pythonhosted.org/packages/be/c3/a0ce30e0e5b87c1a2f067c0392435d5ee0b558c5a0db7a61033f9ac341a5/segmentation_skeleton_metrics-4.1.1.tar.gz
+[2024-04-10 01:03:40] INFO root fetch - processPackages [modin]: Downloading https://files.pythonhosted.org/packages/3c/46/8fe316b681c9807549983d54af91c865572e32f7d6c9d97a0af6f613402f/modin-0.9.0.tar.gz
+[2024-04-10 01:03:40] INFO root fetch - processPackages [FancySchmancyTestsplit]: Downloading https://files.pythonhosted.org/packages/43/ec/1959b6b9c543bfb60c9c927edebcc28269a0f9a142b13c57c7ccffcf4734/FancySchmancyTestsplit-0.1.2.tar.gz
+[2024-04-10 01:03:40] INFO root fetch - processPackages [segmentation-skeleton-metrics]: executing diffoscope
+[2024-04-10 01:03:40] INFO root fetch - processPackages [segmentation-skeleton-metrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/segmentation_skeleton_metrics-4.1.0.tar.gz tmp/segmentation_skeleton_metrics-4.1.1.tar.gz --markdown 20240410/s/segmentation-skeleton-metrics/4.1.0-4.1.1/README.md --exclude *.pyd
+[2024-04-10 01:03:40] INFO root fetch - processPackages [deterministic-keygen]: Downloading https://files.pythonhosted.org/packages/7d/c2/10dfc4da10378f61395398bcc7ea32e0038d0db10b5f14b576dbe1460a52/deterministic_keygen-0.0.5.tar.gz
+[2024-04-10 01:03:40] INFO root fetch - processPackages [FancySchmancyTestsplit]: executing diffoscope
+[2024-04-10 01:03:40] INFO root fetch - processPackages [FancySchmancyTestsplit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FancySchmancyTestsplit-0.1.1.tar.gz tmp/FancySchmancyTestsplit-0.1.2.tar.gz --markdown 20240410/F/FancySchmancyTestsplit/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-10 01:03:41] INFO root fetch - processPackages [deterministic-keygen]: Downloading https://files.pythonhosted.org/packages/36/f1/1f58b3010ca6c1736149602e83018575d383a7c62b9d1f48098a2d486356/deterministic_keygen-0.0.6-pp39-pypy39_pp73-manylinux_2_17_s390x.manylinux2014_s390x.whl
+[2024-04-10 01:03:41] INFO root fetch - processPackages [FancySchmancyTestsplit]: Remove: archive file [/home/abi/fetcher/tmp/FancySchmancyTestsplit-0.1.1.tar.gz]
+[2024-04-10 01:03:41] INFO root fetch - processPackages [FancySchmancyTestsplit]: Remove: archive file [/home/abi/fetcher/tmp/FancySchmancyTestsplit-0.1.2.tar.gz]
+[2024-04-10 01:03:41] INFO root fetch - main [MainThread]: End processing [FancySchmancyTestsplit]: success
+[2024-04-10 01:03:41] INFO root fetch - processPackages [modin]: Downloading https://files.pythonhosted.org/packages/c4/de/b6befe4f022553b09be9c92bf88128b2e391c580fe7ca4876acb77aec416/modin-0.9.1.tar.gz
+[2024-04-10 01:03:41] INFO root fetch - processPackages [modin]: executing diffoscope
+[2024-04-10 01:03:41] INFO root fetch - processPackages [modin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modin-0.9.0.tar.gz tmp/modin-0.9.1.tar.gz --markdown 20240410/m/modin/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-10 01:03:42] INFO root fetch - processPackages [deterministic-keygen]: executing diffoscope
+[2024-04-10 01:03:42] INFO root fetch - processPackages [deterministic-keygen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deterministic_keygen-0.0.5.tar.gz tmp/deterministic_keygen-0.0.6-pp39-pypy39_pp73-manylinux_2_17_s390x.manylinux2014_s390x.whl.zip --markdown 20240410/d/deterministic-keygen/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-10 01:03:42] INFO root fetch - processPackages [segmentation-skeleton-metrics]: Remove: archive file [/home/abi/fetcher/tmp/segmentation_skeleton_metrics-4.1.0.tar.gz]
+[2024-04-10 01:03:42] INFO root fetch - processPackages [segmentation-skeleton-metrics]: Remove: archive file [/home/abi/fetcher/tmp/segmentation_skeleton_metrics-4.1.1.tar.gz]
+[2024-04-10 01:03:42] INFO root fetch - main [MainThread]: End processing [segmentation-skeleton-metrics]: success
+[2024-04-10 01:03:42] INFO root fetch - processPackages [deterministic-keygen]: Remove: archive file [/home/abi/fetcher/tmp/deterministic_keygen-0.0.5.tar.gz]
+[2024-04-10 01:03:42] INFO root fetch - processPackages [deterministic-keygen]: Remove: archive file [/home/abi/fetcher/tmp/deterministic_keygen-0.0.6-pp39-pypy39_pp73-manylinux_2_17_s390x.manylinux2014_s390x.whl.zip]
+[2024-04-10 01:03:42] INFO root fetch - main [MainThread]: End processing [deterministic-keygen]: success
+[2024-04-10 01:03:43] INFO root fetch - processPackages [modin]: Remove: archive file [/home/abi/fetcher/tmp/modin-0.9.0.tar.gz]
+[2024-04-10 01:03:43] INFO root fetch - processPackages [modin]: Remove: archive file [/home/abi/fetcher/tmp/modin-0.9.1.tar.gz]
+[2024-04-10 01:03:43] INFO root fetch - main [MainThread]: End processing [modin]: success
+[2024-04-10 01:03:43] INFO root fetch - main [MainThread]: Store serial: [22691713]

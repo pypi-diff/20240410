@@ -1269,3 +1269,60 @@
 [2024-04-10 00:48:21] INFO root fetch - processPackages [scorecard-generator]: Remove: archive file [/home/abi/fetcher/tmp/scorecard_generator-2.1.9.tar.gz]
 [2024-04-10 00:48:21] INFO root fetch - main [MainThread]: End processing [scorecard-generator]: success
 [2024-04-10 00:48:21] INFO root fetch - main [MainThread]: Store serial: [22691515]
+[2024-04-10 00:50:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22691515]
+[2024-04-10 00:50:29] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-10 00:50:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-simplewebsite-deploy
+[2024-04-10 00:50:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-bunny-mq
+[2024-04-10 00:50:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neon-skill-spelling
+[2024-04-10 00:50:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gimmetool
+[2024-04-10 00:50:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyTDC
+[2024-04-10 00:50:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cpg-workflows
+[2024-04-10 00:50:29] INFO root fetch - processPackages [gimmetool]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-10 00:50:29] INFO root fetch - processPackages [python-bunny-mq]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-10 00:50:29] INFO root fetch - processPackages [PyTDC]: New version: [0.4.7] Old Version: [0.4.6]
+[2024-04-10 00:50:29] INFO root fetch - processPackages [neon-skill-spelling]: New version: [1.1.0] Old Version: [1.0.1a2]
+[2024-04-10 00:50:29] INFO root fetch - processPackages [gimmetool]: Downloading https://files.pythonhosted.org/packages/f8/c3/2ed8d3b3d053b11e16a988352767862ef051450024597c12ab0f7825fce9/gimmetool-0.1.5.tar.gz
+[2024-04-10 00:50:29] INFO root fetch - processPackages [cpg-workflows]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-10 00:50:29] INFO root fetch - processPackages [python-bunny-mq]: Downloading https://files.pythonhosted.org/packages/72/7c/4c5634e87464b4527f030574fc4b34e94e8b711bb7b421664a7c99832bfa/python_bunny_mq-0.1.4.tar.gz
+[2024-04-10 00:50:29] INFO root fetch - processPackages [cdk-simplewebsite-deploy]: New version: [2.0.9] Old Version: [2.0.81]
+[2024-04-10 00:50:30] INFO root fetch - processPackages [PyTDC]: Downloading https://files.pythonhosted.org/packages/fe/f5/28efe3fecd456a4cf76528f67df4b112c573b7cae37f35ca9ad0e05b8c80/PyTDC-0.4.6.tar.gz
+[2024-04-10 00:50:30] INFO root fetch - processPackages [neon-skill-spelling]: Downloading https://files.pythonhosted.org/packages/6a/95/fb8c40c00cc7923f7ecede44ccd4feb14e9fc5a2bb6871111faba384166c/neon-skill-spelling-1.0.1a2.tar.gz
+[2024-04-10 00:50:30] INFO root fetch - processPackages [cdk-simplewebsite-deploy]: Downloading https://files.pythonhosted.org/packages/e7/f3/16c38a60b82174adebdea57cdc06ac50398b2f4973596d752dd033375b96/cdk-simplewebsite-deploy-2.0.81.tar.gz
+[2024-04-10 00:50:30] INFO root fetch - processPackages [cpg-workflows]: Downloading https://files.pythonhosted.org/packages/97/85/ebcf50223506f96abcfa077315ab244e192faa632ed400789582dcf565e0/cpg-workflows-1.9.0.tar.gz
+[2024-04-10 00:50:30] INFO root fetch - processPackages [python-bunny-mq]: Downloading https://files.pythonhosted.org/packages/3a/0c/1388ff81c264234afb3acdbbd03a9199103c7eaacb8019a9a78e10cfa139/python_bunny_mq-0.1.5.tar.gz
+[2024-04-10 00:50:30] INFO root fetch - processPackages [PyTDC]: Downloading https://files.pythonhosted.org/packages/d7/15/7400efe296bba51f94688da7011bbf9dd679b2edee3a5e98ea9d904e84f8/PyTDC-0.4.7.tar.gz
+[2024-04-10 00:50:30] INFO root fetch - processPackages [python-bunny-mq]: executing diffoscope
+[2024-04-10 00:50:30] INFO root fetch - processPackages [python-bunny-mq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_bunny_mq-0.1.4.tar.gz tmp/python_bunny_mq-0.1.5.tar.gz --markdown 20240410/p/python-bunny-mq/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-10 00:50:30] INFO root fetch - processPackages [gimmetool]: Downloading https://files.pythonhosted.org/packages/e3/a0/c5a7a306c6304f3980989689d4e16540bab2ca7ee5be8ce11ad13dcbdb21/gimmetool-0.1.6.tar.gz
+[2024-04-10 00:50:30] INFO root fetch - processPackages [neon-skill-spelling]: Downloading https://files.pythonhosted.org/packages/5d/1d/74ed092919e9fe4f1224ebd56cd86a43766a89b2d562de04cc3712ba036d/neon-skill-spelling-1.1.0.tar.gz
+[2024-04-10 00:50:30] INFO root fetch - processPackages [PyTDC]: executing diffoscope
+[2024-04-10 00:50:30] INFO root fetch - processPackages [PyTDC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyTDC-0.4.6.tar.gz tmp/PyTDC-0.4.7.tar.gz --markdown 20240410/P/PyTDC/0.4.6-0.4.7/README.md --exclude *.pyd
+[2024-04-10 00:50:30] INFO root fetch - processPackages [gimmetool]: executing diffoscope
+[2024-04-10 00:50:30] INFO root fetch - processPackages [gimmetool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gimmetool-0.1.5.tar.gz tmp/gimmetool-0.1.6.tar.gz --markdown 20240410/g/gimmetool/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-10 00:50:30] INFO root fetch - processPackages [neon-skill-spelling]: executing diffoscope
+[2024-04-10 00:50:30] INFO root fetch - processPackages [neon-skill-spelling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-skill-spelling-1.0.1a2.tar.gz tmp/neon-skill-spelling-1.1.0.tar.gz --markdown 20240410/n/neon-skill-spelling/1.0.1a2-1.1.0/README.md --exclude *.pyd
+[2024-04-10 00:50:30] INFO root fetch - processPackages [cdk-simplewebsite-deploy]: Downloading https://files.pythonhosted.org/packages/a5/35/77391fb27067de60169cb289bd2577928fdd4a47f364673fe38812583ee9/cdk-simplewebsite-deploy-2.0.9.tar.gz
+[2024-04-10 00:50:30] INFO root fetch - processPackages [cpg-workflows]: Downloading https://files.pythonhosted.org/packages/0d/82/bd0cb905c3b340f5cd9b1eb95911c5444e8ba0f6369afc3c60336fed7e14/cpg-workflows-1.9.1.tar.gz
+[2024-04-10 00:50:30] INFO root fetch - processPackages [cdk-simplewebsite-deploy]: executing diffoscope
+[2024-04-10 00:50:30] INFO root fetch - processPackages [cdk-simplewebsite-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-simplewebsite-deploy-2.0.81.tar.gz tmp/cdk-simplewebsite-deploy-2.0.9.tar.gz --markdown 20240410/c/cdk-simplewebsite-deploy/2.0.81-2.0.9/README.md --exclude *.pyd
+[2024-04-10 00:50:30] INFO root fetch - processPackages [cpg-workflows]: executing diffoscope
+[2024-04-10 00:50:30] INFO root fetch - processPackages [cpg-workflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpg-workflows-1.9.0.tar.gz tmp/cpg-workflows-1.9.1.tar.gz --markdown 20240410/c/cpg-workflows/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-04-10 00:50:31] INFO root fetch - processPackages [python-bunny-mq]: Remove: archive file [/home/abi/fetcher/tmp/python_bunny_mq-0.1.4.tar.gz]
+[2024-04-10 00:50:31] INFO root fetch - processPackages [python-bunny-mq]: Remove: archive file [/home/abi/fetcher/tmp/python_bunny_mq-0.1.5.tar.gz]
+[2024-04-10 00:50:31] INFO root fetch - main [MainThread]: End processing [python-bunny-mq]: success
+[2024-04-10 00:50:31] INFO root fetch - processPackages [gimmetool]: Remove: archive file [/home/abi/fetcher/tmp/gimmetool-0.1.5.tar.gz]
+[2024-04-10 00:50:31] INFO root fetch - processPackages [gimmetool]: Remove: archive file [/home/abi/fetcher/tmp/gimmetool-0.1.6.tar.gz]
+[2024-04-10 00:50:31] INFO root fetch - main [MainThread]: End processing [gimmetool]: success
+[2024-04-10 00:50:31] INFO root fetch - processPackages [neon-skill-spelling]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-spelling-1.0.1a2.tar.gz]
+[2024-04-10 00:50:31] INFO root fetch - processPackages [neon-skill-spelling]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-spelling-1.1.0.tar.gz]
+[2024-04-10 00:50:31] INFO root fetch - main [MainThread]: End processing [neon-skill-spelling]: success
+[2024-04-10 00:50:31] INFO root fetch - processPackages [PyTDC]: Remove: archive file [/home/abi/fetcher/tmp/PyTDC-0.4.6.tar.gz]
+[2024-04-10 00:50:31] INFO root fetch - processPackages [PyTDC]: Remove: archive file [/home/abi/fetcher/tmp/PyTDC-0.4.7.tar.gz]
+[2024-04-10 00:50:31] INFO root fetch - main [MainThread]: End processing [PyTDC]: success
+[2024-04-10 00:50:31] INFO root fetch - processPackages [cdk-simplewebsite-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-simplewebsite-deploy-2.0.81.tar.gz]
+[2024-04-10 00:50:31] INFO root fetch - processPackages [cdk-simplewebsite-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-simplewebsite-deploy-2.0.9.tar.gz]
+[2024-04-10 00:50:31] INFO root fetch - main [MainThread]: End processing [cdk-simplewebsite-deploy]: success
+[2024-04-10 00:50:31] INFO root fetch - processPackages [cpg-workflows]: Remove: archive file [/home/abi/fetcher/tmp/cpg-workflows-1.9.0.tar.gz]
+[2024-04-10 00:50:31] INFO root fetch - processPackages [cpg-workflows]: Remove: archive file [/home/abi/fetcher/tmp/cpg-workflows-1.9.1.tar.gz]
+[2024-04-10 00:50:31] INFO root fetch - main [MainThread]: End processing [cpg-workflows]: success
+[2024-04-10 00:50:31] INFO root fetch - main [MainThread]: Store serial: [22691531]

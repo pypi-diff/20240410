@@ -1178,3 +1178,24 @@
 [2024-04-10 00:41:48] INFO root fetch - processPackages [peach-reactives]: Remove: archive file [/home/abi/fetcher/tmp/peach-reactives-0.0.5.tar.gz]
 [2024-04-10 00:41:48] INFO root fetch - main [MainThread]: End processing [peach-reactives]: success
 [2024-04-10 00:41:48] INFO root fetch - main [MainThread]: Store serial: [22691489]
+[2024-04-10 00:43:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22691489]
+[2024-04-10 00:43:57] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-10 00:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lytekit
+[2024-04-10 00:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vectara
+[2024-04-10 00:43:57] INFO root fetch - processPackages [vectara]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-10 00:43:57] INFO root fetch - processPackages [lytekit]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-10 00:43:57] INFO root fetch - processPackages [lytekit]: Downloading https://files.pythonhosted.org/packages/48/cd/6a788f7e7d3a2c6402e6960b97f9026ea7e521c6e6245a58cfb4fc6efb4f/lytekit-0.9.0.tar.gz
+[2024-04-10 00:43:57] INFO root fetch - processPackages [vectara]: Downloading https://files.pythonhosted.org/packages/b1/6a/4bb6b1ad2c942445b1a781aa6bd225e8693a7959e2518465638889619170/vectara-0.0.1.tar.gz
+[2024-04-10 00:43:58] INFO root fetch - processPackages [lytekit]: Downloading https://files.pythonhosted.org/packages/be/b6/90e266a6c058766bec4ce41653490f4b504a5be53aea11f1ff7873bb8d07/lytekit-0.9.1.tar.gz
+[2024-04-10 00:43:58] INFO root fetch - processPackages [vectara]: Downloading https://files.pythonhosted.org/packages/53/3d/bf4540d6e33ce87cbf72857908bc5d6aeb53b16d9cf10c88ac5893eedf6a/vectara-0.0.2.tar.gz
+[2024-04-10 00:43:58] INFO root fetch - processPackages [lytekit]: executing diffoscope
+[2024-04-10 00:43:58] INFO root fetch - processPackages [lytekit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lytekit-0.9.0.tar.gz tmp/lytekit-0.9.1.tar.gz --markdown 20240410/l/lytekit/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-10 00:43:58] INFO root fetch - processPackages [vectara]: executing diffoscope
+[2024-04-10 00:43:58] INFO root fetch - processPackages [vectara]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vectara-0.0.1.tar.gz tmp/vectara-0.0.2.tar.gz --markdown 20240410/v/vectara/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-10 00:43:59] INFO root fetch - processPackages [vectara]: Remove: archive file [/home/abi/fetcher/tmp/vectara-0.0.1.tar.gz]
+[2024-04-10 00:43:59] INFO root fetch - processPackages [vectara]: Remove: archive file [/home/abi/fetcher/tmp/vectara-0.0.2.tar.gz]
+[2024-04-10 00:43:59] INFO root fetch - main [MainThread]: End processing [vectara]: success
+[2024-04-10 00:43:59] INFO root fetch - processPackages [lytekit]: Remove: archive file [/home/abi/fetcher/tmp/lytekit-0.9.0.tar.gz]
+[2024-04-10 00:43:59] INFO root fetch - processPackages [lytekit]: Remove: archive file [/home/abi/fetcher/tmp/lytekit-0.9.1.tar.gz]
+[2024-04-10 00:43:59] INFO root fetch - main [MainThread]: End processing [lytekit]: success
+[2024-04-10 00:43:59] INFO root fetch - main [MainThread]: Store serial: [22691495]

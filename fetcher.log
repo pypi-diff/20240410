@@ -1588,3 +1588,59 @@
 [2024-04-10 01:03:43] INFO root fetch - processPackages [modin]: Remove: archive file [/home/abi/fetcher/tmp/modin-0.9.1.tar.gz]
 [2024-04-10 01:03:43] INFO root fetch - main [MainThread]: End processing [modin]: success
 [2024-04-10 01:03:43] INFO root fetch - main [MainThread]: Store serial: [22691713]
+[2024-04-10 01:05:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22691713]
+[2024-04-10 01:05:52] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-10 01:05:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: poetry-kit
+[2024-04-10 01:05:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sourmash
+[2024-04-10 01:05:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tmnt
+[2024-04-10 01:05:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: poetry-kit
+[2024-04-10 01:05:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: uhw
+[2024-04-10 01:05:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flwr-nightly
+[2024-04-10 01:05:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: poetry-kit
+[2024-04-10 01:05:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: choclo
+[2024-04-10 01:05:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-formsets-inside-form
+[2024-04-10 01:05:52] WARNING root fetch - processPackages [poetry-kit]: Skipping, unable to determine old version
+[2024-04-10 01:05:52] INFO root fetch - main [MainThread]: End processing [poetry-kit] error
+[2024-04-10 01:05:52] WARNING root fetch - processPackages [poetry-kit]: Skipping, unable to determine old version
+[2024-04-10 01:05:52] INFO root fetch - main [MainThread]: End processing [poetry-kit] error
+[2024-04-10 01:05:52] WARNING root fetch - processPackages [poetry-kit]: Skipping, unable to determine old version
+[2024-04-10 01:05:52] INFO root fetch - main [MainThread]: End processing [poetry-kit] error
+[2024-04-10 01:05:52] INFO root fetch - processPackages [tmnt]: New version: [0.7.4b20231227] Old Version: [0.7.47b20240408]
+[2024-04-10 01:05:52] INFO root fetch - processPackages [choclo]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-10 01:05:52] INFO root fetch - processPackages [uhw]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-10 01:05:52] INFO root fetch - processPackages [sourmash]: New version: [4.8.8] Old Version: [4.8.7]
+[2024-04-10 01:05:52] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/03/76/5c305d42947c47d4dd8a223ebc0c21af48bb3693b8dff8d3d240fd9856c0/tmnt-0.7.47b20240408.tar.gz
+[2024-04-10 01:05:52] WARNING root fetch - processPackages [django-formsets-inside-form]: Skipping, unable to determine old version
+[2024-04-10 01:05:52] INFO root fetch - main [MainThread]: End processing [django-formsets-inside-form] error
+[2024-04-10 01:05:52] INFO root fetch - processPackages [flwr-nightly]: New version: [1.9.0.dev20240409] Old Version: [1.9.0.dev20240406]
+[2024-04-10 01:05:52] INFO root fetch - processPackages [choclo]: Downloading https://files.pythonhosted.org/packages/9f/2b/965c5176143ecb2ab47aa4beea648b8c592d7e07f388ed93ff6a489a744b/choclo-0.1.0.tar.gz
+[2024-04-10 01:05:52] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/ea/3a/0cd54af36ea52550ab5b0361342ea6cbae9843227af8a4fe56d32695a1f3/tmnt-0.7.4b20231227.tar.gz
+[2024-04-10 01:05:52] INFO root fetch - processPackages [uhw]: Downloading https://files.pythonhosted.org/packages/62/16/cfddc0a33e20fd6a2d4d16c11146307df61af9a35a5a854fa03c03afcb5e/uhw-0.0.1.tar.gz
+[2024-04-10 01:05:52] INFO root fetch - processPackages [sourmash]: Downloading https://files.pythonhosted.org/packages/7c/02/6dde6357f0ffa47cc1ca00367f5834816575ed301f0c6075a06cdb961e99/sourmash-4.8.7.tar.gz
+[2024-04-10 01:05:52] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/3b/6b/19e41a8ea43330feb2c54948fd553193dba3a677a6d39fd8a84e9ef4cfde/flwr_nightly-1.9.0.dev20240406.tar.gz
+[2024-04-10 01:05:52] WARNING root fetch - processPackages [sourmash]: Skipping package: exceeds size limit 13281122>=10485760
+[2024-04-10 01:05:52] INFO root fetch - main [MainThread]: End processing [sourmash] error
+[2024-04-10 01:05:52] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2024-04-10 01:05:52] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.47b20240408.tar.gz tmp/tmnt-0.7.4b20231227.tar.gz --markdown 20240410/t/tmnt/0.7.47b20240408-0.7.4b20231227/README.md --exclude *.pyd
+[2024-04-10 01:05:53] INFO root fetch - processPackages [uhw]: Downloading https://files.pythonhosted.org/packages/23/4b/b360742a345705cf85c496e724cc56b6fb9c69ac5f8175439628bc7847c3/uhw-0.0.2.tar.gz
+[2024-04-10 01:05:53] INFO root fetch - processPackages [choclo]: Downloading https://files.pythonhosted.org/packages/79/1c/0a8b589532c6d371cc172030e6691e86c3f8737093a66095e66b32bcf746/choclo-0.2.0.tar.gz
+[2024-04-10 01:05:53] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/10/ab/e97c8f428ecdd04df46aa42e56e8f4abdd83de5316feaa1a72fe217ad3cc/flwr_nightly-1.9.0.dev20240409.tar.gz
+[2024-04-10 01:05:53] INFO root fetch - processPackages [uhw]: executing diffoscope
+[2024-04-10 01:05:53] INFO root fetch - processPackages [uhw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uhw-0.0.1.tar.gz tmp/uhw-0.0.2.tar.gz --markdown 20240410/u/uhw/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-10 01:05:53] INFO root fetch - processPackages [choclo]: executing diffoscope
+[2024-04-10 01:05:53] INFO root fetch - processPackages [choclo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/choclo-0.1.0.tar.gz tmp/choclo-0.2.0.tar.gz --markdown 20240410/c/choclo/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-04-10 01:05:53] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2024-04-10 01:05:53] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.9.0.dev20240406.tar.gz tmp/flwr_nightly-1.9.0.dev20240409.tar.gz --markdown 20240410/f/flwr-nightly/1.9.0.dev20240406-1.9.0.dev20240409/README.md --exclude *.pyd
+[2024-04-10 01:05:53] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.47b20240408.tar.gz]
+[2024-04-10 01:05:53] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.4b20231227.tar.gz]
+[2024-04-10 01:05:53] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2024-04-10 01:05:53] INFO root fetch - processPackages [uhw]: Remove: archive file [/home/abi/fetcher/tmp/uhw-0.0.1.tar.gz]
+[2024-04-10 01:05:53] INFO root fetch - processPackages [uhw]: Remove: archive file [/home/abi/fetcher/tmp/uhw-0.0.2.tar.gz]
+[2024-04-10 01:05:53] INFO root fetch - main [MainThread]: End processing [uhw]: success
+[2024-04-10 01:05:53] INFO root fetch - processPackages [choclo]: Remove: archive file [/home/abi/fetcher/tmp/choclo-0.1.0.tar.gz]
+[2024-04-10 01:05:53] INFO root fetch - processPackages [choclo]: Remove: archive file [/home/abi/fetcher/tmp/choclo-0.2.0.tar.gz]
+[2024-04-10 01:05:53] INFO root fetch - main [MainThread]: End processing [choclo]: success
+[2024-04-10 01:05:54] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240406.tar.gz]
+[2024-04-10 01:05:54] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240409.tar.gz]
+[2024-04-10 01:05:54] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2024-04-10 01:05:54] INFO root fetch - main [MainThread]: Store serial: [22691749]

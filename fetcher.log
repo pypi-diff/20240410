@@ -2154,3 +2154,38 @@
 [2024-04-10 01:38:14] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.0.1b9.tar.gz]
 [2024-04-10 01:38:14] INFO root fetch - main [MainThread]: End processing [smaht-submitr]: success
 [2024-04-10 01:38:14] INFO root fetch - main [MainThread]: Store serial: [22691933]
+[2024-04-10 01:40:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22691933]
+[2024-04-10 01:40:23] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-10 01:40:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyTDC
+[2024-04-10 01:40:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mov-cli-youtube
+[2024-04-10 01:40:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: coastsat-package
+[2024-04-10 01:40:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: smaht-submitr
+[2024-04-10 01:40:23] INFO root fetch - processPackages [PyTDC]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-10 01:40:23] INFO root fetch - processPackages [smaht-submitr]: New version: [0.8.0.1b9] Old Version: [0.8.0.1b8]
+[2024-04-10 01:40:23] INFO root fetch - processPackages [PyTDC]: Downloading https://files.pythonhosted.org/packages/35/ba/72250ebc371b0429e67c15d022593bd8804f2132bf1e0d8ef9946e8e65e5/PyTDC-0.4.8.tar.gz
+[2024-04-10 01:40:23] INFO root fetch - processPackages [mov-cli-youtube]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-04-10 01:40:23] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/79/ad/69a49972361f3dd7698be4e52572630203c3c66d2562b3864e2814efd485/smaht_submitr-0.8.0.1b8.tar.gz
+[2024-04-10 01:40:23] INFO root fetch - processPackages [coastsat-package]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-10 01:40:23] INFO root fetch - processPackages [PyTDC]: Downloading https://files.pythonhosted.org/packages/99/89/920e17b7b936051eb7b7f1db9ca7858d7c8830b0a9452b8a2a787f4a2828/PyTDC-0.4.9.tar.gz
+[2024-04-10 01:40:23] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/a9/b9/54c39138072c920a1d8d5107253bf98513c92a68aae12fec8962cedc0dd9/smaht_submitr-0.8.0.1b9.tar.gz
+[2024-04-10 01:40:23] INFO root fetch - processPackages [mov-cli-youtube]: Downloading https://files.pythonhosted.org/packages/c2/31/3716171b28810bfc2dceef04bd7af4aa8ef526ad3dc0ad2bf57bfde7d591/mov-cli-youtube-1.1.1.tar.gz
+[2024-04-10 01:40:23] INFO root fetch - processPackages [coastsat-package]: Downloading https://files.pythonhosted.org/packages/c5/b9/bbe0f91e773f2ff00b4883939c25278cb13099ac01d05593e3bae87ad82c/coastsat_package-0.1.8.tar.gz
+[2024-04-10 01:40:23] INFO root fetch - processPackages [PyTDC]: executing diffoscope
+[2024-04-10 01:40:23] INFO root fetch - processPackages [PyTDC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyTDC-0.4.8.tar.gz tmp/PyTDC-0.4.9.tar.gz --markdown 20240410/P/PyTDC/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-04-10 01:40:23] WARNING root fetch - processPackages [coastsat-package]: Skipping package: exceeds size limit 32859514>=10485760
+[2024-04-10 01:40:23] INFO root fetch - main [MainThread]: End processing [coastsat-package] error
+[2024-04-10 01:40:23] INFO root fetch - processPackages [smaht-submitr]: executing diffoscope
+[2024-04-10 01:40:23] INFO root fetch - processPackages [smaht-submitr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smaht_submitr-0.8.0.1b8.tar.gz tmp/smaht_submitr-0.8.0.1b9.tar.gz --markdown 20240410/s/smaht-submitr/0.8.0.1b8-0.8.0.1b9/README.md --exclude *.pyd
+[2024-04-10 01:40:23] INFO root fetch - processPackages [mov-cli-youtube]: Downloading https://files.pythonhosted.org/packages/7a/77/e975c319f1a6f815239c353ea25dda155069f8d6e1347805245149502c87/mov-cli-youtube-1.1.2.tar.gz
+[2024-04-10 01:40:24] INFO root fetch - processPackages [mov-cli-youtube]: executing diffoscope
+[2024-04-10 01:40:24] INFO root fetch - processPackages [mov-cli-youtube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mov-cli-youtube-1.1.1.tar.gz tmp/mov-cli-youtube-1.1.2.tar.gz --markdown 20240410/m/mov-cli-youtube/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-04-10 01:40:24] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.0.1b8.tar.gz]
+[2024-04-10 01:40:24] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.0.1b9.tar.gz]
+[2024-04-10 01:40:24] INFO root fetch - main [MainThread]: End processing [smaht-submitr]: success
+[2024-04-10 01:40:24] INFO root fetch - processPackages [PyTDC]: Remove: archive file [/home/abi/fetcher/tmp/PyTDC-0.4.8.tar.gz]
+[2024-04-10 01:40:24] INFO root fetch - processPackages [PyTDC]: Remove: archive file [/home/abi/fetcher/tmp/PyTDC-0.4.9.tar.gz]
+[2024-04-10 01:40:24] INFO root fetch - main [MainThread]: End processing [PyTDC]: success
+[2024-04-10 01:40:24] INFO root fetch - processPackages [mov-cli-youtube]: Remove: archive file [/home/abi/fetcher/tmp/mov-cli-youtube-1.1.1.tar.gz]
+[2024-04-10 01:40:24] INFO root fetch - processPackages [mov-cli-youtube]: Remove: archive file [/home/abi/fetcher/tmp/mov-cli-youtube-1.1.2.tar.gz]
+[2024-04-10 01:40:24] INFO root fetch - main [MainThread]: End processing [mov-cli-youtube]: success
+[2024-04-10 01:40:24] INFO root fetch - main [MainThread]: Store serial: [22691944]

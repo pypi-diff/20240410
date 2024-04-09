@@ -2067,3 +2067,60 @@
 [2024-04-10 01:33:47] INFO root fetch - processPackages [cheroot]: Remove: archive file [/home/abi/fetcher/tmp/cheroot-9.0.0.tar.gz]
 [2024-04-10 01:33:47] INFO root fetch - main [MainThread]: End processing [cheroot]: success
 [2024-04-10 01:33:47] INFO root fetch - main [MainThread]: Store serial: [22691901]
+[2024-04-10 01:35:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22691901]
+[2024-04-10 01:35:56] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-10 01:35:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mov-cli-test
+[2024-04-10 01:35:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stringx
+[2024-04-10 01:35:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langchain-groq
+[2024-04-10 01:35:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gimmetool
+[2024-04-10 01:35:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: llm-structured-output
+[2024-04-10 01:35:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yt-dlp
+[2024-04-10 01:35:56] INFO root fetch - processPackages [stringx]: New version: [0.7.3] Old Version: [0.7.1]
+[2024-04-10 01:35:56] INFO root fetch - processPackages [gimmetool]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-10 01:35:56] INFO root fetch - processPackages [mov-cli-test]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-10 01:35:56] INFO root fetch - processPackages [yt-dlp]: New version: [2024.4.9] Old Version: [2024.4.8.232708.dev0]
+[2024-04-10 01:35:56] INFO root fetch - processPackages [langchain-groq]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-10 01:35:56] INFO root fetch - processPackages [llm-structured-output]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-10 01:35:56] INFO root fetch - processPackages [stringx]: Downloading https://files.pythonhosted.org/packages/84/c0/e582077d7479e9a392e02196767ef3b584da362d30c68ebb798185f4e54b/stringx-0.7.1.tar.gz
+[2024-04-10 01:35:56] INFO root fetch - processPackages [gimmetool]: Downloading https://files.pythonhosted.org/packages/5d/ed/11eeb593501f4c4eae813d61a25ae75921fc3b63d0ef9a86b8376d4306f0/gimmetool-0.1.8.tar.gz
+[2024-04-10 01:35:56] INFO root fetch - processPackages [mov-cli-test]: Downloading https://files.pythonhosted.org/packages/f8/6d/0ba8565152a76f8537a64cf1359d2fdfe35c0878d28c233155597a8691ba/mov-cli-test-1.1.0.tar.gz
+[2024-04-10 01:35:56] INFO root fetch - processPackages [yt-dlp]: Downloading https://files.pythonhosted.org/packages/0e/87/ef893f0ad8ace6cb162e232aee31d3c2f988ff967ceff7ef97b284b8e697/yt_dlp-2024.4.8.232708.dev0.tar.gz
+[2024-04-10 01:35:57] INFO root fetch - processPackages [gimmetool]: Downloading https://files.pythonhosted.org/packages/db/c8/235b3a59fc40f652af7200c1f4fbde3d2c45a1ceda688f54aae8623d5910/gimmetool-0.1.9.tar.gz
+[2024-04-10 01:35:57] INFO root fetch - processPackages [langchain-groq]: Downloading https://files.pythonhosted.org/packages/63/49/a3a64862b3a3ab653c01ec2556effa6584dab32466a836a95cb3eb72a3ac/langchain_groq-0.1.0.tar.gz
+[2024-04-10 01:35:57] INFO root fetch - processPackages [llm-structured-output]: Downloading https://files.pythonhosted.org/packages/20/5b/52f15f47a246292a7e3f51bd0281a16dfc5d08cafe7c485f299b1ed7fc7e/llm_structured_output-0.0.1.tar.gz
+[2024-04-10 01:35:57] INFO root fetch - processPackages [mov-cli-test]: Downloading https://files.pythonhosted.org/packages/b7/60/1b60a99ef16cc3a1a4d6c92c7ee3a8ac88bc1d09a9552db21a8c5e4c6814/mov-cli-test-1.1.1.tar.gz
+[2024-04-10 01:35:57] INFO root fetch - processPackages [stringx]: Downloading https://files.pythonhosted.org/packages/da/cf/f94a1e726fb2808f1a45844c4ba2c433f3f7b419fffa789f5d5be9ab15f4/stringx-0.7.3.tar.gz
+[2024-04-10 01:35:57] INFO root fetch - processPackages [gimmetool]: executing diffoscope
+[2024-04-10 01:35:57] INFO root fetch - processPackages [gimmetool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gimmetool-0.1.8.tar.gz tmp/gimmetool-0.1.9.tar.gz --markdown 20240410/g/gimmetool/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-10 01:35:57] INFO root fetch - processPackages [mov-cli-test]: executing diffoscope
+[2024-04-10 01:35:57] INFO root fetch - processPackages [mov-cli-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mov-cli-test-1.1.0.tar.gz tmp/mov-cli-test-1.1.1.tar.gz --markdown 20240410/m/mov-cli-test/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-04-10 01:35:57] INFO root fetch - processPackages [stringx]: executing diffoscope
+[2024-04-10 01:35:57] INFO root fetch - processPackages [stringx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stringx-0.7.1.tar.gz tmp/stringx-0.7.3.tar.gz --markdown 20240410/s/stringx/0.7.1-0.7.3/README.md --exclude *.pyd
+[2024-04-10 01:35:57] INFO root fetch - processPackages [llm-structured-output]: Downloading https://files.pythonhosted.org/packages/bb/fb/b0b87c8ec3a6c820e8a7cb9ba03a7dd6b8a91fba8ad46ecac46694beba4e/llm_structured_output-0.0.2.tar.gz
+[2024-04-10 01:35:57] INFO root fetch - processPackages [langchain-groq]: Downloading https://files.pythonhosted.org/packages/32/30/6c92705721fbda03730c10064d885d07a295189cd385cc318cd5d33f0928/langchain_groq-0.1.1.tar.gz
+[2024-04-10 01:35:57] INFO root fetch - processPackages [yt-dlp]: Downloading https://files.pythonhosted.org/packages/52/85/af44c30f0cc5d94ebbce365f8ee40eea6e9d7a1d26d50f16e3766ca8410c/yt_dlp-2024.4.9.tar.gz
+[2024-04-10 01:35:57] INFO root fetch - processPackages [llm-structured-output]: executing diffoscope
+[2024-04-10 01:35:57] INFO root fetch - processPackages [llm-structured-output]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_structured_output-0.0.1.tar.gz tmp/llm_structured_output-0.0.2.tar.gz --markdown 20240410/l/llm-structured-output/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-10 01:35:57] INFO root fetch - processPackages [langchain-groq]: executing diffoscope
+[2024-04-10 01:35:57] INFO root fetch - processPackages [langchain-groq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_groq-0.1.0.tar.gz tmp/langchain_groq-0.1.1.tar.gz --markdown 20240410/l/langchain-groq/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-10 01:35:57] INFO root fetch - processPackages [gimmetool]: Remove: archive file [/home/abi/fetcher/tmp/gimmetool-0.1.8.tar.gz]
+[2024-04-10 01:35:57] INFO root fetch - processPackages [gimmetool]: Remove: archive file [/home/abi/fetcher/tmp/gimmetool-0.1.9.tar.gz]
+[2024-04-10 01:35:57] INFO root fetch - main [MainThread]: End processing [gimmetool]: success
+[2024-04-10 01:35:57] INFO root fetch - processPackages [yt-dlp]: executing diffoscope
+[2024-04-10 01:35:57] INFO root fetch - processPackages [yt-dlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yt_dlp-2024.4.8.232708.dev0.tar.gz tmp/yt_dlp-2024.4.9.tar.gz --markdown 20240410/y/yt-dlp/2024.4.8.232708.dev0-2024.4.9/README.md --exclude *.pyd
+[2024-04-10 01:35:57] INFO root fetch - processPackages [mov-cli-test]: Remove: archive file [/home/abi/fetcher/tmp/mov-cli-test-1.1.0.tar.gz]
+[2024-04-10 01:35:57] INFO root fetch - processPackages [mov-cli-test]: Remove: archive file [/home/abi/fetcher/tmp/mov-cli-test-1.1.1.tar.gz]
+[2024-04-10 01:35:57] INFO root fetch - main [MainThread]: End processing [mov-cli-test]: success
+[2024-04-10 01:35:57] INFO root fetch - processPackages [stringx]: Remove: archive file [/home/abi/fetcher/tmp/stringx-0.7.1.tar.gz]
+[2024-04-10 01:35:57] INFO root fetch - processPackages [stringx]: Remove: archive file [/home/abi/fetcher/tmp/stringx-0.7.3.tar.gz]
+[2024-04-10 01:35:57] INFO root fetch - main [MainThread]: End processing [stringx]: success
+[2024-04-10 01:35:58] INFO root fetch - processPackages [llm-structured-output]: Remove: archive file [/home/abi/fetcher/tmp/llm_structured_output-0.0.1.tar.gz]
+[2024-04-10 01:35:58] INFO root fetch - processPackages [llm-structured-output]: Remove: archive file [/home/abi/fetcher/tmp/llm_structured_output-0.0.2.tar.gz]
+[2024-04-10 01:35:58] INFO root fetch - main [MainThread]: End processing [llm-structured-output]: success
+[2024-04-10 01:35:58] INFO root fetch - processPackages [langchain-groq]: Remove: archive file [/home/abi/fetcher/tmp/langchain_groq-0.1.0.tar.gz]
+[2024-04-10 01:35:58] INFO root fetch - processPackages [langchain-groq]: Remove: archive file [/home/abi/fetcher/tmp/langchain_groq-0.1.1.tar.gz]
+[2024-04-10 01:35:58] INFO root fetch - main [MainThread]: End processing [langchain-groq]: success
+[2024-04-10 01:36:03] INFO root fetch - processPackages [yt-dlp]: Remove: archive file [/home/abi/fetcher/tmp/yt_dlp-2024.4.8.232708.dev0.tar.gz]
+[2024-04-10 01:36:03] INFO root fetch - processPackages [yt-dlp]: Remove: archive file [/home/abi/fetcher/tmp/yt_dlp-2024.4.9.tar.gz]
+[2024-04-10 01:36:03] INFO root fetch - main [MainThread]: End processing [yt-dlp]: success
+[2024-04-10 01:36:03] INFO root fetch - main [MainThread]: Store serial: [22691921]

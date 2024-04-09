@@ -823,3 +823,29 @@
 [2024-04-10 00:22:02] INFO root fetch - processPackages [pyventus]: Remove: archive file [/home/abi/fetcher/tmp/pyventus-0.5.0.tar.gz]
 [2024-04-10 00:22:02] INFO root fetch - main [MainThread]: End processing [pyventus]: success
 [2024-04-10 00:22:02] INFO root fetch - main [MainThread]: Store serial: [22691294]
+[2024-04-10 00:24:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22691294]
+[2024-04-10 00:24:11] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-10 00:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: strongmind-deployment
+[2024-04-10 00:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dlatk
+[2024-04-10 00:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyaligner
+[2024-04-10 00:24:11] INFO root fetch - processPackages [pyaligner]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-10 00:24:11] INFO root fetch - processPackages [strongmind-deployment]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-10 00:24:11] INFO root fetch - processPackages [dlatk]: New version: [1.3.15] Old Version: [1.3.1]
+[2024-04-10 00:24:11] INFO root fetch - processPackages [pyaligner]: Downloading https://files.pythonhosted.org/packages/68/d5/2042860f26f9e06517f5b9a3ce3eb774a0fdd429aa34ea421047b3afb821/pyaligner-0.1.2.tar.gz
+[2024-04-10 00:24:11] INFO root fetch - processPackages [dlatk]: Downloading https://files.pythonhosted.org/packages/d0/fd/68b1dc0231c42499ae686712a5d8472e7271875bd873f0deac6581f9bf43/dlatk-1.3.1.tar.gz
+[2024-04-10 00:24:11] INFO root fetch - processPackages [strongmind-deployment]: Downloading https://files.pythonhosted.org/packages/de/69/7affef034a8cc439299b7c10392fa3dd56d032f014227a41862459b148e4/strongmind_deployment-1.1.8-py3-none-any.whl
+[2024-04-10 00:24:11] WARNING root fetch - processPackages [dlatk]: Skipping package: exceeds size limit 35517073>=10485760
+[2024-04-10 00:24:11] INFO root fetch - main [MainThread]: End processing [dlatk] error
+[2024-04-10 00:24:11] INFO root fetch - processPackages [strongmind-deployment]: Downloading https://files.pythonhosted.org/packages/5b/ba/dfff734cecbb562528e00f018bdcb29f003363634c8751df68b5e0b372d7/strongmind_deployment-1.1.9-py3-none-any.whl
+[2024-04-10 00:24:12] INFO root fetch - processPackages [pyaligner]: Downloading https://files.pythonhosted.org/packages/12/12/4a2757f65dfe63b1ce4410b8b93ad1e3dca8f51392d543c06d814825fada/pyaligner-0.1.3.tar.gz
+[2024-04-10 00:24:12] INFO root fetch - processPackages [strongmind-deployment]: executing diffoscope
+[2024-04-10 00:24:12] INFO root fetch - processPackages [strongmind-deployment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strongmind_deployment-1.1.8-py3-none-any.whl.zip tmp/strongmind_deployment-1.1.9-py3-none-any.whl.zip --markdown 20240410/s/strongmind-deployment/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-04-10 00:24:12] INFO root fetch - processPackages [pyaligner]: executing diffoscope
+[2024-04-10 00:24:12] INFO root fetch - processPackages [pyaligner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyaligner-0.1.2.tar.gz tmp/pyaligner-0.1.3.tar.gz --markdown 20240410/p/pyaligner/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-10 00:24:12] INFO root fetch - processPackages [strongmind-deployment]: Remove: archive file [/home/abi/fetcher/tmp/strongmind_deployment-1.1.8-py3-none-any.whl.zip]
+[2024-04-10 00:24:12] INFO root fetch - processPackages [strongmind-deployment]: Remove: archive file [/home/abi/fetcher/tmp/strongmind_deployment-1.1.9-py3-none-any.whl.zip]
+[2024-04-10 00:24:12] INFO root fetch - main [MainThread]: End processing [strongmind-deployment]: success
+[2024-04-10 00:24:12] INFO root fetch - processPackages [pyaligner]: Remove: archive file [/home/abi/fetcher/tmp/pyaligner-0.1.2.tar.gz]
+[2024-04-10 00:24:12] INFO root fetch - processPackages [pyaligner]: Remove: archive file [/home/abi/fetcher/tmp/pyaligner-0.1.3.tar.gz]
+[2024-04-10 00:24:12] INFO root fetch - main [MainThread]: End processing [pyaligner]: success
+[2024-04-10 00:24:12] INFO root fetch - main [MainThread]: Store serial: [22691301]

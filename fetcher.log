@@ -1972,3 +1972,27 @@
 [2024-04-10 01:25:10] INFO root fetch - processPackages [azure-ai-formrecognizer]: Remove: archive file [/home/abi/fetcher/tmp/azure-ai-formrecognizer-3.3.3.tar.gz]
 [2024-04-10 01:25:10] INFO root fetch - main [MainThread]: End processing [azure-ai-formrecognizer]: success
 [2024-04-10 01:25:10] INFO root fetch - main [MainThread]: Store serial: [22691867]
+[2024-04-10 01:27:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22691867]
+[2024-04-10 01:27:19] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-10 01:27:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: psyke
+[2024-04-10 01:27:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kiwi-booster
+[2024-04-10 01:27:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lookout-cli
+[2024-04-10 01:27:19] INFO root fetch - processPackages [kiwi-booster]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-10 01:27:19] WARNING root fetch - processPackages [lookout-cli]: Skipping, unable to determine old version
+[2024-04-10 01:27:19] INFO root fetch - main [MainThread]: End processing [lookout-cli] error
+[2024-04-10 01:27:19] INFO root fetch - processPackages [psyke]: New version: [0.8.2] Old Version: [0.8.1.dev2]
+[2024-04-10 01:27:19] INFO root fetch - processPackages [kiwi-booster]: Downloading https://files.pythonhosted.org/packages/e3/96/904b7f594654390998f01d2f4d3384a540f888d1c785008a5466bf938985/kiwi_booster-0.3.8.tar.gz
+[2024-04-10 01:27:19] INFO root fetch - processPackages [psyke]: Downloading https://files.pythonhosted.org/packages/82/bd/1a055528135334e14e9ab9a01e7402452ea8bab68dafc6da6b1d6cb3d8ec/psyke-0.8.1.dev2.tar.gz
+[2024-04-10 01:27:19] INFO root fetch - processPackages [kiwi-booster]: Downloading https://files.pythonhosted.org/packages/69/d2/f7f51bad4c18977d3acf0936c581e6b2b19598948cac8a61cca14df7c028/kiwi_booster-0.3.9.tar.gz
+[2024-04-10 01:27:19] INFO root fetch - processPackages [psyke]: Downloading https://files.pythonhosted.org/packages/d7/7c/ea0cf82e5c21d2071113a9e946b635f5c6928e45a0b14c1d81b7a26c5566/psyke-0.8.2.tar.gz
+[2024-04-10 01:27:19] INFO root fetch - processPackages [kiwi-booster]: executing diffoscope
+[2024-04-10 01:27:19] INFO root fetch - processPackages [kiwi-booster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiwi_booster-0.3.8.tar.gz tmp/kiwi_booster-0.3.9.tar.gz --markdown 20240410/k/kiwi-booster/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-10 01:27:19] INFO root fetch - processPackages [psyke]: executing diffoscope
+[2024-04-10 01:27:19] INFO root fetch - processPackages [psyke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psyke-0.8.1.dev2.tar.gz tmp/psyke-0.8.2.tar.gz --markdown 20240410/p/psyke/0.8.1.dev2-0.8.2/README.md --exclude *.pyd
+[2024-04-10 01:27:20] INFO root fetch - processPackages [kiwi-booster]: Remove: archive file [/home/abi/fetcher/tmp/kiwi_booster-0.3.8.tar.gz]
+[2024-04-10 01:27:20] INFO root fetch - processPackages [kiwi-booster]: Remove: archive file [/home/abi/fetcher/tmp/kiwi_booster-0.3.9.tar.gz]
+[2024-04-10 01:27:20] INFO root fetch - main [MainThread]: End processing [kiwi-booster]: success
+[2024-04-10 01:27:20] INFO root fetch - processPackages [psyke]: Remove: archive file [/home/abi/fetcher/tmp/psyke-0.8.1.dev2.tar.gz]
+[2024-04-10 01:27:20] INFO root fetch - processPackages [psyke]: Remove: archive file [/home/abi/fetcher/tmp/psyke-0.8.2.tar.gz]
+[2024-04-10 01:27:20] INFO root fetch - main [MainThread]: End processing [psyke]: success
+[2024-04-10 01:27:20] INFO root fetch - main [MainThread]: Store serial: [22691880]

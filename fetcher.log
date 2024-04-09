@@ -1428,3 +1428,18 @@
 [2024-04-10 00:54:58] INFO root fetch - processPackages [PyTDC]: Remove: archive file [/home/abi/fetcher/tmp/PyTDC-0.4.8.tar.gz]
 [2024-04-10 00:54:58] INFO root fetch - main [MainThread]: End processing [PyTDC]: success
 [2024-04-10 00:54:58] INFO root fetch - main [MainThread]: Store serial: [22691591]
+[2024-04-10 00:57:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22691591]
+[2024-04-10 00:57:06] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-10 00:57:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-formsets-inside-form
+[2024-04-10 00:57:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FancySchmancyTestsplit
+[2024-04-10 00:57:06] INFO root fetch - processPackages [FancySchmancyTestsplit]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-10 00:57:06] WARNING root fetch - processPackages [django-formsets-inside-form]: Skipping, unable to determine old version
+[2024-04-10 00:57:06] INFO root fetch - main [MainThread]: End processing [django-formsets-inside-form] error
+[2024-04-10 00:57:06] INFO root fetch - processPackages [FancySchmancyTestsplit]: Downloading https://files.pythonhosted.org/packages/6c/8c/e278b88fab900a2826b8cd630ab1ca823b9653e22f0e72f65ac6342ed52f/FancySchmancyTestsplit-0.1.0.tar.gz
+[2024-04-10 00:57:07] INFO root fetch - processPackages [FancySchmancyTestsplit]: Downloading https://files.pythonhosted.org/packages/03/62/ffd4b205936349eff649705ddb5db03278ddaae98781760c40d357fb27b8/FancySchmancyTestsplit-0.1.1.tar.gz
+[2024-04-10 00:57:07] INFO root fetch - processPackages [FancySchmancyTestsplit]: executing diffoscope
+[2024-04-10 00:57:07] INFO root fetch - processPackages [FancySchmancyTestsplit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FancySchmancyTestsplit-0.1.0.tar.gz tmp/FancySchmancyTestsplit-0.1.1.tar.gz --markdown 20240410/F/FancySchmancyTestsplit/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-10 00:57:07] INFO root fetch - processPackages [FancySchmancyTestsplit]: Remove: archive file [/home/abi/fetcher/tmp/FancySchmancyTestsplit-0.1.0.tar.gz]
+[2024-04-10 00:57:07] INFO root fetch - processPackages [FancySchmancyTestsplit]: Remove: archive file [/home/abi/fetcher/tmp/FancySchmancyTestsplit-0.1.1.tar.gz]
+[2024-04-10 00:57:07] INFO root fetch - main [MainThread]: End processing [FancySchmancyTestsplit]: success
+[2024-04-10 00:57:07] INFO root fetch - main [MainThread]: Store serial: [22691601]

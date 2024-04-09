@@ -2303,3 +2303,31 @@
 [2024-04-10 01:46:58] INFO root fetch - processPackages [yowasp-wavedrom]: Remove: archive file [/home/abi/fetcher/tmp/yowasp_wavedrom-3.5.0.8-py3-none-any.whl.zip]
 [2024-04-10 01:46:58] INFO root fetch - main [MainThread]: End processing [yowasp-wavedrom]: success
 [2024-04-10 01:46:58] INFO root fetch - main [MainThread]: Store serial: [22692022]
+[2024-04-10 01:49:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22692022]
+[2024-04-10 01:49:08] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-10 01:49:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: supamodel
+[2024-04-10 01:49:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: supamodel
+[2024-04-10 01:49:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: phidata
+[2024-04-10 01:49:08] INFO root fetch - processPackages [supamodel]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-10 01:49:08] INFO root fetch - processPackages [supamodel]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-10 01:49:08] INFO root fetch - processPackages [supamodel]: Downloading https://files.pythonhosted.org/packages/a9/a0/019bcb06aaddc98fed17d466cc3288d3b1a7e41e69ffa8cf1c89f9ca5729/supamodel-0.3.0.tar.gz
+[2024-04-10 01:49:08] INFO root fetch - processPackages [supamodel]: Downloading https://files.pythonhosted.org/packages/a9/a0/019bcb06aaddc98fed17d466cc3288d3b1a7e41e69ffa8cf1c89f9ca5729/supamodel-0.3.0.tar.gz
+[2024-04-10 01:49:08] INFO root fetch - processPackages [phidata]: New version: [2.3.9] Old Version: [2.3.8]
+[2024-04-10 01:49:08] INFO root fetch - processPackages [phidata]: Downloading https://files.pythonhosted.org/packages/9a/24/afb3e8585b820976634b1dd732e5ec1f3562093b71b05a47e3bd6a870b75/phidata-2.3.8.tar.gz
+[2024-04-10 01:49:08] INFO root fetch - processPackages [supamodel]: Downloading https://files.pythonhosted.org/packages/9f/2a/7f7f86ac0c7e0fdd7e6f8d156a970e59d8b063092929f9d8f33b560439c8/supamodel-0.3.1.tar.gz
+[2024-04-10 01:49:08] INFO root fetch - processPackages [supamodel]: Downloading https://files.pythonhosted.org/packages/9f/2a/7f7f86ac0c7e0fdd7e6f8d156a970e59d8b063092929f9d8f33b560439c8/supamodel-0.3.1.tar.gz
+[2024-04-10 01:49:08] INFO root fetch - processPackages [supamodel]: executing diffoscope
+[2024-04-10 01:49:08] INFO root fetch - processPackages [supamodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supamodel-0.3.0.tar.gz tmp/supamodel-0.3.1.tar.gz --markdown 20240410/s/supamodel/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-10 01:49:08] INFO root fetch - processPackages [supamodel]: executing diffoscope
+[2024-04-10 01:49:08] INFO root fetch - processPackages [supamodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supamodel-0.3.0.tar.gz tmp/supamodel-0.3.1.tar.gz --markdown 20240410/s/supamodel/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-10 01:49:09] INFO root fetch - processPackages [phidata]: Downloading https://files.pythonhosted.org/packages/51/63/c5ed33bf592cd65cdcb90c64ded88ab6bc7786db2184c64f6484d61e92d0/phidata-2.3.9.tar.gz
+[2024-04-10 01:49:09] INFO root fetch - processPackages [supamodel]: Remove: archive file [/home/abi/fetcher/tmp/supamodel-0.3.0.tar.gz]
+[2024-04-10 01:49:09] INFO root fetch - processPackages [supamodel]: Remove: archive file [/home/abi/fetcher/tmp/supamodel-0.3.1.tar.gz]
+[2024-04-10 01:49:09] INFO root fetch - main [MainThread]: End processing [supamodel]: success
+[2024-04-10 01:49:09] INFO root fetch - processPackages [phidata]: executing diffoscope
+[2024-04-10 01:49:09] INFO root fetch - processPackages [phidata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phidata-2.3.8.tar.gz tmp/phidata-2.3.9.tar.gz --markdown 20240410/p/phidata/2.3.8-2.3.9/README.md --exclude *.pyd
+[2024-04-10 01:49:09] INFO root fetch - main [MainThread]: End processing [supamodel]: success
+[2024-04-10 01:49:10] INFO root fetch - processPackages [phidata]: Remove: archive file [/home/abi/fetcher/tmp/phidata-2.3.8.tar.gz]
+[2024-04-10 01:49:10] INFO root fetch - processPackages [phidata]: Remove: archive file [/home/abi/fetcher/tmp/phidata-2.3.9.tar.gz]
+[2024-04-10 01:49:10] INFO root fetch - main [MainThread]: End processing [phidata]: success
+[2024-04-10 01:49:10] INFO root fetch - main [MainThread]: Store serial: [22692031]

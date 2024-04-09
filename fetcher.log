@@ -1943,3 +1943,32 @@
 [2024-04-10 01:22:58] INFO root fetch - processPackages [agentdesk]: Remove: archive file [/home/abi/fetcher/tmp/agentdesk-0.2.9.tar.gz]
 [2024-04-10 01:22:58] INFO root fetch - main [MainThread]: End processing [agentdesk]: success
 [2024-04-10 01:22:58] INFO root fetch - main [MainThread]: Store serial: [22691848]
+[2024-04-10 01:25:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22691848]
+[2024-04-10 01:25:07] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-10 01:25:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: azure-ai-formrecognizer
+[2024-04-10 01:25:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: agentops
+[2024-04-10 01:25:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: WAVES
+[2024-04-10 01:25:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cozmo-app
+[2024-04-10 01:25:08] INFO root fetch - processPackages [agentops]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-10 01:25:08] INFO root fetch - processPackages [agentops]: Downloading https://files.pythonhosted.org/packages/1d/ec/1d2af6e33dd097feaf1e41a4d34c66d4e4e59ce35c5efac85c18614b9d4b/agentops-0.1.1.tar.gz
+[2024-04-10 01:25:08] INFO root fetch - processPackages [azure-ai-formrecognizer]: New version: [3.3.3] Old Version: [3.3.2]
+[2024-04-10 01:25:08] INFO root fetch - processPackages [WAVES]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-04-10 01:25:08] WARNING root fetch - processPackages [cozmo-app]: Skipping, unable to determine old version
+[2024-04-10 01:25:08] INFO root fetch - main [MainThread]: End processing [cozmo-app] error
+[2024-04-10 01:25:08] INFO root fetch - processPackages [azure-ai-formrecognizer]: Downloading https://files.pythonhosted.org/packages/bc/25/b228da6c55e95b3a56ae99698aee5ce176f97df5bf171b00c5d8ddba96bb/azure-ai-formrecognizer-3.3.2.tar.gz
+[2024-04-10 01:25:08] INFO root fetch - processPackages [agentops]: Downloading https://files.pythonhosted.org/packages/8a/cc/872aba374093481bb40ed6b7531b1500b00138baf6bfb9ca7c20fb889d58/agentops-0.1.2.tar.gz
+[2024-04-10 01:25:08] INFO root fetch - processPackages [WAVES]: Downloading https://files.pythonhosted.org/packages/be/d6/c6046403a2827a4c5bd279d21320538cb6f2f3c247a282ce3cf557306969/WAVES-0.5.1.tar.gz
+[2024-04-10 01:25:08] INFO root fetch - processPackages [agentops]: executing diffoscope
+[2024-04-10 01:25:08] INFO root fetch - processPackages [agentops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentops-0.1.1.tar.gz tmp/agentops-0.1.2.tar.gz --markdown 20240410/a/agentops/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-10 01:25:08] WARNING root fetch - processPackages [WAVES]: Skipping package: exceeds size limit 98388016>=10485760
+[2024-04-10 01:25:08] INFO root fetch - main [MainThread]: End processing [WAVES] error
+[2024-04-10 01:25:08] INFO root fetch - processPackages [azure-ai-formrecognizer]: Downloading https://files.pythonhosted.org/packages/1c/03/ab76ece556f13e84481d74d79dc74ad8f8e84bd030468f01ae81adebfb52/azure-ai-formrecognizer-3.3.3.tar.gz
+[2024-04-10 01:25:08] INFO root fetch - processPackages [azure-ai-formrecognizer]: executing diffoscope
+[2024-04-10 01:25:08] INFO root fetch - processPackages [azure-ai-formrecognizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-ai-formrecognizer-3.3.2.tar.gz tmp/azure-ai-formrecognizer-3.3.3.tar.gz --markdown 20240410/a/azure-ai-formrecognizer/3.3.2-3.3.3/README.md --exclude *.pyd
+[2024-04-10 01:25:09] INFO root fetch - processPackages [agentops]: Remove: archive file [/home/abi/fetcher/tmp/agentops-0.1.1.tar.gz]
+[2024-04-10 01:25:09] INFO root fetch - processPackages [agentops]: Remove: archive file [/home/abi/fetcher/tmp/agentops-0.1.2.tar.gz]
+[2024-04-10 01:25:09] INFO root fetch - main [MainThread]: End processing [agentops]: success
+[2024-04-10 01:25:10] INFO root fetch - processPackages [azure-ai-formrecognizer]: Remove: archive file [/home/abi/fetcher/tmp/azure-ai-formrecognizer-3.3.2.tar.gz]
+[2024-04-10 01:25:10] INFO root fetch - processPackages [azure-ai-formrecognizer]: Remove: archive file [/home/abi/fetcher/tmp/azure-ai-formrecognizer-3.3.3.tar.gz]
+[2024-04-10 01:25:10] INFO root fetch - main [MainThread]: End processing [azure-ai-formrecognizer]: success
+[2024-04-10 01:25:10] INFO root fetch - main [MainThread]: Store serial: [22691867]

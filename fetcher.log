@@ -1644,3 +1644,60 @@
 [2024-04-10 01:05:54] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240409.tar.gz]
 [2024-04-10 01:05:54] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
 [2024-04-10 01:05:54] INFO root fetch - main [MainThread]: Store serial: [22691749]
+[2024-04-10 01:07:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22691749]
+[2024-04-10 01:08:03] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-10 01:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kiwi-booster
+[2024-04-10 01:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aider-chat
+[2024-04-10 01:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gimmetool
+[2024-04-10 01:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stringx
+[2024-04-10 01:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyUnfoldedCircleRemote
+[2024-04-10 01:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: FancySchmancyTestsplit
+[2024-04-10 01:08:03] INFO root fetch - processPackages [gimmetool]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-10 01:08:03] INFO root fetch - processPackages [kiwi-booster]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-10 01:08:03] INFO root fetch - processPackages [FancySchmancyTestsplit]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-10 01:08:03] INFO root fetch - processPackages [aider-chat]: New version: [0.9.0] Old Version: [0.8.3]
+[2024-04-10 01:08:03] INFO root fetch - processPackages [gimmetool]: Downloading https://files.pythonhosted.org/packages/5d/ed/11eeb593501f4c4eae813d61a25ae75921fc3b63d0ef9a86b8376d4306f0/gimmetool-0.1.8.tar.gz
+[2024-04-10 01:08:03] INFO root fetch - processPackages [pyUnfoldedCircleRemote]: New version: [0.6.5] Old Version: [0.6.4]
+[2024-04-10 01:08:03] INFO root fetch - processPackages [kiwi-booster]: Downloading https://files.pythonhosted.org/packages/e3/96/904b7f594654390998f01d2f4d3384a540f888d1c785008a5466bf938985/kiwi_booster-0.3.8.tar.gz
+[2024-04-10 01:08:03] INFO root fetch - processPackages [stringx]: New version: [0.7.1] Old Version: [0.6.0]
+[2024-04-10 01:08:03] INFO root fetch - processPackages [FancySchmancyTestsplit]: Downloading https://files.pythonhosted.org/packages/43/ec/1959b6b9c543bfb60c9c927edebcc28269a0f9a142b13c57c7ccffcf4734/FancySchmancyTestsplit-0.1.2.tar.gz
+[2024-04-10 01:08:03] INFO root fetch - processPackages [aider-chat]: Downloading https://files.pythonhosted.org/packages/97/6d/6e7b681204d0890d7a1d07928f1168e3e15b16856958c5b3934aa123f438/aider-chat-0.8.3.tar.gz
+[2024-04-10 01:08:03] INFO root fetch - processPackages [gimmetool]: Downloading https://files.pythonhosted.org/packages/db/c8/235b3a59fc40f652af7200c1f4fbde3d2c45a1ceda688f54aae8623d5910/gimmetool-0.1.9.tar.gz
+[2024-04-10 01:08:03] INFO root fetch - processPackages [pyUnfoldedCircleRemote]: Downloading https://files.pythonhosted.org/packages/d3/71/52c76e56c903298c6b785744736a9a5df7d4a3d51842e87eeccdb80ae5c9/pyunfoldedcircleremote-0.6.4.tar.gz
+[2024-04-10 01:08:03] INFO root fetch - processPackages [stringx]: Downloading https://files.pythonhosted.org/packages/95/bd/6676be1f30273cc614a45026dd71704d110356889dd906cc3da42c591c16/stringx-0.6.0.tar.gz
+[2024-04-10 01:08:03] INFO root fetch - processPackages [gimmetool]: executing diffoscope
+[2024-04-10 01:08:03] INFO root fetch - processPackages [gimmetool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gimmetool-0.1.8.tar.gz tmp/gimmetool-0.1.9.tar.gz --markdown 20240410/g/gimmetool/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-10 01:08:03] INFO root fetch - processPackages [FancySchmancyTestsplit]: Downloading https://files.pythonhosted.org/packages/2f/7b/b5599766d88bafbddae49a17460510bb36a105e978f2fac4ce54dfbe439f/FancySchmancyTestsplit-0.1.3.tar.gz
+[2024-04-10 01:08:03] INFO root fetch - processPackages [kiwi-booster]: Downloading https://files.pythonhosted.org/packages/69/d2/f7f51bad4c18977d3acf0936c581e6b2b19598948cac8a61cca14df7c028/kiwi_booster-0.3.9.tar.gz
+[2024-04-10 01:08:03] INFO root fetch - processPackages [FancySchmancyTestsplit]: executing diffoscope
+[2024-04-10 01:08:03] INFO root fetch - processPackages [FancySchmancyTestsplit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FancySchmancyTestsplit-0.1.2.tar.gz tmp/FancySchmancyTestsplit-0.1.3.tar.gz --markdown 20240410/F/FancySchmancyTestsplit/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-10 01:08:03] INFO root fetch - processPackages [kiwi-booster]: executing diffoscope
+[2024-04-10 01:08:03] INFO root fetch - processPackages [kiwi-booster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiwi_booster-0.3.8.tar.gz tmp/kiwi_booster-0.3.9.tar.gz --markdown 20240410/k/kiwi-booster/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-10 01:08:03] INFO root fetch - processPackages [stringx]: Downloading https://files.pythonhosted.org/packages/84/c0/e582077d7479e9a392e02196767ef3b584da362d30c68ebb798185f4e54b/stringx-0.7.1.tar.gz
+[2024-04-10 01:08:04] INFO root fetch - processPackages [pyUnfoldedCircleRemote]: Downloading https://files.pythonhosted.org/packages/30/8c/7d1d68ec6492e15f0d9fbba36656ce10d7c53d3473193882b11cbbcbcd73/pyunfoldedcircleremote-0.6.5.tar.gz
+[2024-04-10 01:08:04] INFO root fetch - processPackages [aider-chat]: Downloading https://files.pythonhosted.org/packages/27/f3/89e2047247691d2f850711b47e321bccb308fdcd459ee406fc6fd652d143/aider-chat-0.9.0.tar.gz
+[2024-04-10 01:08:04] INFO root fetch - processPackages [stringx]: executing diffoscope
+[2024-04-10 01:08:04] INFO root fetch - processPackages [stringx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stringx-0.6.0.tar.gz tmp/stringx-0.7.1.tar.gz --markdown 20240410/s/stringx/0.6.0-0.7.1/README.md --exclude *.pyd
+[2024-04-10 01:08:04] INFO root fetch - processPackages [pyUnfoldedCircleRemote]: executing diffoscope
+[2024-04-10 01:08:04] INFO root fetch - processPackages [pyUnfoldedCircleRemote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyunfoldedcircleremote-0.6.4.tar.gz tmp/pyunfoldedcircleremote-0.6.5.tar.gz --markdown 20240410/p/pyUnfoldedCircleRemote/0.6.4-0.6.5/README.md --exclude *.pyd
+[2024-04-10 01:08:04] INFO root fetch - processPackages [aider-chat]: executing diffoscope
+[2024-04-10 01:08:04] INFO root fetch - processPackages [aider-chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aider-chat-0.8.3.tar.gz tmp/aider-chat-0.9.0.tar.gz --markdown 20240410/a/aider-chat/0.8.3-0.9.0/README.md --exclude *.pyd
+[2024-04-10 01:08:04] INFO root fetch - processPackages [gimmetool]: Remove: archive file [/home/abi/fetcher/tmp/gimmetool-0.1.8.tar.gz]
+[2024-04-10 01:08:04] INFO root fetch - processPackages [gimmetool]: Remove: archive file [/home/abi/fetcher/tmp/gimmetool-0.1.9.tar.gz]
+[2024-04-10 01:08:04] INFO root fetch - main [MainThread]: End processing [gimmetool]: success
+[2024-04-10 01:08:04] INFO root fetch - processPackages [FancySchmancyTestsplit]: Remove: archive file [/home/abi/fetcher/tmp/FancySchmancyTestsplit-0.1.2.tar.gz]
+[2024-04-10 01:08:04] INFO root fetch - processPackages [FancySchmancyTestsplit]: Remove: archive file [/home/abi/fetcher/tmp/FancySchmancyTestsplit-0.1.3.tar.gz]
+[2024-04-10 01:08:04] INFO root fetch - main [MainThread]: End processing [FancySchmancyTestsplit]: success
+[2024-04-10 01:08:04] INFO root fetch - processPackages [kiwi-booster]: Remove: archive file [/home/abi/fetcher/tmp/kiwi_booster-0.3.8.tar.gz]
+[2024-04-10 01:08:04] INFO root fetch - processPackages [kiwi-booster]: Remove: archive file [/home/abi/fetcher/tmp/kiwi_booster-0.3.9.tar.gz]
+[2024-04-10 01:08:04] INFO root fetch - main [MainThread]: End processing [kiwi-booster]: success
+[2024-04-10 01:08:04] INFO root fetch - processPackages [stringx]: Remove: archive file [/home/abi/fetcher/tmp/stringx-0.6.0.tar.gz]
+[2024-04-10 01:08:04] INFO root fetch - processPackages [stringx]: Remove: archive file [/home/abi/fetcher/tmp/stringx-0.7.1.tar.gz]
+[2024-04-10 01:08:04] INFO root fetch - main [MainThread]: End processing [stringx]: success
+[2024-04-10 01:08:04] INFO root fetch - processPackages [pyUnfoldedCircleRemote]: Remove: archive file [/home/abi/fetcher/tmp/pyunfoldedcircleremote-0.6.4.tar.gz]
+[2024-04-10 01:08:04] INFO root fetch - processPackages [pyUnfoldedCircleRemote]: Remove: archive file [/home/abi/fetcher/tmp/pyunfoldedcircleremote-0.6.5.tar.gz]
+[2024-04-10 01:08:04] INFO root fetch - main [MainThread]: End processing [pyUnfoldedCircleRemote]: success
+[2024-04-10 01:08:05] INFO root fetch - processPackages [aider-chat]: Remove: archive file [/home/abi/fetcher/tmp/aider-chat-0.8.3.tar.gz]
+[2024-04-10 01:08:05] INFO root fetch - processPackages [aider-chat]: Remove: archive file [/home/abi/fetcher/tmp/aider-chat-0.9.0.tar.gz]
+[2024-04-10 01:08:05] INFO root fetch - main [MainThread]: End processing [aider-chat]: success
+[2024-04-10 01:08:05] INFO root fetch - main [MainThread]: Store serial: [22691767]

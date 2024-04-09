@@ -1199,3 +1199,52 @@
 [2024-04-10 00:43:59] INFO root fetch - processPackages [lytekit]: Remove: archive file [/home/abi/fetcher/tmp/lytekit-0.9.1.tar.gz]
 [2024-04-10 00:43:59] INFO root fetch - main [MainThread]: End processing [lytekit]: success
 [2024-04-10 00:43:59] INFO root fetch - main [MainThread]: Store serial: [22691495]
+[2024-04-10 00:46:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22691495]
+[2024-04-10 00:46:09] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-10 00:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spartaqube
+[2024-04-10 00:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PytorchWildlife
+[2024-04-10 00:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flask-attachments
+[2024-04-10 00:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gimmetool
+[2024-04-10 00:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pybedtools
+[2024-04-10 00:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: shipyard-http
+[2024-04-10 00:46:09] INFO root fetch - processPackages [spartaqube]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-10 00:46:09] INFO root fetch - processPackages [gimmetool]: New version: [0.1.5] Old Version: [0.1.0]
+[2024-04-10 00:46:09] INFO root fetch - processPackages [shipyard-http]: New version: [0.1.1a0] Old Version: [0.1.0a1]
+[2024-04-10 00:46:09] INFO root fetch - processPackages [PytorchWildlife]: New version: [1.0.2.8] Old Version: [1.0.2.5]
+[2024-04-10 00:46:09] INFO root fetch - processPackages [shipyard-http]: Downloading https://files.pythonhosted.org/packages/0d/74/755d4e2824c899ea06df9386621cd860b64c13971382c24d455935547a58/shipyard_http-0.1.0a1.tar.gz
+[2024-04-10 00:46:09] INFO root fetch - processPackages [flask-attachments]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-10 00:46:09] INFO root fetch - processPackages [pybedtools]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-10 00:46:09] INFO root fetch - processPackages [spartaqube]: Downloading https://files.pythonhosted.org/packages/00/af/638bf29ace15fdd544fd75af0a58a2dd0eba80e3ab20ff6f9e2cf84388ed/spartaqube-0.1.2.tar.gz
+[2024-04-10 00:46:09] INFO root fetch - processPackages [gimmetool]: Downloading https://files.pythonhosted.org/packages/2d/7e/824391dbd2948b4551c8815c4fe01716b7c369f1d0d970d3717e6c2ed06c/gimmetool-0.1.0.tar.gz
+[2024-04-10 00:46:09] WARNING root fetch - processPackages [spartaqube]: Skipping package: exceeds size limit 17603818>=10485760
+[2024-04-10 00:46:09] INFO root fetch - main [MainThread]: End processing [spartaqube] error
+[2024-04-10 00:46:09] INFO root fetch - processPackages [PytorchWildlife]: Downloading https://files.pythonhosted.org/packages/a9/9a/bf86ebe0f3d27da8d749d6b2018803754d5e012c1414aae8b75eb6703504/PytorchWildlife-1.0.2.5.tar.gz
+[2024-04-10 00:46:09] INFO root fetch - processPackages [shipyard-http]: Downloading https://files.pythonhosted.org/packages/d3/ae/1d69e2f6063531e804509bff9618db0942c1b75493f13825298563227d2d/shipyard_http-0.1.1a0.tar.gz
+[2024-04-10 00:46:09] INFO root fetch - processPackages [pybedtools]: Downloading https://files.pythonhosted.org/packages/58/e2/410bb188b47582e2fd2f7176173b7b7bf46e122bb17fb4422552f4a6c604/pybedtools-0.9.0.tar.gz
+[2024-04-10 00:46:09] INFO root fetch - processPackages [flask-attachments]: Downloading https://files.pythonhosted.org/packages/61/8c/78657a0f6423812b24b97cb19b6d2c14e3f8ea92f7e26aa40fa750b90652/flask_attachments-0.2.0.tar.gz
+[2024-04-10 00:46:09] WARNING root fetch - processPackages [pybedtools]: Skipping package: exceeds size limit 12540094>=10485760
+[2024-04-10 00:46:09] INFO root fetch - main [MainThread]: End processing [pybedtools] error
+[2024-04-10 00:46:09] INFO root fetch - processPackages [shipyard-http]: executing diffoscope
+[2024-04-10 00:46:09] INFO root fetch - processPackages [shipyard-http]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipyard_http-0.1.0a1.tar.gz tmp/shipyard_http-0.1.1a0.tar.gz --markdown 20240410/s/shipyard-http/0.1.0a1-0.1.1a0/README.md --exclude *.pyd
+[2024-04-10 00:46:10] INFO root fetch - processPackages [gimmetool]: Downloading https://files.pythonhosted.org/packages/f8/c3/2ed8d3b3d053b11e16a988352767862ef051450024597c12ab0f7825fce9/gimmetool-0.1.5.tar.gz
+[2024-04-10 00:46:10] INFO root fetch - processPackages [PytorchWildlife]: Downloading https://files.pythonhosted.org/packages/12/df/93324282c55a27d12d01543df215ed11f65e7cf01cf8dab36dd8d5253183/PytorchWildlife-1.0.2.8.tar.gz
+[2024-04-10 00:46:10] INFO root fetch - processPackages [gimmetool]: executing diffoscope
+[2024-04-10 00:46:10] INFO root fetch - processPackages [gimmetool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gimmetool-0.1.0.tar.gz tmp/gimmetool-0.1.5.tar.gz --markdown 20240410/g/gimmetool/0.1.0-0.1.5/README.md --exclude *.pyd
+[2024-04-10 00:46:10] INFO root fetch - processPackages [flask-attachments]: Downloading https://files.pythonhosted.org/packages/1b/b1/2f07d1b98fabde1f955de64fb53f61ea3ab1fb8f2107f5add87f7eb711f5/flask_attachments-0.2.1.tar.gz
+[2024-04-10 00:46:10] INFO root fetch - processPackages [PytorchWildlife]: executing diffoscope
+[2024-04-10 00:46:10] INFO root fetch - processPackages [PytorchWildlife]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PytorchWildlife-1.0.2.5.tar.gz tmp/PytorchWildlife-1.0.2.8.tar.gz --markdown 20240410/P/PytorchWildlife/1.0.2.5-1.0.2.8/README.md --exclude *.pyd
+[2024-04-10 00:46:10] INFO root fetch - processPackages [flask-attachments]: executing diffoscope
+[2024-04-10 00:46:10] INFO root fetch - processPackages [flask-attachments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_attachments-0.2.0.tar.gz tmp/flask_attachments-0.2.1.tar.gz --markdown 20240410/f/flask-attachments/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-10 00:46:10] INFO root fetch - processPackages [shipyard-http]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_http-0.1.0a1.tar.gz]
+[2024-04-10 00:46:10] INFO root fetch - processPackages [shipyard-http]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_http-0.1.1a0.tar.gz]
+[2024-04-10 00:46:10] INFO root fetch - main [MainThread]: End processing [shipyard-http]: success
+[2024-04-10 00:46:10] INFO root fetch - processPackages [gimmetool]: Remove: archive file [/home/abi/fetcher/tmp/gimmetool-0.1.0.tar.gz]
+[2024-04-10 00:46:10] INFO root fetch - processPackages [gimmetool]: Remove: archive file [/home/abi/fetcher/tmp/gimmetool-0.1.5.tar.gz]
+[2024-04-10 00:46:10] INFO root fetch - main [MainThread]: End processing [gimmetool]: success
+[2024-04-10 00:46:10] INFO root fetch - processPackages [PytorchWildlife]: Remove: archive file [/home/abi/fetcher/tmp/PytorchWildlife-1.0.2.5.tar.gz]
+[2024-04-10 00:46:10] INFO root fetch - processPackages [PytorchWildlife]: Remove: archive file [/home/abi/fetcher/tmp/PytorchWildlife-1.0.2.8.tar.gz]
+[2024-04-10 00:46:10] INFO root fetch - main [MainThread]: End processing [PytorchWildlife]: success
+[2024-04-10 00:46:10] INFO root fetch - processPackages [flask-attachments]: Remove: archive file [/home/abi/fetcher/tmp/flask_attachments-0.2.0.tar.gz]
+[2024-04-10 00:46:10] INFO root fetch - processPackages [flask-attachments]: Remove: archive file [/home/abi/fetcher/tmp/flask_attachments-0.2.1.tar.gz]
+[2024-04-10 00:46:10] INFO root fetch - main [MainThread]: End processing [flask-attachments]: success
+[2024-04-10 00:46:10] INFO root fetch - main [MainThread]: Store serial: [22691510]

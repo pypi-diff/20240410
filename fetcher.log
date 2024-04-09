@@ -1248,3 +1248,24 @@
 [2024-04-10 00:46:10] INFO root fetch - processPackages [flask-attachments]: Remove: archive file [/home/abi/fetcher/tmp/flask_attachments-0.2.1.tar.gz]
 [2024-04-10 00:46:10] INFO root fetch - main [MainThread]: End processing [flask-attachments]: success
 [2024-04-10 00:46:10] INFO root fetch - main [MainThread]: Store serial: [22691510]
+[2024-04-10 00:48:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22691510]
+[2024-04-10 00:48:19] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-10 00:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scorecard-generator
+[2024-04-10 00:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: taskara
+[2024-04-10 00:48:20] INFO root fetch - processPackages [scorecard-generator]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-10 00:48:20] INFO root fetch - processPackages [taskara]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-10 00:48:20] INFO root fetch - processPackages [scorecard-generator]: Downloading https://files.pythonhosted.org/packages/58/7b/2b6e21c8a24e4bd7321e7e5e15244673dff04f570a6928d3123b033869c2/scorecard_generator-2.1.8.tar.gz
+[2024-04-10 00:48:20] INFO root fetch - processPackages [taskara]: Downloading https://files.pythonhosted.org/packages/d6/1e/172ae85d48722a1e28b9526c0bb34465bd7920d0c8e6858e25a3f8c528a9/taskara-0.1.7.tar.gz
+[2024-04-10 00:48:20] INFO root fetch - processPackages [taskara]: Downloading https://files.pythonhosted.org/packages/c0/4f/e9467a6dd755091e2fe2294b58569b289c5252fd70463791829fd99fbfd7/taskara-0.1.8.tar.gz
+[2024-04-10 00:48:20] INFO root fetch - processPackages [scorecard-generator]: Downloading https://files.pythonhosted.org/packages/8b/1e/b2d26146a81bde96fad194f4e7c1bda9ba5a55ee015810e45d29a1deaa2f/scorecard_generator-2.1.9.tar.gz
+[2024-04-10 00:48:20] INFO root fetch - processPackages [taskara]: executing diffoscope
+[2024-04-10 00:48:20] INFO root fetch - processPackages [taskara]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskara-0.1.7.tar.gz tmp/taskara-0.1.8.tar.gz --markdown 20240410/t/taskara/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-10 00:48:20] INFO root fetch - processPackages [scorecard-generator]: executing diffoscope
+[2024-04-10 00:48:20] INFO root fetch - processPackages [scorecard-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scorecard_generator-2.1.8.tar.gz tmp/scorecard_generator-2.1.9.tar.gz --markdown 20240410/s/scorecard-generator/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-04-10 00:48:21] INFO root fetch - processPackages [taskara]: Remove: archive file [/home/abi/fetcher/tmp/taskara-0.1.7.tar.gz]
+[2024-04-10 00:48:21] INFO root fetch - processPackages [taskara]: Remove: archive file [/home/abi/fetcher/tmp/taskara-0.1.8.tar.gz]
+[2024-04-10 00:48:21] INFO root fetch - main [MainThread]: End processing [taskara]: success
+[2024-04-10 00:48:21] INFO root fetch - processPackages [scorecard-generator]: Remove: archive file [/home/abi/fetcher/tmp/scorecard_generator-2.1.8.tar.gz]
+[2024-04-10 00:48:21] INFO root fetch - processPackages [scorecard-generator]: Remove: archive file [/home/abi/fetcher/tmp/scorecard_generator-2.1.9.tar.gz]
+[2024-04-10 00:48:21] INFO root fetch - main [MainThread]: End processing [scorecard-generator]: success
+[2024-04-10 00:48:21] INFO root fetch - main [MainThread]: Store serial: [22691515]

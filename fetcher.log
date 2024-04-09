@@ -1731,3 +1731,33 @@
 [2024-04-10 01:10:14] INFO root fetch - processPackages [promptlayer]: Remove: archive file [/home/abi/fetcher/tmp/promptlayer-0.5.5.tar.gz]
 [2024-04-10 01:10:14] INFO root fetch - main [MainThread]: End processing [promptlayer]: success
 [2024-04-10 01:10:14] INFO root fetch - main [MainThread]: Store serial: [22691776]
+[2024-04-10 01:12:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22691776]
+[2024-04-10 01:12:24] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-10 01:12:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gimmetool
+[2024-04-10 01:12:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: marimo
+[2024-04-10 01:12:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: riskmapjnr
+[2024-04-10 01:12:24] INFO root fetch - processPackages [gimmetool]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-10 01:12:24] INFO root fetch - processPackages [gimmetool]: Downloading https://files.pythonhosted.org/packages/5d/ed/11eeb593501f4c4eae813d61a25ae75921fc3b63d0ef9a86b8376d4306f0/gimmetool-0.1.8.tar.gz
+[2024-04-10 01:12:24] INFO root fetch - processPackages [riskmapjnr]: New version: [1.2.1] Old Version: [1.2]
+[2024-04-10 01:12:24] INFO root fetch - processPackages [marimo]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-10 01:12:25] INFO root fetch - processPackages [gimmetool]: Downloading https://files.pythonhosted.org/packages/db/c8/235b3a59fc40f652af7200c1f4fbde3d2c45a1ceda688f54aae8623d5910/gimmetool-0.1.9.tar.gz
+[2024-04-10 01:12:25] INFO root fetch - processPackages [riskmapjnr]: Downloading https://files.pythonhosted.org/packages/6b/cd/e949655de4fb33bf13b068b34d1cbdc85c32d21ffd56ad6dceb433d8d4d5/riskmapjnr-1.2.tar.gz
+[2024-04-10 01:12:25] INFO root fetch - processPackages [marimo]: Downloading https://files.pythonhosted.org/packages/e8/66/92dde37e6bbf554b0d525e5e5e9c7a75055291d604fa709929fb08eb8492/marimo-0.3.8.tar.gz
+[2024-04-10 01:12:25] INFO root fetch - processPackages [gimmetool]: executing diffoscope
+[2024-04-10 01:12:25] INFO root fetch - processPackages [gimmetool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gimmetool-0.1.8.tar.gz tmp/gimmetool-0.1.9.tar.gz --markdown 20240410/g/gimmetool/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-10 01:12:25] INFO root fetch - processPackages [riskmapjnr]: Downloading https://files.pythonhosted.org/packages/fe/01/a1133ae5ec1138e850935e2226c40f45f61c39136d7d20b573f7bb37c3f5/riskmapjnr-1.2.1.tar.gz
+[2024-04-10 01:12:25] INFO root fetch - processPackages [riskmapjnr]: executing diffoscope
+[2024-04-10 01:12:25] INFO root fetch - processPackages [riskmapjnr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/riskmapjnr-1.2.tar.gz tmp/riskmapjnr-1.2.1.tar.gz --markdown 20240410/r/riskmapjnr/1.2-1.2.1/README.md --exclude *.pyd
+[2024-04-10 01:12:25] INFO root fetch - processPackages [gimmetool]: Remove: archive file [/home/abi/fetcher/tmp/gimmetool-0.1.8.tar.gz]
+[2024-04-10 01:12:25] INFO root fetch - processPackages [gimmetool]: Remove: archive file [/home/abi/fetcher/tmp/gimmetool-0.1.9.tar.gz]
+[2024-04-10 01:12:25] INFO root fetch - main [MainThread]: End processing [gimmetool]: success
+[2024-04-10 01:12:26] INFO root fetch - processPackages [riskmapjnr]: Remove: archive file [/home/abi/fetcher/tmp/riskmapjnr-1.2.tar.gz]
+[2024-04-10 01:12:26] INFO root fetch - processPackages [riskmapjnr]: Remove: archive file [/home/abi/fetcher/tmp/riskmapjnr-1.2.1.tar.gz]
+[2024-04-10 01:12:26] INFO root fetch - main [MainThread]: End processing [riskmapjnr]: success
+[2024-04-10 01:12:26] INFO root fetch - processPackages [marimo]: Downloading https://files.pythonhosted.org/packages/d1/3e/cd8ef9f6faa59843ce698c7b1cc4eef8af5f2abcf674fd8b5b58f9ccbe89/marimo-0.3.9.tar.gz
+[2024-04-10 01:12:27] INFO root fetch - processPackages [marimo]: executing diffoscope
+[2024-04-10 01:12:27] INFO root fetch - processPackages [marimo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marimo-0.3.8.tar.gz tmp/marimo-0.3.9.tar.gz --markdown 20240410/m/marimo/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-10 01:14:12] INFO root fetch - processPackages [marimo]: Remove: archive file [/home/abi/fetcher/tmp/marimo-0.3.8.tar.gz]
+[2024-04-10 01:14:12] INFO root fetch - processPackages [marimo]: Remove: archive file [/home/abi/fetcher/tmp/marimo-0.3.9.tar.gz]
+[2024-04-10 01:14:12] INFO root fetch - main [MainThread]: End processing [marimo]: success
+[2024-04-10 01:14:12] INFO root fetch - main [MainThread]: Store serial: [22691785]

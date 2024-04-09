@@ -2331,3 +2331,51 @@
 [2024-04-10 01:49:10] INFO root fetch - processPackages [phidata]: Remove: archive file [/home/abi/fetcher/tmp/phidata-2.3.9.tar.gz]
 [2024-04-10 01:49:10] INFO root fetch - main [MainThread]: End processing [phidata]: success
 [2024-04-10 01:49:10] INFO root fetch - main [MainThread]: Store serial: [22692031]
+[2024-04-10 01:51:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22692031]
+[2024-04-10 01:51:19] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-10 01:51:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: copyparty
+[2024-04-10 01:51:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dpd-lib
+[2024-04-10 01:51:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crowbar-package-manager
+[2024-04-10 01:51:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: uniswap-v3-liquidity-pool-simulator
+[2024-04-10 01:51:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: orji
+[2024-04-10 01:51:19] INFO root fetch - processPackages [crowbar-package-manager]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-10 01:51:19] INFO root fetch - processPackages [crowbar-package-manager]: Downloading https://files.pythonhosted.org/packages/58/fa/5c95109c9823f610e15ff2b053b0a1f761c1fecbac5ec1c83ef182ff8bac/crowbar_package_manager-0.1.3.tar.gz
+[2024-04-10 01:51:19] INFO root fetch - processPackages [uniswap-v3-liquidity-pool-simulator]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-10 01:51:19] INFO root fetch - processPackages [dpd-lib]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-10 01:51:19] INFO root fetch - processPackages [orji]: New version: [4.2.0] Old Version: [4.0.0]
+[2024-04-10 01:51:19] INFO root fetch - processPackages [copyparty]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-04-10 01:51:19] INFO root fetch - processPackages [uniswap-v3-liquidity-pool-simulator]: Downloading https://files.pythonhosted.org/packages/f4/ff/ed61e17ea90d75db123673f0ab95c2360028bcdf8e339858fa7a09083f4a/uniswap_v3_liquidity_pool_simulator-0.3.1.tar.gz
+[2024-04-10 01:51:19] INFO root fetch - processPackages [dpd-lib]: Downloading https://files.pythonhosted.org/packages/37/91/b35e5de952eb0e7f67d901ade729497af241fc393de3fd293ac00f331eb5/dpd_lib-0.0.7.tar.gz
+[2024-04-10 01:51:19] INFO root fetch - processPackages [orji]: Downloading https://files.pythonhosted.org/packages/9f/44/5ddd603feedd5c3f7bb7dbbac914645700e38ebdaea99f0eed823a01e01a/orji-4.0.0.tar.gz
+[2024-04-10 01:51:20] INFO root fetch - processPackages [crowbar-package-manager]: Downloading https://files.pythonhosted.org/packages/21/4c/b41ebe243ed5295f93a633274975b671848cebc26642deee04e43a580d0c/crowbar_package_manager-0.1.4.tar.gz
+[2024-04-10 01:51:20] INFO root fetch - processPackages [copyparty]: Downloading https://files.pythonhosted.org/packages/aa/91/e640302f729af122c993bc72216142859cf0d38009436473c9de51f2918f/copyparty-1.9.8.tar.gz
+[2024-04-10 01:51:20] INFO root fetch - processPackages [crowbar-package-manager]: executing diffoscope
+[2024-04-10 01:51:20] INFO root fetch - processPackages [crowbar-package-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crowbar_package_manager-0.1.3.tar.gz tmp/crowbar_package_manager-0.1.4.tar.gz --markdown 20240410/c/crowbar-package-manager/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-10 01:51:20] INFO root fetch - processPackages [dpd-lib]: Downloading https://files.pythonhosted.org/packages/85/ed/393ff13f9778b9563df9c998ae23cc655679f7a6782caf0808ca1bc24f5e/dpd_lib-0.0.8.tar.gz
+[2024-04-10 01:51:20] INFO root fetch - processPackages [uniswap-v3-liquidity-pool-simulator]: Downloading https://files.pythonhosted.org/packages/8a/fe/0a0bb30a79e3566405c9db9bd93fe93cdd6166ac374b6d4b1a654427fcb6/uniswap_v3_liquidity_pool_simulator-0.3.2.tar.gz
+[2024-04-10 01:51:20] INFO root fetch - processPackages [orji]: Downloading https://files.pythonhosted.org/packages/15/56/13696e7a5cd7b57eee487a1f9548ef21efc7bb66cf9d3489268005982750/orji-4.2.0.tar.gz
+[2024-04-10 01:51:20] INFO root fetch - processPackages [dpd-lib]: executing diffoscope
+[2024-04-10 01:51:20] INFO root fetch - processPackages [dpd-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dpd_lib-0.0.7.tar.gz tmp/dpd_lib-0.0.8.tar.gz --markdown 20240410/d/dpd-lib/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-10 01:51:20] INFO root fetch - processPackages [uniswap-v3-liquidity-pool-simulator]: executing diffoscope
+[2024-04-10 01:51:20] INFO root fetch - processPackages [uniswap-v3-liquidity-pool-simulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uniswap_v3_liquidity_pool_simulator-0.3.1.tar.gz tmp/uniswap_v3_liquidity_pool_simulator-0.3.2.tar.gz --markdown 20240410/u/uniswap-v3-liquidity-pool-simulator/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-04-10 01:51:20] INFO root fetch - processPackages [orji]: executing diffoscope
+[2024-04-10 01:51:20] INFO root fetch - processPackages [orji]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orji-4.0.0.tar.gz tmp/orji-4.2.0.tar.gz --markdown 20240410/o/orji/4.0.0-4.2.0/README.md --exclude *.pyd
+[2024-04-10 01:51:20] INFO root fetch - processPackages [copyparty]: Downloading https://files.pythonhosted.org/packages/fb/5b/a1bc07b4a139d33dbbb0b5355223c94f0621cab166e1b656113ab7ccb921/copyparty-1.9.9.tar.gz
+[2024-04-10 01:51:20] INFO root fetch - processPackages [crowbar-package-manager]: Remove: archive file [/home/abi/fetcher/tmp/crowbar_package_manager-0.1.3.tar.gz]
+[2024-04-10 01:51:20] INFO root fetch - processPackages [crowbar-package-manager]: Remove: archive file [/home/abi/fetcher/tmp/crowbar_package_manager-0.1.4.tar.gz]
+[2024-04-10 01:51:20] INFO root fetch - main [MainThread]: End processing [crowbar-package-manager]: success
+[2024-04-10 01:51:20] INFO root fetch - processPackages [copyparty]: executing diffoscope
+[2024-04-10 01:51:20] INFO root fetch - processPackages [copyparty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/copyparty-1.9.8.tar.gz tmp/copyparty-1.9.9.tar.gz --markdown 20240410/c/copyparty/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-04-10 01:51:20] INFO root fetch - processPackages [dpd-lib]: Remove: archive file [/home/abi/fetcher/tmp/dpd_lib-0.0.7.tar.gz]
+[2024-04-10 01:51:20] INFO root fetch - processPackages [dpd-lib]: Remove: archive file [/home/abi/fetcher/tmp/dpd_lib-0.0.8.tar.gz]
+[2024-04-10 01:51:20] INFO root fetch - main [MainThread]: End processing [dpd-lib]: success
+[2024-04-10 01:51:21] INFO root fetch - processPackages [uniswap-v3-liquidity-pool-simulator]: Remove: archive file [/home/abi/fetcher/tmp/uniswap_v3_liquidity_pool_simulator-0.3.1.tar.gz]
+[2024-04-10 01:51:21] INFO root fetch - processPackages [uniswap-v3-liquidity-pool-simulator]: Remove: archive file [/home/abi/fetcher/tmp/uniswap_v3_liquidity_pool_simulator-0.3.2.tar.gz]
+[2024-04-10 01:51:21] INFO root fetch - main [MainThread]: End processing [uniswap-v3-liquidity-pool-simulator]: success
+[2024-04-10 01:51:21] INFO root fetch - processPackages [orji]: Remove: archive file [/home/abi/fetcher/tmp/orji-4.0.0.tar.gz]
+[2024-04-10 01:51:21] INFO root fetch - processPackages [orji]: Remove: archive file [/home/abi/fetcher/tmp/orji-4.2.0.tar.gz]
+[2024-04-10 01:51:21] INFO root fetch - main [MainThread]: End processing [orji]: success
+[2024-04-10 01:51:22] INFO root fetch - processPackages [copyparty]: Remove: archive file [/home/abi/fetcher/tmp/copyparty-1.9.8.tar.gz]
+[2024-04-10 01:51:22] INFO root fetch - processPackages [copyparty]: Remove: archive file [/home/abi/fetcher/tmp/copyparty-1.9.9.tar.gz]
+[2024-04-10 01:51:22] INFO root fetch - main [MainThread]: End processing [copyparty]: success
+[2024-04-10 01:51:22] INFO root fetch - main [MainThread]: Store serial: [22692046]

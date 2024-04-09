@@ -1761,3 +1761,92 @@
 [2024-04-10 01:14:12] INFO root fetch - processPackages [marimo]: Remove: archive file [/home/abi/fetcher/tmp/marimo-0.3.9.tar.gz]
 [2024-04-10 01:14:12] INFO root fetch - main [MainThread]: End processing [marimo]: success
 [2024-04-10 01:14:12] INFO root fetch - main [MainThread]: Store serial: [22691785]
+[2024-04-10 01:16:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22691785]
+[2024-04-10 01:16:23] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-10 01:16:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: modal
+[2024-04-10 01:16:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: modal-client
+[2024-04-10 01:16:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neon-skill-local-music
+[2024-04-10 01:16:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lit-nlp
+[2024-04-10 01:16:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: latch
+[2024-04-10 01:16:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: poetry-kit
+[2024-04-10 01:16:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gimmetool
+[2024-04-10 01:16:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ladybug-rhino
+[2024-04-10 01:16:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dipdup
+[2024-04-10 01:16:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyqentangle
+[2024-04-10 01:16:23] INFO root fetch - processPackages [gimmetool]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-10 01:16:23] INFO root fetch - processPackages [modal]: New version: [0.62.9] Old Version: [0.62.8]
+[2024-04-10 01:16:23] INFO root fetch - processPackages [poetry-kit]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-10 01:16:23] INFO root fetch - processPackages [modal-client]: New version: [0.62.9] Old Version: [0.62.8]
+[2024-04-10 01:16:23] INFO root fetch - processPackages [latch]: New version: [2.9.6] Old Version: [2.9.5]
+[2024-04-10 01:16:23] INFO root fetch - processPackages [gimmetool]: Downloading https://files.pythonhosted.org/packages/5d/ed/11eeb593501f4c4eae813d61a25ae75921fc3b63d0ef9a86b8376d4306f0/gimmetool-0.1.8.tar.gz
+[2024-04-10 01:16:23] INFO root fetch - processPackages [neon-skill-local-music]: New version: [3.0.0] Old Version: [2.0.1a2]
+[2024-04-10 01:16:23] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/8a/dd/32da92c8c574400929f770cfc5c78136ebc7b566de71c8e84a423d0ee9cc/modal-0.62.8-py3-none-any.whl
+[2024-04-10 01:16:23] INFO root fetch - processPackages [pyqentangle]: New version: [4.0.0] Old Version: [3.3.2]
+[2024-04-10 01:16:23] INFO root fetch - processPackages [lit-nlp]: New version: [1.1rc3] Old Version: [1.1rc2]
+[2024-04-10 01:16:23] INFO root fetch - processPackages [ladybug-rhino]: New version: [1.9.0] Old Version: [1.8.2]
+[2024-04-10 01:16:23] INFO root fetch - processPackages [dipdup]: New version: [7.5.4] Old Version: [7.5.3]
+[2024-04-10 01:16:23] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/d0/c2/c05a679647fc54f88ed4f2453aec5ec1ea866c5ddaf1d85b52981f84c662/modal_client-0.62.8-py3-none-any.whl
+[2024-04-10 01:16:23] INFO root fetch - processPackages [latch]: Downloading https://files.pythonhosted.org/packages/79/f7/1912dae713dbd539910745289141bab27e2ec23827c1f7112accaf98bdda/latch-2.9.5.tar.gz
+[2024-04-10 01:16:23] INFO root fetch - processPackages [poetry-kit]: Downloading https://files.pythonhosted.org/packages/2e/19/d20bf5cd2175993ec5c1d307e381b8db2782e3492ee2d642c96869484824/poetry_kit-0.1.2.tar.gz
+[2024-04-10 01:16:23] INFO root fetch - processPackages [neon-skill-local-music]: Downloading https://files.pythonhosted.org/packages/bf/6d/4caa0d97566f6749b1e67a5df3815f6f1233d6fe1cea2a7bf37ceccfecaa/neon-skill-local_music-2.0.1a2.tar.gz
+[2024-04-10 01:16:23] INFO root fetch - processPackages [gimmetool]: Downloading https://files.pythonhosted.org/packages/db/c8/235b3a59fc40f652af7200c1f4fbde3d2c45a1ceda688f54aae8623d5910/gimmetool-0.1.9.tar.gz
+[2024-04-10 01:16:23] INFO root fetch - processPackages [pyqentangle]: Downloading https://files.pythonhosted.org/packages/d9/d8/61595989686459b056d244c64c0ea823c5da76a39475ded95b096040632e/pyqentangle-3.3.2.tar.gz
+[2024-04-10 01:16:23] INFO root fetch - processPackages [ladybug-rhino]: Downloading https://files.pythonhosted.org/packages/3e/ea/279627047f65a2f54a45f8477bb6a56f8dd994d92483ad83290eaf24ac31/ladybug-rhino-1.8.2.tar.gz
+[2024-04-10 01:16:23] INFO root fetch - processPackages [dipdup]: Downloading https://files.pythonhosted.org/packages/95/08/7294cb0e8009e70946d252420bad7cf3eb9d023a811171f182cc4ee01d1f/dipdup-7.5.3.tar.gz
+[2024-04-10 01:16:23] INFO root fetch - processPackages [lit-nlp]: Downloading https://files.pythonhosted.org/packages/8f/0a/b582b91e93b88084e45b719ee9752919ee793d49297dabeb95457ccad4ee/lit_nlp-1.1rc2-py3-none-any.whl
+[2024-04-10 01:16:23] INFO root fetch - processPackages [latch]: Downloading https://files.pythonhosted.org/packages/5e/5a/e91171b6eca0ba929f7259719a3d389fd86242408d94dbf266925a9f4d21/latch-2.9.6.tar.gz
+[2024-04-10 01:16:23] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/c0/f7/8dd227328bcea0baf27836ce9f00c26e7e27195101883dc782c55387e12f/modal-0.62.9-py3-none-any.whl
+[2024-04-10 01:16:23] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/08/2d/ba9d3e39c32f579d689b9f619a197109b7086b3f8e0764e5eed9501a303e/modal_client-0.62.9-py3-none-any.whl
+[2024-04-10 01:16:23] INFO root fetch - processPackages [gimmetool]: executing diffoscope
+[2024-04-10 01:16:23] INFO root fetch - processPackages [gimmetool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gimmetool-0.1.8.tar.gz tmp/gimmetool-0.1.9.tar.gz --markdown 20240410/g/gimmetool/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-10 01:16:23] INFO root fetch - processPackages [poetry-kit]: Downloading https://files.pythonhosted.org/packages/0e/e6/3537e725bd85339d5f1ca89ba4721f3a82065f4ff817218fb283959129aa/poetry_kit-0.1.3.tar.gz
+[2024-04-10 01:16:23] WARNING root fetch - processPackages [lit-nlp]: Skipping package: exceeds size limit 11960375>=10485760
+[2024-04-10 01:16:23] INFO root fetch - main [MainThread]: End processing [lit-nlp] error
+[2024-04-10 01:16:24] INFO root fetch - processPackages [latch]: executing diffoscope
+[2024-04-10 01:16:24] INFO root fetch - processPackages [latch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latch-2.9.5.tar.gz tmp/latch-2.9.6.tar.gz --markdown 20240410/l/latch/2.9.5-2.9.6/README.md --exclude *.pyd
+[2024-04-10 01:16:24] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2024-04-10 01:16:24] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.62.8-py3-none-any.whl.zip tmp/modal_client-0.62.9-py3-none-any.whl.zip --markdown 20240410/m/modal-client/0.62.8-0.62.9/README.md --exclude *.pyd
+[2024-04-10 01:16:24] INFO root fetch - processPackages [poetry-kit]: executing diffoscope
+[2024-04-10 01:16:24] INFO root fetch - processPackages [poetry-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry_kit-0.1.2.tar.gz tmp/poetry_kit-0.1.3.tar.gz --markdown 20240410/p/poetry-kit/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-10 01:16:24] INFO root fetch - processPackages [modal]: executing diffoscope
+[2024-04-10 01:16:24] INFO root fetch - processPackages [modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal-0.62.8-py3-none-any.whl.zip tmp/modal-0.62.9-py3-none-any.whl.zip --markdown 20240410/m/modal/0.62.8-0.62.9/README.md --exclude *.pyd
+[2024-04-10 01:16:24] INFO root fetch - processPackages [neon-skill-local-music]: Downloading https://files.pythonhosted.org/packages/d5/e3/bbd0d0b3e0098cd56b910253c3bc4a160a3584a03bafff82640613f930a8/neon-skill-local_music-3.0.0.tar.gz
+[2024-04-10 01:16:24] INFO root fetch - processPackages [dipdup]: Downloading https://files.pythonhosted.org/packages/ba/d3/165667f6a7365bf28ecc6d3f837e8e4042f4230ec8fe1c86a1d33ae48d92/dipdup-7.5.4.tar.gz
+[2024-04-10 01:16:24] INFO root fetch - processPackages [pyqentangle]: Downloading https://files.pythonhosted.org/packages/52/22/08b30c921a8b40ec79142f1d9f236f5c17c595a54ebab54da24ae19c7e81/pyqentangle-4.0.0.tar.gz
+[2024-04-10 01:16:24] INFO root fetch - processPackages [neon-skill-local-music]: executing diffoscope
+[2024-04-10 01:16:24] INFO root fetch - processPackages [neon-skill-local-music]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-skill-local_music-2.0.1a2.tar.gz tmp/neon-skill-local_music-3.0.0.tar.gz --markdown 20240410/n/neon-skill-local-music/2.0.1a2-3.0.0/README.md --exclude *.pyd
+[2024-04-10 01:16:24] INFO root fetch - processPackages [ladybug-rhino]: Downloading https://files.pythonhosted.org/packages/ae/2c/4b673aff780c15e5f2dbf5d94772c420baf196f6fdccfad08abb98e5e21d/ladybug-rhino-1.9.0.tar.gz
+[2024-04-10 01:16:24] INFO root fetch - processPackages [pyqentangle]: executing diffoscope
+[2024-04-10 01:16:24] INFO root fetch - processPackages [pyqentangle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqentangle-3.3.2.tar.gz tmp/pyqentangle-4.0.0.tar.gz --markdown 20240410/p/pyqentangle/3.3.2-4.0.0/README.md --exclude *.pyd
+[2024-04-10 01:16:24] INFO root fetch - processPackages [dipdup]: executing diffoscope
+[2024-04-10 01:16:24] INFO root fetch - processPackages [dipdup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dipdup-7.5.3.tar.gz tmp/dipdup-7.5.4.tar.gz --markdown 20240410/d/dipdup/7.5.3-7.5.4/README.md --exclude *.pyd
+[2024-04-10 01:16:24] INFO root fetch - processPackages [ladybug-rhino]: executing diffoscope
+[2024-04-10 01:16:24] INFO root fetch - processPackages [ladybug-rhino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ladybug-rhino-1.8.2.tar.gz tmp/ladybug-rhino-1.9.0.tar.gz --markdown 20240410/l/ladybug-rhino/1.8.2-1.9.0/README.md --exclude *.pyd
+[2024-04-10 01:16:24] INFO root fetch - processPackages [gimmetool]: Remove: archive file [/home/abi/fetcher/tmp/gimmetool-0.1.8.tar.gz]
+[2024-04-10 01:16:24] INFO root fetch - processPackages [gimmetool]: Remove: archive file [/home/abi/fetcher/tmp/gimmetool-0.1.9.tar.gz]
+[2024-04-10 01:16:24] INFO root fetch - main [MainThread]: End processing [gimmetool]: success
+[2024-04-10 01:16:24] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.8-py3-none-any.whl.zip]
+[2024-04-10 01:16:24] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.9-py3-none-any.whl.zip]
+[2024-04-10 01:16:24] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2024-04-10 01:16:24] INFO root fetch - processPackages [poetry-kit]: Remove: archive file [/home/abi/fetcher/tmp/poetry_kit-0.1.2.tar.gz]
+[2024-04-10 01:16:24] INFO root fetch - processPackages [poetry-kit]: Remove: archive file [/home/abi/fetcher/tmp/poetry_kit-0.1.3.tar.gz]
+[2024-04-10 01:16:24] INFO root fetch - main [MainThread]: End processing [poetry-kit]: success
+[2024-04-10 01:16:25] INFO root fetch - processPackages [neon-skill-local-music]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-local_music-2.0.1a2.tar.gz]
+[2024-04-10 01:16:25] INFO root fetch - processPackages [neon-skill-local-music]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-local_music-3.0.0.tar.gz]
+[2024-04-10 01:16:25] INFO root fetch - main [MainThread]: End processing [neon-skill-local-music]: success
+[2024-04-10 01:16:25] INFO root fetch - processPackages [latch]: Remove: archive file [/home/abi/fetcher/tmp/latch-2.9.5.tar.gz]
+[2024-04-10 01:16:25] INFO root fetch - processPackages [latch]: Remove: archive file [/home/abi/fetcher/tmp/latch-2.9.6.tar.gz]
+[2024-04-10 01:16:25] INFO root fetch - main [MainThread]: End processing [latch]: success
+[2024-04-10 01:16:25] INFO root fetch - processPackages [pyqentangle]: Remove: archive file [/home/abi/fetcher/tmp/pyqentangle-3.3.2.tar.gz]
+[2024-04-10 01:16:25] INFO root fetch - processPackages [pyqentangle]: Remove: archive file [/home/abi/fetcher/tmp/pyqentangle-4.0.0.tar.gz]
+[2024-04-10 01:16:25] INFO root fetch - main [MainThread]: End processing [pyqentangle]: success
+[2024-04-10 01:16:25] INFO root fetch - processPackages [ladybug-rhino]: Remove: archive file [/home/abi/fetcher/tmp/ladybug-rhino-1.8.2.tar.gz]
+[2024-04-10 01:16:25] INFO root fetch - processPackages [ladybug-rhino]: Remove: archive file [/home/abi/fetcher/tmp/ladybug-rhino-1.9.0.tar.gz]
+[2024-04-10 01:16:25] INFO root fetch - main [MainThread]: End processing [ladybug-rhino]: success
+[2024-04-10 01:16:25] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.8-py3-none-any.whl.zip]
+[2024-04-10 01:16:25] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.9-py3-none-any.whl.zip]
+[2024-04-10 01:16:25] INFO root fetch - main [MainThread]: End processing [modal]: success
+[2024-04-10 01:16:27] INFO root fetch - processPackages [dipdup]: Remove: archive file [/home/abi/fetcher/tmp/dipdup-7.5.3.tar.gz]
+[2024-04-10 01:16:27] INFO root fetch - processPackages [dipdup]: Remove: archive file [/home/abi/fetcher/tmp/dipdup-7.5.4.tar.gz]
+[2024-04-10 01:16:27] INFO root fetch - main [MainThread]: End processing [dipdup]: success
+[2024-04-10 01:16:27] INFO root fetch - main [MainThread]: Store serial: [22691816]

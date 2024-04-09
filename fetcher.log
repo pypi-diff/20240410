@@ -1020,3 +1020,42 @@
 [2024-04-10 00:33:07] INFO root fetch - processPackages [RePoE-Liberatorist]: Remove: archive file [/home/abi/fetcher/tmp/RePoE-Liberatorist-3.24.2.tar.gz]
 [2024-04-10 00:33:07] INFO root fetch - main [MainThread]: End processing [RePoE-Liberatorist]: success
 [2024-04-10 00:33:07] INFO root fetch - main [MainThread]: Store serial: [22691396]
+[2024-04-10 00:35:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22691396]
+[2024-04-10 00:35:15] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-10 00:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: smart-parallelize
+[2024-04-10 00:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-basin3d
+[2024-04-10 00:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: strongmind-deployment
+[2024-04-10 00:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: neon-skill-stock
+[2024-04-10 00:35:16] INFO root fetch - processPackages [strongmind-deployment]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-10 00:35:16] INFO root fetch - processPackages [strongmind-deployment]: Downloading https://files.pythonhosted.org/packages/de/69/7affef034a8cc439299b7c10392fa3dd56d032f014227a41862459b148e4/strongmind_deployment-1.1.8-py3-none-any.whl
+[2024-04-10 00:35:16] INFO root fetch - processPackages [django-basin3d]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-10 00:35:16] INFO root fetch - processPackages [smart-parallelize]: New version: [2.0.4] Old Version: [2.0.3]
+[2024-04-10 00:35:16] INFO root fetch - processPackages [neon-skill-stock]: New version: [1.0.1a3] Old Version: [1.0.1a2]
+[2024-04-10 00:35:16] INFO root fetch - processPackages [strongmind-deployment]: Downloading https://files.pythonhosted.org/packages/5b/ba/dfff734cecbb562528e00f018bdcb29f003363634c8751df68b5e0b372d7/strongmind_deployment-1.1.9-py3-none-any.whl
+[2024-04-10 00:35:16] INFO root fetch - processPackages [neon-skill-stock]: Downloading https://files.pythonhosted.org/packages/b3/17/a7fee2ef925cc7b8bb654751fb432d5068daa2cd85a488e8d4388dc41e31/neon-skill-stock-1.0.1a2.tar.gz
+[2024-04-10 00:35:16] INFO root fetch - processPackages [django-basin3d]: Downloading https://files.pythonhosted.org/packages/f4/0d/d7b30d33e58f0e5a11dfe1bb02e39855d53249da6b8d581f14628baea212/django-basin3d-1.0.8.tar.gz
+[2024-04-10 00:35:16] INFO root fetch - processPackages [smart-parallelize]: Downloading https://files.pythonhosted.org/packages/b9/3e/73a739ca8058db2feab630436a20cbcf91150022cffb01b9caaa56d44200/smart_parallelize-2.0.3.tar.gz
+[2024-04-10 00:35:16] INFO root fetch - processPackages [strongmind-deployment]: executing diffoscope
+[2024-04-10 00:35:16] INFO root fetch - processPackages [strongmind-deployment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strongmind_deployment-1.1.8-py3-none-any.whl.zip tmp/strongmind_deployment-1.1.9-py3-none-any.whl.zip --markdown 20240410/s/strongmind-deployment/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-04-10 00:35:16] INFO root fetch - processPackages [neon-skill-stock]: Downloading https://files.pythonhosted.org/packages/b8/11/4fd8550f7c4035026da46163593859c34f5a558b6cb52819bf843b240635/neon-skill-stock-1.0.1a3.tar.gz
+[2024-04-10 00:35:16] INFO root fetch - processPackages [smart-parallelize]: Downloading https://files.pythonhosted.org/packages/22/7f/fa42624efbf0c7c2f1496ca0280bb7e65439dcf475db49370394c77cff1d/smart_parallelize-2.0.4.tar.gz
+[2024-04-10 00:35:16] INFO root fetch - processPackages [django-basin3d]: Downloading https://files.pythonhosted.org/packages/c6/52/a8c65edd7f0be056616e8f5414fd2b4f3848b74f3401d2fdf46c58a900bb/django-basin3d-1.0.9.tar.gz
+[2024-04-10 00:35:16] INFO root fetch - processPackages [smart-parallelize]: executing diffoscope
+[2024-04-10 00:35:16] INFO root fetch - processPackages [smart-parallelize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smart_parallelize-2.0.3.tar.gz tmp/smart_parallelize-2.0.4.tar.gz --markdown 20240410/s/smart-parallelize/2.0.3-2.0.4/README.md --exclude *.pyd
+[2024-04-10 00:35:16] INFO root fetch - processPackages [neon-skill-stock]: executing diffoscope
+[2024-04-10 00:35:16] INFO root fetch - processPackages [neon-skill-stock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-skill-stock-1.0.1a2.tar.gz tmp/neon-skill-stock-1.0.1a3.tar.gz --markdown 20240410/n/neon-skill-stock/1.0.1a2-1.0.1a3/README.md --exclude *.pyd
+[2024-04-10 00:35:16] INFO root fetch - processPackages [django-basin3d]: executing diffoscope
+[2024-04-10 00:35:16] INFO root fetch - processPackages [django-basin3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-basin3d-1.0.8.tar.gz tmp/django-basin3d-1.0.9.tar.gz --markdown 20240410/d/django-basin3d/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-10 00:35:17] INFO root fetch - processPackages [strongmind-deployment]: Remove: archive file [/home/abi/fetcher/tmp/strongmind_deployment-1.1.8-py3-none-any.whl.zip]
+[2024-04-10 00:35:17] INFO root fetch - processPackages [strongmind-deployment]: Remove: archive file [/home/abi/fetcher/tmp/strongmind_deployment-1.1.9-py3-none-any.whl.zip]
+[2024-04-10 00:35:17] INFO root fetch - main [MainThread]: End processing [strongmind-deployment]: success
+[2024-04-10 00:35:17] INFO root fetch - processPackages [smart-parallelize]: Remove: archive file [/home/abi/fetcher/tmp/smart_parallelize-2.0.3.tar.gz]
+[2024-04-10 00:35:17] INFO root fetch - processPackages [smart-parallelize]: Remove: archive file [/home/abi/fetcher/tmp/smart_parallelize-2.0.4.tar.gz]
+[2024-04-10 00:35:17] INFO root fetch - main [MainThread]: End processing [smart-parallelize]: success
+[2024-04-10 00:35:17] INFO root fetch - processPackages [django-basin3d]: Remove: archive file [/home/abi/fetcher/tmp/django-basin3d-1.0.8.tar.gz]
+[2024-04-10 00:35:17] INFO root fetch - processPackages [django-basin3d]: Remove: archive file [/home/abi/fetcher/tmp/django-basin3d-1.0.9.tar.gz]
+[2024-04-10 00:35:17] INFO root fetch - main [MainThread]: End processing [django-basin3d]: success
+[2024-04-10 00:35:17] INFO root fetch - processPackages [neon-skill-stock]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-stock-1.0.1a2.tar.gz]
+[2024-04-10 00:35:17] INFO root fetch - processPackages [neon-skill-stock]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-stock-1.0.1a3.tar.gz]
+[2024-04-10 00:35:17] INFO root fetch - main [MainThread]: End processing [neon-skill-stock]: success
+[2024-04-10 00:35:17] INFO root fetch - main [MainThread]: Store serial: [22691407]

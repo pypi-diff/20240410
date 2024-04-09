@@ -1495,3 +1495,51 @@
 [2024-04-10 00:59:19] INFO root fetch - processPackages [chickenstats]: Remove: archive file [/home/abi/fetcher/tmp/chickenstats-1.7.8.tar.gz]
 [2024-04-10 00:59:19] INFO root fetch - main [MainThread]: End processing [chickenstats]: success
 [2024-04-10 00:59:19] INFO root fetch - main [MainThread]: Store serial: [22691619]
+[2024-04-10 01:01:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22691619]
+[2024-04-10 01:01:28] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-10 01:01:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chartfactor
+[2024-04-10 01:01:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: circup
+[2024-04-10 01:01:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chartfactor-jlab-ext
+[2024-04-10 01:01:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: circuitpython-build-tools
+[2024-04-10 01:01:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: agentops
+[2024-04-10 01:01:28] INFO root fetch - processPackages [circuitpython-build-tools]: New version: [1.9.0] Old Version: [1.8.6]
+[2024-04-10 01:01:28] INFO root fetch - processPackages [agentops]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-10 01:01:28] INFO root fetch - processPackages [circup]: New version: [1.7.0] Old Version: [1.6.2]
+[2024-04-10 01:01:28] INFO root fetch - processPackages [chartfactor]: New version: [5.0.5] Old Version: [5.0.4]
+[2024-04-10 01:01:28] INFO root fetch - processPackages [chartfactor-jlab-ext]: New version: [5.0.5] Old Version: [5.0.4]
+[2024-04-10 01:01:28] INFO root fetch - processPackages [circup]: Downloading https://files.pythonhosted.org/packages/38/05/cf551780a0d4397b5d93131af1a726f6cf6d7fc910c45600abff7edac515/circup-1.6.2.tar.gz
+[2024-04-10 01:01:28] INFO root fetch - processPackages [agentops]: Downloading https://files.pythonhosted.org/packages/1d/ec/1d2af6e33dd097feaf1e41a4d34c66d4e4e59ce35c5efac85c18614b9d4b/agentops-0.1.1.tar.gz
+[2024-04-10 01:01:28] INFO root fetch - processPackages [circuitpython-build-tools]: Downloading https://files.pythonhosted.org/packages/f7/a7/62a98a7db8ad85e758802dddfad1d6f3093128d2c7487059629ffcc5d1e6/circuitpython-build-tools-1.8.6.tar.gz
+[2024-04-10 01:01:28] INFO root fetch - processPackages [chartfactor-jlab-ext]: Downloading https://files.pythonhosted.org/packages/28/4c/3a41c2c824a4b837c05648a49669cd6e6acd6502d48fe1f50234dfc8cf93/chartfactor-jlab-ext-5.0.4.tar.gz
+[2024-04-10 01:01:28] INFO root fetch - processPackages [chartfactor]: Downloading https://files.pythonhosted.org/packages/48/97/b7c1bbf0fb8cbc847023e56c19a80f580ce29bf068571cd93bf19f068181/chartfactor-5.0.4.tar.gz
+[2024-04-10 01:01:28] INFO root fetch - processPackages [circup]: Downloading https://files.pythonhosted.org/packages/27/b3/26e43f9cbb135f0252ddb622bf641c1753f1a1e6722900f3286ebcc62dec/circup-1.7.0.tar.gz
+[2024-04-10 01:01:28] INFO root fetch - processPackages [chartfactor-jlab-ext]: Downloading https://files.pythonhosted.org/packages/23/aa/3569b72abd2674ac60cbd5be7fa5bf6e0c0f86706c90deb81324141fc66d/chartfactor-jlab-ext-5.0.5.tar.gz
+[2024-04-10 01:01:28] INFO root fetch - processPackages [agentops]: Downloading https://files.pythonhosted.org/packages/8a/cc/872aba374093481bb40ed6b7531b1500b00138baf6bfb9ca7c20fb889d58/agentops-0.1.2.tar.gz
+[2024-04-10 01:01:29] INFO root fetch - processPackages [chartfactor]: Downloading https://files.pythonhosted.org/packages/93/c1/9f3706ead4b2943f24bb44ed668efce32d427993be54894ff069529e1021/chartfactor-5.0.5.tar.gz
+[2024-04-10 01:01:29] INFO root fetch - processPackages [circuitpython-build-tools]: Downloading https://files.pythonhosted.org/packages/91/65/1835f5e3902aac3369459170b3d4658524d43e0317e7907a0f88c851e149/circuitpython-build-tools-1.9.0.tar.gz
+[2024-04-10 01:01:29] INFO root fetch - processPackages [circup]: executing diffoscope
+[2024-04-10 01:01:29] INFO root fetch - processPackages [circup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circup-1.6.2.tar.gz tmp/circup-1.7.0.tar.gz --markdown 20240410/c/circup/1.6.2-1.7.0/README.md --exclude *.pyd
+[2024-04-10 01:01:29] INFO root fetch - processPackages [agentops]: executing diffoscope
+[2024-04-10 01:01:29] INFO root fetch - processPackages [agentops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentops-0.1.1.tar.gz tmp/agentops-0.1.2.tar.gz --markdown 20240410/a/agentops/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-10 01:01:29] INFO root fetch - processPackages [chartfactor-jlab-ext]: executing diffoscope
+[2024-04-10 01:01:29] INFO root fetch - processPackages [chartfactor-jlab-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chartfactor-jlab-ext-5.0.4.tar.gz tmp/chartfactor-jlab-ext-5.0.5.tar.gz --markdown 20240410/c/chartfactor-jlab-ext/5.0.4-5.0.5/README.md --exclude *.pyd
+[2024-04-10 01:01:29] INFO root fetch - processPackages [chartfactor]: executing diffoscope
+[2024-04-10 01:01:29] INFO root fetch - processPackages [chartfactor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chartfactor-5.0.4.tar.gz tmp/chartfactor-5.0.5.tar.gz --markdown 20240410/c/chartfactor/5.0.4-5.0.5/README.md --exclude *.pyd
+[2024-04-10 01:01:29] INFO root fetch - processPackages [circuitpython-build-tools]: executing diffoscope
+[2024-04-10 01:01:29] INFO root fetch - processPackages [circuitpython-build-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circuitpython-build-tools-1.8.6.tar.gz tmp/circuitpython-build-tools-1.9.0.tar.gz --markdown 20240410/c/circuitpython-build-tools/1.8.6-1.9.0/README.md --exclude *.pyd
+[2024-04-10 01:01:29] INFO root fetch - processPackages [circup]: Remove: archive file [/home/abi/fetcher/tmp/circup-1.6.2.tar.gz]
+[2024-04-10 01:01:29] INFO root fetch - processPackages [circup]: Remove: archive file [/home/abi/fetcher/tmp/circup-1.7.0.tar.gz]
+[2024-04-10 01:01:29] INFO root fetch - main [MainThread]: End processing [circup]: success
+[2024-04-10 01:01:29] INFO root fetch - processPackages [agentops]: Remove: archive file [/home/abi/fetcher/tmp/agentops-0.1.1.tar.gz]
+[2024-04-10 01:01:29] INFO root fetch - processPackages [agentops]: Remove: archive file [/home/abi/fetcher/tmp/agentops-0.1.2.tar.gz]
+[2024-04-10 01:01:29] INFO root fetch - main [MainThread]: End processing [agentops]: success
+[2024-04-10 01:01:29] INFO root fetch - processPackages [circuitpython-build-tools]: Remove: archive file [/home/abi/fetcher/tmp/circuitpython-build-tools-1.8.6.tar.gz]
+[2024-04-10 01:01:29] INFO root fetch - processPackages [circuitpython-build-tools]: Remove: archive file [/home/abi/fetcher/tmp/circuitpython-build-tools-1.9.0.tar.gz]
+[2024-04-10 01:01:29] INFO root fetch - main [MainThread]: End processing [circuitpython-build-tools]: success
+[2024-04-10 01:01:30] INFO root fetch - processPackages [chartfactor]: Remove: archive file [/home/abi/fetcher/tmp/chartfactor-5.0.4.tar.gz]
+[2024-04-10 01:01:30] INFO root fetch - processPackages [chartfactor]: Remove: archive file [/home/abi/fetcher/tmp/chartfactor-5.0.5.tar.gz]
+[2024-04-10 01:01:30] INFO root fetch - main [MainThread]: End processing [chartfactor]: success
+[2024-04-10 01:01:30] INFO root fetch - processPackages [chartfactor-jlab-ext]: Remove: archive file [/home/abi/fetcher/tmp/chartfactor-jlab-ext-5.0.4.tar.gz]
+[2024-04-10 01:01:30] INFO root fetch - processPackages [chartfactor-jlab-ext]: Remove: archive file [/home/abi/fetcher/tmp/chartfactor-jlab-ext-5.0.5.tar.gz]
+[2024-04-10 01:01:30] INFO root fetch - main [MainThread]: End processing [chartfactor-jlab-ext]: success
+[2024-04-10 01:01:30] INFO root fetch - main [MainThread]: Store serial: [22691633]

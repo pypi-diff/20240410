@@ -1326,3 +1326,67 @@
 [2024-04-10 00:50:31] INFO root fetch - processPackages [cpg-workflows]: Remove: archive file [/home/abi/fetcher/tmp/cpg-workflows-1.9.1.tar.gz]
 [2024-04-10 00:50:31] INFO root fetch - main [MainThread]: End processing [cpg-workflows]: success
 [2024-04-10 00:50:31] INFO root fetch - main [MainThread]: Store serial: [22691531]
+[2024-04-10 00:52:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22691531]
+[2024-04-10 00:52:40] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-10 00:52:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gimmetool
+[2024-04-10 00:52:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shipyard-http
+[2024-04-10 00:52:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: airbyte-source-stripe
+[2024-04-10 00:52:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aerospike
+[2024-04-10 00:52:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gimmetool
+[2024-04-10 00:52:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: langtrace-python-sdk
+[2024-04-10 00:52:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: latch
+[2024-04-10 00:52:40] INFO root fetch - processPackages [gimmetool]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-10 00:52:40] INFO root fetch - processPackages [gimmetool]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-10 00:52:40] INFO root fetch - processPackages [airbyte-source-stripe]: New version: [5.3.0.dev202404091750] Old Version: [5.3.0.dev202404090224]
+[2024-04-10 00:52:40] INFO root fetch - processPackages [shipyard-http]: New version: [0.1.1a1] Old Version: [0.1.1a0]
+[2024-04-10 00:52:40] INFO root fetch - processPackages [latch]: New version: [2.9.6] Old Version: [2.9.5]
+[2024-04-10 00:52:40] INFO root fetch - processPackages [gimmetool]: Downloading https://files.pythonhosted.org/packages/e3/a0/c5a7a306c6304f3980989689d4e16540bab2ca7ee5be8ce11ad13dcbdb21/gimmetool-0.1.6.tar.gz
+[2024-04-10 00:52:40] INFO root fetch - processPackages [gimmetool]: Downloading https://files.pythonhosted.org/packages/e3/a0/c5a7a306c6304f3980989689d4e16540bab2ca7ee5be8ce11ad13dcbdb21/gimmetool-0.1.6.tar.gz
+[2024-04-10 00:52:40] INFO root fetch - processPackages [airbyte-source-stripe]: Downloading https://files.pythonhosted.org/packages/11/9a/6951a45b0cb65fc56081a82a286384a4c95a37ed0c3cb09d76bb4b855d1e/airbyte_source_stripe-5.3.0.dev202404090224.tar.gz
+[2024-04-10 00:52:40] INFO root fetch - processPackages [langtrace-python-sdk]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-04-10 00:52:40] INFO root fetch - processPackages [shipyard-http]: Downloading https://files.pythonhosted.org/packages/d3/ae/1d69e2f6063531e804509bff9618db0942c1b75493f13825298563227d2d/shipyard_http-0.1.1a0.tar.gz
+[2024-04-10 00:52:40] INFO root fetch - processPackages [latch]: Downloading https://files.pythonhosted.org/packages/79/f7/1912dae713dbd539910745289141bab27e2ec23827c1f7112accaf98bdda/latch-2.9.5.tar.gz
+[2024-04-10 00:52:40] INFO root fetch - processPackages [aerospike]: New version: [9.0.0] Old Version: [8.0.0]
+[2024-04-10 00:52:41] INFO root fetch - processPackages [latch]: Downloading https://files.pythonhosted.org/packages/5e/5a/e91171b6eca0ba929f7259719a3d389fd86242408d94dbf266925a9f4d21/latch-2.9.6.tar.gz
+[2024-04-10 00:52:41] INFO root fetch - processPackages [langtrace-python-sdk]: Downloading https://files.pythonhosted.org/packages/a4/ef/481e0ed40325edb8017528b343798616b10c4cdd501969ba15e16d95d4db/langtrace_python_sdk-1.2.8.tar.gz
+[2024-04-10 00:52:41] INFO root fetch - processPackages [aerospike]: Downloading https://files.pythonhosted.org/packages/18/61/bffdba7d07fb9f65db2e47fc4e0104507c4a6989ffcf296febe95c6d3e79/aerospike-8.0.0.tar.gz
+[2024-04-10 00:52:41] INFO root fetch - processPackages [gimmetool]: Downloading https://files.pythonhosted.org/packages/81/61/85ffbdeb8b487aff859c10fbc0b25443f413228cc9c81acfcec2121aced3/gimmetool-0.1.7.tar.gz
+[2024-04-10 00:52:41] INFO root fetch - processPackages [gimmetool]: Downloading https://files.pythonhosted.org/packages/81/61/85ffbdeb8b487aff859c10fbc0b25443f413228cc9c81acfcec2121aced3/gimmetool-0.1.7.tar.gz
+[2024-04-10 00:52:41] INFO root fetch - processPackages [shipyard-http]: Downloading https://files.pythonhosted.org/packages/98/76/25eed6686fcce549885599db02478447e18a59d3f8090b73ae22358790ab/shipyard_http-0.1.1a1.tar.gz
+[2024-04-10 00:52:41] INFO root fetch - processPackages [latch]: executing diffoscope
+[2024-04-10 00:52:41] INFO root fetch - processPackages [latch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latch-2.9.5.tar.gz tmp/latch-2.9.6.tar.gz --markdown 20240410/l/latch/2.9.5-2.9.6/README.md --exclude *.pyd
+[2024-04-10 00:52:41] INFO root fetch - processPackages [airbyte-source-stripe]: Downloading https://files.pythonhosted.org/packages/35/6c/98d16f8b196628e8e9b77417c7fe020678de8b601efd3fad7c3697604c90/airbyte_source_stripe-5.3.0.dev202404091750.tar.gz
+[2024-04-10 00:52:41] INFO root fetch - processPackages [gimmetool]: executing diffoscope
+[2024-04-10 00:52:41] INFO root fetch - processPackages [gimmetool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gimmetool-0.1.6.tar.gz tmp/gimmetool-0.1.7.tar.gz --markdown 20240410/g/gimmetool/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-10 00:52:41] INFO root fetch - processPackages [gimmetool]: executing diffoscope
+[2024-04-10 00:52:41] INFO root fetch - processPackages [gimmetool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gimmetool-0.1.6.tar.gz tmp/gimmetool-0.1.7.tar.gz --markdown 20240410/g/gimmetool/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-10 00:52:41] INFO root fetch - processPackages [shipyard-http]: executing diffoscope
+[2024-04-10 00:52:41] INFO root fetch - processPackages [shipyard-http]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipyard_http-0.1.1a0.tar.gz tmp/shipyard_http-0.1.1a1.tar.gz --markdown 20240410/s/shipyard-http/0.1.1a0-0.1.1a1/README.md --exclude *.pyd
+[2024-04-10 00:52:41] INFO root fetch - processPackages [langtrace-python-sdk]: Downloading https://files.pythonhosted.org/packages/c1/d6/f58d5bf271b0dd4701d47b4b17041a9bc5e9129514abef119cd8be7fbb48/langtrace_python_sdk-1.2.9.tar.gz
+[2024-04-10 00:52:41] INFO root fetch - processPackages [langtrace-python-sdk]: executing diffoscope
+[2024-04-10 00:52:41] INFO root fetch - processPackages [langtrace-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langtrace_python_sdk-1.2.8.tar.gz tmp/langtrace_python_sdk-1.2.9.tar.gz --markdown 20240410/l/langtrace-python-sdk/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-04-10 00:52:41] INFO root fetch - processPackages [airbyte-source-stripe]: executing diffoscope
+[2024-04-10 00:52:41] INFO root fetch - processPackages [airbyte-source-stripe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_stripe-5.3.0.dev202404090224.tar.gz tmp/airbyte_source_stripe-5.3.0.dev202404091750.tar.gz --markdown 20240410/a/airbyte-source-stripe/5.3.0.dev202404090224-5.3.0.dev202404091750/README.md --exclude *.pyd
+[2024-04-10 00:52:41] INFO root fetch - processPackages [aerospike]: Downloading https://files.pythonhosted.org/packages/76/e2/b2b03dd789481fb087c47937f25e73455bd661edc719c50654fba8ba976b/aerospike-9.0.0.tar.gz
+[2024-04-10 00:52:41] INFO root fetch - processPackages [gimmetool]: Remove: archive file [/home/abi/fetcher/tmp/gimmetool-0.1.6.tar.gz]
+[2024-04-10 00:52:41] INFO root fetch - processPackages [gimmetool]: Remove: archive file [/home/abi/fetcher/tmp/gimmetool-0.1.7.tar.gz]
+[2024-04-10 00:52:41] INFO root fetch - main [MainThread]: End processing [gimmetool]: success
+[2024-04-10 00:52:42] INFO root fetch - processPackages [shipyard-http]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_http-0.1.1a0.tar.gz]
+[2024-04-10 00:52:42] INFO root fetch - processPackages [shipyard-http]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_http-0.1.1a1.tar.gz]
+[2024-04-10 00:52:42] INFO root fetch - main [MainThread]: End processing [shipyard-http]: success
+[2024-04-10 00:52:42] INFO root fetch - main [MainThread]: End processing [gimmetool]: success
+[2024-04-10 00:52:42] INFO root fetch - processPackages [langtrace-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/langtrace_python_sdk-1.2.8.tar.gz]
+[2024-04-10 00:52:42] INFO root fetch - processPackages [langtrace-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/langtrace_python_sdk-1.2.9.tar.gz]
+[2024-04-10 00:52:42] INFO root fetch - main [MainThread]: End processing [langtrace-python-sdk]: success
+[2024-04-10 00:52:42] INFO root fetch - processPackages [aerospike]: executing diffoscope
+[2024-04-10 00:52:42] INFO root fetch - processPackages [aerospike]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aerospike-8.0.0.tar.gz tmp/aerospike-9.0.0.tar.gz --markdown 20240410/a/aerospike/8.0.0-9.0.0/README.md --exclude *.pyd
+[2024-04-10 00:52:42] INFO root fetch - processPackages [latch]: Remove: archive file [/home/abi/fetcher/tmp/latch-2.9.5.tar.gz]
+[2024-04-10 00:52:42] INFO root fetch - processPackages [latch]: Remove: archive file [/home/abi/fetcher/tmp/latch-2.9.6.tar.gz]
+[2024-04-10 00:52:42] INFO root fetch - main [MainThread]: End processing [latch]: success
+[2024-04-10 00:52:42] INFO root fetch - processPackages [airbyte-source-stripe]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_stripe-5.3.0.dev202404090224.tar.gz]
+[2024-04-10 00:52:42] INFO root fetch - processPackages [airbyte-source-stripe]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_stripe-5.3.0.dev202404091750.tar.gz]
+[2024-04-10 00:52:42] INFO root fetch - main [MainThread]: End processing [airbyte-source-stripe]: success
+[2024-04-10 00:52:48] INFO root fetch - processPackages [aerospike]: Remove: archive file [/home/abi/fetcher/tmp/aerospike-8.0.0.tar.gz]
+[2024-04-10 00:52:48] INFO root fetch - processPackages [aerospike]: Remove: archive file [/home/abi/fetcher/tmp/aerospike-9.0.0.tar.gz]
+[2024-04-10 00:52:48] INFO root fetch - main [MainThread]: End processing [aerospike]: success
+[2024-04-10 00:52:48] INFO root fetch - main [MainThread]: Store serial: [22691576]

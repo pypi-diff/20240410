@@ -739,3 +739,45 @@
 [2024-04-10 00:17:42] INFO root fetch - processPackages [instagram-dlpy]: Remove: archive file [/home/abi/fetcher/tmp/instagram-dlpy-1.1.0.tar.gz]
 [2024-04-10 00:17:42] INFO root fetch - main [MainThread]: End processing [instagram-dlpy]: success
 [2024-04-10 00:17:42] INFO root fetch - main [MainThread]: Store serial: [22691262]
+[2024-04-10 00:19:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22691262]
+[2024-04-10 00:19:50] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-10 00:19:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: enwiki-offline
+[2024-04-10 00:19:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: libbs
+[2024-04-10 00:19:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pydmclab
+[2024-04-10 00:19:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyVecs
+[2024-04-10 00:19:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: binsync
+[2024-04-10 00:19:50] INFO root fetch - processPackages [binsync]: New version: [4.1.5] Old Version: [4.1.4]
+[2024-04-10 00:19:50] INFO root fetch - processPackages [PyVecs]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-10 00:19:50] WARNING root fetch - processPackages [enwiki-offline]: Skipping, unable to determine old version
+[2024-04-10 00:19:50] INFO root fetch - main [MainThread]: End processing [enwiki-offline] error
+[2024-04-10 00:19:50] INFO root fetch - processPackages [pydmclab]: New version: [1.1.4] Old Version: [1.0.3]
+[2024-04-10 00:19:50] INFO root fetch - processPackages [binsync]: Downloading https://files.pythonhosted.org/packages/9c/3a/9d117ffb4c58829984eb1f253bd36bd82b4c973556ed1555abde5887da38/binsync-4.1.4.tar.gz
+[2024-04-10 00:19:50] INFO root fetch - processPackages [libbs]: New version: [1.2.5] Old Version: [1.2.4]
+[2024-04-10 00:19:50] INFO root fetch - processPackages [pydmclab]: Downloading https://files.pythonhosted.org/packages/0d/e8/e04964a26bbec747731507e139429e6bcde1a5508a447a497f20c36d8f97/pydmclab-1.0.3.tar.gz
+[2024-04-10 00:19:50] INFO root fetch - processPackages [libbs]: Downloading https://files.pythonhosted.org/packages/60/dc/6e3bcd3fc434d116b378edd1ecba50d5c8a0a745e7e14bd633a3b171eb4d/libbs-1.2.4.tar.gz
+[2024-04-10 00:19:51] INFO root fetch - processPackages [binsync]: Downloading https://files.pythonhosted.org/packages/c9/f0/ac4485b7f88a7aefc864db955b3c7ca6dd49e302f6dba79eeed64393e8a8/binsync-4.1.5.tar.gz
+[2024-04-10 00:19:51] INFO root fetch - processPackages [PyVecs]: Downloading https://files.pythonhosted.org/packages/1b/dc/6a23efd140f56361662eb45b1e816838800949b76106f253e476265d2cb0/PyVecs-0.0.5.tar.gz
+[2024-04-10 00:19:51] INFO root fetch - processPackages [binsync]: executing diffoscope
+[2024-04-10 00:19:51] INFO root fetch - processPackages [binsync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/binsync-4.1.4.tar.gz tmp/binsync-4.1.5.tar.gz --markdown 20240410/b/binsync/4.1.4-4.1.5/README.md --exclude *.pyd
+[2024-04-10 00:19:51] INFO root fetch - processPackages [libbs]: Downloading https://files.pythonhosted.org/packages/96/bf/f5df13289b4c211d5cc7a75e9cfab82b02fd7aa2aa6586c34ef379761c31/libbs-1.2.5.tar.gz
+[2024-04-10 00:19:51] INFO root fetch - processPackages [pydmclab]: Downloading https://files.pythonhosted.org/packages/9a/be/492bcb9aa7d83d7e318bfe7d798d7d8366b725282792b0d10c8695aa4b7b/pydmclab-1.1.4.tar.gz
+[2024-04-10 00:19:51] INFO root fetch - processPackages [PyVecs]: Downloading https://files.pythonhosted.org/packages/73/a7/23160c2c8530266e4ab743f8c8a1f8afc6a54cf8659587e40d06647584c1/PyVecs-0.0.6.tar.gz
+[2024-04-10 00:19:51] INFO root fetch - processPackages [libbs]: executing diffoscope
+[2024-04-10 00:19:51] INFO root fetch - processPackages [libbs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libbs-1.2.4.tar.gz tmp/libbs-1.2.5.tar.gz --markdown 20240410/l/libbs/1.2.4-1.2.5/README.md --exclude *.pyd
+[2024-04-10 00:19:51] INFO root fetch - processPackages [pydmclab]: executing diffoscope
+[2024-04-10 00:19:51] INFO root fetch - processPackages [pydmclab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydmclab-1.0.3.tar.gz tmp/pydmclab-1.1.4.tar.gz --markdown 20240410/p/pydmclab/1.0.3-1.1.4/README.md --exclude *.pyd
+[2024-04-10 00:19:51] INFO root fetch - processPackages [PyVecs]: executing diffoscope
+[2024-04-10 00:19:51] INFO root fetch - processPackages [PyVecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyVecs-0.0.5.tar.gz tmp/PyVecs-0.0.6.tar.gz --markdown 20240410/P/PyVecs/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-10 00:19:51] INFO root fetch - processPackages [binsync]: Remove: archive file [/home/abi/fetcher/tmp/binsync-4.1.4.tar.gz]
+[2024-04-10 00:19:51] INFO root fetch - processPackages [binsync]: Remove: archive file [/home/abi/fetcher/tmp/binsync-4.1.5.tar.gz]
+[2024-04-10 00:19:51] INFO root fetch - main [MainThread]: End processing [binsync]: success
+[2024-04-10 00:19:52] INFO root fetch - processPackages [libbs]: Remove: archive file [/home/abi/fetcher/tmp/libbs-1.2.4.tar.gz]
+[2024-04-10 00:19:52] INFO root fetch - processPackages [libbs]: Remove: archive file [/home/abi/fetcher/tmp/libbs-1.2.5.tar.gz]
+[2024-04-10 00:19:52] INFO root fetch - main [MainThread]: End processing [libbs]: success
+[2024-04-10 00:19:52] INFO root fetch - processPackages [PyVecs]: Remove: archive file [/home/abi/fetcher/tmp/PyVecs-0.0.5.tar.gz]
+[2024-04-10 00:19:52] INFO root fetch - processPackages [PyVecs]: Remove: archive file [/home/abi/fetcher/tmp/PyVecs-0.0.6.tar.gz]
+[2024-04-10 00:19:52] INFO root fetch - main [MainThread]: End processing [PyVecs]: success
+[2024-04-10 00:19:52] INFO root fetch - processPackages [pydmclab]: Remove: archive file [/home/abi/fetcher/tmp/pydmclab-1.0.3.tar.gz]
+[2024-04-10 00:19:52] INFO root fetch - processPackages [pydmclab]: Remove: archive file [/home/abi/fetcher/tmp/pydmclab-1.1.4.tar.gz]
+[2024-04-10 00:19:52] INFO root fetch - main [MainThread]: End processing [pydmclab]: success
+[2024-04-10 00:19:52] INFO root fetch - main [MainThread]: Store serial: [22691279]

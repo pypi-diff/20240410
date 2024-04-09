@@ -1059,3 +1059,77 @@
 [2024-04-10 00:35:17] INFO root fetch - processPackages [neon-skill-stock]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-stock-1.0.1a3.tar.gz]
 [2024-04-10 00:35:17] INFO root fetch - main [MainThread]: End processing [neon-skill-stock]: success
 [2024-04-10 00:35:17] INFO root fetch - main [MainThread]: Store serial: [22691407]
+[2024-04-10 00:37:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22691407]
+[2024-04-10 00:37:26] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-10 00:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spartaqube
+[2024-04-10 00:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: secator
+[2024-04-10 00:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: experiment-lab
+[2024-04-10 00:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: keyvi
+[2024-04-10 00:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rox
+[2024-04-10 00:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hostfact-python-client
+[2024-04-10 00:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ortelius-cli
+[2024-04-10 00:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: argclass
+[2024-04-10 00:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: shipyard-http
+[2024-04-10 00:37:26] INFO root fetch - processPackages [hostfact-python-client]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-10 00:37:26] INFO root fetch - processPackages [secator]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-04-10 00:37:26] INFO root fetch - processPackages [experiment-lab]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-10 00:37:26] INFO root fetch - processPackages [ortelius-cli]: New version: [9.3.270] Old Version: [9.3.269]
+[2024-04-10 00:37:26] INFO root fetch - processPackages [argclass]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-10 00:37:26] INFO root fetch - processPackages [hostfact-python-client]: Downloading https://files.pythonhosted.org/packages/83/f1/b23358ff29ca2b88c1a0970b9e17c9aed4ed0e1fab930293e1ac523d9fa5/hostfact_python_client-0.1.7.tar.gz
+[2024-04-10 00:37:26] INFO root fetch - processPackages [rox]: New version: [5.1.3] Old Version: [5.1.2]
+[2024-04-10 00:37:26] INFO root fetch - processPackages [spartaqube]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-10 00:37:26] INFO root fetch - processPackages [secator]: Downloading https://files.pythonhosted.org/packages/ee/4d/369f4cd37c0d5effdccc0d8e4887468667ead807729fcd46e323b6587e2e/secator-0.1.1.tar.gz
+[2024-04-10 00:37:26] INFO root fetch - processPackages [shipyard-http]: New version: [0.1.1a0] Old Version: [0.1.0a1]
+[2024-04-10 00:37:26] INFO root fetch - processPackages [experiment-lab]: Downloading https://files.pythonhosted.org/packages/21/64/22bb52c0d0df84b1da9b7e5b6f33c75e29b592499add76dc75956014d96e/experiment-lab-1.0.5.tar.gz
+[2024-04-10 00:37:26] INFO root fetch - processPackages [ortelius-cli]: Downloading https://files.pythonhosted.org/packages/42/62/3e45d3d5ce75c60f3e0134c820643fb4ec71dbc1aa1b6c90d0a3f6eb7d79/ortelius-cli-9.3.269.tar.gz
+[2024-04-10 00:37:26] WARNING root fetch - processPackages [secator]: Skipping package: exceeds size limit 23065195>=10485760
+[2024-04-10 00:37:26] INFO root fetch - main [MainThread]: End processing [secator] error
+[2024-04-10 00:37:26] INFO root fetch - processPackages [keyvi]: New version: [0.6.0] Old Version: [0.5.8.dev4]
+[2024-04-10 00:37:26] INFO root fetch - processPackages [argclass]: Downloading https://files.pythonhosted.org/packages/5a/53/bd742d89b2256083ece2d568bf2c0c998f208fbb825eaf7a4207cb7174e8/argclass-1.0.0.tar.gz
+[2024-04-10 00:37:26] INFO root fetch - processPackages [spartaqube]: Downloading https://files.pythonhosted.org/packages/b8/54/09ee1066cc86db23b3adc6892915d5d6eff56976fa094cdec2dcf9f51907/spartaqube-0.1.1.tar.gz
+[2024-04-10 00:37:26] INFO root fetch - processPackages [experiment-lab]: Downloading https://files.pythonhosted.org/packages/42/9e/b5f8d91574d1e19908571bfb279ed572f955c9ba590e394c918e462c9037/experiment-lab-1.0.6.tar.gz
+[2024-04-10 00:37:26] INFO root fetch - processPackages [rox]: Downloading https://files.pythonhosted.org/packages/1f/ac/0a47815f870eccdeaa3760a02d9d47feee24dda29c24dc2cbea5ee6a81ed/rox-5.1.2.tar.gz
+[2024-04-10 00:37:26] INFO root fetch - processPackages [hostfact-python-client]: Downloading https://files.pythonhosted.org/packages/bc/1f/098b4024c861f3d9d7342bd996e3d5a2dea4f25eeafdb304b9566db4d52b/hostfact_python_client-0.1.8.tar.gz
+[2024-04-10 00:37:26] INFO root fetch - processPackages [shipyard-http]: Downloading https://files.pythonhosted.org/packages/0d/74/755d4e2824c899ea06df9386621cd860b64c13971382c24d455935547a58/shipyard_http-0.1.0a1.tar.gz
+[2024-04-10 00:37:26] INFO root fetch - processPackages [keyvi]: Downloading https://files.pythonhosted.org/packages/75/47/90d7715f9fa95aad70ed7f5703c8bebcbc87474fb16efe46da2014e3f0ae/keyvi-0.5.8.dev4.tar.gz
+[2024-04-10 00:37:26] INFO root fetch - processPackages [ortelius-cli]: Downloading https://files.pythonhosted.org/packages/98/c9/da141242eb3250091c4a84e0c1512d1361bd978190e05eba11c4d5afb198/ortelius-cli-9.3.270.tar.gz
+[2024-04-10 00:37:26] INFO root fetch - processPackages [experiment-lab]: executing diffoscope
+[2024-04-10 00:37:26] INFO root fetch - processPackages [experiment-lab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/experiment-lab-1.0.5.tar.gz tmp/experiment-lab-1.0.6.tar.gz --markdown 20240410/e/experiment-lab/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-04-10 00:37:26] INFO root fetch - processPackages [hostfact-python-client]: executing diffoscope
+[2024-04-10 00:37:26] INFO root fetch - processPackages [hostfact-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hostfact_python_client-0.1.7.tar.gz tmp/hostfact_python_client-0.1.8.tar.gz --markdown 20240410/h/hostfact-python-client/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-10 00:37:27] INFO root fetch - processPackages [ortelius-cli]: executing diffoscope
+[2024-04-10 00:37:27] INFO root fetch - processPackages [ortelius-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ortelius-cli-9.3.269.tar.gz tmp/ortelius-cli-9.3.270.tar.gz --markdown 20240410/o/ortelius-cli/9.3.269-9.3.270/README.md --exclude *.pyd
+[2024-04-10 00:37:27] INFO root fetch - processPackages [spartaqube]: Downloading https://files.pythonhosted.org/packages/00/af/638bf29ace15fdd544fd75af0a58a2dd0eba80e3ab20ff6f9e2cf84388ed/spartaqube-0.1.2.tar.gz
+[2024-04-10 00:37:27] INFO root fetch - processPackages [rox]: Downloading https://files.pythonhosted.org/packages/d8/3f/f1b7d3cb2f0512a526cdfc8594a29775df8a15f82384e5e4dc285fb27389/rox-5.1.3.tar.gz
+[2024-04-10 00:37:27] INFO root fetch - processPackages [argclass]: Downloading https://files.pythonhosted.org/packages/f8/c6/8fab93f28579081217f0aeca4f022becc25590d18d1810a7f50500bc70b3/argclass-1.0.1.tar.gz
+[2024-04-10 00:37:27] INFO root fetch - processPackages [shipyard-http]: Downloading https://files.pythonhosted.org/packages/d3/ae/1d69e2f6063531e804509bff9618db0942c1b75493f13825298563227d2d/shipyard_http-0.1.1a0.tar.gz
+[2024-04-10 00:37:27] WARNING root fetch - processPackages [spartaqube]: Skipping package: exceeds size limit 17603818>=10485760
+[2024-04-10 00:37:27] INFO root fetch - main [MainThread]: End processing [spartaqube] error
+[2024-04-10 00:37:27] INFO root fetch - processPackages [rox]: executing diffoscope
+[2024-04-10 00:37:27] INFO root fetch - processPackages [rox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rox-5.1.2.tar.gz tmp/rox-5.1.3.tar.gz --markdown 20240410/r/rox/5.1.2-5.1.3/README.md --exclude *.pyd
+[2024-04-10 00:37:27] INFO root fetch - processPackages [argclass]: executing diffoscope
+[2024-04-10 00:37:27] INFO root fetch - processPackages [argclass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argclass-1.0.0.tar.gz tmp/argclass-1.0.1.tar.gz --markdown 20240410/a/argclass/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-10 00:37:27] INFO root fetch - processPackages [shipyard-http]: executing diffoscope
+[2024-04-10 00:37:27] INFO root fetch - processPackages [shipyard-http]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipyard_http-0.1.0a1.tar.gz tmp/shipyard_http-0.1.1a0.tar.gz --markdown 20240410/s/shipyard-http/0.1.0a1-0.1.1a0/README.md --exclude *.pyd
+[2024-04-10 00:37:27] INFO root fetch - processPackages [experiment-lab]: Remove: archive file [/home/abi/fetcher/tmp/experiment-lab-1.0.5.tar.gz]
+[2024-04-10 00:37:27] INFO root fetch - processPackages [experiment-lab]: Remove: archive file [/home/abi/fetcher/tmp/experiment-lab-1.0.6.tar.gz]
+[2024-04-10 00:37:27] INFO root fetch - main [MainThread]: End processing [experiment-lab]: success
+[2024-04-10 00:37:27] INFO root fetch - processPackages [keyvi]: Downloading https://files.pythonhosted.org/packages/5f/3b/f44a7fb4ec321c04e8f52bfca36c723056848569d782fe5a31bb900e1e6b/keyvi-0.6.0-pp310-pypy310_pp73-macosx_10_9_x86_64.whl
+[2024-04-10 00:37:27] INFO root fetch - processPackages [ortelius-cli]: Remove: archive file [/home/abi/fetcher/tmp/ortelius-cli-9.3.269.tar.gz]
+[2024-04-10 00:37:27] INFO root fetch - processPackages [ortelius-cli]: Remove: archive file [/home/abi/fetcher/tmp/ortelius-cli-9.3.270.tar.gz]
+[2024-04-10 00:37:27] INFO root fetch - main [MainThread]: End processing [ortelius-cli]: success
+[2024-04-10 00:37:27] INFO root fetch - processPackages [hostfact-python-client]: Remove: archive file [/home/abi/fetcher/tmp/hostfact_python_client-0.1.7.tar.gz]
+[2024-04-10 00:37:27] INFO root fetch - processPackages [hostfact-python-client]: Remove: archive file [/home/abi/fetcher/tmp/hostfact_python_client-0.1.8.tar.gz]
+[2024-04-10 00:37:27] INFO root fetch - main [MainThread]: End processing [hostfact-python-client]: success
+[2024-04-10 00:37:27] INFO root fetch - processPackages [argclass]: Remove: archive file [/home/abi/fetcher/tmp/argclass-1.0.0.tar.gz]
+[2024-04-10 00:37:27] INFO root fetch - processPackages [argclass]: Remove: archive file [/home/abi/fetcher/tmp/argclass-1.0.1.tar.gz]
+[2024-04-10 00:37:27] INFO root fetch - main [MainThread]: End processing [argclass]: success
+[2024-04-10 00:37:27] INFO root fetch - processPackages [shipyard-http]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_http-0.1.0a1.tar.gz]
+[2024-04-10 00:37:27] INFO root fetch - processPackages [shipyard-http]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_http-0.1.1a0.tar.gz]
+[2024-04-10 00:37:28] INFO root fetch - main [MainThread]: End processing [shipyard-http]: success
+[2024-04-10 00:37:28] INFO root fetch - processPackages [rox]: Remove: archive file [/home/abi/fetcher/tmp/rox-5.1.2.tar.gz]
+[2024-04-10 00:37:28] INFO root fetch - processPackages [rox]: Remove: archive file [/home/abi/fetcher/tmp/rox-5.1.3.tar.gz]
+[2024-04-10 00:37:28] INFO root fetch - main [MainThread]: End processing [rox]: success
+[2024-04-10 00:37:28] WARNING root fetch - processPackages [keyvi]: Skipping package: exceeds size limit 16043759>=10485760
+[2024-04-10 00:37:28] INFO root fetch - main [MainThread]: End processing [keyvi] error
+[2024-04-10 00:37:28] INFO root fetch - main [MainThread]: Store serial: [22691460]

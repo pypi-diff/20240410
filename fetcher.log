@@ -1850,3 +1850,42 @@
 [2024-04-10 01:16:27] INFO root fetch - processPackages [dipdup]: Remove: archive file [/home/abi/fetcher/tmp/dipdup-7.5.4.tar.gz]
 [2024-04-10 01:16:27] INFO root fetch - main [MainThread]: End processing [dipdup]: success
 [2024-04-10 01:16:27] INFO root fetch - main [MainThread]: Store serial: [22691816]
+[2024-04-10 01:18:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22691816]
+[2024-04-10 01:18:35] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-10 01:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: taskara
+[2024-04-10 01:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: poetry-kit
+[2024-04-10 01:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: am-viewer
+[2024-04-10 01:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyTDC
+[2024-04-10 01:18:36] INFO root fetch - processPackages [poetry-kit]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-10 01:18:36] INFO root fetch - processPackages [taskara]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-10 01:18:36] INFO root fetch - processPackages [PyTDC]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-10 01:18:36] INFO root fetch - processPackages [am-viewer]: New version: [4.1.0] Old Version: [4.0.2]
+[2024-04-10 01:18:36] INFO root fetch - processPackages [taskara]: Downloading https://files.pythonhosted.org/packages/d6/1e/172ae85d48722a1e28b9526c0bb34465bd7920d0c8e6858e25a3f8c528a9/taskara-0.1.7.tar.gz
+[2024-04-10 01:18:36] INFO root fetch - processPackages [poetry-kit]: Downloading https://files.pythonhosted.org/packages/0e/e6/3537e725bd85339d5f1ca89ba4721f3a82065f4ff817218fb283959129aa/poetry_kit-0.1.3.tar.gz
+[2024-04-10 01:18:36] INFO root fetch - processPackages [PyTDC]: Downloading https://files.pythonhosted.org/packages/35/ba/72250ebc371b0429e67c15d022593bd8804f2132bf1e0d8ef9946e8e65e5/PyTDC-0.4.8.tar.gz
+[2024-04-10 01:18:36] INFO root fetch - processPackages [taskara]: Downloading https://files.pythonhosted.org/packages/c0/4f/e9467a6dd755091e2fe2294b58569b289c5252fd70463791829fd99fbfd7/taskara-0.1.8.tar.gz
+[2024-04-10 01:18:36] INFO root fetch - processPackages [am-viewer]: Downloading https://files.pythonhosted.org/packages/7f/e9/da67a056835ef482f4f6e88e5a8051057ce04636b2a287561388372b5953/am_viewer-4.0.2-py3-none-any.whl
+[2024-04-10 01:18:36] INFO root fetch - processPackages [poetry-kit]: Downloading https://files.pythonhosted.org/packages/09/e8/9d02824558d978814d36f76819ca5cf43bf1650d71109a14fd380c6e0cfc/poetry_kit-0.1.4.tar.gz
+[2024-04-10 01:18:36] INFO root fetch - processPackages [taskara]: executing diffoscope
+[2024-04-10 01:18:36] INFO root fetch - processPackages [taskara]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskara-0.1.7.tar.gz tmp/taskara-0.1.8.tar.gz --markdown 20240410/t/taskara/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-10 01:18:36] INFO root fetch - processPackages [PyTDC]: Downloading https://files.pythonhosted.org/packages/99/89/920e17b7b936051eb7b7f1db9ca7858d7c8830b0a9452b8a2a787f4a2828/PyTDC-0.4.9.tar.gz
+[2024-04-10 01:18:36] INFO root fetch - processPackages [poetry-kit]: executing diffoscope
+[2024-04-10 01:18:36] INFO root fetch - processPackages [poetry-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry_kit-0.1.3.tar.gz tmp/poetry_kit-0.1.4.tar.gz --markdown 20240410/p/poetry-kit/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-10 01:18:36] INFO root fetch - processPackages [PyTDC]: executing diffoscope
+[2024-04-10 01:18:36] INFO root fetch - processPackages [PyTDC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyTDC-0.4.8.tar.gz tmp/PyTDC-0.4.9.tar.gz --markdown 20240410/P/PyTDC/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-04-10 01:18:37] INFO root fetch - processPackages [taskara]: Remove: archive file [/home/abi/fetcher/tmp/taskara-0.1.7.tar.gz]
+[2024-04-10 01:18:37] INFO root fetch - processPackages [taskara]: Remove: archive file [/home/abi/fetcher/tmp/taskara-0.1.8.tar.gz]
+[2024-04-10 01:18:37] INFO root fetch - main [MainThread]: End processing [taskara]: success
+[2024-04-10 01:18:37] INFO root fetch - processPackages [poetry-kit]: Remove: archive file [/home/abi/fetcher/tmp/poetry_kit-0.1.3.tar.gz]
+[2024-04-10 01:18:37] INFO root fetch - processPackages [poetry-kit]: Remove: archive file [/home/abi/fetcher/tmp/poetry_kit-0.1.4.tar.gz]
+[2024-04-10 01:18:37] INFO root fetch - main [MainThread]: End processing [poetry-kit]: success
+[2024-04-10 01:18:37] INFO root fetch - processPackages [PyTDC]: Remove: archive file [/home/abi/fetcher/tmp/PyTDC-0.4.8.tar.gz]
+[2024-04-10 01:18:37] INFO root fetch - processPackages [PyTDC]: Remove: archive file [/home/abi/fetcher/tmp/PyTDC-0.4.9.tar.gz]
+[2024-04-10 01:18:37] INFO root fetch - main [MainThread]: End processing [PyTDC]: success
+[2024-04-10 01:18:37] INFO root fetch - processPackages [am-viewer]: Downloading https://files.pythonhosted.org/packages/fd/1c/e1beb7e503ae46f4d12eb506a99f15e3f5194c30858b6c873641bf807417/am_viewer-4.1.0-py3-none-any.whl
+[2024-04-10 01:18:37] INFO root fetch - processPackages [am-viewer]: executing diffoscope
+[2024-04-10 01:18:37] INFO root fetch - processPackages [am-viewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/am_viewer-4.0.2-py3-none-any.whl.zip tmp/am_viewer-4.1.0-py3-none-any.whl.zip --markdown 20240410/a/am-viewer/4.0.2-4.1.0/README.md --exclude *.pyd
+[2024-04-10 01:18:38] INFO root fetch - processPackages [am-viewer]: Remove: archive file [/home/abi/fetcher/tmp/am_viewer-4.0.2-py3-none-any.whl.zip]
+[2024-04-10 01:18:38] INFO root fetch - processPackages [am-viewer]: Remove: archive file [/home/abi/fetcher/tmp/am_viewer-4.1.0-py3-none-any.whl.zip]
+[2024-04-10 01:18:38] INFO root fetch - main [MainThread]: End processing [am-viewer]: success
+[2024-04-10 01:18:38] INFO root fetch - main [MainThread]: Store serial: [22691827]

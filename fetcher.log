@@ -2444,3 +2444,15 @@
 [2024-04-10 01:57:47] INFO root fetch - processPackages [constituent-treelib]: Remove: archive file [/home/abi/fetcher/tmp/constituent_treelib-0.0.7.tar.gz]
 [2024-04-10 01:57:47] INFO root fetch - main [MainThread]: End processing [constituent-treelib]: success
 [2024-04-10 01:57:47] INFO root fetch - main [MainThread]: Store serial: [22692070]
+[2024-04-10 01:59:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22692070]
+[2024-04-10 01:59:56] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-10 01:59:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ASUllm
+[2024-04-10 01:59:56] INFO root fetch - processPackages [ASUllm]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-10 01:59:56] INFO root fetch - processPackages [ASUllm]: Downloading https://files.pythonhosted.org/packages/93/5e/fc258c6a0fe05ed0e58a548c088b9fd5d5a29cd44a7ffd3fb159149451eb/ASUllm-0.0.2.tar.gz
+[2024-04-10 01:59:56] INFO root fetch - processPackages [ASUllm]: Downloading https://files.pythonhosted.org/packages/91/be/094c3311c5fb7bd4c98edb321869ae642d6774ae877ef2b4fbde238e9fdb/ASUllm-0.0.3.tar.gz
+[2024-04-10 01:59:56] INFO root fetch - processPackages [ASUllm]: executing diffoscope
+[2024-04-10 01:59:56] INFO root fetch - processPackages [ASUllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ASUllm-0.0.2.tar.gz tmp/ASUllm-0.0.3.tar.gz --markdown 20240410/A/ASUllm/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-10 01:59:57] INFO root fetch - processPackages [ASUllm]: Remove: archive file [/home/abi/fetcher/tmp/ASUllm-0.0.2.tar.gz]
+[2024-04-10 01:59:57] INFO root fetch - processPackages [ASUllm]: Remove: archive file [/home/abi/fetcher/tmp/ASUllm-0.0.3.tar.gz]
+[2024-04-10 01:59:57] INFO root fetch - main [MainThread]: End processing [ASUllm]: success
+[2024-04-10 01:59:57] INFO root fetch - main [MainThread]: Store serial: [22692076]

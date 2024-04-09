@@ -541,3 +541,105 @@
 [2024-04-10 00:11:05] INFO root fetch - processPackages [gaussianutility]: Remove: archive file [/home/abi/fetcher/tmp/gaussianutility-0.1.4.tar.gz]
 [2024-04-10 00:11:05] INFO root fetch - main [MainThread]: End processing [gaussianutility]: success
 [2024-04-10 00:11:05] INFO root fetch - main [MainThread]: Store serial: [22691204]
+[2024-04-10 00:13:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22691204]
+[2024-04-10 00:13:14] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-10 00:13:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langchain-experimental
+[2024-04-10 00:13:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: RePoE-Liberatorist
+[2024-04-10 00:13:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aind-data-schema
+[2024-04-10 00:13:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hcs-cli
+[2024-04-10 00:13:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sentry-devenv
+[2024-04-10 00:13:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cirq-ionq
+[2024-04-10 00:13:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ZAmino.fix
+[2024-04-10 00:13:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cirq-pasqal
+[2024-04-10 00:13:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cirq
+[2024-04-10 00:13:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cirq-core
+[2024-04-10 00:13:14] INFO root fetch - processPackages [cirq-pasqal]: New version: [1.4.0.dev20240409213157] Old Version: [1.4.0.dev20240409210425]
+[2024-04-10 00:13:14] INFO root fetch - processPackages [RePoE-Liberatorist]: New version: [3.24.1] Old Version: [3.24.0]
+[2024-04-10 00:13:14] INFO root fetch - processPackages [sentry-devenv]: New version: [1.6.1] Old Version: [1.6.0]
+[2024-04-10 00:13:14] INFO root fetch - processPackages [cirq-ionq]: New version: [1.4.0.dev20240409213157] Old Version: [1.4.0.dev20240409210425]
+[2024-04-10 00:13:14] INFO root fetch - processPackages [cirq]: New version: [1.4.0.dev20240409213157] Old Version: [1.4.0.dev20240409210425]
+[2024-04-10 00:13:14] INFO root fetch - processPackages [cirq-core]: New version: [1.4.0.dev20240409213157] Old Version: [1.4.0.dev20240409210425]
+[2024-04-10 00:13:14] INFO root fetch - processPackages [langchain-experimental]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-10 00:13:14] INFO root fetch - processPackages [aind-data-schema]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-04-10 00:13:14] INFO root fetch - processPackages [ZAmino.fix]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-04-10 00:13:14] INFO root fetch - processPackages [hcs-cli]: New version: [0.1.98] Old Version: [0.1.97]
+[2024-04-10 00:13:14] INFO root fetch - processPackages [cirq-pasqal]: Downloading https://files.pythonhosted.org/packages/10/e7/3b17d33c1538f97cf9c03f708f8e31e7f8483d4e37ac0aaae52d9a49416b/cirq_pasqal-1.4.0.dev20240409210425-py3-none-any.whl
+[2024-04-10 00:13:14] INFO root fetch - processPackages [cirq]: Downloading https://files.pythonhosted.org/packages/43/13/dcad4f6bc51755585349c3ffa2233a260a7dfbadd8c06c9530d155a2f068/cirq-1.4.0.dev20240409210425-py3-none-any.whl
+[2024-04-10 00:13:14] INFO root fetch - processPackages [cirq-ionq]: Downloading https://files.pythonhosted.org/packages/a6/ae/c7825a7e98382f10ca50196cd843c006aae61ffb44681d5b7d514fe949ba/cirq_ionq-1.4.0.dev20240409210425-py3-none-any.whl
+[2024-04-10 00:13:14] INFO root fetch - processPackages [cirq-core]: Downloading https://files.pythonhosted.org/packages/01/5b/a236a125c0f9d130fca1e6d391a54dc98024ad0c95778e4c70a903e134f7/cirq_core-1.4.0.dev20240409210425-py3-none-any.whl
+[2024-04-10 00:13:14] INFO root fetch - processPackages [sentry-devenv]: Downloading https://files.pythonhosted.org/packages/aa/21/56945853d7b59f8e1df900f87fa30c5559453cf78b7bb4230b42f0d03428/sentry_devenv-1.6.0.tar.gz
+[2024-04-10 00:13:14] INFO root fetch - processPackages [RePoE-Liberatorist]: Downloading https://files.pythonhosted.org/packages/54/09/c4a8262f500011a40814c5d3d6a34c26d621ee3c8a779e3be7e788ed69ec/RePoE-Liberatorist-3.24.0.tar.gz
+[2024-04-10 00:13:14] INFO root fetch - processPackages [aind-data-schema]: Downloading https://files.pythonhosted.org/packages/f0/3d/4b855ccf3f1b8204c6d84b119d9c98b856c1659bfafe8aa893009a0e4d63/aind-data-schema-0.9.5.tar.gz
+[2024-04-10 00:13:14] INFO root fetch - processPackages [langchain-experimental]: Downloading https://files.pythonhosted.org/packages/70/22/a4c157ecf8ec1ca0521d60f2e0efb9895206295af068db4773bbf7ecc7e6/langchain_experimental-0.0.8.tar.gz
+[2024-04-10 00:13:14] INFO root fetch - processPackages [hcs-cli]: Downloading https://files.pythonhosted.org/packages/f8/df/208577492e791a01b215928ef17543dd71d1db9c71661a2eaf3b2c739e78/hcs-cli-0.1.97.tar.gz
+[2024-04-10 00:13:14] INFO root fetch - processPackages [ZAmino.fix]: Downloading https://files.pythonhosted.org/packages/71/f9/8fd0a9f4c29f2977cb9c970ebff8114b8d0be954396f2d7692ddbf092359/ZAmino.fix-1.1.1.tar.gz
+[2024-04-10 00:13:14] INFO root fetch - processPackages [cirq-ionq]: Downloading https://files.pythonhosted.org/packages/1d/5d/0520d2aa2a0e81c2505ddb3aa83ea877ac528b25af4ed6e5d7cffa32465a/cirq_ionq-1.4.0.dev20240409213157-py3-none-any.whl
+[2024-04-10 00:13:14] INFO root fetch - processPackages [sentry-devenv]: Downloading https://files.pythonhosted.org/packages/ef/4f/9c2c6bde56fd52f8b732d25f39ea2be3f4b5508fb66c9ee8529fc0f1c07d/sentry_devenv-1.6.1.tar.gz
+[2024-04-10 00:13:15] INFO root fetch - processPackages [cirq-pasqal]: Downloading https://files.pythonhosted.org/packages/76/b3/9997716d4664dcc95791c21efc7b205916822eec5b013dafe062604f7133/cirq_pasqal-1.4.0.dev20240409213157-py3-none-any.whl
+[2024-04-10 00:13:15] INFO root fetch - processPackages [cirq]: Downloading https://files.pythonhosted.org/packages/cd/c6/8dec33e8ed164bf2e7074be09f9cc32fcf34956ae664c008e0cc2d438a17/cirq-1.4.0.dev20240409213157-py3-none-any.whl
+[2024-04-10 00:13:15] INFO root fetch - processPackages [sentry-devenv]: executing diffoscope
+[2024-04-10 00:13:15] INFO root fetch - processPackages [sentry-devenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry_devenv-1.6.0.tar.gz tmp/sentry_devenv-1.6.1.tar.gz --markdown 20240410/s/sentry-devenv/1.6.0-1.6.1/README.md --exclude *.pyd
+[2024-04-10 00:13:15] INFO root fetch - processPackages [cirq-ionq]: executing diffoscope
+[2024-04-10 00:13:15] INFO root fetch - processPackages [cirq-ionq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_ionq-1.4.0.dev20240409210425-py3-none-any.whl.zip tmp/cirq_ionq-1.4.0.dev20240409213157-py3-none-any.whl.zip --markdown 20240410/c/cirq-ionq/1.4.0.dev20240409210425-1.4.0.dev20240409213157/README.md --exclude *.pyd
+[2024-04-10 00:13:15] INFO root fetch - processPackages [cirq-core]: Downloading https://files.pythonhosted.org/packages/d0/80/d0cfc399c02daf0db30ef06fc6011af63c906aeb96739ce770e16270cb5b/cirq_core-1.4.0.dev20240409213157-py3-none-any.whl
+[2024-04-10 00:13:15] INFO root fetch - processPackages [cirq]: executing diffoscope
+[2024-04-10 00:13:15] INFO root fetch - processPackages [cirq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq-1.4.0.dev20240409210425-py3-none-any.whl.zip tmp/cirq-1.4.0.dev20240409213157-py3-none-any.whl.zip --markdown 20240410/c/cirq/1.4.0.dev20240409210425-1.4.0.dev20240409213157/README.md --exclude *.pyd
+[2024-04-10 00:13:15] INFO root fetch - processPackages [cirq-pasqal]: executing diffoscope
+[2024-04-10 00:13:15] INFO root fetch - processPackages [cirq-pasqal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_pasqal-1.4.0.dev20240409210425-py3-none-any.whl.zip tmp/cirq_pasqal-1.4.0.dev20240409213157-py3-none-any.whl.zip --markdown 20240410/c/cirq-pasqal/1.4.0.dev20240409210425-1.4.0.dev20240409213157/README.md --exclude *.pyd
+[2024-04-10 00:13:15] INFO root fetch - processPackages [RePoE-Liberatorist]: Downloading https://files.pythonhosted.org/packages/36/f6/1388747c74eb6fd62ed0742a5fb67b0fcd0960f9ac3a5882abf149da46f4/RePoE-Liberatorist-3.24.1.tar.gz
+[2024-04-10 00:13:15] INFO root fetch - processPackages [hcs-cli]: Downloading https://files.pythonhosted.org/packages/75/92/ba28bbaff4bfb3aa8084610c7992979d23060c125c74f6a73fdffaed4d58/hcs-cli-0.1.98.tar.gz
+[2024-04-10 00:13:15] INFO root fetch - processPackages [aind-data-schema]: Downloading https://files.pythonhosted.org/packages/42/51/6b230e8ca198de797130787e0cd5036fc8d11696d1c43a8c8c07152176e8/aind-data-schema-0.9.6.tar.gz
+[2024-04-10 00:13:15] INFO root fetch - processPackages [ZAmino.fix]: Downloading https://files.pythonhosted.org/packages/ac/f6/9ff4528943b740eaecfe3aea4d646b98fee8f1ef1019897d2421af01bec6/ZAmino.fix-1.1.2.tar.gz
+[2024-04-10 00:13:15] INFO root fetch - processPackages [langchain-experimental]: Downloading https://files.pythonhosted.org/packages/ed/84/a2ae9bbf7653023950d01099435044e66cc5d0f2435cca33d6e39597c6e0/langchain_experimental-0.0.9.tar.gz
+[2024-04-10 00:13:15] INFO root fetch - processPackages [cirq-core]: executing diffoscope
+[2024-04-10 00:13:15] INFO root fetch - processPackages [cirq-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_core-1.4.0.dev20240409210425-py3-none-any.whl.zip tmp/cirq_core-1.4.0.dev20240409213157-py3-none-any.whl.zip --markdown 20240410/c/cirq-core/1.4.0.dev20240409210425-1.4.0.dev20240409213157/README.md --exclude *.pyd
+[2024-04-10 00:13:15] INFO root fetch - processPackages [aind-data-schema]: executing diffoscope
+[2024-04-10 00:13:15] INFO root fetch - processPackages [aind-data-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind-data-schema-0.9.5.tar.gz tmp/aind-data-schema-0.9.6.tar.gz --markdown 20240410/a/aind-data-schema/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-04-10 00:13:15] INFO root fetch - processPackages [hcs-cli]: executing diffoscope
+[2024-04-10 00:13:15] INFO root fetch - processPackages [hcs-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcs-cli-0.1.97.tar.gz tmp/hcs-cli-0.1.98.tar.gz --markdown 20240410/h/hcs-cli/0.1.97-0.1.98/README.md --exclude *.pyd
+[2024-04-10 00:13:15] INFO root fetch - processPackages [RePoE-Liberatorist]: executing diffoscope
+[2024-04-10 00:13:15] INFO root fetch - processPackages [RePoE-Liberatorist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RePoE-Liberatorist-3.24.0.tar.gz tmp/RePoE-Liberatorist-3.24.1.tar.gz --markdown 20240410/R/RePoE-Liberatorist/3.24.0-3.24.1/README.md --exclude *.pyd
+[2024-04-10 00:13:15] INFO root fetch - processPackages [ZAmino.fix]: executing diffoscope
+[2024-04-10 00:13:15] INFO root fetch - processPackages [ZAmino.fix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ZAmino.fix-1.1.1.tar.gz tmp/ZAmino.fix-1.1.2.tar.gz --markdown 20240410/Z/ZAmino.fix/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-04-10 00:13:15] INFO root fetch - processPackages [langchain-experimental]: executing diffoscope
+[2024-04-10 00:13:15] INFO root fetch - processPackages [langchain-experimental]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_experimental-0.0.8.tar.gz tmp/langchain_experimental-0.0.9.tar.gz --markdown 20240410/l/langchain-experimental/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-10 00:13:16] INFO root fetch - processPackages [cirq]: Remove: archive file [/home/abi/fetcher/tmp/cirq-1.4.0.dev20240409210425-py3-none-any.whl.zip]
+[2024-04-10 00:13:16] INFO root fetch - processPackages [cirq]: Remove: archive file [/home/abi/fetcher/tmp/cirq-1.4.0.dev20240409213157-py3-none-any.whl.zip]
+[2024-04-10 00:13:16] INFO root fetch - processPackages [cirq]: Start processing: cirq-web
+[2024-04-10 00:13:16] INFO root fetch - main [MainThread]: End processing [cirq]: success
+[2024-04-10 00:13:16] INFO root fetch - processPackages [cirq-web]: New version: [1.4.0.dev20240409213157] Old Version: [1.4.0.dev20240409210425]
+[2024-04-10 00:13:16] INFO root fetch - processPackages [cirq-web]: Downloading https://files.pythonhosted.org/packages/b2/7f/af9c0aef0a3caea18824356ee5a1613c23713961ec59bf9db4d1afd45951/cirq_web-1.4.0.dev20240409210425-py3-none-any.whl
+[2024-04-10 00:13:16] INFO root fetch - processPackages [cirq-pasqal]: Remove: archive file [/home/abi/fetcher/tmp/cirq_pasqal-1.4.0.dev20240409210425-py3-none-any.whl.zip]
+[2024-04-10 00:13:16] INFO root fetch - processPackages [cirq-pasqal]: Remove: archive file [/home/abi/fetcher/tmp/cirq_pasqal-1.4.0.dev20240409213157-py3-none-any.whl.zip]
+[2024-04-10 00:13:16] INFO root fetch - main [MainThread]: End processing [cirq-pasqal]: success
+[2024-04-10 00:13:16] INFO root fetch - processPackages [cirq-ionq]: Remove: archive file [/home/abi/fetcher/tmp/cirq_ionq-1.4.0.dev20240409210425-py3-none-any.whl.zip]
+[2024-04-10 00:13:16] INFO root fetch - processPackages [cirq-ionq]: Remove: archive file [/home/abi/fetcher/tmp/cirq_ionq-1.4.0.dev20240409213157-py3-none-any.whl.zip]
+[2024-04-10 00:13:16] INFO root fetch - main [MainThread]: End processing [cirq-ionq]: success
+[2024-04-10 00:13:16] INFO root fetch - processPackages [sentry-devenv]: Remove: archive file [/home/abi/fetcher/tmp/sentry_devenv-1.6.0.tar.gz]
+[2024-04-10 00:13:16] INFO root fetch - processPackages [sentry-devenv]: Remove: archive file [/home/abi/fetcher/tmp/sentry_devenv-1.6.1.tar.gz]
+[2024-04-10 00:13:16] INFO root fetch - main [MainThread]: End processing [sentry-devenv]: success
+[2024-04-10 00:13:16] INFO root fetch - processPackages [ZAmino.fix]: Remove: archive file [/home/abi/fetcher/tmp/ZAmino.fix-1.1.1.tar.gz]
+[2024-04-10 00:13:16] INFO root fetch - processPackages [ZAmino.fix]: Remove: archive file [/home/abi/fetcher/tmp/ZAmino.fix-1.1.2.tar.gz]
+[2024-04-10 00:13:16] INFO root fetch - main [MainThread]: End processing [ZAmino.fix]: success
+[2024-04-10 00:13:16] INFO root fetch - processPackages [aind-data-schema]: Remove: archive file [/home/abi/fetcher/tmp/aind-data-schema-0.9.5.tar.gz]
+[2024-04-10 00:13:16] INFO root fetch - processPackages [aind-data-schema]: Remove: archive file [/home/abi/fetcher/tmp/aind-data-schema-0.9.6.tar.gz]
+[2024-04-10 00:13:16] INFO root fetch - main [MainThread]: End processing [aind-data-schema]: success
+[2024-04-10 00:13:16] INFO root fetch - processPackages [langchain-experimental]: Remove: archive file [/home/abi/fetcher/tmp/langchain_experimental-0.0.8.tar.gz]
+[2024-04-10 00:13:16] INFO root fetch - processPackages [langchain-experimental]: Remove: archive file [/home/abi/fetcher/tmp/langchain_experimental-0.0.9.tar.gz]
+[2024-04-10 00:13:16] INFO root fetch - main [MainThread]: End processing [langchain-experimental]: success
+[2024-04-10 00:13:16] INFO root fetch - processPackages [cirq-web]: Downloading https://files.pythonhosted.org/packages/bd/4e/cfb70e3e8a035f0927af80b1eee85a16c21f19b2c56335fa73b6d7ae416c/cirq_web-1.4.0.dev20240409213157-py3-none-any.whl
+[2024-04-10 00:13:16] INFO root fetch - processPackages [cirq-web]: executing diffoscope
+[2024-04-10 00:13:16] INFO root fetch - processPackages [cirq-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_web-1.4.0.dev20240409210425-py3-none-any.whl.zip tmp/cirq_web-1.4.0.dev20240409213157-py3-none-any.whl.zip --markdown 20240410/c/cirq-web/1.4.0.dev20240409210425-1.4.0.dev20240409213157/README.md --exclude *.pyd
+[2024-04-10 00:13:17] INFO root fetch - processPackages [hcs-cli]: Remove: archive file [/home/abi/fetcher/tmp/hcs-cli-0.1.97.tar.gz]
+[2024-04-10 00:13:17] INFO root fetch - processPackages [hcs-cli]: Remove: archive file [/home/abi/fetcher/tmp/hcs-cli-0.1.98.tar.gz]
+[2024-04-10 00:13:17] INFO root fetch - main [MainThread]: End processing [hcs-cli]: success
+[2024-04-10 00:13:17] INFO root fetch - processPackages [cirq-web]: Remove: archive file [/home/abi/fetcher/tmp/cirq_web-1.4.0.dev20240409210425-py3-none-any.whl.zip]
+[2024-04-10 00:13:17] INFO root fetch - processPackages [cirq-web]: Remove: archive file [/home/abi/fetcher/tmp/cirq_web-1.4.0.dev20240409213157-py3-none-any.whl.zip]
+[2024-04-10 00:13:17] INFO root fetch - main [MainThread]: End processing [cirq-web]: success
+[2024-04-10 00:13:19] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.4.0.dev20240409210425-py3-none-any.whl.zip]
+[2024-04-10 00:13:19] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.4.0.dev20240409213157-py3-none-any.whl.zip]
+[2024-04-10 00:13:19] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
+[2024-04-10 00:13:19] INFO root fetch - processPackages [RePoE-Liberatorist]: Remove: archive file [/home/abi/fetcher/tmp/RePoE-Liberatorist-3.24.0.tar.gz]
+[2024-04-10 00:13:19] INFO root fetch - processPackages [RePoE-Liberatorist]: Remove: archive file [/home/abi/fetcher/tmp/RePoE-Liberatorist-3.24.1.tar.gz]
+[2024-04-10 00:13:19] INFO root fetch - main [MainThread]: End processing [RePoE-Liberatorist]: success
+[2024-04-10 00:13:19] INFO root fetch - main [MainThread]: Store serial: [22691234]

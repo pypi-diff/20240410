@@ -2414,3 +2414,33 @@
 [2024-04-10 01:55:37] INFO root fetch - processPackages [mov-cli]: Remove: archive file [/home/abi/fetcher/tmp/mov-cli-4.3.0.tar.gz]
 [2024-04-10 01:55:37] INFO root fetch - main [MainThread]: End processing [mov-cli]: success
 [2024-04-10 01:55:37] INFO root fetch - main [MainThread]: Store serial: [22692058]
+[2024-04-10 01:57:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22692058]
+[2024-04-10 01:57:46] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-10 01:57:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: supamodel
+[2024-04-10 01:57:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: constituent-treelib
+[2024-04-10 01:57:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: uniswap-v3-liquidity-pool-simulator
+[2024-04-10 01:57:46] INFO root fetch - processPackages [uniswap-v3-liquidity-pool-simulator]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-10 01:57:46] INFO root fetch - processPackages [supamodel]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-10 01:57:46] INFO root fetch - processPackages [uniswap-v3-liquidity-pool-simulator]: Downloading https://files.pythonhosted.org/packages/f4/ff/ed61e17ea90d75db123673f0ab95c2360028bcdf8e339858fa7a09083f4a/uniswap_v3_liquidity_pool_simulator-0.3.1.tar.gz
+[2024-04-10 01:57:46] INFO root fetch - processPackages [constituent-treelib]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-10 01:57:46] INFO root fetch - processPackages [supamodel]: Downloading https://files.pythonhosted.org/packages/5d/04/8b06a9380551e51ac89e89e6501657088a5d760b3acfa0debd33f312d6a3/supamodel-0.4.0.tar.gz
+[2024-04-10 01:57:46] INFO root fetch - processPackages [uniswap-v3-liquidity-pool-simulator]: Downloading https://files.pythonhosted.org/packages/8a/fe/0a0bb30a79e3566405c9db9bd93fe93cdd6166ac374b6d4b1a654427fcb6/uniswap_v3_liquidity_pool_simulator-0.3.2.tar.gz
+[2024-04-10 01:57:46] INFO root fetch - processPackages [constituent-treelib]: Downloading https://files.pythonhosted.org/packages/09/9b/bfb28d4899083be0099c01df6a07a1d678900f41335728182afe600a0bdc/constituent_treelib-0.0.6.tar.gz
+[2024-04-10 01:57:46] INFO root fetch - processPackages [uniswap-v3-liquidity-pool-simulator]: executing diffoscope
+[2024-04-10 01:57:46] INFO root fetch - processPackages [uniswap-v3-liquidity-pool-simulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uniswap_v3_liquidity_pool_simulator-0.3.1.tar.gz tmp/uniswap_v3_liquidity_pool_simulator-0.3.2.tar.gz --markdown 20240410/u/uniswap-v3-liquidity-pool-simulator/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-04-10 01:57:46] INFO root fetch - processPackages [supamodel]: Downloading https://files.pythonhosted.org/packages/b4/41/c1ac2d856f8b6b945802c9d05161a151a435652cad21ea6e6c278d0e3a13/supamodel-0.4.1.tar.gz
+[2024-04-10 01:57:46] INFO root fetch - processPackages [supamodel]: executing diffoscope
+[2024-04-10 01:57:46] INFO root fetch - processPackages [supamodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supamodel-0.4.0.tar.gz tmp/supamodel-0.4.1.tar.gz --markdown 20240410/s/supamodel/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-04-10 01:57:46] INFO root fetch - processPackages [constituent-treelib]: Downloading https://files.pythonhosted.org/packages/bd/06/a872cfbe56d8b202ea1089ce115362e3efc5adf0291e28024cc978b5589a/constituent_treelib-0.0.7.tar.gz
+[2024-04-10 01:57:47] INFO root fetch - processPackages [uniswap-v3-liquidity-pool-simulator]: Remove: archive file [/home/abi/fetcher/tmp/uniswap_v3_liquidity_pool_simulator-0.3.1.tar.gz]
+[2024-04-10 01:57:47] INFO root fetch - processPackages [uniswap-v3-liquidity-pool-simulator]: Remove: archive file [/home/abi/fetcher/tmp/uniswap_v3_liquidity_pool_simulator-0.3.2.tar.gz]
+[2024-04-10 01:57:47] INFO root fetch - main [MainThread]: End processing [uniswap-v3-liquidity-pool-simulator]: success
+[2024-04-10 01:57:47] INFO root fetch - processPackages [constituent-treelib]: executing diffoscope
+[2024-04-10 01:57:47] INFO root fetch - processPackages [constituent-treelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/constituent_treelib-0.0.6.tar.gz tmp/constituent_treelib-0.0.7.tar.gz --markdown 20240410/c/constituent-treelib/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-10 01:57:47] INFO root fetch - processPackages [supamodel]: Remove: archive file [/home/abi/fetcher/tmp/supamodel-0.4.0.tar.gz]
+[2024-04-10 01:57:47] INFO root fetch - processPackages [supamodel]: Remove: archive file [/home/abi/fetcher/tmp/supamodel-0.4.1.tar.gz]
+[2024-04-10 01:57:47] INFO root fetch - main [MainThread]: End processing [supamodel]: success
+[2024-04-10 01:57:47] INFO root fetch - processPackages [constituent-treelib]: Remove: archive file [/home/abi/fetcher/tmp/constituent_treelib-0.0.6.tar.gz]
+[2024-04-10 01:57:47] INFO root fetch - processPackages [constituent-treelib]: Remove: archive file [/home/abi/fetcher/tmp/constituent_treelib-0.0.7.tar.gz]
+[2024-04-10 01:57:47] INFO root fetch - main [MainThread]: End processing [constituent-treelib]: success
+[2024-04-10 01:57:47] INFO root fetch - main [MainThread]: Store serial: [22692070]

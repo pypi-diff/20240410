@@ -1701,3 +1701,33 @@
 [2024-04-10 01:08:05] INFO root fetch - processPackages [aider-chat]: Remove: archive file [/home/abi/fetcher/tmp/aider-chat-0.9.0.tar.gz]
 [2024-04-10 01:08:05] INFO root fetch - main [MainThread]: End processing [aider-chat]: success
 [2024-04-10 01:08:05] INFO root fetch - main [MainThread]: Store serial: [22691767]
+[2024-04-10 01:10:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22691767]
+[2024-04-10 01:10:13] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-10 01:10:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unknown-cli
+[2024-04-10 01:10:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: audiotimer
+[2024-04-10 01:10:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: promptlayer
+[2024-04-10 01:10:13] INFO root fetch - processPackages [unknown-cli]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-10 01:10:13] INFO root fetch - processPackages [unknown-cli]: Downloading https://files.pythonhosted.org/packages/88/72/bc301abcf65240046491230f3cb2c9377f36013426895493c1d9c9dcc0a6/unknown-cli-0.9.3.tar.gz
+[2024-04-10 01:10:13] INFO root fetch - processPackages [promptlayer]: New version: [0.5.5] Old Version: [0.5.4]
+[2024-04-10 01:10:13] INFO root fetch - processPackages [audiotimer]: New version: [0.4.0] Old Version: [0.3.1]
+[2024-04-10 01:10:13] INFO root fetch - processPackages [unknown-cli]: Downloading https://files.pythonhosted.org/packages/49/a3/e2a1509faeb736668ccc21173b24e26b2c4c913d830f9d2c84dc1d3635b9/unknown-cli-0.9.4.tar.gz
+[2024-04-10 01:10:13] INFO root fetch - processPackages [promptlayer]: Downloading https://files.pythonhosted.org/packages/0a/f9/b0f03b3106f1e8102f284c4d240c6e59b065360aa4607d857bbf24a20bbe/promptlayer-0.5.4.tar.gz
+[2024-04-10 01:10:13] INFO root fetch - processPackages [audiotimer]: Downloading https://files.pythonhosted.org/packages/d0/46/766d310cf1a57a20469797434da0f249f6282cf0b13ef279373d980b08de/audiotimer-0.3.1.tar.gz
+[2024-04-10 01:10:13] INFO root fetch - processPackages [unknown-cli]: executing diffoscope
+[2024-04-10 01:10:13] INFO root fetch - processPackages [unknown-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unknown-cli-0.9.3.tar.gz tmp/unknown-cli-0.9.4.tar.gz --markdown 20240410/u/unknown-cli/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-04-10 01:10:14] INFO root fetch - processPackages [promptlayer]: Downloading https://files.pythonhosted.org/packages/02/a0/6f131901ae33851cb1ba0bf1ace7179c4fc4c33da16df686bfcc9b05726f/promptlayer-0.5.5.tar.gz
+[2024-04-10 01:10:14] INFO root fetch - processPackages [audiotimer]: Downloading https://files.pythonhosted.org/packages/1a/9f/a36ad78d44703aabe939f64b237bcc9d4832a8b9d8c15fa26500c36b0cfa/audiotimer-0.4.0.tar.gz
+[2024-04-10 01:10:14] INFO root fetch - processPackages [promptlayer]: executing diffoscope
+[2024-04-10 01:10:14] INFO root fetch - processPackages [promptlayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptlayer-0.5.4.tar.gz tmp/promptlayer-0.5.5.tar.gz --markdown 20240410/p/promptlayer/0.5.4-0.5.5/README.md --exclude *.pyd
+[2024-04-10 01:10:14] INFO root fetch - processPackages [audiotimer]: executing diffoscope
+[2024-04-10 01:10:14] INFO root fetch - processPackages [audiotimer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audiotimer-0.3.1.tar.gz tmp/audiotimer-0.4.0.tar.gz --markdown 20240410/a/audiotimer/0.3.1-0.4.0/README.md --exclude *.pyd
+[2024-04-10 01:10:14] INFO root fetch - processPackages [unknown-cli]: Remove: archive file [/home/abi/fetcher/tmp/unknown-cli-0.9.3.tar.gz]
+[2024-04-10 01:10:14] INFO root fetch - processPackages [unknown-cli]: Remove: archive file [/home/abi/fetcher/tmp/unknown-cli-0.9.4.tar.gz]
+[2024-04-10 01:10:14] INFO root fetch - main [MainThread]: End processing [unknown-cli]: success
+[2024-04-10 01:10:14] INFO root fetch - processPackages [audiotimer]: Remove: archive file [/home/abi/fetcher/tmp/audiotimer-0.3.1.tar.gz]
+[2024-04-10 01:10:14] INFO root fetch - processPackages [audiotimer]: Remove: archive file [/home/abi/fetcher/tmp/audiotimer-0.4.0.tar.gz]
+[2024-04-10 01:10:14] INFO root fetch - main [MainThread]: End processing [audiotimer]: success
+[2024-04-10 01:10:14] INFO root fetch - processPackages [promptlayer]: Remove: archive file [/home/abi/fetcher/tmp/promptlayer-0.5.4.tar.gz]
+[2024-04-10 01:10:14] INFO root fetch - processPackages [promptlayer]: Remove: archive file [/home/abi/fetcher/tmp/promptlayer-0.5.5.tar.gz]
+[2024-04-10 01:10:14] INFO root fetch - main [MainThread]: End processing [promptlayer]: success
+[2024-04-10 01:10:14] INFO root fetch - main [MainThread]: Store serial: [22691776]

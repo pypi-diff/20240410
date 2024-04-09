@@ -2124,3 +2124,33 @@
 [2024-04-10 01:36:03] INFO root fetch - processPackages [yt-dlp]: Remove: archive file [/home/abi/fetcher/tmp/yt_dlp-2024.4.9.tar.gz]
 [2024-04-10 01:36:03] INFO root fetch - main [MainThread]: End processing [yt-dlp]: success
 [2024-04-10 01:36:03] INFO root fetch - main [MainThread]: Store serial: [22691921]
+[2024-04-10 01:38:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22691921]
+[2024-04-10 01:38:12] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-10 01:38:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fintoolkit
+[2024-04-10 01:38:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shipyard-azureblob
+[2024-04-10 01:38:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: smaht-submitr
+[2024-04-10 01:38:12] INFO root fetch - processPackages [fintoolkit]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-10 01:38:13] INFO root fetch - processPackages [fintoolkit]: Downloading https://files.pythonhosted.org/packages/b5/74/067de3a240b31ae6f7a0875ad7e5670c4168306f8bdd6bed867d84992ed2/fintoolkit-0.0.6.tar.gz
+[2024-04-10 01:38:13] INFO root fetch - processPackages [shipyard-azureblob]: New version: [0.2.0a2] Old Version: [0.2.0a1]
+[2024-04-10 01:38:13] INFO root fetch - processPackages [smaht-submitr]: New version: [0.8.0.1b9] Old Version: [0.8.0.1b8]
+[2024-04-10 01:38:13] INFO root fetch - processPackages [fintoolkit]: Downloading https://files.pythonhosted.org/packages/4c/c8/9cdea8b04e407f355ad7bbf4427334f9d42ca8c2db5d1008a818a83eb998/fintoolkit-0.0.7.tar.gz
+[2024-04-10 01:38:13] INFO root fetch - processPackages [shipyard-azureblob]: Downloading https://files.pythonhosted.org/packages/3a/a1/14c357dd34db49ed422d97c08315c3abdaae81cdd4d9e5dfd1938b49a041/shipyard_azureblob-0.2.0a1.tar.gz
+[2024-04-10 01:38:13] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/79/ad/69a49972361f3dd7698be4e52572630203c3c66d2562b3864e2814efd485/smaht_submitr-0.8.0.1b8.tar.gz
+[2024-04-10 01:38:13] INFO root fetch - processPackages [fintoolkit]: executing diffoscope
+[2024-04-10 01:38:13] INFO root fetch - processPackages [fintoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fintoolkit-0.0.6.tar.gz tmp/fintoolkit-0.0.7.tar.gz --markdown 20240410/f/fintoolkit/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-10 01:38:13] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/a9/b9/54c39138072c920a1d8d5107253bf98513c92a68aae12fec8962cedc0dd9/smaht_submitr-0.8.0.1b9.tar.gz
+[2024-04-10 01:38:13] INFO root fetch - processPackages [shipyard-azureblob]: Downloading https://files.pythonhosted.org/packages/59/87/8e56c1a2c2011fb8338b1da029e1886883b924d22a99d668ccf80c03b6c9/shipyard_azureblob-0.2.0a2.tar.gz
+[2024-04-10 01:38:13] INFO root fetch - processPackages [smaht-submitr]: executing diffoscope
+[2024-04-10 01:38:13] INFO root fetch - processPackages [smaht-submitr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smaht_submitr-0.8.0.1b8.tar.gz tmp/smaht_submitr-0.8.0.1b9.tar.gz --markdown 20240410/s/smaht-submitr/0.8.0.1b8-0.8.0.1b9/README.md --exclude *.pyd
+[2024-04-10 01:38:13] INFO root fetch - processPackages [shipyard-azureblob]: executing diffoscope
+[2024-04-10 01:38:13] INFO root fetch - processPackages [shipyard-azureblob]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipyard_azureblob-0.2.0a1.tar.gz tmp/shipyard_azureblob-0.2.0a2.tar.gz --markdown 20240410/s/shipyard-azureblob/0.2.0a1-0.2.0a2/README.md --exclude *.pyd
+[2024-04-10 01:38:14] INFO root fetch - processPackages [fintoolkit]: Remove: archive file [/home/abi/fetcher/tmp/fintoolkit-0.0.6.tar.gz]
+[2024-04-10 01:38:14] INFO root fetch - processPackages [fintoolkit]: Remove: archive file [/home/abi/fetcher/tmp/fintoolkit-0.0.7.tar.gz]
+[2024-04-10 01:38:14] INFO root fetch - main [MainThread]: End processing [fintoolkit]: success
+[2024-04-10 01:38:14] INFO root fetch - processPackages [shipyard-azureblob]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_azureblob-0.2.0a1.tar.gz]
+[2024-04-10 01:38:14] INFO root fetch - processPackages [shipyard-azureblob]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_azureblob-0.2.0a2.tar.gz]
+[2024-04-10 01:38:14] INFO root fetch - main [MainThread]: End processing [shipyard-azureblob]: success
+[2024-04-10 01:38:14] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.0.1b8.tar.gz]
+[2024-04-10 01:38:14] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.0.1b9.tar.gz]
+[2024-04-10 01:38:14] INFO root fetch - main [MainThread]: End processing [smaht-submitr]: success
+[2024-04-10 01:38:14] INFO root fetch - main [MainThread]: Store serial: [22691933]

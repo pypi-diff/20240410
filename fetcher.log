@@ -1996,3 +1996,44 @@
 [2024-04-10 01:27:20] INFO root fetch - processPackages [psyke]: Remove: archive file [/home/abi/fetcher/tmp/psyke-0.8.2.tar.gz]
 [2024-04-10 01:27:20] INFO root fetch - main [MainThread]: End processing [psyke]: success
 [2024-04-10 01:27:20] INFO root fetch - main [MainThread]: Store serial: [22691880]
+[2024-04-10 01:29:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22691880]
+[2024-04-10 01:29:29] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-10 01:31:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22691880]
+[2024-04-10 01:31:35] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-10 01:31:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: supamodel
+[2024-04-10 01:31:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stringx
+[2024-04-10 01:31:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ofscraper
+[2024-04-10 01:31:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python2verilog
+[2024-04-10 01:31:35] INFO root fetch - processPackages [stringx]: New version: [0.7.1] Old Version: [0.6.0]
+[2024-04-10 01:31:35] INFO root fetch - processPackages [ofscraper]: New version: [3.9.0.dev9] Old Version: [3.9.0.dev7]
+[2024-04-10 01:31:35] INFO root fetch - processPackages [stringx]: Downloading https://files.pythonhosted.org/packages/95/bd/6676be1f30273cc614a45026dd71704d110356889dd906cc3da42c591c16/stringx-0.6.0.tar.gz
+[2024-04-10 01:31:35] INFO root fetch - processPackages [supamodel]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-10 01:31:35] INFO root fetch - processPackages [python2verilog]: New version: [0.5.0rc1] Old Version: [0.4.3rc1]
+[2024-04-10 01:31:35] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/df/b3/41b423314e8536bb62d01eaed102796197ae0d08e41e81bed773f70359db/ofscraper-3.9.0.dev7.tar.gz
+[2024-04-10 01:31:36] INFO root fetch - processPackages [stringx]: Downloading https://files.pythonhosted.org/packages/84/c0/e582077d7479e9a392e02196767ef3b584da362d30c68ebb798185f4e54b/stringx-0.7.1.tar.gz
+[2024-04-10 01:31:36] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/2c/a7/19187a41b609fe0073f8560c9536929661f7d47dc67892c1020d2a39d063/ofscraper-3.9.0.dev9.tar.gz
+[2024-04-10 01:31:36] INFO root fetch - processPackages [supamodel]: Downloading https://files.pythonhosted.org/packages/4b/49/ec93511f40e6a9971f6dda722b0441c1be021f3192f3a91b6f96f381119e/supamodel-0.2.0.tar.gz
+[2024-04-10 01:31:36] INFO root fetch - processPackages [python2verilog]: Downloading https://files.pythonhosted.org/packages/46/f2/2c14102afc4548dd265daf3933b18c8ad46dba09f6d6158c64e93a62d020/python2verilog-0.4.3rc1.tar.gz
+[2024-04-10 01:31:36] INFO root fetch - processPackages [stringx]: executing diffoscope
+[2024-04-10 01:31:36] INFO root fetch - processPackages [stringx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stringx-0.6.0.tar.gz tmp/stringx-0.7.1.tar.gz --markdown 20240410/s/stringx/0.6.0-0.7.1/README.md --exclude *.pyd
+[2024-04-10 01:31:36] INFO root fetch - processPackages [ofscraper]: executing diffoscope
+[2024-04-10 01:31:36] INFO root fetch - processPackages [ofscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofscraper-3.9.0.dev7.tar.gz tmp/ofscraper-3.9.0.dev9.tar.gz --markdown 20240410/o/ofscraper/3.9.0.dev7-3.9.0.dev9/README.md --exclude *.pyd
+[2024-04-10 01:31:36] INFO root fetch - processPackages [supamodel]: Downloading https://files.pythonhosted.org/packages/a9/a0/019bcb06aaddc98fed17d466cc3288d3b1a7e41e69ffa8cf1c89f9ca5729/supamodel-0.3.0.tar.gz
+[2024-04-10 01:31:36] INFO root fetch - processPackages [python2verilog]: Downloading https://files.pythonhosted.org/packages/a5/71/71a75e41f46ae727814ca7289b90da9fef36c4f6d90d1bccf8147cf1d5d4/python2verilog-0.5.0rc1.tar.gz
+[2024-04-10 01:31:36] INFO root fetch - processPackages [supamodel]: executing diffoscope
+[2024-04-10 01:31:36] INFO root fetch - processPackages [supamodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supamodel-0.2.0.tar.gz tmp/supamodel-0.3.0.tar.gz --markdown 20240410/s/supamodel/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-04-10 01:31:36] INFO root fetch - processPackages [stringx]: Remove: archive file [/home/abi/fetcher/tmp/stringx-0.6.0.tar.gz]
+[2024-04-10 01:31:36] INFO root fetch - processPackages [stringx]: Remove: archive file [/home/abi/fetcher/tmp/stringx-0.7.1.tar.gz]
+[2024-04-10 01:31:36] INFO root fetch - main [MainThread]: End processing [stringx]: success
+[2024-04-10 01:31:36] INFO root fetch - processPackages [python2verilog]: executing diffoscope
+[2024-04-10 01:31:36] INFO root fetch - processPackages [python2verilog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python2verilog-0.4.3rc1.tar.gz tmp/python2verilog-0.5.0rc1.tar.gz --markdown 20240410/p/python2verilog/0.4.3rc1-0.5.0rc1/README.md --exclude *.pyd
+[2024-04-10 01:31:37] INFO root fetch - processPackages [supamodel]: Remove: archive file [/home/abi/fetcher/tmp/supamodel-0.2.0.tar.gz]
+[2024-04-10 01:31:37] INFO root fetch - processPackages [supamodel]: Remove: archive file [/home/abi/fetcher/tmp/supamodel-0.3.0.tar.gz]
+[2024-04-10 01:31:37] INFO root fetch - main [MainThread]: End processing [supamodel]: success
+[2024-04-10 01:31:37] INFO root fetch - processPackages [python2verilog]: Remove: archive file [/home/abi/fetcher/tmp/python2verilog-0.4.3rc1.tar.gz]
+[2024-04-10 01:31:37] INFO root fetch - processPackages [python2verilog]: Remove: archive file [/home/abi/fetcher/tmp/python2verilog-0.5.0rc1.tar.gz]
+[2024-04-10 01:31:37] INFO root fetch - main [MainThread]: End processing [python2verilog]: success
+[2024-04-10 01:31:37] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-3.9.0.dev7.tar.gz]
+[2024-04-10 01:31:37] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-3.9.0.dev9.tar.gz]
+[2024-04-10 01:31:37] INFO root fetch - main [MainThread]: End processing [ofscraper]: success
+[2024-04-10 01:31:37] INFO root fetch - main [MainThread]: Store serial: [22691892]

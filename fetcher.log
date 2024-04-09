@@ -2219,3 +2219,57 @@
 [2024-04-10 01:42:34] INFO root fetch - processPackages [dispatch-py]: Remove: archive file [/home/abi/fetcher/tmp/dispatch-py-0.5.1.tar.gz]
 [2024-04-10 01:42:34] INFO root fetch - main [MainThread]: End processing [dispatch-py]: success
 [2024-04-10 01:42:34] INFO root fetch - main [MainThread]: Store serial: [22691979]
+[2024-04-10 01:44:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22691979]
+[2024-04-10 01:44:43] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-10 01:44:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: slipcover
+[2024-04-10 01:44:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alliance-platform-codegen
+[2024-04-10 01:44:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyTDC
+[2024-04-10 01:44:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alliance-platform-core
+[2024-04-10 01:44:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: supamodel
+[2024-04-10 01:44:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: k2eg
+[2024-04-10 01:44:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: einshard
+[2024-04-10 01:44:43] WARNING root fetch - processPackages [alliance-platform-core]: Skipping, unable to determine old version
+[2024-04-10 01:44:43] INFO root fetch - main [MainThread]: End processing [alliance-platform-core] error
+[2024-04-10 01:44:43] WARNING root fetch - processPackages [einshard]: Skipping, unable to determine old version
+[2024-04-10 01:44:43] INFO root fetch - main [MainThread]: End processing [einshard] error
+[2024-04-10 01:44:43] INFO root fetch - processPackages [supamodel]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-10 01:44:43] INFO root fetch - processPackages [PyTDC]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-10 01:44:43] INFO root fetch - processPackages [supamodel]: Downloading https://files.pythonhosted.org/packages/4b/49/ec93511f40e6a9971f6dda722b0441c1be021f3192f3a91b6f96f381119e/supamodel-0.2.0.tar.gz
+[2024-04-10 01:44:43] INFO root fetch - processPackages [PyTDC]: Downloading https://files.pythonhosted.org/packages/35/ba/72250ebc371b0429e67c15d022593bd8804f2132bf1e0d8ef9946e8e65e5/PyTDC-0.4.8.tar.gz
+[2024-04-10 01:44:43] INFO root fetch - processPackages [slipcover]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-10 01:44:43] INFO root fetch - processPackages [k2eg]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-04-10 01:44:43] INFO root fetch - processPackages [alliance-platform-codegen]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-10 01:44:44] INFO root fetch - processPackages [alliance-platform-codegen]: Downloading https://files.pythonhosted.org/packages/70/5f/7525e63a396aac10bf44702c3a9400ae97fc1c91b34c9758c9f24421496a/alliance_platform_codegen-0.0.1.tar.gz
+[2024-04-10 01:44:44] INFO root fetch - processPackages [supamodel]: Downloading https://files.pythonhosted.org/packages/a9/a0/019bcb06aaddc98fed17d466cc3288d3b1a7e41e69ffa8cf1c89f9ca5729/supamodel-0.3.0.tar.gz
+[2024-04-10 01:44:44] INFO root fetch - processPackages [k2eg]: Downloading https://files.pythonhosted.org/packages/4b/81/6aeaf3df6191fe5226b83257dcac51907c965556d598039514377cd90456/k2eg-0.2.6.tar.gz
+[2024-04-10 01:44:44] INFO root fetch - processPackages [slipcover]: Downloading https://files.pythonhosted.org/packages/83/1f/d442658107054d37c899154bf7f3f4a8092353ef62c8b48c2e88cfdfeeed/slipcover-1.0.5.tar.gz
+[2024-04-10 01:44:44] INFO root fetch - processPackages [PyTDC]: Downloading https://files.pythonhosted.org/packages/99/89/920e17b7b936051eb7b7f1db9ca7858d7c8830b0a9452b8a2a787f4a2828/PyTDC-0.4.9.tar.gz
+[2024-04-10 01:44:44] INFO root fetch - processPackages [supamodel]: executing diffoscope
+[2024-04-10 01:44:44] INFO root fetch - processPackages [supamodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supamodel-0.2.0.tar.gz tmp/supamodel-0.3.0.tar.gz --markdown 20240410/s/supamodel/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-04-10 01:44:44] INFO root fetch - processPackages [PyTDC]: executing diffoscope
+[2024-04-10 01:44:44] INFO root fetch - processPackages [PyTDC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyTDC-0.4.8.tar.gz tmp/PyTDC-0.4.9.tar.gz --markdown 20240410/P/PyTDC/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-04-10 01:44:44] INFO root fetch - processPackages [alliance-platform-codegen]: Downloading https://files.pythonhosted.org/packages/5e/ca/f55672a024182d6f0f759ffb66d494d5f6b60c853c0cafccbfe8f2e6295b/alliance_platform_codegen-0.0.2.tar.gz
+[2024-04-10 01:44:44] INFO root fetch - processPackages [slipcover]: Downloading https://files.pythonhosted.org/packages/3f/70/c90a9bd0d1dc3faf6d4d31901d0327c9e485a7eded39db172713cbfcf1de/slipcover-1.0.6.tar.gz
+[2024-04-10 01:44:44] INFO root fetch - processPackages [k2eg]: Downloading https://files.pythonhosted.org/packages/d9/e0/61583724142e043860a09daa61d6ebcec4a4679d9a38fa3462d81459c9dc/k2eg-0.2.7.tar.gz
+[2024-04-10 01:44:44] INFO root fetch - processPackages [alliance-platform-codegen]: executing diffoscope
+[2024-04-10 01:44:44] INFO root fetch - processPackages [alliance-platform-codegen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alliance_platform_codegen-0.0.1.tar.gz tmp/alliance_platform_codegen-0.0.2.tar.gz --markdown 20240410/a/alliance-platform-codegen/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-10 01:44:44] INFO root fetch - processPackages [slipcover]: executing diffoscope
+[2024-04-10 01:44:44] INFO root fetch - processPackages [slipcover]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slipcover-1.0.5.tar.gz tmp/slipcover-1.0.6.tar.gz --markdown 20240410/s/slipcover/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-04-10 01:44:44] INFO root fetch - processPackages [k2eg]: executing diffoscope
+[2024-04-10 01:44:44] INFO root fetch - processPackages [k2eg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/k2eg-0.2.6.tar.gz tmp/k2eg-0.2.7.tar.gz --markdown 20240410/k/k2eg/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-04-10 01:44:44] INFO root fetch - processPackages [supamodel]: Remove: archive file [/home/abi/fetcher/tmp/supamodel-0.2.0.tar.gz]
+[2024-04-10 01:44:44] INFO root fetch - processPackages [supamodel]: Remove: archive file [/home/abi/fetcher/tmp/supamodel-0.3.0.tar.gz]
+[2024-04-10 01:44:44] INFO root fetch - main [MainThread]: End processing [supamodel]: success
+[2024-04-10 01:44:45] INFO root fetch - processPackages [PyTDC]: Remove: archive file [/home/abi/fetcher/tmp/PyTDC-0.4.8.tar.gz]
+[2024-04-10 01:44:45] INFO root fetch - processPackages [PyTDC]: Remove: archive file [/home/abi/fetcher/tmp/PyTDC-0.4.9.tar.gz]
+[2024-04-10 01:44:45] INFO root fetch - main [MainThread]: End processing [PyTDC]: success
+[2024-04-10 01:44:45] INFO root fetch - processPackages [alliance-platform-codegen]: Remove: archive file [/home/abi/fetcher/tmp/alliance_platform_codegen-0.0.1.tar.gz]
+[2024-04-10 01:44:45] INFO root fetch - processPackages [alliance-platform-codegen]: Remove: archive file [/home/abi/fetcher/tmp/alliance_platform_codegen-0.0.2.tar.gz]
+[2024-04-10 01:44:45] INFO root fetch - main [MainThread]: End processing [alliance-platform-codegen]: success
+[2024-04-10 01:44:45] INFO root fetch - processPackages [slipcover]: Remove: archive file [/home/abi/fetcher/tmp/slipcover-1.0.5.tar.gz]
+[2024-04-10 01:44:45] INFO root fetch - processPackages [slipcover]: Remove: archive file [/home/abi/fetcher/tmp/slipcover-1.0.6.tar.gz]
+[2024-04-10 01:44:45] INFO root fetch - main [MainThread]: End processing [slipcover]: success
+[2024-04-10 01:44:45] INFO root fetch - processPackages [k2eg]: Remove: archive file [/home/abi/fetcher/tmp/k2eg-0.2.6.tar.gz]
+[2024-04-10 01:44:45] INFO root fetch - processPackages [k2eg]: Remove: archive file [/home/abi/fetcher/tmp/k2eg-0.2.7.tar.gz]
+[2024-04-10 01:44:45] INFO root fetch - main [MainThread]: End processing [k2eg]: success
+[2024-04-10 01:44:45] INFO root fetch - main [MainThread]: Store serial: [22692014]

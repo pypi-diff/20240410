@@ -1,0 +1,100 @@
+[2024-04-10 00:01:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22691008]
+[2024-04-10 00:01:58] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-10 00:01:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: moto
+[2024-04-10 00:01:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-tke
+[2024-04-10 00:01:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rippling-flux-sdk
+[2024-04-10 00:01:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deezer-oauth-cli
+[2024-04-10 00:01:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: langchain-openai
+[2024-04-10 00:01:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: langchain-anthropic
+[2024-04-10 00:01:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: moto
+[2024-04-10 00:01:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lamini
+[2024-04-10 00:01:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tencentcloud-sdk-python-tms
+[2024-04-10 00:01:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: haplo
+[2024-04-10 00:01:59] INFO root fetch - processPackages [deezer-oauth-cli]: New version: [1.2.6] Old Version: [1.2.5]
+[2024-04-10 00:01:59] INFO root fetch - processPackages [moto]: New version: [5.0.6.dev7] Old Version: [5.0.6.dev6]
+[2024-04-10 00:01:59] INFO root fetch - processPackages [tencentcloud-sdk-python-tms]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-10 00:01:59] INFO root fetch - processPackages [lamini]: New version: [2.1.5a2] Old Version: [2.1.4a8]
+[2024-04-10 00:01:59] INFO root fetch - processPackages [moto]: New version: [5.0.6.dev7] Old Version: [5.0.6.dev6]
+[2024-04-10 00:01:59] INFO root fetch - processPackages [langchain-anthropic]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-10 00:01:59] INFO root fetch - processPackages [haplo]: New version: [0.9.0] Old Version: [0.8.9]
+[2024-04-10 00:01:59] INFO root fetch - processPackages [langchain-openai]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-10 00:01:59] INFO root fetch - processPackages [rippling-flux-sdk]: New version: [0.9.27] Old Version: [0.9.26]
+[2024-04-10 00:01:59] INFO root fetch - processPackages [deezer-oauth-cli]: Downloading https://files.pythonhosted.org/packages/a7/37/9fd64d00908b01f1ede8db078879911152e08af922c3c6de3d3d57eb0657/deezer_oauth_cli-1.2.5.tar.gz
+[2024-04-10 00:01:59] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/e6/c5/449e8ed157e286496e03ea0afa5e3f55c6f9f9fcd696b1b8376375ef13df/moto-5.0.6.dev6.tar.gz
+[2024-04-10 00:01:59] INFO root fetch - processPackages [tencentcloud-sdk-python-tke]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-10 00:01:59] INFO root fetch - processPackages [tencentcloud-sdk-python-tms]: Downloading https://files.pythonhosted.org/packages/e8/90/0090831d9b9cc79766655dbc96818b8dbc05394f4681b1c317a1b6ffcef0/tencentcloud-sdk-python-tms-3.0.998.tar.gz
+[2024-04-10 00:01:59] INFO root fetch - processPackages [lamini]: Downloading https://files.pythonhosted.org/packages/43/49/ebc62d93b599597865b7bde6aebb315d996ccdcad1d7b9a1fe6bffd5fae8/lamini-2.1.4a8-118-py3-none-any.whl
+[2024-04-10 00:01:59] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/e6/c5/449e8ed157e286496e03ea0afa5e3f55c6f9f9fcd696b1b8376375ef13df/moto-5.0.6.dev6.tar.gz
+[2024-04-10 00:01:59] INFO root fetch - processPackages [tencentcloud-sdk-python-tke]: Downloading https://files.pythonhosted.org/packages/5a/4e/7b6315ea3fce605899ad3ccb851eae2b9e399f77c905f1ba14463622f81e/tencentcloud-sdk-python-tke-3.0.998.tar.gz
+[2024-04-10 00:01:59] INFO root fetch - processPackages [langchain-anthropic]: Downloading https://files.pythonhosted.org/packages/d8/91/4afca5da807e0b02d3b4ebff044facbfbf89639cb77c8ef0b30b50af6f0a/langchain_anthropic-0.1.6.tar.gz
+[2024-04-10 00:01:59] INFO root fetch - processPackages [langchain-openai]: Downloading https://files.pythonhosted.org/packages/20/04/2b70b53fe5df0de7de55c2f56572c2215af9cc1528dc3a7503e34c1f919a/langchain_openai-0.1.1.tar.gz
+[2024-04-10 00:01:59] INFO root fetch - processPackages [haplo]: Downloading https://files.pythonhosted.org/packages/09/58/11d254ba94a13e4d1196a1f7a5ed985eb36d61a3130c284b442596bfde90/haplo-0.8.9.tar.gz
+[2024-04-10 00:01:59] INFO root fetch - processPackages [rippling-flux-sdk]: Downloading https://files.pythonhosted.org/packages/0f/9d/f4cd2d2adeaab6fdd684b7eaf8d691c14ca1bef27a4a2790c5e7e06cfff6/rippling_flux_sdk-0.9.26.tar.gz
+[2024-04-10 00:01:59] INFO root fetch - processPackages [deezer-oauth-cli]: Downloading https://files.pythonhosted.org/packages/0f/28/e76384980de6fe8058f9f67d6731abbc93d2c1fca73857cfb319fa9b34d6/deezer_oauth_cli-1.2.6.tar.gz
+[2024-04-10 00:01:59] INFO root fetch - processPackages [tencentcloud-sdk-python-tms]: Downloading https://files.pythonhosted.org/packages/27/15/aac71a9430080e4abeb76b9f775115667c3d809935e2c136245d3d0939fd/tencentcloud-sdk-python-tms-3.0.999.tar.gz
+[2024-04-10 00:01:59] INFO root fetch - processPackages [lamini]: Downloading https://files.pythonhosted.org/packages/90/51/93d03338778fbddb992f3866d094a8eee5a6ba6b72448d778ee72498140b/lamini-2.1.5a2-119-py3-none-any.whl
+[2024-04-10 00:01:59] INFO root fetch - processPackages [deezer-oauth-cli]: executing diffoscope
+[2024-04-10 00:01:59] INFO root fetch - processPackages [deezer-oauth-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deezer_oauth_cli-1.2.5.tar.gz tmp/deezer_oauth_cli-1.2.6.tar.gz --markdown 20240410/d/deezer-oauth-cli/1.2.5-1.2.6/README.md --exclude *.pyd
+[2024-04-10 00:01:59] INFO root fetch - processPackages [tencentcloud-sdk-python-tms]: executing diffoscope
+[2024-04-10 00:01:59] INFO root fetch - processPackages [tencentcloud-sdk-python-tms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tms-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tms-3.0.999.tar.gz --markdown 20240410/t/tencentcloud-sdk-python-tms/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-04-10 00:01:59] INFO root fetch - processPackages [tencentcloud-sdk-python-tke]: Downloading https://files.pythonhosted.org/packages/d0/07/5f31603562ab2fdf19cb38a817ae6bdf8617f9bdb8fdf17ae3d8da7014cc/tencentcloud-sdk-python-tke-3.0.999.tar.gz
+[2024-04-10 00:01:59] INFO root fetch - processPackages [langchain-anthropic]: Downloading https://files.pythonhosted.org/packages/fb/e1/541988fc259c4a65b5b2b74ea8dd79e984f552c68135d158af4d06d82060/langchain_anthropic-0.1.7.tar.gz
+[2024-04-10 00:01:59] INFO root fetch - processPackages [lamini]: executing diffoscope
+[2024-04-10 00:01:59] INFO root fetch - processPackages [lamini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamini-2.1.4a8-118-py3-none-any.whl.zip tmp/lamini-2.1.5a2-119-py3-none-any.whl.zip --markdown 20240410/l/lamini/2.1.4a8-2.1.5a2/README.md --exclude *.pyd
+[2024-04-10 00:01:59] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/ce/61/804ee2cda6294a7235263141ce40b8b960e9ec37c003775be7c4cbec4e76/moto-5.0.6.dev7.tar.gz
+[2024-04-10 00:01:59] INFO root fetch - processPackages [tencentcloud-sdk-python-tke]: executing diffoscope
+[2024-04-10 00:01:59] INFO root fetch - processPackages [tencentcloud-sdk-python-tke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tke-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tke-3.0.999.tar.gz --markdown 20240410/t/tencentcloud-sdk-python-tke/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-04-10 00:01:59] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/ce/61/804ee2cda6294a7235263141ce40b8b960e9ec37c003775be7c4cbec4e76/moto-5.0.6.dev7.tar.gz
+[2024-04-10 00:01:59] INFO root fetch - processPackages [langchain-anthropic]: executing diffoscope
+[2024-04-10 00:01:59] INFO root fetch - processPackages [langchain-anthropic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_anthropic-0.1.6.tar.gz tmp/langchain_anthropic-0.1.7.tar.gz --markdown 20240410/l/langchain-anthropic/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-10 00:01:59] INFO root fetch - processPackages [langchain-openai]: Downloading https://files.pythonhosted.org/packages/40/8f/f301688415640bcccf0633cb0f3a1be5fecf46e5aadb029f0ae969316bb0/langchain_openai-0.1.2.tar.gz
+[2024-04-10 00:01:59] INFO root fetch - processPackages [haplo]: Downloading https://files.pythonhosted.org/packages/b3/cd/56a45d7915135f1ec814d6d1755e94ceec9ec3040d573b873dfec992276a/haplo-0.9.0.tar.gz
+[2024-04-10 00:01:59] INFO root fetch - processPackages [rippling-flux-sdk]: Downloading https://files.pythonhosted.org/packages/94/03/093a310cfb4ff2c4b673f26d4895395ebf647cc4efa7d58bf63c31013fed/rippling_flux_sdk-0.9.27.tar.gz
+[2024-04-10 00:02:00] INFO root fetch - processPackages [langchain-openai]: executing diffoscope
+[2024-04-10 00:02:00] INFO root fetch - processPackages [langchain-openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_openai-0.1.1.tar.gz tmp/langchain_openai-0.1.2.tar.gz --markdown 20240410/l/langchain-openai/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-10 00:02:00] INFO root fetch - processPackages [rippling-flux-sdk]: executing diffoscope
+[2024-04-10 00:02:00] INFO root fetch - processPackages [rippling-flux-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rippling_flux_sdk-0.9.26.tar.gz tmp/rippling_flux_sdk-0.9.27.tar.gz --markdown 20240410/r/rippling-flux-sdk/0.9.26-0.9.27/README.md --exclude *.pyd
+[2024-04-10 00:02:00] INFO root fetch - processPackages [haplo]: executing diffoscope
+[2024-04-10 00:02:00] INFO root fetch - processPackages [haplo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haplo-0.8.9.tar.gz tmp/haplo-0.9.0.tar.gz --markdown 20240410/h/haplo/0.8.9-0.9.0/README.md --exclude *.pyd
+[2024-04-10 00:02:00] INFO root fetch - processPackages [moto]: executing diffoscope
+[2024-04-10 00:02:00] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-5.0.6.dev6.tar.gz tmp/moto-5.0.6.dev7.tar.gz --markdown 20240410/m/moto/5.0.6.dev6-5.0.6.dev7/README.md --exclude *.pyd
+[2024-04-10 00:02:00] INFO root fetch - processPackages [moto]: executing diffoscope
+[2024-04-10 00:02:00] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-5.0.6.dev6.tar.gz tmp/moto-5.0.6.dev7.tar.gz --markdown 20240410/m/moto/5.0.6.dev6-5.0.6.dev7/README.md --exclude *.pyd
+[2024-04-10 00:02:01] INFO root fetch - processPackages [deezer-oauth-cli]: Remove: archive file [/home/abi/fetcher/tmp/deezer_oauth_cli-1.2.5.tar.gz]
+[2024-04-10 00:02:01] INFO root fetch - processPackages [deezer-oauth-cli]: Remove: archive file [/home/abi/fetcher/tmp/deezer_oauth_cli-1.2.6.tar.gz]
+[2024-04-10 00:02:01] INFO root fetch - processPackages [deezer-oauth-cli]: Start processing: llm-api-open
+[2024-04-10 00:02:01] INFO root fetch - main [MainThread]: End processing [deezer-oauth-cli]: success
+[2024-04-10 00:02:01] INFO root fetch - processPackages [tencentcloud-sdk-python-tms]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tms-3.0.998.tar.gz]
+[2024-04-10 00:02:01] INFO root fetch - processPackages [tencentcloud-sdk-python-tms]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tms-3.0.999.tar.gz]
+[2024-04-10 00:02:01] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tms]: success
+[2024-04-10 00:02:01] INFO root fetch - processPackages [langchain-anthropic]: Remove: archive file [/home/abi/fetcher/tmp/langchain_anthropic-0.1.6.tar.gz]
+[2024-04-10 00:02:01] INFO root fetch - processPackages [langchain-anthropic]: Remove: archive file [/home/abi/fetcher/tmp/langchain_anthropic-0.1.7.tar.gz]
+[2024-04-10 00:02:01] INFO root fetch - main [MainThread]: End processing [langchain-anthropic]: success
+[2024-04-10 00:02:01] INFO root fetch - processPackages [langchain-openai]: Remove: archive file [/home/abi/fetcher/tmp/langchain_openai-0.1.1.tar.gz]
+[2024-04-10 00:02:01] INFO root fetch - processPackages [langchain-openai]: Remove: archive file [/home/abi/fetcher/tmp/langchain_openai-0.1.2.tar.gz]
+[2024-04-10 00:02:01] INFO root fetch - main [MainThread]: End processing [langchain-openai]: success
+[2024-04-10 00:02:01] INFO root fetch - processPackages [lamini]: Remove: archive file [/home/abi/fetcher/tmp/lamini-2.1.4a8-118-py3-none-any.whl.zip]
+[2024-04-10 00:02:01] INFO root fetch - processPackages [lamini]: Remove: archive file [/home/abi/fetcher/tmp/lamini-2.1.5a2-119-py3-none-any.whl.zip]
+[2024-04-10 00:02:01] INFO root fetch - main [MainThread]: End processing [lamini]: success
+[2024-04-10 00:02:01] INFO root fetch - processPackages [rippling-flux-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rippling_flux_sdk-0.9.26.tar.gz]
+[2024-04-10 00:02:01] INFO root fetch - processPackages [rippling-flux-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rippling_flux_sdk-0.9.27.tar.gz]
+[2024-04-10 00:02:01] INFO root fetch - main [MainThread]: End processing [rippling-flux-sdk]: success
+[2024-04-10 00:02:01] INFO root fetch - processPackages [llm-api-open]: New version: [2.1.24] Old Version: [2.1.22]
+[2024-04-10 00:02:01] INFO root fetch - processPackages [haplo]: Remove: archive file [/home/abi/fetcher/tmp/haplo-0.8.9.tar.gz]
+[2024-04-10 00:02:01] INFO root fetch - processPackages [haplo]: Remove: archive file [/home/abi/fetcher/tmp/haplo-0.9.0.tar.gz]
+[2024-04-10 00:02:01] INFO root fetch - main [MainThread]: End processing [haplo]: success
+[2024-04-10 00:02:01] INFO root fetch - processPackages [tencentcloud-sdk-python-tke]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tke-3.0.998.tar.gz]
+[2024-04-10 00:02:01] INFO root fetch - processPackages [tencentcloud-sdk-python-tke]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tke-3.0.999.tar.gz]
+[2024-04-10 00:02:01] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tke]: success
+[2024-04-10 00:02:01] INFO root fetch - processPackages [llm-api-open]: Downloading https://files.pythonhosted.org/packages/d7/bd/b631bc3f2222c7d501f5d72d67d06c8249a328d02dc767cbf0fa961f9964/llm-api-open-2.1.22.tar.gz
+[2024-04-10 00:02:02] INFO root fetch - processPackages [llm-api-open]: Downloading https://files.pythonhosted.org/packages/7a/e7/194ef109ecd5a99382eb557e949fb3001413a19cbeb9a92ca422db205dc7/llm-api-open-2.1.24.tar.gz
+[2024-04-10 00:02:02] INFO root fetch - processPackages [llm-api-open]: executing diffoscope
+[2024-04-10 00:02:02] INFO root fetch - processPackages [llm-api-open]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm-api-open-2.1.22.tar.gz tmp/llm-api-open-2.1.24.tar.gz --markdown 20240410/l/llm-api-open/2.1.22-2.1.24/README.md --exclude *.pyd
+[2024-04-10 00:02:03] INFO root fetch - processPackages [llm-api-open]: Remove: archive file [/home/abi/fetcher/tmp/llm-api-open-2.1.22.tar.gz]
+[2024-04-10 00:02:03] INFO root fetch - processPackages [llm-api-open]: Remove: archive file [/home/abi/fetcher/tmp/llm-api-open-2.1.24.tar.gz]
+[2024-04-10 00:02:03] INFO root fetch - main [MainThread]: End processing [llm-api-open]: success
+[2024-04-10 00:02:13] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-5.0.6.dev6.tar.gz]
+[2024-04-10 00:02:13] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-5.0.6.dev7.tar.gz]
+[2024-04-10 00:02:13] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2024-04-10 00:02:13] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2024-04-10 00:02:13] INFO root fetch - main [MainThread]: Store serial: [22691038]

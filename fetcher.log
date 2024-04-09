@@ -781,3 +781,45 @@
 [2024-04-10 00:19:52] INFO root fetch - processPackages [pydmclab]: Remove: archive file [/home/abi/fetcher/tmp/pydmclab-1.1.4.tar.gz]
 [2024-04-10 00:19:52] INFO root fetch - main [MainThread]: End processing [pydmclab]: success
 [2024-04-10 00:19:52] INFO root fetch - main [MainThread]: Store serial: [22691279]
+[2024-04-10 00:21:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22691279]
+[2024-04-10 00:22:00] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-10 00:22:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: FancySchmancyTestsplit
+[2024-04-10 00:22:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: matchlib
+[2024-04-10 00:22:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: foamlib
+[2024-04-10 00:22:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: agentdesk
+[2024-04-10 00:22:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyventus
+[2024-04-10 00:22:00] INFO root fetch - processPackages [foamlib]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-04-10 00:22:00] WARNING root fetch - processPackages [FancySchmancyTestsplit]: Skipping, unable to determine old version
+[2024-04-10 00:22:00] INFO root fetch - main [MainThread]: End processing [FancySchmancyTestsplit] error
+[2024-04-10 00:22:00] INFO root fetch - processPackages [agentdesk]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-10 00:22:00] INFO root fetch - processPackages [foamlib]: Downloading https://files.pythonhosted.org/packages/17/85/66a2647aa77dd8027608aff750eaf7c118f8fbe8ebb04e888838c1569e54/foamlib-0.2.5.tar.gz
+[2024-04-10 00:22:00] INFO root fetch - processPackages [matchlib]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-10 00:22:00] INFO root fetch - processPackages [agentdesk]: Downloading https://files.pythonhosted.org/packages/cf/ca/cd5dfbf2d07fb86e168858977c8668fdff291aaf19cf93c8ae884b0959b1/agentdesk-0.2.8.tar.gz
+[2024-04-10 00:22:00] INFO root fetch - processPackages [pyventus]: New version: [0.5.0] Old Version: [0.4.1]
+[2024-04-10 00:22:01] INFO root fetch - processPackages [foamlib]: Downloading https://files.pythonhosted.org/packages/b1/d6/f9de278593ab32e5fa41b4880bf83689c192ae44f9ad905c42f6112a9934/foamlib-0.2.6.tar.gz
+[2024-04-10 00:22:01] INFO root fetch - processPackages [agentdesk]: Downloading https://files.pythonhosted.org/packages/24/26/ad035fd9f7aedb4d5a78e0198ca36d0599d9ed6d9f5cfeeb84e922907596/agentdesk-0.2.9.tar.gz
+[2024-04-10 00:22:01] INFO root fetch - processPackages [matchlib]: Downloading https://files.pythonhosted.org/packages/0c/f2/b6dbdc365058299885484d445a0bc66bdcd995ae11f0c9cb7fcc635a1ecc/matchlib-0.2.2.tar.gz
+[2024-04-10 00:22:01] INFO root fetch - processPackages [pyventus]: Downloading https://files.pythonhosted.org/packages/c2/dd/4c0e0735e456787b1b5e475432228c655641a54793e05ca0784c066095be/pyventus-0.4.1.tar.gz
+[2024-04-10 00:22:01] INFO root fetch - processPackages [foamlib]: executing diffoscope
+[2024-04-10 00:22:01] INFO root fetch - processPackages [foamlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foamlib-0.2.5.tar.gz tmp/foamlib-0.2.6.tar.gz --markdown 20240410/f/foamlib/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-04-10 00:22:01] INFO root fetch - processPackages [agentdesk]: executing diffoscope
+[2024-04-10 00:22:01] INFO root fetch - processPackages [agentdesk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentdesk-0.2.8.tar.gz tmp/agentdesk-0.2.9.tar.gz --markdown 20240410/a/agentdesk/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-10 00:22:01] INFO root fetch - processPackages [pyventus]: Downloading https://files.pythonhosted.org/packages/c1/28/9eb03980dc59954aed240310a135651d50f564cd2371938aeb524a3c57a2/pyventus-0.5.0.tar.gz
+[2024-04-10 00:22:01] INFO root fetch - processPackages [matchlib]: Downloading https://files.pythonhosted.org/packages/5b/c0/930702de06410b682e5b0dc0458fdd2a7da0229e9b1c0be5008f80fc4562/matchlib-0.2.3.tar.gz
+[2024-04-10 00:22:01] INFO root fetch - processPackages [pyventus]: executing diffoscope
+[2024-04-10 00:22:01] INFO root fetch - processPackages [pyventus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyventus-0.4.1.tar.gz tmp/pyventus-0.5.0.tar.gz --markdown 20240410/p/pyventus/0.4.1-0.5.0/README.md --exclude *.pyd
+[2024-04-10 00:22:01] INFO root fetch - processPackages [matchlib]: executing diffoscope
+[2024-04-10 00:22:01] INFO root fetch - processPackages [matchlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matchlib-0.2.2.tar.gz tmp/matchlib-0.2.3.tar.gz --markdown 20240410/m/matchlib/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-10 00:22:01] INFO root fetch - processPackages [agentdesk]: Remove: archive file [/home/abi/fetcher/tmp/agentdesk-0.2.8.tar.gz]
+[2024-04-10 00:22:01] INFO root fetch - processPackages [agentdesk]: Remove: archive file [/home/abi/fetcher/tmp/agentdesk-0.2.9.tar.gz]
+[2024-04-10 00:22:01] INFO root fetch - main [MainThread]: End processing [agentdesk]: success
+[2024-04-10 00:22:01] INFO root fetch - processPackages [foamlib]: Remove: archive file [/home/abi/fetcher/tmp/foamlib-0.2.5.tar.gz]
+[2024-04-10 00:22:01] INFO root fetch - processPackages [foamlib]: Remove: archive file [/home/abi/fetcher/tmp/foamlib-0.2.6.tar.gz]
+[2024-04-10 00:22:01] INFO root fetch - main [MainThread]: End processing [foamlib]: success
+[2024-04-10 00:22:02] INFO root fetch - processPackages [matchlib]: Remove: archive file [/home/abi/fetcher/tmp/matchlib-0.2.2.tar.gz]
+[2024-04-10 00:22:02] INFO root fetch - processPackages [matchlib]: Remove: archive file [/home/abi/fetcher/tmp/matchlib-0.2.3.tar.gz]
+[2024-04-10 00:22:02] INFO root fetch - main [MainThread]: End processing [matchlib]: success
+[2024-04-10 00:22:02] INFO root fetch - processPackages [pyventus]: Remove: archive file [/home/abi/fetcher/tmp/pyventus-0.4.1.tar.gz]
+[2024-04-10 00:22:02] INFO root fetch - processPackages [pyventus]: Remove: archive file [/home/abi/fetcher/tmp/pyventus-0.5.0.tar.gz]
+[2024-04-10 00:22:02] INFO root fetch - main [MainThread]: End processing [pyventus]: success
+[2024-04-10 00:22:02] INFO root fetch - main [MainThread]: Store serial: [22691294]

@@ -12593,3 +12593,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 06:50:42] INFO root fetch - processPackages [aiovantage]: Remove: archive file [/home/abi/fetcher/tmp/aiovantage-0.9.0.tar.gz]
 [2024-04-10 06:50:42] INFO root fetch - main [MainThread]: End processing [aiovantage]: success
 [2024-04-10 06:50:42] INFO root fetch - main [MainThread]: Store serial: [22695853]
+[2024-04-10 06:52:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22695853]
+[2024-04-10 06:52:51] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-10 06:52:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hgraph
+[2024-04-10 06:52:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: TikTokLive
+[2024-04-10 06:52:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alibabacloud-ecs20140526-py2
+[2024-04-10 06:52:51] INFO root fetch - processPackages [alibabacloud-ecs20140526-py2]: New version: [4.0.4] Old Version: [4.0.3]
+[2024-04-10 06:52:51] INFO root fetch - processPackages [TikTokLive]: New version: [6.0.5] Old Version: [6.0.4]
+[2024-04-10 06:52:51] INFO root fetch - processPackages [hgraph]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-04-10 06:52:51] INFO root fetch - processPackages [alibabacloud-ecs20140526-py2]: Downloading https://files.pythonhosted.org/packages/7b/57/21d8bb7e30b7dda08c287575c3e9c02caa86b6593b1c9d00b722b3f4f6fc/alibabacloud_ecs20140526_py2-4.0.3.tar.gz
+[2024-04-10 06:52:51] INFO root fetch - processPackages [TikTokLive]: Downloading https://files.pythonhosted.org/packages/ec/89/fadc0c862ede26e5e2464d739d7484e32b5141140b452efcb0a61e70ba52/TikTokLive-6.0.4.tar.gz
+[2024-04-10 06:52:51] INFO root fetch - processPackages [hgraph]: Downloading https://files.pythonhosted.org/packages/0b/15/c304ce16282214008b5a1a2e33dd9084bab33ced060f7e0f808aff1df1ad/hgraph-0.2.7.tar.gz
+[2024-04-10 06:52:52] INFO root fetch - processPackages [TikTokLive]: Downloading https://files.pythonhosted.org/packages/c5/95/76de24b7d85cee3f0e40685a8b90f03ff211ed03803e62f03779cefd8f14/TikTokLive-6.0.5.tar.gz
+[2024-04-10 06:52:52] INFO root fetch - processPackages [alibabacloud-ecs20140526-py2]: Downloading https://files.pythonhosted.org/packages/7e/de/75fa492079b06e07ff33cdef3f4b3d2363148f19b8b4b3caaca25320988d/alibabacloud_ecs20140526_py2-4.0.4.tar.gz
+[2024-04-10 06:52:52] INFO root fetch - processPackages [hgraph]: Downloading https://files.pythonhosted.org/packages/da/ad/e83b1d8661a0e583d3a8e4e301911d6797358607dad40d27057574e75081/hgraph-0.2.8.tar.gz
+[2024-04-10 06:52:52] INFO root fetch - processPackages [TikTokLive]: executing diffoscope
+[2024-04-10 06:52:52] INFO root fetch - processPackages [TikTokLive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TikTokLive-6.0.4.tar.gz tmp/TikTokLive-6.0.5.tar.gz --markdown 20240410/T/TikTokLive/6.0.4-6.0.5/README.md --exclude *.pyd
+[2024-04-10 06:52:52] INFO root fetch - processPackages [hgraph]: executing diffoscope
+[2024-04-10 06:52:52] INFO root fetch - processPackages [hgraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hgraph-0.2.7.tar.gz tmp/hgraph-0.2.8.tar.gz --markdown 20240410/h/hgraph/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-04-10 06:52:52] INFO root fetch - processPackages [alibabacloud-ecs20140526-py2]: executing diffoscope
+[2024-04-10 06:52:52] INFO root fetch - processPackages [alibabacloud-ecs20140526-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_ecs20140526_py2-4.0.3.tar.gz tmp/alibabacloud_ecs20140526_py2-4.0.4.tar.gz --markdown 20240410/a/alibabacloud-ecs20140526-py2/4.0.3-4.0.4/README.md --exclude *.pyd
+[2024-04-10 06:52:53] INFO root fetch - processPackages [TikTokLive]: Remove: archive file [/home/abi/fetcher/tmp/TikTokLive-6.0.4.tar.gz]
+[2024-04-10 06:52:53] INFO root fetch - processPackages [TikTokLive]: Remove: archive file [/home/abi/fetcher/tmp/TikTokLive-6.0.5.tar.gz]
+[2024-04-10 06:52:53] INFO root fetch - main [MainThread]: End processing [TikTokLive]: success
+[2024-04-10 06:52:53] INFO root fetch - processPackages [hgraph]: Remove: archive file [/home/abi/fetcher/tmp/hgraph-0.2.7.tar.gz]
+[2024-04-10 06:52:53] INFO root fetch - processPackages [hgraph]: Remove: archive file [/home/abi/fetcher/tmp/hgraph-0.2.8.tar.gz]
+[2024-04-10 06:52:53] INFO root fetch - main [MainThread]: End processing [hgraph]: success
+[2024-04-10 06:52:55] INFO root fetch - processPackages [alibabacloud-ecs20140526-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ecs20140526_py2-4.0.3.tar.gz]
+[2024-04-10 06:52:55] INFO root fetch - processPackages [alibabacloud-ecs20140526-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ecs20140526_py2-4.0.4.tar.gz]
+[2024-04-10 06:52:55] INFO root fetch - main [MainThread]: End processing [alibabacloud-ecs20140526-py2]: success
+[2024-04-10 06:52:55] INFO root fetch - main [MainThread]: Store serial: [22695863]

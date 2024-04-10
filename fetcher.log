@@ -12894,3 +12894,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 07:12:42] INFO root fetch - processPackages [haskellian-asyn]: Remove: archive file [/home/abi/fetcher/tmp/haskellian-asyn-0.2.2.tar.gz]
 [2024-04-10 07:12:42] INFO root fetch - main [MainThread]: End processing [haskellian-asyn]: success
 [2024-04-10 07:12:42] INFO root fetch - main [MainThread]: Store serial: [22695959]
+[2024-04-10 07:14:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22695959]
+[2024-04-10 07:14:50] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-10 07:14:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sparkproxy
+[2024-04-10 07:14:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Geode-Implicit
+[2024-04-10 07:14:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-pos-reset-search
+[2024-04-10 07:14:51] INFO root fetch - processPackages [sparkproxy]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-04-10 07:14:51] INFO root fetch - processPackages [sparkproxy]: Downloading https://files.pythonhosted.org/packages/9f/46/139570418c204a613217d05e6658af972ad57b2e36b090fec6462233523a/sparkproxy-0.2.1.tar.gz
+[2024-04-10 07:14:51] INFO root fetch - processPackages [odoo-addon-pos-reset-search]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.3]
+[2024-04-10 07:14:51] INFO root fetch - processPackages [Geode-Implicit]: New version: [2.8.4rc1] Old Version: [2.8.4]
+[2024-04-10 07:14:51] INFO root fetch - processPackages [odoo-addon-pos-reset-search]: Downloading https://files.pythonhosted.org/packages/30/6e/569c8268c3a50934a97428f106b3da076c36ac0bd0fdaa1df689787832c4/odoo_addon_pos_reset_search-16.0.1.0.0.3-py3-none-any.whl
+[2024-04-10 07:14:51] INFO root fetch - processPackages [Geode-Implicit]: Downloading https://files.pythonhosted.org/packages/cb/cc/5ab1c2f9c8263d108b0bc304cf1b36b31884b0c5ff7212a066db4378d4cd/Geode_Implicit-2.8.4-cp39-cp39-manylinux2014_x86_64.whl
+[2024-04-10 07:14:51] INFO root fetch - processPackages [sparkproxy]: Downloading https://files.pythonhosted.org/packages/78/a5/8e1d80e98fbda27f89d1a71a3887d14b1c71d7515d14cc74e1cdf34d19af/sparkproxy-0.3.0.tar.gz
+[2024-04-10 07:14:51] INFO root fetch - processPackages [sparkproxy]: executing diffoscope
+[2024-04-10 07:14:51] INFO root fetch - processPackages [sparkproxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparkproxy-0.2.1.tar.gz tmp/sparkproxy-0.3.0.tar.gz --markdown 20240410/s/sparkproxy/0.2.1-0.3.0/README.md --exclude *.pyd
+[2024-04-10 07:14:51] INFO root fetch - processPackages [odoo-addon-pos-reset-search]: Downloading https://files.pythonhosted.org/packages/61/d1/b566aedf3637e43aad2a365fd6de552249d8c941aa6334cf6dfd9246dcde/odoo_addon_pos_reset_search-16.0.1.0.0.5-py3-none-any.whl
+[2024-04-10 07:14:51] INFO root fetch - processPackages [odoo-addon-pos-reset-search]: executing diffoscope
+[2024-04-10 07:14:51] INFO root fetch - processPackages [odoo-addon-pos-reset-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_pos_reset_search-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_pos_reset_search-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240410/o/odoo-addon-pos-reset-search/16.0.1.0.0.3-16.0.1.0.0.5/README.md --exclude *.pyd
+[2024-04-10 07:14:51] INFO root fetch - processPackages [Geode-Implicit]: Downloading https://files.pythonhosted.org/packages/37/e7/bd3c254174c7484734d8a53ff117e589ba85485ef25c89ce57070ce72911/Geode_Implicit-2.8.4rc1-cp39-cp39-win_amd64.whl
+[2024-04-10 07:14:52] INFO root fetch - processPackages [sparkproxy]: Remove: archive file [/home/abi/fetcher/tmp/sparkproxy-0.2.1.tar.gz]
+[2024-04-10 07:14:52] INFO root fetch - processPackages [sparkproxy]: Remove: archive file [/home/abi/fetcher/tmp/sparkproxy-0.3.0.tar.gz]
+[2024-04-10 07:14:52] INFO root fetch - main [MainThread]: End processing [sparkproxy]: success
+[2024-04-10 07:14:52] INFO root fetch - processPackages [Geode-Implicit]: executing diffoscope
+[2024-04-10 07:14:52] INFO root fetch - processPackages [Geode-Implicit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Implicit-2.8.4-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/Geode_Implicit-2.8.4rc1-cp39-cp39-win_amd64.whl.zip --markdown 20240410/G/Geode-Implicit/2.8.4-2.8.4rc1/README.md --exclude *.pyd
+[2024-04-10 07:14:52] INFO root fetch - processPackages [odoo-addon-pos-reset-search]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_pos_reset_search-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-10 07:14:52] INFO root fetch - processPackages [odoo-addon-pos-reset-search]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_pos_reset_search-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-04-10 07:14:52] INFO root fetch - main [MainThread]: End processing [odoo-addon-pos-reset-search]: success
+[2024-04-10 07:14:53] INFO root fetch - processPackages [Geode-Implicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Implicit-2.8.4-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-04-10 07:14:53] INFO root fetch - processPackages [Geode-Implicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Implicit-2.8.4rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-10 07:14:53] INFO root fetch - main [MainThread]: End processing [Geode-Implicit]: success
+[2024-04-10 07:14:53] INFO root fetch - main [MainThread]: Store serial: [22695970]

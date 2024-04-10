@@ -7652,3 +7652,42 @@
 [2024-04-10 03:29:24] INFO root fetch - processPackages [enigma-machine-german]: Remove: archive file [/home/abi/fetcher/tmp/enigma_machine_german-0.3.0.tar.gz]
 [2024-04-10 03:29:24] INFO root fetch - main [MainThread]: End processing [enigma-machine-german]: success
 [2024-04-10 03:29:24] INFO root fetch - main [MainThread]: Store serial: [22694003]
+[2024-04-10 03:31:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22694003]
+[2024-04-10 03:31:33] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-10 03:31:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pih-ds
+[2024-04-10 03:31:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eyecite
+[2024-04-10 03:31:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pih-ad
+[2024-04-10 03:31:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: influxio
+[2024-04-10 03:31:33] INFO root fetch - processPackages [influxio]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-04-10 03:31:33] INFO root fetch - processPackages [eyecite]: New version: [2.6.3] Old Version: [2.6.2]
+[2024-04-10 03:31:33] INFO root fetch - processPackages [pih-ad]: New version: [0.14] Old Version: [0.13]
+[2024-04-10 03:31:34] INFO root fetch - processPackages [pih-ds]: New version: [0.13] Old Version: [0.12]
+[2024-04-10 03:31:34] INFO root fetch - processPackages [eyecite]: Downloading https://files.pythonhosted.org/packages/1c/bb/9556e80e7ecdf0bf75d806972c076be4e42d139ac56d9d16384db77dac0a/eyecite-2.6.2.tar.gz
+[2024-04-10 03:31:34] INFO root fetch - processPackages [influxio]: Downloading https://files.pythonhosted.org/packages/98/48/9427a25ad011b25fd2f0426f8a39c43157fd26ba165c8db1a2d5153da3ad/influxio-0.1.2.tar.gz
+[2024-04-10 03:31:34] INFO root fetch - processPackages [pih-ad]: Downloading https://files.pythonhosted.org/packages/ee/c6/9c6f927b945eca0a19bf3382045bb1af9d0ed72aaffcb965b9095b4b6a1c/pih-ad-0.13.tar.gz
+[2024-04-10 03:31:34] INFO root fetch - processPackages [pih-ds]: Downloading https://files.pythonhosted.org/packages/14/4c/e9480927344fd9edebb2cd6cead9ad02a31352f3052a29fdee38bc77ef64/pih-ds-0.12.tar.gz
+[2024-04-10 03:31:34] INFO root fetch - processPackages [eyecite]: Downloading https://files.pythonhosted.org/packages/74/4f/d36e4e2c5248bce258bfe817e9d4c5133239cb9b2d08650fb0817c2dd3aa/eyecite-2.6.3.tar.gz
+[2024-04-10 03:31:34] INFO root fetch - processPackages [eyecite]: executing diffoscope
+[2024-04-10 03:31:34] INFO root fetch - processPackages [eyecite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eyecite-2.6.2.tar.gz tmp/eyecite-2.6.3.tar.gz --markdown 20240410/e/eyecite/2.6.2-2.6.3/README.md --exclude *.pyd
+[2024-04-10 03:31:34] INFO root fetch - processPackages [pih-ds]: Downloading https://files.pythonhosted.org/packages/b2/b1/5bb3d10d23970138cebc3ad9bf382b3cf01e4c7505069ddd267347cffdcf/pih-ds-0.13.tar.gz
+[2024-04-10 03:31:34] INFO root fetch - processPackages [influxio]: Downloading https://files.pythonhosted.org/packages/92/1e/b68aab39a96409a3df10e104519d251efd02cee90ac39329bd1ab76645e9/influxio-0.2.0.tar.gz
+[2024-04-10 03:31:34] INFO root fetch - processPackages [pih-ds]: executing diffoscope
+[2024-04-10 03:31:34] INFO root fetch - processPackages [pih-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-ds-0.12.tar.gz tmp/pih-ds-0.13.tar.gz --markdown 20240410/p/pih-ds/0.12-0.13/README.md --exclude *.pyd
+[2024-04-10 03:31:34] INFO root fetch - processPackages [pih-ad]: Downloading https://files.pythonhosted.org/packages/17/e5/6af57eff5af7f6529f2bf7c0f3f0c42c7b840ae279bacf885a345a52687d/pih-ad-0.14.tar.gz
+[2024-04-10 03:31:34] INFO root fetch - processPackages [influxio]: executing diffoscope
+[2024-04-10 03:31:34] INFO root fetch - processPackages [influxio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/influxio-0.1.2.tar.gz tmp/influxio-0.2.0.tar.gz --markdown 20240410/i/influxio/0.1.2-0.2.0/README.md --exclude *.pyd
+[2024-04-10 03:31:35] INFO root fetch - processPackages [pih-ad]: executing diffoscope
+[2024-04-10 03:31:35] INFO root fetch - processPackages [pih-ad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-ad-0.13.tar.gz tmp/pih-ad-0.14.tar.gz --markdown 20240410/p/pih-ad/0.13-0.14/README.md --exclude *.pyd
+[2024-04-10 03:31:35] INFO root fetch - processPackages [eyecite]: Remove: archive file [/home/abi/fetcher/tmp/eyecite-2.6.2.tar.gz]
+[2024-04-10 03:31:35] INFO root fetch - processPackages [eyecite]: Remove: archive file [/home/abi/fetcher/tmp/eyecite-2.6.3.tar.gz]
+[2024-04-10 03:31:35] INFO root fetch - main [MainThread]: End processing [eyecite]: success
+[2024-04-10 03:31:35] INFO root fetch - processPackages [pih-ds]: Remove: archive file [/home/abi/fetcher/tmp/pih-ds-0.12.tar.gz]
+[2024-04-10 03:31:35] INFO root fetch - processPackages [pih-ds]: Remove: archive file [/home/abi/fetcher/tmp/pih-ds-0.13.tar.gz]
+[2024-04-10 03:31:35] INFO root fetch - main [MainThread]: End processing [pih-ds]: success
+[2024-04-10 03:31:35] INFO root fetch - processPackages [pih-ad]: Remove: archive file [/home/abi/fetcher/tmp/pih-ad-0.13.tar.gz]
+[2024-04-10 03:31:35] INFO root fetch - processPackages [pih-ad]: Remove: archive file [/home/abi/fetcher/tmp/pih-ad-0.14.tar.gz]
+[2024-04-10 03:31:35] INFO root fetch - main [MainThread]: End processing [pih-ad]: success
+[2024-04-10 03:31:35] INFO root fetch - processPackages [influxio]: Remove: archive file [/home/abi/fetcher/tmp/influxio-0.1.2.tar.gz]
+[2024-04-10 03:31:35] INFO root fetch - processPackages [influxio]: Remove: archive file [/home/abi/fetcher/tmp/influxio-0.2.0.tar.gz]
+[2024-04-10 03:31:35] INFO root fetch - main [MainThread]: End processing [influxio]: success
+[2024-04-10 03:31:35] INFO root fetch - main [MainThread]: Store serial: [22694017]

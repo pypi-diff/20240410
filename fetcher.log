@@ -12623,3 +12623,45 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 06:52:55] INFO root fetch - processPackages [alibabacloud-ecs20140526-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ecs20140526_py2-4.0.4.tar.gz]
 [2024-04-10 06:52:55] INFO root fetch - main [MainThread]: End processing [alibabacloud-ecs20140526-py2]: success
 [2024-04-10 06:52:55] INFO root fetch - main [MainThread]: Store serial: [22695863]
+[2024-04-10 06:55:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22695863]
+[2024-04-10 06:55:06] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-10 06:55:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zrb-noto
+[2024-04-10 06:55:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: erdantic
+[2024-04-10 06:55:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alibabacloud-ecs20140526
+[2024-04-10 06:55:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: inovopy
+[2024-04-10 06:55:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: simim
+[2024-04-10 06:55:06] INFO root fetch - processPackages [inovopy]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-10 06:55:06] INFO root fetch - processPackages [erdantic]: New version: [1.0.0rc1] Old Version: [1.0.0.post1]
+[2024-04-10 06:55:06] INFO root fetch - processPackages [inovopy]: Downloading https://files.pythonhosted.org/packages/95/46/a58b4503e51a7b3c9d8563282e2b880a5c5f2db8baae20e2ec1f0de09767/inovopy-0.0.4.tar.gz
+[2024-04-10 06:55:06] INFO root fetch - processPackages [simim]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-04-10 06:55:06] WARNING root fetch - processPackages [zrb-noto]: Skipping, unable to determine old version
+[2024-04-10 06:55:06] INFO root fetch - main [MainThread]: End processing [zrb-noto] error
+[2024-04-10 06:55:06] INFO root fetch - processPackages [alibabacloud-ecs20140526]: New version: [4.0.4] Old Version: [4.0.3]
+[2024-04-10 06:55:06] INFO root fetch - processPackages [erdantic]: Downloading https://files.pythonhosted.org/packages/f6/9e/91078bbd6d3ae6a8e3ee911505c3c5acd46a96f8a9b724cd3258ed0b653c/erdantic-1.0.0.post1.tar.gz
+[2024-04-10 06:55:06] INFO root fetch - processPackages [simim]: Downloading https://files.pythonhosted.org/packages/bd/3f/77b1b7aa6e2d583b410a47157d3390cb5e10b826c2e02e4d428cdc5f8dfc/simim-0.3.4.tar.gz
+[2024-04-10 06:55:06] INFO root fetch - processPackages [alibabacloud-ecs20140526]: Downloading https://files.pythonhosted.org/packages/96/81/799ab7ef23c19eb98342739d325c0432f2c91e4af816fee7a2a606d72fc4/alibabacloud_ecs20140526-4.0.3.tar.gz
+[2024-04-10 06:55:06] INFO root fetch - processPackages [erdantic]: Downloading https://files.pythonhosted.org/packages/9c/39/c79b15c606efa80a9853a18b1f6b9d762919a9d3181ef5750d62db51ffaf/erdantic-1.0.0rc1.tar.gz
+[2024-04-10 06:55:06] INFO root fetch - processPackages [inovopy]: Downloading https://files.pythonhosted.org/packages/43/29/1ed69d906538f161b26046e714047226393ed9d55ae954d456b594ac8a87/inovopy-0.0.5.tar.gz
+[2024-04-10 06:55:06] INFO root fetch - processPackages [erdantic]: executing diffoscope
+[2024-04-10 06:55:06] INFO root fetch - processPackages [erdantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erdantic-1.0.0.post1.tar.gz tmp/erdantic-1.0.0rc1.tar.gz --markdown 20240410/e/erdantic/1.0.0.post1-1.0.0rc1/README.md --exclude *.pyd
+[2024-04-10 06:55:06] INFO root fetch - processPackages [inovopy]: executing diffoscope
+[2024-04-10 06:55:06] INFO root fetch - processPackages [inovopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inovopy-0.0.4.tar.gz tmp/inovopy-0.0.5.tar.gz --markdown 20240410/i/inovopy/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-10 06:55:07] INFO root fetch - processPackages [simim]: Downloading https://files.pythonhosted.org/packages/91/93/d24cf3243869a39e5f1e1daa8e943912a2dd585b50cffd49a3b2a5c5cdbc/simim-0.3.5.tar.gz
+[2024-04-10 06:55:07] INFO root fetch - processPackages [alibabacloud-ecs20140526]: Downloading https://files.pythonhosted.org/packages/54/57/3cd9a7fc90bd4308c46c853cea0031296e86bbf6167dc18165c440dcaa49/alibabacloud_ecs20140526-4.0.4.tar.gz
+[2024-04-10 06:55:07] INFO root fetch - processPackages [alibabacloud-ecs20140526]: executing diffoscope
+[2024-04-10 06:55:07] INFO root fetch - processPackages [alibabacloud-ecs20140526]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_ecs20140526-4.0.3.tar.gz tmp/alibabacloud_ecs20140526-4.0.4.tar.gz --markdown 20240410/a/alibabacloud-ecs20140526/4.0.3-4.0.4/README.md --exclude *.pyd
+[2024-04-10 06:55:07] INFO root fetch - processPackages [simim]: executing diffoscope
+[2024-04-10 06:55:07] INFO root fetch - processPackages [simim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simim-0.3.4.tar.gz tmp/simim-0.3.5.tar.gz --markdown 20240410/s/simim/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-04-10 06:55:07] INFO root fetch - processPackages [erdantic]: Remove: archive file [/home/abi/fetcher/tmp/erdantic-1.0.0.post1.tar.gz]
+[2024-04-10 06:55:07] INFO root fetch - processPackages [erdantic]: Remove: archive file [/home/abi/fetcher/tmp/erdantic-1.0.0rc1.tar.gz]
+[2024-04-10 06:55:07] INFO root fetch - main [MainThread]: End processing [erdantic]: success
+[2024-04-10 06:55:07] INFO root fetch - processPackages [inovopy]: Remove: archive file [/home/abi/fetcher/tmp/inovopy-0.0.4.tar.gz]
+[2024-04-10 06:55:07] INFO root fetch - processPackages [inovopy]: Remove: archive file [/home/abi/fetcher/tmp/inovopy-0.0.5.tar.gz]
+[2024-04-10 06:55:07] INFO root fetch - main [MainThread]: End processing [inovopy]: success
+[2024-04-10 06:55:08] INFO root fetch - processPackages [simim]: Remove: archive file [/home/abi/fetcher/tmp/simim-0.3.4.tar.gz]
+[2024-04-10 06:55:08] INFO root fetch - processPackages [simim]: Remove: archive file [/home/abi/fetcher/tmp/simim-0.3.5.tar.gz]
+[2024-04-10 06:55:08] INFO root fetch - main [MainThread]: End processing [simim]: success
+[2024-04-10 06:55:11] INFO root fetch - processPackages [alibabacloud-ecs20140526]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ecs20140526-4.0.3.tar.gz]
+[2024-04-10 06:55:11] INFO root fetch - processPackages [alibabacloud-ecs20140526]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ecs20140526-4.0.4.tar.gz]
+[2024-04-10 06:55:11] INFO root fetch - main [MainThread]: End processing [alibabacloud-ecs20140526]: success
+[2024-04-10 06:55:11] INFO root fetch - main [MainThread]: Store serial: [22695881]

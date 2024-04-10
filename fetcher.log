@@ -12245,3 +12245,83 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 06:31:04] INFO root fetch - processPackages [pulumi-gcp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gcp-7.9.0a1707934510.tar.gz]
 [2024-04-10 06:31:04] INFO root fetch - main [MainThread]: End processing [pulumi-gcp]: success
 [2024-04-10 06:31:04] INFO root fetch - main [MainThread]: Store serial: [22695745]
+[2024-04-10 06:33:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22695745]
+[2024-04-10 06:33:14] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-10 06:33:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spiceai
+[2024-04-10 06:33:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ml-runlog
+[2024-04-10 06:33:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ros-cdk-cdn
+[2024-04-10 06:33:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: log10-io
+[2024-04-10 06:33:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: promptdown
+[2024-04-10 06:33:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytest-fly
+[2024-04-10 06:33:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ros-cdk-searchengine
+[2024-04-10 06:33:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ros-cdk-dms
+[2024-04-10 06:33:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pih
+[2024-04-10 06:33:14] INFO root fetch - processPackages [ml-runlog]: New version: [2.1] Old Version: [2.0]
+[2024-04-10 06:33:14] INFO root fetch - processPackages [pytest-fly]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-10 06:33:14] INFO root fetch - processPackages [promptdown]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-10 06:33:14] INFO root fetch - processPackages [pih]: New version: [0.35] Old Version: [0.34]
+[2024-04-10 06:33:14] INFO root fetch - processPackages [spiceai]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-10 06:33:14] INFO root fetch - processPackages [ml-runlog]: Downloading https://files.pythonhosted.org/packages/22/41/df0a0871122a7965302c3ff63e0708c7f6e647f449b8f382bef867419bbc/ml_runlog-2.0.tar.gz
+[2024-04-10 06:33:14] INFO root fetch - processPackages [promptdown]: Downloading https://files.pythonhosted.org/packages/77/bb/8734fe4dbb76f256ce62aa2cd15f544a410ab7f38404a279f2d380c80a07/promptdown-0.1.0.tar.gz
+[2024-04-10 06:33:14] INFO root fetch - processPackages [log10-io]: New version: [0.7.5] Old Version: [0.7.4]
+[2024-04-10 06:33:14] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/dd/da/af67a9b8da8f47d3e375d31f63cf6a9321d8493c1ff412c12bed039664ca/pih-0.34.tar.gz
+[2024-04-10 06:33:14] INFO root fetch - processPackages [ros-cdk-dms]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-10 06:33:14] INFO root fetch - processPackages [ros-cdk-searchengine]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-10 06:33:14] INFO root fetch - processPackages [ros-cdk-cdn]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-10 06:33:14] INFO root fetch - processPackages [pytest-fly]: Downloading https://files.pythonhosted.org/packages/32/d7/59acba957a6d292951027a78a48aed41ad2db4b0128791003a83e142024f/pytest_fly-0.0.3.tar.gz
+[2024-04-10 06:33:14] WARNING root fetch - processPackages [pytest-fly]: Skipping package: exceeds size limit 35697030>=10485760
+[2024-04-10 06:33:14] INFO root fetch - main [MainThread]: End processing [pytest-fly] error
+[2024-04-10 06:33:14] INFO root fetch - processPackages [spiceai]: Downloading https://files.pythonhosted.org/packages/cf/ae/996ad1fdea23c403b933ef9802bede2fbc0751fdfecde9fd05dc975086de/spiceai-0.1.8.tar.gz
+[2024-04-10 06:33:14] INFO root fetch - processPackages [promptdown]: Downloading https://files.pythonhosted.org/packages/1e/d8/8d518a3fa4fa74c908623fac60893dbd73eb5d771e6d4b0c0b69d1383e64/promptdown-0.2.0.tar.gz
+[2024-04-10 06:33:14] INFO root fetch - processPackages [ros-cdk-cdn]: Downloading https://files.pythonhosted.org/packages/75/8a/4c0915519cd54a8f6ff7c027146ee58512c68a78509bf3bf3c2d4d996b82/ros-cdk-cdn-1.0.8.tar.gz
+[2024-04-10 06:33:14] INFO root fetch - processPackages [log10-io]: Downloading https://files.pythonhosted.org/packages/7c/ee/f8ff2a1035f1654e0f7483c51fda8bb83cdc7a59a6adf1d965f227ae3f43/log10_io-0.7.4.tar.gz
+[2024-04-10 06:33:14] INFO root fetch - processPackages [ros-cdk-dms]: Downloading https://files.pythonhosted.org/packages/7a/3d/852a8234db65359b0e5f35ffd4e43ade57233422782fda96c0155143fb36/ros-cdk-dms-1.0.8.tar.gz
+[2024-04-10 06:33:14] INFO root fetch - processPackages [ros-cdk-searchengine]: Downloading https://files.pythonhosted.org/packages/bf/3b/30c5eaff9b36fce6cdba9745b74eee3c770da09e85aab9d379276650b4a3/ros-cdk-searchengine-1.0.8.tar.gz
+[2024-04-10 06:33:14] INFO root fetch - processPackages [ml-runlog]: Downloading https://files.pythonhosted.org/packages/3b/02/efdab15be1a85fc880cd21205115fab2eb0d2663e3a1b451aa4a0451276e/ml_runlog-2.1.tar.gz
+[2024-04-10 06:33:14] INFO root fetch - processPackages [promptdown]: executing diffoscope
+[2024-04-10 06:33:14] INFO root fetch - processPackages [promptdown]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptdown-0.1.0.tar.gz tmp/promptdown-0.2.0.tar.gz --markdown 20240410/p/promptdown/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-04-10 06:33:14] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/af/ec/cbb1d7c9b6a7cc208b0f65c3abb31e2baa1b21f0cdb05b29a8350b3d9ce1/pih-0.35.tar.gz
+[2024-04-10 06:33:14] INFO root fetch - processPackages [ml-runlog]: executing diffoscope
+[2024-04-10 06:33:14] INFO root fetch - processPackages [ml-runlog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml_runlog-2.0.tar.gz tmp/ml_runlog-2.1.tar.gz --markdown 20240410/m/ml-runlog/2.0-2.1/README.md --exclude *.pyd
+[2024-04-10 06:33:14] INFO root fetch - processPackages [spiceai]: Downloading https://files.pythonhosted.org/packages/bf/9f/bc673693c3d3689111fff5e4b4c8501c52551562a1cfa135281cb1502d86/spiceai-0.1.9.tar.gz
+[2024-04-10 06:33:14] INFO root fetch - processPackages [pih]: executing diffoscope
+[2024-04-10 06:33:14] INFO root fetch - processPackages [pih]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-0.34.tar.gz tmp/pih-0.35.tar.gz --markdown 20240410/p/pih/0.34-0.35/README.md --exclude *.pyd
+[2024-04-10 06:33:15] INFO root fetch - processPackages [spiceai]: executing diffoscope
+[2024-04-10 06:33:15] INFO root fetch - processPackages [spiceai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spiceai-0.1.8.tar.gz tmp/spiceai-0.1.9.tar.gz --markdown 20240410/s/spiceai/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-10 06:33:15] INFO root fetch - processPackages [log10-io]: Downloading https://files.pythonhosted.org/packages/ff/72/90faaba6db457207bf2b50c2262198210a2c34f7fd1866de31d11ed13805/log10_io-0.7.5.tar.gz
+[2024-04-10 06:33:15] INFO root fetch - processPackages [ros-cdk-cdn]: Downloading https://files.pythonhosted.org/packages/02/9b/9180dd4f5bb8d70cad58e1954218be77776bce87367bc613d3757833cec6/ros-cdk-cdn-1.0.9.tar.gz
+[2024-04-10 06:33:15] INFO root fetch - processPackages [ros-cdk-searchengine]: Downloading https://files.pythonhosted.org/packages/e2/9e/a6cfd33bb3d00e36bf216514e31cd054a8f1530ebfb460860da76c52b98a/ros-cdk-searchengine-1.0.9.tar.gz
+[2024-04-10 06:33:15] INFO root fetch - processPackages [ros-cdk-dms]: Downloading https://files.pythonhosted.org/packages/0a/0e/4ee8221b06cd2de7d6302e3cefa5552039041378dcdc1e124f48ed5f1972/ros-cdk-dms-1.0.9.tar.gz
+[2024-04-10 06:33:15] INFO root fetch - processPackages [log10-io]: executing diffoscope
+[2024-04-10 06:33:15] INFO root fetch - processPackages [log10-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/log10_io-0.7.4.tar.gz tmp/log10_io-0.7.5.tar.gz --markdown 20240410/l/log10-io/0.7.4-0.7.5/README.md --exclude *.pyd
+[2024-04-10 06:33:15] INFO root fetch - processPackages [ros-cdk-cdn]: executing diffoscope
+[2024-04-10 06:33:15] INFO root fetch - processPackages [ros-cdk-cdn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-cdn-1.0.8.tar.gz tmp/ros-cdk-cdn-1.0.9.tar.gz --markdown 20240410/r/ros-cdk-cdn/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-10 06:33:15] INFO root fetch - processPackages [ros-cdk-searchengine]: executing diffoscope
+[2024-04-10 06:33:15] INFO root fetch - processPackages [ros-cdk-searchengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-searchengine-1.0.8.tar.gz tmp/ros-cdk-searchengine-1.0.9.tar.gz --markdown 20240410/r/ros-cdk-searchengine/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-10 06:33:15] INFO root fetch - processPackages [ros-cdk-dms]: executing diffoscope
+[2024-04-10 06:33:15] INFO root fetch - processPackages [ros-cdk-dms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-dms-1.0.8.tar.gz tmp/ros-cdk-dms-1.0.9.tar.gz --markdown 20240410/r/ros-cdk-dms/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-10 06:33:15] INFO root fetch - processPackages [promptdown]: Remove: archive file [/home/abi/fetcher/tmp/promptdown-0.1.0.tar.gz]
+[2024-04-10 06:33:15] INFO root fetch - processPackages [promptdown]: Remove: archive file [/home/abi/fetcher/tmp/promptdown-0.2.0.tar.gz]
+[2024-04-10 06:33:15] INFO root fetch - main [MainThread]: End processing [promptdown]: success
+[2024-04-10 06:33:15] INFO root fetch - processPackages [ml-runlog]: Remove: archive file [/home/abi/fetcher/tmp/ml_runlog-2.0.tar.gz]
+[2024-04-10 06:33:15] INFO root fetch - processPackages [ml-runlog]: Remove: archive file [/home/abi/fetcher/tmp/ml_runlog-2.1.tar.gz]
+[2024-04-10 06:33:15] INFO root fetch - main [MainThread]: End processing [ml-runlog]: success
+[2024-04-10 06:33:15] INFO root fetch - processPackages [spiceai]: Remove: archive file [/home/abi/fetcher/tmp/spiceai-0.1.8.tar.gz]
+[2024-04-10 06:33:15] INFO root fetch - processPackages [spiceai]: Remove: archive file [/home/abi/fetcher/tmp/spiceai-0.1.9.tar.gz]
+[2024-04-10 06:33:15] INFO root fetch - main [MainThread]: End processing [spiceai]: success
+[2024-04-10 06:33:15] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.34.tar.gz]
+[2024-04-10 06:33:15] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.35.tar.gz]
+[2024-04-10 06:33:15] INFO root fetch - main [MainThread]: End processing [pih]: success
+[2024-04-10 06:33:16] INFO root fetch - processPackages [ros-cdk-searchengine]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-searchengine-1.0.8.tar.gz]
+[2024-04-10 06:33:16] INFO root fetch - processPackages [ros-cdk-searchengine]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-searchengine-1.0.9.tar.gz]
+[2024-04-10 06:33:16] INFO root fetch - main [MainThread]: End processing [ros-cdk-searchengine]: success
+[2024-04-10 06:33:16] INFO root fetch - processPackages [log10-io]: Remove: archive file [/home/abi/fetcher/tmp/log10_io-0.7.4.tar.gz]
+[2024-04-10 06:33:16] INFO root fetch - processPackages [log10-io]: Remove: archive file [/home/abi/fetcher/tmp/log10_io-0.7.5.tar.gz]
+[2024-04-10 06:33:16] INFO root fetch - main [MainThread]: End processing [log10-io]: success
+[2024-04-10 06:33:16] INFO root fetch - processPackages [ros-cdk-dms]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-dms-1.0.8.tar.gz]
+[2024-04-10 06:33:16] INFO root fetch - processPackages [ros-cdk-dms]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-dms-1.0.9.tar.gz]
+[2024-04-10 06:33:16] INFO root fetch - main [MainThread]: End processing [ros-cdk-dms]: success
+[2024-04-10 06:33:16] INFO root fetch - processPackages [ros-cdk-cdn]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cdn-1.0.8.tar.gz]
+[2024-04-10 06:33:16] INFO root fetch - processPackages [ros-cdk-cdn]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cdn-1.0.9.tar.gz]
+[2024-04-10 06:33:16] INFO root fetch - main [MainThread]: End processing [ros-cdk-cdn]: success
+[2024-04-10 06:33:16] INFO root fetch - main [MainThread]: Store serial: [22695769]

@@ -11877,3 +11877,54 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 06:14:27] INFO root fetch - processPackages [ros-cdk-threatdetection]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-threatdetection-1.0.24.tar.gz]
 [2024-04-10 06:14:27] INFO root fetch - main [MainThread]: End processing [ros-cdk-threatdetection]: success
 [2024-04-10 06:14:27] INFO root fetch - main [MainThread]: Store serial: [22695608]
+[2024-04-10 06:16:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22695608]
+[2024-04-10 06:16:36] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-10 06:16:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ros-cdk-threatdetection
+[2024-04-10 06:16:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: experimentflow
+[2024-04-10 06:16:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytiqs
+[2024-04-10 06:16:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: robotframework-xlibrary
+[2024-04-10 06:16:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ros-cdk-clickhouse
+[2024-04-10 06:16:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ros-cdk-eais
+[2024-04-10 06:16:36] INFO root fetch - processPackages [pytiqs]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-10 06:16:36] INFO root fetch - processPackages [robotframework-xlibrary]: New version: [4.0.0] Old Version: [3.0.1]
+[2024-04-10 06:16:36] INFO root fetch - processPackages [ros-cdk-threatdetection]: New version: [1.0.24] Old Version: [1.0.23]
+[2024-04-10 06:16:36] WARNING root fetch - processPackages [experimentflow]: Skipping, unable to determine old version
+[2024-04-10 06:16:36] INFO root fetch - main [MainThread]: End processing [experimentflow] error
+[2024-04-10 06:16:36] INFO root fetch - processPackages [ros-cdk-clickhouse]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-10 06:16:36] INFO root fetch - processPackages [robotframework-xlibrary]: Downloading https://files.pythonhosted.org/packages/df/96/99353cd2a9c886c0a4019823432fffb454d7fb2768f5cd79bb4c3b1eb098/robotframework-xlibrary-3.0.1.tar.gz
+[2024-04-10 06:16:36] INFO root fetch - processPackages [ros-cdk-threatdetection]: Downloading https://files.pythonhosted.org/packages/7c/ac/5a353252e3aff6cc54e303f28473ba2b054507215c9b2acc9bcaee4d35ca/ros-cdk-threatdetection-1.0.23.tar.gz
+[2024-04-10 06:16:36] INFO root fetch - processPackages [ros-cdk-eais]: New version: [1.0.24] Old Version: [1.0.23]
+[2024-04-10 06:16:36] INFO root fetch - processPackages [pytiqs]: Downloading https://files.pythonhosted.org/packages/cb/a4/5c9051942181721f2c45a59713c1eb149d58f66e3faf4bb8f469ddf89ca4/pytiqs-1.0.0.tar.gz
+[2024-04-10 06:16:36] INFO root fetch - processPackages [ros-cdk-clickhouse]: Downloading https://files.pythonhosted.org/packages/29/d0/e998c769e72a1d6732cc557bc5feedc6cde2f67c29b2c7f2443bae1b3e07/ros-cdk-clickhouse-1.0.8.tar.gz
+[2024-04-10 06:16:36] INFO root fetch - processPackages [ros-cdk-threatdetection]: Downloading https://files.pythonhosted.org/packages/0d/10/2e15342ce37113cf63c54e304c4e3bbd84c6dade73155a4a261aa331bfee/ros-cdk-threatdetection-1.0.24.tar.gz
+[2024-04-10 06:16:36] INFO root fetch - processPackages [ros-cdk-eais]: Downloading https://files.pythonhosted.org/packages/eb/ff/6e2e0a5286ff86cd2ff567121fa65c3bd05ff89ff012ae47382cb9157663/ros-cdk-eais-1.0.23.tar.gz
+[2024-04-10 06:16:37] INFO root fetch - processPackages [robotframework-xlibrary]: Downloading https://files.pythonhosted.org/packages/ce/fe/3d02003b6ac1685c856d95a822a8b77b8353b6c74ce558389ec7bcc976e9/robotframework-xlibrary-4.0.0.tar.gz
+[2024-04-10 06:16:37] INFO root fetch - processPackages [ros-cdk-threatdetection]: executing diffoscope
+[2024-04-10 06:16:37] INFO root fetch - processPackages [ros-cdk-threatdetection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-threatdetection-1.0.23.tar.gz tmp/ros-cdk-threatdetection-1.0.24.tar.gz --markdown 20240410/r/ros-cdk-threatdetection/1.0.23-1.0.24/README.md --exclude *.pyd
+[2024-04-10 06:16:37] INFO root fetch - processPackages [pytiqs]: Downloading https://files.pythonhosted.org/packages/a8/e5/16abbe13d45e18882b485f2bf3975796759bc467d8c711d0b3246005ef34/pytiqs-1.0.1.tar.gz
+[2024-04-10 06:16:37] INFO root fetch - processPackages [robotframework-xlibrary]: executing diffoscope
+[2024-04-10 06:16:37] INFO root fetch - processPackages [robotframework-xlibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-xlibrary-3.0.1.tar.gz tmp/robotframework-xlibrary-4.0.0.tar.gz --markdown 20240410/r/robotframework-xlibrary/3.0.1-4.0.0/README.md --exclude *.pyd
+[2024-04-10 06:16:37] INFO root fetch - processPackages [pytiqs]: executing diffoscope
+[2024-04-10 06:16:37] INFO root fetch - processPackages [pytiqs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytiqs-1.0.0.tar.gz tmp/pytiqs-1.0.1.tar.gz --markdown 20240410/p/pytiqs/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-10 06:16:37] INFO root fetch - processPackages [ros-cdk-clickhouse]: Downloading https://files.pythonhosted.org/packages/05/ae/310bd3d73330d696cfd3d882d051313fd79700685ed0f35d51606dd5402b/ros-cdk-clickhouse-1.0.9.tar.gz
+[2024-04-10 06:16:37] INFO root fetch - processPackages [ros-cdk-eais]: Downloading https://files.pythonhosted.org/packages/48/8b/e2f88c5d338592c02f3f0dba1aecb7ae8115e90a20512be2f92505fb7d42/ros-cdk-eais-1.0.24.tar.gz
+[2024-04-10 06:16:37] INFO root fetch - processPackages [ros-cdk-clickhouse]: executing diffoscope
+[2024-04-10 06:16:37] INFO root fetch - processPackages [ros-cdk-clickhouse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-clickhouse-1.0.8.tar.gz tmp/ros-cdk-clickhouse-1.0.9.tar.gz --markdown 20240410/r/ros-cdk-clickhouse/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-10 06:16:37] INFO root fetch - processPackages [robotframework-xlibrary]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-xlibrary-3.0.1.tar.gz]
+[2024-04-10 06:16:37] INFO root fetch - processPackages [robotframework-xlibrary]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-xlibrary-4.0.0.tar.gz]
+[2024-04-10 06:16:37] INFO root fetch - main [MainThread]: End processing [robotframework-xlibrary]: success
+[2024-04-10 06:16:37] INFO root fetch - processPackages [pytiqs]: Remove: archive file [/home/abi/fetcher/tmp/pytiqs-1.0.0.tar.gz]
+[2024-04-10 06:16:37] INFO root fetch - processPackages [pytiqs]: Remove: archive file [/home/abi/fetcher/tmp/pytiqs-1.0.1.tar.gz]
+[2024-04-10 06:16:37] INFO root fetch - main [MainThread]: End processing [pytiqs]: success
+[2024-04-10 06:16:37] INFO root fetch - processPackages [ros-cdk-threatdetection]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-threatdetection-1.0.23.tar.gz]
+[2024-04-10 06:16:37] INFO root fetch - processPackages [ros-cdk-threatdetection]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-threatdetection-1.0.24.tar.gz]
+[2024-04-10 06:16:37] INFO root fetch - main [MainThread]: End processing [ros-cdk-threatdetection]: success
+[2024-04-10 06:16:37] INFO root fetch - processPackages [ros-cdk-clickhouse]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-clickhouse-1.0.8.tar.gz]
+[2024-04-10 06:16:37] INFO root fetch - processPackages [ros-cdk-clickhouse]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-clickhouse-1.0.9.tar.gz]
+[2024-04-10 06:16:37] INFO root fetch - main [MainThread]: End processing [ros-cdk-clickhouse]: success
+[2024-04-10 06:16:37] INFO root fetch - processPackages [ros-cdk-eais]: executing diffoscope
+[2024-04-10 06:16:37] INFO root fetch - processPackages [ros-cdk-eais]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-eais-1.0.23.tar.gz tmp/ros-cdk-eais-1.0.24.tar.gz --markdown 20240410/r/ros-cdk-eais/1.0.23-1.0.24/README.md --exclude *.pyd
+[2024-04-10 06:16:38] INFO root fetch - processPackages [ros-cdk-eais]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-eais-1.0.23.tar.gz]
+[2024-04-10 06:16:38] INFO root fetch - processPackages [ros-cdk-eais]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-eais-1.0.24.tar.gz]
+[2024-04-10 06:16:38] INFO root fetch - main [MainThread]: End processing [ros-cdk-eais]: success
+[2024-04-10 06:16:38] INFO root fetch - main [MainThread]: Store serial: [22695623]

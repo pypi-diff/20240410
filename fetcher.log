@@ -16696,3 +16696,86 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 10:06:46] INFO root fetch - processPackages [scepter]: Remove: archive file [/home/abi/fetcher/tmp/scepter-0.0.4-py3-none-any.whl.zip]
 [2024-04-10 10:06:46] INFO root fetch - main [MainThread]: End processing [scepter]: success
 [2024-04-10 10:06:46] INFO root fetch - main [MainThread]: Store serial: [22697448]
+[2024-04-10 10:08:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22697448]
+[2024-04-10 10:08:55] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-10 10:08:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: adilsm
+[2024-04-10 10:08:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: roma
+[2024-04-10 10:08:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyglove
+[2024-04-10 10:08:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: toolsos
+[2024-04-10 10:08:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datashader
+[2024-04-10 10:08:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: streamlit-google-auth
+[2024-04-10 10:08:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: antsi
+[2024-04-10 10:08:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dektools
+[2024-04-10 10:08:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: SimuBox
+[2024-04-10 10:08:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: HTLMLarge
+[2024-04-10 10:08:55] INFO root fetch - processPackages [datashader]: New version: [1.16.1a2] Old Version: [0.9.0]
+[2024-04-10 10:08:55] WARNING root fetch - processPackages [HTLMLarge]: Skipping, unable to determine old version
+[2024-04-10 10:08:55] INFO root fetch - processPackages [streamlit-google-auth]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-04-10 10:08:55] INFO root fetch - main [MainThread]: End processing [HTLMLarge] error
+[2024-04-10 10:08:55] INFO root fetch - processPackages [adilsm]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-10 10:08:55] INFO root fetch - processPackages [dektools]: New version: [0.1.9] Old Version: [0.1.79]
+[2024-04-10 10:08:55] INFO root fetch - processPackages [pyglove]: New version: [0.4.5.dev20240409] Old Version: [0.4.5.dev20240408]
+[2024-04-10 10:08:55] INFO root fetch - processPackages [toolsos]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-10 10:08:55] INFO root fetch - processPackages [roma]: New version: [1.4.5] Old Version: [1.4.4]
+[2024-04-10 10:08:55] INFO root fetch - processPackages [SimuBox]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-10 10:08:55] INFO root fetch - processPackages [antsi]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-10 10:08:55] INFO root fetch - processPackages [dektools]: Downloading https://files.pythonhosted.org/packages/89/4c/67b6eae16007c25e90f5decfaf67616d25365699bb4a1637b0fa6ed2bdf9/dektools-0.1.79.tar.gz
+[2024-04-10 10:08:55] INFO root fetch - processPackages [adilsm]: Downloading https://files.pythonhosted.org/packages/a7/86/6c9c308c49b4789113f32f2fb7d7b8dbaba5d76120928f46e390b5dbdc9a/adilsm-0.0.7.tar.gz
+[2024-04-10 10:08:55] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/8e/b4/b2df3da36472be735ef24bf925195e2425de4637ae20b2d155f72bc1d03b/pyglove-0.4.5.dev20240408.tar.gz
+[2024-04-10 10:08:55] INFO root fetch - processPackages [datashader]: Downloading https://files.pythonhosted.org/packages/2c/37/35112f57d1a83d76ed2a6e084f6a1da8e24ef94f2982578d94434a1ccd2b/datashader-0.9.0.tar.gz
+[2024-04-10 10:08:55] INFO root fetch - processPackages [streamlit-google-auth]: Downloading https://files.pythonhosted.org/packages/20/d8/2b316de8b85854a7d43e73f9fbd2847e23b6d03a831ec36ceb2483abc57c/streamlit-google-auth-1.1.1.tar.gz
+[2024-04-10 10:08:56] INFO root fetch - processPackages [roma]: Downloading https://files.pythonhosted.org/packages/2e/03/f0436b63da7e18d45c23de94f496d54df1fc78d7ee118fba51df72a5bf4d/roma-1.4.4.tar.gz
+[2024-04-10 10:08:56] INFO root fetch - processPackages [toolsos]: Downloading https://files.pythonhosted.org/packages/00/29/e319117484a640bcfdef9d27dada90921e8576e0f5d83e3e5d42e1e593ca/toolsos-0.2.3.tar.gz
+[2024-04-10 10:08:56] INFO root fetch - processPackages [antsi]: Downloading https://files.pythonhosted.org/packages/5a/34/4804647c8f0e889dffef5e42c37d34d7dc051877ff8c74a74e0352064bb2/antsi-0.1.2.tar.gz
+[2024-04-10 10:08:56] INFO root fetch - processPackages [SimuBox]: Downloading https://files.pythonhosted.org/packages/84/b1/bf9ca2b2b8018f8e567941aec70a67093493f6c863e8d29db5c725da724b/simubox-0.2.3.tar.gz
+[2024-04-10 10:08:56] INFO root fetch - processPackages [dektools]: Downloading https://files.pythonhosted.org/packages/68/56/90836602efe1f93ffb0ab3da68807fa41e85e124836bcc0c3cc2d1b2c539/dektools-0.1.9-py3-none-any.whl
+[2024-04-10 10:08:56] INFO root fetch - processPackages [adilsm]: Downloading https://files.pythonhosted.org/packages/b3/d2/81ee67ed1ec089dec6a7e9d25b1845e7b5b408df588ca3613c3424887085/adilsm-0.0.8.tar.gz
+[2024-04-10 10:08:56] INFO root fetch - processPackages [streamlit-google-auth]: Downloading https://files.pythonhosted.org/packages/85/ce/8c4bf4191293eccf06b7432c9e3fb7a27dc688095f1f5082c670149d1adb/streamlit-google-auth-1.1.2.tar.gz
+[2024-04-10 10:08:56] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/9e/42/c6b4ce5c85ebb0a6ac2d9722c6efe6e380124e2c41cca21a6ed72f0accf6/pyglove-0.4.5.dev20240409.tar.gz
+[2024-04-10 10:08:56] INFO root fetch - processPackages [roma]: Downloading https://files.pythonhosted.org/packages/74/02/1b4dcbf2551b99b3ab3f54cea08fd4fef438f155bef9befbdf6a5598d3ac/roma-1.4.5.tar.gz
+[2024-04-10 10:08:56] INFO root fetch - processPackages [toolsos]: Downloading https://files.pythonhosted.org/packages/a1/eb/a00423c798c4f682f36a1bbadf611eabe4d383d869bfa1b3ec9f7425ac8c/toolsos-0.2.4.tar.gz
+[2024-04-10 10:08:56] INFO root fetch - processPackages [dektools]: executing diffoscope
+[2024-04-10 10:08:56] INFO root fetch - processPackages [dektools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dektools-0.1.79.tar.gz tmp/dektools-0.1.9-py3-none-any.whl.zip --markdown 20240410/d/dektools/0.1.79-0.1.9/README.md --exclude *.pyd
+[2024-04-10 10:08:56] INFO root fetch - processPackages [antsi]: Downloading https://files.pythonhosted.org/packages/59/ad/278663267e95202c4a349de8f633d9ed4c31272b9464c09f0349418b2819/antsi-0.1.3.tar.gz
+[2024-04-10 10:08:56] INFO root fetch - processPackages [streamlit-google-auth]: executing diffoscope
+[2024-04-10 10:08:56] INFO root fetch - processPackages [streamlit-google-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-google-auth-1.1.1.tar.gz tmp/streamlit-google-auth-1.1.2.tar.gz --markdown 20240410/s/streamlit-google-auth/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-04-10 10:08:56] WARNING root fetch - processPackages [datashader]: Skipping package: exceeds size limit 30184745>=10485760
+[2024-04-10 10:08:56] INFO root fetch - main [MainThread]: End processing [datashader] error
+[2024-04-10 10:08:56] INFO root fetch - processPackages [roma]: executing diffoscope
+[2024-04-10 10:08:56] INFO root fetch - processPackages [adilsm]: executing diffoscope
+[2024-04-10 10:08:56] INFO root fetch - processPackages [adilsm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adilsm-0.0.7.tar.gz tmp/adilsm-0.0.8.tar.gz --markdown 20240410/a/adilsm/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-10 10:08:56] INFO root fetch - processPackages [roma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roma-1.4.4.tar.gz tmp/roma-1.4.5.tar.gz --markdown 20240410/r/roma/1.4.4-1.4.5/README.md --exclude *.pyd
+[2024-04-10 10:08:56] INFO root fetch - processPackages [toolsos]: executing diffoscope
+[2024-04-10 10:08:56] INFO root fetch - processPackages [toolsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toolsos-0.2.3.tar.gz tmp/toolsos-0.2.4.tar.gz --markdown 20240410/t/toolsos/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-10 10:08:56] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2024-04-10 10:08:56] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.4.5.dev20240408.tar.gz tmp/pyglove-0.4.5.dev20240409.tar.gz --markdown 20240410/p/pyglove/0.4.5.dev20240408-0.4.5.dev20240409/README.md --exclude *.pyd
+[2024-04-10 10:08:56] INFO root fetch - processPackages [SimuBox]: Downloading https://files.pythonhosted.org/packages/5b/a7/343ab40315f307abfd63b1511bba349478fbf7b796c42932df3919a07bb9/simubox-0.2.4.tar.gz
+[2024-04-10 10:08:56] INFO root fetch - processPackages [antsi]: executing diffoscope
+[2024-04-10 10:08:56] INFO root fetch - processPackages [antsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antsi-0.1.2.tar.gz tmp/antsi-0.1.3.tar.gz --markdown 20240410/a/antsi/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-10 10:08:56] INFO root fetch - processPackages [SimuBox]: executing diffoscope
+[2024-04-10 10:08:56] INFO root fetch - processPackages [SimuBox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simubox-0.2.3.tar.gz tmp/simubox-0.2.4.tar.gz --markdown 20240410/S/SimuBox/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-10 10:08:57] INFO root fetch - processPackages [dektools]: Remove: archive file [/home/abi/fetcher/tmp/dektools-0.1.79.tar.gz]
+[2024-04-10 10:08:57] INFO root fetch - processPackages [dektools]: Remove: archive file [/home/abi/fetcher/tmp/dektools-0.1.9-py3-none-any.whl.zip]
+[2024-04-10 10:08:57] INFO root fetch - main [MainThread]: End processing [dektools]: success
+[2024-04-10 10:08:57] INFO root fetch - processPackages [streamlit-google-auth]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-google-auth-1.1.1.tar.gz]
+[2024-04-10 10:08:57] INFO root fetch - processPackages [streamlit-google-auth]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-google-auth-1.1.2.tar.gz]
+[2024-04-10 10:08:57] INFO root fetch - main [MainThread]: End processing [streamlit-google-auth]: success
+[2024-04-10 10:08:57] INFO root fetch - processPackages [roma]: Remove: archive file [/home/abi/fetcher/tmp/roma-1.4.4.tar.gz]
+[2024-04-10 10:08:57] INFO root fetch - processPackages [roma]: Remove: archive file [/home/abi/fetcher/tmp/roma-1.4.5.tar.gz]
+[2024-04-10 10:08:57] INFO root fetch - main [MainThread]: End processing [roma]: success
+[2024-04-10 10:08:58] INFO root fetch - processPackages [toolsos]: Remove: archive file [/home/abi/fetcher/tmp/toolsos-0.2.3.tar.gz]
+[2024-04-10 10:08:58] INFO root fetch - processPackages [toolsos]: Remove: archive file [/home/abi/fetcher/tmp/toolsos-0.2.4.tar.gz]
+[2024-04-10 10:08:58] INFO root fetch - main [MainThread]: End processing [toolsos]: success
+[2024-04-10 10:08:58] INFO root fetch - processPackages [adilsm]: Remove: archive file [/home/abi/fetcher/tmp/adilsm-0.0.7.tar.gz]
+[2024-04-10 10:08:58] INFO root fetch - processPackages [adilsm]: Remove: archive file [/home/abi/fetcher/tmp/adilsm-0.0.8.tar.gz]
+[2024-04-10 10:08:58] INFO root fetch - main [MainThread]: End processing [adilsm]: success
+[2024-04-10 10:08:58] INFO root fetch - processPackages [antsi]: Remove: archive file [/home/abi/fetcher/tmp/antsi-0.1.2.tar.gz]
+[2024-04-10 10:08:58] INFO root fetch - processPackages [antsi]: Remove: archive file [/home/abi/fetcher/tmp/antsi-0.1.3.tar.gz]
+[2024-04-10 10:08:58] INFO root fetch - main [MainThread]: End processing [antsi]: success
+[2024-04-10 10:08:58] INFO root fetch - processPackages [SimuBox]: Remove: archive file [/home/abi/fetcher/tmp/simubox-0.2.3.tar.gz]
+[2024-04-10 10:08:58] INFO root fetch - processPackages [SimuBox]: Remove: archive file [/home/abi/fetcher/tmp/simubox-0.2.4.tar.gz]
+[2024-04-10 10:08:58] INFO root fetch - main [MainThread]: End processing [SimuBox]: success
+[2024-04-10 10:08:58] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240408.tar.gz]
+[2024-04-10 10:08:58] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240409.tar.gz]
+[2024-04-10 10:08:58] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2024-04-10 10:08:58] INFO root fetch - main [MainThread]: Store serial: [22697487]

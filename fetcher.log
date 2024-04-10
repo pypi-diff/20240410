@@ -15381,3 +15381,105 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 09:15:50] INFO root fetch - processPackages [neptune]: Remove: archive file [/home/abi/fetcher/tmp/neptune-2.0.0a0.tar.gz]
 [2024-04-10 09:15:50] INFO root fetch - main [MainThread]: End processing [neptune]: success
 [2024-04-10 09:15:50] INFO root fetch - main [MainThread]: Store serial: [22696885]
+[2024-04-10 09:17:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22696885]
+[2024-04-10 09:17:59] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-04-10 09:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: devopsdriver
+[2024-04-10 09:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-keycloak
+[2024-04-10 09:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: approx-umap
+[2024-04-10 09:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py-ocsf-models
+[2024-04-10 09:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-spotinst
+[2024-04-10 09:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-tailscale
+[2024-04-10 09:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-tls
+[2024-04-10 09:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: alibabacloud-alinlp20200629
+[2024-04-10 09:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nonebot-adapter-rocketchat
+[2024-04-10 09:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tf-hub-nightly
+[2024-04-10 09:18:00] INFO root fetch - processPackages [pulumi-spotinst]: New version: [3.9.0a1633346805] Old Version: [3.9.0]
+[2024-04-10 09:18:00] INFO root fetch - processPackages [alibabacloud-alinlp20200629]: New version: [2.8.1] Old Version: [2.8.0]
+[2024-04-10 09:18:00] INFO root fetch - processPackages [devopsdriver]: New version: [0.1.42] Old Version: [0.1.41]
+[2024-04-10 09:18:00] WARNING root fetch - processPackages [nonebot-adapter-rocketchat]: Skipping, unable to determine old version
+[2024-04-10 09:18:00] INFO root fetch - processPackages [nonebot-adapter-rocketchat]: Start processing: ft-drift
+[2024-04-10 09:18:00] INFO root fetch - main [MainThread]: End processing [nonebot-adapter-rocketchat] error
+[2024-04-10 09:18:00] INFO root fetch - processPackages [pulumi-spotinst]: Downloading https://files.pythonhosted.org/packages/e0/9f/6d2c1a705d6b6019bea4cba0aa49eceea4eb2d84cfdcb18f45db81e06fb5/pulumi_spotinst-3.9.0.tar.gz
+[2024-04-10 09:18:00] INFO root fetch - processPackages [py-ocsf-models]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-10 09:18:00] WARNING root fetch - processPackages [approx-umap]: Skipping, unable to determine old version
+[2024-04-10 09:18:00] INFO root fetch - processPackages [approx-umap]: Start processing: langsmith
+[2024-04-10 09:18:00] INFO root fetch - main [MainThread]: End processing [approx-umap] error
+[2024-04-10 09:18:00] INFO root fetch - processPackages [alibabacloud-alinlp20200629]: Downloading https://files.pythonhosted.org/packages/25/f1/d89c6b7e09b0c6544b32d659084ff25b554c76a09825d46cfee1ffd7d860/alibabacloud_alinlp20200629-2.8.0.tar.gz
+[2024-04-10 09:18:00] INFO root fetch - processPackages [python-keycloak]: New version: [3.9.3] Old Version: [3.9.2]
+[2024-04-10 09:18:00] INFO root fetch - processPackages [devopsdriver]: Downloading https://files.pythonhosted.org/packages/cc/a3/644208b4e7ceb485560fc46d98c4d425ef803a2552fd18ac6c2d2bba08e1/devopsdriver-0.1.41.tar.gz
+[2024-04-10 09:18:00] INFO root fetch - processPackages [pulumi-tls]: New version: [5.1.0a1712731815] Old Version: [5.1.0a1712470657]
+[2024-04-10 09:18:00] WARNING root fetch - processPackages [ft-drift]: Skipping, unable to determine old version
+[2024-04-10 09:18:00] INFO root fetch - processPackages [ft-drift]: Start processing: alibabacloud-alinlp20200629-py2
+[2024-04-10 09:18:00] INFO root fetch - main [MainThread]: End processing [ft-drift] error
+[2024-04-10 09:18:00] INFO root fetch - processPackages [pulumi-tailscale]: New version: [0.9.1a1656330156] Old Version: [0.9.0]
+[2024-04-10 09:18:00] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2024-04-10 09:18:00] INFO root fetch - processPackages [langsmith]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-10 09:18:00] INFO root fetch - processPackages [alibabacloud-alinlp20200629-py2]: New version: [1.5.1] Old Version: [1.5.0]
+[2024-04-10 09:18:00] INFO root fetch - processPackages [langsmith]: Downloading https://files.pythonhosted.org/packages/3f/01/93a91da2527bbaa6155f9398417eeff6507ddada0f417560a67e20801455/langsmith-0.1.8.tar.gz
+[2024-04-10 09:18:00] INFO root fetch - processPackages [pulumi-tls]: Downloading https://files.pythonhosted.org/packages/7e/ec/aab8079646e1cca94400f7656755c06cf0a66a629737efe57335d65e89cb/pulumi_tls-5.1.0a1712470657.tar.gz
+[2024-04-10 09:18:00] INFO root fetch - processPackages [alibabacloud-alinlp20200629-py2]: Downloading https://files.pythonhosted.org/packages/6e/f6/ce719d4ba002cc6d665dbc51f22a10e8ece4edd35f418d319fe999d34bc2/alibabacloud_alinlp20200629_py2-1.5.0.tar.gz
+[2024-04-10 09:18:00] INFO root fetch - processPackages [python-keycloak]: Downloading https://files.pythonhosted.org/packages/b2/80/076b85c4bccda2f1b59698061769260114e01730535198ed893082ffbc6b/python_keycloak-3.9.2.tar.gz
+[2024-04-10 09:18:00] INFO root fetch - processPackages [py-ocsf-models]: Downloading https://files.pythonhosted.org/packages/ff/e9/058ee355ff4341b55ec1e9c491e25749914c201be2476e4c55f5cece46c1/py_ocsf_models-0.0.3.tar.gz
+[2024-04-10 09:18:00] INFO root fetch - processPackages [pulumi-spotinst]: Downloading https://files.pythonhosted.org/packages/b4/06/83d6eb3763a877d39e3d2a09063ba3fd6542fa6a214e6c3d5240414d041d/pulumi_spotinst-3.9.0a1633346805.tar.gz
+[2024-04-10 09:18:00] INFO root fetch - processPackages [alibabacloud-alinlp20200629]: Downloading https://files.pythonhosted.org/packages/7d/92/eb36a8f085cbc4bff2574a1e56e7f871be69082fe830a38072cec0040dfb/alibabacloud_alinlp20200629-2.8.1.tar.gz
+[2024-04-10 09:18:00] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2024-04-10 09:18:00] INFO root fetch - processPackages [devopsdriver]: Downloading https://files.pythonhosted.org/packages/93/69/b9a3ea8f560b1cef1f1871bffde2e17e267044c81053e5b130558b3f4721/devopsdriver-0.1.42.tar.gz
+[2024-04-10 09:18:00] INFO root fetch - processPackages [pulumi-tailscale]: Downloading https://files.pythonhosted.org/packages/af/fc/1aa615a8e44d21b520ec05aa57ea2ee6f62de762047b4ad8ccec73544ac3/pulumi_tailscale-0.9.0.tar.gz
+[2024-04-10 09:18:00] INFO root fetch - processPackages [alibabacloud-alinlp20200629]: executing diffoscope
+[2024-04-10 09:18:00] INFO root fetch - processPackages [alibabacloud-alinlp20200629]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_alinlp20200629-2.8.0.tar.gz tmp/alibabacloud_alinlp20200629-2.8.1.tar.gz --markdown 20240410/a/alibabacloud-alinlp20200629/2.8.0-2.8.1/README.md --exclude *.pyd
+[2024-04-10 09:18:00] INFO root fetch - processPackages [pulumi-spotinst]: executing diffoscope
+[2024-04-10 09:18:00] INFO root fetch - processPackages [pulumi-spotinst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_spotinst-3.9.0.tar.gz tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz --markdown 20240410/p/pulumi-spotinst/3.9.0-3.9.0a1633346805/README.md --exclude *.pyd
+[2024-04-10 09:18:00] INFO root fetch - processPackages [devopsdriver]: executing diffoscope
+[2024-04-10 09:18:00] INFO root fetch - processPackages [devopsdriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devopsdriver-0.1.41.tar.gz tmp/devopsdriver-0.1.42.tar.gz --markdown 20240410/d/devopsdriver/0.1.41-0.1.42/README.md --exclude *.pyd
+[2024-04-10 09:18:00] INFO root fetch - processPackages [langsmith]: Downloading https://files.pythonhosted.org/packages/2f/bd/ae357eeb7736dd31ff704bfdb05c856cd78d6ebcb126b850c2bcdb5830ae/langsmith-0.1.9.tar.gz
+[2024-04-10 09:18:00] INFO root fetch - processPackages [alibabacloud-alinlp20200629-py2]: Downloading https://files.pythonhosted.org/packages/c3/ee/a9bbb17be785445a6a29d6209c0de325acd24e6eb006d3d119ac61adf8b3/alibabacloud_alinlp20200629_py2-1.5.1.tar.gz
+[2024-04-10 09:18:00] INFO root fetch - processPackages [pulumi-tls]: Downloading https://files.pythonhosted.org/packages/65/ae/9bea9265f05458e86e31a262f17dc161069ddbfa1c68d2c0684b5a2a62e8/pulumi_tls-5.1.0a1712731815.tar.gz
+[2024-04-10 09:18:00] INFO root fetch - processPackages [python-keycloak]: Downloading https://files.pythonhosted.org/packages/0d/1c/9c16c53eac3772437ddfc920c76b833af0a0e9f147befd41d1fab1dc13cd/python_keycloak-3.9.3.tar.gz
+[2024-04-10 09:18:00] INFO root fetch - processPackages [py-ocsf-models]: Downloading https://files.pythonhosted.org/packages/07/0e/a5822c798f1c83f8a70e2ef898df6f47a86f7200f4ad8bafc19af13fd342/py_ocsf_models-0.0.4.tar.gz
+[2024-04-10 09:18:00] INFO root fetch - processPackages [alibabacloud-alinlp20200629-py2]: executing diffoscope
+[2024-04-10 09:18:00] INFO root fetch - processPackages [alibabacloud-alinlp20200629-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_alinlp20200629_py2-1.5.0.tar.gz tmp/alibabacloud_alinlp20200629_py2-1.5.1.tar.gz --markdown 20240410/a/alibabacloud-alinlp20200629-py2/1.5.0-1.5.1/README.md --exclude *.pyd
+[2024-04-10 09:18:00] INFO root fetch - processPackages [langsmith]: executing diffoscope
+[2024-04-10 09:18:00] INFO root fetch - processPackages [langsmith]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langsmith-0.1.8.tar.gz tmp/langsmith-0.1.9.tar.gz --markdown 20240410/l/langsmith/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-10 09:18:01] INFO root fetch - processPackages [python-keycloak]: executing diffoscope
+[2024-04-10 09:18:01] INFO root fetch - processPackages [python-keycloak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_keycloak-3.9.2.tar.gz tmp/python_keycloak-3.9.3.tar.gz --markdown 20240410/p/python-keycloak/3.9.2-3.9.3/README.md --exclude *.pyd
+[2024-04-10 09:18:01] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2024-04-10 09:18:01] INFO root fetch - processPackages [py-ocsf-models]: executing diffoscope
+[2024-04-10 09:18:01] INFO root fetch - processPackages [py-ocsf-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_ocsf_models-0.0.3.tar.gz tmp/py_ocsf_models-0.0.4.tar.gz --markdown 20240410/p/py-ocsf-models/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-10 09:18:01] INFO root fetch - processPackages [pulumi-tailscale]: Downloading https://files.pythonhosted.org/packages/a3/d6/938674a37f5324fe6d787b4f3efbeeebc5d750fd8c8c25fb2198b11e6a4d/pulumi_tailscale-0.9.1a1656330156.tar.gz
+[2024-04-10 09:18:01] INFO root fetch - processPackages [pulumi-tls]: executing diffoscope
+[2024-04-10 09:18:01] INFO root fetch - processPackages [pulumi-tls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_tls-5.1.0a1712470657.tar.gz tmp/pulumi_tls-5.1.0a1712731815.tar.gz --markdown 20240410/p/pulumi-tls/5.1.0a1712470657-5.1.0a1712731815/README.md --exclude *.pyd
+[2024-04-10 09:18:01] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2024-04-10 09:18:01] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20240410/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/README.md --exclude *.pyd
+[2024-04-10 09:18:01] INFO root fetch - processPackages [pulumi-tailscale]: executing diffoscope
+[2024-04-10 09:18:01] INFO root fetch - processPackages [pulumi-tailscale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_tailscale-0.9.0.tar.gz tmp/pulumi_tailscale-0.9.1a1656330156.tar.gz --markdown 20240410/p/pulumi-tailscale/0.9.0-0.9.1a1656330156/README.md --exclude *.pyd
+[2024-04-10 09:18:01] INFO root fetch - processPackages [devopsdriver]: Remove: archive file [/home/abi/fetcher/tmp/devopsdriver-0.1.41.tar.gz]
+[2024-04-10 09:18:01] INFO root fetch - processPackages [devopsdriver]: Remove: archive file [/home/abi/fetcher/tmp/devopsdriver-0.1.42.tar.gz]
+[2024-04-10 09:18:01] INFO root fetch - main [MainThread]: End processing [devopsdriver]: success
+[2024-04-10 09:18:01] INFO root fetch - processPackages [alibabacloud-alinlp20200629]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_alinlp20200629-2.8.0.tar.gz]
+[2024-04-10 09:18:01] INFO root fetch - processPackages [alibabacloud-alinlp20200629]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_alinlp20200629-2.8.1.tar.gz]
+[2024-04-10 09:18:01] INFO root fetch - main [MainThread]: End processing [alibabacloud-alinlp20200629]: success
+[2024-04-10 09:18:02] INFO root fetch - processPackages [langsmith]: Remove: archive file [/home/abi/fetcher/tmp/langsmith-0.1.8.tar.gz]
+[2024-04-10 09:18:02] INFO root fetch - processPackages [langsmith]: Remove: archive file [/home/abi/fetcher/tmp/langsmith-0.1.9.tar.gz]
+[2024-04-10 09:18:02] INFO root fetch - main [MainThread]: End processing [langsmith]: success
+[2024-04-10 09:18:02] INFO root fetch - processPackages [python-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/python_keycloak-3.9.2.tar.gz]
+[2024-04-10 09:18:02] INFO root fetch - processPackages [python-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/python_keycloak-3.9.3.tar.gz]
+[2024-04-10 09:18:02] INFO root fetch - main [MainThread]: End processing [python-keycloak]: success
+[2024-04-10 09:18:02] INFO root fetch - processPackages [alibabacloud-alinlp20200629-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_alinlp20200629_py2-1.5.0.tar.gz]
+[2024-04-10 09:18:02] INFO root fetch - processPackages [alibabacloud-alinlp20200629-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_alinlp20200629_py2-1.5.1.tar.gz]
+[2024-04-10 09:18:02] INFO root fetch - main [MainThread]: End processing [alibabacloud-alinlp20200629-py2]: success
+[2024-04-10 09:18:02] INFO root fetch - processPackages [py-ocsf-models]: Remove: archive file [/home/abi/fetcher/tmp/py_ocsf_models-0.0.3.tar.gz]
+[2024-04-10 09:18:02] INFO root fetch - processPackages [py-ocsf-models]: Remove: archive file [/home/abi/fetcher/tmp/py_ocsf_models-0.0.4.tar.gz]
+[2024-04-10 09:18:02] INFO root fetch - main [MainThread]: End processing [py-ocsf-models]: success
+[2024-04-10 09:18:02] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2024-04-10 09:18:02] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2024-04-10 09:18:02] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2024-04-10 09:18:02] INFO root fetch - processPackages [pulumi-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_spotinst-3.9.0.tar.gz]
+[2024-04-10 09:18:02] INFO root fetch - processPackages [pulumi-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz]
+[2024-04-10 09:18:02] INFO root fetch - main [MainThread]: End processing [pulumi-spotinst]: success
+[2024-04-10 09:18:02] INFO root fetch - processPackages [pulumi-tls]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tls-5.1.0a1712470657.tar.gz]
+[2024-04-10 09:18:02] INFO root fetch - processPackages [pulumi-tls]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tls-5.1.0a1712731815.tar.gz]
+[2024-04-10 09:18:02] INFO root fetch - main [MainThread]: End processing [pulumi-tls]: success
+[2024-04-10 09:18:02] INFO root fetch - processPackages [pulumi-tailscale]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tailscale-0.9.0.tar.gz]
+[2024-04-10 09:18:02] INFO root fetch - processPackages [pulumi-tailscale]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tailscale-0.9.1a1656330156.tar.gz]
+[2024-04-10 09:18:02] INFO root fetch - main [MainThread]: End processing [pulumi-tailscale]: success
+[2024-04-10 09:18:02] INFO root fetch - main [MainThread]: Store serial: [22696927]

@@ -19009,3 +19009,57 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 
 [2024-04-10 11:34:16] INFO root fetch - main [MainThread]: End processing [icetcore] error
 [2024-04-10 11:34:16] INFO root fetch - main [MainThread]: Store serial: [22698450]
+[2024-04-10 11:36:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22698450]
+[2024-04-10 11:36:24] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-10 11:36:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pwd-generator
+[2024-04-10 11:36:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nvfuser-cu121
+[2024-04-10 11:36:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mwings
+[2024-04-10 11:36:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jyhelper
+[2024-04-10 11:36:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nvfuser-cu118
+[2024-04-10 11:36:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: henryobj
+[2024-04-10 11:36:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: twnlog
+[2024-04-10 11:36:25] WARNING root fetch - processPackages [twnlog]: Skipping, unable to determine old version
+[2024-04-10 11:36:25] INFO root fetch - main [MainThread]: End processing [twnlog] error
+[2024-04-10 11:36:25] INFO root fetch - processPackages [nvfuser-cu121]: New version: [0.2.0.dev20240409] Old Version: [0.2.0.dev20240408]
+[2024-04-10 11:36:25] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/ee/ab/b759eaf675799ef277f22d14c8390ddc3fdf462522ec46ff04a95eae6323/nvfuser_cu121-0.2.0.dev20240408.tar.gz
+[2024-04-10 11:36:25] INFO root fetch - processPackages [mwings]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-04-10 11:36:25] INFO root fetch - processPackages [jyhelper]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-04-10 11:36:25] WARNING root fetch - processPackages [pwd-generator]: Skipping, unable to determine old version
+[2024-04-10 11:36:25] INFO root fetch - main [MainThread]: End processing [pwd-generator] error
+[2024-04-10 11:36:25] INFO root fetch - processPackages [henryobj]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-10 11:36:25] INFO root fetch - processPackages [nvfuser-cu118]: New version: [0.2.1.dev20240410] Old Version: [0.2.0.dev20240409]
+[2024-04-10 11:36:25] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/cc/42/73779525401e9c8fe62d705497d779790d84f4f42a8012200850c085d1af/nvfuser_cu121-0.2.0.dev20240409.tar.gz
+[2024-04-10 11:36:25] INFO root fetch - processPackages [jyhelper]: Downloading https://files.pythonhosted.org/packages/9d/0a/f65b3443f020a5d923319402905cf99f11a285dfcf18c8002e6e2e2a5d8b/jyhelper-1.2.1.tar.gz
+[2024-04-10 11:36:25] INFO root fetch - processPackages [mwings]: Downloading https://files.pythonhosted.org/packages/06/a8/d7164aa2a8a39345d0218e3a00bef9a8ff9648df0f86fa6708ef8cae9125/mwings-1.0.6.tar.gz
+[2024-04-10 11:36:25] INFO root fetch - processPackages [henryobj]: Downloading https://files.pythonhosted.org/packages/d4/21/1e82598ca8ab9b553492bb436ab77b6c9c9d3339712994692ea23656ee88/henryobj-0.2.2.tar.gz
+[2024-04-10 11:36:25] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/fd/a9/ce011a82893268963e17b41987162d0d448d3b2d7c54458e2c08f6fd0966/nvfuser_cu118-0.2.0.dev20240409.tar.gz
+[2024-04-10 11:36:25] INFO root fetch - processPackages [nvfuser-cu121]: executing diffoscope
+[2024-04-10 11:36:25] INFO root fetch - processPackages [nvfuser-cu121]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu121-0.2.0.dev20240408.tar.gz tmp/nvfuser_cu121-0.2.0.dev20240409.tar.gz --markdown 20240410/n/nvfuser-cu121/0.2.0.dev20240408-0.2.0.dev20240409/README.md --exclude *.pyd
+[2024-04-10 11:36:25] INFO root fetch - processPackages [mwings]: Downloading https://files.pythonhosted.org/packages/d2/88/e981bac40cbc15f0dc310c1cd6d361b32f8e882d087f72bd523f5b2c96a0/mwings-1.0.7.tar.gz
+[2024-04-10 11:36:25] INFO root fetch - processPackages [henryobj]: Downloading https://files.pythonhosted.org/packages/9b/9a/6836f851fab11a426279a1983fbfc0712a5a8dfb907f82ff512b5a2ea4ea/henryobj-0.2.3.tar.gz
+[2024-04-10 11:36:25] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/08/6e/08864abad4b62ac8e43bf5fbe323adb3d1e3f6e0398e79fc881f43137c63/nvfuser_cu118-0.2.1.dev20240410.tar.gz
+[2024-04-10 11:36:25] INFO root fetch - processPackages [jyhelper]: Downloading https://files.pythonhosted.org/packages/48/d7/2102f0c13d023ecad33fdc3bd94a81fbd7f29ae32ac3c1a48c361722f3fc/jyhelper-1.2.2.tar.gz
+[2024-04-10 11:36:26] INFO root fetch - processPackages [henryobj]: executing diffoscope
+[2024-04-10 11:36:26] INFO root fetch - processPackages [henryobj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/henryobj-0.2.2.tar.gz tmp/henryobj-0.2.3.tar.gz --markdown 20240410/h/henryobj/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-10 11:36:26] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.2.0.dev20240408.tar.gz]
+[2024-04-10 11:36:26] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.2.0.dev20240409.tar.gz]
+[2024-04-10 11:36:26] INFO root fetch - main [MainThread]: End processing [nvfuser-cu121]: success
+[2024-04-10 11:36:26] INFO root fetch - processPackages [nvfuser-cu118]: executing diffoscope
+[2024-04-10 11:36:26] INFO root fetch - processPackages [nvfuser-cu118]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu118-0.2.0.dev20240409.tar.gz tmp/nvfuser_cu118-0.2.1.dev20240410.tar.gz --markdown 20240410/n/nvfuser-cu118/0.2.0.dev20240409-0.2.1.dev20240410/README.md --exclude *.pyd
+[2024-04-10 11:36:26] INFO root fetch - processPackages [jyhelper]: executing diffoscope
+[2024-04-10 11:36:26] INFO root fetch - processPackages [jyhelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jyhelper-1.2.1.tar.gz tmp/jyhelper-1.2.2.tar.gz --markdown 20240410/j/jyhelper/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-04-10 11:36:26] INFO root fetch - processPackages [mwings]: executing diffoscope
+[2024-04-10 11:36:26] INFO root fetch - processPackages [mwings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mwings-1.0.6.tar.gz tmp/mwings-1.0.7.tar.gz --markdown 20240410/m/mwings/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-04-10 11:36:26] INFO root fetch - processPackages [jyhelper]: Remove: archive file [/home/abi/fetcher/tmp/jyhelper-1.2.1.tar.gz]
+[2024-04-10 11:36:26] INFO root fetch - processPackages [jyhelper]: Remove: archive file [/home/abi/fetcher/tmp/jyhelper-1.2.2.tar.gz]
+[2024-04-10 11:36:26] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.2.0.dev20240409.tar.gz]
+[2024-04-10 11:36:26] INFO root fetch - main [MainThread]: End processing [jyhelper]: success
+[2024-04-10 11:36:26] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.2.1.dev20240410.tar.gz]
+[2024-04-10 11:36:26] INFO root fetch - main [MainThread]: End processing [nvfuser-cu118]: success
+[2024-04-10 11:36:27] INFO root fetch - processPackages [henryobj]: Remove: archive file [/home/abi/fetcher/tmp/henryobj-0.2.2.tar.gz]
+[2024-04-10 11:36:27] INFO root fetch - processPackages [henryobj]: Remove: archive file [/home/abi/fetcher/tmp/henryobj-0.2.3.tar.gz]
+[2024-04-10 11:36:27] INFO root fetch - main [MainThread]: End processing [henryobj]: success
+[2024-04-10 11:36:29] INFO root fetch - processPackages [mwings]: Remove: archive file [/home/abi/fetcher/tmp/mwings-1.0.6.tar.gz]
+[2024-04-10 11:36:29] INFO root fetch - processPackages [mwings]: Remove: archive file [/home/abi/fetcher/tmp/mwings-1.0.7.tar.gz]
+[2024-04-10 11:36:29] INFO root fetch - main [MainThread]: End processing [mwings]: success
+[2024-04-10 11:36:29] INFO root fetch - main [MainThread]: Store serial: [22698470]

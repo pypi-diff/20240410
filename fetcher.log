@@ -12394,3 +12394,29 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 06:37:37] INFO root fetch - processPackages [ros-cdk-cms]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cms-1.0.9.tar.gz]
 [2024-04-10 06:37:37] INFO root fetch - main [MainThread]: End processing [ros-cdk-cms]: success
 [2024-04-10 06:37:37] INFO root fetch - main [MainThread]: Store serial: [22695785]
+[2024-04-10 06:39:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22695785]
+[2024-04-10 06:39:46] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-10 06:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ros-cdk-pvtz
+[2024-04-10 06:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ros-cdk-ros
+[2024-04-10 06:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytest-fly
+[2024-04-10 06:39:47] INFO root fetch - processPackages [pytest-fly]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-10 06:39:47] INFO root fetch - processPackages [ros-cdk-pvtz]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-10 06:39:47] INFO root fetch - processPackages [ros-cdk-ros]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-10 06:39:47] INFO root fetch - processPackages [pytest-fly]: Downloading https://files.pythonhosted.org/packages/69/0c/3c3d410a45e666616571894d1cf9b0424008d6b56a0c5ed312eddb2d2e68/pytest_fly-0.0.4.tar.gz
+[2024-04-10 06:39:47] WARNING root fetch - processPackages [pytest-fly]: Skipping package: exceeds size limit 35696921>=10485760
+[2024-04-10 06:39:47] INFO root fetch - main [MainThread]: End processing [pytest-fly] error
+[2024-04-10 06:39:47] INFO root fetch - processPackages [ros-cdk-ros]: Downloading https://files.pythonhosted.org/packages/fe/16/3541a9dcba437e9cafd5c436b98b068d92debe86fd83d92ad7e19f6023d9/ros-cdk-ros-1.0.8.tar.gz
+[2024-04-10 06:39:47] INFO root fetch - processPackages [ros-cdk-pvtz]: Downloading https://files.pythonhosted.org/packages/cf/df/23722fdce9abbda572dc6789b3c4029b4fb4410d6514ae1d6d24f8c0722a/ros-cdk-pvtz-1.0.8.tar.gz
+[2024-04-10 06:39:47] INFO root fetch - processPackages [ros-cdk-ros]: Downloading https://files.pythonhosted.org/packages/29/3a/415feed176461f1bdd0022d594fe89eca09769f1755fe0752ac62bdb6c58/ros-cdk-ros-1.0.9.tar.gz
+[2024-04-10 06:39:47] INFO root fetch - processPackages [ros-cdk-pvtz]: Downloading https://files.pythonhosted.org/packages/8c/37/af9e6cf0ec86aff85a224718e6883b6dedc00b2184263951a758a79c45e3/ros-cdk-pvtz-1.0.9.tar.gz
+[2024-04-10 06:39:47] INFO root fetch - processPackages [ros-cdk-pvtz]: executing diffoscope
+[2024-04-10 06:39:47] INFO root fetch - processPackages [ros-cdk-pvtz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-pvtz-1.0.8.tar.gz tmp/ros-cdk-pvtz-1.0.9.tar.gz --markdown 20240410/r/ros-cdk-pvtz/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-10 06:39:47] INFO root fetch - processPackages [ros-cdk-ros]: executing diffoscope
+[2024-04-10 06:39:47] INFO root fetch - processPackages [ros-cdk-ros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-ros-1.0.8.tar.gz tmp/ros-cdk-ros-1.0.9.tar.gz --markdown 20240410/r/ros-cdk-ros/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-10 06:39:48] INFO root fetch - processPackages [ros-cdk-pvtz]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-pvtz-1.0.8.tar.gz]
+[2024-04-10 06:39:48] INFO root fetch - processPackages [ros-cdk-pvtz]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-pvtz-1.0.9.tar.gz]
+[2024-04-10 06:39:48] INFO root fetch - main [MainThread]: End processing [ros-cdk-pvtz]: success
+[2024-04-10 06:39:48] INFO root fetch - processPackages [ros-cdk-ros]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ros-1.0.8.tar.gz]
+[2024-04-10 06:39:48] INFO root fetch - processPackages [ros-cdk-ros]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ros-1.0.9.tar.gz]
+[2024-04-10 06:39:48] INFO root fetch - main [MainThread]: End processing [ros-cdk-ros]: success
+[2024-04-10 06:39:48] INFO root fetch - main [MainThread]: Store serial: [22695792]

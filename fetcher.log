@@ -15567,3 +15567,18 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 09:20:13] INFO root fetch - processPackages [codecarbon]: Remove: archive file [/home/abi/fetcher/tmp/codecarbon-2.3.5.tar.gz]
 [2024-04-10 09:20:13] INFO root fetch - main [MainThread]: End processing [codecarbon]: success
 [2024-04-10 09:20:13] INFO root fetch - main [MainThread]: Store serial: [22696952]
+[2024-04-10 09:22:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22696952]
+[2024-04-10 09:22:22] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-10 09:22:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: recflows
+[2024-04-10 09:22:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cloud-orbit-api
+[2024-04-10 09:22:22] INFO root fetch - processPackages [cloud-orbit-api]: New version: [1.1.19] Old Version: [1.1.18]
+[2024-04-10 09:22:22] INFO root fetch - processPackages [cloud-orbit-api]: Downloading https://files.pythonhosted.org/packages/3d/e8/6ef713112c1ec8b93af38e7024d50280b2ef693817b095b220158d56760b/cloud_orbit_api-1.1.18.tar.gz
+[2024-04-10 09:22:22] WARNING root fetch - processPackages [recflows]: Skipping, unable to determine old version
+[2024-04-10 09:22:22] INFO root fetch - main [MainThread]: End processing [recflows] error
+[2024-04-10 09:22:23] INFO root fetch - processPackages [cloud-orbit-api]: Downloading https://files.pythonhosted.org/packages/2d/1c/a56321ea7d19b5d3dfcdf10d4fe6db856dc6b4e95bbe56647c9da33d1f62/cloud_orbit_api-1.1.19.tar.gz
+[2024-04-10 09:22:23] INFO root fetch - processPackages [cloud-orbit-api]: executing diffoscope
+[2024-04-10 09:22:23] INFO root fetch - processPackages [cloud-orbit-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud_orbit_api-1.1.18.tar.gz tmp/cloud_orbit_api-1.1.19.tar.gz --markdown 20240410/c/cloud-orbit-api/1.1.18-1.1.19/README.md --exclude *.pyd
+[2024-04-10 09:22:23] INFO root fetch - processPackages [cloud-orbit-api]: Remove: archive file [/home/abi/fetcher/tmp/cloud_orbit_api-1.1.18.tar.gz]
+[2024-04-10 09:22:23] INFO root fetch - processPackages [cloud-orbit-api]: Remove: archive file [/home/abi/fetcher/tmp/cloud_orbit_api-1.1.19.tar.gz]
+[2024-04-10 09:22:23] INFO root fetch - main [MainThread]: End processing [cloud-orbit-api]: success
+[2024-04-10 09:22:23] INFO root fetch - main [MainThread]: Store serial: [22696960]

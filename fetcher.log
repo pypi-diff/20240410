@@ -13438,3 +13438,24 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 07:47:42] INFO root fetch - processPackages [sqlglot]: Remove: archive file [/home/abi/fetcher/tmp/sqlglot-9.0.6.tar.gz]
 [2024-04-10 07:47:42] INFO root fetch - main [MainThread]: End processing [sqlglot]: success
 [2024-04-10 07:47:42] INFO root fetch - main [MainThread]: Store serial: [22696208]
+[2024-04-10 07:49:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22696208]
+[2024-04-10 07:49:51] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-10 07:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lamini
+[2024-04-10 07:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-consul
+[2024-04-10 07:49:51] INFO root fetch - processPackages [lamini]: New version: [2.1.5a4] Old Version: [2.1.5a3]
+[2024-04-10 07:49:51] INFO root fetch - processPackages [lamini]: Downloading https://files.pythonhosted.org/packages/05/85/6b37cab595e3921fd758e6186a6119fd2c44e9d41467779d8bc1ade0e72e/lamini-2.1.5a3-119-py3-none-any.whl
+[2024-04-10 07:49:51] INFO root fetch - processPackages [pulumi-consul]: New version: [3.9.0a1687670569] Old Version: [3.9.0a1687054376]
+[2024-04-10 07:49:52] INFO root fetch - processPackages [pulumi-consul]: Downloading https://files.pythonhosted.org/packages/b2/0b/a9aea9bd557425d918ea238feabf49fb698d827f1dfeaf4613d70eae31a2/pulumi_consul-3.9.0a1687054376.tar.gz
+[2024-04-10 07:49:52] INFO root fetch - processPackages [lamini]: Downloading https://files.pythonhosted.org/packages/6d/85/ad3d4fae0f0658b58d72b71ab2c693f171d68568153b737b21106d27f5d7/lamini-2.1.5a4-119-py3-none-any.whl
+[2024-04-10 07:49:52] INFO root fetch - processPackages [lamini]: executing diffoscope
+[2024-04-10 07:49:52] INFO root fetch - processPackages [lamini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamini-2.1.5a3-119-py3-none-any.whl.zip tmp/lamini-2.1.5a4-119-py3-none-any.whl.zip --markdown 20240410/l/lamini/2.1.5a3-2.1.5a4/README.md --exclude *.pyd
+[2024-04-10 07:49:52] INFO root fetch - processPackages [pulumi-consul]: Downloading https://files.pythonhosted.org/packages/aa/10/eaf50f0d8ecb4103cac140429d33cf0fbed0a84ade857f6a5d9e9dda5e71/pulumi_consul-3.9.0a1687670569.tar.gz
+[2024-04-10 07:49:52] INFO root fetch - processPackages [pulumi-consul]: executing diffoscope
+[2024-04-10 07:49:52] INFO root fetch - processPackages [pulumi-consul]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_consul-3.9.0a1687054376.tar.gz tmp/pulumi_consul-3.9.0a1687670569.tar.gz --markdown 20240410/p/pulumi-consul/3.9.0a1687054376-3.9.0a1687670569/README.md --exclude *.pyd
+[2024-04-10 07:49:52] INFO root fetch - processPackages [lamini]: Remove: archive file [/home/abi/fetcher/tmp/lamini-2.1.5a3-119-py3-none-any.whl.zip]
+[2024-04-10 07:49:52] INFO root fetch - processPackages [lamini]: Remove: archive file [/home/abi/fetcher/tmp/lamini-2.1.5a4-119-py3-none-any.whl.zip]
+[2024-04-10 07:49:52] INFO root fetch - main [MainThread]: End processing [lamini]: success
+[2024-04-10 07:49:53] INFO root fetch - processPackages [pulumi-consul]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_consul-3.9.0a1687054376.tar.gz]
+[2024-04-10 07:49:53] INFO root fetch - processPackages [pulumi-consul]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_consul-3.9.0a1687670569.tar.gz]
+[2024-04-10 07:49:53] INFO root fetch - main [MainThread]: End processing [pulumi-consul]: success
+[2024-04-10 07:49:53] INFO root fetch - main [MainThread]: Store serial: [22696214]

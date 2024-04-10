@@ -8651,3 +8651,15 @@
 [2024-04-10 04:04:13] INFO root fetch - processPackages [sampa]: Remove: archive file [/home/abi/fetcher/tmp/sampa-1.0.0.12.tar.gz]
 [2024-04-10 04:04:13] INFO root fetch - main [MainThread]: End processing [sampa]: success
 [2024-04-10 04:04:13] INFO root fetch - main [MainThread]: Store serial: [22694386]
+[2024-04-10 04:06:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22694386]
+[2024-04-10 04:06:22] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-10 04:06:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ocptv-pci-lmt
+[2024-04-10 04:06:22] INFO root fetch - processPackages [ocptv-pci-lmt]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-04-10 04:06:23] INFO root fetch - processPackages [ocptv-pci-lmt]: Downloading https://files.pythonhosted.org/packages/89/4b/779b59783d3cec8d289a94361c913ab1b76249afbdf3c8d41ecd0876eaa4/ocptv-pci_lmt-1.3.0.tar.gz
+[2024-04-10 04:06:23] INFO root fetch - processPackages [ocptv-pci-lmt]: Downloading https://files.pythonhosted.org/packages/12/ea/593ae641a88c8889bad5306730182d6b11ec23c691bf3957c3d281c095a3/ocptv-pci_lmt-1.3.1.tar.gz
+[2024-04-10 04:06:23] INFO root fetch - processPackages [ocptv-pci-lmt]: executing diffoscope
+[2024-04-10 04:06:23] INFO root fetch - processPackages [ocptv-pci-lmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocptv-pci_lmt-1.3.0.tar.gz tmp/ocptv-pci_lmt-1.3.1.tar.gz --markdown 20240410/o/ocptv-pci-lmt/1.3.0-1.3.1/README.md --exclude *.pyd
+[2024-04-10 04:06:24] INFO root fetch - processPackages [ocptv-pci-lmt]: Remove: archive file [/home/abi/fetcher/tmp/ocptv-pci_lmt-1.3.0.tar.gz]
+[2024-04-10 04:06:24] INFO root fetch - processPackages [ocptv-pci-lmt]: Remove: archive file [/home/abi/fetcher/tmp/ocptv-pci_lmt-1.3.1.tar.gz]
+[2024-04-10 04:06:24] INFO root fetch - main [MainThread]: End processing [ocptv-pci-lmt]: success
+[2024-04-10 04:06:24] INFO root fetch - main [MainThread]: Store serial: [22694389]

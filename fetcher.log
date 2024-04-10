@@ -12990,3 +12990,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 07:19:14] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.dev0.tar.gz]
 [2024-04-10 07:19:14] INFO root fetch - main [MainThread]: End processing [litellm]: success
 [2024-04-10 07:19:14] INFO root fetch - main [MainThread]: Store serial: [22695999]
+[2024-04-10 07:21:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22695999]
+[2024-04-10 07:21:25] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-10 07:21:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llmreader
+[2024-04-10 07:21:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: email-auth-remote
+[2024-04-10 07:21:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pih-mio
+[2024-04-10 07:21:25] INFO root fetch - processPackages [pih-mio]: New version: [0.26] Old Version: [0.25]
+[2024-04-10 07:21:25] INFO root fetch - processPackages [llmreader]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-04-10 07:21:25] INFO root fetch - processPackages [email-auth-remote]: New version: [1.2.0] Old Version: [1.1.2]
+[2024-04-10 07:21:25] INFO root fetch - processPackages [pih-mio]: Downloading https://files.pythonhosted.org/packages/31/85/7ab98cd81c1f214006080b60a75aac29e29517017f706394ebb338dfcd64/pih-mio-0.25.tar.gz
+[2024-04-10 07:21:25] INFO root fetch - processPackages [email-auth-remote]: Downloading https://files.pythonhosted.org/packages/09/63/aa53d01c5d9ad1549eb6ca28f9d0fc2f5574d585853d5b8df169890d27cb/email-auth-remote-1.1.2.tar.gz
+[2024-04-10 07:21:25] INFO root fetch - processPackages [llmreader]: Downloading https://files.pythonhosted.org/packages/19/5c/46ece1a3e5e2a3e60c565f7c88b5d0cfb7e945f4e55cfb673cec53f4d0fc/llmreader-0.2.6.tar.gz
+[2024-04-10 07:21:25] INFO root fetch - processPackages [llmreader]: Downloading https://files.pythonhosted.org/packages/40/0f/3112b7019c8195babcfd8063c0de0116f311601630b68a634a5c35679ee7/llmreader-0.2.7.tar.gz
+[2024-04-10 07:21:25] INFO root fetch - processPackages [pih-mio]: Downloading https://files.pythonhosted.org/packages/e7/bf/72ef525c5922fae797c7431ea1d5f1c23230905210fc8f0bf8f804acf924/pih-mio-0.26.tar.gz
+[2024-04-10 07:21:26] INFO root fetch - processPackages [email-auth-remote]: Downloading https://files.pythonhosted.org/packages/f2/0e/d015f3f8689cc3b9ec0644ad6e6188a7fdb6fda3bbd991684ca8cdc3f677/email-auth-remote-1.2.0.tar.gz
+[2024-04-10 07:21:26] INFO root fetch - processPackages [llmreader]: executing diffoscope
+[2024-04-10 07:21:26] INFO root fetch - processPackages [llmreader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmreader-0.2.6.tar.gz tmp/llmreader-0.2.7.tar.gz --markdown 20240410/l/llmreader/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-04-10 07:21:26] INFO root fetch - processPackages [pih-mio]: executing diffoscope
+[2024-04-10 07:21:26] INFO root fetch - processPackages [pih-mio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-mio-0.25.tar.gz tmp/pih-mio-0.26.tar.gz --markdown 20240410/p/pih-mio/0.25-0.26/README.md --exclude *.pyd
+[2024-04-10 07:21:26] INFO root fetch - processPackages [email-auth-remote]: executing diffoscope
+[2024-04-10 07:21:26] INFO root fetch - processPackages [email-auth-remote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/email-auth-remote-1.1.2.tar.gz tmp/email-auth-remote-1.2.0.tar.gz --markdown 20240410/e/email-auth-remote/1.1.2-1.2.0/README.md --exclude *.pyd
+[2024-04-10 07:21:26] INFO root fetch - processPackages [llmreader]: Remove: archive file [/home/abi/fetcher/tmp/llmreader-0.2.6.tar.gz]
+[2024-04-10 07:21:26] INFO root fetch - processPackages [llmreader]: Remove: archive file [/home/abi/fetcher/tmp/llmreader-0.2.7.tar.gz]
+[2024-04-10 07:21:26] INFO root fetch - main [MainThread]: End processing [llmreader]: success
+[2024-04-10 07:21:26] INFO root fetch - processPackages [email-auth-remote]: Remove: archive file [/home/abi/fetcher/tmp/email-auth-remote-1.1.2.tar.gz]
+[2024-04-10 07:21:26] INFO root fetch - processPackages [email-auth-remote]: Remove: archive file [/home/abi/fetcher/tmp/email-auth-remote-1.2.0.tar.gz]
+[2024-04-10 07:21:26] INFO root fetch - main [MainThread]: End processing [email-auth-remote]: success
+[2024-04-10 07:21:26] INFO root fetch - processPackages [pih-mio]: Remove: archive file [/home/abi/fetcher/tmp/pih-mio-0.25.tar.gz]
+[2024-04-10 07:21:26] INFO root fetch - processPackages [pih-mio]: Remove: archive file [/home/abi/fetcher/tmp/pih-mio-0.26.tar.gz]
+[2024-04-10 07:21:26] INFO root fetch - main [MainThread]: End processing [pih-mio]: success
+[2024-04-10 07:21:26] INFO root fetch - main [MainThread]: Store serial: [22696008]

@@ -16654,3 +16654,45 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 10:04:33] INFO root fetch - processPackages [django-smartbase-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_smartbase_admin-0.2.9.tar.gz]
 [2024-04-10 10:04:33] INFO root fetch - main [MainThread]: End processing [django-smartbase-admin]: success
 [2024-04-10 10:04:33] INFO root fetch - main [MainThread]: Store serial: [22697433]
+[2024-04-10 10:06:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22697433]
+[2024-04-10 10:06:43] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-10 10:06:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xchangelib
+[2024-04-10 10:06:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mockafka-py
+[2024-04-10 10:06:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-stock-available-to-promise-release-exclude-location
+[2024-04-10 10:06:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jupyter-jsc-custom
+[2024-04-10 10:06:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scepter
+[2024-04-10 10:06:43] INFO root fetch - processPackages [jupyter-jsc-custom]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-10 10:06:43] INFO root fetch - processPackages [mockafka-py]: New version: [0.1.54] Old Version: [0.1.53]
+[2024-04-10 10:06:43] WARNING root fetch - processPackages [odoo-addon-stock-available-to-promise-release-exclude-location]: Skipping, unable to determine old version
+[2024-04-10 10:06:43] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-available-to-promise-release-exclude-location] error
+[2024-04-10 10:06:43] INFO root fetch - processPackages [scepter]: New version: [0.0.4] Old Version: [0.0.3.post1]
+[2024-04-10 10:06:43] INFO root fetch - processPackages [jupyter-jsc-custom]: Downloading https://files.pythonhosted.org/packages/45/0b/d01728bdb4cc42a9c15363d9363f7fcc2fccac498b844711af99cf7346c5/jupyter_jsc_custom-0.9.8.tar.gz
+[2024-04-10 10:06:43] INFO root fetch - processPackages [xchangelib]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-10 10:06:43] INFO root fetch - processPackages [mockafka-py]: Downloading https://files.pythonhosted.org/packages/24/40/76db7ac975f3dd15be58e00f5dc931a95d5b9ce3680398f554f2e0fe0549/mockafka_py-0.1.53.tar.gz
+[2024-04-10 10:06:43] INFO root fetch - processPackages [scepter]: Downloading https://files.pythonhosted.org/packages/a2/23/3b1333b821b4a52b65569c12ba0891674ec971019c21883e66db7f13b97e/scepter-0.0.3.post1-py3-none-any.whl
+[2024-04-10 10:06:43] INFO root fetch - processPackages [xchangelib]: Downloading https://files.pythonhosted.org/packages/82/67/565e93853db3c12d43cc00d8834618425c92e75706063f1724699b821705/xchangelib-0.0.5.tar.gz
+[2024-04-10 10:06:43] INFO root fetch - processPackages [jupyter-jsc-custom]: Downloading https://files.pythonhosted.org/packages/22/8c/2c89680a5bfd1d47dcbf10ae7a7fe374d9176b6815cbed2c02f780ec8491/jupyter_jsc_custom-0.9.9.tar.gz
+[2024-04-10 10:06:43] INFO root fetch - processPackages [jupyter-jsc-custom]: executing diffoscope
+[2024-04-10 10:06:43] INFO root fetch - processPackages [jupyter-jsc-custom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_jsc_custom-0.9.8.tar.gz tmp/jupyter_jsc_custom-0.9.9.tar.gz --markdown 20240410/j/jupyter-jsc-custom/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-10 10:06:44] INFO root fetch - processPackages [mockafka-py]: Downloading https://files.pythonhosted.org/packages/8a/38/a07c411b28ccf2c2f0152f5b0d99a2858f72dca31042d9748b7e69cb3cba/mockafka_py-0.1.54.tar.gz
+[2024-04-10 10:06:44] INFO root fetch - processPackages [scepter]: Downloading https://files.pythonhosted.org/packages/10/bf/b23ac8ed6923e100b7ed6011b5d1ee117be54c3c62a8ef624dc9d1401b05/scepter-0.0.4-py3-none-any.whl
+[2024-04-10 10:06:44] INFO root fetch - processPackages [xchangelib]: Downloading https://files.pythonhosted.org/packages/e3/dc/648c8f01511d5d162b4537441bf467950f2e2c838f82eefcb2aba5e17383/xchangelib-0.0.6.tar.gz
+[2024-04-10 10:06:44] INFO root fetch - processPackages [mockafka-py]: executing diffoscope
+[2024-04-10 10:06:44] INFO root fetch - processPackages [mockafka-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mockafka_py-0.1.53.tar.gz tmp/mockafka_py-0.1.54.tar.gz --markdown 20240410/m/mockafka-py/0.1.53-0.1.54/README.md --exclude *.pyd
+[2024-04-10 10:06:44] INFO root fetch - processPackages [xchangelib]: executing diffoscope
+[2024-04-10 10:06:44] INFO root fetch - processPackages [xchangelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xchangelib-0.0.5.tar.gz tmp/xchangelib-0.0.6.tar.gz --markdown 20240410/x/xchangelib/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-10 10:06:44] INFO root fetch - processPackages [scepter]: executing diffoscope
+[2024-04-10 10:06:44] INFO root fetch - processPackages [scepter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scepter-0.0.3.post1-py3-none-any.whl.zip tmp/scepter-0.0.4-py3-none-any.whl.zip --markdown 20240410/s/scepter/0.0.3.post1-0.0.4/README.md --exclude *.pyd
+[2024-04-10 10:06:44] INFO root fetch - processPackages [jupyter-jsc-custom]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_jsc_custom-0.9.8.tar.gz]
+[2024-04-10 10:06:44] INFO root fetch - processPackages [jupyter-jsc-custom]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_jsc_custom-0.9.9.tar.gz]
+[2024-04-10 10:06:44] INFO root fetch - main [MainThread]: End processing [jupyter-jsc-custom]: success
+[2024-04-10 10:06:45] INFO root fetch - processPackages [mockafka-py]: Remove: archive file [/home/abi/fetcher/tmp/mockafka_py-0.1.53.tar.gz]
+[2024-04-10 10:06:45] INFO root fetch - processPackages [mockafka-py]: Remove: archive file [/home/abi/fetcher/tmp/mockafka_py-0.1.54.tar.gz]
+[2024-04-10 10:06:45] INFO root fetch - main [MainThread]: End processing [mockafka-py]: success
+[2024-04-10 10:06:45] INFO root fetch - processPackages [xchangelib]: Remove: archive file [/home/abi/fetcher/tmp/xchangelib-0.0.5.tar.gz]
+[2024-04-10 10:06:45] INFO root fetch - processPackages [xchangelib]: Remove: archive file [/home/abi/fetcher/tmp/xchangelib-0.0.6.tar.gz]
+[2024-04-10 10:06:45] INFO root fetch - main [MainThread]: End processing [xchangelib]: success
+[2024-04-10 10:06:46] INFO root fetch - processPackages [scepter]: Remove: archive file [/home/abi/fetcher/tmp/scepter-0.0.3.post1-py3-none-any.whl.zip]
+[2024-04-10 10:06:46] INFO root fetch - processPackages [scepter]: Remove: archive file [/home/abi/fetcher/tmp/scepter-0.0.4-py3-none-any.whl.zip]
+[2024-04-10 10:06:46] INFO root fetch - main [MainThread]: End processing [scepter]: success
+[2024-04-10 10:06:46] INFO root fetch - main [MainThread]: Store serial: [22697448]

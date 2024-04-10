@@ -3297,3 +3297,33 @@
 [2024-04-10 02:32:53] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1700084435.tar.gz]
 [2024-04-10 02:32:53] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
 [2024-04-10 02:32:53] INFO root fetch - main [MainThread]: Store serial: [22692438]
+[2024-04-10 02:34:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22692438]
+[2024-04-10 02:35:05] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-10 02:35:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neurowave-logger
+[2024-04-10 02:35:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-image-pipeline
+[2024-04-10 02:35:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: llama-cpp-agent
+[2024-04-10 02:35:05] INFO root fetch - processPackages [neurowave-logger]: New version: [0.2.2b0] Old Version: [0.2.1b0]
+[2024-04-10 02:35:05] INFO root fetch - processPackages [cdk-image-pipeline]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-04-10 02:35:05] INFO root fetch - processPackages [llama-cpp-agent]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-10 02:35:06] INFO root fetch - processPackages [neurowave-logger]: Downloading https://files.pythonhosted.org/packages/82/81/b4c1795206eb0ef61424ed3a2c7bd56d94ae5aee378d5fa652decc5ccedb/neurowave_logger-0.2.1b0.tar.gz
+[2024-04-10 02:35:06] INFO root fetch - processPackages [cdk-image-pipeline]: Downloading https://files.pythonhosted.org/packages/89/e4/13205ca0899fa56500854db926cce250628dd694b8862db8cc74c53ee463/cdk-image-pipeline-0.5.8.tar.gz
+[2024-04-10 02:35:06] INFO root fetch - processPackages [llama-cpp-agent]: Downloading https://files.pythonhosted.org/packages/b1/dc/cf0fbb161c3d3c231fcd4737a8f55f4183bbbf8030ccb12b79a20348556e/llama-cpp-agent-0.0.8.tar.gz
+[2024-04-10 02:35:06] INFO root fetch - processPackages [neurowave-logger]: Downloading https://files.pythonhosted.org/packages/56/3a/7d32726440ebc8bec447de85a0170758e7aa73582797af6ce21f669700bb/neurowave_logger-0.2.2b0.tar.gz
+[2024-04-10 02:35:06] INFO root fetch - processPackages [cdk-image-pipeline]: Downloading https://files.pythonhosted.org/packages/17/47/3621b859151bcfb29e25014308c3c0e1c4709e1c448cf3119a735d43098a/cdk-image-pipeline-0.5.9.tar.gz
+[2024-04-10 02:35:06] INFO root fetch - processPackages [cdk-image-pipeline]: executing diffoscope
+[2024-04-10 02:35:06] INFO root fetch - processPackages [cdk-image-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-image-pipeline-0.5.8.tar.gz tmp/cdk-image-pipeline-0.5.9.tar.gz --markdown 20240410/c/cdk-image-pipeline/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-04-10 02:35:06] INFO root fetch - processPackages [neurowave-logger]: executing diffoscope
+[2024-04-10 02:35:06] INFO root fetch - processPackages [neurowave-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neurowave_logger-0.2.1b0.tar.gz tmp/neurowave_logger-0.2.2b0.tar.gz --markdown 20240410/n/neurowave-logger/0.2.1b0-0.2.2b0/README.md --exclude *.pyd
+[2024-04-10 02:35:06] INFO root fetch - processPackages [llama-cpp-agent]: Downloading https://files.pythonhosted.org/packages/72/d2/fe669d324be099dc10673e05fdedaa55577529de265f254f94bf2c1eca23/llama-cpp-agent-0.0.9.tar.gz
+[2024-04-10 02:35:06] INFO root fetch - processPackages [llama-cpp-agent]: executing diffoscope
+[2024-04-10 02:35:06] INFO root fetch - processPackages [llama-cpp-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama-cpp-agent-0.0.8.tar.gz tmp/llama-cpp-agent-0.0.9.tar.gz --markdown 20240410/l/llama-cpp-agent/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-10 02:35:07] INFO root fetch - processPackages [cdk-image-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/cdk-image-pipeline-0.5.8.tar.gz]
+[2024-04-10 02:35:07] INFO root fetch - processPackages [cdk-image-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/cdk-image-pipeline-0.5.9.tar.gz]
+[2024-04-10 02:35:07] INFO root fetch - main [MainThread]: End processing [cdk-image-pipeline]: success
+[2024-04-10 02:35:07] INFO root fetch - processPackages [neurowave-logger]: Remove: archive file [/home/abi/fetcher/tmp/neurowave_logger-0.2.1b0.tar.gz]
+[2024-04-10 02:35:07] INFO root fetch - processPackages [neurowave-logger]: Remove: archive file [/home/abi/fetcher/tmp/neurowave_logger-0.2.2b0.tar.gz]
+[2024-04-10 02:35:07] INFO root fetch - main [MainThread]: End processing [neurowave-logger]: success
+[2024-04-10 02:35:07] INFO root fetch - processPackages [llama-cpp-agent]: Remove: archive file [/home/abi/fetcher/tmp/llama-cpp-agent-0.0.8.tar.gz]
+[2024-04-10 02:35:07] INFO root fetch - processPackages [llama-cpp-agent]: Remove: archive file [/home/abi/fetcher/tmp/llama-cpp-agent-0.0.9.tar.gz]
+[2024-04-10 02:35:07] INFO root fetch - main [MainThread]: End processing [llama-cpp-agent]: success
+[2024-04-10 02:35:07] INFO root fetch - main [MainThread]: Store serial: [22692449]

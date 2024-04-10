@@ -9497,3 +9497,74 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 04:30:52] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.9.tar.gz]
 [2024-04-10 04:30:52] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
 [2024-04-10 04:30:52] INFO root fetch - main [MainThread]: Store serial: [22694661]
+[2024-04-10 04:32:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22694661]
+[2024-04-10 04:33:01] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-10 04:33:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: swarmauri
+[2024-04-10 04:33:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyodmongo
+[2024-04-10 04:33:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ros-cdk-core
+[2024-04-10 04:33:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pih-ssh
+[2024-04-10 04:33:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pih-web
+[2024-04-10 04:33:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: komodo-sdk
+[2024-04-10 04:33:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ros-cdk-dcdn
+[2024-04-10 04:33:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ros-cdk-ess
+[2024-04-10 04:33:01] INFO root fetch - processPackages [swarmauri]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-10 04:33:01] INFO root fetch - processPackages [komodo-sdk]: New version: [0.0.9] Old Version: [0.0.89]
+[2024-04-10 04:33:01] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/6f/f9/130aeeef865461afb5cc003721ceb7c3ebcd9ef2fe49fd812b8532fb5035/swarmauri-0.1.8.tar.gz
+[2024-04-10 04:33:01] INFO root fetch - processPackages [ros-cdk-core]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-10 04:33:01] INFO root fetch - processPackages [pih-web]: New version: [0.11] Old Version: [0.1]
+[2024-04-10 04:33:01] INFO root fetch - processPackages [pih-ssh]: New version: [0.11] Old Version: [0.1]
+[2024-04-10 04:33:01] INFO root fetch - processPackages [pyodmongo]: New version: [0.6.8] Old Version: [0.6.7]
+[2024-04-10 04:33:01] INFO root fetch - processPackages [ros-cdk-dcdn]: New version: [1.0.24] Old Version: [1.0.23]
+[2024-04-10 04:33:01] INFO root fetch - processPackages [ros-cdk-ess]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-10 04:33:01] INFO root fetch - processPackages [komodo-sdk]: Downloading https://files.pythonhosted.org/packages/c1/75/64665f8823652ae983842708f771508649b4a085802d170fbb9d173d580d/komodo_sdk-0.0.9.tar.gz
+[2024-04-10 04:33:01] WARNING root fetch - processPackages [komodo-sdk]: Skipping package: exceeds size limit 41417628>=10485760
+[2024-04-10 04:33:01] INFO root fetch - main [MainThread]: End processing [komodo-sdk] error
+[2024-04-10 04:33:01] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/c7/70/0b55d158ba42355a67cda5d200e3d5817bac0a8e9ce2da2bf294eb6b03ec/swarmauri-0.1.9.tar.gz
+[2024-04-10 04:33:01] INFO root fetch - processPackages [ros-cdk-core]: Downloading https://files.pythonhosted.org/packages/8e/b2/5b8e95b2e309ee94dc0d4001ae038e4d33f467a99ee7cd5607248d0f7b9e/ros-cdk-core-1.0.8.tar.gz
+[2024-04-10 04:33:01] INFO root fetch - processPackages [pih-web]: Downloading https://files.pythonhosted.org/packages/28/1d/7cc03f85d232f1c34bda28ada474ac35a0724d67735f7d7a7fb80bf68c3a/pih-web-0.1.tar.gz
+[2024-04-10 04:33:01] INFO root fetch - processPackages [pih-ssh]: Downloading https://files.pythonhosted.org/packages/21/32/cb13c4accb2a8c653960daad961f76c4ef260adfefeb37861288b4de5503/pih-ssh-0.1.tar.gz
+[2024-04-10 04:33:01] INFO root fetch - processPackages [ros-cdk-ess]: Downloading https://files.pythonhosted.org/packages/c9/2c/5fe7e864a6189f632a70ae24ab968fc0fb7119629ead5dcf263845232cc2/ros-cdk-ess-1.0.8.tar.gz
+[2024-04-10 04:33:02] INFO root fetch - processPackages [ros-cdk-dcdn]: Downloading https://files.pythonhosted.org/packages/74/d3/842b40873d1d4e674b045fc07a55d7cccca2491608492733c353d7856462/ros-cdk-dcdn-1.0.23.tar.gz
+[2024-04-10 04:33:02] INFO root fetch - processPackages [pyodmongo]: Downloading https://files.pythonhosted.org/packages/30/17/d3eca4deeb40193d56655ee4c721894e5bc32711d666872b632ed91df87e/pyodmongo-0.6.7.tar.gz
+[2024-04-10 04:33:02] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-04-10 04:33:02] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.8.tar.gz tmp/swarmauri-0.1.9.tar.gz --markdown 20240410/s/swarmauri/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-10 04:33:02] INFO root fetch - processPackages [pyodmongo]: Downloading https://files.pythonhosted.org/packages/0e/50/e23fefea6258164d3bcd1fcf4597b1ee0867fc1a018fe190c06ff0579384/pyodmongo-0.6.8.tar.gz
+[2024-04-10 04:33:02] INFO root fetch - processPackages [pih-web]: Downloading https://files.pythonhosted.org/packages/ce/bf/0f0c72f9112a4a859df7beb8e692b0699b33865edaf703501db7eecd545a/pih-web-0.11.tar.gz
+[2024-04-10 04:33:02] INFO root fetch - processPackages [ros-cdk-core]: Downloading https://files.pythonhosted.org/packages/3b/0f/07a63c14f29091bf122a8f24d6cca124f8b20a91fce17451b0ef6cd7b85b/ros-cdk-core-1.0.9.tar.gz
+[2024-04-10 04:33:02] INFO root fetch - processPackages [pih-ssh]: Downloading https://files.pythonhosted.org/packages/44/03/d83909c59414eda24472d3186726b96ba106312f49588ca55021f22360d6/pih-ssh-0.11.tar.gz
+[2024-04-10 04:33:02] INFO root fetch - processPackages [ros-cdk-dcdn]: Downloading https://files.pythonhosted.org/packages/43/c9/5faa81c4a8fe90059126c4bf6e43a1e05449073cff696af4cdd467da7da5/ros-cdk-dcdn-1.0.24.tar.gz
+[2024-04-10 04:33:02] INFO root fetch - processPackages [ros-cdk-ess]: Downloading https://files.pythonhosted.org/packages/7d/67/698fa9c6818e76a7c32f0b4b16631a78350d3647e5b5f48d6d1f8c221514/ros-cdk-ess-1.0.9.tar.gz
+[2024-04-10 04:33:02] INFO root fetch - processPackages [pih-web]: executing diffoscope
+[2024-04-10 04:33:02] INFO root fetch - processPackages [pih-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-web-0.1.tar.gz tmp/pih-web-0.11.tar.gz --markdown 20240410/p/pih-web/0.1-0.11/README.md --exclude *.pyd
+[2024-04-10 04:33:02] INFO root fetch - processPackages [pih-ssh]: executing diffoscope
+[2024-04-10 04:33:02] INFO root fetch - processPackages [pih-ssh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-ssh-0.1.tar.gz tmp/pih-ssh-0.11.tar.gz --markdown 20240410/p/pih-ssh/0.1-0.11/README.md --exclude *.pyd
+[2024-04-10 04:33:02] INFO root fetch - processPackages [ros-cdk-core]: executing diffoscope
+[2024-04-10 04:33:02] INFO root fetch - processPackages [ros-cdk-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-core-1.0.8.tar.gz tmp/ros-cdk-core-1.0.9.tar.gz --markdown 20240410/r/ros-cdk-core/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-10 04:33:02] INFO root fetch - processPackages [pyodmongo]: executing diffoscope
+[2024-04-10 04:33:02] INFO root fetch - processPackages [pyodmongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyodmongo-0.6.7.tar.gz tmp/pyodmongo-0.6.8.tar.gz --markdown 20240410/p/pyodmongo/0.6.7-0.6.8/README.md --exclude *.pyd
+[2024-04-10 04:33:02] INFO root fetch - processPackages [ros-cdk-dcdn]: executing diffoscope
+[2024-04-10 04:33:02] INFO root fetch - processPackages [ros-cdk-dcdn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-dcdn-1.0.23.tar.gz tmp/ros-cdk-dcdn-1.0.24.tar.gz --markdown 20240410/r/ros-cdk-dcdn/1.0.23-1.0.24/README.md --exclude *.pyd
+[2024-04-10 04:33:02] INFO root fetch - processPackages [ros-cdk-ess]: executing diffoscope
+[2024-04-10 04:33:02] INFO root fetch - processPackages [ros-cdk-ess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-ess-1.0.8.tar.gz tmp/ros-cdk-ess-1.0.9.tar.gz --markdown 20240410/r/ros-cdk-ess/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-10 04:33:03] INFO root fetch - processPackages [pih-web]: Remove: archive file [/home/abi/fetcher/tmp/pih-web-0.1.tar.gz]
+[2024-04-10 04:33:03] INFO root fetch - processPackages [pih-web]: Remove: archive file [/home/abi/fetcher/tmp/pih-web-0.11.tar.gz]
+[2024-04-10 04:33:03] INFO root fetch - main [MainThread]: End processing [pih-web]: success
+[2024-04-10 04:33:03] INFO root fetch - processPackages [pih-ssh]: Remove: archive file [/home/abi/fetcher/tmp/pih-ssh-0.1.tar.gz]
+[2024-04-10 04:33:03] INFO root fetch - processPackages [pih-ssh]: Remove: archive file [/home/abi/fetcher/tmp/pih-ssh-0.11.tar.gz]
+[2024-04-10 04:33:03] INFO root fetch - main [MainThread]: End processing [pih-ssh]: success
+[2024-04-10 04:33:03] INFO root fetch - processPackages [ros-cdk-core]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-core-1.0.8.tar.gz]
+[2024-04-10 04:33:03] INFO root fetch - processPackages [ros-cdk-core]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-core-1.0.9.tar.gz]
+[2024-04-10 04:33:03] INFO root fetch - main [MainThread]: End processing [ros-cdk-core]: success
+[2024-04-10 04:33:03] INFO root fetch - processPackages [ros-cdk-dcdn]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-dcdn-1.0.23.tar.gz]
+[2024-04-10 04:33:03] INFO root fetch - processPackages [ros-cdk-dcdn]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-dcdn-1.0.24.tar.gz]
+[2024-04-10 04:33:03] INFO root fetch - main [MainThread]: End processing [ros-cdk-dcdn]: success
+[2024-04-10 04:33:03] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.8.tar.gz]
+[2024-04-10 04:33:03] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.9.tar.gz]
+[2024-04-10 04:33:03] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-04-10 04:33:03] INFO root fetch - processPackages [pyodmongo]: Remove: archive file [/home/abi/fetcher/tmp/pyodmongo-0.6.7.tar.gz]
+[2024-04-10 04:33:03] INFO root fetch - processPackages [pyodmongo]: Remove: archive file [/home/abi/fetcher/tmp/pyodmongo-0.6.8.tar.gz]
+[2024-04-10 04:33:03] INFO root fetch - main [MainThread]: End processing [pyodmongo]: success
+[2024-04-10 04:33:03] INFO root fetch - processPackages [ros-cdk-ess]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ess-1.0.8.tar.gz]
+[2024-04-10 04:33:03] INFO root fetch - processPackages [ros-cdk-ess]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ess-1.0.9.tar.gz]
+[2024-04-10 04:33:03] INFO root fetch - main [MainThread]: End processing [ros-cdk-ess]: success
+[2024-04-10 04:33:03] INFO root fetch - main [MainThread]: Store serial: [22694682]

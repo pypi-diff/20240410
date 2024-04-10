@@ -19949,3 +19949,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 12:12:34] INFO root fetch - processPackages [audiometry-trainer]: Remove: archive file [/home/abi/fetcher/tmp/audiometry_trainer-0.1.1.tar.gz]
 [2024-04-10 12:12:34] INFO root fetch - main [MainThread]: End processing [audiometry-trainer]: success
 [2024-04-10 12:12:34] INFO root fetch - main [MainThread]: Store serial: [22698831]
+[2024-04-10 12:14:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22698831]
+[2024-04-10 12:14:44] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-10 12:14:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fuNEGF
+[2024-04-10 12:14:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-mns-open20220119
+[2024-04-10 12:14:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: optrabot
+[2024-04-10 12:14:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: protokolo
+[2024-04-10 12:14:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alibabacloud-mns-open20220119-py2
+[2024-04-10 12:14:44] INFO root fetch - processPackages [fuNEGF]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-10 12:14:44] INFO root fetch - processPackages [optrabot]: New version: [0.8.2a1] Old Version: [0.8.2a0]
+[2024-04-10 12:14:44] INFO root fetch - processPackages [protokolo]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-10 12:14:44] INFO root fetch - processPackages [fuNEGF]: Downloading https://files.pythonhosted.org/packages/b8/03/52fc4e6da52ff71b453c0e30696585ed0def10e14c0c84fa374e515092ae/fuNEGF-0.1.1.tar.gz
+[2024-04-10 12:14:44] INFO root fetch - processPackages [alibabacloud-mns-open20220119]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-10 12:14:44] INFO root fetch - processPackages [alibabacloud-mns-open20220119-py2]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-10 12:14:44] INFO root fetch - processPackages [optrabot]: Downloading https://files.pythonhosted.org/packages/d7/0f/61e4946ea4d02852d817469432c2e7807594e8e1301454409fdb99e8fb06/optrabot-0.8.2a0.tar.gz
+[2024-04-10 12:14:44] INFO root fetch - processPackages [protokolo]: Downloading https://files.pythonhosted.org/packages/9d/ad/eb66d10f4787923a5913599c930f2386a8bdfc4ae7cc97387a7d2bbb1deb/protokolo-1.0.0.tar.gz
+[2024-04-10 12:14:44] INFO root fetch - processPackages [alibabacloud-mns-open20220119]: Downloading https://files.pythonhosted.org/packages/d8/43/3aecb3b020544a876ba5681cc1e4140065f0fc8a108d1ae9d6eb9d138698/alibabacloud_mns-open20220119-1.0.0.tar.gz
+[2024-04-10 12:14:44] INFO root fetch - processPackages [alibabacloud-mns-open20220119-py2]: Downloading https://files.pythonhosted.org/packages/f0/7a/69efcf58ed07aa24e231a69bc33b3db2b836882ea7debc98c46303ba6ca3/alibabacloud_mns-open20220119_py2-1.0.0.tar.gz
+[2024-04-10 12:14:44] INFO root fetch - processPackages [optrabot]: Downloading https://files.pythonhosted.org/packages/c2/fc/4aab567caf06974fadf46e2c728ac98ab7bd24d40ce1260eb26054c6ef67/optrabot-0.8.2a1.tar.gz
+[2024-04-10 12:14:44] INFO root fetch - processPackages [protokolo]: Downloading https://files.pythonhosted.org/packages/7b/2e/c55a73c9ff985eb489550de3cdc3f16ca73db1272391f30c5dd78c788b88/protokolo-1.0.1.tar.gz
+[2024-04-10 12:14:44] INFO root fetch - processPackages [fuNEGF]: Downloading https://files.pythonhosted.org/packages/d7/57/eb1bd0a777b2061f4de38aabcd7a5d1813c2a719c981d9e7e3d7f9aeb5c8/fuNEGF-0.1.2.tar.gz
+[2024-04-10 12:14:45] INFO root fetch - processPackages [optrabot]: executing diffoscope
+[2024-04-10 12:14:45] INFO root fetch - processPackages [optrabot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optrabot-0.8.2a0.tar.gz tmp/optrabot-0.8.2a1.tar.gz --markdown 20240410/o/optrabot/0.8.2a0-0.8.2a1/README.md --exclude *.pyd
+[2024-04-10 12:14:45] INFO root fetch - processPackages [protokolo]: executing diffoscope
+[2024-04-10 12:14:45] INFO root fetch - processPackages [protokolo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protokolo-1.0.0.tar.gz tmp/protokolo-1.0.1.tar.gz --markdown 20240410/p/protokolo/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-10 12:14:45] INFO root fetch - processPackages [alibabacloud-mns-open20220119]: Downloading https://files.pythonhosted.org/packages/e1/d6/e9b9e42bff1a343bf973885928ef16de45edd5945d7635483b59f2b4e2ea/alibabacloud_mns-open20220119-1.0.1.tar.gz
+[2024-04-10 12:14:45] INFO root fetch - processPackages [alibabacloud-mns-open20220119-py2]: Downloading https://files.pythonhosted.org/packages/cc/7c/0822958a25fb3d6b8bb2d729b20523542ceb458bb3b6ad65e151dfeb4246/alibabacloud_mns-open20220119_py2-1.0.1.tar.gz
+[2024-04-10 12:14:45] INFO root fetch - processPackages [fuNEGF]: executing diffoscope
+[2024-04-10 12:14:45] INFO root fetch - processPackages [fuNEGF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fuNEGF-0.1.1.tar.gz tmp/fuNEGF-0.1.2.tar.gz --markdown 20240410/f/fuNEGF/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-10 12:14:45] INFO root fetch - processPackages [alibabacloud-mns-open20220119]: executing diffoscope
+[2024-04-10 12:14:45] INFO root fetch - processPackages [alibabacloud-mns-open20220119]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_mns-open20220119-1.0.0.tar.gz tmp/alibabacloud_mns-open20220119-1.0.1.tar.gz --markdown 20240410/a/alibabacloud-mns-open20220119/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-10 12:14:45] INFO root fetch - processPackages [alibabacloud-mns-open20220119-py2]: executing diffoscope
+[2024-04-10 12:14:45] INFO root fetch - processPackages [alibabacloud-mns-open20220119-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_mns-open20220119_py2-1.0.0.tar.gz tmp/alibabacloud_mns-open20220119_py2-1.0.1.tar.gz --markdown 20240410/a/alibabacloud-mns-open20220119-py2/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-10 12:14:45] INFO root fetch - processPackages [protokolo]: Remove: archive file [/home/abi/fetcher/tmp/protokolo-1.0.0.tar.gz]
+[2024-04-10 12:14:45] INFO root fetch - processPackages [protokolo]: Remove: archive file [/home/abi/fetcher/tmp/protokolo-1.0.1.tar.gz]
+[2024-04-10 12:14:45] INFO root fetch - main [MainThread]: End processing [protokolo]: success
+[2024-04-10 12:14:46] INFO root fetch - processPackages [fuNEGF]: Remove: archive file [/home/abi/fetcher/tmp/fuNEGF-0.1.1.tar.gz]
+[2024-04-10 12:14:46] INFO root fetch - processPackages [fuNEGF]: Remove: archive file [/home/abi/fetcher/tmp/fuNEGF-0.1.2.tar.gz]
+[2024-04-10 12:14:46] INFO root fetch - main [MainThread]: End processing [fuNEGF]: success
+[2024-04-10 12:14:46] INFO root fetch - processPackages [optrabot]: Remove: archive file [/home/abi/fetcher/tmp/optrabot-0.8.2a0.tar.gz]
+[2024-04-10 12:14:46] INFO root fetch - processPackages [optrabot]: Remove: archive file [/home/abi/fetcher/tmp/optrabot-0.8.2a1.tar.gz]
+[2024-04-10 12:14:46] INFO root fetch - main [MainThread]: End processing [optrabot]: success
+[2024-04-10 12:14:46] INFO root fetch - processPackages [alibabacloud-mns-open20220119]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_mns-open20220119-1.0.0.tar.gz]
+[2024-04-10 12:14:46] INFO root fetch - processPackages [alibabacloud-mns-open20220119]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_mns-open20220119-1.0.1.tar.gz]
+[2024-04-10 12:14:46] INFO root fetch - main [MainThread]: End processing [alibabacloud-mns-open20220119]: success
+[2024-04-10 12:14:46] INFO root fetch - processPackages [alibabacloud-mns-open20220119-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_mns-open20220119_py2-1.0.0.tar.gz]
+[2024-04-10 12:14:46] INFO root fetch - processPackages [alibabacloud-mns-open20220119-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_mns-open20220119_py2-1.0.1.tar.gz]
+[2024-04-10 12:14:46] INFO root fetch - main [MainThread]: End processing [alibabacloud-mns-open20220119-py2]: success
+[2024-04-10 12:14:46] INFO root fetch - main [MainThread]: Store serial: [22698848]

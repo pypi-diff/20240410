@@ -9143,3 +9143,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 04:19:54] INFO root fetch - processPackages [ovos-plugin-vlc]: Remove: archive file [/home/abi/fetcher/tmp/ovos_plugin_vlc-0.0.2a5-py3-none-any.whl.zip]
 [2024-04-10 04:19:54] INFO root fetch - main [MainThread]: End processing [ovos-plugin-vlc]: success
 [2024-04-10 04:19:54] INFO root fetch - main [MainThread]: Store serial: [22694526]
+[2024-04-10 04:21:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22694526]
+[2024-04-10 04:22:03] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-10 04:22:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: elytra-ms
+[2024-04-10 04:22:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py2docfx
+[2024-04-10 04:22:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: taskara
+[2024-04-10 04:22:03] INFO root fetch - processPackages [taskara]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-10 04:22:03] INFO root fetch - processPackages [taskara]: Downloading https://files.pythonhosted.org/packages/d6/1e/172ae85d48722a1e28b9526c0bb34465bd7920d0c8e6858e25a3f8c528a9/taskara-0.1.7.tar.gz
+[2024-04-10 04:22:03] INFO root fetch - processPackages [elytra-ms]: New version: [0.4.0] Old Version: [0.3.3]
+[2024-04-10 04:22:03] INFO root fetch - processPackages [py2docfx]: New version: [0.1.3rc1683981] Old Version: [0.1.3.dev1686559]
+[2024-04-10 04:22:03] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/36/25/166b0c2f5d9e65a639f728dd728f15ed37d8c23401ccb1eb2560f3e6f5b7/py2docfx-0.1.3.dev1686559-py3-none-any.whl
+[2024-04-10 04:22:03] INFO root fetch - processPackages [taskara]: Downloading https://files.pythonhosted.org/packages/c0/4f/e9467a6dd755091e2fe2294b58569b289c5252fd70463791829fd99fbfd7/taskara-0.1.8.tar.gz
+[2024-04-10 04:22:03] INFO root fetch - processPackages [elytra-ms]: Downloading https://files.pythonhosted.org/packages/d9/e1/83f64eb62e2aab54488f33067cba6cea111e4df001886d0579eae2f858b5/elytra_ms-0.3.3.tar.gz
+[2024-04-10 04:22:04] INFO root fetch - processPackages [taskara]: executing diffoscope
+[2024-04-10 04:22:04] INFO root fetch - processPackages [taskara]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskara-0.1.7.tar.gz tmp/taskara-0.1.8.tar.gz --markdown 20240410/t/taskara/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-10 04:22:04] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/79/ae/516984fab4915e74a8979453921316075ba1794d28377cb985d9228d8500/py2docfx-0.1.3rc1683981-py3-none-any.whl
+[2024-04-10 04:22:04] INFO root fetch - processPackages [elytra-ms]: Downloading https://files.pythonhosted.org/packages/f5/b0/a3a1a2c780f8aba0bd93c8f5bda648235a978ccb26429598934647cdc0c9/elytra_ms-0.4.0.tar.gz
+[2024-04-10 04:22:04] INFO root fetch - processPackages [py2docfx]: executing diffoscope
+[2024-04-10 04:22:04] INFO root fetch - processPackages [py2docfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py2docfx-0.1.3.dev1686559-py3-none-any.whl.zip tmp/py2docfx-0.1.3rc1683981-py3-none-any.whl.zip --markdown 20240410/p/py2docfx/0.1.3.dev1686559-0.1.3rc1683981/README.md --exclude *.pyd
+[2024-04-10 04:22:04] INFO root fetch - processPackages [elytra-ms]: executing diffoscope
+[2024-04-10 04:22:04] INFO root fetch - processPackages [elytra-ms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elytra_ms-0.3.3.tar.gz tmp/elytra_ms-0.4.0.tar.gz --markdown 20240410/e/elytra-ms/0.3.3-0.4.0/README.md --exclude *.pyd
+[2024-04-10 04:22:04] INFO root fetch - processPackages [taskara]: Remove: archive file [/home/abi/fetcher/tmp/taskara-0.1.7.tar.gz]
+[2024-04-10 04:22:04] INFO root fetch - processPackages [taskara]: Remove: archive file [/home/abi/fetcher/tmp/taskara-0.1.8.tar.gz]
+[2024-04-10 04:22:04] INFO root fetch - main [MainThread]: End processing [taskara]: success
+[2024-04-10 04:22:05] INFO root fetch - processPackages [elytra-ms]: Remove: archive file [/home/abi/fetcher/tmp/elytra_ms-0.3.3.tar.gz]
+[2024-04-10 04:22:05] INFO root fetch - processPackages [elytra-ms]: Remove: archive file [/home/abi/fetcher/tmp/elytra_ms-0.4.0.tar.gz]
+[2024-04-10 04:22:05] INFO root fetch - main [MainThread]: End processing [elytra-ms]: success
+[2024-04-10 04:22:05] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.3.dev1686559-py3-none-any.whl.zip]
+[2024-04-10 04:22:05] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.3rc1683981-py3-none-any.whl.zip]
+[2024-04-10 04:22:05] INFO root fetch - main [MainThread]: End processing [py2docfx]: success
+[2024-04-10 04:22:05] INFO root fetch - main [MainThread]: Store serial: [22694535]

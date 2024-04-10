@@ -12489,3 +12489,24 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 06:44:09] INFO root fetch - processPackages [FinToolsAP]: Remove: archive file [/home/abi/fetcher/tmp/fintoolsap-1.6.8.tar.gz]
 [2024-04-10 06:44:09] INFO root fetch - main [MainThread]: End processing [FinToolsAP]: success
 [2024-04-10 06:44:09] INFO root fetch - main [MainThread]: Store serial: [22695813]
+[2024-04-10 06:46:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22695813]
+[2024-04-10 06:46:18] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-10 06:46:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kmport
+[2024-04-10 06:46:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MeMeST
+[2024-04-10 06:46:18] INFO root fetch - processPackages [kmport]: New version: [2.1.5] Old Version: [2.1.4]
+[2024-04-10 06:46:18] INFO root fetch - processPackages [MeMeST]: New version: [2024.4.9.212528] Old Version: [2024.4.9.212527]
+[2024-04-10 06:46:18] INFO root fetch - processPackages [kmport]: Downloading https://files.pythonhosted.org/packages/de/34/408260b6aef2cd9dd1cd65f240a9ba675ba97e105793757017256eeba510/kmport-2.1.4.tar.gz
+[2024-04-10 06:46:18] INFO root fetch - processPackages [MeMeST]: Downloading https://files.pythonhosted.org/packages/c7/f8/06a6b16a92478425f10419fced163609a359da2a317e7944daa8f7ef9d62/MeMeST-2024.4.9.212527.tar.gz
+[2024-04-10 06:46:18] INFO root fetch - processPackages [MeMeST]: Downloading https://files.pythonhosted.org/packages/ba/4c/b40475a9d3097469d49458c79404aa15cc8c79a220ea3b85fc1d2b8895bc/MeMeST-2024.4.9.212528-py3-none-any.whl
+[2024-04-10 06:46:18] INFO root fetch - processPackages [kmport]: Downloading https://files.pythonhosted.org/packages/b1/cd/8967ceca2d054c1471c588b6d9a43c6e3088805ba26c97553faca7f6471f/kmport-2.1.5.tar.gz
+[2024-04-10 06:46:18] INFO root fetch - processPackages [MeMeST]: executing diffoscope
+[2024-04-10 06:46:18] INFO root fetch - processPackages [MeMeST]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeMeST-2024.4.9.212527.tar.gz tmp/MeMeST-2024.4.9.212528-py3-none-any.whl.zip --markdown 20240410/M/MeMeST/2024.4.9.212527-2024.4.9.212528/README.md --exclude *.pyd
+[2024-04-10 06:46:18] INFO root fetch - processPackages [kmport]: executing diffoscope
+[2024-04-10 06:46:18] INFO root fetch - processPackages [kmport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kmport-2.1.4.tar.gz tmp/kmport-2.1.5.tar.gz --markdown 20240410/k/kmport/2.1.4-2.1.5/README.md --exclude *.pyd
+[2024-04-10 06:46:19] INFO root fetch - processPackages [MeMeST]: Remove: archive file [/home/abi/fetcher/tmp/MeMeST-2024.4.9.212527.tar.gz]
+[2024-04-10 06:46:19] INFO root fetch - processPackages [MeMeST]: Remove: archive file [/home/abi/fetcher/tmp/MeMeST-2024.4.9.212528-py3-none-any.whl.zip]
+[2024-04-10 06:46:19] INFO root fetch - main [MainThread]: End processing [MeMeST]: success
+[2024-04-10 06:46:19] INFO root fetch - processPackages [kmport]: Remove: archive file [/home/abi/fetcher/tmp/kmport-2.1.4.tar.gz]
+[2024-04-10 06:46:19] INFO root fetch - processPackages [kmport]: Remove: archive file [/home/abi/fetcher/tmp/kmport-2.1.5.tar.gz]
+[2024-04-10 06:46:19] INFO root fetch - main [MainThread]: End processing [kmport]: success
+[2024-04-10 06:46:19] INFO root fetch - main [MainThread]: Store serial: [22695818]

@@ -11996,3 +11996,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 06:20:59] INFO root fetch - processPackages [ros-cdk-cs]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cs-1.0.9.tar.gz]
 [2024-04-10 06:20:59] INFO root fetch - main [MainThread]: End processing [ros-cdk-cs]: success
 [2024-04-10 06:20:59] INFO root fetch - main [MainThread]: Store serial: [22695643]
+[2024-04-10 06:23:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22695643]
+[2024-04-10 06:23:08] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-10 06:23:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ros-cdk-lindorm
+[2024-04-10 06:23:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytiqs
+[2024-04-10 06:23:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pypdfium2
+[2024-04-10 06:23:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ros-cdk-mongodb
+[2024-04-10 06:23:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: FinToolsAP
+[2024-04-10 06:23:08] INFO root fetch - processPackages [pytiqs]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-10 06:23:08] INFO root fetch - processPackages [pytiqs]: Downloading https://files.pythonhosted.org/packages/a8/e5/16abbe13d45e18882b485f2bf3975796759bc467d8c711d0b3246005ef34/pytiqs-1.0.1.tar.gz
+[2024-04-10 06:23:08] INFO root fetch - processPackages [ros-cdk-mongodb]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-10 06:23:08] INFO root fetch - processPackages [FinToolsAP]: New version: [1.6.8] Old Version: [1.6.7]
+[2024-04-10 06:23:08] INFO root fetch - processPackages [ros-cdk-lindorm]: New version: [1.0.24] Old Version: [1.0.23]
+[2024-04-10 06:23:08] INFO root fetch - processPackages [pypdfium2]: New version: [4.9.0] Old Version: [4.8.0]
+[2024-04-10 06:23:08] INFO root fetch - processPackages [FinToolsAP]: Downloading https://files.pythonhosted.org/packages/2f/3e/34f86a2783a900c650dda7eb89d915190128653b268679c89b4662444ba7/fintoolsap-1.6.7.tar.gz
+[2024-04-10 06:23:08] INFO root fetch - processPackages [ros-cdk-lindorm]: Downloading https://files.pythonhosted.org/packages/0d/07/1a4d52980fa84a9e513118f7a46854e8dca3cd0a804f871c5a26a3022650/ros-cdk-lindorm-1.0.23.tar.gz
+[2024-04-10 06:23:08] INFO root fetch - processPackages [ros-cdk-mongodb]: Downloading https://files.pythonhosted.org/packages/fd/0c/390276073f83b41522083ca8f78cc0d26e4b7d2df8bed6e4133dbf968807/ros-cdk-mongodb-1.0.8.tar.gz
+[2024-04-10 06:23:08] INFO root fetch - processPackages [pypdfium2]: Downloading https://files.pythonhosted.org/packages/1e/63/de38940b0c9273462d70d7cfa4c0b80878b1b8b1b29d317209e9014f8d2d/pypdfium2-4.8.0.tar.gz
+[2024-04-10 06:23:08] INFO root fetch - processPackages [pytiqs]: Downloading https://files.pythonhosted.org/packages/45/a7/53b075995829c24e4f5e7db3ce3766bdef199859200caf907ac15ddfab80/pytiqs-1.0.2.tar.gz
+[2024-04-10 06:23:08] INFO root fetch - processPackages [pytiqs]: executing diffoscope
+[2024-04-10 06:23:08] INFO root fetch - processPackages [pytiqs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytiqs-1.0.1.tar.gz tmp/pytiqs-1.0.2.tar.gz --markdown 20240410/p/pytiqs/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-10 06:23:08] INFO root fetch - processPackages [FinToolsAP]: Downloading https://files.pythonhosted.org/packages/72/65/acc8e67788e904fb4193e2ed0f92c99f7a477422a786add6d4a1e6c7b85b/fintoolsap-1.6.8.tar.gz
+[2024-04-10 06:23:09] INFO root fetch - processPackages [ros-cdk-lindorm]: Downloading https://files.pythonhosted.org/packages/93/6f/4237c1e90769aeb1734b5248cf2ad8ed3c3f4fc995dbeb31e73046bac21e/ros-cdk-lindorm-1.0.24.tar.gz
+[2024-04-10 06:23:09] INFO root fetch - processPackages [ros-cdk-mongodb]: Downloading https://files.pythonhosted.org/packages/19/3d/6b5027e615ef2defc678bd8213bf4fcbead4f7c6e4c281e4e2eae4cfb27c/ros-cdk-mongodb-1.0.9.tar.gz
+[2024-04-10 06:23:09] INFO root fetch - processPackages [FinToolsAP]: executing diffoscope
+[2024-04-10 06:23:09] INFO root fetch - processPackages [FinToolsAP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fintoolsap-1.6.7.tar.gz tmp/fintoolsap-1.6.8.tar.gz --markdown 20240410/F/FinToolsAP/1.6.7-1.6.8/README.md --exclude *.pyd
+[2024-04-10 06:23:09] INFO root fetch - processPackages [ros-cdk-lindorm]: executing diffoscope
+[2024-04-10 06:23:09] INFO root fetch - processPackages [ros-cdk-lindorm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-lindorm-1.0.23.tar.gz tmp/ros-cdk-lindorm-1.0.24.tar.gz --markdown 20240410/r/ros-cdk-lindorm/1.0.23-1.0.24/README.md --exclude *.pyd
+[2024-04-10 06:23:09] INFO root fetch - processPackages [ros-cdk-mongodb]: executing diffoscope
+[2024-04-10 06:23:09] INFO root fetch - processPackages [ros-cdk-mongodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-mongodb-1.0.8.tar.gz tmp/ros-cdk-mongodb-1.0.9.tar.gz --markdown 20240410/r/ros-cdk-mongodb/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-10 06:23:09] INFO root fetch - processPackages [pypdfium2]: Downloading https://files.pythonhosted.org/packages/4a/d0/bca4a5d0b0d7cc464934bc5eaf83745d8cd5801cebbff4195e3149cb9a2b/pypdfium2-4.9.0.tar.gz
+[2024-04-10 06:23:09] INFO root fetch - processPackages [pytiqs]: Remove: archive file [/home/abi/fetcher/tmp/pytiqs-1.0.1.tar.gz]
+[2024-04-10 06:23:09] INFO root fetch - processPackages [pytiqs]: Remove: archive file [/home/abi/fetcher/tmp/pytiqs-1.0.2.tar.gz]
+[2024-04-10 06:23:09] INFO root fetch - main [MainThread]: End processing [pytiqs]: success
+[2024-04-10 06:23:09] INFO root fetch - processPackages [pypdfium2]: executing diffoscope
+[2024-04-10 06:23:09] INFO root fetch - processPackages [pypdfium2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypdfium2-4.8.0.tar.gz tmp/pypdfium2-4.9.0.tar.gz --markdown 20240410/p/pypdfium2/4.8.0-4.9.0/README.md --exclude *.pyd
+[2024-04-10 06:23:09] INFO root fetch - processPackages [FinToolsAP]: Remove: archive file [/home/abi/fetcher/tmp/fintoolsap-1.6.7.tar.gz]
+[2024-04-10 06:23:09] INFO root fetch - processPackages [FinToolsAP]: Remove: archive file [/home/abi/fetcher/tmp/fintoolsap-1.6.8.tar.gz]
+[2024-04-10 06:23:09] INFO root fetch - main [MainThread]: End processing [FinToolsAP]: success
+[2024-04-10 06:23:09] INFO root fetch - processPackages [ros-cdk-mongodb]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-mongodb-1.0.8.tar.gz]
+[2024-04-10 06:23:09] INFO root fetch - processPackages [ros-cdk-mongodb]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-mongodb-1.0.9.tar.gz]
+[2024-04-10 06:23:09] INFO root fetch - main [MainThread]: End processing [ros-cdk-mongodb]: success
+[2024-04-10 06:23:10] INFO root fetch - processPackages [ros-cdk-lindorm]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-lindorm-1.0.23.tar.gz]
+[2024-04-10 06:23:10] INFO root fetch - processPackages [ros-cdk-lindorm]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-lindorm-1.0.24.tar.gz]
+[2024-04-10 06:23:10] INFO root fetch - main [MainThread]: End processing [ros-cdk-lindorm]: success
+[2024-04-10 06:23:10] INFO root fetch - processPackages [pypdfium2]: Remove: archive file [/home/abi/fetcher/tmp/pypdfium2-4.8.0.tar.gz]
+[2024-04-10 06:23:10] INFO root fetch - processPackages [pypdfium2]: Remove: archive file [/home/abi/fetcher/tmp/pypdfium2-4.9.0.tar.gz]
+[2024-04-10 06:23:10] INFO root fetch - main [MainThread]: End processing [pypdfium2]: success
+[2024-04-10 06:23:10] INFO root fetch - main [MainThread]: Store serial: [22695667]

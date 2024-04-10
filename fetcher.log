@@ -22897,3 +22897,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-10 13:58:37] INFO root fetch - processPackages [pyfineflow]: Remove: archive file [/home/abi/fetcher/tmp/pyfineflow-1.0.9.tar.gz]
 [2024-04-10 13:58:37] INFO root fetch - main [MainThread]: End processing [pyfineflow]: success
 [2024-04-10 13:58:37] INFO root fetch - main [MainThread]: Store serial: [22700479]
+[2024-04-10 14:00:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22700479]
+[2024-04-10 14:00:46] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-10 14:00:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gardener-oci
+[2024-04-10 14:00:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rose-pine-jupyterlab
+[2024-04-10 14:00:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mitosis
+[2024-04-10 14:00:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: metalarchivist
+[2024-04-10 14:00:46] INFO root fetch - processPackages [mitosis]: New version: [0.5.0b1] Old Version: [0.5.0a1]
+[2024-04-10 14:00:46] INFO root fetch - processPackages [rose-pine-jupyterlab]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-10 14:00:46] INFO root fetch - processPackages [metalarchivist]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-04-10 14:00:46] INFO root fetch - processPackages [gardener-oci]: New version: [1.999.0] Old Version: [1.998.0]
+[2024-04-10 14:00:46] INFO root fetch - processPackages [rose-pine-jupyterlab]: Downloading https://files.pythonhosted.org/packages/1f/01/af291e81ddd28c47f68fa836392d0b088d10ae3c634e6511425d82f9d2c9/rose_pine_jupyterlab-0.1.4.tar.gz
+[2024-04-10 14:00:46] INFO root fetch - processPackages [mitosis]: Downloading https://files.pythonhosted.org/packages/c2/b6/7b554a489cb6efd79690a02f6d55ca2f7cd1b9f66195c5ff07a0ac538e4e/mitosis-0.5.0a1.tar.gz
+[2024-04-10 14:00:46] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/65/8d/87469d533eb661d280b5bb3eb778421053cbe6438908abdc1d79b2921522/gardener-oci-1.998.0.tar.gz
+[2024-04-10 14:00:46] INFO root fetch - processPackages [metalarchivist]: Downloading https://files.pythonhosted.org/packages/a5/26/dbab6843e323f42a5660a659bc09d78fa76b8db6b729a57f854d0b1099ca/metalarchivist-0.1.9.tar.gz
+[2024-04-10 14:00:46] INFO root fetch - processPackages [rose-pine-jupyterlab]: Downloading https://files.pythonhosted.org/packages/15/83/596f5f8e1ead38d2be497e958536708e0bdb9693fef7b9d9075c0fc4c7d7/rose_pine_jupyterlab-0.1.5.tar.gz
+[2024-04-10 14:00:46] INFO root fetch - processPackages [mitosis]: Downloading https://files.pythonhosted.org/packages/54/cb/140c90c5cdcec71a76e1ec02f2e8744b1de2775ef526e5fc515a9a61f6a4/mitosis-0.5.0b1.tar.gz
+[2024-04-10 14:00:47] INFO root fetch - processPackages [metalarchivist]: Downloading https://files.pythonhosted.org/packages/9b/46/a5c8177feb12013e39b9868b2d6986ce671a570e874fb8b7c6eede89071f/metalarchivist-0.2.0.tar.gz
+[2024-04-10 14:00:47] INFO root fetch - processPackages [rose-pine-jupyterlab]: executing diffoscope
+[2024-04-10 14:00:47] INFO root fetch - processPackages [rose-pine-jupyterlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rose_pine_jupyterlab-0.1.4.tar.gz tmp/rose_pine_jupyterlab-0.1.5.tar.gz --markdown 20240410/r/rose-pine-jupyterlab/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-10 14:00:47] INFO root fetch - processPackages [mitosis]: executing diffoscope
+[2024-04-10 14:00:47] INFO root fetch - processPackages [mitosis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mitosis-0.5.0a1.tar.gz tmp/mitosis-0.5.0b1.tar.gz --markdown 20240410/m/mitosis/0.5.0a1-0.5.0b1/README.md --exclude *.pyd
+[2024-04-10 14:00:47] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/f8/de/c6930b025944729e4655e337193e76592dfc15653c0cde84790cb8650df4/gardener-oci-1.999.0.tar.gz
+[2024-04-10 14:00:47] INFO root fetch - processPackages [metalarchivist]: executing diffoscope
+[2024-04-10 14:00:47] INFO root fetch - processPackages [metalarchivist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metalarchivist-0.1.9.tar.gz tmp/metalarchivist-0.2.0.tar.gz --markdown 20240410/m/metalarchivist/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-04-10 14:00:47] INFO root fetch - processPackages [gardener-oci]: executing diffoscope
+[2024-04-10 14:00:47] INFO root fetch - processPackages [gardener-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-oci-1.998.0.tar.gz tmp/gardener-oci-1.999.0.tar.gz --markdown 20240410/g/gardener-oci/1.998.0-1.999.0/README.md --exclude *.pyd
+[2024-04-10 14:00:47] INFO root fetch - processPackages [metalarchivist]: Remove: archive file [/home/abi/fetcher/tmp/metalarchivist-0.1.9.tar.gz]
+[2024-04-10 14:00:47] INFO root fetch - processPackages [metalarchivist]: Remove: archive file [/home/abi/fetcher/tmp/metalarchivist-0.2.0.tar.gz]
+[2024-04-10 14:00:47] INFO root fetch - main [MainThread]: End processing [metalarchivist]: success
+[2024-04-10 14:00:47] INFO root fetch - processPackages [mitosis]: Remove: archive file [/home/abi/fetcher/tmp/mitosis-0.5.0a1.tar.gz]
+[2024-04-10 14:00:47] INFO root fetch - processPackages [mitosis]: Remove: archive file [/home/abi/fetcher/tmp/mitosis-0.5.0b1.tar.gz]
+[2024-04-10 14:00:47] INFO root fetch - main [MainThread]: End processing [mitosis]: success
+[2024-04-10 14:00:47] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.998.0.tar.gz]
+[2024-04-10 14:00:47] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.999.0.tar.gz]
+[2024-04-10 14:00:47] INFO root fetch - main [MainThread]: End processing [gardener-oci]: success
+[2024-04-10 14:00:48] INFO root fetch - processPackages [rose-pine-jupyterlab]: Remove: archive file [/home/abi/fetcher/tmp/rose_pine_jupyterlab-0.1.4.tar.gz]
+[2024-04-10 14:00:48] INFO root fetch - processPackages [rose-pine-jupyterlab]: Remove: archive file [/home/abi/fetcher/tmp/rose_pine_jupyterlab-0.1.5.tar.gz]
+[2024-04-10 14:00:48] INFO root fetch - main [MainThread]: End processing [rose-pine-jupyterlab]: success
+[2024-04-10 14:00:48] INFO root fetch - main [MainThread]: Store serial: [22700505]

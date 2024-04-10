@@ -21860,3 +21860,87 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-10 13:20:57] INFO root fetch - processPackages [ctf-architect]: Remove: archive file [/home/abi/fetcher/tmp/ctf_architect-0.1.0a5.tar.gz]
 [2024-04-10 13:20:57] INFO root fetch - main [MainThread]: End processing [ctf-architect]: success
 [2024-04-10 13:20:57] INFO root fetch - main [MainThread]: Store serial: [22699925]
+[2024-04-10 13:23:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22699925]
+[2024-04-10 13:23:07] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-10 13:23:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: adnexus
+[2024-04-10 13:23:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ZJFootballAutoSign
+[2024-04-10 13:23:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: RealTimeSTT
+[2024-04-10 13:23:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyright
+[2024-04-10 13:23:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: train-route
+[2024-04-10 13:23:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: finalytics
+[2024-04-10 13:23:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: evolve-words
+[2024-04-10 13:23:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: synch2jira
+[2024-04-10 13:23:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aTeam-PySparkLibrary
+[2024-04-10 13:23:07] INFO root fetch - processPackages [adnexus]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-10 13:23:07] INFO root fetch - processPackages [aTeam-PySparkLibrary]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-10 13:23:07] INFO root fetch - processPackages [synch2jira]: New version: [0.0.92] Old Version: [0.0.90]
+[2024-04-10 13:23:07] INFO root fetch - processPackages [finalytics]: New version: [0.3.0] Old Version: [0.2.5]
+[2024-04-10 13:23:07] INFO root fetch - processPackages [pyright]: New version: [1.1.358] Old Version: [1.1.357]
+[2024-04-10 13:23:07] INFO root fetch - processPackages [ZJFootballAutoSign]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-10 13:23:07] INFO root fetch - processPackages [adnexus]: Downloading https://files.pythonhosted.org/packages/c6/c5/f5a52c12bd5a31109ec142db51e005c01cd2ac60f536948930057af86a11/adnexus-0.1.2.tar.gz
+[2024-04-10 13:23:07] INFO root fetch - processPackages [train-route]: New version: [1.0.0] Old Version: [0.6.3]
+[2024-04-10 13:23:07] INFO root fetch - processPackages [RealTimeSTT]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-10 13:23:07] INFO root fetch - processPackages [evolve-words]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-10 13:23:07] INFO root fetch - processPackages [aTeam-PySparkLibrary]: Downloading https://files.pythonhosted.org/packages/a2/2e/1d6481b8487316b5ef587bec1a35494da504ddd8b889542a6a0f2df01410/ateam_pysparklibrary-0.0.8.tar.gz
+[2024-04-10 13:23:07] INFO root fetch - processPackages [synch2jira]: Downloading https://files.pythonhosted.org/packages/ac/89/8b516eb18c22325b081189904047384452a9632613ff3239bed0f9af7f0c/synch2jira-0.0.90.tar.gz
+[2024-04-10 13:23:07] INFO root fetch - processPackages [finalytics]: Downloading https://files.pythonhosted.org/packages/09/d3/5c33ae2668048b01a9a2c330148196bb540545a5fa2b2a30ac63a0e6aabf/finalytics-0.2.5.tar.gz
+[2024-04-10 13:23:07] INFO root fetch - processPackages [pyright]: Downloading https://files.pythonhosted.org/packages/de/39/64ccd2016e6fe2bb7d70931b72ffaffc944b401479c852e8a65a0f83f549/pyright-1.1.357.tar.gz
+[2024-04-10 13:23:07] INFO root fetch - processPackages [ZJFootballAutoSign]: Downloading https://files.pythonhosted.org/packages/40/d4/6d8cf0c41066ad8d214cfd10029e685765d94811790a023c03accd4188bd/ZJFootballAutoSign-0.1.2.tar.gz
+[2024-04-10 13:23:07] INFO root fetch - processPackages [RealTimeSTT]: Downloading https://files.pythonhosted.org/packages/86/7f/e9b09e818815b3cf24a9389f12c43d46f7b197d44cd3c8cea0688c582477/RealTimeSTT-0.1.8.tar.gz
+[2024-04-10 13:23:07] INFO root fetch - processPackages [evolve-words]: Downloading https://files.pythonhosted.org/packages/18/89/402903c720d9f65a5fe32225502b1eae11fe6c3896ac4586446d4c894d94/evolve-words-0.2.0.tar.gz
+[2024-04-10 13:23:07] INFO root fetch - processPackages [train-route]: Downloading https://files.pythonhosted.org/packages/8c/5f/dfd2278c29b5297d425bc679091649f06fd4ef8c2256073e5439efc5f38f/train_route-0.6.3.tar.gz
+[2024-04-10 13:23:07] INFO root fetch - processPackages [synch2jira]: Downloading https://files.pythonhosted.org/packages/43/14/6f75dbd556e30e1e676db4cf124487a7b6c686c6daec58b5cbd03ac827b9/synch2jira-0.0.92.tar.gz
+[2024-04-10 13:23:07] INFO root fetch - processPackages [aTeam-PySparkLibrary]: Downloading https://files.pythonhosted.org/packages/e9/d2/aeddb456bd2964ac5d6053e8d9bb51e4a330281981e77a00dad7238f2061/ateam_pysparklibrary-0.0.9.tar.gz
+[2024-04-10 13:23:07] INFO root fetch - processPackages [adnexus]: Downloading https://files.pythonhosted.org/packages/6b/29/2e1c4db6b39e1a60da31fa86138ab1eb38e614cd1d2a7392726253c46cb5/adnexus-0.1.3.tar.gz
+[2024-04-10 13:23:07] INFO root fetch - processPackages [aTeam-PySparkLibrary]: executing diffoscope
+[2024-04-10 13:23:07] INFO root fetch - processPackages [aTeam-PySparkLibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ateam_pysparklibrary-0.0.8.tar.gz tmp/ateam_pysparklibrary-0.0.9.tar.gz --markdown 20240410/a/aTeam-PySparkLibrary/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-10 13:23:07] INFO root fetch - processPackages [synch2jira]: executing diffoscope
+[2024-04-10 13:23:07] INFO root fetch - processPackages [synch2jira]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synch2jira-0.0.90.tar.gz tmp/synch2jira-0.0.92.tar.gz --markdown 20240410/s/synch2jira/0.0.90-0.0.92/README.md --exclude *.pyd
+[2024-04-10 13:23:07] INFO root fetch - processPackages [adnexus]: executing diffoscope
+[2024-04-10 13:23:07] INFO root fetch - processPackages [adnexus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adnexus-0.1.2.tar.gz tmp/adnexus-0.1.3.tar.gz --markdown 20240410/a/adnexus/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-10 13:23:07] INFO root fetch - processPackages [pyright]: Downloading https://files.pythonhosted.org/packages/d6/eb/e5e277e6e7f18adcabd01817dba7f1417987df45fed1720b8118b96b58e7/pyright-1.1.358.tar.gz
+[2024-04-10 13:23:07] INFO root fetch - processPackages [finalytics]: Downloading https://files.pythonhosted.org/packages/ee/63/05118b0a56ea448358f7e39e0988bdbe3cda9f5695cd093d23ecd4da105c/finalytics-0.3.0.tar.gz
+[2024-04-10 13:23:08] INFO root fetch - processPackages [ZJFootballAutoSign]: Downloading https://files.pythonhosted.org/packages/ba/a2/2cfaff0e8f1b05ae97aca97a63e24ccaf975d9eb6b0fee61c1e8e0b2847e/ZJFootballAutoSign-0.1.3.tar.gz
+[2024-04-10 13:23:08] INFO root fetch - processPackages [RealTimeSTT]: Downloading https://files.pythonhosted.org/packages/c4/95/dfcf994fe29346a0616d6eff388fd23f13d773e39fd24426cf856ee20584/RealTimeSTT-0.1.9.tar.gz
+[2024-04-10 13:23:08] INFO root fetch - processPackages [pyright]: executing diffoscope
+[2024-04-10 13:23:08] INFO root fetch - processPackages [pyright]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyright-1.1.357.tar.gz tmp/pyright-1.1.358.tar.gz --markdown 20240410/p/pyright/1.1.357-1.1.358/README.md --exclude *.pyd
+[2024-04-10 13:23:08] INFO root fetch - processPackages [evolve-words]: Downloading https://files.pythonhosted.org/packages/ab/ac/07ff5cae7f3e8d7cdc8d4e7c3c6cdb959bf730a8c2ba88ed504269af3d49/evolve-words-0.2.1.tar.gz
+[2024-04-10 13:23:08] INFO root fetch - processPackages [train-route]: Downloading https://files.pythonhosted.org/packages/0a/5f/93bb4d7e8dffe41d0cb106cf073a76e041ca209e41a981041255cab736a1/train_route-1.0.0.tar.gz
+[2024-04-10 13:23:08] INFO root fetch - processPackages [RealTimeSTT]: executing diffoscope
+[2024-04-10 13:23:08] INFO root fetch - processPackages [RealTimeSTT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RealTimeSTT-0.1.8.tar.gz tmp/RealTimeSTT-0.1.9.tar.gz --markdown 20240410/R/RealTimeSTT/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-10 13:23:08] INFO root fetch - processPackages [ZJFootballAutoSign]: executing diffoscope
+[2024-04-10 13:23:08] INFO root fetch - processPackages [ZJFootballAutoSign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ZJFootballAutoSign-0.1.2.tar.gz tmp/ZJFootballAutoSign-0.1.3.tar.gz --markdown 20240410/Z/ZJFootballAutoSign/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-10 13:23:08] INFO root fetch - processPackages [evolve-words]: executing diffoscope
+[2024-04-10 13:23:08] INFO root fetch - processPackages [evolve-words]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evolve-words-0.2.0.tar.gz tmp/evolve-words-0.2.1.tar.gz --markdown 20240410/e/evolve-words/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-10 13:23:08] INFO root fetch - processPackages [train-route]: executing diffoscope
+[2024-04-10 13:23:08] INFO root fetch - processPackages [train-route]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/train_route-0.6.3.tar.gz tmp/train_route-1.0.0.tar.gz --markdown 20240410/t/train-route/0.6.3-1.0.0/README.md --exclude *.pyd
+[2024-04-10 13:23:08] INFO root fetch - processPackages [finalytics]: executing diffoscope
+[2024-04-10 13:23:08] INFO root fetch - processPackages [finalytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finalytics-0.2.5.tar.gz tmp/finalytics-0.3.0.tar.gz --markdown 20240410/f/finalytics/0.2.5-0.3.0/README.md --exclude *.pyd
+[2024-04-10 13:23:08] INFO root fetch - processPackages [synch2jira]: Remove: archive file [/home/abi/fetcher/tmp/synch2jira-0.0.90.tar.gz]
+[2024-04-10 13:23:08] INFO root fetch - processPackages [synch2jira]: Remove: archive file [/home/abi/fetcher/tmp/synch2jira-0.0.92.tar.gz]
+[2024-04-10 13:23:08] INFO root fetch - main [MainThread]: End processing [synch2jira]: success
+[2024-04-10 13:23:08] INFO root fetch - processPackages [aTeam-PySparkLibrary]: Remove: archive file [/home/abi/fetcher/tmp/ateam_pysparklibrary-0.0.8.tar.gz]
+[2024-04-10 13:23:08] INFO root fetch - processPackages [aTeam-PySparkLibrary]: Remove: archive file [/home/abi/fetcher/tmp/ateam_pysparklibrary-0.0.9.tar.gz]
+[2024-04-10 13:23:08] INFO root fetch - main [MainThread]: End processing [aTeam-PySparkLibrary]: success
+[2024-04-10 13:23:08] INFO root fetch - processPackages [adnexus]: Remove: archive file [/home/abi/fetcher/tmp/adnexus-0.1.2.tar.gz]
+[2024-04-10 13:23:08] INFO root fetch - processPackages [adnexus]: Remove: archive file [/home/abi/fetcher/tmp/adnexus-0.1.3.tar.gz]
+[2024-04-10 13:23:08] INFO root fetch - main [MainThread]: End processing [adnexus]: success
+[2024-04-10 13:23:08] INFO root fetch - processPackages [pyright]: Remove: archive file [/home/abi/fetcher/tmp/pyright-1.1.357.tar.gz]
+[2024-04-10 13:23:08] INFO root fetch - processPackages [pyright]: Remove: archive file [/home/abi/fetcher/tmp/pyright-1.1.358.tar.gz]
+[2024-04-10 13:23:08] INFO root fetch - main [MainThread]: End processing [pyright]: success
+[2024-04-10 13:23:09] INFO root fetch - processPackages [train-route]: Remove: archive file [/home/abi/fetcher/tmp/train_route-0.6.3.tar.gz]
+[2024-04-10 13:23:09] INFO root fetch - processPackages [evolve-words]: Remove: archive file [/home/abi/fetcher/tmp/evolve-words-0.2.0.tar.gz]
+[2024-04-10 13:23:09] INFO root fetch - processPackages [train-route]: Remove: archive file [/home/abi/fetcher/tmp/train_route-1.0.0.tar.gz]
+[2024-04-10 13:23:09] INFO root fetch - processPackages [evolve-words]: Remove: archive file [/home/abi/fetcher/tmp/evolve-words-0.2.1.tar.gz]
+[2024-04-10 13:23:09] INFO root fetch - main [MainThread]: End processing [train-route]: success
+[2024-04-10 13:23:09] INFO root fetch - main [MainThread]: End processing [evolve-words]: success
+[2024-04-10 13:23:09] INFO root fetch - processPackages [ZJFootballAutoSign]: Remove: archive file [/home/abi/fetcher/tmp/ZJFootballAutoSign-0.1.2.tar.gz]
+[2024-04-10 13:23:09] INFO root fetch - processPackages [ZJFootballAutoSign]: Remove: archive file [/home/abi/fetcher/tmp/ZJFootballAutoSign-0.1.3.tar.gz]
+[2024-04-10 13:23:09] INFO root fetch - main [MainThread]: End processing [ZJFootballAutoSign]: success
+[2024-04-10 13:23:09] INFO root fetch - processPackages [RealTimeSTT]: Remove: archive file [/home/abi/fetcher/tmp/RealTimeSTT-0.1.8.tar.gz]
+[2024-04-10 13:23:09] INFO root fetch - processPackages [RealTimeSTT]: Remove: archive file [/home/abi/fetcher/tmp/RealTimeSTT-0.1.9.tar.gz]
+[2024-04-10 13:23:09] INFO root fetch - main [MainThread]: End processing [RealTimeSTT]: success
+[2024-04-10 13:23:09] INFO root fetch - processPackages [finalytics]: Remove: archive file [/home/abi/fetcher/tmp/finalytics-0.2.5.tar.gz]
+[2024-04-10 13:23:09] INFO root fetch - processPackages [finalytics]: Remove: archive file [/home/abi/fetcher/tmp/finalytics-0.3.0.tar.gz]
+[2024-04-10 13:23:09] INFO root fetch - main [MainThread]: End processing [finalytics]: success
+[2024-04-10 13:23:09] INFO root fetch - main [MainThread]: Store serial: [22699960]

@@ -20239,3 +20239,102 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 12:28:03] INFO root fetch - processPackages [pygrype]: Remove: archive file [/home/abi/fetcher/tmp/pygrype-0.2.1.tar.gz]
 [2024-04-10 12:28:03] INFO root fetch - main [MainThread]: End processing [pygrype]: success
 [2024-04-10 12:28:03] INFO root fetch - main [MainThread]: Store serial: [22698937]
+[2024-04-10 12:30:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22698937]
+[2024-04-10 12:30:12] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-10 12:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: limexhub
+[2024-04-10 12:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: neuro-connector-api
+[2024-04-10 12:30:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vortexpy
+[2024-04-10 12:30:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bayesbuilding
+[2024-04-10 12:30:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sodata
+[2024-04-10 12:30:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tuxrun
+[2024-04-10 12:30:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: library-management-system
+[2024-04-10 12:30:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: omni-api
+[2024-04-10 12:30:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: freegenius
+[2024-04-10 12:30:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: streamlit-local-storage
+[2024-04-10 12:30:13] INFO root fetch - processPackages [limexhub]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-10 12:30:13] INFO root fetch - processPackages [sodata]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-10 12:30:13] INFO root fetch - processPackages [streamlit-local-storage]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-10 12:30:13] INFO root fetch - processPackages [neuro-connector-api]: New version: [3.0.1] Old Version: [3.0.0]
+[2024-04-10 12:30:13] INFO root fetch - processPackages [sodata]: Downloading https://files.pythonhosted.org/packages/46/d2/3e4cb5e6efe2798dd35b47d77565f33ce653d14b9c713688b7441a61f200/sodata-0.0.3.tar.gz
+[2024-04-10 12:30:13] WARNING root fetch - processPackages [bayesbuilding]: Skipping, unable to determine old version
+[2024-04-10 12:30:13] INFO root fetch - processPackages [bayesbuilding]: Start processing: pulumi-snowflake
+[2024-04-10 12:30:13] INFO root fetch - main [MainThread]: End processing [bayesbuilding] error
+[2024-04-10 12:30:13] WARNING root fetch - processPackages [library-management-system]: Skipping, unable to determine old version
+[2024-04-10 12:30:13] INFO root fetch - processPackages [library-management-system]: Start processing: qontract-reconcile
+[2024-04-10 12:30:13] INFO root fetch - main [MainThread]: End processing [library-management-system] error
+[2024-04-10 12:30:13] INFO root fetch - processPackages [freegenius]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-10 12:30:13] INFO root fetch - processPackages [limexhub]: Downloading https://files.pythonhosted.org/packages/51/07/3d098e88518c200bf53c9e2abc577941ceb39216e9d2da6747d193277873/limexhub-0.1.5.tar.gz
+[2024-04-10 12:30:13] INFO root fetch - processPackages [omni-api]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-04-10 12:30:13] INFO root fetch - processPackages [vortexpy]: New version: [4.0.8] Old Version: [4.0.7]
+[2024-04-10 12:30:13] INFO root fetch - processPackages [tuxrun]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-04-10 12:30:13] INFO root fetch - processPackages [pulumi-snowflake]: New version: [0.9.1a1656367704] Old Version: [0.9.1a1654087017]
+[2024-04-10 12:30:13] INFO root fetch - processPackages [streamlit-local-storage]: Downloading https://files.pythonhosted.org/packages/28/56/e79513b682c9b6535e2b0c49cc4a18f464f4a999da0e0159fdfd964c1e89/streamlit-local-storage-0.0.8.tar.gz
+[2024-04-10 12:30:13] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-04-10 12:30:13] INFO root fetch - processPackages [neuro-connector-api]: Downloading https://files.pythonhosted.org/packages/60/30/e981dfb2108c64667369c3d062d36deaa0c117bf6fb38c0c1f61d8a0ffb4/neuro-connector-api-3.0.0.tar.gz
+[2024-04-10 12:30:13] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-04-10 12:30:13] INFO root fetch - processPackages [pulumi-snowflake]: Downloading https://files.pythonhosted.org/packages/ac/12/8a15836613d8faa0153d0c1b5818bfe83f875f5770e55c406bbc2e2f4297/pulumi_snowflake-0.9.1a1654087017.tar.gz
+[2024-04-10 12:30:13] INFO root fetch - processPackages [vortexpy]: Downloading https://files.pythonhosted.org/packages/9c/06/cae468d9723db46456720fb2cfbd50083b02244931d98f94e8d0d3799702/vortexpy-4.0.7.tar.gz
+[2024-04-10 12:30:13] INFO root fetch - processPackages [tuxrun]: Downloading https://files.pythonhosted.org/packages/05/75/c3a2f3d058040a29b90033ef83341a25499a52eb95f05ae733070a447399/tuxrun-0.9.5.tar.gz
+[2024-04-10 12:30:13] INFO root fetch - processPackages [omni-api]: Downloading https://files.pythonhosted.org/packages/f0/01/1a291555c07c2ed5f6c34e100a5979a3a54148569e83f1a7072bac2914bf/omni-api-0.5.0.tar.gz
+[2024-04-10 12:30:13] INFO root fetch - processPackages [freegenius]: Downloading https://files.pythonhosted.org/packages/6f/a0/f28ee0e233993d710b958fb4eca9f4892fdc879db0894cb221c3c672db85/freegenius-0.0.8.tar.gz
+[2024-04-10 12:30:13] INFO root fetch - processPackages [sodata]: Downloading https://files.pythonhosted.org/packages/55/ac/29908e1d284032ff4e26517366c3f0379e9a2ecb1fda8275e0dc0ccdd1f1/sodata-0.0.4.tar.gz
+[2024-04-10 12:30:13] INFO root fetch - processPackages [limexhub]: Downloading https://files.pythonhosted.org/packages/48/6a/5a4feb6071869bf0f1b343de8df9f546c1629aaf3e2b3abef2fabaabb764/limexhub-0.1.6.tar.gz
+[2024-04-10 12:30:13] INFO root fetch - processPackages [streamlit-local-storage]: Downloading https://files.pythonhosted.org/packages/c6/99/89a3816ec823682205e37522e07a3d940cc8107a1da7d0941d4403c4b032/streamlit-local-storage-0.0.9.tar.gz
+[2024-04-10 12:30:13] INFO root fetch - processPackages [sodata]: executing diffoscope
+[2024-04-10 12:30:13] INFO root fetch - processPackages [sodata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sodata-0.0.3.tar.gz tmp/sodata-0.0.4.tar.gz --markdown 20240410/s/sodata/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-10 12:30:13] INFO root fetch - processPackages [neuro-connector-api]: Downloading https://files.pythonhosted.org/packages/c4/c6/74fb7fbed74d6fa5a6c6be7bd8d026b808ab7d8d8fbef2c8c6b3b8dc11eb/neuro-connector-api-3.0.1.tar.gz
+[2024-04-10 12:30:13] INFO root fetch - processPackages [limexhub]: executing diffoscope
+[2024-04-10 12:30:13] INFO root fetch - processPackages [limexhub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/limexhub-0.1.5.tar.gz tmp/limexhub-0.1.6.tar.gz --markdown 20240410/l/limexhub/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-10 12:30:14] INFO root fetch - processPackages [pulumi-snowflake]: Downloading https://files.pythonhosted.org/packages/12/24/eac91fa678665e057906195a9e93366ecf0bc7997bd228eb1159a41ae631/pulumi_snowflake-0.9.1a1656367704.tar.gz
+[2024-04-10 12:30:14] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-04-10 12:30:14] INFO root fetch - processPackages [omni-api]: Downloading https://files.pythonhosted.org/packages/34/98/004dfd37b71387231dec6f58cd975dfbeae601adb80bf08b6171776728de/omni-api-0.5.1.tar.gz
+[2024-04-10 12:30:14] INFO root fetch - processPackages [streamlit-local-storage]: executing diffoscope
+[2024-04-10 12:30:14] INFO root fetch - processPackages [streamlit-local-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-local-storage-0.0.8.tar.gz tmp/streamlit-local-storage-0.0.9.tar.gz --markdown 20240410/s/streamlit-local-storage/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-10 12:30:14] INFO root fetch - processPackages [vortexpy]: Downloading https://files.pythonhosted.org/packages/41/53/55a70cf6614a1bbb50ccfe6b65d0c9c3919fa755df6d58b20920aaf4e6f8/vortexpy-4.0.8.tar.gz
+[2024-04-10 12:30:14] INFO root fetch - processPackages [neuro-connector-api]: executing diffoscope
+[2024-04-10 12:30:14] INFO root fetch - processPackages [neuro-connector-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuro-connector-api-3.0.0.tar.gz tmp/neuro-connector-api-3.0.1.tar.gz --markdown 20240410/n/neuro-connector-api/3.0.0-3.0.1/README.md --exclude *.pyd
+[2024-04-10 12:30:14] INFO root fetch - processPackages [freegenius]: Downloading https://files.pythonhosted.org/packages/64/a9/f3ae6b148a4bd786790a124582c069ff16ee88fb307a8ebff8181577bb4d/freegenius-0.0.9.tar.gz
+[2024-04-10 12:30:14] INFO root fetch - processPackages [pulumi-snowflake]: executing diffoscope
+[2024-04-10 12:30:14] INFO root fetch - processPackages [pulumi-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_snowflake-0.9.1a1654087017.tar.gz tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz --markdown 20240410/p/pulumi-snowflake/0.9.1a1654087017-0.9.1a1656367704/README.md --exclude *.pyd
+[2024-04-10 12:30:14] INFO root fetch - processPackages [tuxrun]: Downloading https://files.pythonhosted.org/packages/ae/5a/4fe00d549cd779f2a99801a6e2061f2501e373810e56871af8b037beb43f/tuxrun-0.9.6.tar.gz
+[2024-04-10 12:30:14] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-04-10 12:30:14] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240410/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-04-10 12:30:14] INFO root fetch - processPackages [vortexpy]: executing diffoscope
+[2024-04-10 12:30:14] INFO root fetch - processPackages [vortexpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vortexpy-4.0.7.tar.gz tmp/vortexpy-4.0.8.tar.gz --markdown 20240410/v/vortexpy/4.0.7-4.0.8/README.md --exclude *.pyd
+[2024-04-10 12:30:14] INFO root fetch - processPackages [omni-api]: executing diffoscope
+[2024-04-10 12:30:14] INFO root fetch - processPackages [omni-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omni-api-0.5.0.tar.gz tmp/omni-api-0.5.1.tar.gz --markdown 20240410/o/omni-api/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-04-10 12:30:14] INFO root fetch - processPackages [freegenius]: executing diffoscope
+[2024-04-10 12:30:14] INFO root fetch - processPackages [freegenius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freegenius-0.0.8.tar.gz tmp/freegenius-0.0.9.tar.gz --markdown 20240410/f/freegenius/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-10 12:30:14] INFO root fetch - processPackages [tuxrun]: executing diffoscope
+[2024-04-10 12:30:14] INFO root fetch - processPackages [tuxrun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuxrun-0.9.5.tar.gz tmp/tuxrun-0.9.6.tar.gz --markdown 20240410/t/tuxrun/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-04-10 12:30:14] INFO root fetch - processPackages [sodata]: Remove: archive file [/home/abi/fetcher/tmp/sodata-0.0.3.tar.gz]
+[2024-04-10 12:30:14] INFO root fetch - processPackages [sodata]: Remove: archive file [/home/abi/fetcher/tmp/sodata-0.0.4.tar.gz]
+[2024-04-10 12:30:14] INFO root fetch - main [MainThread]: End processing [sodata]: success
+[2024-04-10 12:30:15] INFO root fetch - processPackages [limexhub]: Remove: archive file [/home/abi/fetcher/tmp/limexhub-0.1.5.tar.gz]
+[2024-04-10 12:30:15] INFO root fetch - processPackages [limexhub]: Remove: archive file [/home/abi/fetcher/tmp/limexhub-0.1.6.tar.gz]
+[2024-04-10 12:30:15] INFO root fetch - main [MainThread]: End processing [limexhub]: success
+[2024-04-10 12:30:15] INFO root fetch - processPackages [neuro-connector-api]: Remove: archive file [/home/abi/fetcher/tmp/neuro-connector-api-3.0.0.tar.gz]
+[2024-04-10 12:30:15] INFO root fetch - processPackages [neuro-connector-api]: Remove: archive file [/home/abi/fetcher/tmp/neuro-connector-api-3.0.1.tar.gz]
+[2024-04-10 12:30:15] INFO root fetch - main [MainThread]: End processing [neuro-connector-api]: success
+[2024-04-10 12:30:15] INFO root fetch - processPackages [freegenius]: Remove: archive file [/home/abi/fetcher/tmp/freegenius-0.0.8.tar.gz]
+[2024-04-10 12:30:15] INFO root fetch - processPackages [freegenius]: Remove: archive file [/home/abi/fetcher/tmp/freegenius-0.0.9.tar.gz]
+[2024-04-10 12:30:15] INFO root fetch - main [MainThread]: End processing [freegenius]: success
+[2024-04-10 12:30:15] INFO root fetch - processPackages [tuxrun]: Remove: archive file [/home/abi/fetcher/tmp/tuxrun-0.9.5.tar.gz]
+[2024-04-10 12:30:15] INFO root fetch - processPackages [tuxrun]: Remove: archive file [/home/abi/fetcher/tmp/tuxrun-0.9.6.tar.gz]
+[2024-04-10 12:30:15] INFO root fetch - main [MainThread]: End processing [tuxrun]: success
+[2024-04-10 12:30:15] INFO root fetch - processPackages [vortexpy]: Remove: archive file [/home/abi/fetcher/tmp/vortexpy-4.0.7.tar.gz]
+[2024-04-10 12:30:15] INFO root fetch - processPackages [vortexpy]: Remove: archive file [/home/abi/fetcher/tmp/vortexpy-4.0.8.tar.gz]
+[2024-04-10 12:30:15] INFO root fetch - main [MainThread]: End processing [vortexpy]: success
+[2024-04-10 12:30:15] INFO root fetch - processPackages [omni-api]: Remove: archive file [/home/abi/fetcher/tmp/omni-api-0.5.0.tar.gz]
+[2024-04-10 12:30:15] INFO root fetch - processPackages [omni-api]: Remove: archive file [/home/abi/fetcher/tmp/omni-api-0.5.1.tar.gz]
+[2024-04-10 12:30:15] INFO root fetch - main [MainThread]: End processing [omni-api]: success
+[2024-04-10 12:30:15] INFO root fetch - processPackages [pulumi-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_snowflake-0.9.1a1654087017.tar.gz]
+[2024-04-10 12:30:15] INFO root fetch - processPackages [pulumi-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz]
+[2024-04-10 12:30:15] INFO root fetch - main [MainThread]: End processing [pulumi-snowflake]: success
+[2024-04-10 12:30:16] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-04-10 12:30:16] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-04-10 12:30:16] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-04-10 12:30:27] INFO root fetch - processPackages [streamlit-local-storage]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-local-storage-0.0.8.tar.gz]
+[2024-04-10 12:30:27] INFO root fetch - processPackages [streamlit-local-storage]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-local-storage-0.0.9.tar.gz]
+[2024-04-10 12:30:27] INFO root fetch - main [MainThread]: End processing [streamlit-local-storage]: success
+[2024-04-10 12:30:27] INFO root fetch - main [MainThread]: Store serial: [22698974]

@@ -20338,3 +20338,54 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 12:30:27] INFO root fetch - processPackages [streamlit-local-storage]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-local-storage-0.0.9.tar.gz]
 [2024-04-10 12:30:27] INFO root fetch - main [MainThread]: End processing [streamlit-local-storage]: success
 [2024-04-10 12:30:27] INFO root fetch - main [MainThread]: Store serial: [22698974]
+[2024-04-10 12:32:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22698974]
+[2024-04-10 12:32:37] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-10 12:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gpuery
+[2024-04-10 12:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: glasswall
+[2024-04-10 12:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: streamlit-local-storage
+[2024-04-10 12:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nmbrs
+[2024-04-10 12:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quant2
+[2024-04-10 12:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: insight-plugin
+[2024-04-10 12:32:37] INFO root fetch - processPackages [streamlit-local-storage]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-10 12:32:37] INFO root fetch - processPackages [quant2]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-10 12:32:37] INFO root fetch - processPackages [nmbrs]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-10 12:32:37] INFO root fetch - processPackages [streamlit-local-storage]: Downloading https://files.pythonhosted.org/packages/28/56/e79513b682c9b6535e2b0c49cc4a18f464f4a999da0e0159fdfd964c1e89/streamlit-local-storage-0.0.8.tar.gz
+[2024-04-10 12:32:37] WARNING root fetch - processPackages [gpuery]: Skipping, unable to determine old version
+[2024-04-10 12:32:37] INFO root fetch - main [MainThread]: End processing [gpuery] error
+[2024-04-10 12:32:37] INFO root fetch - processPackages [nmbrs]: Downloading https://files.pythonhosted.org/packages/22/c4/e6b4fd25844301e316dea3dcd2aabf48699a6ba5ef941087c2d27162b94d/nmbrs-0.1.1.tar.gz
+[2024-04-10 12:32:37] INFO root fetch - processPackages [glasswall]: New version: [5.1.0] Old Version: [5.0.2]
+[2024-04-10 12:32:37] INFO root fetch - processPackages [insight-plugin]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-10 12:32:37] INFO root fetch - processPackages [quant2]: Downloading https://files.pythonhosted.org/packages/11/bf/4225581d3021d37874804da989897221f25fc6c93fa5f1b07d38fcbf01d3/quant2-0.0.8.tar.gz
+[2024-04-10 12:32:37] INFO root fetch - processPackages [glasswall]: Downloading https://files.pythonhosted.org/packages/62/47/f7e7c7b1589f7d90a389bfed43cd02a7aed33cd3f4ce6ff8a0c4e13ef509/glasswall-5.0.2.tar.gz
+[2024-04-10 12:32:37] INFO root fetch - processPackages [nmbrs]: Downloading https://files.pythonhosted.org/packages/44/42/9aca5feb2e50f648e056a7e7b640bb62e8236f0382019def1840a756e4f7/nmbrs-0.1.2.tar.gz
+[2024-04-10 12:32:37] INFO root fetch - processPackages [insight-plugin]: Downloading https://files.pythonhosted.org/packages/4a/8a/5824c0c6b94cd4e7ef33308a97d0c995b80507677e19a2b69c8fd5661552/insight_plugin-1.1.0.tar.gz
+[2024-04-10 12:32:37] INFO root fetch - processPackages [streamlit-local-storage]: Downloading https://files.pythonhosted.org/packages/c6/99/89a3816ec823682205e37522e07a3d940cc8107a1da7d0941d4403c4b032/streamlit-local-storage-0.0.9.tar.gz
+[2024-04-10 12:32:37] INFO root fetch - processPackages [quant2]: Downloading https://files.pythonhosted.org/packages/14/b2/02902adfc8374a2d4e7cf6e11c97319142fb7a2f1565e78bcc91dd0cd825/quant2-0.0.9.tar.gz
+[2024-04-10 12:32:37] INFO root fetch - processPackages [nmbrs]: executing diffoscope
+[2024-04-10 12:32:37] INFO root fetch - processPackages [nmbrs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nmbrs-0.1.1.tar.gz tmp/nmbrs-0.1.2.tar.gz --markdown 20240410/n/nmbrs/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-10 12:32:38] INFO root fetch - processPackages [streamlit-local-storage]: executing diffoscope
+[2024-04-10 12:32:38] INFO root fetch - processPackages [streamlit-local-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-local-storage-0.0.8.tar.gz tmp/streamlit-local-storage-0.0.9.tar.gz --markdown 20240410/s/streamlit-local-storage/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-10 12:32:38] INFO root fetch - processPackages [quant2]: executing diffoscope
+[2024-04-10 12:32:38] INFO root fetch - processPackages [quant2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quant2-0.0.8.tar.gz tmp/quant2-0.0.9.tar.gz --markdown 20240410/q/quant2/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-10 12:32:38] INFO root fetch - processPackages [glasswall]: Downloading https://files.pythonhosted.org/packages/5f/68/7ac73d67a1dd4fce88767419374a57ae976e16d3aa50f7b912153bcd1c2f/glasswall-5.1.0.tar.gz
+[2024-04-10 12:32:38] INFO root fetch - processPackages [insight-plugin]: Downloading https://files.pythonhosted.org/packages/03/0b/328fe1b1234d9ac34d5744a340570a6bea833a6b17084086d34e03625edd/insight_plugin-1.2.0.tar.gz
+[2024-04-10 12:32:38] INFO root fetch - processPackages [glasswall]: executing diffoscope
+[2024-04-10 12:32:38] INFO root fetch - processPackages [glasswall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glasswall-5.0.2.tar.gz tmp/glasswall-5.1.0.tar.gz --markdown 20240410/g/glasswall/5.0.2-5.1.0/README.md --exclude *.pyd
+[2024-04-10 12:32:38] INFO root fetch - processPackages [quant2]: Remove: archive file [/home/abi/fetcher/tmp/quant2-0.0.8.tar.gz]
+[2024-04-10 12:32:38] INFO root fetch - processPackages [quant2]: Remove: archive file [/home/abi/fetcher/tmp/quant2-0.0.9.tar.gz]
+[2024-04-10 12:32:38] INFO root fetch - main [MainThread]: End processing [quant2]: success
+[2024-04-10 12:32:39] INFO root fetch - processPackages [insight-plugin]: executing diffoscope
+[2024-04-10 12:32:39] INFO root fetch - processPackages [insight-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/insight_plugin-1.1.0.tar.gz tmp/insight_plugin-1.2.0.tar.gz --markdown 20240410/i/insight-plugin/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-04-10 12:32:39] INFO root fetch - processPackages [nmbrs]: Remove: archive file [/home/abi/fetcher/tmp/nmbrs-0.1.1.tar.gz]
+[2024-04-10 12:32:39] INFO root fetch - processPackages [nmbrs]: Remove: archive file [/home/abi/fetcher/tmp/nmbrs-0.1.2.tar.gz]
+[2024-04-10 12:32:39] INFO root fetch - main [MainThread]: End processing [nmbrs]: success
+[2024-04-10 12:32:39] INFO root fetch - processPackages [glasswall]: Remove: archive file [/home/abi/fetcher/tmp/glasswall-5.0.2.tar.gz]
+[2024-04-10 12:32:39] INFO root fetch - processPackages [glasswall]: Remove: archive file [/home/abi/fetcher/tmp/glasswall-5.1.0.tar.gz]
+[2024-04-10 12:32:39] INFO root fetch - main [MainThread]: End processing [glasswall]: success
+[2024-04-10 12:32:40] INFO root fetch - processPackages [insight-plugin]: Remove: archive file [/home/abi/fetcher/tmp/insight_plugin-1.1.0.tar.gz]
+[2024-04-10 12:32:40] INFO root fetch - processPackages [insight-plugin]: Remove: archive file [/home/abi/fetcher/tmp/insight_plugin-1.2.0.tar.gz]
+[2024-04-10 12:32:40] INFO root fetch - main [MainThread]: End processing [insight-plugin]: success
+[2024-04-10 12:32:52] INFO root fetch - processPackages [streamlit-local-storage]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-local-storage-0.0.8.tar.gz]
+[2024-04-10 12:32:52] INFO root fetch - processPackages [streamlit-local-storage]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-local-storage-0.0.9.tar.gz]
+[2024-04-10 12:32:52] INFO root fetch - main [MainThread]: End processing [streamlit-local-storage]: success
+[2024-04-10 12:32:52] INFO root fetch - main [MainThread]: Store serial: [22698991]

@@ -8463,3 +8463,30 @@
 [2024-04-10 03:53:08] INFO root fetch - processPackages [nhmail]: Remove: archive file [/home/abi/fetcher/tmp/nhmail-1.0.3.tar.gz]
 [2024-04-10 03:53:08] INFO root fetch - main [MainThread]: End processing [nhmail]: success
 [2024-04-10 03:53:08] INFO root fetch - main [MainThread]: Store serial: [22694316]
+[2024-04-10 03:55:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22694316]
+[2024-04-10 03:55:18] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-10 03:55:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: muko
+[2024-04-10 03:55:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: x2vlm-gml
+[2024-04-10 03:55:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyMV2H
+[2024-04-10 03:55:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: clip2imgur
+[2024-04-10 03:55:18] WARNING root fetch - processPackages [x2vlm-gml]: Skipping, unable to determine old version
+[2024-04-10 03:55:18] INFO root fetch - main [MainThread]: End processing [x2vlm-gml] error
+[2024-04-10 03:55:18] INFO root fetch - processPackages [muko]: New version: [2.16] Old Version: [2.15]
+[2024-04-10 03:55:18] INFO root fetch - processPackages [pyMV2H]: New version: [1.1.0] Old Version: [1.0.1]
+[2024-04-10 03:55:18] ERROR root fetch - processPackages [clip2imgur]: Unable to get metadata: No such project 'clip2imgur'
+[2024-04-10 03:55:18] INFO root fetch - main [MainThread]: End processing [clip2imgur] error
+[2024-04-10 03:55:19] INFO root fetch - processPackages [pyMV2H]: Downloading https://files.pythonhosted.org/packages/6f/ac/407384193da0d05725049b05bd0d8530361db5dbb1d41743cd75dcb326f6/pyMV2H-1.0.1.tar.gz
+[2024-04-10 03:55:19] INFO root fetch - processPackages [muko]: Downloading https://files.pythonhosted.org/packages/5c/c6/ffe8a7d233ae3236ba55a06986f2d509b1acb74b64590ba01790e248e49e/muko-2.15-py3-none-any.whl
+[2024-04-10 03:55:19] INFO root fetch - processPackages [pyMV2H]: Downloading https://files.pythonhosted.org/packages/fe/a2/090977a07ed5bfd6274cf5effaa208121e31a8ab9f163b622cb805613494/pyMV2H-1.1.0.tar.gz
+[2024-04-10 03:55:19] INFO root fetch - processPackages [muko]: Downloading https://files.pythonhosted.org/packages/15/71/1b1c13f0e5bede2fcf370db5d8c63a70d5946530ae416a27156581c82f1b/muko-2.16-py3-none-any.whl
+[2024-04-10 03:55:19] INFO root fetch - processPackages [pyMV2H]: executing diffoscope
+[2024-04-10 03:55:19] INFO root fetch - processPackages [pyMV2H]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyMV2H-1.0.1.tar.gz tmp/pyMV2H-1.1.0.tar.gz --markdown 20240410/p/pyMV2H/1.0.1-1.1.0/README.md --exclude *.pyd
+[2024-04-10 03:55:20] INFO root fetch - processPackages [pyMV2H]: Remove: archive file [/home/abi/fetcher/tmp/pyMV2H-1.0.1.tar.gz]
+[2024-04-10 03:55:20] INFO root fetch - processPackages [pyMV2H]: Remove: archive file [/home/abi/fetcher/tmp/pyMV2H-1.1.0.tar.gz]
+[2024-04-10 03:55:20] INFO root fetch - main [MainThread]: End processing [pyMV2H]: success
+[2024-04-10 03:55:20] INFO root fetch - processPackages [muko]: executing diffoscope
+[2024-04-10 03:55:20] INFO root fetch - processPackages [muko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muko-2.15-py3-none-any.whl.zip tmp/muko-2.16-py3-none-any.whl.zip --markdown 20240410/m/muko/2.15-2.16/README.md --exclude *.pyd
+[2024-04-10 03:55:21] INFO root fetch - processPackages [muko]: Remove: archive file [/home/abi/fetcher/tmp/muko-2.15-py3-none-any.whl.zip]
+[2024-04-10 03:55:21] INFO root fetch - processPackages [muko]: Remove: archive file [/home/abi/fetcher/tmp/muko-2.16-py3-none-any.whl.zip]
+[2024-04-10 03:55:21] INFO root fetch - main [MainThread]: End processing [muko]: success
+[2024-04-10 03:55:21] INFO root fetch - main [MainThread]: Store serial: [22694328]

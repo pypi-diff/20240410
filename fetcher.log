@@ -3712,3 +3712,45 @@
 [2024-04-10 02:55:37] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-ignite-0.6.0.dev20240410.tar.gz]
 [2024-04-10 02:55:37] INFO root fetch - main [MainThread]: End processing [pytorch-ignite]: success
 [2024-04-10 02:55:37] INFO root fetch - main [MainThread]: Store serial: [22692668]
+[2024-04-10 02:57:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22692668]
+[2024-04-10 02:57:46] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-10 02:57:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: snoodle-logger
+[2024-04-10 02:57:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: upsonic
+[2024-04-10 02:57:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alliance-platform-frontend
+[2024-04-10 02:57:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Quanthon
+[2024-04-10 02:57:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pure-ocean-breeze
+[2024-04-10 02:57:46] INFO root fetch - processPackages [Quanthon]: New version: [0.3.5.2] Old Version: [0.3.5.1]
+[2024-04-10 02:57:46] INFO root fetch - processPackages [pure-ocean-breeze]: New version: [4.2.0] Old Version: [4.1.7]
+[2024-04-10 02:57:46] INFO root fetch - processPackages [Quanthon]: Downloading https://files.pythonhosted.org/packages/64/9a/7faa7fb1e443d9898ffbb722f357a6b8e4200bdc909531d62219ae606c90/Quanthon-0.3.5.1.tar.gz
+[2024-04-10 02:57:46] INFO root fetch - processPackages [alliance-platform-frontend]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-10 02:57:46] WARNING root fetch - processPackages [snoodle-logger]: Skipping, unable to determine old version
+[2024-04-10 02:57:46] INFO root fetch - main [MainThread]: End processing [snoodle-logger] error
+[2024-04-10 02:57:46] INFO root fetch - processPackages [upsonic]: New version: [0.9.0] Old Version: [0.8.4]
+[2024-04-10 02:57:46] INFO root fetch - processPackages [pure-ocean-breeze]: Downloading https://files.pythonhosted.org/packages/c5/5c/2495acfc520c1130d33c938ef1e5871b55904eed2aed7d9ec45256bf21c1/pure_ocean_breeze-4.1.7.tar.gz
+[2024-04-10 02:57:46] INFO root fetch - processPackages [alliance-platform-frontend]: Downloading https://files.pythonhosted.org/packages/6a/13/047db46c757b6eae45d9a6aa5fbcb6fb765284305483a0a335a42c34aa85/alliance_platform_frontend-0.0.1.tar.gz
+[2024-04-10 02:57:46] INFO root fetch - processPackages [upsonic]: Downloading https://files.pythonhosted.org/packages/28/4f/e4de97c3853a38f0003dd35e31de9d8003b16d10fd76b190f4778626ce27/upsonic-0.8.4.tar.gz
+[2024-04-10 02:57:46] INFO root fetch - processPackages [pure-ocean-breeze]: Downloading https://files.pythonhosted.org/packages/4a/57/0ee32c92ad8f64855d85649f7f9296b1ead58453f4bad009e8a9f1834bea/pure_ocean_breeze-4.2.0.tar.gz
+[2024-04-10 02:57:46] INFO root fetch - processPackages [Quanthon]: Downloading https://files.pythonhosted.org/packages/cb/d0/de07547873fa7d319aa7ea211d082592ddcc35a1433fe4dde5d7e79eba60/Quanthon-0.3.5.2.tar.gz
+[2024-04-10 02:57:46] INFO root fetch - processPackages [pure-ocean-breeze]: executing diffoscope
+[2024-04-10 02:57:46] INFO root fetch - processPackages [pure-ocean-breeze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pure_ocean_breeze-4.1.7.tar.gz tmp/pure_ocean_breeze-4.2.0.tar.gz --markdown 20240410/p/pure-ocean-breeze/4.1.7-4.2.0/README.md --exclude *.pyd
+[2024-04-10 02:57:47] INFO root fetch - processPackages [Quanthon]: executing diffoscope
+[2024-04-10 02:57:47] INFO root fetch - processPackages [Quanthon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Quanthon-0.3.5.1.tar.gz tmp/Quanthon-0.3.5.2.tar.gz --markdown 20240410/Q/Quanthon/0.3.5.1-0.3.5.2/README.md --exclude *.pyd
+[2024-04-10 02:57:47] INFO root fetch - processPackages [alliance-platform-frontend]: Downloading https://files.pythonhosted.org/packages/77/ab/9b766dd680d7158df4746ca0643ceda420f44a880bfb5b1bb5fd19e03e31/alliance_platform_frontend-0.0.2.tar.gz
+[2024-04-10 02:57:47] INFO root fetch - processPackages [upsonic]: Downloading https://files.pythonhosted.org/packages/e2/c6/1f2c73c8b576a9a13477f4177f58dce58e65a860c35204e42f53a5db8144/upsonic-0.9.0.tar.gz
+[2024-04-10 02:57:47] INFO root fetch - processPackages [alliance-platform-frontend]: executing diffoscope
+[2024-04-10 02:57:47] INFO root fetch - processPackages [alliance-platform-frontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alliance_platform_frontend-0.0.1.tar.gz tmp/alliance_platform_frontend-0.0.2.tar.gz --markdown 20240410/a/alliance-platform-frontend/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-10 02:57:47] INFO root fetch - processPackages [upsonic]: executing diffoscope
+[2024-04-10 02:57:47] INFO root fetch - processPackages [upsonic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upsonic-0.8.4.tar.gz tmp/upsonic-0.9.0.tar.gz --markdown 20240410/u/upsonic/0.8.4-0.9.0/README.md --exclude *.pyd
+[2024-04-10 02:57:47] INFO root fetch - processPackages [Quanthon]: Remove: archive file [/home/abi/fetcher/tmp/Quanthon-0.3.5.1.tar.gz]
+[2024-04-10 02:57:47] INFO root fetch - processPackages [Quanthon]: Remove: archive file [/home/abi/fetcher/tmp/Quanthon-0.3.5.2.tar.gz]
+[2024-04-10 02:57:47] INFO root fetch - main [MainThread]: End processing [Quanthon]: success
+[2024-04-10 02:57:47] INFO root fetch - processPackages [upsonic]: Remove: archive file [/home/abi/fetcher/tmp/upsonic-0.8.4.tar.gz]
+[2024-04-10 02:57:47] INFO root fetch - processPackages [upsonic]: Remove: archive file [/home/abi/fetcher/tmp/upsonic-0.9.0.tar.gz]
+[2024-04-10 02:57:47] INFO root fetch - main [MainThread]: End processing [upsonic]: success
+[2024-04-10 02:57:47] INFO root fetch - processPackages [alliance-platform-frontend]: Remove: archive file [/home/abi/fetcher/tmp/alliance_platform_frontend-0.0.1.tar.gz]
+[2024-04-10 02:57:47] INFO root fetch - processPackages [alliance-platform-frontend]: Remove: archive file [/home/abi/fetcher/tmp/alliance_platform_frontend-0.0.2.tar.gz]
+[2024-04-10 02:57:47] INFO root fetch - main [MainThread]: End processing [alliance-platform-frontend]: success
+[2024-04-10 02:57:48] INFO root fetch - processPackages [pure-ocean-breeze]: Remove: archive file [/home/abi/fetcher/tmp/pure_ocean_breeze-4.1.7.tar.gz]
+[2024-04-10 02:57:48] INFO root fetch - processPackages [pure-ocean-breeze]: Remove: archive file [/home/abi/fetcher/tmp/pure_ocean_breeze-4.2.0.tar.gz]
+[2024-04-10 02:57:48] INFO root fetch - main [MainThread]: End processing [pure-ocean-breeze]: success
+[2024-04-10 02:57:48] INFO root fetch - main [MainThread]: Store serial: [22692684]

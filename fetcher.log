@@ -22609,3 +22609,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-10 13:49:46] INFO root fetch - processPackages [django-geo-spaas]: Remove: archive file [/home/abi/fetcher/tmp/django-geo-spaas-2.5.4.tar.gz]
 [2024-04-10 13:49:46] INFO root fetch - main [MainThread]: End processing [django-geo-spaas]: success
 [2024-04-10 13:49:46] INFO root fetch - main [MainThread]: Store serial: [22700308]
+[2024-04-10 13:51:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22700308]
+[2024-04-10 13:51:55] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-10 13:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vtjson
+[2024-04-10 13:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openmeteo-sdk
+[2024-04-10 13:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zlib-ng
+[2024-04-10 13:51:55] INFO root fetch - processPackages [vtjson]: New version: [1.6.7] Old Version: [1.6.6]
+[2024-04-10 13:51:55] INFO root fetch - processPackages [openmeteo-sdk]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-10 13:51:55] INFO root fetch - processPackages [zlib-ng]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-10 13:51:55] INFO root fetch - processPackages [vtjson]: Downloading https://files.pythonhosted.org/packages/cc/cc/94855febd76bb6d296cbb623c250e22ff37533ab4d96bf191cbc44034f62/vtjson-1.6.6.tar.gz
+[2024-04-10 13:51:56] INFO root fetch - processPackages [zlib-ng]: Downloading https://files.pythonhosted.org/packages/8d/36/15e7f5297bd73470b0ee60c51f177e2b8adf40569685cd7389b76265f151/zlib-ng-0.4.1.tar.gz
+[2024-04-10 13:51:56] INFO root fetch - processPackages [openmeteo-sdk]: Downloading https://files.pythonhosted.org/packages/e8/94/b3a6bd85306c120038685eea7fee0cbac61fd8d8cb98c65abde8bf54b9b7/openmeteo_sdk-1.8.0.tar.gz
+[2024-04-10 13:51:56] INFO root fetch - processPackages [vtjson]: Downloading https://files.pythonhosted.org/packages/f6/36/3ce6fe2cd739509c2802d12e61fb8bcff923c2d1ae8d18b3686d6a1a2fe7/vtjson-1.6.7.tar.gz
+[2024-04-10 13:51:56] INFO root fetch - processPackages [openmeteo-sdk]: Downloading https://files.pythonhosted.org/packages/80/61/d27a7c83cd5ddea4a74c775129afd52c07a48ec1a7bfccce008d90541334/openmeteo_sdk-1.9.0.tar.gz
+[2024-04-10 13:51:56] INFO root fetch - processPackages [vtjson]: executing diffoscope
+[2024-04-10 13:51:56] INFO root fetch - processPackages [vtjson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vtjson-1.6.6.tar.gz tmp/vtjson-1.6.7.tar.gz --markdown 20240410/v/vtjson/1.6.6-1.6.7/README.md --exclude *.pyd
+[2024-04-10 13:51:56] INFO root fetch - processPackages [openmeteo-sdk]: executing diffoscope
+[2024-04-10 13:51:56] INFO root fetch - processPackages [openmeteo-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmeteo_sdk-1.8.0.tar.gz tmp/openmeteo_sdk-1.9.0.tar.gz --markdown 20240410/o/openmeteo-sdk/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-10 13:51:56] INFO root fetch - processPackages [zlib-ng]: Downloading https://files.pythonhosted.org/packages/af/bd/e8c61e8e8640ce4fc5dc478054c383be367e2171f0ebbe6b7313c126abd7/zlib-ng-0.4.2.tar.gz
+[2024-04-10 13:51:57] INFO root fetch - processPackages [openmeteo-sdk]: Remove: archive file [/home/abi/fetcher/tmp/openmeteo_sdk-1.8.0.tar.gz]
+[2024-04-10 13:51:57] INFO root fetch - processPackages [openmeteo-sdk]: Remove: archive file [/home/abi/fetcher/tmp/openmeteo_sdk-1.9.0.tar.gz]
+[2024-04-10 13:51:57] INFO root fetch - main [MainThread]: End processing [openmeteo-sdk]: success
+[2024-04-10 13:51:57] INFO root fetch - processPackages [vtjson]: Remove: archive file [/home/abi/fetcher/tmp/vtjson-1.6.6.tar.gz]
+[2024-04-10 13:51:57] INFO root fetch - processPackages [vtjson]: Remove: archive file [/home/abi/fetcher/tmp/vtjson-1.6.7.tar.gz]
+[2024-04-10 13:51:57] INFO root fetch - main [MainThread]: End processing [vtjson]: success
+[2024-04-10 13:51:57] INFO root fetch - processPackages [zlib-ng]: executing diffoscope
+[2024-04-10 13:51:57] INFO root fetch - processPackages [zlib-ng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zlib-ng-0.4.1.tar.gz tmp/zlib-ng-0.4.2.tar.gz --markdown 20240410/z/zlib-ng/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-04-10 13:51:59] INFO root fetch - processPackages [zlib-ng]: Remove: archive file [/home/abi/fetcher/tmp/zlib-ng-0.4.1.tar.gz]
+[2024-04-10 13:51:59] INFO root fetch - processPackages [zlib-ng]: Remove: archive file [/home/abi/fetcher/tmp/zlib-ng-0.4.2.tar.gz]
+[2024-04-10 13:51:59] INFO root fetch - main [MainThread]: End processing [zlib-ng]: success
+[2024-04-10 13:51:59] INFO root fetch - main [MainThread]: Store serial: [22700331]

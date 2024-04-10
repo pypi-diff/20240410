@@ -23441,3 +23441,111 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-10 14:20:44] WARNING root fetch - processPackages [clamnibs]: Skipping, unable to determine old version
 [2024-04-10 14:20:44] INFO root fetch - main [MainThread]: End processing [clamnibs] error
 [2024-04-10 14:20:44] INFO root fetch - main [MainThread]: Store serial: [22700846]
+[2024-04-10 14:22:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22700846]
+[2024-04-10 14:22:54] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-04-10 14:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: comiccrawler
+[2024-04-10 14:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sinli
+[2024-04-10 14:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: syngen
+[2024-04-10 14:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: th2-grpc-lw-data-provider
+[2024-04-10 14:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytest-node-dependency
+[2024-04-10 14:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: secvision
+[2024-04-10 14:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tsk-monster
+[2024-04-10 14:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: solie
+[2024-04-10 14:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: celitech-sdk
+[2024-04-10 14:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: libsegmenter
+[2024-04-10 14:22:54] INFO root fetch - processPackages [pytest-node-dependency]: New version: [1.3.0] Old Version: [1.2.0]
+[2024-04-10 14:22:54] INFO root fetch - processPackages [secvision]: New version: [24.3.0.6567] Old Version: [24.2.4.6567]
+[2024-04-10 14:22:54] INFO root fetch - processPackages [celitech-sdk]: New version: [1.1.47] Old Version: [1.1.46]
+[2024-04-10 14:22:54] INFO root fetch - processPackages [libsegmenter]: New version: [0.3] Old Version: [0.2]
+[2024-04-10 14:22:54] INFO root fetch - processPackages [solie]: New version: [8.6.0] Old Version: [8.5.1]
+[2024-04-10 14:22:54] INFO root fetch - processPackages [pytest-node-dependency]: Downloading https://files.pythonhosted.org/packages/e4/77/a4679642b657ff2b21740b5e7a65ed7108a581ac0fccf257a2a63995b8b4/pytest-node-dependency-1.2.0.tar.gz
+[2024-04-10 14:22:54] INFO root fetch - processPackages [sinli]: New version: [1.1.5] Old Version: [1.1.4]
+[2024-04-10 14:22:54] INFO root fetch - processPackages [comiccrawler]: New version: [2024.4.2] Old Version: [2024.4.10]
+[2024-04-10 14:22:54] WARNING root fetch - processPackages [tsk-monster]: Skipping, unable to determine old version
+[2024-04-10 14:22:54] INFO root fetch - processPackages [tsk-monster]: Start processing: few-shot-priming
+[2024-04-10 14:22:54] INFO root fetch - processPackages [celitech-sdk]: Downloading https://files.pythonhosted.org/packages/f7/c7/eb4cd7834c31d059e5cdafa15d522c86e83fe8f44b19423d5bc4b0ae1825/celitech-sdk-1.1.46.tar.gz
+[2024-04-10 14:22:54] INFO root fetch - main [MainThread]: End processing [tsk-monster] error
+[2024-04-10 14:22:54] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: New version: [2.3.0.dev8631092856] Old Version: [2.3.0.dev8345105896]
+[2024-04-10 14:22:54] INFO root fetch - processPackages [secvision]: Downloading https://files.pythonhosted.org/packages/f4/d2/3efcdd3b6cf3e5b5b117bd689662d4435082933390045d5c7aace09449b2/secvision-24.2.4.6567-py2.py3-none-any.whl
+[2024-04-10 14:22:54] INFO root fetch - processPackages [syngen]: New version: [0.7.9] Old Version: [0.7.7]
+[2024-04-10 14:22:54] INFO root fetch - processPackages [libsegmenter]: Downloading https://files.pythonhosted.org/packages/87/64/ab3a30a6ec284c5008120c57fd1a53648793353bfaa9c3daa14df0622fbc/libsegmenter-0.2-pp39-pypy39_pp73-macosx_11_0_arm64.whl
+[2024-04-10 14:22:54] INFO root fetch - processPackages [few-shot-priming]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-04-10 14:22:54] INFO root fetch - processPackages [sinli]: Downloading https://files.pythonhosted.org/packages/5b/06/2367bcd238a61905a99002179a108dff949af9b5fe911a606b5ffd0c27cf/sinli-1.1.4.tar.gz
+[2024-04-10 14:22:54] INFO root fetch - processPackages [solie]: Downloading https://files.pythonhosted.org/packages/42/1a/abe921c9e7779daa82848cd56ce01e4471aaefffe67adfbb9b2c3a4b8048/solie-8.5.1.tar.gz
+[2024-04-10 14:22:54] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/eb/67/d15b11d0bfb57369fa16ba7f8c97cd3ddec8f771e6da8f11a3d819004b69/few_shot_priming-0.3.98-py3-none-any.whl
+[2024-04-10 14:22:54] INFO root fetch - processPackages [syngen]: Downloading https://files.pythonhosted.org/packages/f2/fc/890c984bf491a7744a58fbad3bfebe8245d718886f5ea74116d8b101bf2a/syngen-0.7.7.tar.gz
+[2024-04-10 14:22:55] INFO root fetch - processPackages [comiccrawler]: Downloading https://files.pythonhosted.org/packages/98/f4/129e14e8c17dd86b4d674eda8caf6196712f14e85d1b365ad3df470904ec/comiccrawler-2024.4.10.tar.gz
+[2024-04-10 14:22:55] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/db/17/1af7e74d881afd732133ac696a02628bf7af2232b6ea44587a3a6782e565/th2_grpc_lw_data_provider-2.3.0.dev8345105896.tar.gz
+[2024-04-10 14:22:55] INFO root fetch - processPackages [pytest-node-dependency]: Downloading https://files.pythonhosted.org/packages/de/2f/34374f943f4e19a5c5e15a3c2d882f3e7159cde0c2542734e9574a7d25de/pytest-node-dependency-1.3.0.tar.gz
+[2024-04-10 14:22:55] INFO root fetch - processPackages [secvision]: Downloading https://files.pythonhosted.org/packages/b9/5c/4ab42786142b67bf0d1ca31e78e50ed693cab23d3d8fa98abf9687612ca3/secvision-24.3.0.6567-py2.py3-none-any.whl
+[2024-04-10 14:22:55] INFO root fetch - processPackages [celitech-sdk]: Downloading https://files.pythonhosted.org/packages/e9/1e/04413429695074e3e5b60124a11bb0aca2436b3c7d79d2d8a09be2cedca6/celitech-sdk-1.1.47.tar.gz
+[2024-04-10 14:22:55] INFO root fetch - processPackages [pytest-node-dependency]: executing diffoscope
+[2024-04-10 14:22:55] INFO root fetch - processPackages [pytest-node-dependency]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-node-dependency-1.2.0.tar.gz tmp/pytest-node-dependency-1.3.0.tar.gz --markdown 20240410/p/pytest-node-dependency/1.2.0-1.3.0/README.md --exclude *.pyd
+[2024-04-10 14:22:55] INFO root fetch - processPackages [libsegmenter]: Downloading https://files.pythonhosted.org/packages/9e/02/079478cfe63f008113b63e3f9eda671a7bb0d25d796715f6d290c7b18342/libsegmenter-0.3-pp39-pypy39_pp73-win_amd64.whl
+[2024-04-10 14:22:55] INFO root fetch - processPackages [celitech-sdk]: executing diffoscope
+[2024-04-10 14:22:55] INFO root fetch - processPackages [celitech-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/celitech-sdk-1.1.46.tar.gz tmp/celitech-sdk-1.1.47.tar.gz --markdown 20240410/c/celitech-sdk/1.1.46-1.1.47/README.md --exclude *.pyd
+[2024-04-10 14:22:55] INFO root fetch - processPackages [secvision]: executing diffoscope
+[2024-04-10 14:22:55] INFO root fetch - processPackages [secvision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secvision-24.2.4.6567-py2.py3-none-any.whl.zip tmp/secvision-24.3.0.6567-py2.py3-none-any.whl.zip --markdown 20240410/s/secvision/24.2.4.6567-24.3.0.6567/README.md --exclude *.pyd
+[2024-04-10 14:22:55] INFO root fetch - processPackages [sinli]: Downloading https://files.pythonhosted.org/packages/27/f3/8e538584d1df3833bdad4f2baf38076cb12f81f4009f52f9a0e52682b84d/sinli-1.1.5.tar.gz
+[2024-04-10 14:22:55] INFO root fetch - processPackages [comiccrawler]: Downloading https://files.pythonhosted.org/packages/af/20/572bfee6f205962ac41a75a3bbfc05aade9a3171b6f5246193a323b77cf5/comiccrawler-2024.4.2.tar.gz
+[2024-04-10 14:22:55] INFO root fetch - processPackages [solie]: Downloading https://files.pythonhosted.org/packages/ac/3c/07f3703e8d45a397c335c142490acb25eac7e1d99fca021562aff0d52f7d/solie-8.6.0.tar.gz
+[2024-04-10 14:22:55] INFO root fetch - processPackages [sinli]: executing diffoscope
+[2024-04-10 14:22:55] INFO root fetch - processPackages [sinli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinli-1.1.4.tar.gz tmp/sinli-1.1.5.tar.gz --markdown 20240410/s/sinli/1.1.4-1.1.5/README.md --exclude *.pyd
+[2024-04-10 14:22:55] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/85/bf/bbf567641b7c6cdd93012f5a6da279f554120633f14d9b2c538bd426900e/th2_grpc_lw_data_provider-2.3.0.dev8631092856.tar.gz
+[2024-04-10 14:22:55] INFO root fetch - processPackages [syngen]: Downloading https://files.pythonhosted.org/packages/3c/da/80e93358f32609ae1f680d3121a0a93e6f715ae81ba3a901ce42533860a5/syngen-0.7.9.tar.gz
+[2024-04-10 14:22:55] INFO root fetch - processPackages [libsegmenter]: executing diffoscope
+[2024-04-10 14:22:55] INFO root fetch - processPackages [libsegmenter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libsegmenter-0.2-pp39-pypy39_pp73-macosx_11_0_arm64.whl.zip tmp/libsegmenter-0.3-pp39-pypy39_pp73-win_amd64.whl.zip --markdown 20240410/l/libsegmenter/0.2-0.3/README.md --exclude *.pyd
+[2024-04-10 14:22:55] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/ff/11/548f6e96803602e6431dc610d736d401b20fde986f85c35c8ad19a6d0958/few_shot_priming-0.3.99-py3-none-any.whl
+[2024-04-10 14:22:55] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: executing diffoscope
+[2024-04-10 14:22:55] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_lw_data_provider-2.3.0.dev8345105896.tar.gz tmp/th2_grpc_lw_data_provider-2.3.0.dev8631092856.tar.gz --markdown 20240410/t/th2-grpc-lw-data-provider/2.3.0.dev8345105896-2.3.0.dev8631092856/README.md --exclude *.pyd
+[2024-04-10 14:22:55] INFO root fetch - processPackages [solie]: executing diffoscope
+[2024-04-10 14:22:55] INFO root fetch - processPackages [solie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solie-8.5.1.tar.gz tmp/solie-8.6.0.tar.gz --markdown 20240410/s/solie/8.5.1-8.6.0/README.md --exclude *.pyd
+[2024-04-10 14:22:55] INFO root fetch - processPackages [comiccrawler]: executing diffoscope
+[2024-04-10 14:22:55] INFO root fetch - processPackages [comiccrawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comiccrawler-2024.4.10.tar.gz tmp/comiccrawler-2024.4.2.tar.gz --markdown 20240410/c/comiccrawler/2024.4.10-2024.4.2/README.md --exclude *.pyd
+[2024-04-10 14:22:55] INFO root fetch - processPackages [syngen]: executing diffoscope
+[2024-04-10 14:22:55] INFO root fetch - processPackages [syngen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syngen-0.7.7.tar.gz tmp/syngen-0.7.9.tar.gz --markdown 20240410/s/syngen/0.7.7-0.7.9/README.md --exclude *.pyd
+[2024-04-10 14:22:55] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2024-04-10 14:22:55] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip --markdown 20240410/f/few-shot-priming/0.3.98-0.3.99/README.md --exclude *.pyd
+[2024-04-10 14:22:55] INFO root fetch - processPackages [pytest-node-dependency]: Remove: archive file [/home/abi/fetcher/tmp/pytest-node-dependency-1.2.0.tar.gz]
+[2024-04-10 14:22:55] INFO root fetch - processPackages [pytest-node-dependency]: Remove: archive file [/home/abi/fetcher/tmp/pytest-node-dependency-1.3.0.tar.gz]
+[2024-04-10 14:22:56] INFO root fetch - processPackages [pytest-node-dependency]: Start processing: financial-datasets
+[2024-04-10 14:22:56] INFO root fetch - main [MainThread]: End processing [pytest-node-dependency]: success
+[2024-04-10 14:22:56] INFO root fetch - processPackages [financial-datasets]: New version: [0.1.6] Old Version: [0.1.4]
+[2024-04-10 14:22:56] INFO root fetch - processPackages [financial-datasets]: Downloading https://files.pythonhosted.org/packages/57/4b/3e60638d8514005ab39370249cbc6e5e2de82882c655560c3529db758610/financial_datasets-0.1.4.tar.gz
+[2024-04-10 14:22:56] INFO root fetch - processPackages [celitech-sdk]: Remove: archive file [/home/abi/fetcher/tmp/celitech-sdk-1.1.46.tar.gz]
+[2024-04-10 14:22:56] INFO root fetch - processPackages [celitech-sdk]: Remove: archive file [/home/abi/fetcher/tmp/celitech-sdk-1.1.47.tar.gz]
+[2024-04-10 14:22:56] INFO root fetch - processPackages [celitech-sdk]: Start processing: gr-urchin
+[2024-04-10 14:22:56] INFO root fetch - main [MainThread]: End processing [celitech-sdk]: success
+[2024-04-10 14:22:56] WARNING root fetch - processPackages [gr-urchin]: Skipping, unable to determine old version
+[2024-04-10 14:22:56] INFO root fetch - main [MainThread]: End processing [gr-urchin] error
+[2024-04-10 14:22:56] INFO root fetch - processPackages [sinli]: Remove: archive file [/home/abi/fetcher/tmp/sinli-1.1.4.tar.gz]
+[2024-04-10 14:22:56] INFO root fetch - processPackages [sinli]: Remove: archive file [/home/abi/fetcher/tmp/sinli-1.1.5.tar.gz]
+[2024-04-10 14:22:56] INFO root fetch - main [MainThread]: End processing [sinli]: success
+[2024-04-10 14:22:56] INFO root fetch - processPackages [libsegmenter]: Remove: archive file [/home/abi/fetcher/tmp/libsegmenter-0.2-pp39-pypy39_pp73-macosx_11_0_arm64.whl.zip]
+[2024-04-10 14:22:56] INFO root fetch - processPackages [libsegmenter]: Remove: archive file [/home/abi/fetcher/tmp/libsegmenter-0.3-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2024-04-10 14:22:56] INFO root fetch - main [MainThread]: End processing [libsegmenter]: success
+[2024-04-10 14:22:56] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.3.0.dev8345105896.tar.gz]
+[2024-04-10 14:22:56] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.3.0.dev8631092856.tar.gz]
+[2024-04-10 14:22:56] INFO root fetch - main [MainThread]: End processing [th2-grpc-lw-data-provider]: success
+[2024-04-10 14:22:56] INFO root fetch - processPackages [financial-datasets]: Downloading https://files.pythonhosted.org/packages/7d/c8/579e8bf1f91f0bce85f2ef65169e93a72da430cfd5b27f15943fedc17560/financial_datasets-0.1.6.tar.gz
+[2024-04-10 14:22:56] INFO root fetch - processPackages [financial-datasets]: executing diffoscope
+[2024-04-10 14:22:56] INFO root fetch - processPackages [financial-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/financial_datasets-0.1.4.tar.gz tmp/financial_datasets-0.1.6.tar.gz --markdown 20240410/f/financial-datasets/0.1.4-0.1.6/README.md --exclude *.pyd
+[2024-04-10 14:22:56] INFO root fetch - processPackages [solie]: Remove: archive file [/home/abi/fetcher/tmp/solie-8.5.1.tar.gz]
+[2024-04-10 14:22:56] INFO root fetch - processPackages [solie]: Remove: archive file [/home/abi/fetcher/tmp/solie-8.6.0.tar.gz]
+[2024-04-10 14:22:56] INFO root fetch - main [MainThread]: End processing [solie]: success
+[2024-04-10 14:22:57] INFO root fetch - processPackages [comiccrawler]: Remove: archive file [/home/abi/fetcher/tmp/comiccrawler-2024.4.10.tar.gz]
+[2024-04-10 14:22:57] INFO root fetch - processPackages [comiccrawler]: Remove: archive file [/home/abi/fetcher/tmp/comiccrawler-2024.4.2.tar.gz]
+[2024-04-10 14:22:57] INFO root fetch - main [MainThread]: End processing [comiccrawler]: success
+[2024-04-10 14:22:57] INFO root fetch - processPackages [secvision]: Remove: archive file [/home/abi/fetcher/tmp/secvision-24.2.4.6567-py2.py3-none-any.whl.zip]
+[2024-04-10 14:22:57] INFO root fetch - processPackages [secvision]: Remove: archive file [/home/abi/fetcher/tmp/secvision-24.3.0.6567-py2.py3-none-any.whl.zip]
+[2024-04-10 14:22:57] INFO root fetch - main [MainThread]: End processing [secvision]: success
+[2024-04-10 14:22:57] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip]
+[2024-04-10 14:22:57] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
+[2024-04-10 14:22:57] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2024-04-10 14:22:57] INFO root fetch - processPackages [syngen]: Remove: archive file [/home/abi/fetcher/tmp/syngen-0.7.7.tar.gz]
+[2024-04-10 14:22:57] INFO root fetch - processPackages [syngen]: Remove: archive file [/home/abi/fetcher/tmp/syngen-0.7.9.tar.gz]
+[2024-04-10 14:22:57] INFO root fetch - main [MainThread]: End processing [syngen]: success
+[2024-04-10 14:22:57] INFO root fetch - processPackages [financial-datasets]: Remove: archive file [/home/abi/fetcher/tmp/financial_datasets-0.1.4.tar.gz]
+[2024-04-10 14:22:57] INFO root fetch - processPackages [financial-datasets]: Remove: archive file [/home/abi/fetcher/tmp/financial_datasets-0.1.6.tar.gz]
+[2024-04-10 14:22:57] INFO root fetch - main [MainThread]: End processing [financial-datasets]: success
+[2024-04-10 14:22:57] INFO root fetch - main [MainThread]: Store serial: [22700917]

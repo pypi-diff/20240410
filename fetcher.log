@@ -17023,3 +17023,56 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 10:18:03] INFO root fetch - processPackages [lusid-drive-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-drive-sdk-preview-0.1.96.tar.gz]
 [2024-04-10 10:18:03] INFO root fetch - main [MainThread]: End processing [lusid-drive-sdk-preview]: success
 [2024-04-10 10:18:03] INFO root fetch - main [MainThread]: Store serial: [22697570]
+[2024-04-10 10:20:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22697570]
+[2024-04-10 10:20:12] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-10 10:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: macrobond-data-api
+[2024-04-10 10:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: speculos
+[2024-04-10 10:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nsqdriver
+[2024-04-10 10:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bridgecrew
+[2024-04-10 10:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: characterai
+[2024-04-10 10:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sirmordred
+[2024-04-10 10:20:12] INFO root fetch - processPackages [characterai]: New version: [1.0.2a1] Old Version: [1.0.1a1]
+[2024-04-10 10:20:12] INFO root fetch - processPackages [speculos]: New version: [0.8.4.dev4] Old Version: [0.8.4.dev2]
+[2024-04-10 10:20:12] INFO root fetch - processPackages [characterai]: Downloading https://files.pythonhosted.org/packages/0a/8a/c7202c283279a07e2e2fa7a1a5cca5852115b9b68cf18b6bf33ebe3989b9/characterai-1.0.1a1.tar.gz
+[2024-04-10 10:20:12] INFO root fetch - processPackages [nsqdriver]: New version: [0.5.4] Old Version: [0.5.1]
+[2024-04-10 10:20:12] INFO root fetch - processPackages [macrobond-data-api]: New version: [2.0.8] Old Version: [2.0.7]
+[2024-04-10 10:20:12] INFO root fetch - processPackages [sirmordred]: New version: [1.0.0rc1] Old Version: [0.9.3rc1]
+[2024-04-10 10:20:12] INFO root fetch - processPackages [bridgecrew]: New version: [3.2.9] Old Version: [3.2.8]
+[2024-04-10 10:20:12] INFO root fetch - processPackages [speculos]: Downloading https://files.pythonhosted.org/packages/7b/82/1ba4dd2c10e1e620bf8cd5ee4abd983a2226b98630009ad5a0568548be7f/speculos-0.8.4.dev2.tar.gz
+[2024-04-10 10:20:12] INFO root fetch - processPackages [nsqdriver]: Downloading https://files.pythonhosted.org/packages/2a/6f/710a5a523a04d65b3e5e4b4e80664d70c63078ac64aa4e3d50c398abdecb/nsqdriver-0.5.1-cp39-cp39-win_amd64.whl
+[2024-04-10 10:20:12] INFO root fetch - processPackages [macrobond-data-api]: Downloading https://files.pythonhosted.org/packages/36/5c/b5d6621c47fa91100371b6c8851fed2257c4cf8ab9b18daf64cae6118795/macrobond-data-api-2.0.7.tar.gz
+[2024-04-10 10:20:12] WARNING root fetch - processPackages [speculos]: Skipping package: exceeds size limit 16554520>=10485760
+[2024-04-10 10:20:12] INFO root fetch - main [MainThread]: End processing [speculos] error
+[2024-04-10 10:20:12] INFO root fetch - processPackages [sirmordred]: Downloading https://files.pythonhosted.org/packages/7f/98/0ce9ccedc40718ac4eaa8b08d199606a7d9f378ce970565cae46d161e50b/sirmordred-0.9.3rc1.tar.gz
+[2024-04-10 10:20:12] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/10/ba/dce7980ff0b7c11c6b0d4933f275f376eb8a4c997f0527cc483ac2310c8b/bridgecrew-3.2.8.tar.gz
+[2024-04-10 10:20:12] INFO root fetch - processPackages [characterai]: Downloading https://files.pythonhosted.org/packages/c8/85/088aa2153dd00a9d7c56da8836bd9424931e7ffc4949885b41bd67a905ca/characterai-1.0.2a1.tar.gz
+[2024-04-10 10:20:12] INFO root fetch - processPackages [characterai]: executing diffoscope
+[2024-04-10 10:20:12] INFO root fetch - processPackages [characterai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/characterai-1.0.1a1.tar.gz tmp/characterai-1.0.2a1.tar.gz --markdown 20240410/c/characterai/1.0.1a1-1.0.2a1/README.md --exclude *.pyd
+[2024-04-10 10:20:12] INFO root fetch - processPackages [macrobond-data-api]: Downloading https://files.pythonhosted.org/packages/1c/fb/00c43ac053577cf271511ee0773a0059c7cae2b62c1282394d3ba856cb65/macrobond-data-api-2.0.8.tar.gz
+[2024-04-10 10:20:13] INFO root fetch - processPackages [nsqdriver]: Downloading https://files.pythonhosted.org/packages/68/1d/cb849ca6902c595159582a701176a21f69909f2eeb487ce528359bfc42f9/nsqdriver-0.5.4-cp39-cp39-win_amd64.whl
+[2024-04-10 10:20:13] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/f5/cd/d4c4caa7926c87e041723a31e232e562f13e2fa83f05b7451436564fe03f/bridgecrew-3.2.9.tar.gz
+[2024-04-10 10:20:13] INFO root fetch - processPackages [macrobond-data-api]: executing diffoscope
+[2024-04-10 10:20:13] INFO root fetch - processPackages [macrobond-data-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrobond-data-api-2.0.7.tar.gz tmp/macrobond-data-api-2.0.8.tar.gz --markdown 20240410/m/macrobond-data-api/2.0.7-2.0.8/README.md --exclude *.pyd
+[2024-04-10 10:20:13] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2024-04-10 10:20:13] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-3.2.8.tar.gz tmp/bridgecrew-3.2.9.tar.gz --markdown 20240410/b/bridgecrew/3.2.8-3.2.9/README.md --exclude *.pyd
+[2024-04-10 10:20:13] INFO root fetch - processPackages [nsqdriver]: executing diffoscope
+[2024-04-10 10:20:13] INFO root fetch - processPackages [nsqdriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsqdriver-0.5.1-cp39-cp39-win_amd64.whl.zip tmp/nsqdriver-0.5.4-cp39-cp39-win_amd64.whl.zip --markdown 20240410/n/nsqdriver/0.5.1-0.5.4/README.md --exclude *.pyd
+[2024-04-10 10:20:13] INFO root fetch - processPackages [characterai]: Remove: archive file [/home/abi/fetcher/tmp/characterai-1.0.1a1.tar.gz]
+[2024-04-10 10:20:13] INFO root fetch - processPackages [characterai]: Remove: archive file [/home/abi/fetcher/tmp/characterai-1.0.2a1.tar.gz]
+[2024-04-10 10:20:13] INFO root fetch - main [MainThread]: End processing [characterai]: success
+[2024-04-10 10:20:13] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-3.2.8.tar.gz]
+[2024-04-10 10:20:13] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-3.2.9.tar.gz]
+[2024-04-10 10:20:13] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2024-04-10 10:20:13] INFO root fetch - processPackages [nsqdriver]: Remove: archive file [/home/abi/fetcher/tmp/nsqdriver-0.5.1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-10 10:20:13] INFO root fetch - processPackages [nsqdriver]: Remove: archive file [/home/abi/fetcher/tmp/nsqdriver-0.5.4-cp39-cp39-win_amd64.whl.zip]
+[2024-04-10 10:20:13] INFO root fetch - main [MainThread]: End processing [nsqdriver]: success
+[2024-04-10 10:20:14] INFO root fetch - processPackages [macrobond-data-api]: Remove: archive file [/home/abi/fetcher/tmp/macrobond-data-api-2.0.7.tar.gz]
+[2024-04-10 10:20:14] INFO root fetch - processPackages [macrobond-data-api]: Remove: archive file [/home/abi/fetcher/tmp/macrobond-data-api-2.0.8.tar.gz]
+[2024-04-10 10:20:14] INFO root fetch - main [MainThread]: End processing [macrobond-data-api]: success
+[2024-04-10 10:20:14] INFO root fetch - processPackages [sirmordred]: Downloading https://files.pythonhosted.org/packages/9c/29/5446d47d9a7c16bc96cba57f480f89d58edd7c043ce0ba0ed56e08db4a3f/sirmordred-1.0.0rc1.tar.gz
+[2024-04-10 10:20:15] INFO root fetch - processPackages [sirmordred]: executing diffoscope
+[2024-04-10 10:20:15] INFO root fetch - processPackages [sirmordred]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sirmordred-0.9.3rc1.tar.gz tmp/sirmordred-1.0.0rc1.tar.gz --markdown 20240410/s/sirmordred/0.9.3rc1-1.0.0rc1/README.md --exclude *.pyd
+[2024-04-10 10:20:19] INFO root fetch - processPackages [sirmordred]: Remove: archive file [/home/abi/fetcher/tmp/sirmordred-0.9.3rc1.tar.gz]
+[2024-04-10 10:20:19] INFO root fetch - processPackages [sirmordred]: Remove: archive file [/home/abi/fetcher/tmp/sirmordred-1.0.0rc1.tar.gz]
+[2024-04-10 10:20:19] INFO root fetch - main [MainThread]: End processing [sirmordred]: success
+[2024-04-10 10:20:19] INFO root fetch - main [MainThread]: Store serial: [22697596]

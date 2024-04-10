@@ -8625,3 +8625,29 @@
 [2024-04-10 04:01:55] INFO root fetch - processPackages [adetailer]: Remove: archive file [/home/abi/fetcher/tmp/adetailer-24.4.0.tar.gz]
 [2024-04-10 04:01:55] INFO root fetch - main [MainThread]: End processing [adetailer]: success
 [2024-04-10 04:01:55] INFO root fetch - main [MainThread]: Store serial: [22694377]
+[2024-04-10 04:03:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22694377]
+[2024-04-10 04:04:04] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-10 04:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ivpm
+[2024-04-10 04:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llama-core
+[2024-04-10 04:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sampa
+[2024-04-10 04:04:04] INFO root fetch - processPackages [sampa]: New version: [1.0.0.12] Old Version: [1.0.0.11]
+[2024-04-10 04:04:04] INFO root fetch - processPackages [ivpm]: New version: [1.1.1.8624887207] Old Version: [1.1.1.8469915121]
+[2024-04-10 04:04:04] INFO root fetch - processPackages [llama-core]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-04-10 04:04:05] INFO root fetch - processPackages [sampa]: Downloading https://files.pythonhosted.org/packages/e7/83/2d7e06d061d2d2b12a9f2f82e9ab7bbd273dff8bfcbacc0c39697b8f1852/sampa-1.0.0.11.tar.gz
+[2024-04-10 04:04:05] INFO root fetch - processPackages [ivpm]: Downloading https://files.pythonhosted.org/packages/f5/b5/5881425432ba2cb296c86a993d27a2226073663409e34d8d5ee16201a59f/ivpm-1.1.1.8469915121-py2.py3-none-any.whl
+[2024-04-10 04:04:05] INFO root fetch - processPackages [llama-core]: Downloading https://files.pythonhosted.org/packages/a7/b0/b7d54cffb2547e6fa07c3b2dacd9cea337e598ff37b843581f1e56dd1f00/llama_core-0.2.5.tar.gz
+[2024-04-10 04:04:05] INFO root fetch - processPackages [sampa]: Downloading https://files.pythonhosted.org/packages/b5/51/a5911d1c1a7270c579ef2ccb5c08cc7bd7372191987a164c48b48d6011fc/sampa-1.0.0.12.tar.gz
+[2024-04-10 04:04:05] INFO root fetch - processPackages [ivpm]: Downloading https://files.pythonhosted.org/packages/2b/4c/0d7269ae9444493598d3c64ab6884c9027cadd8eabc5f3c744654323efb5/ivpm-1.1.1.8624887207-py2.py3-none-any.whl
+[2024-04-10 04:04:05] INFO root fetch - processPackages [ivpm]: executing diffoscope
+[2024-04-10 04:04:05] INFO root fetch - processPackages [ivpm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ivpm-1.1.1.8469915121-py2.py3-none-any.whl.zip tmp/ivpm-1.1.1.8624887207-py2.py3-none-any.whl.zip --markdown 20240410/i/ivpm/1.1.1.8469915121-1.1.1.8624887207/README.md --exclude *.pyd
+[2024-04-10 04:04:05] WARNING root fetch - processPackages [llama-core]: Skipping package: exceeds size limit 11124609>=10485760
+[2024-04-10 04:04:05] INFO root fetch - main [MainThread]: End processing [llama-core] error
+[2024-04-10 04:04:06] INFO root fetch - processPackages [ivpm]: Remove: archive file [/home/abi/fetcher/tmp/ivpm-1.1.1.8469915121-py2.py3-none-any.whl.zip]
+[2024-04-10 04:04:06] INFO root fetch - processPackages [ivpm]: Remove: archive file [/home/abi/fetcher/tmp/ivpm-1.1.1.8624887207-py2.py3-none-any.whl.zip]
+[2024-04-10 04:04:06] INFO root fetch - main [MainThread]: End processing [ivpm]: success
+[2024-04-10 04:04:10] INFO root fetch - processPackages [sampa]: executing diffoscope
+[2024-04-10 04:04:10] INFO root fetch - processPackages [sampa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sampa-1.0.0.11.tar.gz tmp/sampa-1.0.0.12.tar.gz --markdown 20240410/s/sampa/1.0.0.11-1.0.0.12/README.md --exclude *.pyd
+[2024-04-10 04:04:13] INFO root fetch - processPackages [sampa]: Remove: archive file [/home/abi/fetcher/tmp/sampa-1.0.0.11.tar.gz]
+[2024-04-10 04:04:13] INFO root fetch - processPackages [sampa]: Remove: archive file [/home/abi/fetcher/tmp/sampa-1.0.0.12.tar.gz]
+[2024-04-10 04:04:13] INFO root fetch - main [MainThread]: End processing [sampa]: success
+[2024-04-10 04:04:13] INFO root fetch - main [MainThread]: Store serial: [22694386]

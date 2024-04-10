@@ -15046,3 +15046,87 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 09:02:39] INFO root fetch - processPackages [tf-models-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip]
 [2024-04-10 09:02:39] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
 [2024-04-10 09:02:39] INFO root fetch - main [MainThread]: Store serial: [22696770]
+[2024-04-10 09:04:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22696770]
+[2024-04-10 09:04:48] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-10 09:04:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: haskellian-asyn
+[2024-04-10 09:04:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: haskellian-asyn-iter
+[2024-04-10 09:04:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-signalfx
+[2024-04-10 09:04:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-random
+[2024-04-10 09:04:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: imio.annex
+[2024-04-10 09:04:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: busker
+[2024-04-10 09:04:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rcquant-sdk
+[2024-04-10 09:04:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-rabbitmq
+[2024-04-10 09:04:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-slack
+[2024-04-10 09:04:48] INFO root fetch - processPackages [haskellian-asyn]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-10 09:04:48] INFO root fetch - processPackages [haskellian-asyn-iter]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-10 09:04:48] INFO root fetch - processPackages [haskellian-asyn]: Downloading https://files.pythonhosted.org/packages/f0/09/2eb326f8acff0c5584b2213571cd4dfa33df8b5156f8290e1ff4ed3083e1/haskellian-asyn-0.2.2.tar.gz
+[2024-04-10 09:04:48] INFO root fetch - processPackages [pulumi-random]: New version: [4.9.0a1674773801] Old Version: [4.9.0a1673556316]
+[2024-04-10 09:04:48] INFO root fetch - processPackages [rcquant-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-10 09:04:48] INFO root fetch - processPackages [imio.annex]: New version: [2.9] Old Version: [2.8]
+[2024-04-10 09:04:48] INFO root fetch - processPackages [busker]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-04-10 09:04:48] INFO root fetch - processPackages [pulumi-signalfx]: New version: [7.2.0a1712730221] Old Version: [7.2.0a1712555673]
+[2024-04-10 09:04:48] INFO root fetch - processPackages [pulumi-slack]: New version: [0.4.5a1712729963] Old Version: [0.4.5a1712614650]
+[2024-04-10 09:04:48] INFO root fetch - processPackages [pulumi-rabbitmq]: New version: [3.4.0a1712729688] Old Version: [3.4.0a1712401499]
+[2024-04-10 09:04:48] INFO root fetch - processPackages [haskellian-asyn-iter]: Downloading https://files.pythonhosted.org/packages/f4/79/756f1e415cdb60c0655f4bdc1e83da48335864adb086676bf7c0e5eb60f5/haskellian-asyn-iter-0.1.0.tar.gz
+[2024-04-10 09:04:48] INFO root fetch - processPackages [pulumi-random]: Downloading https://files.pythonhosted.org/packages/e3/37/2cc13bf17f327e646e4b225d9a662c398da5ae064fbaaf071b5093d9200d/pulumi_random-4.9.0a1673556316.tar.gz
+[2024-04-10 09:04:48] INFO root fetch - processPackages [pulumi-signalfx]: Downloading https://files.pythonhosted.org/packages/97/8c/d59c0254a2767715b8f4dfbbc6bdf29e11ede131dfdd6e3b49a3c1c8aa7d/pulumi_signalfx-7.2.0a1712555673.tar.gz
+[2024-04-10 09:04:48] INFO root fetch - processPackages [rcquant-sdk]: Downloading https://files.pythonhosted.org/packages/3e/60/e0a243e196412d03158a2aff972fd0ac9db20838d3337b73106554a273df/rcquant_sdk-0.0.8.tar.gz
+[2024-04-10 09:04:48] INFO root fetch - processPackages [imio.annex]: Downloading https://files.pythonhosted.org/packages/9d/dd/ba4c421ea4603eeb476eb4260a10de4165c7ab24b6053a8f3d10010003b5/imio.annex-2.8.tar.gz
+[2024-04-10 09:04:48] INFO root fetch - processPackages [pulumi-slack]: Downloading https://files.pythonhosted.org/packages/ec/04/d099c5fd798c43fba7b74b235cfc77ecc6b6e3686f4c2a18e41b110b8048/pulumi_slack-0.4.5a1712614650.tar.gz
+[2024-04-10 09:04:48] INFO root fetch - processPackages [busker]: Downloading https://files.pythonhosted.org/packages/77/6e/7f0d275856aefe4a6df391cdfc8f1e88a16fb1a2361c48dc53e14b258f9e/busker-0.7.0.tar.gz
+[2024-04-10 09:04:48] INFO root fetch - processPackages [haskellian-asyn]: Downloading https://files.pythonhosted.org/packages/18/37/3b8306d6c99dc7370ff841a34bf8206b3ef229cd01ba96c2b101c4ce5450/haskellian-asyn-0.2.3.tar.gz
+[2024-04-10 09:04:48] INFO root fetch - processPackages [pulumi-rabbitmq]: Downloading https://files.pythonhosted.org/packages/31/83/ca78d7e30fc4805918f4015343a00b027b9d12d34b831b1b6c7c896d3b46/pulumi_rabbitmq-3.4.0a1712401499.tar.gz
+[2024-04-10 09:04:49] INFO root fetch - processPackages [haskellian-asyn-iter]: Downloading https://files.pythonhosted.org/packages/b9/c1/23fbb34b157b46343a6f775ea680bbde34db390f324a0cd6bae767522338/haskellian-asyn-iter-0.1.1.tar.gz
+[2024-04-10 09:04:49] INFO root fetch - processPackages [haskellian-asyn]: executing diffoscope
+[2024-04-10 09:04:49] INFO root fetch - processPackages [haskellian-asyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haskellian-asyn-0.2.2.tar.gz tmp/haskellian-asyn-0.2.3.tar.gz --markdown 20240410/h/haskellian-asyn/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-10 09:04:49] INFO root fetch - processPackages [haskellian-asyn-iter]: executing diffoscope
+[2024-04-10 09:04:49] INFO root fetch - processPackages [haskellian-asyn-iter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haskellian-asyn-iter-0.1.0.tar.gz tmp/haskellian-asyn-iter-0.1.1.tar.gz --markdown 20240410/h/haskellian-asyn-iter/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-10 09:04:49] INFO root fetch - processPackages [pulumi-slack]: Downloading https://files.pythonhosted.org/packages/e7/fe/4b799a63422412051517bd8909bfff79aac3fd4370071f930324794cc3a5/pulumi_slack-0.4.5a1712729963.tar.gz
+[2024-04-10 09:04:49] INFO root fetch - processPackages [pulumi-random]: Downloading https://files.pythonhosted.org/packages/60/4b/3fbb36b8ea6ee761180821419350808d93a817d302404b35a787b0e12917/pulumi_random-4.9.0a1674773801.tar.gz
+[2024-04-10 09:04:49] INFO root fetch - processPackages [rcquant-sdk]: Downloading https://files.pythonhosted.org/packages/ac/5d/0b8b494a5b28ddc4213217404a0c3be423df271aaf93c217f1058af73bf8/rcquant_sdk-0.0.9.tar.gz
+[2024-04-10 09:04:49] INFO root fetch - processPackages [pulumi-rabbitmq]: Downloading https://files.pythonhosted.org/packages/76/c5/00e097c9a3b0154d59b74014e7acb807018e72fa1fe62a9b9cca98db6e52/pulumi_rabbitmq-3.4.0a1712729688.tar.gz
+[2024-04-10 09:04:49] INFO root fetch - processPackages [busker]: Downloading https://files.pythonhosted.org/packages/f0/73/6136b560f15e28eddec7963852059f888860b092ba09b4930f478b73e440/busker-0.8.0.tar.gz
+[2024-04-10 09:04:49] INFO root fetch - processPackages [pulumi-signalfx]: Downloading https://files.pythonhosted.org/packages/22/45/5a7e99611ec8f7b8a3b3470b4f55ce3462a3db8936cf91d0666ed8b9ba5a/pulumi_signalfx-7.2.0a1712730221.tar.gz
+[2024-04-10 09:04:49] INFO root fetch - processPackages [imio.annex]: Downloading https://files.pythonhosted.org/packages/83/9a/e660ff9002c1bd525ee12b6d2b1d700b6075e0cc2e4da6e58b2fc1e1c163/imio.annex-2.9.tar.gz
+[2024-04-10 09:04:49] INFO root fetch - processPackages [pulumi-random]: executing diffoscope
+[2024-04-10 09:04:49] INFO root fetch - processPackages [pulumi-random]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_random-4.9.0a1673556316.tar.gz tmp/pulumi_random-4.9.0a1674773801.tar.gz --markdown 20240410/p/pulumi-random/4.9.0a1673556316-4.9.0a1674773801/README.md --exclude *.pyd
+[2024-04-10 09:04:49] INFO root fetch - processPackages [pulumi-slack]: executing diffoscope
+[2024-04-10 09:04:49] INFO root fetch - processPackages [pulumi-slack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_slack-0.4.5a1712614650.tar.gz tmp/pulumi_slack-0.4.5a1712729963.tar.gz --markdown 20240410/p/pulumi-slack/0.4.5a1712614650-0.4.5a1712729963/README.md --exclude *.pyd
+[2024-04-10 09:04:49] INFO root fetch - processPackages [rcquant-sdk]: executing diffoscope
+[2024-04-10 09:04:49] INFO root fetch - processPackages [rcquant-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rcquant_sdk-0.0.8.tar.gz tmp/rcquant_sdk-0.0.9.tar.gz --markdown 20240410/r/rcquant-sdk/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-10 09:04:49] INFO root fetch - processPackages [imio.annex]: executing diffoscope
+[2024-04-10 09:04:49] INFO root fetch - processPackages [imio.annex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imio.annex-2.8.tar.gz tmp/imio.annex-2.9.tar.gz --markdown 20240410/i/imio.annex/2.8-2.9/README.md --exclude *.pyd
+[2024-04-10 09:04:49] INFO root fetch - processPackages [pulumi-rabbitmq]: executing diffoscope
+[2024-04-10 09:04:49] INFO root fetch - processPackages [pulumi-rabbitmq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rabbitmq-3.4.0a1712401499.tar.gz tmp/pulumi_rabbitmq-3.4.0a1712729688.tar.gz --markdown 20240410/p/pulumi-rabbitmq/3.4.0a1712401499-3.4.0a1712729688/README.md --exclude *.pyd
+[2024-04-10 09:04:49] INFO root fetch - processPackages [busker]: executing diffoscope
+[2024-04-10 09:04:49] INFO root fetch - processPackages [busker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/busker-0.7.0.tar.gz tmp/busker-0.8.0.tar.gz --markdown 20240410/b/busker/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-04-10 09:04:49] INFO root fetch - processPackages [pulumi-signalfx]: executing diffoscope
+[2024-04-10 09:04:49] INFO root fetch - processPackages [pulumi-signalfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_signalfx-7.2.0a1712555673.tar.gz tmp/pulumi_signalfx-7.2.0a1712730221.tar.gz --markdown 20240410/p/pulumi-signalfx/7.2.0a1712555673-7.2.0a1712730221/README.md --exclude *.pyd
+[2024-04-10 09:04:49] INFO root fetch - processPackages [haskellian-asyn]: Remove: archive file [/home/abi/fetcher/tmp/haskellian-asyn-0.2.2.tar.gz]
+[2024-04-10 09:04:49] INFO root fetch - processPackages [haskellian-asyn]: Remove: archive file [/home/abi/fetcher/tmp/haskellian-asyn-0.2.3.tar.gz]
+[2024-04-10 09:04:49] INFO root fetch - main [MainThread]: End processing [haskellian-asyn]: success
+[2024-04-10 09:04:49] INFO root fetch - processPackages [haskellian-asyn-iter]: Remove: archive file [/home/abi/fetcher/tmp/haskellian-asyn-iter-0.1.0.tar.gz]
+[2024-04-10 09:04:49] INFO root fetch - processPackages [haskellian-asyn-iter]: Remove: archive file [/home/abi/fetcher/tmp/haskellian-asyn-iter-0.1.1.tar.gz]
+[2024-04-10 09:04:49] INFO root fetch - main [MainThread]: End processing [haskellian-asyn-iter]: success
+[2024-04-10 09:04:50] INFO root fetch - processPackages [pulumi-slack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_slack-0.4.5a1712614650.tar.gz]
+[2024-04-10 09:04:50] INFO root fetch - processPackages [pulumi-slack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_slack-0.4.5a1712729963.tar.gz]
+[2024-04-10 09:04:50] INFO root fetch - main [MainThread]: End processing [pulumi-slack]: success
+[2024-04-10 09:04:50] INFO root fetch - processPackages [pulumi-random]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_random-4.9.0a1673556316.tar.gz]
+[2024-04-10 09:04:50] INFO root fetch - processPackages [pulumi-random]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_random-4.9.0a1674773801.tar.gz]
+[2024-04-10 09:04:50] INFO root fetch - main [MainThread]: End processing [pulumi-random]: success
+[2024-04-10 09:04:50] INFO root fetch - processPackages [pulumi-rabbitmq]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rabbitmq-3.4.0a1712401499.tar.gz]
+[2024-04-10 09:04:50] INFO root fetch - processPackages [pulumi-rabbitmq]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rabbitmq-3.4.0a1712729688.tar.gz]
+[2024-04-10 09:04:50] INFO root fetch - main [MainThread]: End processing [pulumi-rabbitmq]: success
+[2024-04-10 09:04:50] INFO root fetch - processPackages [busker]: Remove: archive file [/home/abi/fetcher/tmp/busker-0.7.0.tar.gz]
+[2024-04-10 09:04:50] INFO root fetch - processPackages [busker]: Remove: archive file [/home/abi/fetcher/tmp/busker-0.8.0.tar.gz]
+[2024-04-10 09:04:50] INFO root fetch - main [MainThread]: End processing [busker]: success
+[2024-04-10 09:04:50] INFO root fetch - processPackages [imio.annex]: Remove: archive file [/home/abi/fetcher/tmp/imio.annex-2.8.tar.gz]
+[2024-04-10 09:04:50] INFO root fetch - processPackages [imio.annex]: Remove: archive file [/home/abi/fetcher/tmp/imio.annex-2.9.tar.gz]
+[2024-04-10 09:04:50] INFO root fetch - main [MainThread]: End processing [imio.annex]: success
+[2024-04-10 09:04:50] INFO root fetch - processPackages [rcquant-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rcquant_sdk-0.0.8.tar.gz]
+[2024-04-10 09:04:50] INFO root fetch - processPackages [rcquant-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rcquant_sdk-0.0.9.tar.gz]
+[2024-04-10 09:04:50] INFO root fetch - main [MainThread]: End processing [rcquant-sdk]: success
+[2024-04-10 09:04:50] INFO root fetch - processPackages [pulumi-signalfx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_signalfx-7.2.0a1712555673.tar.gz]
+[2024-04-10 09:04:50] INFO root fetch - processPackages [pulumi-signalfx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_signalfx-7.2.0a1712730221.tar.gz]
+[2024-04-10 09:04:50] INFO root fetch - main [MainThread]: End processing [pulumi-signalfx]: success
+[2024-04-10 09:04:50] INFO root fetch - main [MainThread]: Store serial: [22696796]

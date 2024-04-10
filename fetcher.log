@@ -12104,3 +12104,92 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 06:25:20] INFO root fetch - processPackages [RM-Tools]: Remove: archive file [/home/abi/fetcher/tmp/RM-Tools-1.4.1.tar.gz]
 [2024-04-10 06:25:20] INFO root fetch - main [MainThread]: End processing [RM-Tools]: success
 [2024-04-10 06:25:20] INFO root fetch - main [MainThread]: Store serial: [22695687]
+[2024-04-10 06:27:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22695687]
+[2024-04-10 06:27:29] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-10 06:27:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flet-core
+[2024-04-10 06:27:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flet-runtime
+[2024-04-10 06:27:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flet-embed
+[2024-04-10 06:27:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ros-cdk-dts
+[2024-04-10 06:27:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flet
+[2024-04-10 06:27:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fastapi-validation
+[2024-04-10 06:27:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flet-pyodide
+[2024-04-10 06:27:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ros-cdk-cas
+[2024-04-10 06:27:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pytest-fly
+[2024-04-10 06:27:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ros-cdk-sls
+[2024-04-10 06:27:29] INFO root fetch - processPackages [flet-core]: New version: [0.9.0.dev1631] Old Version: [0.9.0.dev1630]
+[2024-04-10 06:27:29] INFO root fetch - processPackages [flet-runtime]: New version: [0.9.0] Old Version: [0.22.0.dev2627]
+[2024-04-10 06:27:29] INFO root fetch - processPackages [pytest-fly]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-10 06:27:29] INFO root fetch - processPackages [flet-embed]: New version: [0.9.0] Old Version: [0.22.0.dev2627]
+[2024-04-10 06:27:29] INFO root fetch - processPackages [flet-pyodide]: New version: [0.9.0] Old Version: [0.22.0.dev2627]
+[2024-04-10 06:27:29] INFO root fetch - processPackages [flet]: New version: [0.9.0] Old Version: [0.22.0.dev2627]
+[2024-04-10 06:27:29] INFO root fetch - processPackages [fastapi-validation]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-10 06:27:29] INFO root fetch - processPackages [ros-cdk-sls]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-10 06:27:29] INFO root fetch - processPackages [ros-cdk-dts]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-10 06:27:29] INFO root fetch - processPackages [flet-core]: Downloading https://files.pythonhosted.org/packages/06/78/2b607ba8cf90f09185f6b1de3138bf723d510d19ee11130a68433cce2d20/flet_core-0.9.0.dev1630.tar.gz
+[2024-04-10 06:27:29] INFO root fetch - processPackages [ros-cdk-cas]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-10 06:27:29] INFO root fetch - processPackages [flet-runtime]: Downloading https://files.pythonhosted.org/packages/8a/ce/e3dda94683df72034dc7c36984b3e43fe22bd98717e2948910a46944d646/flet_runtime-0.22.0.dev2627.tar.gz
+[2024-04-10 06:27:29] INFO root fetch - processPackages [flet-embed]: Downloading https://files.pythonhosted.org/packages/20/75/913f232fb0770beb09885a00d88b922bcf6bdac0f1c073d83d51b686c8e8/flet_embed-0.22.0.dev2627.tar.gz
+[2024-04-10 06:27:29] INFO root fetch - processPackages [flet]: Downloading https://files.pythonhosted.org/packages/b4/4f/b0bb3df20882b9315753ead53c4bc8519f08bd3336a7860db09f4be43dea/flet-0.22.0.dev2627.tar.gz
+[2024-04-10 06:27:30] INFO root fetch - processPackages [pytest-fly]: Downloading https://files.pythonhosted.org/packages/89/dd/4cbcd537aa6329f31503a1bd743141a83e779e317baa18431ac42aa227a5/pytest_fly-0.0.2.tar.gz
+[2024-04-10 06:27:30] INFO root fetch - processPackages [fastapi-validation]: Downloading https://files.pythonhosted.org/packages/eb/72/3fd3b23b45436cb0a87bbb6cd7127aecf7f2cfb927a9a9ecd75426d848f0/fastapi_validation-1.1.8.tar.gz
+[2024-04-10 06:27:30] INFO root fetch - processPackages [flet-pyodide]: Downloading https://files.pythonhosted.org/packages/2b/d8/8217f56a8cb2ada1d3a601295fd8d1be565402f2aae9711adc46fafebaba/flet_pyodide-0.22.0.dev2627.tar.gz
+[2024-04-10 06:27:30] INFO root fetch - processPackages [ros-cdk-dts]: Downloading https://files.pythonhosted.org/packages/ad/1d/1e2e566370b2240add5dc79509cf06173bdeb9bb430263e277bdf2eda68d/ros-cdk-dts-1.0.8.tar.gz
+[2024-04-10 06:27:30] WARNING root fetch - processPackages [pytest-fly]: Skipping package: exceeds size limit 35696741>=10485760
+[2024-04-10 06:27:30] INFO root fetch - main [MainThread]: End processing [pytest-fly] error
+[2024-04-10 06:27:30] INFO root fetch - processPackages [ros-cdk-sls]: Downloading https://files.pythonhosted.org/packages/43/82/7794729e60d5790b0ce831d9b6a58b58e38c91ff00b8d49f29eb06032b32/ros-cdk-sls-1.0.8.tar.gz
+[2024-04-10 06:27:30] INFO root fetch - processPackages [ros-cdk-cas]: Downloading https://files.pythonhosted.org/packages/20/ed/e9e6a8ac49239cd3dfa897f837903d53f56293eabcf7cea3a9a9e0ba89b2/ros-cdk-cas-1.0.8.tar.gz
+[2024-04-10 06:27:30] INFO root fetch - processPackages [flet-core]: Downloading https://files.pythonhosted.org/packages/4f/c9/c2705045754a5e96e2a0e04c30f12e30cc27d1e60b1fb83e686da4c0a8e6/flet_core-0.9.0.dev1631.tar.gz
+[2024-04-10 06:27:30] INFO root fetch - processPackages [flet-runtime]: Downloading https://files.pythonhosted.org/packages/7d/21/4486f082fce6b7ee7174ae6b6c9bd62faeeb1cf712e65ccbd42d2a02b641/flet_runtime-0.9.0.tar.gz
+[2024-04-10 06:27:30] INFO root fetch - processPackages [flet-embed]: Downloading https://files.pythonhosted.org/packages/81/7e/d8933b7cb514fb7fd415c9368e2a55ab10465ad0c1277670abc72164e31b/flet_embed-0.9.0.tar.gz
+[2024-04-10 06:27:30] INFO root fetch - processPackages [flet-pyodide]: Downloading https://files.pythonhosted.org/packages/0b/26/a5b2ba93c30d3a89efc6b6734cc4db067c9d2ca16059ed4685281d46c1f7/flet_pyodide-0.9.0.tar.gz
+[2024-04-10 06:27:30] INFO root fetch - processPackages [flet-core]: executing diffoscope
+[2024-04-10 06:27:30] INFO root fetch - processPackages [flet-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_core-0.9.0.dev1630.tar.gz tmp/flet_core-0.9.0.dev1631.tar.gz --markdown 20240410/f/flet-core/0.9.0.dev1630-0.9.0.dev1631/README.md --exclude *.pyd
+[2024-04-10 06:27:30] INFO root fetch - processPackages [flet-embed]: executing diffoscope
+[2024-04-10 06:27:30] INFO root fetch - processPackages [flet-runtime]: executing diffoscope
+[2024-04-10 06:27:30] INFO root fetch - processPackages [flet-embed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_embed-0.22.0.dev2627.tar.gz tmp/flet_embed-0.9.0.tar.gz --markdown 20240410/f/flet-embed/0.22.0.dev2627-0.9.0/README.md --exclude *.pyd
+[2024-04-10 06:27:30] INFO root fetch - processPackages [flet-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_runtime-0.22.0.dev2627.tar.gz tmp/flet_runtime-0.9.0.tar.gz --markdown 20240410/f/flet-runtime/0.22.0.dev2627-0.9.0/README.md --exclude *.pyd
+[2024-04-10 06:27:30] INFO root fetch - processPackages [fastapi-validation]: Downloading https://files.pythonhosted.org/packages/b5/04/adf8cfafe068d5f741a5f29f2d0924e101a57e1c6dab42b4e283c5928b10/fastapi_validation-1.1.9.tar.gz
+[2024-04-10 06:27:30] INFO root fetch - processPackages [flet-pyodide]: executing diffoscope
+[2024-04-10 06:27:30] INFO root fetch - processPackages [flet-pyodide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_pyodide-0.22.0.dev2627.tar.gz tmp/flet_pyodide-0.9.0.tar.gz --markdown 20240410/f/flet-pyodide/0.22.0.dev2627-0.9.0/README.md --exclude *.pyd
+[2024-04-10 06:27:30] INFO root fetch - processPackages [ros-cdk-dts]: Downloading https://files.pythonhosted.org/packages/fc/65/4c33a59a985e2867775aa568465be07c3def04d56dac36adf004d1bceefb/ros-cdk-dts-1.0.9.tar.gz
+[2024-04-10 06:27:30] INFO root fetch - processPackages [flet]: Downloading https://files.pythonhosted.org/packages/70/f1/c96f61c9817584ef31d84401520cb5d02e9b320f79d8aff85ba005ca6132/flet-0.9.0.tar.gz
+[2024-04-10 06:27:30] INFO root fetch - processPackages [ros-cdk-cas]: Downloading https://files.pythonhosted.org/packages/0e/9e/1200a10d1e5e9ccb1920137341bb78547eda2b7c8de7bf5ef2d3af667e66/ros-cdk-cas-1.0.9.tar.gz
+[2024-04-10 06:27:30] INFO root fetch - processPackages [ros-cdk-sls]: Downloading https://files.pythonhosted.org/packages/df/d3/f86784db438f6b60ee4de02bc0e96c9cdaf841b69851cf4f7f1dece80591/ros-cdk-sls-1.0.9.tar.gz
+[2024-04-10 06:27:30] INFO root fetch - processPackages [fastapi-validation]: executing diffoscope
+[2024-04-10 06:27:30] INFO root fetch - processPackages [fastapi-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_validation-1.1.8.tar.gz tmp/fastapi_validation-1.1.9.tar.gz --markdown 20240410/f/fastapi-validation/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-04-10 06:27:30] INFO root fetch - processPackages [ros-cdk-dts]: executing diffoscope
+[2024-04-10 06:27:30] INFO root fetch - processPackages [ros-cdk-dts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-dts-1.0.8.tar.gz tmp/ros-cdk-dts-1.0.9.tar.gz --markdown 20240410/r/ros-cdk-dts/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-10 06:27:30] INFO root fetch - processPackages [ros-cdk-cas]: executing diffoscope
+[2024-04-10 06:27:30] INFO root fetch - processPackages [ros-cdk-cas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-cas-1.0.8.tar.gz tmp/ros-cdk-cas-1.0.9.tar.gz --markdown 20240410/r/ros-cdk-cas/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-10 06:27:30] INFO root fetch - processPackages [ros-cdk-sls]: executing diffoscope
+[2024-04-10 06:27:30] INFO root fetch - processPackages [ros-cdk-sls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-sls-1.0.8.tar.gz tmp/ros-cdk-sls-1.0.9.tar.gz --markdown 20240410/r/ros-cdk-sls/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-10 06:27:30] INFO root fetch - processPackages [flet]: executing diffoscope
+[2024-04-10 06:27:30] INFO root fetch - processPackages [flet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet-0.22.0.dev2627.tar.gz tmp/flet-0.9.0.tar.gz --markdown 20240410/f/flet/0.22.0.dev2627-0.9.0/README.md --exclude *.pyd
+[2024-04-10 06:27:31] INFO root fetch - processPackages [flet-pyodide]: Remove: archive file [/home/abi/fetcher/tmp/flet_pyodide-0.22.0.dev2627.tar.gz]
+[2024-04-10 06:27:31] INFO root fetch - processPackages [flet-pyodide]: Remove: archive file [/home/abi/fetcher/tmp/flet_pyodide-0.9.0.tar.gz]
+[2024-04-10 06:27:31] INFO root fetch - main [MainThread]: End processing [flet-pyodide]: success
+[2024-04-10 06:27:31] INFO root fetch - processPackages [flet-embed]: Remove: archive file [/home/abi/fetcher/tmp/flet_embed-0.22.0.dev2627.tar.gz]
+[2024-04-10 06:27:31] INFO root fetch - processPackages [flet-embed]: Remove: archive file [/home/abi/fetcher/tmp/flet_embed-0.9.0.tar.gz]
+[2024-04-10 06:27:31] INFO root fetch - main [MainThread]: End processing [flet-embed]: success
+[2024-04-10 06:27:31] INFO root fetch - processPackages [flet-runtime]: Remove: archive file [/home/abi/fetcher/tmp/flet_runtime-0.22.0.dev2627.tar.gz]
+[2024-04-10 06:27:31] INFO root fetch - processPackages [flet-runtime]: Remove: archive file [/home/abi/fetcher/tmp/flet_runtime-0.9.0.tar.gz]
+[2024-04-10 06:27:31] INFO root fetch - main [MainThread]: End processing [flet-runtime]: success
+[2024-04-10 06:27:31] INFO root fetch - processPackages [ros-cdk-dts]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-dts-1.0.8.tar.gz]
+[2024-04-10 06:27:31] INFO root fetch - processPackages [ros-cdk-dts]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-dts-1.0.9.tar.gz]
+[2024-04-10 06:27:31] INFO root fetch - processPackages [fastapi-validation]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_validation-1.1.8.tar.gz]
+[2024-04-10 06:27:31] INFO root fetch - main [MainThread]: End processing [ros-cdk-dts]: success
+[2024-04-10 06:27:31] INFO root fetch - processPackages [fastapi-validation]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_validation-1.1.9.tar.gz]
+[2024-04-10 06:27:31] INFO root fetch - main [MainThread]: End processing [fastapi-validation]: success
+[2024-04-10 06:27:31] INFO root fetch - processPackages [flet-core]: Remove: archive file [/home/abi/fetcher/tmp/flet_core-0.9.0.dev1630.tar.gz]
+[2024-04-10 06:27:31] INFO root fetch - processPackages [flet-core]: Remove: archive file [/home/abi/fetcher/tmp/flet_core-0.9.0.dev1631.tar.gz]
+[2024-04-10 06:27:31] INFO root fetch - main [MainThread]: End processing [flet-core]: success
+[2024-04-10 06:27:31] INFO root fetch - processPackages [ros-cdk-cas]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cas-1.0.8.tar.gz]
+[2024-04-10 06:27:31] INFO root fetch - processPackages [ros-cdk-cas]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cas-1.0.9.tar.gz]
+[2024-04-10 06:27:31] INFO root fetch - main [MainThread]: End processing [ros-cdk-cas]: success
+[2024-04-10 06:27:31] INFO root fetch - processPackages [ros-cdk-sls]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-sls-1.0.8.tar.gz]
+[2024-04-10 06:27:31] INFO root fetch - processPackages [ros-cdk-sls]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-sls-1.0.9.tar.gz]
+[2024-04-10 06:27:31] INFO root fetch - main [MainThread]: End processing [ros-cdk-sls]: success
+[2024-04-10 06:28:39] INFO root fetch - processPackages [flet]: Remove: archive file [/home/abi/fetcher/tmp/flet-0.22.0.dev2627.tar.gz]
+[2024-04-10 06:28:39] INFO root fetch - processPackages [flet]: Remove: archive file [/home/abi/fetcher/tmp/flet-0.9.0.tar.gz]
+[2024-04-10 06:28:39] INFO root fetch - main [MainThread]: End processing [flet]: success
+[2024-04-10 06:28:39] INFO root fetch - main [MainThread]: Store serial: [22695722]

@@ -3556,3 +3556,57 @@
 [2024-04-10 02:48:40] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
 [2024-04-10 02:48:40] INFO root fetch - main [MainThread]: End processing [bioversions]: success
 [2024-04-10 02:48:40] INFO root fetch - main [MainThread]: Store serial: [22692528]
+[2024-04-10 02:50:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22692528]
+[2024-04-10 02:50:49] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-10 02:50:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trinnov-altitude
+[2024-04-10 02:50:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aqtp
+[2024-04-10 02:50:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: raydp-nightly
+[2024-04-10 02:50:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xensieve
+[2024-04-10 02:50:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-sns-notify
+[2024-04-10 02:50:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: notification-py
+[2024-04-10 02:50:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pymsalruntime
+[2024-04-10 02:50:49] INFO root fetch - processPackages [aqtp]: New version: [0.7.0] Old Version: [0.6.2]
+[2024-04-10 02:50:49] WARNING root fetch - processPackages [notification-py]: Skipping, unable to determine old version
+[2024-04-10 02:50:49] INFO root fetch - main [MainThread]: End processing [notification-py] error
+[2024-04-10 02:50:49] INFO root fetch - processPackages [trinnov-altitude]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-10 02:50:49] INFO root fetch - processPackages [cdk-sns-notify]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-10 02:50:49] INFO root fetch - processPackages [aqtp]: Downloading https://files.pythonhosted.org/packages/c6/aa/2e2647bb4db14c965be189b315a7a2c4e1d07c64208a95718bf90bdee1d2/aqtp-0.6.2.tar.gz
+[2024-04-10 02:50:49] INFO root fetch - processPackages [trinnov-altitude]: Downloading https://files.pythonhosted.org/packages/b8/80/7b03123d798e2e2cea2e6f3f5bed55a06bb56a604e4d27bfc71a1eeb0244/trinnov-altitude-0.1.1.tar.gz
+[2024-04-10 02:50:49] WARNING root fetch - processPackages [xensieve]: Skipping, unable to determine old version
+[2024-04-10 02:50:49] INFO root fetch - main [MainThread]: End processing [xensieve] error
+[2024-04-10 02:50:49] INFO root fetch - processPackages [raydp-nightly]: New version: [2024.4.10.dev0] Old Version: [2023.9.19.dev0]
+[2024-04-10 02:50:49] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/63/7d/ec62f3b7c0e08e1437b2036911a0d42b75ee30ea2cbb819399bdf8b55111/cdk-sns-notify-0.0.98.tar.gz
+[2024-04-10 02:50:49] INFO root fetch - processPackages [pymsalruntime]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-10 02:50:49] INFO root fetch - processPackages [raydp-nightly]: Downloading https://files.pythonhosted.org/packages/c8/33/42e72dcab4d72bb611c7759f9edcacb56d55bdee43ff6282a032fddb078e/raydp_nightly-2023.9.19.dev0-py3-none-any.whl
+[2024-04-10 02:50:49] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/18/81/3593e022c53913815c1207f0d20763efc2764992a13c81d641f3a01edf7d/cdk-sns-notify-0.0.99.tar.gz
+[2024-04-10 02:50:49] INFO root fetch - processPackages [aqtp]: Downloading https://files.pythonhosted.org/packages/69/95/d3570ac6404bbce6ed4981540f83524bfda69f31279c2d09cd86bde97105/aqtp-0.7.0.tar.gz
+[2024-04-10 02:50:49] INFO root fetch - processPackages [trinnov-altitude]: Downloading https://files.pythonhosted.org/packages/38/7c/4e320ca84103334a00a510a5747e0c7add35479d50e217a6990eeb542e83/trinnov-altitude-0.1.2.tar.gz
+[2024-04-10 02:50:49] INFO root fetch - processPackages [pymsalruntime]: Downloading https://files.pythonhosted.org/packages/4a/03/7534c39398eaf205c00f33119c0595314883f797aa07d7e48b8122dc9a36/pymsalruntime-0.8.1.tar.gz
+[2024-04-10 02:50:49] INFO root fetch - processPackages [cdk-sns-notify]: executing diffoscope
+[2024-04-10 02:50:49] INFO root fetch - processPackages [cdk-sns-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sns-notify-0.0.98.tar.gz tmp/cdk-sns-notify-0.0.99.tar.gz --markdown 20240410/c/cdk-sns-notify/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-10 02:50:49] INFO root fetch - processPackages [trinnov-altitude]: executing diffoscope
+[2024-04-10 02:50:49] INFO root fetch - processPackages [trinnov-altitude]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trinnov-altitude-0.1.1.tar.gz tmp/trinnov-altitude-0.1.2.tar.gz --markdown 20240410/t/trinnov-altitude/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-10 02:50:49] INFO root fetch - processPackages [aqtp]: executing diffoscope
+[2024-04-10 02:50:49] INFO root fetch - processPackages [aqtp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aqtp-0.6.2.tar.gz tmp/aqtp-0.7.0.tar.gz --markdown 20240410/a/aqtp/0.6.2-0.7.0/README.md --exclude *.pyd
+[2024-04-10 02:50:49] INFO root fetch - processPackages [raydp-nightly]: Downloading https://files.pythonhosted.org/packages/0d/0b/a91914054d315ebcd23518ea2ad1e084baa407a414d6b3f4679e40b605ae/raydp_nightly-2024.4.10.dev0-py3-none-any.whl
+[2024-04-10 02:50:50] INFO root fetch - processPackages [raydp-nightly]: executing diffoscope
+[2024-04-10 02:50:50] INFO root fetch - processPackages [raydp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raydp_nightly-2023.9.19.dev0-py3-none-any.whl.zip tmp/raydp_nightly-2024.4.10.dev0-py3-none-any.whl.zip --markdown 20240410/r/raydp-nightly/2023.9.19.dev0-2024.4.10.dev0/README.md --exclude *.pyd
+[2024-04-10 02:50:50] INFO root fetch - processPackages [pymsalruntime]: Downloading https://files.pythonhosted.org/packages/76/f0/60de0dfdd1c88cfa826b5591c88457073bb4ef95a4f1adab36ed108d9733/pymsalruntime-0.9.0.tar.gz
+[2024-04-10 02:50:50] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.98.tar.gz]
+[2024-04-10 02:50:50] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.99.tar.gz]
+[2024-04-10 02:50:50] INFO root fetch - main [MainThread]: End processing [cdk-sns-notify]: success
+[2024-04-10 02:50:50] INFO root fetch - processPackages [trinnov-altitude]: Remove: archive file [/home/abi/fetcher/tmp/trinnov-altitude-0.1.1.tar.gz]
+[2024-04-10 02:50:50] INFO root fetch - processPackages [trinnov-altitude]: Remove: archive file [/home/abi/fetcher/tmp/trinnov-altitude-0.1.2.tar.gz]
+[2024-04-10 02:50:50] INFO root fetch - main [MainThread]: End processing [trinnov-altitude]: success
+[2024-04-10 02:50:50] INFO root fetch - processPackages [pymsalruntime]: executing diffoscope
+[2024-04-10 02:50:50] INFO root fetch - processPackages [pymsalruntime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymsalruntime-0.8.1.tar.gz tmp/pymsalruntime-0.9.0.tar.gz --markdown 20240410/p/pymsalruntime/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-04-10 02:50:51] INFO root fetch - processPackages [aqtp]: Remove: archive file [/home/abi/fetcher/tmp/aqtp-0.6.2.tar.gz]
+[2024-04-10 02:50:51] INFO root fetch - processPackages [aqtp]: Remove: archive file [/home/abi/fetcher/tmp/aqtp-0.7.0.tar.gz]
+[2024-04-10 02:50:51] INFO root fetch - main [MainThread]: End processing [aqtp]: success
+[2024-04-10 02:50:59] INFO root fetch - processPackages [pymsalruntime]: Remove: archive file [/home/abi/fetcher/tmp/pymsalruntime-0.8.1.tar.gz]
+[2024-04-10 02:50:59] INFO root fetch - processPackages [pymsalruntime]: Remove: archive file [/home/abi/fetcher/tmp/pymsalruntime-0.9.0.tar.gz]
+[2024-04-10 02:50:59] INFO root fetch - main [MainThread]: End processing [pymsalruntime]: success
+[2024-04-10 02:51:07] INFO root fetch - processPackages [raydp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/raydp_nightly-2023.9.19.dev0-py3-none-any.whl.zip]
+[2024-04-10 02:51:07] INFO root fetch - processPackages [raydp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/raydp_nightly-2024.4.10.dev0-py3-none-any.whl.zip]
+[2024-04-10 02:51:07] INFO root fetch - main [MainThread]: End processing [raydp-nightly]: success
+[2024-04-10 02:51:07] INFO root fetch - main [MainThread]: Store serial: [22692604]

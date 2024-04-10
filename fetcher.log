@@ -11649,3 +11649,57 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 06:05:41] INFO root fetch - processPackages [rp2]: Remove: archive file [/home/abi/fetcher/tmp/rp2-1.5.1.tar.gz]
 [2024-04-10 06:05:41] INFO root fetch - main [MainThread]: End processing [rp2]: success
 [2024-04-10 06:05:41] INFO root fetch - main [MainThread]: Store serial: [22695541]
+[2024-04-10 06:07:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22695541]
+[2024-04-10 06:07:52] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-10 06:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-sync-env
+[2024-04-10 06:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: misleep
+[2024-04-10 06:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pprint-tools
+[2024-04-10 06:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ros-cdk-cr
+[2024-04-10 06:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mkdocs-diagrams-plugin
+[2024-04-10 06:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nfgan
+[2024-04-10 06:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nonebot-plugin-orangejuice
+[2024-04-10 06:07:52] INFO root fetch - processPackages [misleep]: New version: [0.1.2b0] Old Version: [0.1.1b0]
+[2024-04-10 06:07:52] INFO root fetch - processPackages [misleep]: Downloading https://files.pythonhosted.org/packages/39/2b/13fec326b1e22e4a024904141b6700aa56319e9954dfbb63345bdeb3b531/misleep-0.1.1b0.tar.gz
+[2024-04-10 06:07:52] INFO root fetch - processPackages [django-sync-env]: New version: [0.3.0] Old Version: [0.2.9]
+[2024-04-10 06:07:52] INFO root fetch - processPackages [pprint-tools]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-10 06:07:52] INFO root fetch - processPackages [ros-cdk-cr]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-10 06:07:52] INFO root fetch - processPackages [nonebot-plugin-orangejuice]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-10 06:07:52] WARNING root fetch - processPackages [nfgan]: Skipping, unable to determine old version
+[2024-04-10 06:07:52] INFO root fetch - main [MainThread]: End processing [nfgan] error
+[2024-04-10 06:07:52] WARNING root fetch - processPackages [mkdocs-diagrams-plugin]: Skipping, unable to determine old version
+[2024-04-10 06:07:52] INFO root fetch - main [MainThread]: End processing [mkdocs-diagrams-plugin] error
+[2024-04-10 06:07:52] INFO root fetch - processPackages [misleep]: Downloading https://files.pythonhosted.org/packages/bc/a4/8d56e553024a064e73d64486cdb63be9e5bd5975a3edb2a6d60a3ea4643c/misleep-0.1.2b0.tar.gz
+[2024-04-10 06:07:52] INFO root fetch - processPackages [django-sync-env]: Downloading https://files.pythonhosted.org/packages/cd/63/b513e472f2c8383a2e0b33bde4b2962ca863e99b3df43efa56c6757b895e/django_sync_env-0.2.9.tar.gz
+[2024-04-10 06:07:52] INFO root fetch - processPackages [pprint-tools]: Downloading https://files.pythonhosted.org/packages/fd/af/f1a0d2f507b0f09c4976b9f535f4b2884f8c5ab7ae6964c7b7aa18841858/pprint_tools-0.0.1.tar.gz
+[2024-04-10 06:07:52] INFO root fetch - processPackages [ros-cdk-cr]: Downloading https://files.pythonhosted.org/packages/7d/c4/755e652b18955bdee20092f2424fc5ceda0b439c35beb45fac063923e6d8/ros-cdk-cr-1.0.8.tar.gz
+[2024-04-10 06:07:52] INFO root fetch - processPackages [nonebot-plugin-orangejuice]: Downloading https://files.pythonhosted.org/packages/99/12/01238c970d3adc600b5c66ad8af2c93e38f958cf210d7d7a616234921900/nonebot-plugin-orangejuice-0.8.0.tar.gz
+[2024-04-10 06:07:52] INFO root fetch - processPackages [misleep]: executing diffoscope
+[2024-04-10 06:07:52] INFO root fetch - processPackages [misleep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/misleep-0.1.1b0.tar.gz tmp/misleep-0.1.2b0.tar.gz --markdown 20240410/m/misleep/0.1.1b0-0.1.2b0/README.md --exclude *.pyd
+[2024-04-10 06:07:53] INFO root fetch - processPackages [pprint-tools]: Downloading https://files.pythonhosted.org/packages/75/f2/a36920ea53562c49e272c395ff84d916cb4ce1a526c4a840ff7075fb4aea/pprint_tools-0.0.2.tar.gz
+[2024-04-10 06:07:53] INFO root fetch - processPackages [django-sync-env]: Downloading https://files.pythonhosted.org/packages/a8/85/98e54202163e115f84f73fca23dc181572af87b99f5d9ba856d0e3ec1b6a/django_sync_env-0.3.0.tar.gz
+[2024-04-10 06:07:53] INFO root fetch - processPackages [nonebot-plugin-orangejuice]: Downloading https://files.pythonhosted.org/packages/c8/38/90a39a14d7ba6d9112789021b6ef87aaf81e04767b4778d7406cbb277c9f/nonebot-plugin-orangejuice-0.9.0.tar.gz
+[2024-04-10 06:07:53] INFO root fetch - processPackages [ros-cdk-cr]: Downloading https://files.pythonhosted.org/packages/fb/d3/b158f6f997c5806b15bec9baef9080f722987971552408b7790d0a1efa8a/ros-cdk-cr-1.0.9.tar.gz
+[2024-04-10 06:07:53] INFO root fetch - processPackages [pprint-tools]: executing diffoscope
+[2024-04-10 06:07:53] INFO root fetch - processPackages [pprint-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pprint_tools-0.0.1.tar.gz tmp/pprint_tools-0.0.2.tar.gz --markdown 20240410/p/pprint-tools/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-10 06:07:53] INFO root fetch - processPackages [django-sync-env]: executing diffoscope
+[2024-04-10 06:07:53] INFO root fetch - processPackages [django-sync-env]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_sync_env-0.2.9.tar.gz tmp/django_sync_env-0.3.0.tar.gz --markdown 20240410/d/django-sync-env/0.2.9-0.3.0/README.md --exclude *.pyd
+[2024-04-10 06:07:53] INFO root fetch - processPackages [nonebot-plugin-orangejuice]: executing diffoscope
+[2024-04-10 06:07:53] INFO root fetch - processPackages [nonebot-plugin-orangejuice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-orangejuice-0.8.0.tar.gz tmp/nonebot-plugin-orangejuice-0.9.0.tar.gz --markdown 20240410/n/nonebot-plugin-orangejuice/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-10 06:07:53] INFO root fetch - processPackages [ros-cdk-cr]: executing diffoscope
+[2024-04-10 06:07:53] INFO root fetch - processPackages [ros-cdk-cr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-cr-1.0.8.tar.gz tmp/ros-cdk-cr-1.0.9.tar.gz --markdown 20240410/r/ros-cdk-cr/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-10 06:07:53] INFO root fetch - processPackages [misleep]: Remove: archive file [/home/abi/fetcher/tmp/misleep-0.1.1b0.tar.gz]
+[2024-04-10 06:07:53] INFO root fetch - processPackages [misleep]: Remove: archive file [/home/abi/fetcher/tmp/misleep-0.1.2b0.tar.gz]
+[2024-04-10 06:07:53] INFO root fetch - main [MainThread]: End processing [misleep]: success
+[2024-04-10 06:07:53] INFO root fetch - processPackages [pprint-tools]: Remove: archive file [/home/abi/fetcher/tmp/pprint_tools-0.0.1.tar.gz]
+[2024-04-10 06:07:53] INFO root fetch - processPackages [pprint-tools]: Remove: archive file [/home/abi/fetcher/tmp/pprint_tools-0.0.2.tar.gz]
+[2024-04-10 06:07:53] INFO root fetch - main [MainThread]: End processing [pprint-tools]: success
+[2024-04-10 06:07:53] INFO root fetch - processPackages [ros-cdk-cr]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cr-1.0.8.tar.gz]
+[2024-04-10 06:07:53] INFO root fetch - processPackages [ros-cdk-cr]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cr-1.0.9.tar.gz]
+[2024-04-10 06:07:53] INFO root fetch - main [MainThread]: End processing [ros-cdk-cr]: success
+[2024-04-10 06:07:53] INFO root fetch - processPackages [django-sync-env]: Remove: archive file [/home/abi/fetcher/tmp/django_sync_env-0.2.9.tar.gz]
+[2024-04-10 06:07:53] INFO root fetch - processPackages [django-sync-env]: Remove: archive file [/home/abi/fetcher/tmp/django_sync_env-0.3.0.tar.gz]
+[2024-04-10 06:07:53] INFO root fetch - main [MainThread]: End processing [django-sync-env]: success
+[2024-04-10 06:07:53] INFO root fetch - processPackages [nonebot-plugin-orangejuice]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-orangejuice-0.8.0.tar.gz]
+[2024-04-10 06:07:53] INFO root fetch - processPackages [nonebot-plugin-orangejuice]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-orangejuice-0.9.0.tar.gz]
+[2024-04-10 06:07:53] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-orangejuice]: success
+[2024-04-10 06:07:53] INFO root fetch - main [MainThread]: Store serial: [22695565]

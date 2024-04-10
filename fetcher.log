@@ -19997,3 +19997,27 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 12:14:46] INFO root fetch - processPackages [alibabacloud-mns-open20220119-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_mns-open20220119_py2-1.0.1.tar.gz]
 [2024-04-10 12:14:46] INFO root fetch - main [MainThread]: End processing [alibabacloud-mns-open20220119-py2]: success
 [2024-04-10 12:14:46] INFO root fetch - main [MainThread]: Store serial: [22698848]
+[2024-04-10 12:16:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22698848]
+[2024-04-10 12:16:55] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-10 12:16:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xy-signalrcore
+[2024-04-10 12:16:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cj-package
+[2024-04-10 12:16:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zrb-ollama
+[2024-04-10 12:16:55] INFO root fetch - processPackages [cj-package]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-10 12:16:55] INFO root fetch - processPackages [zrb-ollama]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-10 12:16:55] INFO root fetch - processPackages [cj-package]: Downloading https://files.pythonhosted.org/packages/da/f1/7251475617f700917e1ca74400daece46b8dd816a4f7297c30873eac2493/cj_package-1.0.8.tar.gz
+[2024-04-10 12:16:55] INFO root fetch - processPackages [zrb-ollama]: Downloading https://files.pythonhosted.org/packages/f4/ae/69059b69235236d7f5ee8e73d5ccae36e84fcab054c8f7e2210ea50def53/zrb_ollama-0.0.8.tar.gz
+[2024-04-10 12:16:55] WARNING root fetch - processPackages [xy-signalrcore]: Skipping, unable to determine old version
+[2024-04-10 12:16:55] INFO root fetch - main [MainThread]: End processing [xy-signalrcore] error
+[2024-04-10 12:16:55] INFO root fetch - processPackages [cj-package]: Downloading https://files.pythonhosted.org/packages/e2/64/13a4025b10bed4260a45454f62f555ec27bce0fdb58bf2382ee53a7bd528/cj_package-1.0.9.tar.gz
+[2024-04-10 12:16:55] INFO root fetch - processPackages [zrb-ollama]: Downloading https://files.pythonhosted.org/packages/69/23/7a6f9fb793122c69b80ff6088f3dfab05f8782dabcf0f861a1f3e8a98a56/zrb_ollama-0.0.9.tar.gz
+[2024-04-10 12:16:55] INFO root fetch - processPackages [cj-package]: executing diffoscope
+[2024-04-10 12:16:55] INFO root fetch - processPackages [cj-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cj_package-1.0.8.tar.gz tmp/cj_package-1.0.9.tar.gz --markdown 20240410/c/cj-package/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-10 12:16:55] INFO root fetch - processPackages [zrb-ollama]: executing diffoscope
+[2024-04-10 12:16:55] INFO root fetch - processPackages [zrb-ollama]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zrb_ollama-0.0.8.tar.gz tmp/zrb_ollama-0.0.9.tar.gz --markdown 20240410/z/zrb-ollama/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-10 12:16:56] INFO root fetch - processPackages [cj-package]: Remove: archive file [/home/abi/fetcher/tmp/cj_package-1.0.8.tar.gz]
+[2024-04-10 12:16:56] INFO root fetch - processPackages [cj-package]: Remove: archive file [/home/abi/fetcher/tmp/cj_package-1.0.9.tar.gz]
+[2024-04-10 12:16:56] INFO root fetch - main [MainThread]: End processing [cj-package]: success
+[2024-04-10 12:16:56] INFO root fetch - processPackages [zrb-ollama]: Remove: archive file [/home/abi/fetcher/tmp/zrb_ollama-0.0.8.tar.gz]
+[2024-04-10 12:16:56] INFO root fetch - processPackages [zrb-ollama]: Remove: archive file [/home/abi/fetcher/tmp/zrb_ollama-0.0.9.tar.gz]
+[2024-04-10 12:16:56] INFO root fetch - main [MainThread]: End processing [zrb-ollama]: success
+[2024-04-10 12:16:56] INFO root fetch - main [MainThread]: Store serial: [22698859]

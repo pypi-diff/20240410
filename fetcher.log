@@ -9601,3 +9601,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 04:35:16] INFO root fetch - processPackages [pih-ws]: Remove: archive file [/home/abi/fetcher/tmp/pih-ws-0.13.tar.gz]
 [2024-04-10 04:35:16] INFO root fetch - main [MainThread]: End processing [pih-ws]: success
 [2024-04-10 04:35:16] INFO root fetch - main [MainThread]: Store serial: [22694694]
+[2024-04-10 04:37:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22694694]
+[2024-04-10 04:37:25] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-10 04:37:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prodvana
+[2024-04-10 04:37:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ml-runlog
+[2024-04-10 04:37:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: reemployct-data-entry
+[2024-04-10 04:37:25] INFO root fetch - processPackages [ml-runlog]: New version: [2.0] Old Version: [1.9]
+[2024-04-10 04:37:25] INFO root fetch - processPackages [reemployct-data-entry]: New version: [2.0.6] Old Version: [2.0.5]
+[2024-04-10 04:37:25] INFO root fetch - processPackages [prodvana]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-10 04:37:25] INFO root fetch - processPackages [ml-runlog]: Downloading https://files.pythonhosted.org/packages/b7/32/22b8b5e90e2ec0d71662ec4f477bf8cd025a0db3a587d34bbf8e0d4725e7/ml_runlog-1.9.tar.gz
+[2024-04-10 04:37:25] INFO root fetch - processPackages [reemployct-data-entry]: Downloading https://files.pythonhosted.org/packages/bd/fb/747af22a228af3443b1a0c22cbb14f826b7e30825c702abc67d3a28eee45/reemployct_data_entry-2.0.5.tar.gz
+[2024-04-10 04:37:25] INFO root fetch - processPackages [prodvana]: Downloading https://files.pythonhosted.org/packages/05/29/b305e83e3145ff688dc20fcaf7e9acc6387d8bcb0be66a1bad5781bb7543/prodvana-0.3.8.tar.gz
+[2024-04-10 04:37:26] INFO root fetch - processPackages [reemployct-data-entry]: Downloading https://files.pythonhosted.org/packages/f5/f9/3244a2be81747e677d9dc19ebfc19aed7be7bc3e6a265bbd67beb435bdb3/reemployct_data_entry-2.0.6.tar.gz
+[2024-04-10 04:37:26] INFO root fetch - processPackages [ml-runlog]: Downloading https://files.pythonhosted.org/packages/22/41/df0a0871122a7965302c3ff63e0708c7f6e647f449b8f382bef867419bbc/ml_runlog-2.0.tar.gz
+[2024-04-10 04:37:26] INFO root fetch - processPackages [ml-runlog]: executing diffoscope
+[2024-04-10 04:37:26] INFO root fetch - processPackages [ml-runlog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml_runlog-1.9.tar.gz tmp/ml_runlog-2.0.tar.gz --markdown 20240410/m/ml-runlog/1.9-2.0/README.md --exclude *.pyd
+[2024-04-10 04:37:26] INFO root fetch - processPackages [reemployct-data-entry]: executing diffoscope
+[2024-04-10 04:37:26] INFO root fetch - processPackages [reemployct-data-entry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reemployct_data_entry-2.0.5.tar.gz tmp/reemployct_data_entry-2.0.6.tar.gz --markdown 20240410/r/reemployct-data-entry/2.0.5-2.0.6/README.md --exclude *.pyd
+[2024-04-10 04:37:26] INFO root fetch - processPackages [prodvana]: Downloading https://files.pythonhosted.org/packages/b2/62/1999f7e3eed16a266b39c7205e01fda3f018d873f514114d86cdf999983b/prodvana-0.3.9.tar.gz
+[2024-04-10 04:37:26] INFO root fetch - processPackages [prodvana]: executing diffoscope
+[2024-04-10 04:37:26] INFO root fetch - processPackages [prodvana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prodvana-0.3.8.tar.gz tmp/prodvana-0.3.9.tar.gz --markdown 20240410/p/prodvana/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-10 04:37:27] INFO root fetch - processPackages [ml-runlog]: Remove: archive file [/home/abi/fetcher/tmp/ml_runlog-1.9.tar.gz]
+[2024-04-10 04:37:27] INFO root fetch - processPackages [ml-runlog]: Remove: archive file [/home/abi/fetcher/tmp/ml_runlog-2.0.tar.gz]
+[2024-04-10 04:37:27] INFO root fetch - main [MainThread]: End processing [ml-runlog]: success
+[2024-04-10 04:37:27] INFO root fetch - processPackages [reemployct-data-entry]: Remove: archive file [/home/abi/fetcher/tmp/reemployct_data_entry-2.0.5.tar.gz]
+[2024-04-10 04:37:27] INFO root fetch - processPackages [reemployct-data-entry]: Remove: archive file [/home/abi/fetcher/tmp/reemployct_data_entry-2.0.6.tar.gz]
+[2024-04-10 04:37:27] INFO root fetch - main [MainThread]: End processing [reemployct-data-entry]: success
+[2024-04-10 04:37:27] INFO root fetch - processPackages [prodvana]: Remove: archive file [/home/abi/fetcher/tmp/prodvana-0.3.8.tar.gz]
+[2024-04-10 04:37:27] INFO root fetch - processPackages [prodvana]: Remove: archive file [/home/abi/fetcher/tmp/prodvana-0.3.9.tar.gz]
+[2024-04-10 04:37:27] INFO root fetch - main [MainThread]: End processing [prodvana]: success
+[2024-04-10 04:37:27] INFO root fetch - main [MainThread]: Store serial: [22694703]

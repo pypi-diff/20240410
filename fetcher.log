@@ -13408,3 +13408,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 07:45:32] INFO root fetch - processPackages [pulumi-aiven]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aiven-6.9.0a1704274395.tar.gz]
 [2024-04-10 07:45:32] INFO root fetch - main [MainThread]: End processing [pulumi-aiven]: success
 [2024-04-10 07:45:32] INFO root fetch - main [MainThread]: Store serial: [22696197]
+[2024-04-10 07:47:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22696197]
+[2024-04-10 07:47:41] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-10 07:47:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-confluentcloud
+[2024-04-10 07:47:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nakamon
+[2024-04-10 07:47:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sqlglot
+[2024-04-10 07:47:41] INFO root fetch - processPackages [nakamon]: New version: [0.1.0a1] Old Version: [0.1.0a0]
+[2024-04-10 07:47:41] INFO root fetch - processPackages [sqlglot]: New version: [9.0.6] Old Version: [9.0.5]
+[2024-04-10 07:47:41] INFO root fetch - processPackages [pulumi-confluentcloud]: New version: [1.9.0a1675887560] Old Version: [1.9.0]
+[2024-04-10 07:47:41] INFO root fetch - processPackages [sqlglot]: Downloading https://files.pythonhosted.org/packages/20/6b/5034324cd2ac42831b5103037f6a14e518172128c4196b8d01b93dcc76c8/sqlglot-9.0.5.tar.gz
+[2024-04-10 07:47:41] INFO root fetch - processPackages [nakamon]: Downloading https://files.pythonhosted.org/packages/5b/21/5a7a7e2472c6181d43a854079a9a67516d1b94c354dd20a3153d9607c714/nakamon-0.1.0a0.tar.gz
+[2024-04-10 07:47:41] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ee/5c/83ab7b1cf2467d8b22165c469862d15e131885dbf277da0d1bb686af03fe/pulumi_confluentcloud-1.9.0.tar.gz
+[2024-04-10 07:47:41] INFO root fetch - processPackages [sqlglot]: Downloading https://files.pythonhosted.org/packages/36/2a/e7389a112e1a7cfd1fcc7c7209a0f8f5ffe905ce8aad03f447367dc9b209/sqlglot-9.0.6.tar.gz
+[2024-04-10 07:47:41] INFO root fetch - processPackages [sqlglot]: executing diffoscope
+[2024-04-10 07:47:41] INFO root fetch - processPackages [sqlglot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlglot-9.0.5.tar.gz tmp/sqlglot-9.0.6.tar.gz --markdown 20240410/s/sqlglot/9.0.5-9.0.6/README.md --exclude *.pyd
+[2024-04-10 07:47:41] INFO root fetch - processPackages [nakamon]: Downloading https://files.pythonhosted.org/packages/fc/25/63f68f835411e4315caf68dcaf632e099c10cc60a0d7c20610b4e31d848d/nakamon-0.1.0a1.tar.gz
+[2024-04-10 07:47:42] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ec/f6/4c3900e97797a3f84c4c58458a6334035e702bd96d9ed3ec48d8e6e20f4e/pulumi_confluentcloud-1.9.0a1675887560.tar.gz
+[2024-04-10 07:47:42] INFO root fetch - processPackages [nakamon]: executing diffoscope
+[2024-04-10 07:47:42] INFO root fetch - processPackages [nakamon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nakamon-0.1.0a0.tar.gz tmp/nakamon-0.1.0a1.tar.gz --markdown 20240410/n/nakamon/0.1.0a0-0.1.0a1/README.md --exclude *.pyd
+[2024-04-10 07:47:42] INFO root fetch - processPackages [pulumi-confluentcloud]: executing diffoscope
+[2024-04-10 07:47:42] INFO root fetch - processPackages [pulumi-confluentcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_confluentcloud-1.9.0.tar.gz tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz --markdown 20240410/p/pulumi-confluentcloud/1.9.0-1.9.0a1675887560/README.md --exclude *.pyd
+[2024-04-10 07:47:42] INFO root fetch - processPackages [nakamon]: Remove: archive file [/home/abi/fetcher/tmp/nakamon-0.1.0a0.tar.gz]
+[2024-04-10 07:47:42] INFO root fetch - processPackages [nakamon]: Remove: archive file [/home/abi/fetcher/tmp/nakamon-0.1.0a1.tar.gz]
+[2024-04-10 07:47:42] INFO root fetch - main [MainThread]: End processing [nakamon]: success
+[2024-04-10 07:47:42] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0.tar.gz]
+[2024-04-10 07:47:42] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz]
+[2024-04-10 07:47:42] INFO root fetch - main [MainThread]: End processing [pulumi-confluentcloud]: success
+[2024-04-10 07:47:42] INFO root fetch - processPackages [sqlglot]: Remove: archive file [/home/abi/fetcher/tmp/sqlglot-9.0.5.tar.gz]
+[2024-04-10 07:47:42] INFO root fetch - processPackages [sqlglot]: Remove: archive file [/home/abi/fetcher/tmp/sqlglot-9.0.6.tar.gz]
+[2024-04-10 07:47:42] INFO root fetch - main [MainThread]: End processing [sqlglot]: success
+[2024-04-10 07:47:42] INFO root fetch - main [MainThread]: Store serial: [22696208]

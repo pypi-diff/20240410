@@ -16181,3 +16181,72 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 09:44:41] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-7.9.0.tar.gz]
 [2024-04-10 09:44:41] INFO root fetch - main [MainThread]: End processing [cognite-sdk]: success
 [2024-04-10 09:44:41] INFO root fetch - main [MainThread]: Store serial: [22697183]
+[2024-04-10 09:46:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22697183]
+[2024-04-10 09:46:49] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-10 09:46:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-ws-analytics
+[2024-04-10 09:46:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: streamlit-google-auth
+[2024-04-10 09:46:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rele
+[2024-04-10 09:46:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nmbrs
+[2024-04-10 09:46:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: blackboardsync
+[2024-04-10 09:46:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: CTK-Desert
+[2024-04-10 09:46:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: HTLMSmall
+[2024-04-10 09:46:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aws-packages
+[2024-04-10 09:46:49] INFO root fetch - processPackages [django-ws-analytics]: New version: [1.0.9] Old Version: [1.0.7]
+[2024-04-10 09:46:49] INFO root fetch - processPackages [streamlit-google-auth]: New version: [1.1] Old Version: [1.0.4]
+[2024-04-10 09:46:49] INFO root fetch - processPackages [CTK-Desert]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-10 09:46:49] WARNING root fetch - processPackages [HTLMSmall]: Skipping, unable to determine old version
+[2024-04-10 09:46:49] INFO root fetch - main [MainThread]: End processing [HTLMSmall] error
+[2024-04-10 09:46:49] INFO root fetch - processPackages [rele]: New version: [1.9.0] Old Version: [1.8.1b0]
+[2024-04-10 09:46:49] INFO root fetch - processPackages [nmbrs]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-10 09:46:49] INFO root fetch - processPackages [blackboardsync]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-10 09:46:49] INFO root fetch - processPackages [django-ws-analytics]: Downloading https://files.pythonhosted.org/packages/6d/f9/1a5b5f917fd0beff2816e07e84872585fe96fc02754df2555428e369c9e9/django-ws-analytics-1.0.7.tar.gz
+[2024-04-10 09:46:50] INFO root fetch - processPackages [streamlit-google-auth]: Downloading https://files.pythonhosted.org/packages/8a/b3/2f595fc13afce1dfe3d0b3714f3dad97162dbfc3c47941b28943eb1dafc0/streamlit-google-auth-1.0.4.tar.gz
+[2024-04-10 09:46:50] INFO root fetch - processPackages [CTK-Desert]: Downloading https://files.pythonhosted.org/packages/9a/73/c7239044a3b6edf571c3f5feded6aab241cff792f7acd98dd42652e44c95/CTK_Desert-0.0.8.tar.gz
+[2024-04-10 09:46:50] INFO root fetch - processPackages [nmbrs]: Downloading https://files.pythonhosted.org/packages/22/c4/e6b4fd25844301e316dea3dcd2aabf48699a6ba5ef941087c2d27162b94d/nmbrs-0.1.1.tar.gz
+[2024-04-10 09:46:50] INFO root fetch - processPackages [rele]: Downloading https://files.pythonhosted.org/packages/af/c5/1d2fe4cdfa79835b03d5d636ed4ab2d805ca22386efa668c24824049209b/rele-1.8.1b0.tar.gz
+[2024-04-10 09:46:50] INFO root fetch - processPackages [streamlit-google-auth]: Downloading https://files.pythonhosted.org/packages/73/35/35f8ec72c668a6f1aa9c8ab065664893006e256fa432c89bff29444f08db/streamlit-google-auth-1.1.tar.gz
+[2024-04-10 09:46:50] INFO root fetch - processPackages [aws-packages]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-10 09:46:50] INFO root fetch - processPackages [django-ws-analytics]: Downloading https://files.pythonhosted.org/packages/60/4e/e84fd37a53687d65c63d95a5b49973cb5cee8905941f82fe705955fcd5f6/django-ws-analytics-1.0.9.tar.gz
+[2024-04-10 09:46:50] INFO root fetch - processPackages [blackboardsync]: Downloading https://files.pythonhosted.org/packages/9d/c0/d352dcff66c32c096437da395ba3403cce7ca156a62ccc0e58d9d7b11151/blackboardsync-0.9.8.tar.gz
+[2024-04-10 09:46:50] INFO root fetch - processPackages [CTK-Desert]: Downloading https://files.pythonhosted.org/packages/6d/b4/d3af97e7bf9ae492dceb1aad8191e260b603096af0a9755ffd707156f69f/CTK_Desert-0.0.9.tar.gz
+[2024-04-10 09:46:50] INFO root fetch - processPackages [streamlit-google-auth]: executing diffoscope
+[2024-04-10 09:46:50] INFO root fetch - processPackages [streamlit-google-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-google-auth-1.0.4.tar.gz tmp/streamlit-google-auth-1.1.tar.gz --markdown 20240410/s/streamlit-google-auth/1.0.4-1.1/README.md --exclude *.pyd
+[2024-04-10 09:46:50] INFO root fetch - processPackages [django-ws-analytics]: executing diffoscope
+[2024-04-10 09:46:50] INFO root fetch - processPackages [django-ws-analytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-ws-analytics-1.0.7.tar.gz tmp/django-ws-analytics-1.0.9.tar.gz --markdown 20240410/d/django-ws-analytics/1.0.7-1.0.9/README.md --exclude *.pyd
+[2024-04-10 09:46:50] INFO root fetch - processPackages [nmbrs]: Downloading https://files.pythonhosted.org/packages/44/42/9aca5feb2e50f648e056a7e7b640bb62e8236f0382019def1840a756e4f7/nmbrs-0.1.2.tar.gz
+[2024-04-10 09:46:50] INFO root fetch - processPackages [CTK-Desert]: executing diffoscope
+[2024-04-10 09:46:50] INFO root fetch - processPackages [CTK-Desert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CTK_Desert-0.0.8.tar.gz tmp/CTK_Desert-0.0.9.tar.gz --markdown 20240410/C/CTK-Desert/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-10 09:46:50] INFO root fetch - processPackages [rele]: Downloading https://files.pythonhosted.org/packages/7f/14/927dd6d17266f198e10e105853ef8d590e720dca15feac751fccf7746159/rele-1.9.0.tar.gz
+[2024-04-10 09:46:50] INFO root fetch - processPackages [aws-packages]: Downloading https://files.pythonhosted.org/packages/df/79/dc9dd4f48288c36fa85b903a442b0590b5f087cf3de6feac6a2c7361bd03/aws_packages-0.0.8.tar.gz
+[2024-04-10 09:46:50] INFO root fetch - processPackages [nmbrs]: executing diffoscope
+[2024-04-10 09:46:50] INFO root fetch - processPackages [nmbrs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nmbrs-0.1.1.tar.gz tmp/nmbrs-0.1.2.tar.gz --markdown 20240410/n/nmbrs/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-10 09:46:50] INFO root fetch - processPackages [blackboardsync]: Downloading https://files.pythonhosted.org/packages/a9/31/834ac05bf4a7d17330ea0120a1fdd522671a932e663ee9bb64f8a29e5477/blackboardsync-0.9.9.tar.gz
+[2024-04-10 09:46:50] INFO root fetch - processPackages [rele]: executing diffoscope
+[2024-04-10 09:46:50] INFO root fetch - processPackages [rele]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rele-1.8.1b0.tar.gz tmp/rele-1.9.0.tar.gz --markdown 20240410/r/rele/1.8.1b0-1.9.0/README.md --exclude *.pyd
+[2024-04-10 09:46:50] INFO root fetch - processPackages [blackboardsync]: executing diffoscope
+[2024-04-10 09:46:50] INFO root fetch - processPackages [blackboardsync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blackboardsync-0.9.8.tar.gz tmp/blackboardsync-0.9.9.tar.gz --markdown 20240410/b/blackboardsync/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-10 09:46:51] INFO root fetch - processPackages [aws-packages]: Downloading https://files.pythonhosted.org/packages/f9/70/6dad25f5681631041b67fc5bad90c0828becfec9e1569cd148b0c104a41d/aws_packages-0.0.9.tar.gz
+[2024-04-10 09:46:51] INFO root fetch - processPackages [aws-packages]: executing diffoscope
+[2024-04-10 09:46:51] INFO root fetch - processPackages [aws-packages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_packages-0.0.8.tar.gz tmp/aws_packages-0.0.9.tar.gz --markdown 20240410/a/aws-packages/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-10 09:46:51] INFO root fetch - processPackages [streamlit-google-auth]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-google-auth-1.0.4.tar.gz]
+[2024-04-10 09:46:51] INFO root fetch - processPackages [streamlit-google-auth]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-google-auth-1.1.tar.gz]
+[2024-04-10 09:46:51] INFO root fetch - main [MainThread]: End processing [streamlit-google-auth]: success
+[2024-04-10 09:46:51] INFO root fetch - processPackages [CTK-Desert]: Remove: archive file [/home/abi/fetcher/tmp/CTK_Desert-0.0.8.tar.gz]
+[2024-04-10 09:46:51] INFO root fetch - processPackages [CTK-Desert]: Remove: archive file [/home/abi/fetcher/tmp/CTK_Desert-0.0.9.tar.gz]
+[2024-04-10 09:46:51] INFO root fetch - main [MainThread]: End processing [CTK-Desert]: success
+[2024-04-10 09:46:52] INFO root fetch - processPackages [django-ws-analytics]: Remove: archive file [/home/abi/fetcher/tmp/django-ws-analytics-1.0.7.tar.gz]
+[2024-04-10 09:46:52] INFO root fetch - processPackages [django-ws-analytics]: Remove: archive file [/home/abi/fetcher/tmp/django-ws-analytics-1.0.9.tar.gz]
+[2024-04-10 09:46:52] INFO root fetch - main [MainThread]: End processing [django-ws-analytics]: success
+[2024-04-10 09:46:52] INFO root fetch - processPackages [rele]: Remove: archive file [/home/abi/fetcher/tmp/rele-1.8.1b0.tar.gz]
+[2024-04-10 09:46:52] INFO root fetch - processPackages [rele]: Remove: archive file [/home/abi/fetcher/tmp/rele-1.9.0.tar.gz]
+[2024-04-10 09:46:52] INFO root fetch - main [MainThread]: End processing [rele]: success
+[2024-04-10 09:46:52] INFO root fetch - processPackages [blackboardsync]: Remove: archive file [/home/abi/fetcher/tmp/blackboardsync-0.9.8.tar.gz]
+[2024-04-10 09:46:52] INFO root fetch - processPackages [blackboardsync]: Remove: archive file [/home/abi/fetcher/tmp/blackboardsync-0.9.9.tar.gz]
+[2024-04-10 09:46:52] INFO root fetch - main [MainThread]: End processing [blackboardsync]: success
+[2024-04-10 09:46:52] INFO root fetch - processPackages [aws-packages]: Remove: archive file [/home/abi/fetcher/tmp/aws_packages-0.0.8.tar.gz]
+[2024-04-10 09:46:52] INFO root fetch - processPackages [aws-packages]: Remove: archive file [/home/abi/fetcher/tmp/aws_packages-0.0.9.tar.gz]
+[2024-04-10 09:46:52] INFO root fetch - main [MainThread]: End processing [aws-packages]: success
+[2024-04-10 09:46:52] INFO root fetch - processPackages [nmbrs]: Remove: archive file [/home/abi/fetcher/tmp/nmbrs-0.1.1.tar.gz]
+[2024-04-10 09:46:52] INFO root fetch - processPackages [nmbrs]: Remove: archive file [/home/abi/fetcher/tmp/nmbrs-0.1.2.tar.gz]
+[2024-04-10 09:46:52] INFO root fetch - main [MainThread]: End processing [nmbrs]: success
+[2024-04-10 09:46:52] INFO root fetch - main [MainThread]: Store serial: [22697207]

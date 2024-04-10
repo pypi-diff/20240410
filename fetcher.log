@@ -13196,3 +13196,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 07:30:12] INFO root fetch - processPackages [pulumi-akamai]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_akamai-7.1.0a1712639546.tar.gz]
 [2024-04-10 07:30:12] INFO root fetch - main [MainThread]: End processing [pulumi-akamai]: success
 [2024-04-10 07:30:12] INFO root fetch - main [MainThread]: Store serial: [22696124]
+[2024-04-10 07:32:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22696124]
+[2024-04-10 07:32:21] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-10 07:32:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-akamai
+[2024-04-10 07:32:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kecam
+[2024-04-10 07:32:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: keras-cv-attention-models
+[2024-04-10 07:32:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-purchase-blanket-order
+[2024-04-10 07:32:21] INFO root fetch - processPackages [pulumi-akamai]: New version: [7.1.0a1712725844] Old Version: [7.1.0a1712639546]
+[2024-04-10 07:32:21] INFO root fetch - processPackages [odoo-addon-purchase-blanket-order]: New version: [16.0.2.1.0] Old Version: [16.0.2.0.1.8]
+[2024-04-10 07:32:21] INFO root fetch - processPackages [pulumi-akamai]: Downloading https://files.pythonhosted.org/packages/45/df/c2de0f71b404528c8e1b6e585a8a750f2b4ef9152eeb389d77672f9414dc/pulumi_akamai-7.1.0a1712639546.tar.gz
+[2024-04-10 07:32:21] INFO root fetch - processPackages [kecam]: New version: [1.4.1] Old Version: [1.3.25]
+[2024-04-10 07:32:21] INFO root fetch - processPackages [odoo-addon-purchase-blanket-order]: Downloading https://files.pythonhosted.org/packages/fe/c1/25fa860358c1501a8228d5f702eeeacb4b575f7725ec700b89fc026904ba/odoo_addon_purchase_blanket_order-16.0.2.0.1.8-py3-none-any.whl
+[2024-04-10 07:32:21] INFO root fetch - processPackages [keras-cv-attention-models]: New version: [1.4.1] Old Version: [1.3.9]
+[2024-04-10 07:32:22] INFO root fetch - processPackages [kecam]: Downloading https://files.pythonhosted.org/packages/07/7a/c174bcb6e5af00a926f2341b9d5324cb108826ea2bbc2f6b51819fc5bda9/kecam-1.3.25.tar.gz
+[2024-04-10 07:32:22] INFO root fetch - processPackages [keras-cv-attention-models]: Downloading https://files.pythonhosted.org/packages/26/09/ed1d0ee6a598979f95cea42108e8503a6c97409adbfd1ca6a154c7f10432/keras-cv-attention-models-1.3.9.tar.gz
+[2024-04-10 07:32:22] INFO root fetch - processPackages [odoo-addon-purchase-blanket-order]: Downloading https://files.pythonhosted.org/packages/15/6e/d871e5a7d82eeadf97cac1a6ccfa8ed9dc5d010cb4a2d0eb472bf552d824/odoo_addon_purchase_blanket_order-16.0.2.1.0-py3-none-any.whl
+[2024-04-10 07:32:22] INFO root fetch - processPackages [odoo-addon-purchase-blanket-order]: executing diffoscope
+[2024-04-10 07:32:22] INFO root fetch - processPackages [odoo-addon-purchase-blanket-order]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_blanket_order-16.0.2.0.1.8-py3-none-any.whl.zip tmp/odoo_addon_purchase_blanket_order-16.0.2.1.0-py3-none-any.whl.zip --markdown 20240410/o/odoo-addon-purchase-blanket-order/16.0.2.0.1.8-16.0.2.1.0/README.md --exclude *.pyd
+[2024-04-10 07:32:22] INFO root fetch - processPackages [pulumi-akamai]: Downloading https://files.pythonhosted.org/packages/81/1a/f4ebc9fa78711d56704705d266278bc999b968a94e4f0bf67ba9800e9521/pulumi_akamai-7.1.0a1712725844.tar.gz
+[2024-04-10 07:32:22] INFO root fetch - processPackages [keras-cv-attention-models]: Downloading https://files.pythonhosted.org/packages/11/85/5a8b19721bed8f2ffb99749a90141f0d79ce36a086d21f5cbe8c447b7189/keras-cv-attention-models-1.4.1.tar.gz
+[2024-04-10 07:32:22] INFO root fetch - processPackages [kecam]: Downloading https://files.pythonhosted.org/packages/54/e3/1a100a17a7ace3eb526460c5f22b3e2777122be0472c42ea93cdaf8a25bd/kecam-1.4.1.tar.gz
+[2024-04-10 07:32:22] INFO root fetch - processPackages [pulumi-akamai]: executing diffoscope
+[2024-04-10 07:32:22] INFO root fetch - processPackages [pulumi-akamai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_akamai-7.1.0a1712639546.tar.gz tmp/pulumi_akamai-7.1.0a1712725844.tar.gz --markdown 20240410/p/pulumi-akamai/7.1.0a1712639546-7.1.0a1712725844/README.md --exclude *.pyd
+[2024-04-10 07:32:22] INFO root fetch - processPackages [keras-cv-attention-models]: executing diffoscope
+[2024-04-10 07:32:22] INFO root fetch - processPackages [keras-cv-attention-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras-cv-attention-models-1.3.9.tar.gz tmp/keras-cv-attention-models-1.4.1.tar.gz --markdown 20240410/k/keras-cv-attention-models/1.3.9-1.4.1/README.md --exclude *.pyd
+[2024-04-10 07:32:22] INFO root fetch - processPackages [kecam]: executing diffoscope
+[2024-04-10 07:32:22] INFO root fetch - processPackages [kecam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kecam-1.3.25.tar.gz tmp/kecam-1.4.1.tar.gz --markdown 20240410/k/kecam/1.3.25-1.4.1/README.md --exclude *.pyd
+[2024-04-10 07:32:23] INFO root fetch - processPackages [odoo-addon-purchase-blanket-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_blanket_order-16.0.2.0.1.8-py3-none-any.whl.zip]
+[2024-04-10 07:32:23] INFO root fetch - processPackages [odoo-addon-purchase-blanket-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_blanket_order-16.0.2.1.0-py3-none-any.whl.zip]
+[2024-04-10 07:32:23] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-blanket-order]: success
+[2024-04-10 07:32:24] INFO root fetch - processPackages [keras-cv-attention-models]: Remove: archive file [/home/abi/fetcher/tmp/keras-cv-attention-models-1.3.9.tar.gz]
+[2024-04-10 07:32:24] INFO root fetch - processPackages [keras-cv-attention-models]: Remove: archive file [/home/abi/fetcher/tmp/keras-cv-attention-models-1.4.1.tar.gz]
+[2024-04-10 07:32:24] INFO root fetch - main [MainThread]: End processing [keras-cv-attention-models]: success
+[2024-04-10 07:32:24] INFO root fetch - processPackages [kecam]: Remove: archive file [/home/abi/fetcher/tmp/kecam-1.3.25.tar.gz]
+[2024-04-10 07:32:24] INFO root fetch - processPackages [kecam]: Remove: archive file [/home/abi/fetcher/tmp/kecam-1.4.1.tar.gz]
+[2024-04-10 07:32:24] INFO root fetch - main [MainThread]: End processing [kecam]: success
+[2024-04-10 07:32:25] INFO root fetch - processPackages [pulumi-akamai]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_akamai-7.1.0a1712639546.tar.gz]
+[2024-04-10 07:32:25] INFO root fetch - processPackages [pulumi-akamai]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_akamai-7.1.0a1712725844.tar.gz]
+[2024-04-10 07:32:25] INFO root fetch - main [MainThread]: End processing [pulumi-akamai]: success
+[2024-04-10 07:32:25] INFO root fetch - main [MainThread]: Store serial: [22696135]

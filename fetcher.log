@@ -3081,3 +3081,33 @@
 [2024-04-10 02:21:59] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
 [2024-04-10 02:21:59] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
 [2024-04-10 02:21:59] INFO root fetch - main [MainThread]: Store serial: [22692348]
+[2024-04-10 02:24:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22692348]
+[2024-04-10 02:24:08] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-10 02:24:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Quanthon
+[2024-04-10 02:24:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sphinxcontrib-yowasp-wavedrom
+[2024-04-10 02:24:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-certbot-dns-route53
+[2024-04-10 02:24:08] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.4.99] Old Version: [2.4.98]
+[2024-04-10 02:24:08] INFO root fetch - processPackages [Quanthon]: New version: [0.3.5] Old Version: [0.3.4.2]
+[2024-04-10 02:24:08] INFO root fetch - processPackages [sphinxcontrib-yowasp-wavedrom]: New version: [1.4] Old Version: [1.3]
+[2024-04-10 02:24:08] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/7d/4d/b1cb6c8586d736f490cc5099e0220282aadb28d3aefc028cf88e6a183b06/cdk-certbot-dns-route53-2.4.98.tar.gz
+[2024-04-10 02:24:08] INFO root fetch - processPackages [Quanthon]: Downloading https://files.pythonhosted.org/packages/0c/9f/8d8867144d2d4a5a34c09f4809e9d823b57b3594e2f05812743870fc87af/Quanthon-0.3.4.2.tar.gz
+[2024-04-10 02:24:08] INFO root fetch - processPackages [sphinxcontrib-yowasp-wavedrom]: Downloading https://files.pythonhosted.org/packages/87/ce/810501c4e5859615796b2148c857aa7875a58f964079f67589c4a7d14080/sphinxcontrib_yowasp_wavedrom-1.3-py3-none-any.whl
+[2024-04-10 02:24:08] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/28/81/76f66486f9d6f5aee6f787bb13f11ab8012414fd95d10756b575fd69b909/cdk-certbot-dns-route53-2.4.99.tar.gz
+[2024-04-10 02:24:08] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2024-04-10 02:24:08] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.4.98.tar.gz tmp/cdk-certbot-dns-route53-2.4.99.tar.gz --markdown 20240410/c/cdk-certbot-dns-route53/2.4.98-2.4.99/README.md --exclude *.pyd
+[2024-04-10 02:24:08] INFO root fetch - processPackages [Quanthon]: Downloading https://files.pythonhosted.org/packages/3d/00/bf0e1d61a2be444439121e6932e4259c1f36587064a26cba340813f4c7d9/Quanthon-0.3.5.tar.gz
+[2024-04-10 02:24:08] INFO root fetch - processPackages [sphinxcontrib-yowasp-wavedrom]: Downloading https://files.pythonhosted.org/packages/2a/f7/dfba400ac6936341a3ef1f98b6720a6bb9a8a40efdc533e11517150a94ec/sphinxcontrib_yowasp_wavedrom-1.4-py3-none-any.whl
+[2024-04-10 02:24:09] INFO root fetch - processPackages [Quanthon]: executing diffoscope
+[2024-04-10 02:24:09] INFO root fetch - processPackages [Quanthon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Quanthon-0.3.4.2.tar.gz tmp/Quanthon-0.3.5.tar.gz --markdown 20240410/Q/Quanthon/0.3.4.2-0.3.5/README.md --exclude *.pyd
+[2024-04-10 02:24:09] INFO root fetch - processPackages [sphinxcontrib-yowasp-wavedrom]: executing diffoscope
+[2024-04-10 02:24:09] INFO root fetch - processPackages [sphinxcontrib-yowasp-wavedrom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinxcontrib_yowasp_wavedrom-1.3-py3-none-any.whl.zip tmp/sphinxcontrib_yowasp_wavedrom-1.4-py3-none-any.whl.zip --markdown 20240410/s/sphinxcontrib-yowasp-wavedrom/1.3-1.4/README.md --exclude *.pyd
+[2024-04-10 02:24:09] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.98.tar.gz]
+[2024-04-10 02:24:09] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.99.tar.gz]
+[2024-04-10 02:24:09] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2024-04-10 02:24:09] INFO root fetch - processPackages [sphinxcontrib-yowasp-wavedrom]: Remove: archive file [/home/abi/fetcher/tmp/sphinxcontrib_yowasp_wavedrom-1.3-py3-none-any.whl.zip]
+[2024-04-10 02:24:09] INFO root fetch - processPackages [sphinxcontrib-yowasp-wavedrom]: Remove: archive file [/home/abi/fetcher/tmp/sphinxcontrib_yowasp_wavedrom-1.4-py3-none-any.whl.zip]
+[2024-04-10 02:24:09] INFO root fetch - main [MainThread]: End processing [sphinxcontrib-yowasp-wavedrom]: success
+[2024-04-10 02:24:09] INFO root fetch - processPackages [Quanthon]: Remove: archive file [/home/abi/fetcher/tmp/Quanthon-0.3.4.2.tar.gz]
+[2024-04-10 02:24:09] INFO root fetch - processPackages [Quanthon]: Remove: archive file [/home/abi/fetcher/tmp/Quanthon-0.3.5.tar.gz]
+[2024-04-10 02:24:09] INFO root fetch - main [MainThread]: End processing [Quanthon]: success
+[2024-04-10 02:24:09] INFO root fetch - main [MainThread]: Store serial: [22692361]

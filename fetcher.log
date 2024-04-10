@@ -18468,3 +18468,45 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 11:11:57] INFO root fetch - processPackages [pytheia]: Remove: archive file [/home/abi/fetcher/tmp/pytheia-0.2.2-cp39-cp39-manylinux_2_17_x86_64.whl.zip]
 [2024-04-10 11:11:57] INFO root fetch - main [MainThread]: End processing [pytheia]: success
 [2024-04-10 11:11:57] INFO root fetch - main [MainThread]: Store serial: [22698258]
+[2024-04-10 11:14:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22698258]
+[2024-04-10 11:14:14] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-10 11:14:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: auto-walrus
+[2024-04-10 11:14:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyiron-potentialfit
+[2024-04-10 11:14:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ezside
+[2024-04-10 11:14:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: osm-osw-reformatter
+[2024-04-10 11:14:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: headline-gen
+[2024-04-10 11:14:14] WARNING root fetch - processPackages [headline-gen]: Skipping, unable to determine old version
+[2024-04-10 11:14:14] INFO root fetch - main [MainThread]: End processing [headline-gen] error
+[2024-04-10 11:14:14] INFO root fetch - processPackages [auto-walrus]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-10 11:14:15] INFO root fetch - processPackages [auto-walrus]: Downloading https://files.pythonhosted.org/packages/7f/3c/b9034469ac83ec4c9423c7598773d5d708e7174202745a137767a6d1a7ce/auto_walrus-0.3.1.tar.gz
+[2024-04-10 11:14:15] INFO root fetch - processPackages [pyiron-potentialfit]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-10 11:14:15] INFO root fetch - processPackages [ezside]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-10 11:14:15] INFO root fetch - processPackages [osm-osw-reformatter]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-10 11:14:15] INFO root fetch - processPackages [pyiron-potentialfit]: Downloading https://files.pythonhosted.org/packages/e2/dd/3bb66703e997ef8c380c7f4e846d44de52077785a816379013fdd8c95674/pyiron_potentialfit-0.1.0.tar.gz
+[2024-04-10 11:14:15] INFO root fetch - processPackages [osm-osw-reformatter]: Downloading https://files.pythonhosted.org/packages/3c/2e/c18731f207023511d667626aec47769434a81767b1448dd60c74b83aebd0/osm_osw_reformatter-0.2.1-py3-none-any.whl
+[2024-04-10 11:14:15] INFO root fetch - processPackages [ezside]: Downloading https://files.pythonhosted.org/packages/5a/d4/1810386c07f848c78c2e8b15144f22482295b4040d1283a67e6675563952/ezside-0.1.8.tar.gz
+[2024-04-10 11:14:15] INFO root fetch - processPackages [auto-walrus]: Downloading https://files.pythonhosted.org/packages/9e/eb/2641c9b18196ebfcb4529a2f1c48766d7ef2f76faad7a1dd60916919dcd5/auto_walrus-0.3.2.tar.gz
+[2024-04-10 11:14:15] INFO root fetch - processPackages [auto-walrus]: executing diffoscope
+[2024-04-10 11:14:15] INFO root fetch - processPackages [auto-walrus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto_walrus-0.3.1.tar.gz tmp/auto_walrus-0.3.2.tar.gz --markdown 20240410/a/auto-walrus/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-04-10 11:14:15] INFO root fetch - processPackages [pyiron-potentialfit]: Downloading https://files.pythonhosted.org/packages/6d/dd/5ce86c211ad922f642c350fd731f423040763d35c0647dc9f51ceb9aa442/pyiron_potentialfit-0.2.0.tar.gz
+[2024-04-10 11:14:15] INFO root fetch - processPackages [osm-osw-reformatter]: Downloading https://files.pythonhosted.org/packages/b2/73/15cf1d6733e06d912e09c7897a15d2c702d94baf67488c91c3b1b68ed882/osm_osw_reformatter-0.2.2-py3-none-any.whl
+[2024-04-10 11:14:15] INFO root fetch - processPackages [ezside]: Downloading https://files.pythonhosted.org/packages/f1/e0/2cae952d702515bb0e82f0bacbe379367f4a416b2a3928f33850e21ae823/ezside-0.1.9.tar.gz
+[2024-04-10 11:14:15] INFO root fetch - processPackages [osm-osw-reformatter]: executing diffoscope
+[2024-04-10 11:14:15] INFO root fetch - processPackages [osm-osw-reformatter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osm_osw_reformatter-0.2.1-py3-none-any.whl.zip tmp/osm_osw_reformatter-0.2.2-py3-none-any.whl.zip --markdown 20240410/o/osm-osw-reformatter/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-10 11:14:15] INFO root fetch - processPackages [pyiron-potentialfit]: executing diffoscope
+[2024-04-10 11:14:15] INFO root fetch - processPackages [pyiron-potentialfit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyiron_potentialfit-0.1.0.tar.gz tmp/pyiron_potentialfit-0.2.0.tar.gz --markdown 20240410/p/pyiron-potentialfit/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-04-10 11:14:15] INFO root fetch - processPackages [ezside]: executing diffoscope
+[2024-04-10 11:14:15] INFO root fetch - processPackages [ezside]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezside-0.1.8.tar.gz tmp/ezside-0.1.9.tar.gz --markdown 20240410/e/ezside/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-10 11:14:16] INFO root fetch - processPackages [auto-walrus]: Remove: archive file [/home/abi/fetcher/tmp/auto_walrus-0.3.1.tar.gz]
+[2024-04-10 11:14:16] INFO root fetch - processPackages [auto-walrus]: Remove: archive file [/home/abi/fetcher/tmp/auto_walrus-0.3.2.tar.gz]
+[2024-04-10 11:14:16] INFO root fetch - main [MainThread]: End processing [auto-walrus]: success
+[2024-04-10 11:14:16] INFO root fetch - processPackages [osm-osw-reformatter]: Remove: archive file [/home/abi/fetcher/tmp/osm_osw_reformatter-0.2.1-py3-none-any.whl.zip]
+[2024-04-10 11:14:16] INFO root fetch - processPackages [osm-osw-reformatter]: Remove: archive file [/home/abi/fetcher/tmp/osm_osw_reformatter-0.2.2-py3-none-any.whl.zip]
+[2024-04-10 11:14:16] INFO root fetch - main [MainThread]: End processing [osm-osw-reformatter]: success
+[2024-04-10 11:14:16] INFO root fetch - processPackages [pyiron-potentialfit]: Remove: archive file [/home/abi/fetcher/tmp/pyiron_potentialfit-0.1.0.tar.gz]
+[2024-04-10 11:14:16] INFO root fetch - processPackages [pyiron-potentialfit]: Remove: archive file [/home/abi/fetcher/tmp/pyiron_potentialfit-0.2.0.tar.gz]
+[2024-04-10 11:14:16] INFO root fetch - main [MainThread]: End processing [pyiron-potentialfit]: success
+[2024-04-10 11:14:16] INFO root fetch - processPackages [ezside]: Remove: archive file [/home/abi/fetcher/tmp/ezside-0.1.8.tar.gz]
+[2024-04-10 11:14:16] INFO root fetch - processPackages [ezside]: Remove: archive file [/home/abi/fetcher/tmp/ezside-0.1.9.tar.gz]
+[2024-04-10 11:14:16] INFO root fetch - main [MainThread]: End processing [ezside]: success
+[2024-04-10 11:14:16] INFO root fetch - main [MainThread]: Store serial: [22698280]

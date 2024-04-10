@@ -16448,3 +16448,84 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 09:55:41] INFO root fetch - processPackages [pyodide-mkdocs-theme]: Remove: archive file [/home/abi/fetcher/tmp/pyodide_mkdocs_theme-0.2.0.tar.gz]
 [2024-04-10 09:55:41] INFO root fetch - main [MainThread]: End processing [pyodide-mkdocs-theme]: success
 [2024-04-10 09:55:41] INFO root fetch - main [MainThread]: Store serial: [22697346]
+[2024-04-10 09:57:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22697346]
+[2024-04-10 09:57:50] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-10 09:57:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: auto-walrus
+[2024-04-10 09:57:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CTK-Desert
+[2024-04-10 09:57:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Repo2Prompt
+[2024-04-10 09:57:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gaea-operator
+[2024-04-10 09:57:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: seml
+[2024-04-10 09:57:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: auto-walrus
+[2024-04-10 09:57:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vf-portalytics
+[2024-04-10 09:57:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bluecellulab
+[2024-04-10 09:57:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ggml-python
+[2024-04-10 09:57:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tf-nightly
+[2024-04-10 09:57:50] INFO root fetch - processPackages [CTK-Desert]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-10 09:57:50] INFO root fetch - processPackages [gaea-operator]: New version: [1.2.0.8] Old Version: [1.2.0.7]
+[2024-04-10 09:57:50] INFO root fetch - processPackages [seml]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-04-10 09:57:50] INFO root fetch - processPackages [ggml-python]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-10 09:57:50] INFO root fetch - processPackages [CTK-Desert]: Downloading https://files.pythonhosted.org/packages/9a/73/c7239044a3b6edf571c3f5feded6aab241cff792f7acd98dd42652e44c95/CTK_Desert-0.0.8.tar.gz
+[2024-04-10 09:57:50] WARNING root fetch - processPackages [Repo2Prompt]: Skipping, unable to determine old version
+[2024-04-10 09:57:50] INFO root fetch - main [MainThread]: End processing [Repo2Prompt] error
+[2024-04-10 09:57:50] INFO root fetch - processPackages [gaea-operator]: Downloading https://files.pythonhosted.org/packages/6f/37/170c563d18a7579908b404d071628a3ce7e48a99f21bd0d96bf155f7dd55/gaea_operator-1.2.0.7-py3-none-any.whl
+[2024-04-10 09:57:50] INFO root fetch - processPackages [auto-walrus]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-10 09:57:50] INFO root fetch - processPackages [auto-walrus]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-10 09:57:50] INFO root fetch - processPackages [bluecellulab]: New version: [2.5.7] Old Version: [2.5.6]
+[2024-04-10 09:57:50] INFO root fetch - processPackages [seml]: Downloading https://files.pythonhosted.org/packages/20/9d/50505851dc15cba7d398b1583424ede346b267b441d7b3467f205c31732e/seml-0.4.3.tar.gz
+[2024-04-10 09:57:50] INFO root fetch - processPackages [vf-portalytics]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-04-10 09:57:50] INFO root fetch - processPackages [tf-nightly]: New version: [2.17.0.dev20240410] Old Version: [2.17.0.dev20240409]
+[2024-04-10 09:57:50] INFO root fetch - processPackages [auto-walrus]: Downloading https://files.pythonhosted.org/packages/1b/1b/7f9943be043b4d9731669710a65f2d367ceb23f2c8f1921500398e7936d2/auto_walrus-0.3.0.tar.gz
+[2024-04-10 09:57:50] INFO root fetch - processPackages [auto-walrus]: Downloading https://files.pythonhosted.org/packages/1b/1b/7f9943be043b4d9731669710a65f2d367ceb23f2c8f1921500398e7936d2/auto_walrus-0.3.0.tar.gz
+[2024-04-10 09:57:50] INFO root fetch - processPackages [ggml-python]: Downloading https://files.pythonhosted.org/packages/a4/a6/72a3a1b75015aa10fc1a634df9de7395e5ee3098cc8a40b9ad52e9903308/ggml-python-0.0.8.tar.gz
+[2024-04-10 09:57:50] INFO root fetch - processPackages [vf-portalytics]: Downloading https://files.pythonhosted.org/packages/e1/a0/1e16a23ab165126f79181d66789fd2349bdea551dac459ae13124b624a8c/vf_portalytics-1.1.1.tar.gz
+[2024-04-10 09:57:50] INFO root fetch - processPackages [bluecellulab]: Downloading https://files.pythonhosted.org/packages/f6/fe/8c7e4e05ca2ca042d02b35f0336c11c2b51ae58ad11a3786c786ab18b0c8/bluecellulab-2.5.6.tar.gz
+[2024-04-10 09:57:50] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/c0/b0/ade2774284c31f1c6cf0dc5e489017634c8478fa52aa238beec9777db888/tf_nightly-2.17.0.dev20240409-cp39-cp39-win_amd64.whl
+[2024-04-10 09:57:50] INFO root fetch - processPackages [seml]: Downloading https://files.pythonhosted.org/packages/a1/6f/abb955ad2820781e18725d1db49779161e58bb70c85ab455f1cbda8119f9/seml-0.4.4.tar.gz
+[2024-04-10 09:57:50] INFO root fetch - processPackages [gaea-operator]: Downloading https://files.pythonhosted.org/packages/e3/99/b8d502de9760d8243c53acb45a0378adde15b75aec5dc2e0d7fa27025ed3/gaea_operator-1.2.0.8-py3-none-any.whl
+[2024-04-10 09:57:50] INFO root fetch - processPackages [CTK-Desert]: Downloading https://files.pythonhosted.org/packages/6d/b4/d3af97e7bf9ae492dceb1aad8191e260b603096af0a9755ffd707156f69f/CTK_Desert-0.0.9.tar.gz
+[2024-04-10 09:57:50] WARNING root fetch - processPackages [bluecellulab]: Skipping package: exceeds size limit 16241066>=10485760
+[2024-04-10 09:57:50] INFO root fetch - main [MainThread]: End processing [bluecellulab] error
+[2024-04-10 09:57:51] INFO root fetch - processPackages [seml]: executing diffoscope
+[2024-04-10 09:57:51] INFO root fetch - processPackages [seml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seml-0.4.3.tar.gz tmp/seml-0.4.4.tar.gz --markdown 20240410/s/seml/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-04-10 09:57:51] INFO root fetch - processPackages [gaea-operator]: executing diffoscope
+[2024-04-10 09:57:51] INFO root fetch - processPackages [gaea-operator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaea_operator-1.2.0.7-py3-none-any.whl.zip tmp/gaea_operator-1.2.0.8-py3-none-any.whl.zip --markdown 20240410/g/gaea-operator/1.2.0.7-1.2.0.8/README.md --exclude *.pyd
+[2024-04-10 09:57:51] INFO root fetch - processPackages [CTK-Desert]: executing diffoscope
+[2024-04-10 09:57:51] INFO root fetch - processPackages [CTK-Desert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CTK_Desert-0.0.8.tar.gz tmp/CTK_Desert-0.0.9.tar.gz --markdown 20240410/C/CTK-Desert/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-10 09:57:51] INFO root fetch - processPackages [auto-walrus]: Downloading https://files.pythonhosted.org/packages/7f/3c/b9034469ac83ec4c9423c7598773d5d708e7174202745a137767a6d1a7ce/auto_walrus-0.3.1.tar.gz
+[2024-04-10 09:57:51] INFO root fetch - processPackages [auto-walrus]: Downloading https://files.pythonhosted.org/packages/7f/3c/b9034469ac83ec4c9423c7598773d5d708e7174202745a137767a6d1a7ce/auto_walrus-0.3.1.tar.gz
+[2024-04-10 09:57:51] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/fb/03/8da46a592051f2c1a60436ce6afc1e9f42ddfba42b606a2a574c4c1c4bb2/tf_nightly-2.17.0.dev20240410-cp39-cp39-win_amd64.whl
+[2024-04-10 09:57:51] INFO root fetch - processPackages [vf-portalytics]: Downloading https://files.pythonhosted.org/packages/32/48/dac6887f9ada1c14d4745628f27eca15c2f6b4ea36a74500e7dd49980a1c/vf_portalytics-1.1.2.tar.gz
+[2024-04-10 09:57:51] INFO root fetch - processPackages [ggml-python]: Downloading https://files.pythonhosted.org/packages/a0/03/ddddac6caff850b83571ae83647e2da367b79168d84b90d423f01d4e12bc/ggml-python-0.0.9.tar.gz
+[2024-04-10 09:57:51] INFO root fetch - processPackages [auto-walrus]: executing diffoscope
+[2024-04-10 09:57:51] INFO root fetch - processPackages [auto-walrus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto_walrus-0.3.0.tar.gz tmp/auto_walrus-0.3.1.tar.gz --markdown 20240410/a/auto-walrus/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-10 09:57:51] INFO root fetch - processPackages [auto-walrus]: executing diffoscope
+[2024-04-10 09:57:51] INFO root fetch - processPackages [auto-walrus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto_walrus-0.3.0.tar.gz tmp/auto_walrus-0.3.1.tar.gz --markdown 20240410/a/auto-walrus/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-10 09:57:51] INFO root fetch - processPackages [tf-nightly]: executing diffoscope
+[2024-04-10 09:57:51] INFO root fetch - processPackages [tf-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly-2.17.0.dev20240409-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly-2.17.0.dev20240410-cp39-cp39-win_amd64.whl.zip --markdown 20240410/t/tf-nightly/2.17.0.dev20240409-2.17.0.dev20240410/README.md --exclude *.pyd
+[2024-04-10 09:57:51] INFO root fetch - processPackages [vf-portalytics]: executing diffoscope
+[2024-04-10 09:57:51] INFO root fetch - processPackages [vf-portalytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vf_portalytics-1.1.1.tar.gz tmp/vf_portalytics-1.1.2.tar.gz --markdown 20240410/v/vf-portalytics/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-04-10 09:57:51] INFO root fetch - processPackages [ggml-python]: executing diffoscope
+[2024-04-10 09:57:51] INFO root fetch - processPackages [ggml-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ggml-python-0.0.8.tar.gz tmp/ggml-python-0.0.9.tar.gz --markdown 20240410/g/ggml-python/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-10 09:57:52] INFO root fetch - processPackages [seml]: Remove: archive file [/home/abi/fetcher/tmp/seml-0.4.3.tar.gz]
+[2024-04-10 09:57:52] INFO root fetch - processPackages [seml]: Remove: archive file [/home/abi/fetcher/tmp/seml-0.4.4.tar.gz]
+[2024-04-10 09:57:52] INFO root fetch - main [MainThread]: End processing [seml]: success
+[2024-04-10 09:57:52] INFO root fetch - processPackages [CTK-Desert]: Remove: archive file [/home/abi/fetcher/tmp/CTK_Desert-0.0.8.tar.gz]
+[2024-04-10 09:57:52] INFO root fetch - processPackages [CTK-Desert]: Remove: archive file [/home/abi/fetcher/tmp/CTK_Desert-0.0.9.tar.gz]
+[2024-04-10 09:57:52] INFO root fetch - main [MainThread]: End processing [CTK-Desert]: success
+[2024-04-10 09:57:52] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.17.0.dev20240409-cp39-cp39-win_amd64.whl.zip]
+[2024-04-10 09:57:52] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.17.0.dev20240410-cp39-cp39-win_amd64.whl.zip]
+[2024-04-10 09:57:52] INFO root fetch - main [MainThread]: End processing [tf-nightly]: success
+[2024-04-10 09:57:52] INFO root fetch - processPackages [auto-walrus]: Remove: archive file [/home/abi/fetcher/tmp/auto_walrus-0.3.0.tar.gz]
+[2024-04-10 09:57:52] INFO root fetch - processPackages [auto-walrus]: Remove: archive file [/home/abi/fetcher/tmp/auto_walrus-0.3.1.tar.gz]
+[2024-04-10 09:57:52] INFO root fetch - main [MainThread]: End processing [auto-walrus]: success
+[2024-04-10 09:57:52] INFO root fetch - processPackages [gaea-operator]: Remove: archive file [/home/abi/fetcher/tmp/gaea_operator-1.2.0.7-py3-none-any.whl.zip]
+[2024-04-10 09:57:52] INFO root fetch - processPackages [gaea-operator]: Remove: archive file [/home/abi/fetcher/tmp/gaea_operator-1.2.0.8-py3-none-any.whl.zip]
+[2024-04-10 09:57:52] INFO root fetch - main [MainThread]: End processing [gaea-operator]: success
+[2024-04-10 09:57:52] INFO root fetch - main [MainThread]: End processing [auto-walrus]: success
+[2024-04-10 09:57:52] INFO root fetch - processPackages [vf-portalytics]: Remove: archive file [/home/abi/fetcher/tmp/vf_portalytics-1.1.1.tar.gz]
+[2024-04-10 09:57:52] INFO root fetch - processPackages [vf-portalytics]: Remove: archive file [/home/abi/fetcher/tmp/vf_portalytics-1.1.2.tar.gz]
+[2024-04-10 09:57:52] INFO root fetch - main [MainThread]: End processing [vf-portalytics]: success
+[2024-04-10 09:57:54] INFO root fetch - processPackages [ggml-python]: Remove: archive file [/home/abi/fetcher/tmp/ggml-python-0.0.8.tar.gz]
+[2024-04-10 09:57:54] INFO root fetch - processPackages [ggml-python]: Remove: archive file [/home/abi/fetcher/tmp/ggml-python-0.0.9.tar.gz]
+[2024-04-10 09:57:54] INFO root fetch - main [MainThread]: End processing [ggml-python]: success
+[2024-04-10 09:57:54] INFO root fetch - main [MainThread]: Store serial: [22697384]

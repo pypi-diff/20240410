@@ -10298,3 +10298,18 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 05:10:22] INFO root fetch - processPackages [flake8-async]: Remove: archive file [/home/abi/fetcher/tmp/flake8-async-24.4.1.tar.gz]
 [2024-04-10 05:10:22] INFO root fetch - main [MainThread]: End processing [flake8-async]: success
 [2024-04-10 05:10:22] INFO root fetch - main [MainThread]: Store serial: [22694938]
+[2024-04-10 05:12:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22694938]
+[2024-04-10 05:12:31] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-10 05:12:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ros-cdk-ddospro
+[2024-04-10 05:12:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: agentkit-llm
+[2024-04-10 05:12:31] INFO root fetch - processPackages [ros-cdk-ddospro]: New version: [1.0.24] Old Version: [1.0.23]
+[2024-04-10 05:12:31] WARNING root fetch - processPackages [agentkit-llm]: Skipping, unable to determine old version
+[2024-04-10 05:12:31] INFO root fetch - main [MainThread]: End processing [agentkit-llm] error
+[2024-04-10 05:12:31] INFO root fetch - processPackages [ros-cdk-ddospro]: Downloading https://files.pythonhosted.org/packages/1c/3a/b20c529b98da479bcbe5e3116f1c4158ef4a55ee26107da9661bd4e173b0/ros-cdk-ddospro-1.0.23.tar.gz
+[2024-04-10 05:12:31] INFO root fetch - processPackages [ros-cdk-ddospro]: Downloading https://files.pythonhosted.org/packages/23/a5/e046dad2388bb9d556950930da1bf0a6f1f8f725aa320e886f7f08ec8a59/ros-cdk-ddospro-1.0.24.tar.gz
+[2024-04-10 05:12:32] INFO root fetch - processPackages [ros-cdk-ddospro]: executing diffoscope
+[2024-04-10 05:12:32] INFO root fetch - processPackages [ros-cdk-ddospro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-ddospro-1.0.23.tar.gz tmp/ros-cdk-ddospro-1.0.24.tar.gz --markdown 20240410/r/ros-cdk-ddospro/1.0.23-1.0.24/README.md --exclude *.pyd
+[2024-04-10 05:12:32] INFO root fetch - processPackages [ros-cdk-ddospro]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ddospro-1.0.23.tar.gz]
+[2024-04-10 05:12:32] INFO root fetch - processPackages [ros-cdk-ddospro]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ddospro-1.0.24.tar.gz]
+[2024-04-10 05:12:32] INFO root fetch - main [MainThread]: End processing [ros-cdk-ddospro]: success
+[2024-04-10 05:12:32] INFO root fetch - main [MainThread]: Store serial: [22694944]

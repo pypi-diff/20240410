@@ -18177,3 +18177,93 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 11:03:11] INFO root fetch - processPackages [pulumi-azuredevops]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuredevops-3.1.0a1712738665.tar.gz]
 [2024-04-10 11:03:11] INFO root fetch - main [MainThread]: End processing [pulumi-azuredevops]: success
 [2024-04-10 11:03:11] INFO root fetch - main [MainThread]: Store serial: [22698125]
+[2024-04-10 11:05:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22698125]
+[2024-04-10 11:05:21] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-10 11:05:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: awil-ft232h
+[2024-04-10 11:05:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qapp-qiskit
+[2024-04-10 11:05:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: NetworkXsimple
+[2024-04-10 11:05:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: LogToolKit
+[2024-04-10 11:05:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: neptune-sklearn
+[2024-04-10 11:05:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-ws-analytics
+[2024-04-10 11:05:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fmu-sumo
+[2024-04-10 11:05:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: headline-gen
+[2024-04-10 11:05:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: libro-ai
+[2024-04-10 11:05:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: libro
+[2024-04-10 11:05:21] INFO root fetch - processPackages [NetworkXsimple]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-10 11:05:21] WARNING root fetch - processPackages [headline-gen]: Skipping, unable to determine old version
+[2024-04-10 11:05:21] INFO root fetch - processPackages [headline-gen]: Start processing: sensirion-uart-scc1
+[2024-04-10 11:05:21] INFO root fetch - main [MainThread]: End processing [headline-gen] error
+[2024-04-10 11:05:21] INFO root fetch - processPackages [django-ws-analytics]: New version: [1.0.9] Old Version: [1.0.7]
+[2024-04-10 11:05:21] INFO root fetch - processPackages [neptune-sklearn]: New version: [2.1.3] Old Version: [2.1.2]
+[2024-04-10 11:05:21] INFO root fetch - processPackages [libro-ai]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-10 11:05:21] INFO root fetch - processPackages [qapp-qiskit]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-10 11:05:21] INFO root fetch - processPackages [libro]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-10 11:05:21] WARNING root fetch - processPackages [LogToolKit]: Skipping, unable to determine old version
+[2024-04-10 11:05:21] INFO root fetch - main [MainThread]: End processing [LogToolKit] error
+[2024-04-10 11:05:21] INFO root fetch - processPackages [awil-ft232h]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-10 11:05:21] INFO root fetch - processPackages [fmu-sumo]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-04-10 11:05:21] INFO root fetch - processPackages [NetworkXsimple]: Downloading https://files.pythonhosted.org/packages/87/80/600328c6fc0f34caca67bc3fac3c33188d926b8144f8f0c8130ba452e046/NetworkXsimple-0.1.4-py3-none-any.whl
+[2024-04-10 11:05:21] INFO root fetch - processPackages [django-ws-analytics]: Downloading https://files.pythonhosted.org/packages/6d/f9/1a5b5f917fd0beff2816e07e84872585fe96fc02754df2555428e369c9e9/django-ws-analytics-1.0.7.tar.gz
+[2024-04-10 11:05:21] INFO root fetch - processPackages [sensirion-uart-scc1]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-10 11:05:22] INFO root fetch - processPackages [awil-ft232h]: Downloading https://files.pythonhosted.org/packages/e0/a2/13c23cb2d1002f1a77b1eb75b04ed17d961da6d7f05038cf53315d66b9b0/awil_ft232h-0.1.0.tar.gz
+[2024-04-10 11:05:22] INFO root fetch - processPackages [neptune-sklearn]: Downloading https://files.pythonhosted.org/packages/f4/6b/bec10bf029b323975657e450610b6db8b416783cc026714886796602fcd1/neptune_sklearn-2.1.2.tar.gz
+[2024-04-10 11:05:22] INFO root fetch - processPackages [qapp-qiskit]: Downloading https://files.pythonhosted.org/packages/7c/18/7b7a1d6210b324de9c4c1962723d4928c92fc5eabd14e885cf2049eacd7d/qapp-qiskit-0.0.3.tar.gz
+[2024-04-10 11:05:22] INFO root fetch - processPackages [libro-ai]: Downloading https://files.pythonhosted.org/packages/d8/3a/5e8068d45b00e28aeca0a1e92600c078e474fdfdde3484e1f5955af37994/libro_ai-0.1.0.tar.gz
+[2024-04-10 11:05:22] INFO root fetch - processPackages [libro]: Downloading https://files.pythonhosted.org/packages/2a/4e/008852e52c488fb100a35aac6cabdb61e0085d1763905a2ef0193b6cd488/libro-0.1.2.tar.gz
+[2024-04-10 11:05:22] INFO root fetch - processPackages [fmu-sumo]: Downloading https://files.pythonhosted.org/packages/ab/dc/d38b02fd332992a0a7d7c3b18fe55ed4537978b92f49c31e22b7eb6567e3/fmu-sumo-1.2.0.tar.gz
+[2024-04-10 11:05:22] INFO root fetch - processPackages [django-ws-analytics]: Downloading https://files.pythonhosted.org/packages/60/4e/e84fd37a53687d65c63d95a5b49973cb5cee8905941f82fe705955fcd5f6/django-ws-analytics-1.0.9.tar.gz
+[2024-04-10 11:05:22] INFO root fetch - processPackages [sensirion-uart-scc1]: Downloading https://files.pythonhosted.org/packages/f1/53/6f42d4ceb52fb33ff20f35c0222f2cff8caf3bea33a274d68c05306d6d7f/sensirion_uart_scc1-1.1.0.tar.gz
+[2024-04-10 11:05:22] INFO root fetch - processPackages [NetworkXsimple]: Downloading https://files.pythonhosted.org/packages/42/ca/7e31191c438e6407d1078bc17f8ea787ce9860c6295f5b8a83e93e162b77/NetworkXsimple-0.1.5-py3-none-any.whl
+[2024-04-10 11:05:22] INFO root fetch - processPackages [django-ws-analytics]: executing diffoscope
+[2024-04-10 11:05:22] INFO root fetch - processPackages [django-ws-analytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-ws-analytics-1.0.7.tar.gz tmp/django-ws-analytics-1.0.9.tar.gz --markdown 20240410/d/django-ws-analytics/1.0.7-1.0.9/README.md --exclude *.pyd
+[2024-04-10 11:05:22] INFO root fetch - processPackages [neptune-sklearn]: Downloading https://files.pythonhosted.org/packages/ef/d0/cb10655ef722289eed1f14a1155a901b9178bcf42b8887485d4766d4accf/neptune_sklearn-2.1.3.tar.gz
+[2024-04-10 11:05:22] INFO root fetch - processPackages [NetworkXsimple]: executing diffoscope
+[2024-04-10 11:05:22] INFO root fetch - processPackages [NetworkXsimple]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NetworkXsimple-0.1.4-py3-none-any.whl.zip tmp/NetworkXsimple-0.1.5-py3-none-any.whl.zip --markdown 20240410/N/NetworkXsimple/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-10 11:05:22] INFO root fetch - processPackages [awil-ft232h]: Downloading https://files.pythonhosted.org/packages/a1/b3/4872b6c57927e44c5d9f4d39d5cb673b2e6d1a68d9c11e9ddb7f71f4d4cf/awil_ft232h-0.1.1.tar.gz
+[2024-04-10 11:05:22] INFO root fetch - processPackages [libro-ai]: Downloading https://files.pythonhosted.org/packages/b8/28/6fa4f03920bfaa3eb7b63ebfd6502a59d6f7f239bb6343f3946489a373e9/libro_ai-0.1.1.tar.gz
+[2024-04-10 11:05:22] INFO root fetch - processPackages [qapp-qiskit]: Downloading https://files.pythonhosted.org/packages/02/8d/1e0ebf32098d48012e043cb45fc11948bc0d4f7326eac19f87a7e31a5688/qapp-qiskit-0.0.4.tar.gz
+[2024-04-10 11:05:22] INFO root fetch - processPackages [sensirion-uart-scc1]: Downloading https://files.pythonhosted.org/packages/8b/4f/34babd004df07cdf65b0bec2c1a8f0c487a25a16a194cf6e9e7059598e77/sensirion_uart_scc1-1.1.1.tar.gz
+[2024-04-10 11:05:22] INFO root fetch - processPackages [neptune-sklearn]: executing diffoscope
+[2024-04-10 11:05:22] INFO root fetch - processPackages [neptune-sklearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neptune_sklearn-2.1.2.tar.gz tmp/neptune_sklearn-2.1.3.tar.gz --markdown 20240410/n/neptune-sklearn/2.1.2-2.1.3/README.md --exclude *.pyd
+[2024-04-10 11:05:22] INFO root fetch - processPackages [fmu-sumo]: Downloading https://files.pythonhosted.org/packages/be/a0/b9aa9dcbe1d27f4079e95afecf9c441a414e2ede05f07afca07e31d0b20a/fmu-sumo-1.2.1.tar.gz
+[2024-04-10 11:05:22] INFO root fetch - processPackages [awil-ft232h]: executing diffoscope
+[2024-04-10 11:05:22] INFO root fetch - processPackages [awil-ft232h]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awil_ft232h-0.1.0.tar.gz tmp/awil_ft232h-0.1.1.tar.gz --markdown 20240410/a/awil-ft232h/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-10 11:05:22] INFO root fetch - processPackages [libro-ai]: executing diffoscope
+[2024-04-10 11:05:22] INFO root fetch - processPackages [libro-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libro_ai-0.1.0.tar.gz tmp/libro_ai-0.1.1.tar.gz --markdown 20240410/l/libro-ai/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-10 11:05:22] INFO root fetch - processPackages [qapp-qiskit]: executing diffoscope
+[2024-04-10 11:05:22] INFO root fetch - processPackages [qapp-qiskit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qapp-qiskit-0.0.3.tar.gz tmp/qapp-qiskit-0.0.4.tar.gz --markdown 20240410/q/qapp-qiskit/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-10 11:05:22] INFO root fetch - processPackages [sensirion-uart-scc1]: executing diffoscope
+[2024-04-10 11:05:22] INFO root fetch - processPackages [sensirion-uart-scc1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sensirion_uart_scc1-1.1.0.tar.gz tmp/sensirion_uart_scc1-1.1.1.tar.gz --markdown 20240410/s/sensirion-uart-scc1/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-04-10 11:05:22] INFO root fetch - processPackages [fmu-sumo]: executing diffoscope
+[2024-04-10 11:05:22] INFO root fetch - processPackages [fmu-sumo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fmu-sumo-1.2.0.tar.gz tmp/fmu-sumo-1.2.1.tar.gz --markdown 20240410/f/fmu-sumo/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-04-10 11:05:23] INFO root fetch - processPackages [NetworkXsimple]: Remove: archive file [/home/abi/fetcher/tmp/NetworkXsimple-0.1.4-py3-none-any.whl.zip]
+[2024-04-10 11:05:23] INFO root fetch - processPackages [NetworkXsimple]: Remove: archive file [/home/abi/fetcher/tmp/NetworkXsimple-0.1.5-py3-none-any.whl.zip]
+[2024-04-10 11:05:23] INFO root fetch - main [MainThread]: End processing [NetworkXsimple]: success
+[2024-04-10 11:05:23] INFO root fetch - processPackages [django-ws-analytics]: Remove: archive file [/home/abi/fetcher/tmp/django-ws-analytics-1.0.7.tar.gz]
+[2024-04-10 11:05:23] INFO root fetch - processPackages [django-ws-analytics]: Remove: archive file [/home/abi/fetcher/tmp/django-ws-analytics-1.0.9.tar.gz]
+[2024-04-10 11:05:23] INFO root fetch - main [MainThread]: End processing [django-ws-analytics]: success
+[2024-04-10 11:05:23] INFO root fetch - processPackages [libro]: Downloading https://files.pythonhosted.org/packages/bd/29/0b05b8287d512c7720136a179ed4f47c754c4e80e1f537168c8482ce0954/libro-0.1.3.tar.gz
+[2024-04-10 11:05:23] INFO root fetch - processPackages [neptune-sklearn]: Remove: archive file [/home/abi/fetcher/tmp/neptune_sklearn-2.1.2.tar.gz]
+[2024-04-10 11:05:23] INFO root fetch - processPackages [neptune-sklearn]: Remove: archive file [/home/abi/fetcher/tmp/neptune_sklearn-2.1.3.tar.gz]
+[2024-04-10 11:05:23] INFO root fetch - main [MainThread]: End processing [neptune-sklearn]: success
+[2024-04-10 11:05:23] INFO root fetch - processPackages [awil-ft232h]: Remove: archive file [/home/abi/fetcher/tmp/awil_ft232h-0.1.0.tar.gz]
+[2024-04-10 11:05:23] INFO root fetch - processPackages [awil-ft232h]: Remove: archive file [/home/abi/fetcher/tmp/awil_ft232h-0.1.1.tar.gz]
+[2024-04-10 11:05:23] INFO root fetch - main [MainThread]: End processing [awil-ft232h]: success
+[2024-04-10 11:05:24] INFO root fetch - processPackages [qapp-qiskit]: Remove: archive file [/home/abi/fetcher/tmp/qapp-qiskit-0.0.3.tar.gz]
+[2024-04-10 11:05:24] INFO root fetch - processPackages [qapp-qiskit]: Remove: archive file [/home/abi/fetcher/tmp/qapp-qiskit-0.0.4.tar.gz]
+[2024-04-10 11:05:24] INFO root fetch - main [MainThread]: End processing [qapp-qiskit]: success
+[2024-04-10 11:05:24] INFO root fetch - processPackages [libro-ai]: Remove: archive file [/home/abi/fetcher/tmp/libro_ai-0.1.0.tar.gz]
+[2024-04-10 11:05:24] INFO root fetch - processPackages [libro-ai]: Remove: archive file [/home/abi/fetcher/tmp/libro_ai-0.1.1.tar.gz]
+[2024-04-10 11:05:24] INFO root fetch - main [MainThread]: End processing [libro-ai]: success
+[2024-04-10 11:05:24] INFO root fetch - processPackages [sensirion-uart-scc1]: Remove: archive file [/home/abi/fetcher/tmp/sensirion_uart_scc1-1.1.0.tar.gz]
+[2024-04-10 11:05:24] INFO root fetch - processPackages [sensirion-uart-scc1]: Remove: archive file [/home/abi/fetcher/tmp/sensirion_uart_scc1-1.1.1.tar.gz]
+[2024-04-10 11:05:24] INFO root fetch - main [MainThread]: End processing [sensirion-uart-scc1]: success
+[2024-04-10 11:05:24] INFO root fetch - processPackages [libro]: executing diffoscope
+[2024-04-10 11:05:24] INFO root fetch - processPackages [libro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libro-0.1.2.tar.gz tmp/libro-0.1.3.tar.gz --markdown 20240410/l/libro/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-10 11:05:24] INFO root fetch - processPackages [fmu-sumo]: Remove: archive file [/home/abi/fetcher/tmp/fmu-sumo-1.2.0.tar.gz]
+[2024-04-10 11:05:24] INFO root fetch - processPackages [fmu-sumo]: Remove: archive file [/home/abi/fetcher/tmp/fmu-sumo-1.2.1.tar.gz]
+[2024-04-10 11:05:24] INFO root fetch - main [MainThread]: End processing [fmu-sumo]: success
+[2024-04-10 11:05:26] INFO root fetch - processPackages [libro]: Remove: archive file [/home/abi/fetcher/tmp/libro-0.1.2.tar.gz]
+[2024-04-10 11:05:26] INFO root fetch - processPackages [libro]: Remove: archive file [/home/abi/fetcher/tmp/libro-0.1.3.tar.gz]
+[2024-04-10 11:05:26] INFO root fetch - main [MainThread]: End processing [libro]: success
+[2024-04-10 11:05:26] INFO root fetch - main [MainThread]: Store serial: [22698160]

@@ -12325,3 +12325,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 06:33:16] INFO root fetch - processPackages [ros-cdk-cdn]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cdn-1.0.9.tar.gz]
 [2024-04-10 06:33:16] INFO root fetch - main [MainThread]: End processing [ros-cdk-cdn]: success
 [2024-04-10 06:33:16] INFO root fetch - main [MainThread]: Store serial: [22695769]
+[2024-04-10 06:35:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22695769]
+[2024-04-10 06:35:25] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-10 06:35:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: swebench
+[2024-04-10 06:35:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-datapath
+[2024-04-10 06:35:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ros-cdk-devops
+[2024-04-10 06:35:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ros-cdk-hbase
+[2024-04-10 06:35:26] INFO root fetch - processPackages [swebench]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-04-10 06:35:26] INFO root fetch - processPackages [ros-cdk-hbase]: New version: [1.0.24] Old Version: [1.0.23]
+[2024-04-10 06:35:26] INFO root fetch - processPackages [ros-cdk-devops]: New version: [1.0.24] Old Version: [1.0.23]
+[2024-04-10 06:35:26] INFO root fetch - processPackages [python-datapath]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-04-10 06:35:26] INFO root fetch - processPackages [swebench]: Downloading https://files.pythonhosted.org/packages/9b/cd/6846cb14bfd63de3cd2119af43e14c283499922ce516f57532f4e172c244/swebench-1.0.7.tar.gz
+[2024-04-10 06:35:26] INFO root fetch - processPackages [ros-cdk-devops]: Downloading https://files.pythonhosted.org/packages/47/8d/0fc36662134bd211b22d94d9cc5850758edbbad77bcf6e9122602d0674ec/ros-cdk-devops-1.0.23.tar.gz
+[2024-04-10 06:35:26] INFO root fetch - processPackages [python-datapath]: Downloading https://files.pythonhosted.org/packages/bd/ff/f6193855cec747b4025acb568b0c14f0cb2fd45470254fe48a25b5e9c22a/python-datapath-0.1.2.tar.gz
+[2024-04-10 06:35:26] INFO root fetch - processPackages [ros-cdk-hbase]: Downloading https://files.pythonhosted.org/packages/7e/ff/d3519283badc5e24f7c4011d8a5555d8e2dd603745774324baef7a77d917/ros-cdk-hbase-1.0.23.tar.gz
+[2024-04-10 06:35:26] INFO root fetch - processPackages [swebench]: Downloading https://files.pythonhosted.org/packages/9f/5f/e1b27b554c9d461ee219864c4084395d8c393b8c84491f779e65107362bb/swebench-1.0.8.tar.gz
+[2024-04-10 06:35:26] INFO root fetch - processPackages [swebench]: executing diffoscope
+[2024-04-10 06:35:26] INFO root fetch - processPackages [swebench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swebench-1.0.7.tar.gz tmp/swebench-1.0.8.tar.gz --markdown 20240410/s/swebench/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-04-10 06:35:26] INFO root fetch - processPackages [ros-cdk-devops]: Downloading https://files.pythonhosted.org/packages/01/6c/7cc06a8a3cff6298ec90f16013ce483a02eee225bb340920bfc3489da0f8/ros-cdk-devops-1.0.24.tar.gz
+[2024-04-10 06:35:26] INFO root fetch - processPackages [ros-cdk-hbase]: Downloading https://files.pythonhosted.org/packages/93/79/e1ff99239921244115367edd5de23a28cf9114bed583681f2310ecef59ac/ros-cdk-hbase-1.0.24.tar.gz
+[2024-04-10 06:35:26] INFO root fetch - processPackages [python-datapath]: Downloading https://files.pythonhosted.org/packages/2c/08/675c427eea49e535552467e7cc9807a6dbeafcff2b2103d763d197745648/python-datapath-0.2.0.tar.gz
+[2024-04-10 06:35:26] INFO root fetch - processPackages [ros-cdk-devops]: executing diffoscope
+[2024-04-10 06:35:26] INFO root fetch - processPackages [ros-cdk-devops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-devops-1.0.23.tar.gz tmp/ros-cdk-devops-1.0.24.tar.gz --markdown 20240410/r/ros-cdk-devops/1.0.23-1.0.24/README.md --exclude *.pyd
+[2024-04-10 06:35:26] INFO root fetch - processPackages [ros-cdk-hbase]: executing diffoscope
+[2024-04-10 06:35:26] INFO root fetch - processPackages [ros-cdk-hbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-hbase-1.0.23.tar.gz tmp/ros-cdk-hbase-1.0.24.tar.gz --markdown 20240410/r/ros-cdk-hbase/1.0.23-1.0.24/README.md --exclude *.pyd
+[2024-04-10 06:35:27] INFO root fetch - processPackages [python-datapath]: executing diffoscope
+[2024-04-10 06:35:27] INFO root fetch - processPackages [python-datapath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-datapath-0.1.2.tar.gz tmp/python-datapath-0.2.0.tar.gz --markdown 20240410/p/python-datapath/0.1.2-0.2.0/README.md --exclude *.pyd
+[2024-04-10 06:35:27] INFO root fetch - processPackages [ros-cdk-devops]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-devops-1.0.23.tar.gz]
+[2024-04-10 06:35:27] INFO root fetch - processPackages [ros-cdk-devops]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-devops-1.0.24.tar.gz]
+[2024-04-10 06:35:27] INFO root fetch - main [MainThread]: End processing [ros-cdk-devops]: success
+[2024-04-10 06:35:27] INFO root fetch - processPackages [swebench]: Remove: archive file [/home/abi/fetcher/tmp/swebench-1.0.7.tar.gz]
+[2024-04-10 06:35:27] INFO root fetch - processPackages [swebench]: Remove: archive file [/home/abi/fetcher/tmp/swebench-1.0.8.tar.gz]
+[2024-04-10 06:35:27] INFO root fetch - main [MainThread]: End processing [swebench]: success
+[2024-04-10 06:35:27] INFO root fetch - processPackages [ros-cdk-hbase]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-hbase-1.0.23.tar.gz]
+[2024-04-10 06:35:27] INFO root fetch - processPackages [ros-cdk-hbase]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-hbase-1.0.24.tar.gz]
+[2024-04-10 06:35:27] INFO root fetch - main [MainThread]: End processing [ros-cdk-hbase]: success
+[2024-04-10 06:35:27] INFO root fetch - processPackages [python-datapath]: Remove: archive file [/home/abi/fetcher/tmp/python-datapath-0.1.2.tar.gz]
+[2024-04-10 06:35:27] INFO root fetch - processPackages [python-datapath]: Remove: archive file [/home/abi/fetcher/tmp/python-datapath-0.2.0.tar.gz]
+[2024-04-10 06:35:27] INFO root fetch - main [MainThread]: End processing [python-datapath]: success
+[2024-04-10 06:35:27] INFO root fetch - main [MainThread]: Store serial: [22695779]

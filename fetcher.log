@@ -10121,3 +10121,27 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 04:59:27] INFO root fetch - processPackages [llama-index-output-parsers-guardrails]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_output_parsers_guardrails-0.1.3.tar.gz]
 [2024-04-10 04:59:27] INFO root fetch - main [MainThread]: End processing [llama-index-output-parsers-guardrails]: success
 [2024-04-10 04:59:27] INFO root fetch - main [MainThread]: Store serial: [22694867]
+[2024-04-10 05:01:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22694867]
+[2024-04-10 05:01:36] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-10 05:01:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ilovetea
+[2024-04-10 05:01:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ros-cdk-fc
+[2024-04-10 05:01:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ros-cdk-edsuser
+[2024-04-10 05:01:36] WARNING root fetch - processPackages [ilovetea]: Skipping, unable to determine old version
+[2024-04-10 05:01:36] INFO root fetch - main [MainThread]: End processing [ilovetea] error
+[2024-04-10 05:01:36] INFO root fetch - processPackages [ros-cdk-fc]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-10 05:01:36] INFO root fetch - processPackages [ros-cdk-edsuser]: New version: [1.0.24] Old Version: [1.0.23]
+[2024-04-10 05:01:36] INFO root fetch - processPackages [ros-cdk-fc]: Downloading https://files.pythonhosted.org/packages/61/78/d1c3689c7abecf159bab495320942beb7efda9e9783bb86b6e2602bf46f7/ros-cdk-fc-1.0.8.tar.gz
+[2024-04-10 05:01:36] INFO root fetch - processPackages [ros-cdk-edsuser]: Downloading https://files.pythonhosted.org/packages/f9/63/c565fe8deaf949eaa84b66c5c07b1ccb24f15dbc0eb3b57d40590cf315d1/ros-cdk-edsuser-1.0.23.tar.gz
+[2024-04-10 05:01:37] INFO root fetch - processPackages [ros-cdk-edsuser]: Downloading https://files.pythonhosted.org/packages/76/7b/5349a3d19fd81c29e839dfaaae3154498c6943adcc06edd841e22ae6edae/ros-cdk-edsuser-1.0.24.tar.gz
+[2024-04-10 05:01:37] INFO root fetch - processPackages [ros-cdk-fc]: Downloading https://files.pythonhosted.org/packages/fd/27/482ea068c777bfd44a3cbe58f164d37f9252fae637b4de451c550f9dc463/ros-cdk-fc-1.0.9.tar.gz
+[2024-04-10 05:01:37] INFO root fetch - processPackages [ros-cdk-edsuser]: executing diffoscope
+[2024-04-10 05:01:37] INFO root fetch - processPackages [ros-cdk-edsuser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-edsuser-1.0.23.tar.gz tmp/ros-cdk-edsuser-1.0.24.tar.gz --markdown 20240410/r/ros-cdk-edsuser/1.0.23-1.0.24/README.md --exclude *.pyd
+[2024-04-10 05:01:37] INFO root fetch - processPackages [ros-cdk-fc]: executing diffoscope
+[2024-04-10 05:01:37] INFO root fetch - processPackages [ros-cdk-fc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-fc-1.0.8.tar.gz tmp/ros-cdk-fc-1.0.9.tar.gz --markdown 20240410/r/ros-cdk-fc/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-10 05:01:37] INFO root fetch - processPackages [ros-cdk-edsuser]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-edsuser-1.0.23.tar.gz]
+[2024-04-10 05:01:37] INFO root fetch - processPackages [ros-cdk-edsuser]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-edsuser-1.0.24.tar.gz]
+[2024-04-10 05:01:37] INFO root fetch - main [MainThread]: End processing [ros-cdk-edsuser]: success
+[2024-04-10 05:01:37] INFO root fetch - processPackages [ros-cdk-fc]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-fc-1.0.8.tar.gz]
+[2024-04-10 05:01:37] INFO root fetch - processPackages [ros-cdk-fc]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-fc-1.0.9.tar.gz]
+[2024-04-10 05:01:37] INFO root fetch - main [MainThread]: End processing [ros-cdk-fc]: success
+[2024-04-10 05:01:37] INFO root fetch - main [MainThread]: Store serial: [22694877]

@@ -18614,3 +18614,72 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 11:18:48] INFO root fetch - processPackages [pami]: Remove: archive file [/home/abi/fetcher/tmp/pami-2024.4.9.1.tar.gz]
 [2024-04-10 11:18:48] INFO root fetch - main [MainThread]: End processing [pami]: success
 [2024-04-10 11:18:48] INFO root fetch - main [MainThread]: Store serial: [22698330]
+[2024-04-10 11:20:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22698330]
+[2024-04-10 11:20:57] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-10 11:20:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyProfQueue
+[2024-04-10 11:20:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adb-pywrapper
+[2024-04-10 11:20:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pih-plb-ntf-answ
+[2024-04-10 11:20:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: safeline
+[2024-04-10 11:20:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: swarmauri
+[2024-04-10 11:20:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: agricore_sp_models
+[2024-04-10 11:20:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: power-grid-model
+[2024-04-10 11:20:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pynanopore
+[2024-04-10 11:20:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cally
+[2024-04-10 11:20:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: galitime
+[2024-04-10 11:20:57] WARNING root fetch - processPackages [pih-plb-ntf-answ]: Skipping, unable to determine old version
+[2024-04-10 11:20:57] INFO root fetch - main [MainThread]: End processing [pih-plb-ntf-answ] error
+[2024-04-10 11:20:57] INFO root fetch - processPackages [PyProfQueue]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-10 11:20:57] INFO root fetch - processPackages [agricore_sp_models]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-04-10 11:20:57] WARNING root fetch - processPackages [safeline]: Skipping, unable to determine old version
+[2024-04-10 11:20:57] INFO root fetch - main [MainThread]: End processing [safeline] error
+[2024-04-10 11:20:57] INFO root fetch - processPackages [swarmauri]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-10 11:20:57] WARNING root fetch - processPackages [adb-pywrapper]: Skipping, unable to determine old version
+[2024-04-10 11:20:57] INFO root fetch - main [MainThread]: End processing [adb-pywrapper] error
+[2024-04-10 11:20:57] INFO root fetch - processPackages [PyProfQueue]: Downloading https://files.pythonhosted.org/packages/28/fc/b83adfd1cab0f0b957637faa3235bb1caadc4df0199204be386faf382531/PyProfQueue-0.1.1.tar.gz
+[2024-04-10 11:20:57] INFO root fetch - processPackages [agricore_sp_models]: Downloading https://files.pythonhosted.org/packages/99/3b/b1847ba262596ccdb2f2745d722aa75dade6d77edde9077aa24e0867d5f0/agricore_sp_models-0.5.8.tar.gz
+[2024-04-10 11:20:57] INFO root fetch - processPackages [cally]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-10 11:20:57] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/6f/f9/130aeeef865461afb5cc003721ceb7c3ebcd9ef2fe49fd812b8532fb5035/swarmauri-0.1.8.tar.gz
+[2024-04-10 11:20:57] INFO root fetch - processPackages [pynanopore]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-10 11:20:57] WARNING root fetch - processPackages [galitime]: Skipping, unable to determine old version
+[2024-04-10 11:20:57] INFO root fetch - main [MainThread]: End processing [galitime] error
+[2024-04-10 11:20:57] INFO root fetch - processPackages [power-grid-model]: New version: [1.7.9] Old Version: [1.7.8a1374103622511]
+[2024-04-10 11:20:57] INFO root fetch - processPackages [agricore_sp_models]: Downloading https://files.pythonhosted.org/packages/4f/c3/15dc30bfa86b2dc97f35cb28d8ef45f99d8a64f480013f5b15c7b47dde11/agricore_sp_models-0.5.9.tar.gz
+[2024-04-10 11:20:57] INFO root fetch - processPackages [pynanopore]: Downloading https://files.pythonhosted.org/packages/4b/91/7d32b08c3defcdfa06ccefa7cafae7654ba2e940569ab638bdd614587f12/pynanopore-1.1.0.tar.gz
+[2024-04-10 11:20:57] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/c7/70/0b55d158ba42355a67cda5d200e3d5817bac0a8e9ce2da2bf294eb6b03ec/swarmauri-0.1.9.tar.gz
+[2024-04-10 11:20:57] INFO root fetch - processPackages [cally]: Downloading https://files.pythonhosted.org/packages/b1/8f/febdd02bd0ac468392798130176b97aa04aab408baffe97ff1f962c737f2/cally-0.3.0.tar.gz
+[2024-04-10 11:20:57] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/f2/89/c6c2797d33b80597aba4cfaa3eb46b859cefaabca623a75550c89a3289f7/power-grid-model-1.7.8a1374103622511.tar.gz
+[2024-04-10 11:20:57] INFO root fetch - processPackages [agricore_sp_models]: executing diffoscope
+[2024-04-10 11:20:57] INFO root fetch - processPackages [agricore_sp_models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agricore_sp_models-0.5.8.tar.gz tmp/agricore_sp_models-0.5.9.tar.gz --markdown 20240410/a/agricore_sp_models/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-04-10 11:20:58] INFO root fetch - processPackages [PyProfQueue]: Downloading https://files.pythonhosted.org/packages/44/53/a299e086a125e63c8de19e57f6fd927c27688c14a70e069005eed50f08a1/PyProfQueue-0.1.2.tar.gz
+[2024-04-10 11:20:58] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-04-10 11:20:58] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.8.tar.gz tmp/swarmauri-0.1.9.tar.gz --markdown 20240410/s/swarmauri/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-10 11:20:58] INFO root fetch - processPackages [PyProfQueue]: executing diffoscope
+[2024-04-10 11:20:58] INFO root fetch - processPackages [PyProfQueue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyProfQueue-0.1.1.tar.gz tmp/PyProfQueue-0.1.2.tar.gz --markdown 20240410/P/PyProfQueue/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-10 11:20:58] INFO root fetch - processPackages [pynanopore]: Downloading https://files.pythonhosted.org/packages/7c/90/6817ee409de2c1baaa755add97a31ff4bdd77bf6b06d707b9333732e51c7/pynanopore-1.1.1.tar.gz
+[2024-04-10 11:20:58] INFO root fetch - processPackages [cally]: Downloading https://files.pythonhosted.org/packages/4e/ed/d19b11549222bd789f21634709a400317c00d5205e061b0ee386b8962a96/cally-0.4.0.tar.gz
+[2024-04-10 11:20:58] INFO root fetch - processPackages [pynanopore]: executing diffoscope
+[2024-04-10 11:20:58] INFO root fetch - processPackages [pynanopore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynanopore-1.1.0.tar.gz tmp/pynanopore-1.1.1.tar.gz --markdown 20240410/p/pynanopore/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-04-10 11:20:58] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/56/2b/86814a7f75dec690d4b62403c87b2b3b5aa0b3c73f37f4294b843a74b0d9/power-grid-model-1.7.9.tar.gz
+[2024-04-10 11:20:58] INFO root fetch - processPackages [cally]: executing diffoscope
+[2024-04-10 11:20:58] INFO root fetch - processPackages [cally]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cally-0.3.0.tar.gz tmp/cally-0.4.0.tar.gz --markdown 20240410/c/cally/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-04-10 11:20:58] INFO root fetch - processPackages [power-grid-model]: executing diffoscope
+[2024-04-10 11:20:58] INFO root fetch - processPackages [power-grid-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power-grid-model-1.7.8a1374103622511.tar.gz tmp/power-grid-model-1.7.9.tar.gz --markdown 20240410/p/power-grid-model/1.7.8a1374103622511-1.7.9/README.md --exclude *.pyd
+[2024-04-10 11:20:58] INFO root fetch - processPackages [agricore_sp_models]: Remove: archive file [/home/abi/fetcher/tmp/agricore_sp_models-0.5.8.tar.gz]
+[2024-04-10 11:20:58] INFO root fetch - processPackages [agricore_sp_models]: Remove: archive file [/home/abi/fetcher/tmp/agricore_sp_models-0.5.9.tar.gz]
+[2024-04-10 11:20:58] INFO root fetch - main [MainThread]: End processing [agricore_sp_models]: success
+[2024-04-10 11:20:58] INFO root fetch - processPackages [PyProfQueue]: Remove: archive file [/home/abi/fetcher/tmp/PyProfQueue-0.1.1.tar.gz]
+[2024-04-10 11:20:58] INFO root fetch - processPackages [PyProfQueue]: Remove: archive file [/home/abi/fetcher/tmp/PyProfQueue-0.1.2.tar.gz]
+[2024-04-10 11:20:58] INFO root fetch - main [MainThread]: End processing [PyProfQueue]: success
+[2024-04-10 11:20:58] INFO root fetch - processPackages [pynanopore]: Remove: archive file [/home/abi/fetcher/tmp/pynanopore-1.1.0.tar.gz]
+[2024-04-10 11:20:58] INFO root fetch - processPackages [pynanopore]: Remove: archive file [/home/abi/fetcher/tmp/pynanopore-1.1.1.tar.gz]
+[2024-04-10 11:20:58] INFO root fetch - main [MainThread]: End processing [pynanopore]: success
+[2024-04-10 11:20:59] INFO root fetch - processPackages [cally]: Remove: archive file [/home/abi/fetcher/tmp/cally-0.3.0.tar.gz]
+[2024-04-10 11:20:59] INFO root fetch - processPackages [cally]: Remove: archive file [/home/abi/fetcher/tmp/cally-0.4.0.tar.gz]
+[2024-04-10 11:20:59] INFO root fetch - main [MainThread]: End processing [cally]: success
+[2024-04-10 11:20:59] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.8.tar.gz]
+[2024-04-10 11:20:59] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.9.tar.gz]
+[2024-04-10 11:20:59] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-04-10 11:21:00] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.7.8a1374103622511.tar.gz]
+[2024-04-10 11:21:00] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.7.9.tar.gz]
+[2024-04-10 11:21:00] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
+[2024-04-10 11:21:00] INFO root fetch - main [MainThread]: Store serial: [22698370]

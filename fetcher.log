@@ -18713,3 +18713,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 11:23:13] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
 [2024-04-10 11:23:13] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
 [2024-04-10 11:23:13] INFO root fetch - main [MainThread]: Store serial: [22698380]
+[2024-04-10 11:25:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22698380]
+[2024-04-10 11:25:25] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-10 11:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pih
+[2024-04-10 11:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cloudsmith-api
+[2024-04-10 11:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: twnlog
+[2024-04-10 11:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: klvm-tools-rs
+[2024-04-10 11:25:25] INFO root fetch - processPackages [pih]: New version: [0.36] Old Version: [0.35]
+[2024-04-10 11:25:25] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/af/ec/cbb1d7c9b6a7cc208b0f65c3abb31e2baa1b21f0cdb05b29a8350b3d9ce1/pih-0.35.tar.gz
+[2024-04-10 11:25:25] INFO root fetch - processPackages [cloudsmith-api]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-10 11:25:25] WARNING root fetch - processPackages [twnlog]: Skipping, unable to determine old version
+[2024-04-10 11:25:25] INFO root fetch - main [MainThread]: End processing [twnlog] error
+[2024-04-10 11:25:25] INFO root fetch - processPackages [klvm-tools-rs]: New version: [0.1.41] Old Version: [0.1.40]
+[2024-04-10 11:25:25] INFO root fetch - processPackages [cloudsmith-api]: Downloading https://files.pythonhosted.org/packages/2c/70/40d894469d7e1c7a20af75ec1f95336fb086ab4f46bb54e5abf8b86acb15/cloudsmith_api-2.0.8-py2.py3-none-any.whl
+[2024-04-10 11:25:25] INFO root fetch - processPackages [klvm-tools-rs]: Downloading https://files.pythonhosted.org/packages/31/52/862b44f0d07ba9b23303c4f8df0af1c263210ae5e1113c1427ddb982f654/klvm_tools_rs-0.1.40-cp38-abi3-win_amd64.whl
+[2024-04-10 11:25:25] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/db/52/8bb79f738f84e599c63e47849ff8f71739519c0ee9bad1a6c2ca498a5672/pih-0.36.tar.gz
+[2024-04-10 11:25:25] INFO root fetch - processPackages [pih]: executing diffoscope
+[2024-04-10 11:25:25] INFO root fetch - processPackages [pih]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-0.35.tar.gz tmp/pih-0.36.tar.gz --markdown 20240410/p/pih/0.35-0.36/README.md --exclude *.pyd
+[2024-04-10 11:25:25] INFO root fetch - processPackages [cloudsmith-api]: Downloading https://files.pythonhosted.org/packages/5e/82/4aec5dbc3a2817d8781e0127f8a9198d58d313759830601237ae9a1936c4/cloudsmith_api-2.0.9-py2.py3-none-any.whl
+[2024-04-10 11:25:26] INFO root fetch - processPackages [cloudsmith-api]: executing diffoscope
+[2024-04-10 11:25:26] INFO root fetch - processPackages [cloudsmith-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudsmith_api-2.0.8-py2.py3-none-any.whl.zip tmp/cloudsmith_api-2.0.9-py2.py3-none-any.whl.zip --markdown 20240410/c/cloudsmith-api/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-04-10 11:25:26] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.35.tar.gz]
+[2024-04-10 11:25:26] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.36.tar.gz]
+[2024-04-10 11:25:26] INFO root fetch - main [MainThread]: End processing [pih]: success
+[2024-04-10 11:25:26] INFO root fetch - processPackages [klvm-tools-rs]: Downloading https://files.pythonhosted.org/packages/e9/e5/2177d4a34f155e8e918b3515e28028abd15e02e75367609a29b8832dfda7/klvm_tools_rs-0.1.41-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-10 11:25:27] INFO root fetch - processPackages [klvm-tools-rs]: executing diffoscope
+[2024-04-10 11:25:27] INFO root fetch - processPackages [klvm-tools-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klvm_tools_rs-0.1.40-cp38-abi3-win_amd64.whl.zip tmp/klvm_tools_rs-0.1.41-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240410/k/klvm-tools-rs/0.1.40-0.1.41/README.md --exclude *.pyd
+[2024-04-10 11:25:28] INFO root fetch - processPackages [cloudsmith-api]: Remove: archive file [/home/abi/fetcher/tmp/cloudsmith_api-2.0.8-py2.py3-none-any.whl.zip]
+[2024-04-10 11:25:28] INFO root fetch - processPackages [cloudsmith-api]: Remove: archive file [/home/abi/fetcher/tmp/cloudsmith_api-2.0.9-py2.py3-none-any.whl.zip]
+[2024-04-10 11:25:28] INFO root fetch - main [MainThread]: End processing [cloudsmith-api]: success
+[2024-04-10 11:25:28] INFO root fetch - processPackages [klvm-tools-rs]: Remove: archive file [/home/abi/fetcher/tmp/klvm_tools_rs-0.1.40-cp38-abi3-win_amd64.whl.zip]
+[2024-04-10 11:25:28] INFO root fetch - processPackages [klvm-tools-rs]: Remove: archive file [/home/abi/fetcher/tmp/klvm_tools_rs-0.1.41-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-10 11:25:28] INFO root fetch - main [MainThread]: End processing [klvm-tools-rs]: success
+[2024-04-10 11:25:28] INFO root fetch - main [MainThread]: Store serial: [22698385]

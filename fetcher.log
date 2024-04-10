@@ -13722,3 +13722,44 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 08:05:08] WARNING root fetch - processPackages [cbzm]: Skipping, unable to determine old version
 [2024-04-10 08:05:08] INFO root fetch - main [MainThread]: End processing [cbzm] error
 [2024-04-10 08:05:08] INFO root fetch - main [MainThread]: Store serial: [22696302]
+[2024-04-10 08:07:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22696302]
+[2024-04-10 08:07:16] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-10 08:07:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tablemaster
+[2024-04-10 08:07:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-hcloud
+[2024-04-10 08:07:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-keycloak
+[2024-04-10 08:07:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wolfcode
+[2024-04-10 08:07:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: antifungal
+[2024-04-10 08:07:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nfgan
+[2024-04-10 08:07:17] WARNING root fetch - processPackages [nfgan]: Skipping, unable to determine old version
+[2024-04-10 08:07:17] INFO root fetch - main [MainThread]: End processing [nfgan] error
+[2024-04-10 08:07:17] INFO root fetch - processPackages [pulumi-hcloud]: New version: [1.9.0a1657117726] Old Version: [1.9.0a1654086467]
+[2024-04-10 08:07:17] INFO root fetch - processPackages [antifungal]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-10 08:07:17] INFO root fetch - processPackages [tablemaster]: New version: [1.2.0] Old Version: [1.1.5]
+[2024-04-10 08:07:17] WARNING root fetch - processPackages [wolfcode]: Skipping, unable to determine old version
+[2024-04-10 08:07:17] INFO root fetch - main [MainThread]: End processing [wolfcode] error
+[2024-04-10 08:07:17] INFO root fetch - processPackages [pulumi-keycloak]: New version: [5.4.0a1712727897] Old Version: [5.4.0a1712641141]
+[2024-04-10 08:07:17] INFO root fetch - processPackages [pulumi-hcloud]: Downloading https://files.pythonhosted.org/packages/9e/22/c81b563f1969f4bcdaa7c4060d0d67a0d9deb4bc415487e125f459e269e7/pulumi_hcloud-1.9.0a1654086467.tar.gz
+[2024-04-10 08:07:17] INFO root fetch - processPackages [antifungal]: Downloading https://files.pythonhosted.org/packages/7a/6b/31b58b53ca2fc1f42258684b50cb9ab71ac8f5a448454f5b8d37762d5673/antifungal-0.1.0.tar.gz
+[2024-04-10 08:07:17] INFO root fetch - processPackages [tablemaster]: Downloading https://files.pythonhosted.org/packages/27/8f/b78a5ccdee19394e4e67f329923d4f2d98cfa858bdcb8d6b728aa7068d53/tablemaster-1.1.5.tar.gz
+[2024-04-10 08:07:17] INFO root fetch - processPackages [pulumi-keycloak]: Downloading https://files.pythonhosted.org/packages/67/0e/cb52141f7423e1bd69578f593c25427713f0f2e760b9cdd596cd2cb42c5e/pulumi_keycloak-5.4.0a1712641141.tar.gz
+[2024-04-10 08:07:17] WARNING root fetch - processPackages [antifungal]: Skipping package: exceeds size limit 27680071>=10485760
+[2024-04-10 08:07:17] INFO root fetch - main [MainThread]: End processing [antifungal] error
+[2024-04-10 08:07:17] INFO root fetch - processPackages [pulumi-hcloud]: Downloading https://files.pythonhosted.org/packages/de/c3/b526f6942ee390fb3e0e080d961419b28ee26cada0150934184297ffeb15/pulumi_hcloud-1.9.0a1657117726.tar.gz
+[2024-04-10 08:07:17] INFO root fetch - processPackages [tablemaster]: Downloading https://files.pythonhosted.org/packages/9c/64/ee4460cb7612edbea7c7171c9f5de785e7ceb162214ca7fd248419252f28/tablemaster-1.2.0.tar.gz
+[2024-04-10 08:07:17] INFO root fetch - processPackages [pulumi-hcloud]: executing diffoscope
+[2024-04-10 08:07:17] INFO root fetch - processPackages [pulumi-hcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_hcloud-1.9.0a1654086467.tar.gz tmp/pulumi_hcloud-1.9.0a1657117726.tar.gz --markdown 20240410/p/pulumi-hcloud/1.9.0a1654086467-1.9.0a1657117726/README.md --exclude *.pyd
+[2024-04-10 08:07:17] INFO root fetch - processPackages [tablemaster]: executing diffoscope
+[2024-04-10 08:07:17] INFO root fetch - processPackages [tablemaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablemaster-1.1.5.tar.gz tmp/tablemaster-1.2.0.tar.gz --markdown 20240410/t/tablemaster/1.1.5-1.2.0/README.md --exclude *.pyd
+[2024-04-10 08:07:17] INFO root fetch - processPackages [pulumi-keycloak]: Downloading https://files.pythonhosted.org/packages/81/ab/5bf7e53fcb4919f15e115f6d70edf0c6f44782b7b04e6f19aa1cb0d705d6/pulumi_keycloak-5.4.0a1712727897.tar.gz
+[2024-04-10 08:07:17] INFO root fetch - processPackages [pulumi-keycloak]: executing diffoscope
+[2024-04-10 08:07:17] INFO root fetch - processPackages [pulumi-keycloak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_keycloak-5.4.0a1712641141.tar.gz tmp/pulumi_keycloak-5.4.0a1712727897.tar.gz --markdown 20240410/p/pulumi-keycloak/5.4.0a1712641141-5.4.0a1712727897/README.md --exclude *.pyd
+[2024-04-10 08:07:18] INFO root fetch - processPackages [tablemaster]: Remove: archive file [/home/abi/fetcher/tmp/tablemaster-1.1.5.tar.gz]
+[2024-04-10 08:07:18] INFO root fetch - processPackages [tablemaster]: Remove: archive file [/home/abi/fetcher/tmp/tablemaster-1.2.0.tar.gz]
+[2024-04-10 08:07:18] INFO root fetch - main [MainThread]: End processing [tablemaster]: success
+[2024-04-10 08:07:18] INFO root fetch - processPackages [pulumi-hcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_hcloud-1.9.0a1654086467.tar.gz]
+[2024-04-10 08:07:18] INFO root fetch - processPackages [pulumi-hcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_hcloud-1.9.0a1657117726.tar.gz]
+[2024-04-10 08:07:18] INFO root fetch - main [MainThread]: End processing [pulumi-hcloud]: success
+[2024-04-10 08:07:18] INFO root fetch - processPackages [pulumi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_keycloak-5.4.0a1712641141.tar.gz]
+[2024-04-10 08:07:18] INFO root fetch - processPackages [pulumi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_keycloak-5.4.0a1712727897.tar.gz]
+[2024-04-10 08:07:18] INFO root fetch - main [MainThread]: End processing [pulumi-keycloak]: success
+[2024-04-10 08:07:18] INFO root fetch - main [MainThread]: Store serial: [22696324]

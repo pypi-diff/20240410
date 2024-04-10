@@ -19898,3 +19898,54 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 12:10:20] INFO root fetch - processPackages [streamlit-local-storage]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-local-storage-0.0.9.tar.gz]
 [2024-04-10 12:10:20] INFO root fetch - main [MainThread]: End processing [streamlit-local-storage]: success
 [2024-04-10 12:10:20] INFO root fetch - main [MainThread]: Store serial: [22698809]
+[2024-04-10 12:12:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22698809]
+[2024-04-10 12:12:30] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-10 12:12:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cj-package
+[2024-04-10 12:12:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reka-api
+[2024-04-10 12:12:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: easyaddition-quicklydone
+[2024-04-10 12:12:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ccs-digitalmarketplace-test-utils
+[2024-04-10 12:12:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: audiometry-trainer
+[2024-04-10 12:12:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: smart-meter-to-openhab
+[2024-04-10 12:12:30] INFO root fetch - processPackages [audiometry-trainer]: New version: [0.1.1] Old Version: [0.0.2]
+[2024-04-10 12:12:30] INFO root fetch - processPackages [cj-package]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-10 12:12:30] INFO root fetch - processPackages [reka-api]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-10 12:12:30] INFO root fetch - processPackages [audiometry-trainer]: Downloading https://files.pythonhosted.org/packages/a5/3d/fc0e0f02cbba9b87c15149005c3d03f11af2912513a21df9e270b8817b4b/audiometry_trainer-0.0.2.tar.gz
+[2024-04-10 12:12:30] WARNING root fetch - processPackages [easyaddition-quicklydone]: Skipping, unable to determine old version
+[2024-04-10 12:12:30] INFO root fetch - main [MainThread]: End processing [easyaddition-quicklydone] error
+[2024-04-10 12:12:30] INFO root fetch - processPackages [ccs-digitalmarketplace-test-utils]: New version: [4.4.1] Old Version: [4.4.0]
+[2024-04-10 12:12:30] INFO root fetch - processPackages [cj-package]: Downloading https://files.pythonhosted.org/packages/da/f1/7251475617f700917e1ca74400daece46b8dd816a4f7297c30873eac2493/cj_package-1.0.8.tar.gz
+[2024-04-10 12:12:30] INFO root fetch - processPackages [smart-meter-to-openhab]: New version: [0.4.1] Old Version: [0.3.3]
+[2024-04-10 12:12:30] INFO root fetch - processPackages [ccs-digitalmarketplace-test-utils]: Downloading https://files.pythonhosted.org/packages/69/69/b5198fa79803f2d75e11defad3137a68a77a0d225eb1a07c2e06a66688ee/ccs-digitalmarketplace-test-utils-4.4.0.tar.gz
+[2024-04-10 12:12:30] INFO root fetch - processPackages [reka-api]: Downloading https://files.pythonhosted.org/packages/f6/31/ca54f5bced12266495d83b6d983d7397498b04d71331c5908ed2c2e346ca/reka_api-1.0.4.tar.gz
+[2024-04-10 12:12:30] INFO root fetch - processPackages [cj-package]: Downloading https://files.pythonhosted.org/packages/e2/64/13a4025b10bed4260a45454f62f555ec27bce0fdb58bf2382ee53a7bd528/cj_package-1.0.9.tar.gz
+[2024-04-10 12:12:30] INFO root fetch - processPackages [smart-meter-to-openhab]: Downloading https://files.pythonhosted.org/packages/75/b1/10db4d89fd8d96402656d41912ecc5b20777330db8ff43f9ad68c81d3607/smart_meter_to_openhab-0.3.3.tar.gz
+[2024-04-10 12:12:31] INFO root fetch - processPackages [cj-package]: executing diffoscope
+[2024-04-10 12:12:31] INFO root fetch - processPackages [cj-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cj_package-1.0.8.tar.gz tmp/cj_package-1.0.9.tar.gz --markdown 20240410/c/cj-package/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-10 12:12:31] INFO root fetch - processPackages [audiometry-trainer]: Downloading https://files.pythonhosted.org/packages/2d/11/b509d1fd512d278be35bd6ab9ad2ae76b0e08394a8ec196999aac21991d0/audiometry_trainer-0.1.1.tar.gz
+[2024-04-10 12:12:31] INFO root fetch - processPackages [ccs-digitalmarketplace-test-utils]: Downloading https://files.pythonhosted.org/packages/73/83/72e1cac822c69619df5993c0f52ad66a5dfb1cf7c2bcf010763358c066dc/ccs-digitalmarketplace-test-utils-4.4.1.tar.gz
+[2024-04-10 12:12:31] INFO root fetch - processPackages [reka-api]: Downloading https://files.pythonhosted.org/packages/28/5b/50035c6332a3a6696d2e159acb9aa1dc351f36e4798a09315b141fa21498/reka_api-1.0.5.tar.gz
+[2024-04-10 12:12:31] INFO root fetch - processPackages [ccs-digitalmarketplace-test-utils]: executing diffoscope
+[2024-04-10 12:12:31] INFO root fetch - processPackages [ccs-digitalmarketplace-test-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccs-digitalmarketplace-test-utils-4.4.0.tar.gz tmp/ccs-digitalmarketplace-test-utils-4.4.1.tar.gz --markdown 20240410/c/ccs-digitalmarketplace-test-utils/4.4.0-4.4.1/README.md --exclude *.pyd
+[2024-04-10 12:12:31] INFO root fetch - processPackages [reka-api]: executing diffoscope
+[2024-04-10 12:12:31] INFO root fetch - processPackages [reka-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reka_api-1.0.4.tar.gz tmp/reka_api-1.0.5.tar.gz --markdown 20240410/r/reka-api/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-10 12:12:31] INFO root fetch - processPackages [smart-meter-to-openhab]: Downloading https://files.pythonhosted.org/packages/1d/22/c01ffbf370f3404ff8c3b668ded2f839b24b2507e0a6ad6b2a2133ce7a72/smart_meter_to_openhab-0.4.1.tar.gz
+[2024-04-10 12:12:31] INFO root fetch - processPackages [audiometry-trainer]: executing diffoscope
+[2024-04-10 12:12:31] INFO root fetch - processPackages [audiometry-trainer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audiometry_trainer-0.0.2.tar.gz tmp/audiometry_trainer-0.1.1.tar.gz --markdown 20240410/a/audiometry-trainer/0.0.2-0.1.1/README.md --exclude *.pyd
+[2024-04-10 12:12:31] INFO root fetch - processPackages [smart-meter-to-openhab]: executing diffoscope
+[2024-04-10 12:12:31] INFO root fetch - processPackages [smart-meter-to-openhab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smart_meter_to_openhab-0.3.3.tar.gz tmp/smart_meter_to_openhab-0.4.1.tar.gz --markdown 20240410/s/smart-meter-to-openhab/0.3.3-0.4.1/README.md --exclude *.pyd
+[2024-04-10 12:12:31] INFO root fetch - processPackages [cj-package]: Remove: archive file [/home/abi/fetcher/tmp/cj_package-1.0.8.tar.gz]
+[2024-04-10 12:12:31] INFO root fetch - processPackages [cj-package]: Remove: archive file [/home/abi/fetcher/tmp/cj_package-1.0.9.tar.gz]
+[2024-04-10 12:12:31] INFO root fetch - main [MainThread]: End processing [cj-package]: success
+[2024-04-10 12:12:31] INFO root fetch - processPackages [ccs-digitalmarketplace-test-utils]: Remove: archive file [/home/abi/fetcher/tmp/ccs-digitalmarketplace-test-utils-4.4.0.tar.gz]
+[2024-04-10 12:12:31] INFO root fetch - processPackages [ccs-digitalmarketplace-test-utils]: Remove: archive file [/home/abi/fetcher/tmp/ccs-digitalmarketplace-test-utils-4.4.1.tar.gz]
+[2024-04-10 12:12:31] INFO root fetch - main [MainThread]: End processing [ccs-digitalmarketplace-test-utils]: success
+[2024-04-10 12:12:32] INFO root fetch - processPackages [reka-api]: Remove: archive file [/home/abi/fetcher/tmp/reka_api-1.0.4.tar.gz]
+[2024-04-10 12:12:32] INFO root fetch - processPackages [reka-api]: Remove: archive file [/home/abi/fetcher/tmp/reka_api-1.0.5.tar.gz]
+[2024-04-10 12:12:32] INFO root fetch - main [MainThread]: End processing [reka-api]: success
+[2024-04-10 12:12:32] INFO root fetch - processPackages [smart-meter-to-openhab]: Remove: archive file [/home/abi/fetcher/tmp/smart_meter_to_openhab-0.3.3.tar.gz]
+[2024-04-10 12:12:32] INFO root fetch - processPackages [smart-meter-to-openhab]: Remove: archive file [/home/abi/fetcher/tmp/smart_meter_to_openhab-0.4.1.tar.gz]
+[2024-04-10 12:12:32] INFO root fetch - main [MainThread]: End processing [smart-meter-to-openhab]: success
+[2024-04-10 12:12:34] INFO root fetch - processPackages [audiometry-trainer]: Remove: archive file [/home/abi/fetcher/tmp/audiometry_trainer-0.0.2.tar.gz]
+[2024-04-10 12:12:34] INFO root fetch - processPackages [audiometry-trainer]: Remove: archive file [/home/abi/fetcher/tmp/audiometry_trainer-0.1.1.tar.gz]
+[2024-04-10 12:12:34] INFO root fetch - main [MainThread]: End processing [audiometry-trainer]: success
+[2024-04-10 12:12:34] INFO root fetch - main [MainThread]: Store serial: [22698831]

@@ -12459,3 +12459,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 06:41:59] INFO root fetch - processPackages [lionagi]: Remove: archive file [/home/abi/fetcher/tmp/lionagi-0.1.0.tar.gz]
 [2024-04-10 06:41:59] INFO root fetch - main [MainThread]: End processing [lionagi]: success
 [2024-04-10 06:41:59] INFO root fetch - main [MainThread]: Store serial: [22695803]
+[2024-04-10 06:44:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22695803]
+[2024-04-10 06:44:08] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-10 06:44:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: FinToolsAP
+[2024-04-10 06:44:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: swebench
+[2024-04-10 06:44:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kBmc
+[2024-04-10 06:44:08] INFO root fetch - processPackages [swebench]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-10 06:44:08] INFO root fetch - processPackages [FinToolsAP]: New version: [1.6.8] Old Version: [1.6.7]
+[2024-04-10 06:44:08] INFO root fetch - processPackages [kBmc]: New version: [2.3.9] Old Version: [2.3.8]
+[2024-04-10 06:44:08] INFO root fetch - processPackages [swebench]: Downloading https://files.pythonhosted.org/packages/9f/5f/e1b27b554c9d461ee219864c4084395d8c393b8c84491f779e65107362bb/swebench-1.0.8.tar.gz
+[2024-04-10 06:44:08] INFO root fetch - processPackages [kBmc]: Downloading https://files.pythonhosted.org/packages/cd/f5/87d66b35a67a40be6e903787b5ba54ffbc5e97e4c2f17b98206d75628d35/kBmc-2.3.8.tar.gz
+[2024-04-10 06:44:08] INFO root fetch - processPackages [FinToolsAP]: Downloading https://files.pythonhosted.org/packages/2f/3e/34f86a2783a900c650dda7eb89d915190128653b268679c89b4662444ba7/fintoolsap-1.6.7.tar.gz
+[2024-04-10 06:44:08] INFO root fetch - processPackages [kBmc]: Downloading https://files.pythonhosted.org/packages/b1/30/0a67c9ac9962ec52f20324b37d89b824d3b4caa5963bd919ddb2b19ac530/kBmc-2.3.9.tar.gz
+[2024-04-10 06:44:08] INFO root fetch - processPackages [FinToolsAP]: Downloading https://files.pythonhosted.org/packages/72/65/acc8e67788e904fb4193e2ed0f92c99f7a477422a786add6d4a1e6c7b85b/fintoolsap-1.6.8.tar.gz
+[2024-04-10 06:44:08] INFO root fetch - processPackages [swebench]: Downloading https://files.pythonhosted.org/packages/f4/1e/da0a5ff7fec617ab4a890a381f312d0e2e1121cc800b024ac5b967ba62a7/swebench-1.0.9.tar.gz
+[2024-04-10 06:44:08] INFO root fetch - processPackages [kBmc]: executing diffoscope
+[2024-04-10 06:44:08] INFO root fetch - processPackages [kBmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kBmc-2.3.8.tar.gz tmp/kBmc-2.3.9.tar.gz --markdown 20240410/k/kBmc/2.3.8-2.3.9/README.md --exclude *.pyd
+[2024-04-10 06:44:08] INFO root fetch - processPackages [FinToolsAP]: executing diffoscope
+[2024-04-10 06:44:08] INFO root fetch - processPackages [FinToolsAP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fintoolsap-1.6.7.tar.gz tmp/fintoolsap-1.6.8.tar.gz --markdown 20240410/F/FinToolsAP/1.6.7-1.6.8/README.md --exclude *.pyd
+[2024-04-10 06:44:08] INFO root fetch - processPackages [swebench]: executing diffoscope
+[2024-04-10 06:44:08] INFO root fetch - processPackages [swebench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swebench-1.0.8.tar.gz tmp/swebench-1.0.9.tar.gz --markdown 20240410/s/swebench/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-10 06:44:09] INFO root fetch - processPackages [kBmc]: Remove: archive file [/home/abi/fetcher/tmp/kBmc-2.3.8.tar.gz]
+[2024-04-10 06:44:09] INFO root fetch - processPackages [kBmc]: Remove: archive file [/home/abi/fetcher/tmp/kBmc-2.3.9.tar.gz]
+[2024-04-10 06:44:09] INFO root fetch - main [MainThread]: End processing [kBmc]: success
+[2024-04-10 06:44:09] INFO root fetch - processPackages [swebench]: Remove: archive file [/home/abi/fetcher/tmp/swebench-1.0.8.tar.gz]
+[2024-04-10 06:44:09] INFO root fetch - processPackages [swebench]: Remove: archive file [/home/abi/fetcher/tmp/swebench-1.0.9.tar.gz]
+[2024-04-10 06:44:09] INFO root fetch - main [MainThread]: End processing [swebench]: success
+[2024-04-10 06:44:09] INFO root fetch - processPackages [FinToolsAP]: Remove: archive file [/home/abi/fetcher/tmp/fintoolsap-1.6.7.tar.gz]
+[2024-04-10 06:44:09] INFO root fetch - processPackages [FinToolsAP]: Remove: archive file [/home/abi/fetcher/tmp/fintoolsap-1.6.8.tar.gz]
+[2024-04-10 06:44:09] INFO root fetch - main [MainThread]: End processing [FinToolsAP]: success
+[2024-04-10 06:44:09] INFO root fetch - main [MainThread]: Store serial: [22695813]

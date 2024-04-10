@@ -9464,3 +9464,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 04:28:41] INFO root fetch - processPackages [lytekit]: Remove: archive file [/home/abi/fetcher/tmp/lytekit-0.9.1.tar.gz]
 [2024-04-10 04:28:41] INFO root fetch - main [MainThread]: End processing [lytekit]: success
 [2024-04-10 04:28:41] INFO root fetch - main [MainThread]: Store serial: [22694649]
+[2024-04-10 04:30:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22694649]
+[2024-04-10 04:30:50] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-10 04:30:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ros-cdk-cxapi
+[2024-04-10 04:30:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pih-rgst-auto
+[2024-04-10 04:30:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ovos-media-plugin-vlc
+[2024-04-10 04:30:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: swarmauri
+[2024-04-10 04:30:50] INFO root fetch - processPackages [swarmauri]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-10 04:30:51] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/6f/f9/130aeeef865461afb5cc003721ceb7c3ebcd9ef2fe49fd812b8532fb5035/swarmauri-0.1.8.tar.gz
+[2024-04-10 04:30:51] INFO root fetch - processPackages [ovos-media-plugin-vlc]: New version: [0.1.0a4] Old Version: [0.1.0a3]
+[2024-04-10 04:30:51] INFO root fetch - processPackages [ros-cdk-cxapi]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-10 04:30:51] WARNING root fetch - processPackages [pih-rgst-auto]: Skipping, unable to determine old version
+[2024-04-10 04:30:51] INFO root fetch - main [MainThread]: End processing [pih-rgst-auto] error
+[2024-04-10 04:30:51] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/c7/70/0b55d158ba42355a67cda5d200e3d5817bac0a8e9ce2da2bf294eb6b03ec/swarmauri-0.1.9.tar.gz
+[2024-04-10 04:30:51] INFO root fetch - processPackages [ros-cdk-cxapi]: Downloading https://files.pythonhosted.org/packages/1f/e6/dd583ddab582d1221ee1a969c71696b74f6d06ac7793da54d7549f70cf57/ros-cdk-cxapi-1.0.8.tar.gz
+[2024-04-10 04:30:51] INFO root fetch - processPackages [ovos-media-plugin-vlc]: Downloading https://files.pythonhosted.org/packages/f7/94/873f66674a09edb4cbeb00a33da483c487cf0e63254927aead508da1d131/ovos_media_plugin_vlc-0.1.0a3-py3-none-any.whl
+[2024-04-10 04:30:51] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-04-10 04:30:51] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.8.tar.gz tmp/swarmauri-0.1.9.tar.gz --markdown 20240410/s/swarmauri/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-10 04:30:51] INFO root fetch - processPackages [ovos-media-plugin-vlc]: Downloading https://files.pythonhosted.org/packages/72/6c/640e470a8178331ca02a5ef15e239843986145f8f281576ce578556ee558/ovos_media_plugin_vlc-0.1.0a4-py3-none-any.whl
+[2024-04-10 04:30:51] INFO root fetch - processPackages [ros-cdk-cxapi]: Downloading https://files.pythonhosted.org/packages/05/55/8d7adff1d9a900e400ca314b191384110e8121856571cb39beb715207859/ros-cdk-cxapi-1.0.9.tar.gz
+[2024-04-10 04:30:51] INFO root fetch - processPackages [ros-cdk-cxapi]: executing diffoscope
+[2024-04-10 04:30:51] INFO root fetch - processPackages [ros-cdk-cxapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-cxapi-1.0.8.tar.gz tmp/ros-cdk-cxapi-1.0.9.tar.gz --markdown 20240410/r/ros-cdk-cxapi/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-10 04:30:51] INFO root fetch - processPackages [ovos-media-plugin-vlc]: executing diffoscope
+[2024-04-10 04:30:51] INFO root fetch - processPackages [ovos-media-plugin-vlc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_media_plugin_vlc-0.1.0a3-py3-none-any.whl.zip tmp/ovos_media_plugin_vlc-0.1.0a4-py3-none-any.whl.zip --markdown 20240410/o/ovos-media-plugin-vlc/0.1.0a3-0.1.0a4/README.md --exclude *.pyd
+[2024-04-10 04:30:52] INFO root fetch - processPackages [ros-cdk-cxapi]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cxapi-1.0.8.tar.gz]
+[2024-04-10 04:30:52] INFO root fetch - processPackages [ros-cdk-cxapi]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cxapi-1.0.9.tar.gz]
+[2024-04-10 04:30:52] INFO root fetch - main [MainThread]: End processing [ros-cdk-cxapi]: success
+[2024-04-10 04:30:52] INFO root fetch - processPackages [ovos-media-plugin-vlc]: Remove: archive file [/home/abi/fetcher/tmp/ovos_media_plugin_vlc-0.1.0a3-py3-none-any.whl.zip]
+[2024-04-10 04:30:52] INFO root fetch - processPackages [ovos-media-plugin-vlc]: Remove: archive file [/home/abi/fetcher/tmp/ovos_media_plugin_vlc-0.1.0a4-py3-none-any.whl.zip]
+[2024-04-10 04:30:52] INFO root fetch - main [MainThread]: End processing [ovos-media-plugin-vlc]: success
+[2024-04-10 04:30:52] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.8.tar.gz]
+[2024-04-10 04:30:52] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.9.tar.gz]
+[2024-04-10 04:30:52] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-04-10 04:30:52] INFO root fetch - main [MainThread]: Store serial: [22694661]

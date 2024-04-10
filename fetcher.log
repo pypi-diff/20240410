@@ -7739,3 +7739,41 @@
 [2024-04-10 03:33:47] INFO root fetch - processPackages [b2aiprep]: Remove: archive file [/home/abi/fetcher/tmp/b2aiprep-0.9.0.tar.gz]
 [2024-04-10 03:33:47] INFO root fetch - main [MainThread]: End processing [b2aiprep]: success
 [2024-04-10 03:33:47] INFO root fetch - main [MainThread]: Store serial: [22694032]
+[2024-04-10 03:35:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22694032]
+[2024-04-10 03:35:58] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-10 03:35:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fv1-programmer
+[2024-04-10 03:35:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: elodin
+[2024-04-10 03:35:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dflow-galaxy
+[2024-04-10 03:35:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pih-backup
+[2024-04-10 03:35:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jemma
+[2024-04-10 03:35:58] INFO root fetch - processPackages [dflow-galaxy]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-10 03:35:58] INFO root fetch - processPackages [jemma]: New version: [0.1.1287] Old Version: [0.1.1286]
+[2024-04-10 03:35:58] INFO root fetch - processPackages [dflow-galaxy]: Downloading https://files.pythonhosted.org/packages/6a/36/8a7184e5306eeb42608d03c007a3302bbdb672317f5242d9b06da17dfd83/dflow_galaxy-0.1.4.tar.gz
+[2024-04-10 03:35:58] INFO root fetch - processPackages [elodin]: New version: [0.3.15] Old Version: [0.3.14]
+[2024-04-10 03:35:58] INFO root fetch - processPackages [jemma]: Downloading https://files.pythonhosted.org/packages/30/09/7fa71c5d0e9826e9e758786e180f2ab0459404fd45afdfbd5d1fe26fdced/jemma-0.1.1286.tar.gz
+[2024-04-10 03:35:58] INFO root fetch - processPackages [fv1-programmer]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-04-10 03:35:58] WARNING root fetch - processPackages [pih-backup]: Skipping, unable to determine old version
+[2024-04-10 03:35:58] INFO root fetch - main [MainThread]: End processing [pih-backup] error
+[2024-04-10 03:35:58] INFO root fetch - processPackages [elodin]: Downloading https://files.pythonhosted.org/packages/a2/1d/f243202f60a131ec812f231ed16825c1bd5e03c0bc41543a3c3830ad53a2/elodin-0.3.14-cp310-abi3-manylinux_2_31_x86_64.whl
+[2024-04-10 03:35:58] INFO root fetch - processPackages [fv1-programmer]: Downloading https://files.pythonhosted.org/packages/2b/ad/d3890a490aef39b970daf8c237f9faf042d9d28320353eaa55cbf781360f/fv1_programmer-0.5.1.tar.gz
+[2024-04-10 03:35:58] INFO root fetch - processPackages [dflow-galaxy]: Downloading https://files.pythonhosted.org/packages/12/68/86400271d3d84a5c665425afc8dd796a9b27ac9746932a90e555b4666093/dflow_galaxy-0.1.5.tar.gz
+[2024-04-10 03:35:58] INFO root fetch - processPackages [jemma]: Downloading https://files.pythonhosted.org/packages/0d/51/7249f17f16b54c379eee568b71de6485acf1f127f4804d717f68f46f52fa/jemma-0.1.1287.tar.gz
+[2024-04-10 03:35:58] WARNING root fetch - processPackages [elodin]: Skipping package: exceeds size limit 64900749>=10485760
+[2024-04-10 03:35:58] INFO root fetch - main [MainThread]: End processing [elodin] error
+[2024-04-10 03:35:58] INFO root fetch - processPackages [jemma]: executing diffoscope
+[2024-04-10 03:35:58] INFO root fetch - processPackages [jemma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jemma-0.1.1286.tar.gz tmp/jemma-0.1.1287.tar.gz --markdown 20240410/j/jemma/0.1.1286-0.1.1287/README.md --exclude *.pyd
+[2024-04-10 03:35:58] INFO root fetch - processPackages [dflow-galaxy]: executing diffoscope
+[2024-04-10 03:35:58] INFO root fetch - processPackages [dflow-galaxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dflow_galaxy-0.1.4.tar.gz tmp/dflow_galaxy-0.1.5.tar.gz --markdown 20240410/d/dflow-galaxy/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-10 03:35:59] INFO root fetch - processPackages [fv1-programmer]: Downloading https://files.pythonhosted.org/packages/ce/0a/d4e8cefc48227040fd5c9cf1cbfeffa2dc2a580822efde82a9c180854aea/fv1_programmer-0.5.2.tar.gz
+[2024-04-10 03:35:59] INFO root fetch - processPackages [fv1-programmer]: executing diffoscope
+[2024-04-10 03:35:59] INFO root fetch - processPackages [fv1-programmer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fv1_programmer-0.5.1.tar.gz tmp/fv1_programmer-0.5.2.tar.gz --markdown 20240410/f/fv1-programmer/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-04-10 03:35:59] INFO root fetch - processPackages [jemma]: Remove: archive file [/home/abi/fetcher/tmp/jemma-0.1.1286.tar.gz]
+[2024-04-10 03:35:59] INFO root fetch - processPackages [jemma]: Remove: archive file [/home/abi/fetcher/tmp/jemma-0.1.1287.tar.gz]
+[2024-04-10 03:35:59] INFO root fetch - main [MainThread]: End processing [jemma]: success
+[2024-04-10 03:35:59] INFO root fetch - processPackages [fv1-programmer]: Remove: archive file [/home/abi/fetcher/tmp/fv1_programmer-0.5.1.tar.gz]
+[2024-04-10 03:35:59] INFO root fetch - processPackages [fv1-programmer]: Remove: archive file [/home/abi/fetcher/tmp/fv1_programmer-0.5.2.tar.gz]
+[2024-04-10 03:35:59] INFO root fetch - main [MainThread]: End processing [fv1-programmer]: success
+[2024-04-10 03:36:00] INFO root fetch - processPackages [dflow-galaxy]: Remove: archive file [/home/abi/fetcher/tmp/dflow_galaxy-0.1.4.tar.gz]
+[2024-04-10 03:36:00] INFO root fetch - processPackages [dflow-galaxy]: Remove: archive file [/home/abi/fetcher/tmp/dflow_galaxy-0.1.5.tar.gz]
+[2024-04-10 03:36:00] INFO root fetch - main [MainThread]: End processing [dflow-galaxy]: success
+[2024-04-10 03:36:00] INFO root fetch - main [MainThread]: Store serial: [22694050]

@@ -17258,3 +17258,86 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 10:27:06] INFO root fetch - processPackages [flask-variable-manager]: Remove: archive file [/home/abi/fetcher/tmp/flask-variable-manager-0.3.0.tar.gz]
 [2024-04-10 10:27:06] INFO root fetch - main [MainThread]: End processing [flask-variable-manager]: success
 [2024-04-10 10:27:06] INFO root fetch - main [MainThread]: Store serial: [22697666]
+[2024-04-10 10:29:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22697666]
+[2024-04-10 10:29:20] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-10 10:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: legoai
+[2024-04-10 10:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pbxproj
+[2024-04-10 10:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: grimoirelab
+[2024-04-10 10:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: speculos
+[2024-04-10 10:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: digitalhub
+[2024-04-10 10:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: drf-simple-jwt-2fa
+[2024-04-10 10:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-stock-picking-group-by-partner-by-carrier
+[2024-04-10 10:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: digitalhub-core
+[2024-04-10 10:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: digitalhub-data
+[2024-04-10 10:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: digitalhub-ml
+[2024-04-10 10:29:20] INFO root fetch - processPackages [speculos]: New version: [0.8.4.dev6] Old Version: [0.8.4.dev4]
+[2024-04-10 10:29:20] INFO root fetch - processPackages [grimoirelab]: New version: [1.0.0rc1] Old Version: [0.9.2]
+[2024-04-10 10:29:20] WARNING root fetch - processPackages [legoai]: Skipping, unable to determine old version
+[2024-04-10 10:29:20] INFO root fetch - main [MainThread]: End processing [legoai] error
+[2024-04-10 10:29:20] INFO root fetch - processPackages [odoo-addon-stock-picking-group-by-partner-by-carrier]: New version: [16.0.1.1.1] Old Version: [16.0.1.1.0.3]
+[2024-04-10 10:29:20] INFO root fetch - processPackages [digitalhub-ml]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-10 10:29:20] INFO root fetch - processPackages [digitalhub-data]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-10 10:29:20] INFO root fetch - processPackages [digitalhub]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-10 10:29:20] INFO root fetch - processPackages [drf-simple-jwt-2fa]: New version: [1.2.6] Old Version: [1.2.5]
+[2024-04-10 10:29:20] INFO root fetch - processPackages [pbxproj]: New version: [4.1.0] Old Version: [4.0.0]
+[2024-04-10 10:29:20] INFO root fetch - processPackages [digitalhub-core]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-10 10:29:20] INFO root fetch - processPackages [speculos]: Downloading https://files.pythonhosted.org/packages/94/81/2de3c196268afd3a5d320e5a7d274dcc29fe6f241b121498c607b947cccb/speculos-0.8.4.dev4.tar.gz
+[2024-04-10 10:29:20] INFO root fetch - processPackages [grimoirelab]: Downloading https://files.pythonhosted.org/packages/e5/83/4d346602a9ec233e47b3be18f074f5b04f464610341167deb792b4e43545/grimoirelab-0.9.2.tar.gz
+[2024-04-10 10:29:20] WARNING root fetch - processPackages [speculos]: Skipping package: exceeds size limit 16554449>=10485760
+[2024-04-10 10:29:20] INFO root fetch - main [MainThread]: End processing [speculos] error
+[2024-04-10 10:29:20] INFO root fetch - processPackages [odoo-addon-stock-picking-group-by-partner-by-carrier]: Downloading https://files.pythonhosted.org/packages/ed/ce/4c41b287e800c70338415517c29787961e2197855357f9259e8374f2f8af/odoo_addon_stock_picking_group_by_partner_by_carrier-16.0.1.1.0.3-py3-none-any.whl
+[2024-04-10 10:29:20] INFO root fetch - processPackages [drf-simple-jwt-2fa]: Downloading https://files.pythonhosted.org/packages/18/9f/4be7a78c1a7d5627cb384c7207d2291ba540f1d7eedb4cb370cffcd5e1af/drf-simple-jwt-2fa-1.2.5.tar.gz
+[2024-04-10 10:29:20] INFO root fetch - processPackages [digitalhub]: Downloading https://files.pythonhosted.org/packages/18/8b/b6070214cf6a64edc0ade82b5659d529b98525b40e8fd27ca31102dbd2b1/digitalhub-0.3.0.tar.gz
+[2024-04-10 10:29:20] INFO root fetch - processPackages [pbxproj]: Downloading https://files.pythonhosted.org/packages/dc/cd/858a3f91b8a80dcc542fee82ffead339db91ec7387e8291391d92e84dde4/pbxproj-4.0.0.tar.gz
+[2024-04-10 10:29:20] INFO root fetch - processPackages [digitalhub-ml]: Downloading https://files.pythonhosted.org/packages/5e/ec/dbb071535d7e7ed000e8485c1903aa87ea0e124e43d5ea031d5f7d60eb12/digitalhub-ml-0.3.0.tar.gz
+[2024-04-10 10:29:20] INFO root fetch - processPackages [digitalhub-data]: Downloading https://files.pythonhosted.org/packages/e4/3c/8f939c35609d7d33d310fef9d0d642e2b76ca32ffd72c9fa48ea3a948680/digitalhub-data-0.3.0.tar.gz
+[2024-04-10 10:29:20] INFO root fetch - processPackages [digitalhub-core]: Downloading https://files.pythonhosted.org/packages/3b/1e/304c7a25c7e243f38a5bcd57ae03d467f7ace350d5c8133f3a99945f444b/digitalhub-core-0.3.0.tar.gz
+[2024-04-10 10:29:21] INFO root fetch - processPackages [grimoirelab]: Downloading https://files.pythonhosted.org/packages/2c/b2/ed81f76c3e7a3579846a75e484cbdd04e07d6d8cb6c0f4fb7820fc7a1134/grimoirelab-1.0.0rc1.tar.gz
+[2024-04-10 10:29:21] INFO root fetch - processPackages [odoo-addon-stock-picking-group-by-partner-by-carrier]: Downloading https://files.pythonhosted.org/packages/d1/de/91cfa31f818cc219f14c5bad0300fa2028a468a9dc8f3002f2f33f1d666a/odoo_addon_stock_picking_group_by_partner_by_carrier-16.0.1.1.1-py3-none-any.whl
+[2024-04-10 10:29:21] INFO root fetch - processPackages [pbxproj]: Downloading https://files.pythonhosted.org/packages/88/dd/4652833ac1e4de5ed3f317ed04b4cf380799c897609133d31eaf92c72515/pbxproj-4.1.0.tar.gz
+[2024-04-10 10:29:21] INFO root fetch - processPackages [drf-simple-jwt-2fa]: Downloading https://files.pythonhosted.org/packages/0c/95/9e6f8a2999610671b1e5c8de7509bedf321d9e788bf88ecf11abd5e025c1/drf-simple-jwt-2fa-1.2.6.tar.gz
+[2024-04-10 10:29:21] INFO root fetch - processPackages [digitalhub]: Downloading https://files.pythonhosted.org/packages/08/32/d2fb4957c5b7162424aa9e35e981e3baf4cb192d858e2400d1fa789026e0/digitalhub-0.3.1.tar.gz
+[2024-04-10 10:29:21] INFO root fetch - processPackages [digitalhub-ml]: Downloading https://files.pythonhosted.org/packages/53/b3/5e021529850aef23d81e28228d7aaf46ba615aa2d3cbc42a2cb355bb4a1a/digitalhub-ml-0.3.1.tar.gz
+[2024-04-10 10:29:21] INFO root fetch - processPackages [digitalhub-data]: Downloading https://files.pythonhosted.org/packages/4a/f5/b6ec709626cad2fc8379209c1314182c2b37c4bbb72d48a58557591c2669/digitalhub-data-0.3.1.tar.gz
+[2024-04-10 10:29:21] INFO root fetch - processPackages [grimoirelab]: executing diffoscope
+[2024-04-10 10:29:21] INFO root fetch - processPackages [grimoirelab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grimoirelab-0.9.2.tar.gz tmp/grimoirelab-1.0.0rc1.tar.gz --markdown 20240410/g/grimoirelab/0.9.2-1.0.0rc1/README.md --exclude *.pyd
+[2024-04-10 10:29:21] INFO root fetch - processPackages [digitalhub-core]: Downloading https://files.pythonhosted.org/packages/45/f4/6e11fc08ff048f4ca28f411c2a4cff377cde2a1ac16d0e754cd0394b1356/digitalhub-core-0.3.1.tar.gz
+[2024-04-10 10:29:21] INFO root fetch - processPackages [odoo-addon-stock-picking-group-by-partner-by-carrier]: executing diffoscope
+[2024-04-10 10:29:21] INFO root fetch - processPackages [odoo-addon-stock-picking-group-by-partner-by-carrier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_picking_group_by_partner_by_carrier-16.0.1.1.0.3-py3-none-any.whl.zip tmp/odoo_addon_stock_picking_group_by_partner_by_carrier-16.0.1.1.1-py3-none-any.whl.zip --markdown 20240410/o/odoo-addon-stock-picking-group-by-partner-by-carrier/16.0.1.1.0.3-16.0.1.1.1/README.md --exclude *.pyd
+[2024-04-10 10:29:21] INFO root fetch - processPackages [pbxproj]: executing diffoscope
+[2024-04-10 10:29:21] INFO root fetch - processPackages [pbxproj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbxproj-4.0.0.tar.gz tmp/pbxproj-4.1.0.tar.gz --markdown 20240410/p/pbxproj/4.0.0-4.1.0/README.md --exclude *.pyd
+[2024-04-10 10:29:21] INFO root fetch - processPackages [drf-simple-jwt-2fa]: executing diffoscope
+[2024-04-10 10:29:21] INFO root fetch - processPackages [drf-simple-jwt-2fa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf-simple-jwt-2fa-1.2.5.tar.gz tmp/drf-simple-jwt-2fa-1.2.6.tar.gz --markdown 20240410/d/drf-simple-jwt-2fa/1.2.5-1.2.6/README.md --exclude *.pyd
+[2024-04-10 10:29:21] INFO root fetch - processPackages [digitalhub]: executing diffoscope
+[2024-04-10 10:29:21] INFO root fetch - processPackages [digitalhub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalhub-0.3.0.tar.gz tmp/digitalhub-0.3.1.tar.gz --markdown 20240410/d/digitalhub/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-10 10:29:21] INFO root fetch - processPackages [digitalhub-ml]: executing diffoscope
+[2024-04-10 10:29:21] INFO root fetch - processPackages [digitalhub-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalhub-ml-0.3.0.tar.gz tmp/digitalhub-ml-0.3.1.tar.gz --markdown 20240410/d/digitalhub-ml/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-10 10:29:21] INFO root fetch - processPackages [digitalhub-data]: executing diffoscope
+[2024-04-10 10:29:21] INFO root fetch - processPackages [digitalhub-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalhub-data-0.3.0.tar.gz tmp/digitalhub-data-0.3.1.tar.gz --markdown 20240410/d/digitalhub-data/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-10 10:29:21] INFO root fetch - processPackages [digitalhub-core]: executing diffoscope
+[2024-04-10 10:29:21] INFO root fetch - processPackages [digitalhub-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalhub-core-0.3.0.tar.gz tmp/digitalhub-core-0.3.1.tar.gz --markdown 20240410/d/digitalhub-core/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-10 10:29:22] INFO root fetch - processPackages [grimoirelab]: Remove: archive file [/home/abi/fetcher/tmp/grimoirelab-0.9.2.tar.gz]
+[2024-04-10 10:29:22] INFO root fetch - processPackages [grimoirelab]: Remove: archive file [/home/abi/fetcher/tmp/grimoirelab-1.0.0rc1.tar.gz]
+[2024-04-10 10:29:22] INFO root fetch - main [MainThread]: End processing [grimoirelab]: success
+[2024-04-10 10:29:22] INFO root fetch - processPackages [digitalhub-ml]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub-ml-0.3.0.tar.gz]
+[2024-04-10 10:29:22] INFO root fetch - processPackages [digitalhub-ml]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub-ml-0.3.1.tar.gz]
+[2024-04-10 10:29:22] INFO root fetch - main [MainThread]: End processing [digitalhub-ml]: success
+[2024-04-10 10:29:22] INFO root fetch - processPackages [odoo-addon-stock-picking-group-by-partner-by-carrier]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_group_by_partner_by_carrier-16.0.1.1.0.3-py3-none-any.whl.zip]
+[2024-04-10 10:29:22] INFO root fetch - processPackages [odoo-addon-stock-picking-group-by-partner-by-carrier]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_group_by_partner_by_carrier-16.0.1.1.1-py3-none-any.whl.zip]
+[2024-04-10 10:29:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-picking-group-by-partner-by-carrier]: success
+[2024-04-10 10:29:22] INFO root fetch - processPackages [pbxproj]: Remove: archive file [/home/abi/fetcher/tmp/pbxproj-4.0.0.tar.gz]
+[2024-04-10 10:29:22] INFO root fetch - processPackages [pbxproj]: Remove: archive file [/home/abi/fetcher/tmp/pbxproj-4.1.0.tar.gz]
+[2024-04-10 10:29:22] INFO root fetch - main [MainThread]: End processing [pbxproj]: success
+[2024-04-10 10:29:22] INFO root fetch - processPackages [drf-simple-jwt-2fa]: Remove: archive file [/home/abi/fetcher/tmp/drf-simple-jwt-2fa-1.2.5.tar.gz]
+[2024-04-10 10:29:22] INFO root fetch - processPackages [drf-simple-jwt-2fa]: Remove: archive file [/home/abi/fetcher/tmp/drf-simple-jwt-2fa-1.2.6.tar.gz]
+[2024-04-10 10:29:22] INFO root fetch - main [MainThread]: End processing [drf-simple-jwt-2fa]: success
+[2024-04-10 10:29:22] INFO root fetch - processPackages [digitalhub]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub-0.3.0.tar.gz]
+[2024-04-10 10:29:22] INFO root fetch - processPackages [digitalhub]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub-0.3.1.tar.gz]
+[2024-04-10 10:29:22] INFO root fetch - main [MainThread]: End processing [digitalhub]: success
+[2024-04-10 10:29:22] INFO root fetch - processPackages [digitalhub-data]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub-data-0.3.0.tar.gz]
+[2024-04-10 10:29:22] INFO root fetch - processPackages [digitalhub-data]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub-data-0.3.1.tar.gz]
+[2024-04-10 10:29:22] INFO root fetch - main [MainThread]: End processing [digitalhub-data]: success
+[2024-04-10 10:29:22] INFO root fetch - processPackages [digitalhub-core]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub-core-0.3.0.tar.gz]
+[2024-04-10 10:29:22] INFO root fetch - processPackages [digitalhub-core]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub-core-0.3.1.tar.gz]
+[2024-04-10 10:29:22] INFO root fetch - main [MainThread]: End processing [digitalhub-core]: success
+[2024-04-10 10:29:22] INFO root fetch - main [MainThread]: Store serial: [22697698]

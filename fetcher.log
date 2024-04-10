@@ -16250,3 +16250,54 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 09:46:52] INFO root fetch - processPackages [nmbrs]: Remove: archive file [/home/abi/fetcher/tmp/nmbrs-0.1.2.tar.gz]
 [2024-04-10 09:46:52] INFO root fetch - main [MainThread]: End processing [nmbrs]: success
 [2024-04-10 09:46:52] INFO root fetch - main [MainThread]: Store serial: [22697207]
+[2024-04-10 09:48:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22697207]
+[2024-04-10 09:49:02] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-10 09:49:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: acetone-neuralnet
+[2024-04-10 09:49:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: swarmauri
+[2024-04-10 09:49:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-autovacuum-message-attachment
+[2024-04-10 09:49:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dektools
+[2024-04-10 09:49:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dsp-tools
+[2024-04-10 09:49:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scrapegraphai
+[2024-04-10 09:49:02] INFO root fetch - processPackages [swarmauri]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-10 09:49:02] INFO root fetch - processPackages [scrapegraphai]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-10 09:49:02] WARNING root fetch - processPackages [acetone-neuralnet]: Skipping, unable to determine old version
+[2024-04-10 09:49:02] INFO root fetch - main [MainThread]: End processing [acetone-neuralnet] error
+[2024-04-10 09:49:02] INFO root fetch - processPackages [dsp-tools]: New version: [7.1.1.post7] Old Version: [7.1.1.post6]
+[2024-04-10 09:49:02] INFO root fetch - processPackages [scrapegraphai]: Downloading https://files.pythonhosted.org/packages/6b/bc/01e34e10a55c8f54951206186e440bfd995976e108507ad6d0b99f2576d4/scrapegraphai-0.1.1.tar.gz
+[2024-04-10 09:49:02] INFO root fetch - processPackages [odoo-addon-autovacuum-message-attachment]: New version: [16.0.1.0.1] Old Version: [16.0.1.0.0.8]
+[2024-04-10 09:49:02] INFO root fetch - processPackages [dektools]: New version: [0.1.9] Old Version: [0.1.79]
+[2024-04-10 09:49:02] INFO root fetch - processPackages [dsp-tools]: Downloading https://files.pythonhosted.org/packages/95/82/b42d958e47607642b99469df2af5805dca76ad67895c433a099f8e1a4913/dsp_tools-7.1.1.post6.tar.gz
+[2024-04-10 09:49:03] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/6f/f9/130aeeef865461afb5cc003721ceb7c3ebcd9ef2fe49fd812b8532fb5035/swarmauri-0.1.8.tar.gz
+[2024-04-10 09:49:03] INFO root fetch - processPackages [odoo-addon-autovacuum-message-attachment]: Downloading https://files.pythonhosted.org/packages/c1/52/705f6d88f4e837272b324a70221fb384370c622c534bba069808040a2195/odoo_addon_autovacuum_message_attachment-16.0.1.0.0.8-py3-none-any.whl
+[2024-04-10 09:49:03] INFO root fetch - processPackages [dektools]: Downloading https://files.pythonhosted.org/packages/89/4c/67b6eae16007c25e90f5decfaf67616d25365699bb4a1637b0fa6ed2bdf9/dektools-0.1.79.tar.gz
+[2024-04-10 09:49:03] INFO root fetch - processPackages [scrapegraphai]: Downloading https://files.pythonhosted.org/packages/6d/74/17c81ea5311d150988b6e7542bcb6d50210930fd6bcae73c76dd2cb78b11/scrapegraphai-0.1.2.tar.gz
+[2024-04-10 09:49:03] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/c7/70/0b55d158ba42355a67cda5d200e3d5817bac0a8e9ce2da2bf294eb6b03ec/swarmauri-0.1.9.tar.gz
+[2024-04-10 09:49:03] INFO root fetch - processPackages [dsp-tools]: Downloading https://files.pythonhosted.org/packages/47/16/ca4d5e7cff7ccaf6e780032a7277335314f1d40902427ac194cd557a9518/dsp_tools-7.1.1.post7.tar.gz
+[2024-04-10 09:49:03] INFO root fetch - processPackages [scrapegraphai]: executing diffoscope
+[2024-04-10 09:49:03] INFO root fetch - processPackages [scrapegraphai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapegraphai-0.1.1.tar.gz tmp/scrapegraphai-0.1.2.tar.gz --markdown 20240410/s/scrapegraphai/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-10 09:49:03] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-04-10 09:49:03] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.8.tar.gz tmp/swarmauri-0.1.9.tar.gz --markdown 20240410/s/swarmauri/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-10 09:49:03] INFO root fetch - processPackages [odoo-addon-autovacuum-message-attachment]: Downloading https://files.pythonhosted.org/packages/0b/4f/e2e15c011670b84c3ab280a5c0f4dd5d941be7f25c6d8eb5f547f81947a8/odoo_addon_autovacuum_message_attachment-16.0.1.0.1-py3-none-any.whl
+[2024-04-10 09:49:03] INFO root fetch - processPackages [dsp-tools]: executing diffoscope
+[2024-04-10 09:49:03] INFO root fetch - processPackages [dsp-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsp_tools-7.1.1.post6.tar.gz tmp/dsp_tools-7.1.1.post7.tar.gz --markdown 20240410/d/dsp-tools/7.1.1.post6-7.1.1.post7/README.md --exclude *.pyd
+[2024-04-10 09:49:03] INFO root fetch - processPackages [dektools]: Downloading https://files.pythonhosted.org/packages/68/56/90836602efe1f93ffb0ab3da68807fa41e85e124836bcc0c3cc2d1b2c539/dektools-0.1.9-py3-none-any.whl
+[2024-04-10 09:49:03] INFO root fetch - processPackages [odoo-addon-autovacuum-message-attachment]: executing diffoscope
+[2024-04-10 09:49:03] INFO root fetch - processPackages [odoo-addon-autovacuum-message-attachment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_autovacuum_message_attachment-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_autovacuum_message_attachment-16.0.1.0.1-py3-none-any.whl.zip --markdown 20240410/o/odoo-addon-autovacuum-message-attachment/16.0.1.0.0.8-16.0.1.0.1/README.md --exclude *.pyd
+[2024-04-10 09:49:03] INFO root fetch - processPackages [dektools]: executing diffoscope
+[2024-04-10 09:49:03] INFO root fetch - processPackages [dektools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dektools-0.1.79.tar.gz tmp/dektools-0.1.9-py3-none-any.whl.zip --markdown 20240410/d/dektools/0.1.79-0.1.9/README.md --exclude *.pyd
+[2024-04-10 09:49:04] INFO root fetch - processPackages [scrapegraphai]: Remove: archive file [/home/abi/fetcher/tmp/scrapegraphai-0.1.1.tar.gz]
+[2024-04-10 09:49:04] INFO root fetch - processPackages [scrapegraphai]: Remove: archive file [/home/abi/fetcher/tmp/scrapegraphai-0.1.2.tar.gz]
+[2024-04-10 09:49:04] INFO root fetch - main [MainThread]: End processing [scrapegraphai]: success
+[2024-04-10 09:49:04] INFO root fetch - processPackages [dektools]: Remove: archive file [/home/abi/fetcher/tmp/dektools-0.1.79.tar.gz]
+[2024-04-10 09:49:04] INFO root fetch - processPackages [dektools]: Remove: archive file [/home/abi/fetcher/tmp/dektools-0.1.9-py3-none-any.whl.zip]
+[2024-04-10 09:49:04] INFO root fetch - main [MainThread]: End processing [dektools]: success
+[2024-04-10 09:49:04] INFO root fetch - processPackages [odoo-addon-autovacuum-message-attachment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_autovacuum_message_attachment-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-04-10 09:49:04] INFO root fetch - processPackages [odoo-addon-autovacuum-message-attachment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_autovacuum_message_attachment-16.0.1.0.1-py3-none-any.whl.zip]
+[2024-04-10 09:49:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-autovacuum-message-attachment]: success
+[2024-04-10 09:49:04] INFO root fetch - processPackages [dsp-tools]: Remove: archive file [/home/abi/fetcher/tmp/dsp_tools-7.1.1.post6.tar.gz]
+[2024-04-10 09:49:04] INFO root fetch - processPackages [dsp-tools]: Remove: archive file [/home/abi/fetcher/tmp/dsp_tools-7.1.1.post7.tar.gz]
+[2024-04-10 09:49:04] INFO root fetch - main [MainThread]: End processing [dsp-tools]: success
+[2024-04-10 09:49:04] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.8.tar.gz]
+[2024-04-10 09:49:04] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.9.tar.gz]
+[2024-04-10 09:49:04] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-04-10 09:49:04] INFO root fetch - main [MainThread]: Store serial: [22697296]

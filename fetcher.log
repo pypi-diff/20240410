@@ -14288,3 +14288,38 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 08:31:48] INFO root fetch - processPackages [strawberry-django-auth]: Remove: archive file [/home/abi/fetcher/tmp/strawberry_django_auth-0.376.6.tar.gz]
 [2024-04-10 08:31:48] INFO root fetch - main [MainThread]: End processing [strawberry-django-auth]: success
 [2024-04-10 08:31:48] INFO root fetch - main [MainThread]: Store serial: [22696493]
+[2024-04-10 08:33:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22696493]
+[2024-04-10 08:33:56] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-10 08:33:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: antifungal
+[2024-04-10 08:33:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyetho
+[2024-04-10 08:33:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: twitch-dl
+[2024-04-10 08:33:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-linode
+[2024-04-10 08:33:56] INFO root fetch - processPackages [pyetho]: New version: [2.0] Old Version: [1.2]
+[2024-04-10 08:33:56] INFO root fetch - processPackages [antifungal]: New version: [0.1.2] Old Version: [0.1.0]
+[2024-04-10 08:33:57] INFO root fetch - processPackages [twitch-dl]: New version: [2.2.0] Old Version: [2.1.4]
+[2024-04-10 08:33:57] INFO root fetch - processPackages [pulumi-linode]: New version: [4.9.1] Old Version: [4.9.0a1700248892]
+[2024-04-10 08:33:57] INFO root fetch - processPackages [pyetho]: Downloading https://files.pythonhosted.org/packages/70/60/329b45c43d117a7bb9df7d1df2e8507cf72404c92a9ac0905023eba5eb30/pyetho-1.2.tar.gz
+[2024-04-10 08:33:57] INFO root fetch - processPackages [antifungal]: Downloading https://files.pythonhosted.org/packages/7a/6b/31b58b53ca2fc1f42258684b50cb9ab71ac8f5a448454f5b8d37762d5673/antifungal-0.1.0.tar.gz
+[2024-04-10 08:33:57] INFO root fetch - processPackages [twitch-dl]: Downloading https://files.pythonhosted.org/packages/5e/32/fdd280d0ea30dd6656db9305283887df0a4e17b9372f1d7869f1c4c0c233/twitch-dl-2.1.4.tar.gz
+[2024-04-10 08:33:57] INFO root fetch - processPackages [pulumi-linode]: Downloading https://files.pythonhosted.org/packages/df/eb/e8d27e31574126cebb3db17960087d6e1cf94c88143b981d26b7b94fef71/pulumi_linode-4.9.0a1700248892.tar.gz
+[2024-04-10 08:33:57] WARNING root fetch - processPackages [antifungal]: Skipping package: exceeds size limit 27680071>=10485760
+[2024-04-10 08:33:57] INFO root fetch - main [MainThread]: End processing [antifungal] error
+[2024-04-10 08:33:57] INFO root fetch - processPackages [twitch-dl]: Downloading https://files.pythonhosted.org/packages/e0/e1/8220469166eafc90bf144061c12fad8cc503cd3ec1e0c65f1494e8e250c3/twitch-dl-2.2.0.tar.gz
+[2024-04-10 08:33:57] INFO root fetch - processPackages [pyetho]: Downloading https://files.pythonhosted.org/packages/8c/47/9d403d8f415bd028f0920ebffb96533024f0e3b02a1f2b535e8917f12db4/pyetho-2.0.tar.gz
+[2024-04-10 08:33:57] INFO root fetch - processPackages [pulumi-linode]: Downloading https://files.pythonhosted.org/packages/1d/8f/908b3d1b357dcb4b00198e9afd3e1c31b7f20023adddd41e8a53a4577ee0/pulumi_linode-4.9.1.tar.gz
+[2024-04-10 08:33:57] INFO root fetch - processPackages [pulumi-linode]: executing diffoscope
+[2024-04-10 08:33:57] INFO root fetch - processPackages [pulumi-linode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_linode-4.9.0a1700248892.tar.gz tmp/pulumi_linode-4.9.1.tar.gz --markdown 20240410/p/pulumi-linode/4.9.0a1700248892-4.9.1/README.md --exclude *.pyd
+[2024-04-10 08:33:57] INFO root fetch - processPackages [twitch-dl]: executing diffoscope
+[2024-04-10 08:33:57] INFO root fetch - processPackages [twitch-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twitch-dl-2.1.4.tar.gz tmp/twitch-dl-2.2.0.tar.gz --markdown 20240410/t/twitch-dl/2.1.4-2.2.0/README.md --exclude *.pyd
+[2024-04-10 08:33:57] INFO root fetch - processPackages [pyetho]: executing diffoscope
+[2024-04-10 08:33:57] INFO root fetch - processPackages [pyetho]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyetho-1.2.tar.gz tmp/pyetho-2.0.tar.gz --markdown 20240410/p/pyetho/1.2-2.0/README.md --exclude *.pyd
+[2024-04-10 08:33:58] INFO root fetch - processPackages [twitch-dl]: Remove: archive file [/home/abi/fetcher/tmp/twitch-dl-2.1.4.tar.gz]
+[2024-04-10 08:33:58] INFO root fetch - processPackages [twitch-dl]: Remove: archive file [/home/abi/fetcher/tmp/twitch-dl-2.2.0.tar.gz]
+[2024-04-10 08:33:58] INFO root fetch - main [MainThread]: End processing [twitch-dl]: success
+[2024-04-10 08:33:58] INFO root fetch - processPackages [pyetho]: Remove: archive file [/home/abi/fetcher/tmp/pyetho-1.2.tar.gz]
+[2024-04-10 08:33:58] INFO root fetch - processPackages [pyetho]: Remove: archive file [/home/abi/fetcher/tmp/pyetho-2.0.tar.gz]
+[2024-04-10 08:33:58] INFO root fetch - main [MainThread]: End processing [pyetho]: success
+[2024-04-10 08:33:59] INFO root fetch - processPackages [pulumi-linode]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_linode-4.9.0a1700248892.tar.gz]
+[2024-04-10 08:33:59] INFO root fetch - processPackages [pulumi-linode]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_linode-4.9.1.tar.gz]
+[2024-04-10 08:33:59] INFO root fetch - main [MainThread]: End processing [pulumi-linode]: success
+[2024-04-10 08:33:59] INFO root fetch - main [MainThread]: Store serial: [22696507]

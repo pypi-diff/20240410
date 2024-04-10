@@ -19306,3 +19306,47 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 11:45:14] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
 [2024-04-10 11:45:14] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
 [2024-04-10 11:45:14] INFO root fetch - main [MainThread]: Store serial: [22698557]
+[2024-04-10 11:47:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22698557]
+[2024-04-10 11:47:23] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-10 11:47:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: adb-connector-python
+[2024-04-10 11:47:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nvidia-pytriton
+[2024-04-10 11:47:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dve-lumipy-testing
+[2024-04-10 11:47:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: luminesce-sdk
+[2024-04-10 11:47:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chatllm
+[2024-04-10 11:47:24] INFO root fetch - processPackages [adb-connector-python]: New version: [1.1.6] Old Version: [1.1.5]
+[2024-04-10 11:47:24] INFO root fetch - processPackages [nvidia-pytriton]: New version: [0.5.4] Old Version: [0.5.3]
+[2024-04-10 11:47:24] INFO root fetch - processPackages [dve-lumipy-testing]: New version: [0.1.999] Old Version: [0.1.998]
+[2024-04-10 11:47:24] INFO root fetch - processPackages [luminesce-sdk]: New version: [2.1.1] Old Version: [2.0.99]
+[2024-04-10 11:47:24] INFO root fetch - processPackages [chatllm]: New version: [2024.4.3.18.28.17] Old Version: [2024.4.10.17.46.48]
+[2024-04-10 11:47:24] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/4a/c4/15da184529d541065896d6fc08baeb0cf0cd8306dc7f581261291ee49d80/dve_lumipy_testing-0.1.998-py3-none-any.whl
+[2024-04-10 11:47:24] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/2b/2d/2c92516ba9e7976b477537a9a93faec3a60b283a798630b615b561af22d6/chatllm-2024.4.10.17.46.48.tar.gz
+[2024-04-10 11:47:24] INFO root fetch - processPackages [nvidia-pytriton]: Downloading https://files.pythonhosted.org/packages/a4/c6/a69f4f026f149f207dbc2f132575c296d0d5040f07bd5aff1fb9bf4f27a0/nvidia_pytriton-0.5.3-py3-none-manylinux_2_35_x86_64.whl
+[2024-04-10 11:47:24] INFO root fetch - processPackages [luminesce-sdk]: Downloading https://files.pythonhosted.org/packages/c9/9b/db0c2a879c62744430a540a0acfc0d7be954c3b4cd53257bfbe0096890e5/luminesce_sdk-2.0.99.tar.gz
+[2024-04-10 11:47:24] WARNING root fetch - processPackages [nvidia-pytriton]: Skipping package: exceeds size limit 39941221>=10485760
+[2024-04-10 11:47:24] INFO root fetch - main [MainThread]: End processing [nvidia-pytriton] error
+[2024-04-10 11:47:24] INFO root fetch - processPackages [adb-connector-python]: Downloading https://files.pythonhosted.org/packages/3a/e3/47689f6ae3a87ebd8528a5a1db16313c6f570f3d71a9c46e0846b1791e33/adb_connector_python-1.1.5-py3-none-any.whl
+[2024-04-10 11:47:24] INFO root fetch - processPackages [luminesce-sdk]: Downloading https://files.pythonhosted.org/packages/f7/42/25e4902b9d9b42dd98d65136df221b152632aac8f33d228119bf0d61d5ca/luminesce_sdk-2.1.1.tar.gz
+[2024-04-10 11:47:24] INFO root fetch - processPackages [adb-connector-python]: Downloading https://files.pythonhosted.org/packages/7c/8d/5ec003f6223f56658878c7e2071ebb464a8e81f34543cee02069a7374d66/adb_connector_python-1.1.6-py3-none-any.whl
+[2024-04-10 11:47:24] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/c4/37/ad6b4a98b1693f15c493b39fe5b70f5aa0561579d7d5b2d4c4eee74ad89a/dve_lumipy_testing-0.1.999-py3-none-any.whl
+[2024-04-10 11:47:25] INFO root fetch - processPackages [luminesce-sdk]: executing diffoscope
+[2024-04-10 11:47:25] INFO root fetch - processPackages [luminesce-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce_sdk-2.0.99.tar.gz tmp/luminesce_sdk-2.1.1.tar.gz --markdown 20240410/l/luminesce-sdk/2.0.99-2.1.1/README.md --exclude *.pyd
+[2024-04-10 11:47:25] INFO root fetch - processPackages [adb-connector-python]: executing diffoscope
+[2024-04-10 11:47:25] INFO root fetch - processPackages [adb-connector-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adb_connector_python-1.1.5-py3-none-any.whl.zip tmp/adb_connector_python-1.1.6-py3-none-any.whl.zip --markdown 20240410/a/adb-connector-python/1.1.5-1.1.6/README.md --exclude *.pyd
+[2024-04-10 11:47:25] INFO root fetch - processPackages [dve-lumipy-testing]: executing diffoscope
+[2024-04-10 11:47:25] INFO root fetch - processPackages [dve-lumipy-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_testing-0.1.998-py3-none-any.whl.zip tmp/dve_lumipy_testing-0.1.999-py3-none-any.whl.zip --markdown 20240410/d/dve-lumipy-testing/0.1.998-0.1.999/README.md --exclude *.pyd
+[2024-04-10 11:47:25] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/c0/66/70e97afa791a99fbb0077079ce0d33cf70c9260e0f42babeedaeba346800/chatllm-2024.4.3.18.28.17.tar.gz
+[2024-04-10 11:47:25] INFO root fetch - processPackages [adb-connector-python]: Remove: archive file [/home/abi/fetcher/tmp/adb_connector_python-1.1.5-py3-none-any.whl.zip]
+[2024-04-10 11:47:25] INFO root fetch - processPackages [adb-connector-python]: Remove: archive file [/home/abi/fetcher/tmp/adb_connector_python-1.1.6-py3-none-any.whl.zip]
+[2024-04-10 11:47:25] INFO root fetch - main [MainThread]: End processing [adb-connector-python]: success
+[2024-04-10 11:47:25] INFO root fetch - processPackages [chatllm]: executing diffoscope
+[2024-04-10 11:47:25] INFO root fetch - processPackages [chatllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatllm-2024.4.10.17.46.48.tar.gz tmp/chatllm-2024.4.3.18.28.17.tar.gz --markdown 20240410/c/chatllm/2024.4.10.17.46.48-2024.4.3.18.28.17/README.md --exclude *.pyd
+[2024-04-10 11:47:26] INFO root fetch - processPackages [luminesce-sdk]: Remove: archive file [/home/abi/fetcher/tmp/luminesce_sdk-2.0.99.tar.gz]
+[2024-04-10 11:47:26] INFO root fetch - processPackages [luminesce-sdk]: Remove: archive file [/home/abi/fetcher/tmp/luminesce_sdk-2.1.1.tar.gz]
+[2024-04-10 11:47:26] INFO root fetch - main [MainThread]: End processing [luminesce-sdk]: success
+[2024-04-10 11:47:26] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-0.1.998-py3-none-any.whl.zip]
+[2024-04-10 11:47:26] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-0.1.999-py3-none-any.whl.zip]
+[2024-04-10 11:47:26] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
+[2024-04-10 11:47:27] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.4.10.17.46.48.tar.gz]
+[2024-04-10 11:47:27] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.4.3.18.28.17.tar.gz]
+[2024-04-10 11:47:27] INFO root fetch - main [MainThread]: End processing [chatllm]: success
+[2024-04-10 11:47:27] INFO root fetch - main [MainThread]: Store serial: [22698570]

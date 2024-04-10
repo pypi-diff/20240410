@@ -7691,3 +7691,51 @@
 [2024-04-10 03:31:35] INFO root fetch - processPackages [influxio]: Remove: archive file [/home/abi/fetcher/tmp/influxio-0.2.0.tar.gz]
 [2024-04-10 03:31:35] INFO root fetch - main [MainThread]: End processing [influxio]: success
 [2024-04-10 03:31:35] INFO root fetch - main [MainThread]: Store serial: [22694017]
+[2024-04-10 03:33:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22694017]
+[2024-04-10 03:33:45] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-10 03:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: highlighter-sdk
+[2024-04-10 03:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yt-fts
+[2024-04-10 03:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pih-auto
+[2024-04-10 03:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: b2aiprep
+[2024-04-10 03:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: notification-py
+[2024-04-10 03:33:45] INFO root fetch - processPackages [notification-py]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-10 03:33:45] INFO root fetch - processPackages [notification-py]: Downloading https://files.pythonhosted.org/packages/98/aa/96334b921d81420539020dea7ffe4cf04f49dbea72db07143808acd27fe1/notification_py-0.0.5.tar.gz
+[2024-04-10 03:33:45] INFO root fetch - processPackages [highlighter-sdk]: New version: [0.5.2.0] Old Version: [0.5.1.0]
+[2024-04-10 03:33:45] INFO root fetch - processPackages [yt-fts]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-10 03:33:45] INFO root fetch - processPackages [b2aiprep]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-10 03:33:45] INFO root fetch - processPackages [pih-auto]: New version: [0.19] Old Version: [0.18]
+[2024-04-10 03:33:45] INFO root fetch - processPackages [highlighter-sdk]: Downloading https://files.pythonhosted.org/packages/8e/a6/735d68cb057d8a030ee7f81dcf0a6974e510db213388f3993634fb1ea19f/highlighter_sdk-0.5.1.0.tar.gz
+[2024-04-10 03:33:45] INFO root fetch - processPackages [yt-fts]: Downloading https://files.pythonhosted.org/packages/a4/72/e5ed8aed67daafdeeaee77ce84706e7b284c03900bebc8b4c9a5418c9100/yt-fts-0.1.8.tar.gz
+[2024-04-10 03:33:45] INFO root fetch - processPackages [notification-py]: Downloading https://files.pythonhosted.org/packages/95/62/ec92e090c73ccc528ff24859b4a8037d955e2300f034109e49beb7d8fc46/notification_py-0.0.6.tar.gz
+[2024-04-10 03:33:45] INFO root fetch - processPackages [pih-auto]: Downloading https://files.pythonhosted.org/packages/1a/ca/1da02ce5aeda84386509e65969cdd53cdde8d49e5c5e6c58e64e07b5785c/pih-auto-0.18.tar.gz
+[2024-04-10 03:33:45] INFO root fetch - processPackages [notification-py]: executing diffoscope
+[2024-04-10 03:33:45] INFO root fetch - processPackages [notification-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notification_py-0.0.5.tar.gz tmp/notification_py-0.0.6.tar.gz --markdown 20240410/n/notification-py/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-10 03:33:45] INFO root fetch - processPackages [b2aiprep]: Downloading https://files.pythonhosted.org/packages/a7/69/75783e3edb1f1ae984ed03018dd6cb7e65eaee07dfed0a6a1524a30a40f2/b2aiprep-0.8.1.tar.gz
+[2024-04-10 03:33:46] INFO root fetch - processPackages [highlighter-sdk]: Downloading https://files.pythonhosted.org/packages/0a/4e/ff2a2d6d4d933654373118e35fe43dc837b00efa79560288ff783b6ce926/highlighter_sdk-0.5.2.0.tar.gz
+[2024-04-10 03:33:46] INFO root fetch - processPackages [highlighter-sdk]: executing diffoscope
+[2024-04-10 03:33:46] INFO root fetch - processPackages [highlighter-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/highlighter_sdk-0.5.1.0.tar.gz tmp/highlighter_sdk-0.5.2.0.tar.gz --markdown 20240410/h/highlighter-sdk/0.5.1.0-0.5.2.0/README.md --exclude *.pyd
+[2024-04-10 03:33:46] INFO root fetch - processPackages [yt-fts]: Downloading https://files.pythonhosted.org/packages/07/27/81af49bf3228838a5be25585fd9eafb45419bd52a1bd7d47660f8fd3f1e6/yt-fts-0.1.9.tar.gz
+[2024-04-10 03:33:46] INFO root fetch - processPackages [notification-py]: Remove: archive file [/home/abi/fetcher/tmp/notification_py-0.0.5.tar.gz]
+[2024-04-10 03:33:46] INFO root fetch - processPackages [notification-py]: Remove: archive file [/home/abi/fetcher/tmp/notification_py-0.0.6.tar.gz]
+[2024-04-10 03:33:46] INFO root fetch - main [MainThread]: End processing [notification-py]: success
+[2024-04-10 03:33:46] INFO root fetch - processPackages [b2aiprep]: Downloading https://files.pythonhosted.org/packages/15/26/a272554d70f3b2d49bbcf7b9f9d633806c01bc22f471db8eb5b45b57e385/b2aiprep-0.9.0.tar.gz
+[2024-04-10 03:33:46] INFO root fetch - processPackages [pih-auto]: Downloading https://files.pythonhosted.org/packages/73/5b/f6341af801824da7faeabaa59bcd2f7c9ce237865a58376140bd2101c9b6/pih-auto-0.19.tar.gz
+[2024-04-10 03:33:46] INFO root fetch - processPackages [yt-fts]: executing diffoscope
+[2024-04-10 03:33:46] INFO root fetch - processPackages [yt-fts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yt-fts-0.1.8.tar.gz tmp/yt-fts-0.1.9.tar.gz --markdown 20240410/y/yt-fts/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-10 03:33:46] INFO root fetch - processPackages [b2aiprep]: executing diffoscope
+[2024-04-10 03:33:46] INFO root fetch - processPackages [b2aiprep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/b2aiprep-0.8.1.tar.gz tmp/b2aiprep-0.9.0.tar.gz --markdown 20240410/b/b2aiprep/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-04-10 03:33:46] INFO root fetch - processPackages [pih-auto]: executing diffoscope
+[2024-04-10 03:33:46] INFO root fetch - processPackages [pih-auto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-auto-0.18.tar.gz tmp/pih-auto-0.19.tar.gz --markdown 20240410/p/pih-auto/0.18-0.19/README.md --exclude *.pyd
+[2024-04-10 03:33:46] INFO root fetch - processPackages [highlighter-sdk]: Remove: archive file [/home/abi/fetcher/tmp/highlighter_sdk-0.5.1.0.tar.gz]
+[2024-04-10 03:33:46] INFO root fetch - processPackages [highlighter-sdk]: Remove: archive file [/home/abi/fetcher/tmp/highlighter_sdk-0.5.2.0.tar.gz]
+[2024-04-10 03:33:46] INFO root fetch - main [MainThread]: End processing [highlighter-sdk]: success
+[2024-04-10 03:33:47] INFO root fetch - processPackages [pih-auto]: Remove: archive file [/home/abi/fetcher/tmp/pih-auto-0.18.tar.gz]
+[2024-04-10 03:33:47] INFO root fetch - processPackages [pih-auto]: Remove: archive file [/home/abi/fetcher/tmp/pih-auto-0.19.tar.gz]
+[2024-04-10 03:33:47] INFO root fetch - main [MainThread]: End processing [pih-auto]: success
+[2024-04-10 03:33:47] INFO root fetch - processPackages [yt-fts]: Remove: archive file [/home/abi/fetcher/tmp/yt-fts-0.1.8.tar.gz]
+[2024-04-10 03:33:47] INFO root fetch - processPackages [yt-fts]: Remove: archive file [/home/abi/fetcher/tmp/yt-fts-0.1.9.tar.gz]
+[2024-04-10 03:33:47] INFO root fetch - main [MainThread]: End processing [yt-fts]: success
+[2024-04-10 03:33:47] INFO root fetch - processPackages [b2aiprep]: Remove: archive file [/home/abi/fetcher/tmp/b2aiprep-0.8.1.tar.gz]
+[2024-04-10 03:33:47] INFO root fetch - processPackages [b2aiprep]: Remove: archive file [/home/abi/fetcher/tmp/b2aiprep-0.9.0.tar.gz]
+[2024-04-10 03:33:47] INFO root fetch - main [MainThread]: End processing [b2aiprep]: success
+[2024-04-10 03:33:47] INFO root fetch - main [MainThread]: Store serial: [22694032]

@@ -23204,3 +23204,81 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-10 14:11:55] INFO root fetch - processPackages [openmetadata-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata-ingestion-1.3.3.0rc1.tar.gz]
 [2024-04-10 14:11:55] INFO root fetch - main [MainThread]: End processing [openmetadata-ingestion]: success
 [2024-04-10 14:11:55] INFO root fetch - main [MainThread]: Store serial: [22700687]
+[2024-04-10 14:13:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22700687]
+[2024-04-10 14:14:04] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-10 14:14:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wawona
+[2024-04-10 14:14:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dlg-example-cmpts
+[2024-04-10 14:14:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openmetadata-managed-apis
+[2024-04-10 14:14:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xlandsat
+[2024-04-10 14:14:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: few-shot-priming
+[2024-04-10 14:14:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gr-urchin
+[2024-04-10 14:14:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: valmi-connector-lib
+[2024-04-10 14:14:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: document-ingestor
+[2024-04-10 14:14:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: illumio-pylo
+[2024-04-10 14:14:04] INFO root fetch - processPackages [valmi-connector-lib]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-10 14:14:04] INFO root fetch - processPackages [illumio-pylo]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-04-10 14:14:04] INFO root fetch - processPackages [document-ingestor]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-10 14:14:04] INFO root fetch - processPackages [few-shot-priming]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-04-10 14:14:04] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/68/54/062a20f75076aa53427ddf933f64d2177adabaa9c1f4507ee0d9d30b8b03/valmi_connector_lib-0.1.98.tar.gz
+[2024-04-10 14:14:04] INFO root fetch - processPackages [wawona]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-10 14:14:04] INFO root fetch - processPackages [xlandsat]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-04-10 14:14:04] WARNING root fetch - processPackages [gr-urchin]: Skipping, unable to determine old version
+[2024-04-10 14:14:04] INFO root fetch - main [MainThread]: End processing [gr-urchin] error
+[2024-04-10 14:14:04] INFO root fetch - processPackages [openmetadata-managed-apis]: New version: [1.3.3.0rc1] Old Version: [1.3.2.0rc3]
+[2024-04-10 14:14:04] INFO root fetch - processPackages [dlg-example-cmpts]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-04-10 14:14:04] INFO root fetch - processPackages [document-ingestor]: Downloading https://files.pythonhosted.org/packages/1f/00/9cbee51d36aa8f7f7f213286eb8816ff2f945642af6748b76b5e558417fc/document_ingestor-0.0.7-py3-none-any.whl
+[2024-04-10 14:14:04] INFO root fetch - processPackages [illumio-pylo]: Downloading https://files.pythonhosted.org/packages/9f/3a/b1374946b63c80efdf293b823a2d4e658e9f09962d5020d9617022c6874d/illumio_pylo-0.3.2.tar.gz
+[2024-04-10 14:14:04] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/eb/67/d15b11d0bfb57369fa16ba7f8c97cd3ddec8f771e6da8f11a3d819004b69/few_shot_priming-0.3.98-py3-none-any.whl
+[2024-04-10 14:14:05] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/2f/47/8fb8bac8016bd8f46ec3d29fa7fc0e2cdc40845d8dce82ba52e668672ab8/valmi_connector_lib-0.1.99.tar.gz
+[2024-04-10 14:14:05] INFO root fetch - processPackages [wawona]: Downloading https://files.pythonhosted.org/packages/8e/86/5636cb3f4b47cc8e7e49d9064edf057a9e669b3cb39f43ae94e9e6ead47a/wawona-1.0.0.tar.gz
+[2024-04-10 14:14:05] INFO root fetch - processPackages [openmetadata-managed-apis]: Downloading https://files.pythonhosted.org/packages/30/84/451a3e4b9a2112ac62324e9668edaac7e81e9043ea066e0fee082a3b20ea/openmetadata_managed_apis-1.3.2.0rc3.tar.gz
+[2024-04-10 14:14:05] INFO root fetch - processPackages [xlandsat]: Downloading https://files.pythonhosted.org/packages/36/37/4ed53577b11a9869ba3ec2ecff95174aea4af249cf3ca804883f4851be72/xlandsat-0.4.0.tar.gz
+[2024-04-10 14:14:05] INFO root fetch - processPackages [dlg-example-cmpts]: Downloading https://files.pythonhosted.org/packages/c7/3c/b60c89044f884021bb0b24847f658ea66af90244a59d8af496f9cd5c1c1f/dlg_example_cmpts-0.1.9.tar.gz
+[2024-04-10 14:14:05] INFO root fetch - processPackages [illumio-pylo]: Downloading https://files.pythonhosted.org/packages/ea/22/3b13d23245a6addf5fca189aaeb55957c8fe0ec39de9fe8aa87013eef65b/illumio_pylo-0.3.3.tar.gz
+[2024-04-10 14:14:05] INFO root fetch - processPackages [valmi-connector-lib]: executing diffoscope
+[2024-04-10 14:14:05] INFO root fetch - processPackages [valmi-connector-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valmi_connector_lib-0.1.98.tar.gz tmp/valmi_connector_lib-0.1.99.tar.gz --markdown 20240410/v/valmi-connector-lib/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-10 14:14:05] INFO root fetch - processPackages [document-ingestor]: Downloading https://files.pythonhosted.org/packages/5b/2c/4a9608689ed56431efa03434dbf913140ecabc10325de52e500114de044a/document_ingestor-0.0.8.tar.gz
+[2024-04-10 14:14:05] INFO root fetch - processPackages [illumio-pylo]: executing diffoscope
+[2024-04-10 14:14:05] INFO root fetch - processPackages [illumio-pylo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/illumio_pylo-0.3.2.tar.gz tmp/illumio_pylo-0.3.3.tar.gz --markdown 20240410/i/illumio-pylo/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-04-10 14:14:05] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/ff/11/548f6e96803602e6431dc610d736d401b20fde986f85c35c8ad19a6d0958/few_shot_priming-0.3.99-py3-none-any.whl
+[2024-04-10 14:14:05] INFO root fetch - processPackages [document-ingestor]: executing diffoscope
+[2024-04-10 14:14:05] INFO root fetch - processPackages [document-ingestor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/document_ingestor-0.0.7-py3-none-any.whl.zip tmp/document_ingestor-0.0.8.tar.gz --markdown 20240410/d/document-ingestor/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-10 14:14:05] INFO root fetch - processPackages [wawona]: Downloading https://files.pythonhosted.org/packages/99/18/0826965e7c594504930c0ef2fd9382990066d87087542cca5892806bc37f/wawona-1.1.0.tar.gz
+[2024-04-10 14:14:05] INFO root fetch - processPackages [dlg-example-cmpts]: Downloading https://files.pythonhosted.org/packages/08/94/6c755e339c1bdc24be70d610c94f3baf073edcb4152a6f8ebac5989cac5f/dlg_example_cmpts-0.2.0.tar.gz
+[2024-04-10 14:14:05] INFO root fetch - processPackages [openmetadata-managed-apis]: Downloading https://files.pythonhosted.org/packages/a0/c4/7b7f06dbed827741748fdcff31eb8b3b65920fa685f1ca9c845986f45dfb/openmetadata_managed_apis-1.3.3.0rc1.tar.gz
+[2024-04-10 14:14:05] INFO root fetch - processPackages [wawona]: executing diffoscope
+[2024-04-10 14:14:05] INFO root fetch - processPackages [wawona]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wawona-1.0.0.tar.gz tmp/wawona-1.1.0.tar.gz --markdown 20240410/w/wawona/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-04-10 14:14:05] INFO root fetch - processPackages [xlandsat]: Downloading https://files.pythonhosted.org/packages/01/1c/55e7fbc07193c1b72afc52ae4ccf350a71bdf3bf69b72b6c92cb250ca439/xlandsat-0.5.0.tar.gz
+[2024-04-10 14:14:05] INFO root fetch - processPackages [dlg-example-cmpts]: executing diffoscope
+[2024-04-10 14:14:05] INFO root fetch - processPackages [dlg-example-cmpts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlg_example_cmpts-0.1.9.tar.gz tmp/dlg_example_cmpts-0.2.0.tar.gz --markdown 20240410/d/dlg-example-cmpts/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-04-10 14:14:05] INFO root fetch - processPackages [openmetadata-managed-apis]: executing diffoscope
+[2024-04-10 14:14:05] INFO root fetch - processPackages [openmetadata-managed-apis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmetadata_managed_apis-1.3.2.0rc3.tar.gz tmp/openmetadata_managed_apis-1.3.3.0rc1.tar.gz --markdown 20240410/o/openmetadata-managed-apis/1.3.2.0rc3-1.3.3.0rc1/README.md --exclude *.pyd
+[2024-04-10 14:14:05] INFO root fetch - processPackages [xlandsat]: executing diffoscope
+[2024-04-10 14:14:05] INFO root fetch - processPackages [xlandsat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xlandsat-0.4.0.tar.gz tmp/xlandsat-0.5.0.tar.gz --markdown 20240410/x/xlandsat/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-04-10 14:14:05] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2024-04-10 14:14:05] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip --markdown 20240410/f/few-shot-priming/0.3.98-0.3.99/README.md --exclude *.pyd
+[2024-04-10 14:14:06] INFO root fetch - processPackages [valmi-connector-lib]: Remove: archive file [/home/abi/fetcher/tmp/valmi_connector_lib-0.1.98.tar.gz]
+[2024-04-10 14:14:06] INFO root fetch - processPackages [valmi-connector-lib]: Remove: archive file [/home/abi/fetcher/tmp/valmi_connector_lib-0.1.99.tar.gz]
+[2024-04-10 14:14:06] INFO root fetch - main [MainThread]: End processing [valmi-connector-lib]: success
+[2024-04-10 14:14:06] INFO root fetch - processPackages [document-ingestor]: Remove: archive file [/home/abi/fetcher/tmp/document_ingestor-0.0.7-py3-none-any.whl.zip]
+[2024-04-10 14:14:06] INFO root fetch - processPackages [document-ingestor]: Remove: archive file [/home/abi/fetcher/tmp/document_ingestor-0.0.8.tar.gz]
+[2024-04-10 14:14:06] INFO root fetch - main [MainThread]: End processing [document-ingestor]: success
+[2024-04-10 14:14:06] INFO root fetch - processPackages [wawona]: Remove: archive file [/home/abi/fetcher/tmp/wawona-1.0.0.tar.gz]
+[2024-04-10 14:14:06] INFO root fetch - processPackages [wawona]: Remove: archive file [/home/abi/fetcher/tmp/wawona-1.1.0.tar.gz]
+[2024-04-10 14:14:06] INFO root fetch - main [MainThread]: End processing [wawona]: success
+[2024-04-10 14:14:06] INFO root fetch - processPackages [dlg-example-cmpts]: Remove: archive file [/home/abi/fetcher/tmp/dlg_example_cmpts-0.1.9.tar.gz]
+[2024-04-10 14:14:06] INFO root fetch - processPackages [dlg-example-cmpts]: Remove: archive file [/home/abi/fetcher/tmp/dlg_example_cmpts-0.2.0.tar.gz]
+[2024-04-10 14:14:06] INFO root fetch - main [MainThread]: End processing [dlg-example-cmpts]: success
+[2024-04-10 14:14:06] INFO root fetch - processPackages [illumio-pylo]: Remove: archive file [/home/abi/fetcher/tmp/illumio_pylo-0.3.2.tar.gz]
+[2024-04-10 14:14:06] INFO root fetch - processPackages [illumio-pylo]: Remove: archive file [/home/abi/fetcher/tmp/illumio_pylo-0.3.3.tar.gz]
+[2024-04-10 14:14:06] INFO root fetch - main [MainThread]: End processing [illumio-pylo]: success
+[2024-04-10 14:14:06] INFO root fetch - processPackages [openmetadata-managed-apis]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata_managed_apis-1.3.2.0rc3.tar.gz]
+[2024-04-10 14:14:06] INFO root fetch - processPackages [openmetadata-managed-apis]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata_managed_apis-1.3.3.0rc1.tar.gz]
+[2024-04-10 14:14:06] INFO root fetch - main [MainThread]: End processing [openmetadata-managed-apis]: success
+[2024-04-10 14:14:06] INFO root fetch - processPackages [xlandsat]: Remove: archive file [/home/abi/fetcher/tmp/xlandsat-0.4.0.tar.gz]
+[2024-04-10 14:14:06] INFO root fetch - processPackages [xlandsat]: Remove: archive file [/home/abi/fetcher/tmp/xlandsat-0.5.0.tar.gz]
+[2024-04-10 14:14:06] INFO root fetch - main [MainThread]: End processing [xlandsat]: success
+[2024-04-10 14:14:07] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip]
+[2024-04-10 14:14:07] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
+[2024-04-10 14:14:07] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2024-04-10 14:14:07] INFO root fetch - main [MainThread]: Store serial: [22700714]

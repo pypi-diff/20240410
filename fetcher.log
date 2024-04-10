@@ -2558,3 +2558,32 @@
 [2024-04-10 02:02:08] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-terminate-mixin]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_transaction_terminate_mixin-14.0.1.9.0-py3-none-any.whl.zip]
 [2024-04-10 02:02:08] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-transaction-terminate-mixin]: success
 [2024-04-10 02:02:08] INFO root fetch - main [MainThread]: Store serial: [22692111]
+[2024-04-10 02:04:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22692111]
+[2024-04-10 02:04:17] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-10 02:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: marimo
+[2024-04-10 02:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: onnxscript
+[2024-04-10 02:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-formsets-inside-form
+[2024-04-10 02:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fusionsc
+[2024-04-10 02:04:17] WARNING root fetch - processPackages [django-formsets-inside-form]: Skipping, unable to determine old version
+[2024-04-10 02:04:17] INFO root fetch - main [MainThread]: End processing [django-formsets-inside-form] error
+[2024-04-10 02:04:17] INFO root fetch - processPackages [onnxscript]: New version: [0.1.0.dev20240409] Old Version: [0.1.0.dev20240408]
+[2024-04-10 02:04:17] INFO root fetch - processPackages [marimo]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-10 02:04:17] INFO root fetch - processPackages [fusionsc]: New version: [4.0.2] Old Version: [4.0.1]
+[2024-04-10 02:04:17] INFO root fetch - processPackages [onnxscript]: Downloading https://files.pythonhosted.org/packages/75/34/6157833ea63d37951dd8bd90cf9cba92990356b6dc323000312821fb0d21/onnxscript-0.1.0.dev20240408.tar.gz
+[2024-04-10 02:04:17] INFO root fetch - processPackages [marimo]: Downloading https://files.pythonhosted.org/packages/e8/66/92dde37e6bbf554b0d525e5e5e9c7a75055291d604fa709929fb08eb8492/marimo-0.3.8.tar.gz
+[2024-04-10 02:04:17] INFO root fetch - processPackages [fusionsc]: Downloading https://files.pythonhosted.org/packages/6b/4b/5708403096374ea86b1a65b7e3467aeb11a9f2219801f48aecf3a3c3905c/fusionsc-4.0.1.tar.gz
+[2024-04-10 02:04:17] WARNING root fetch - processPackages [fusionsc]: Skipping package: exceeds size limit 16405718>=10485760
+[2024-04-10 02:04:17] INFO root fetch - main [MainThread]: End processing [fusionsc] error
+[2024-04-10 02:04:17] INFO root fetch - processPackages [onnxscript]: Downloading https://files.pythonhosted.org/packages/9e/b5/ef5bdb211becd8c35bebf1fa5494e19b02ce8758a5b3a5351b3a5794713d/onnxscript-0.1.0.dev20240409.tar.gz
+[2024-04-10 02:04:17] INFO root fetch - processPackages [marimo]: Downloading https://files.pythonhosted.org/packages/d1/3e/cd8ef9f6faa59843ce698c7b1cc4eef8af5f2abcf674fd8b5b58f9ccbe89/marimo-0.3.9.tar.gz
+[2024-04-10 02:04:18] INFO root fetch - processPackages [onnxscript]: executing diffoscope
+[2024-04-10 02:04:18] INFO root fetch - processPackages [onnxscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnxscript-0.1.0.dev20240408.tar.gz tmp/onnxscript-0.1.0.dev20240409.tar.gz --markdown 20240410/o/onnxscript/0.1.0.dev20240408-0.1.0.dev20240409/README.md --exclude *.pyd
+[2024-04-10 02:04:18] INFO root fetch - processPackages [marimo]: executing diffoscope
+[2024-04-10 02:04:18] INFO root fetch - processPackages [marimo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marimo-0.3.8.tar.gz tmp/marimo-0.3.9.tar.gz --markdown 20240410/m/marimo/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-10 02:04:18] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240408.tar.gz]
+[2024-04-10 02:04:18] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240409.tar.gz]
+[2024-04-10 02:04:18] INFO root fetch - main [MainThread]: End processing [onnxscript]: success
+[2024-04-10 02:06:03] INFO root fetch - processPackages [marimo]: Remove: archive file [/home/abi/fetcher/tmp/marimo-0.3.8.tar.gz]
+[2024-04-10 02:06:03] INFO root fetch - processPackages [marimo]: Remove: archive file [/home/abi/fetcher/tmp/marimo-0.3.9.tar.gz]
+[2024-04-10 02:06:03] INFO root fetch - main [MainThread]: End processing [marimo]: success
+[2024-04-10 02:06:03] INFO root fetch - main [MainThread]: Store serial: [22692121]

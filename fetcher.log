@@ -21944,3 +21944,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-10 13:23:09] INFO root fetch - processPackages [finalytics]: Remove: archive file [/home/abi/fetcher/tmp/finalytics-0.3.0.tar.gz]
 [2024-04-10 13:23:09] INFO root fetch - main [MainThread]: End processing [finalytics]: success
 [2024-04-10 13:23:09] INFO root fetch - main [MainThread]: Store serial: [22699960]
+[2024-04-10 13:25:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22699960]
+[2024-04-10 13:25:18] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-10 13:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kkappkit
+[2024-04-10 13:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zon
+[2024-04-10 13:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: markdown_convert
+[2024-04-10 13:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mkdocs-print-site-plugin
+[2024-04-10 13:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: NetworkXsimple
+[2024-04-10 13:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: easyaddition-quicklyfix
+[2024-04-10 13:25:19] INFO root fetch - processPackages [mkdocs-print-site-plugin]: New version: [2.3.6] Old Version: [2.3.5]
+[2024-04-10 13:25:19] INFO root fetch - processPackages [markdown_convert]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-10 13:25:19] INFO root fetch - processPackages [easyaddition-quicklyfix]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-10 13:25:19] INFO root fetch - processPackages [NetworkXsimple]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-10 13:25:19] INFO root fetch - processPackages [kkappkit]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-10 13:25:19] INFO root fetch - processPackages [markdown_convert]: Downloading https://files.pythonhosted.org/packages/11/ee/a116e68da31de95ba5a2c42f6ea3437bfc7e57613a838ae445bc11338032/markdown_convert-1.0.4.tar.gz
+[2024-04-10 13:25:19] INFO root fetch - processPackages [NetworkXsimple]: Downloading https://files.pythonhosted.org/packages/f2/aa/038f98eaeeff2ef89fc64e2546c34243aab95b133781d91db6ebdd7bd3e6/NetworkXsimple-0.1.6-py3-none-any.whl
+[2024-04-10 13:25:19] INFO root fetch - processPackages [easyaddition-quicklyfix]: Downloading https://files.pythonhosted.org/packages/b2/0a/f94990387667d1b3b56ea53d1cc8415d122ca3b033e98b186cd3d076b067/easyaddition_quicklyfix-0.0.5.tar.gz
+[2024-04-10 13:25:19] INFO root fetch - processPackages [mkdocs-print-site-plugin]: Downloading https://files.pythonhosted.org/packages/64/79/83eebfaa74eccdcec53c6cce01bd5a02a61645eaab7963f9515c890e82c4/mkdocs-print-site-plugin-2.3.5.tar.gz
+[2024-04-10 13:25:19] INFO root fetch - processPackages [kkappkit]: Downloading https://files.pythonhosted.org/packages/e5/57/bf4e9e8216200edba252ae059ca7af20e56aa5bb76e6155489032b0371e6/kkappkit-0.9.0.tar.gz
+[2024-04-10 13:25:19] INFO root fetch - processPackages [zon]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-10 13:25:19] INFO root fetch - processPackages [markdown_convert]: Downloading https://files.pythonhosted.org/packages/21/92/e552dbf63344f7e58ab0d7c5cfc703d71e96bc35238583a7ba60acef6384/markdown_convert-1.0.5.tar.gz
+[2024-04-10 13:25:19] INFO root fetch - processPackages [NetworkXsimple]: Downloading https://files.pythonhosted.org/packages/f4/f9/eacf3ee821d3694cb50de035c3bb6e4bc9afa1f8eeff41f32f1a1cd769fe/NetworkXsimple-0.1.7-py3-none-any.whl
+[2024-04-10 13:25:19] INFO root fetch - processPackages [easyaddition-quicklyfix]: Downloading https://files.pythonhosted.org/packages/26/24/1f40d73d169c054567482a108271ad067f95f26c633a54a1f9e437665d2b/easyaddition_quicklyfix-0.0.6.tar.gz
+[2024-04-10 13:25:19] INFO root fetch - processPackages [zon]: Downloading https://files.pythonhosted.org/packages/12/f2/9d5095a611e11776e9139fb22a3fcaa72b860e3ec1740c1ec29dafad12d7/zon-1.0.0.tar.gz
+[2024-04-10 13:25:19] INFO root fetch - processPackages [markdown_convert]: executing diffoscope
+[2024-04-10 13:25:19] INFO root fetch - processPackages [markdown_convert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markdown_convert-1.0.4.tar.gz tmp/markdown_convert-1.0.5.tar.gz --markdown 20240410/m/markdown_convert/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-10 13:25:19] INFO root fetch - processPackages [NetworkXsimple]: executing diffoscope
+[2024-04-10 13:25:19] INFO root fetch - processPackages [NetworkXsimple]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NetworkXsimple-0.1.6-py3-none-any.whl.zip tmp/NetworkXsimple-0.1.7-py3-none-any.whl.zip --markdown 20240410/N/NetworkXsimple/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-10 13:25:19] INFO root fetch - processPackages [easyaddition-quicklyfix]: executing diffoscope
+[2024-04-10 13:25:19] INFO root fetch - processPackages [easyaddition-quicklyfix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyaddition_quicklyfix-0.0.5.tar.gz tmp/easyaddition_quicklyfix-0.0.6.tar.gz --markdown 20240410/e/easyaddition-quicklyfix/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-10 13:25:19] INFO root fetch - processPackages [mkdocs-print-site-plugin]: Downloading https://files.pythonhosted.org/packages/4d/d5/4bc2c92048c19a42abb8db49a3a0b8693129baa20677c4aaf191493ea05e/mkdocs-print-site-plugin-2.3.6.tar.gz
+[2024-04-10 13:25:19] INFO root fetch - processPackages [mkdocs-print-site-plugin]: executing diffoscope
+[2024-04-10 13:25:19] INFO root fetch - processPackages [mkdocs-print-site-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-print-site-plugin-2.3.5.tar.gz tmp/mkdocs-print-site-plugin-2.3.6.tar.gz --markdown 20240410/m/mkdocs-print-site-plugin/2.3.5-2.3.6/README.md --exclude *.pyd
+[2024-04-10 13:25:19] INFO root fetch - processPackages [zon]: Downloading https://files.pythonhosted.org/packages/c9/8e/8d5d7e4d1cfe4ff0b934a0abb0f37098dcb32f06c21f01ac838970b624cc/zon-1.1.0.tar.gz
+[2024-04-10 13:25:20] INFO root fetch - processPackages [zon]: executing diffoscope
+[2024-04-10 13:25:20] INFO root fetch - processPackages [zon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zon-1.0.0.tar.gz tmp/zon-1.1.0.tar.gz --markdown 20240410/z/zon/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-04-10 13:25:20] INFO root fetch - processPackages [NetworkXsimple]: Remove: archive file [/home/abi/fetcher/tmp/NetworkXsimple-0.1.6-py3-none-any.whl.zip]
+[2024-04-10 13:25:20] INFO root fetch - processPackages [NetworkXsimple]: Remove: archive file [/home/abi/fetcher/tmp/NetworkXsimple-0.1.7-py3-none-any.whl.zip]
+[2024-04-10 13:25:20] INFO root fetch - main [MainThread]: End processing [NetworkXsimple]: success
+[2024-04-10 13:25:20] INFO root fetch - processPackages [markdown_convert]: Remove: archive file [/home/abi/fetcher/tmp/markdown_convert-1.0.4.tar.gz]
+[2024-04-10 13:25:20] INFO root fetch - processPackages [easyaddition-quicklyfix]: Remove: archive file [/home/abi/fetcher/tmp/easyaddition_quicklyfix-0.0.5.tar.gz]
+[2024-04-10 13:25:20] INFO root fetch - processPackages [markdown_convert]: Remove: archive file [/home/abi/fetcher/tmp/markdown_convert-1.0.5.tar.gz]
+[2024-04-10 13:25:20] INFO root fetch - processPackages [easyaddition-quicklyfix]: Remove: archive file [/home/abi/fetcher/tmp/easyaddition_quicklyfix-0.0.6.tar.gz]
+[2024-04-10 13:25:20] INFO root fetch - main [MainThread]: End processing [markdown_convert]: success
+[2024-04-10 13:25:20] INFO root fetch - main [MainThread]: End processing [easyaddition-quicklyfix]: success
+[2024-04-10 13:25:20] INFO root fetch - processPackages [mkdocs-print-site-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-print-site-plugin-2.3.5.tar.gz]
+[2024-04-10 13:25:20] INFO root fetch - processPackages [mkdocs-print-site-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-print-site-plugin-2.3.6.tar.gz]
+[2024-04-10 13:25:20] INFO root fetch - main [MainThread]: End processing [mkdocs-print-site-plugin]: success
+[2024-04-10 13:25:20] INFO root fetch - processPackages [zon]: Remove: archive file [/home/abi/fetcher/tmp/zon-1.0.0.tar.gz]
+[2024-04-10 13:25:20] INFO root fetch - processPackages [zon]: Remove: archive file [/home/abi/fetcher/tmp/zon-1.1.0.tar.gz]
+[2024-04-10 13:25:20] INFO root fetch - main [MainThread]: End processing [zon]: success
+[2024-04-10 13:25:21] INFO root fetch - processPackages [kkappkit]: Downloading https://files.pythonhosted.org/packages/04/89/d66107ea47baf9d7789b9d1e910d4bcf1f45230ff597ac00429cf6b0728e/kkappkit-0.9.1.tar.gz
+[2024-04-10 13:25:21] INFO root fetch - processPackages [kkappkit]: executing diffoscope
+[2024-04-10 13:25:21] INFO root fetch - processPackages [kkappkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kkappkit-0.9.0.tar.gz tmp/kkappkit-0.9.1.tar.gz --markdown 20240410/k/kkappkit/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-10 13:25:23] INFO root fetch - processPackages [kkappkit]: Remove: archive file [/home/abi/fetcher/tmp/kkappkit-0.9.0.tar.gz]
+[2024-04-10 13:25:23] INFO root fetch - processPackages [kkappkit]: Remove: archive file [/home/abi/fetcher/tmp/kkappkit-0.9.1.tar.gz]
+[2024-04-10 13:25:23] INFO root fetch - main [MainThread]: End processing [kkappkit]: success
+[2024-04-10 13:25:23] INFO root fetch - main [MainThread]: Store serial: [22699996]

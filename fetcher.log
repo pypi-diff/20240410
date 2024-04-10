@@ -8604,3 +8604,24 @@
 [2024-04-10 03:59:44] INFO root fetch - processPackages [Geode-Explicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Explicit-4.7.1rc1-cp39-cp39-win_amd64.whl.zip]
 [2024-04-10 03:59:44] INFO root fetch - main [MainThread]: End processing [Geode-Explicit]: success
 [2024-04-10 03:59:44] INFO root fetch - main [MainThread]: Store serial: [22694367]
+[2024-04-10 04:01:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22694367]
+[2024-04-10 04:01:53] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-10 04:01:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: adetailer
+[2024-04-10 04:01:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: clip-util
+[2024-04-10 04:01:54] INFO root fetch - processPackages [adetailer]: New version: [24.4.0] Old Version: [24.3.3]
+[2024-04-10 04:01:54] INFO root fetch - processPackages [clip-util]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-10 04:01:54] INFO root fetch - processPackages [clip-util]: Downloading https://files.pythonhosted.org/packages/62/b3/1dadedcd87d131bf2409d1b99b98cfe912a716ec0c14a1de749fc90c6d1c/clip-util-0.1.8.tar.gz
+[2024-04-10 04:01:54] INFO root fetch - processPackages [adetailer]: Downloading https://files.pythonhosted.org/packages/31/45/fbac45a141ebe11675dde1c96a29fe06cfb6471f5d64b59442176f1508f9/adetailer-24.3.3.tar.gz
+[2024-04-10 04:01:54] INFO root fetch - processPackages [adetailer]: Downloading https://files.pythonhosted.org/packages/85/d0/0798307ebed6dc5906aed64d60903694619ed0c5a955d27d7462e5f60c49/adetailer-24.4.0.tar.gz
+[2024-04-10 04:01:54] INFO root fetch - processPackages [clip-util]: Downloading https://files.pythonhosted.org/packages/41/bb/9082a814e9fb8fa4545c7852a27a82fbfb2c177a9cb11dcca70a065c5bd8/clip-util-0.1.9.tar.gz
+[2024-04-10 04:01:54] INFO root fetch - processPackages [adetailer]: executing diffoscope
+[2024-04-10 04:01:54] INFO root fetch - processPackages [adetailer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adetailer-24.3.3.tar.gz tmp/adetailer-24.4.0.tar.gz --markdown 20240410/a/adetailer/24.3.3-24.4.0/README.md --exclude *.pyd
+[2024-04-10 04:01:55] INFO root fetch - processPackages [clip-util]: executing diffoscope
+[2024-04-10 04:01:55] INFO root fetch - processPackages [clip-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clip-util-0.1.8.tar.gz tmp/clip-util-0.1.9.tar.gz --markdown 20240410/c/clip-util/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-10 04:01:55] INFO root fetch - processPackages [clip-util]: Remove: archive file [/home/abi/fetcher/tmp/clip-util-0.1.8.tar.gz]
+[2024-04-10 04:01:55] INFO root fetch - processPackages [clip-util]: Remove: archive file [/home/abi/fetcher/tmp/clip-util-0.1.9.tar.gz]
+[2024-04-10 04:01:55] INFO root fetch - main [MainThread]: End processing [clip-util]: success
+[2024-04-10 04:01:55] INFO root fetch - processPackages [adetailer]: Remove: archive file [/home/abi/fetcher/tmp/adetailer-24.3.3.tar.gz]
+[2024-04-10 04:01:55] INFO root fetch - processPackages [adetailer]: Remove: archive file [/home/abi/fetcher/tmp/adetailer-24.4.0.tar.gz]
+[2024-04-10 04:01:55] INFO root fetch - main [MainThread]: End processing [adetailer]: success
+[2024-04-10 04:01:55] INFO root fetch - main [MainThread]: Store serial: [22694377]

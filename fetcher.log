@@ -10062,3 +10062,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 04:55:05] INFO root fetch - processPackages [ros-cdk-ehpc]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ehpc-1.0.9.tar.gz]
 [2024-04-10 04:55:05] INFO root fetch - main [MainThread]: End processing [ros-cdk-ehpc]: success
 [2024-04-10 04:55:05] INFO root fetch - main [MainThread]: Store serial: [22694846]
+[2024-04-10 04:57:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22694846]
+[2024-04-10 04:57:16] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-10 04:57:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pipdeptree
+[2024-04-10 04:57:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytest-fly
+[2024-04-10 04:57:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ros-cdk-asm
+[2024-04-10 04:57:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ros-cdk-datahub
+[2024-04-10 04:57:16] INFO root fetch - processPackages [ros-cdk-asm]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-10 04:57:16] WARNING root fetch - processPackages [pytest-fly]: Skipping, unable to determine old version
+[2024-04-10 04:57:16] INFO root fetch - main [MainThread]: End processing [pytest-fly] error
+[2024-04-10 04:57:16] INFO root fetch - processPackages [pipdeptree]: New version: [2.9.6] Old Version: [2.9.5]
+[2024-04-10 04:57:16] INFO root fetch - processPackages [ros-cdk-datahub]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-10 04:57:16] INFO root fetch - processPackages [ros-cdk-asm]: Downloading https://files.pythonhosted.org/packages/14/e7/5878fa168e4b5e5076d02feb289d0cc0c7abe835224fac5756c88c7c455e/ros-cdk-asm-1.0.8.tar.gz
+[2024-04-10 04:57:16] INFO root fetch - processPackages [pipdeptree]: Downloading https://files.pythonhosted.org/packages/89/86/cd4899dd11f30802f3ec5631ffc735ad120739c1e93ce51e4392ebc640b7/pipdeptree-2.9.5.tar.gz
+[2024-04-10 04:57:16] INFO root fetch - processPackages [ros-cdk-datahub]: Downloading https://files.pythonhosted.org/packages/0d/9f/705aca609a7929f26bc84bfc4beab6b3584948fbb18ac974c9549a445311/ros-cdk-datahub-1.0.8.tar.gz
+[2024-04-10 04:57:17] INFO root fetch - processPackages [ros-cdk-asm]: Downloading https://files.pythonhosted.org/packages/77/2e/0382bd98bdddc0b3148f6a38a5267e292d026a858707240b6bf76e705961/ros-cdk-asm-1.0.9.tar.gz
+[2024-04-10 04:57:17] INFO root fetch - processPackages [pipdeptree]: Downloading https://files.pythonhosted.org/packages/0a/b2/2508e11f44e0e7b136555175f21c121f20642d43ab2a09797b178e968834/pipdeptree-2.9.6.tar.gz
+[2024-04-10 04:57:17] INFO root fetch - processPackages [ros-cdk-asm]: executing diffoscope
+[2024-04-10 04:57:17] INFO root fetch - processPackages [ros-cdk-asm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-asm-1.0.8.tar.gz tmp/ros-cdk-asm-1.0.9.tar.gz --markdown 20240410/r/ros-cdk-asm/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-10 04:57:17] INFO root fetch - processPackages [ros-cdk-datahub]: Downloading https://files.pythonhosted.org/packages/16/c6/6f134333f25cc6ea51fa6375b0ba68d4776625d7f5a089646c1e3a3e8148/ros-cdk-datahub-1.0.9.tar.gz
+[2024-04-10 04:57:17] INFO root fetch - processPackages [pipdeptree]: executing diffoscope
+[2024-04-10 04:57:17] INFO root fetch - processPackages [pipdeptree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipdeptree-2.9.5.tar.gz tmp/pipdeptree-2.9.6.tar.gz --markdown 20240410/p/pipdeptree/2.9.5-2.9.6/README.md --exclude *.pyd
+[2024-04-10 04:57:17] INFO root fetch - processPackages [ros-cdk-datahub]: executing diffoscope
+[2024-04-10 04:57:17] INFO root fetch - processPackages [ros-cdk-datahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-datahub-1.0.8.tar.gz tmp/ros-cdk-datahub-1.0.9.tar.gz --markdown 20240410/r/ros-cdk-datahub/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-10 04:57:17] INFO root fetch - processPackages [ros-cdk-asm]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-asm-1.0.8.tar.gz]
+[2024-04-10 04:57:17] INFO root fetch - processPackages [ros-cdk-asm]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-asm-1.0.9.tar.gz]
+[2024-04-10 04:57:17] INFO root fetch - main [MainThread]: End processing [ros-cdk-asm]: success
+[2024-04-10 04:57:17] INFO root fetch - processPackages [ros-cdk-datahub]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-datahub-1.0.8.tar.gz]
+[2024-04-10 04:57:17] INFO root fetch - processPackages [ros-cdk-datahub]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-datahub-1.0.9.tar.gz]
+[2024-04-10 04:57:17] INFO root fetch - main [MainThread]: End processing [ros-cdk-datahub]: success
+[2024-04-10 04:57:17] INFO root fetch - processPackages [pipdeptree]: Remove: archive file [/home/abi/fetcher/tmp/pipdeptree-2.9.5.tar.gz]
+[2024-04-10 04:57:17] INFO root fetch - processPackages [pipdeptree]: Remove: archive file [/home/abi/fetcher/tmp/pipdeptree-2.9.6.tar.gz]
+[2024-04-10 04:57:17] INFO root fetch - main [MainThread]: End processing [pipdeptree]: success
+[2024-04-10 04:57:17] INFO root fetch - main [MainThread]: Store serial: [22694858]

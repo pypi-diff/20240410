@@ -18824,3 +18824,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 11:27:42] INFO root fetch - processPackages [cyclonedx-python-lib]: Remove: archive file [/home/abi/fetcher/tmp/cyclonedx_python_lib-7.0.0a1.tar.gz]
 [2024-04-10 11:27:42] INFO root fetch - main [MainThread]: End processing [cyclonedx-python-lib]: success
 [2024-04-10 11:27:42] INFO root fetch - main [MainThread]: Store serial: [22698414]
+[2024-04-10 11:29:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22698414]
+[2024-04-10 11:29:52] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-10 11:29:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nihtest
+[2024-04-10 11:29:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: TineAutomationToolkit
+[2024-04-10 11:29:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: caluma-alexandria
+[2024-04-10 11:29:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: momodeltool
+[2024-04-10 11:29:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fuNEGF
+[2024-04-10 11:29:52] INFO root fetch - processPackages [TineAutomationToolkit]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-10 11:29:52] INFO root fetch - processPackages [TineAutomationToolkit]: Downloading https://files.pythonhosted.org/packages/d3/64/b674091b2a5207b76e9feb56f5a2f1161dff02eb213bce8303f81e4df841/TineAutomationToolkit-1.0.1.tar.gz
+[2024-04-10 11:29:52] INFO root fetch - processPackages [momodeltool]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-10 11:29:52] INFO root fetch - processPackages [nihtest]: New version: [1.6.0] Old Version: [1.5.2]
+[2024-04-10 11:29:52] INFO root fetch - processPackages [caluma-alexandria]: New version: [4.0.0] Old Version: [3.1.0]
+[2024-04-10 11:29:52] INFO root fetch - processPackages [fuNEGF]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-10 11:29:52] INFO root fetch - processPackages [nihtest]: Downloading https://files.pythonhosted.org/packages/60/64/d2696c1ee0f2f0df089a13b3b21a81b72803cd4b5e391155c73319a27bd7/nihtest-1.5.2.tar.gz
+[2024-04-10 11:29:52] INFO root fetch - processPackages [momodeltool]: Downloading https://files.pythonhosted.org/packages/ea/c5/1cc79b1a63d5f112f560811aa2de54a4d9704db3babb4d16ee2b62081c82/momodeltool-0.0.8.tar.gz
+[2024-04-10 11:29:52] INFO root fetch - processPackages [caluma-alexandria]: Downloading https://files.pythonhosted.org/packages/58/ed/1fe78d4f1c3d272bdd44d9fd07699280e10106c7c8b6ad596eb802f4eb9c/caluma_alexandria-3.1.0.tar.gz
+[2024-04-10 11:29:53] INFO root fetch - processPackages [fuNEGF]: Downloading https://files.pythonhosted.org/packages/b8/03/52fc4e6da52ff71b453c0e30696585ed0def10e14c0c84fa374e515092ae/fuNEGF-0.1.1.tar.gz
+[2024-04-10 11:29:53] INFO root fetch - processPackages [TineAutomationToolkit]: Downloading https://files.pythonhosted.org/packages/d2/05/bf774ece80c2735528b9d041a2f4f0f59fdb91ea2e1424b7a3e706e79103/TineAutomationToolkit-1.0.2.tar.gz
+[2024-04-10 11:29:53] INFO root fetch - processPackages [TineAutomationToolkit]: executing diffoscope
+[2024-04-10 11:29:53] INFO root fetch - processPackages [TineAutomationToolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TineAutomationToolkit-1.0.1.tar.gz tmp/TineAutomationToolkit-1.0.2.tar.gz --markdown 20240410/T/TineAutomationToolkit/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-10 11:29:53] INFO root fetch - processPackages [nihtest]: Downloading https://files.pythonhosted.org/packages/78/8a/476334749d0ef70f17a0b3a8538608197d78765a98e959ed9dcd505f2c01/nihtest-1.6.0.tar.gz
+[2024-04-10 11:29:53] INFO root fetch - processPackages [momodeltool]: Downloading https://files.pythonhosted.org/packages/53/73/28eccdf93b18bd55dee87208b71c6da98fe28ee06d1d53267ae24ccda52d/momodeltool-0.0.9.tar.gz
+[2024-04-10 11:29:53] INFO root fetch - processPackages [caluma-alexandria]: Downloading https://files.pythonhosted.org/packages/41/8a/177b1e3f45ce4e7da5691d198facf9c983cb1eab4ff380353916dea6c0a9/caluma_alexandria-4.0.0.tar.gz
+[2024-04-10 11:29:53] INFO root fetch - processPackages [nihtest]: executing diffoscope
+[2024-04-10 11:29:53] INFO root fetch - processPackages [nihtest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nihtest-1.5.2.tar.gz tmp/nihtest-1.6.0.tar.gz --markdown 20240410/n/nihtest/1.5.2-1.6.0/README.md --exclude *.pyd
+[2024-04-10 11:29:53] INFO root fetch - processPackages [fuNEGF]: Downloading https://files.pythonhosted.org/packages/57/ad/fb1e0f40e9c9aef3e119f93bbdc2bfef5ff6db164aa12f261f3ebbedfe29/fuNEGF-0.1.2-py3-none-any.whl
+[2024-04-10 11:29:53] INFO root fetch - processPackages [momodeltool]: executing diffoscope
+[2024-04-10 11:29:53] INFO root fetch - processPackages [momodeltool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/momodeltool-0.0.8.tar.gz tmp/momodeltool-0.0.9.tar.gz --markdown 20240410/m/momodeltool/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-10 11:29:53] INFO root fetch - processPackages [caluma-alexandria]: executing diffoscope
+[2024-04-10 11:29:53] INFO root fetch - processPackages [caluma-alexandria]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caluma_alexandria-3.1.0.tar.gz tmp/caluma_alexandria-4.0.0.tar.gz --markdown 20240410/c/caluma-alexandria/3.1.0-4.0.0/README.md --exclude *.pyd
+[2024-04-10 11:29:53] INFO root fetch - processPackages [TineAutomationToolkit]: Remove: archive file [/home/abi/fetcher/tmp/TineAutomationToolkit-1.0.1.tar.gz]
+[2024-04-10 11:29:53] INFO root fetch - processPackages [TineAutomationToolkit]: Remove: archive file [/home/abi/fetcher/tmp/TineAutomationToolkit-1.0.2.tar.gz]
+[2024-04-10 11:29:53] INFO root fetch - main [MainThread]: End processing [TineAutomationToolkit]: success
+[2024-04-10 11:29:54] INFO root fetch - processPackages [fuNEGF]: executing diffoscope
+[2024-04-10 11:29:54] INFO root fetch - processPackages [fuNEGF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fuNEGF-0.1.1.tar.gz tmp/fuNEGF-0.1.2-py3-none-any.whl.zip --markdown 20240410/f/fuNEGF/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-10 11:29:54] INFO root fetch - processPackages [momodeltool]: Remove: archive file [/home/abi/fetcher/tmp/momodeltool-0.0.8.tar.gz]
+[2024-04-10 11:29:54] INFO root fetch - processPackages [momodeltool]: Remove: archive file [/home/abi/fetcher/tmp/momodeltool-0.0.9.tar.gz]
+[2024-04-10 11:29:54] INFO root fetch - main [MainThread]: End processing [momodeltool]: success
+[2024-04-10 11:29:54] INFO root fetch - processPackages [nihtest]: Remove: archive file [/home/abi/fetcher/tmp/nihtest-1.5.2.tar.gz]
+[2024-04-10 11:29:54] INFO root fetch - processPackages [nihtest]: Remove: archive file [/home/abi/fetcher/tmp/nihtest-1.6.0.tar.gz]
+[2024-04-10 11:29:54] INFO root fetch - main [MainThread]: End processing [nihtest]: success
+[2024-04-10 11:29:54] INFO root fetch - processPackages [caluma-alexandria]: Remove: archive file [/home/abi/fetcher/tmp/caluma_alexandria-3.1.0.tar.gz]
+[2024-04-10 11:29:54] INFO root fetch - processPackages [caluma-alexandria]: Remove: archive file [/home/abi/fetcher/tmp/caluma_alexandria-4.0.0.tar.gz]
+[2024-04-10 11:29:54] INFO root fetch - main [MainThread]: End processing [caluma-alexandria]: success
+[2024-04-10 11:29:54] INFO root fetch - processPackages [fuNEGF]: Remove: archive file [/home/abi/fetcher/tmp/fuNEGF-0.1.1.tar.gz]
+[2024-04-10 11:29:54] INFO root fetch - processPackages [fuNEGF]: Remove: archive file [/home/abi/fetcher/tmp/fuNEGF-0.1.2-py3-none-any.whl.zip]
+[2024-04-10 11:29:54] INFO root fetch - main [MainThread]: End processing [fuNEGF]: success
+[2024-04-10 11:29:54] INFO root fetch - main [MainThread]: Store serial: [22698429]

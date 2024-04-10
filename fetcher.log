@@ -13327,3 +13327,45 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 07:41:11] INFO root fetch - processPackages [oceanumlab]: Remove: archive file [/home/abi/fetcher/tmp/oceanumlab-4.0.0.tar.gz]
 [2024-04-10 07:41:11] INFO root fetch - main [MainThread]: End processing [oceanumlab]: success
 [2024-04-10 07:41:11] INFO root fetch - main [MainThread]: Store serial: [22696170]
+[2024-04-10 07:43:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22696170]
+[2024-04-10 07:43:20] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-10 07:43:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-civo
+[2024-04-10 07:43:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-azuread
+[2024-04-10 07:43:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: IPYNBrenderer033
+[2024-04-10 07:43:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mystring
+[2024-04-10 07:43:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-cloudinit
+[2024-04-10 07:43:20] INFO root fetch - processPackages [mystring]: New version: [0.2.99] Old Version: [0.2.98]
+[2024-04-10 07:43:20] WARNING root fetch - processPackages [IPYNBrenderer033]: Skipping, unable to determine old version
+[2024-04-10 07:43:20] INFO root fetch - main [MainThread]: End processing [IPYNBrenderer033] error
+[2024-04-10 07:43:20] INFO root fetch - processPackages [mystring]: Downloading https://files.pythonhosted.org/packages/88/05/d0d140db04c0b270b7380359ce66dc3b26477e6b13a36cd8ced2e0442041/mystring-0.2.98-py3-none-any.whl
+[2024-04-10 07:43:20] INFO root fetch - processPackages [pulumi-civo]: New version: [2.4.0a1712726540] Old Version: [2.4.0a1712467167]
+[2024-04-10 07:43:20] INFO root fetch - processPackages [pulumi-azuread]: New version: [5.9.0a1637590268] Old Version: [5.9.0]
+[2024-04-10 07:43:20] INFO root fetch - processPackages [pulumi-cloudinit]: New version: [1.5.0a1712726635] Old Version: [1.5.0a1712467268]
+[2024-04-10 07:43:20] INFO root fetch - processPackages [pulumi-civo]: Downloading https://files.pythonhosted.org/packages/3d/fc/df7296f3404ffa33e525e19530fc759eb335d7140c85d69a3c75bca5976f/pulumi_civo-2.4.0a1712467167.tar.gz
+[2024-04-10 07:43:20] INFO root fetch - processPackages [mystring]: Downloading https://files.pythonhosted.org/packages/fa/f7/968c4dde1769f6b1b7f54bedafe67abf4ae2c5ff261eaed5f05032e85e87/mystring-0.2.99-py3-none-any.whl
+[2024-04-10 07:43:20] INFO root fetch - processPackages [pulumi-azuread]: Downloading https://files.pythonhosted.org/packages/f4/f7/ac3012c15949ee976d13803f93ece9979adca66c4e8ad22f982d9ef2bd26/pulumi_azuread-5.9.0.tar.gz
+[2024-04-10 07:43:20] INFO root fetch - processPackages [pulumi-cloudinit]: Downloading https://files.pythonhosted.org/packages/be/6d/07ad3bc7bcc5d13f60bb67473bc75deec230f87bf86e83d10ccf16e6d0dc/pulumi_cloudinit-1.5.0a1712467268.tar.gz
+[2024-04-10 07:43:20] INFO root fetch - processPackages [mystring]: executing diffoscope
+[2024-04-10 07:43:20] INFO root fetch - processPackages [mystring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mystring-0.2.98-py3-none-any.whl.zip tmp/mystring-0.2.99-py3-none-any.whl.zip --markdown 20240410/m/mystring/0.2.98-0.2.99/README.md --exclude *.pyd
+[2024-04-10 07:43:20] INFO root fetch - processPackages [pulumi-civo]: Downloading https://files.pythonhosted.org/packages/69/67/029de6e0a254b953cd6e71059356eeb3de39337866c26414e9b1cdd1dcda/pulumi_civo-2.4.0a1712726540.tar.gz
+[2024-04-10 07:43:21] INFO root fetch - processPackages [pulumi-azuread]: Downloading https://files.pythonhosted.org/packages/80/14/c6fa237dd848e602cd45db3de0b2cd017ce8857a3e21b8e9a3802d60ebbb/pulumi_azuread-5.9.0a1637590268.tar.gz
+[2024-04-10 07:43:21] INFO root fetch - processPackages [pulumi-civo]: executing diffoscope
+[2024-04-10 07:43:21] INFO root fetch - processPackages [pulumi-civo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_civo-2.4.0a1712467167.tar.gz tmp/pulumi_civo-2.4.0a1712726540.tar.gz --markdown 20240410/p/pulumi-civo/2.4.0a1712467167-2.4.0a1712726540/README.md --exclude *.pyd
+[2024-04-10 07:43:21] INFO root fetch - processPackages [pulumi-cloudinit]: Downloading https://files.pythonhosted.org/packages/af/cd/6343d0044fa9396ac9923206b7bf8d44922b8ec4da08b4a7d2e85b686d93/pulumi_cloudinit-1.5.0a1712726635.tar.gz
+[2024-04-10 07:43:21] INFO root fetch - processPackages [pulumi-azuread]: executing diffoscope
+[2024-04-10 07:43:21] INFO root fetch - processPackages [pulumi-azuread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azuread-5.9.0.tar.gz tmp/pulumi_azuread-5.9.0a1637590268.tar.gz --markdown 20240410/p/pulumi-azuread/5.9.0-5.9.0a1637590268/README.md --exclude *.pyd
+[2024-04-10 07:43:21] INFO root fetch - processPackages [pulumi-cloudinit]: executing diffoscope
+[2024-04-10 07:43:21] INFO root fetch - processPackages [pulumi-cloudinit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudinit-1.5.0a1712467268.tar.gz tmp/pulumi_cloudinit-1.5.0a1712726635.tar.gz --markdown 20240410/p/pulumi-cloudinit/1.5.0a1712467268-1.5.0a1712726635/README.md --exclude *.pyd
+[2024-04-10 07:43:21] INFO root fetch - processPackages [mystring]: Remove: archive file [/home/abi/fetcher/tmp/mystring-0.2.98-py3-none-any.whl.zip]
+[2024-04-10 07:43:21] INFO root fetch - processPackages [mystring]: Remove: archive file [/home/abi/fetcher/tmp/mystring-0.2.99-py3-none-any.whl.zip]
+[2024-04-10 07:43:21] INFO root fetch - main [MainThread]: End processing [mystring]: success
+[2024-04-10 07:43:21] INFO root fetch - processPackages [pulumi-civo]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_civo-2.4.0a1712467167.tar.gz]
+[2024-04-10 07:43:21] INFO root fetch - processPackages [pulumi-civo]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_civo-2.4.0a1712726540.tar.gz]
+[2024-04-10 07:43:21] INFO root fetch - main [MainThread]: End processing [pulumi-civo]: success
+[2024-04-10 07:43:21] INFO root fetch - processPackages [pulumi-cloudinit]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudinit-1.5.0a1712467268.tar.gz]
+[2024-04-10 07:43:21] INFO root fetch - processPackages [pulumi-cloudinit]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudinit-1.5.0a1712726635.tar.gz]
+[2024-04-10 07:43:21] INFO root fetch - main [MainThread]: End processing [pulumi-cloudinit]: success
+[2024-04-10 07:43:21] INFO root fetch - processPackages [pulumi-azuread]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuread-5.9.0.tar.gz]
+[2024-04-10 07:43:21] INFO root fetch - processPackages [pulumi-azuread]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuread-5.9.0a1637590268.tar.gz]
+[2024-04-10 07:43:21] INFO root fetch - main [MainThread]: End processing [pulumi-azuread]: success
+[2024-04-10 07:43:21] INFO root fetch - main [MainThread]: Store serial: [22696186]

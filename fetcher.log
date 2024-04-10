@@ -3177,3 +3177,51 @@
 [2024-04-10 02:26:22] INFO root fetch - processPackages [not1mm]: Remove: archive file [/home/abi/fetcher/tmp/not1mm-24.4.9.1.tar.gz]
 [2024-04-10 02:26:22] INFO root fetch - main [MainThread]: End processing [not1mm]: success
 [2024-04-10 02:26:22] INFO root fetch - main [MainThread]: Store serial: [22692389]
+[2024-04-10 02:28:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22692389]
+[2024-04-10 02:28:31] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-10 02:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-gitlab-runner
+[2024-04-10 02:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: NMODL-nightly
+[2024-04-10 02:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-certbot-dns-route53
+[2024-04-10 02:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-aurora-globaldatabase
+[2024-04-10 02:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ethyca-fides
+[2024-04-10 02:28:31] INFO root fetch - processPackages [ethyca-fides]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-04-10 02:28:31] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2024-04-10 02:28:31] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-04-10 02:28:32] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.4.99] Old Version: [2.4.98]
+[2024-04-10 02:28:32] INFO root fetch - processPackages [NMODL-nightly]: New version: [0.6.98] Old Version: [0.6.93]
+[2024-04-10 02:28:32] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/07/29/9f2cc8590770873b6073743e94ff15a2a7913eb0de3e6a4d2fc133008f62/cdk-gitlab-runner-2.2.98.tar.gz
+[2024-04-10 02:28:32] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2024-04-10 02:28:32] INFO root fetch - processPackages [ethyca-fides]: Downloading https://files.pythonhosted.org/packages/a5/ce/6ad04dd381854d1db26960c5cc1e174a086becd7eea9daa2b89a8dde7a70/ethyca-fides-2.9.1.tar.gz
+[2024-04-10 02:28:32] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/7d/4d/b1cb6c8586d736f490cc5099e0220282aadb28d3aefc028cf88e6a183b06/cdk-certbot-dns-route53-2.4.98.tar.gz
+[2024-04-10 02:28:32] INFO root fetch - processPackages [NMODL-nightly]: Downloading https://files.pythonhosted.org/packages/94/bf/65d51cf0f3bd818482bc6d015444c6fa5effd03ea78ae4a494c1f1a2d189/NMODL_nightly-0.6.93-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-10 02:28:32] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2024-04-10 02:28:32] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/16/61/e9f00b4e877a6352bd641de360f7577c27548fbcedc3aab19b1cf3852b9a/cdk-gitlab-runner-2.2.99.tar.gz
+[2024-04-10 02:28:32] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/28/81/76f66486f9d6f5aee6f787bb13f11ab8012414fd95d10756b575fd69b909/cdk-certbot-dns-route53-2.4.99.tar.gz
+[2024-04-10 02:28:32] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2024-04-10 02:28:32] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20240410/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/README.md --exclude *.pyd
+[2024-04-10 02:28:32] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2024-04-10 02:28:32] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.2.98.tar.gz tmp/cdk-gitlab-runner-2.2.99.tar.gz --markdown 20240410/c/cdk-gitlab-runner/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-04-10 02:28:32] INFO root fetch - processPackages [ethyca-fides]: Downloading https://files.pythonhosted.org/packages/a3/0c/e979f7bc3c1a405c539d4df6c4c75896975e70d6b87777b8378ea071da2c/ethyca-fides-2.9.2.tar.gz
+[2024-04-10 02:28:32] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2024-04-10 02:28:32] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.4.98.tar.gz tmp/cdk-certbot-dns-route53-2.4.99.tar.gz --markdown 20240410/c/cdk-certbot-dns-route53/2.4.98-2.4.99/README.md --exclude *.pyd
+[2024-04-10 02:28:32] INFO root fetch - processPackages [ethyca-fides]: executing diffoscope
+[2024-04-10 02:28:32] INFO root fetch - processPackages [ethyca-fides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ethyca-fides-2.9.1.tar.gz tmp/ethyca-fides-2.9.2.tar.gz --markdown 20240410/e/ethyca-fides/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-04-10 02:28:33] INFO root fetch - processPackages [NMODL-nightly]: Downloading https://files.pythonhosted.org/packages/e7/74/0082eac701e2e33195753774345536580724cd74e073c135ec8f5e9fd1a9/NMODL_nightly-0.6.98-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-10 02:28:33] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2024-04-10 02:28:33] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2024-04-10 02:28:33] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2024-04-10 02:28:33] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.98.tar.gz]
+[2024-04-10 02:28:33] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.99.tar.gz]
+[2024-04-10 02:28:33] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2024-04-10 02:28:33] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.98.tar.gz]
+[2024-04-10 02:28:33] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.99.tar.gz]
+[2024-04-10 02:28:33] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2024-04-10 02:28:33] INFO root fetch - processPackages [NMODL-nightly]: executing diffoscope
+[2024-04-10 02:28:33] INFO root fetch - processPackages [NMODL-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NMODL_nightly-0.6.93-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/NMODL_nightly-0.6.98-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240410/N/NMODL-nightly/0.6.93-0.6.98/README.md --exclude *.pyd
+[2024-04-10 02:28:36] INFO root fetch - processPackages [ethyca-fides]: Remove: archive file [/home/abi/fetcher/tmp/ethyca-fides-2.9.1.tar.gz]
+[2024-04-10 02:28:36] INFO root fetch - processPackages [ethyca-fides]: Remove: archive file [/home/abi/fetcher/tmp/ethyca-fides-2.9.2.tar.gz]
+[2024-04-10 02:28:36] INFO root fetch - main [MainThread]: End processing [ethyca-fides]: success
+[2024-04-10 02:30:25] INFO root fetch - processPackages [NMODL-nightly]: Remove: archive file [/home/abi/fetcher/tmp/NMODL_nightly-0.6.93-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-10 02:30:25] INFO root fetch - processPackages [NMODL-nightly]: Remove: archive file [/home/abi/fetcher/tmp/NMODL_nightly-0.6.98-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-10 02:30:25] INFO root fetch - main [MainThread]: End processing [NMODL-nightly]: success
+[2024-04-10 02:30:25] INFO root fetch - main [MainThread]: Store serial: [22692411]

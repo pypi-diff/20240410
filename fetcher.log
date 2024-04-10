@@ -14836,3 +14836,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 08:53:50] INFO root fetch - processPackages [collective.documentgenerator]: Remove: archive file [/home/abi/fetcher/tmp/collective.documentgenerator-3.9.tar.gz]
 [2024-04-10 08:53:50] INFO root fetch - main [MainThread]: End processing [collective.documentgenerator]: success
 [2024-04-10 08:53:50] INFO root fetch - main [MainThread]: Store serial: [22696701]
+[2024-04-10 08:55:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22696701]
+[2024-04-10 08:55:59] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-10 08:55:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sodata
+[2024-04-10 08:55:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: slim-helper
+[2024-04-10 08:55:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: accmt
+[2024-04-10 08:55:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: resamp
+[2024-04-10 08:55:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-pagerduty
+[2024-04-10 08:55:59] INFO root fetch - processPackages [sodata]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-10 08:55:59] INFO root fetch - processPackages [resamp]: New version: [1.6.7.3] Old Version: [1.6.7.2]
+[2024-04-10 08:55:59] INFO root fetch - processPackages [sodata]: Downloading https://files.pythonhosted.org/packages/4f/6a/21502cffd2b0b3650354b16c3d9df3a082b15c9bf6e38282a87f3f92de20/sodata-0.0.2.tar.gz
+[2024-04-10 08:55:59] INFO root fetch - processPackages [accmt]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-10 08:55:59] INFO root fetch - processPackages [resamp]: Downloading https://files.pythonhosted.org/packages/64/38/e3b456c837f6c197f592a98bd8c3f084662724b79e9efc824f5e615e6635/resamp-1.6.7.2.tar.gz
+[2024-04-10 08:55:59] INFO root fetch - processPackages [slim-helper]: New version: [2.0.4] Old Version: [2.0.1]
+[2024-04-10 08:55:59] INFO root fetch - processPackages [pulumi-pagerduty]: New version: [4.9.0a1709566454] Old Version: [4.9.0a1709366773]
+[2024-04-10 08:55:59] INFO root fetch - processPackages [slim-helper]: Downloading https://files.pythonhosted.org/packages/5f/f8/2e78d10d548a171b3faeca736918a92ae7778ee930d3714e8ac6d306d23e/slim_helper-2.0.1.tar.gz
+[2024-04-10 08:55:59] INFO root fetch - processPackages [accmt]: Downloading https://files.pythonhosted.org/packages/e8/14/a4ccb7e8bc4614655e3df2e18e391293b04ba8a15d80972d1be1156b82dc/accmt-0.0.8.tar.gz
+[2024-04-10 08:55:59] INFO root fetch - processPackages [pulumi-pagerduty]: Downloading https://files.pythonhosted.org/packages/ba/dc/468cc1cc3ab57e83660f1775ea0d9f1dcfc62c6de9c10832b834d737ec1a/pulumi_pagerduty-4.9.0a1709366773.tar.gz
+[2024-04-10 08:55:59] INFO root fetch - processPackages [sodata]: Downloading https://files.pythonhosted.org/packages/46/d2/3e4cb5e6efe2798dd35b47d77565f33ce653d14b9c713688b7441a61f200/sodata-0.0.3.tar.gz
+[2024-04-10 08:55:59] INFO root fetch - processPackages [resamp]: Downloading https://files.pythonhosted.org/packages/27/56/7e58446f47d454607777b8713e5777d4500d245bae12a8fc5fa5ab0eb7de/resamp-1.6.7.3.tar.gz
+[2024-04-10 08:55:59] INFO root fetch - processPackages [sodata]: executing diffoscope
+[2024-04-10 08:55:59] INFO root fetch - processPackages [sodata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sodata-0.0.2.tar.gz tmp/sodata-0.0.3.tar.gz --markdown 20240410/s/sodata/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-10 08:55:59] INFO root fetch - processPackages [resamp]: executing diffoscope
+[2024-04-10 08:55:59] INFO root fetch - processPackages [resamp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resamp-1.6.7.2.tar.gz tmp/resamp-1.6.7.3.tar.gz --markdown 20240410/r/resamp/1.6.7.2-1.6.7.3/README.md --exclude *.pyd
+[2024-04-10 08:55:59] INFO root fetch - processPackages [slim-helper]: Downloading https://files.pythonhosted.org/packages/7d/6a/6eab75e2c0bc63944abc8f975af3352e3bda867eda9f33936bb0ec745dd4/slim_helper-2.0.4.tar.gz
+[2024-04-10 08:55:59] INFO root fetch - processPackages [accmt]: Downloading https://files.pythonhosted.org/packages/e1/4d/f8f9ad3df5e934dbf64bcec1bac73ddcd02b432e8b60624cea232c09db86/accmt-0.0.9.tar.gz
+[2024-04-10 08:55:59] INFO root fetch - processPackages [slim-helper]: executing diffoscope
+[2024-04-10 08:55:59] INFO root fetch - processPackages [slim-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slim_helper-2.0.1.tar.gz tmp/slim_helper-2.0.4.tar.gz --markdown 20240410/s/slim-helper/2.0.1-2.0.4/README.md --exclude *.pyd
+[2024-04-10 08:55:59] INFO root fetch - processPackages [accmt]: executing diffoscope
+[2024-04-10 08:55:59] INFO root fetch - processPackages [accmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accmt-0.0.8.tar.gz tmp/accmt-0.0.9.tar.gz --markdown 20240410/a/accmt/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-10 08:56:00] INFO root fetch - processPackages [pulumi-pagerduty]: Downloading https://files.pythonhosted.org/packages/ea/4e/a77d2efabe6daeb6878eeed9b4c2b3c43c2b854c19e3be4b3d627c2c0427/pulumi_pagerduty-4.9.0a1709566454.tar.gz
+[2024-04-10 08:56:00] INFO root fetch - processPackages [pulumi-pagerduty]: executing diffoscope
+[2024-04-10 08:56:00] INFO root fetch - processPackages [pulumi-pagerduty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_pagerduty-4.9.0a1709366773.tar.gz tmp/pulumi_pagerduty-4.9.0a1709566454.tar.gz --markdown 20240410/p/pulumi-pagerduty/4.9.0a1709366773-4.9.0a1709566454/README.md --exclude *.pyd
+[2024-04-10 08:56:00] INFO root fetch - processPackages [sodata]: Remove: archive file [/home/abi/fetcher/tmp/sodata-0.0.2.tar.gz]
+[2024-04-10 08:56:00] INFO root fetch - processPackages [sodata]: Remove: archive file [/home/abi/fetcher/tmp/sodata-0.0.3.tar.gz]
+[2024-04-10 08:56:00] INFO root fetch - main [MainThread]: End processing [sodata]: success
+[2024-04-10 08:56:00] INFO root fetch - processPackages [resamp]: Remove: archive file [/home/abi/fetcher/tmp/resamp-1.6.7.2.tar.gz]
+[2024-04-10 08:56:00] INFO root fetch - processPackages [resamp]: Remove: archive file [/home/abi/fetcher/tmp/resamp-1.6.7.3.tar.gz]
+[2024-04-10 08:56:00] INFO root fetch - main [MainThread]: End processing [resamp]: success
+[2024-04-10 08:56:00] INFO root fetch - processPackages [accmt]: Remove: archive file [/home/abi/fetcher/tmp/accmt-0.0.8.tar.gz]
+[2024-04-10 08:56:00] INFO root fetch - processPackages [accmt]: Remove: archive file [/home/abi/fetcher/tmp/accmt-0.0.9.tar.gz]
+[2024-04-10 08:56:00] INFO root fetch - main [MainThread]: End processing [accmt]: success
+[2024-04-10 08:56:00] INFO root fetch - processPackages [slim-helper]: Remove: archive file [/home/abi/fetcher/tmp/slim_helper-2.0.1.tar.gz]
+[2024-04-10 08:56:00] INFO root fetch - processPackages [slim-helper]: Remove: archive file [/home/abi/fetcher/tmp/slim_helper-2.0.4.tar.gz]
+[2024-04-10 08:56:00] INFO root fetch - main [MainThread]: End processing [slim-helper]: success
+[2024-04-10 08:56:01] INFO root fetch - processPackages [pulumi-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_pagerduty-4.9.0a1709366773.tar.gz]
+[2024-04-10 08:56:01] INFO root fetch - processPackages [pulumi-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_pagerduty-4.9.0a1709566454.tar.gz]
+[2024-04-10 08:56:01] INFO root fetch - main [MainThread]: End processing [pulumi-pagerduty]: success
+[2024-04-10 08:56:01] INFO root fetch - main [MainThread]: Store serial: [22696715]

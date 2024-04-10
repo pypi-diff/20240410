@@ -23114,3 +23114,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-10 14:07:23] INFO root fetch - processPackages [thonny-etboard-micropython-firmware-v2]: Remove: archive file [/home/abi/fetcher/tmp/thonny-etboard-micropython-firmware-v2-1.0.5.tar.gz]
 [2024-04-10 14:07:23] INFO root fetch - main [MainThread]: End processing [thonny-etboard-micropython-firmware-v2]: success
 [2024-04-10 14:07:23] INFO root fetch - main [MainThread]: Store serial: [22700654]
+[2024-04-10 14:09:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22700654]
+[2024-04-10 14:09:33] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-10 14:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qontract-reconcile
+[2024-04-10 14:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: document-ingestor
+[2024-04-10 14:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: few-shot-priming
+[2024-04-10 14:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torcheval-nightly
+[2024-04-10 14:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: filetrack
+[2024-04-10 14:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: datalad-cds
+[2024-04-10 14:09:33] INFO root fetch - processPackages [document-ingestor]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-10 14:09:33] INFO root fetch - processPackages [few-shot-priming]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-04-10 14:09:33] INFO root fetch - processPackages [torcheval-nightly]: New version: [2024.4.9] Old Version: [2024.4.8]
+[2024-04-10 14:09:33] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-04-10 14:09:33] INFO root fetch - processPackages [datalad-cds]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-10 14:09:33] INFO root fetch - processPackages [filetrack]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-10 14:09:33] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/eb/67/d15b11d0bfb57369fa16ba7f8c97cd3ddec8f771e6da8f11a3d819004b69/few_shot_priming-0.3.98-py3-none-any.whl
+[2024-04-10 14:09:33] INFO root fetch - processPackages [document-ingestor]: Downloading https://files.pythonhosted.org/packages/58/9f/64ef1908bf563f4195c601bcf6ca142a86bc44bd5eee82b6ad72b28b470a/document_ingestor-0.0.6-py3-none-any.whl
+[2024-04-10 14:09:33] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-04-10 14:09:33] INFO root fetch - processPackages [torcheval-nightly]: Downloading https://files.pythonhosted.org/packages/a3/6d/794af2087c6d670c1d6bd148a897d3a59b68e8d4b82c381b57d3e20ab544/torcheval-nightly-2024.4.8.tar.gz
+[2024-04-10 14:09:33] INFO root fetch - processPackages [datalad-cds]: Downloading https://files.pythonhosted.org/packages/28/65/1290b5d198f79e3dd25ba01c8eb6d8b35992dbf6cbdc03a0d1d1b960404b/datalad-cds-0.0.1.tar.gz
+[2024-04-10 14:09:33] INFO root fetch - processPackages [filetrack]: Downloading https://files.pythonhosted.org/packages/42/41/15c401003b65e332e30c38c7d8f59ec1edc6ccee872f1bdfb04114c7c512/filetrack-0.0.5.tar.gz
+[2024-04-10 14:09:33] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-04-10 14:09:33] INFO root fetch - processPackages [document-ingestor]: Downloading https://files.pythonhosted.org/packages/1f/00/9cbee51d36aa8f7f7f213286eb8816ff2f945642af6748b76b5e558417fc/document_ingestor-0.0.7-py3-none-any.whl
+[2024-04-10 14:09:33] INFO root fetch - processPackages [torcheval-nightly]: Downloading https://files.pythonhosted.org/packages/01/5f/5d3ae8fee972a25478395600694aa6da7aecdf0fdc15b5bb79b52a372737/torcheval-nightly-2024.4.9.tar.gz
+[2024-04-10 14:09:33] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/ff/11/548f6e96803602e6431dc610d736d401b20fde986f85c35c8ad19a6d0958/few_shot_priming-0.3.99-py3-none-any.whl
+[2024-04-10 14:09:33] INFO root fetch - processPackages [document-ingestor]: executing diffoscope
+[2024-04-10 14:09:33] INFO root fetch - processPackages [document-ingestor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/document_ingestor-0.0.6-py3-none-any.whl.zip tmp/document_ingestor-0.0.7-py3-none-any.whl.zip --markdown 20240410/d/document-ingestor/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-10 14:09:33] INFO root fetch - processPackages [torcheval-nightly]: executing diffoscope
+[2024-04-10 14:09:33] INFO root fetch - processPackages [torcheval-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torcheval-nightly-2024.4.8.tar.gz tmp/torcheval-nightly-2024.4.9.tar.gz --markdown 20240410/t/torcheval-nightly/2024.4.8-2024.4.9/README.md --exclude *.pyd
+[2024-04-10 14:09:33] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-04-10 14:09:33] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240410/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-04-10 14:09:33] INFO root fetch - processPackages [filetrack]: Downloading https://files.pythonhosted.org/packages/ca/56/277ddd12cae1f5adc0dca5fd5502100d4de59a99a884b34557b76814754d/filetrack-0.0.6.tar.gz
+[2024-04-10 14:09:33] INFO root fetch - processPackages [datalad-cds]: Downloading https://files.pythonhosted.org/packages/db/6a/2783fca894567e1a39564ad04cabe432847271cde4423ddbadd007413d41/datalad-cds-0.0.2.tar.gz
+[2024-04-10 14:09:34] INFO root fetch - processPackages [filetrack]: executing diffoscope
+[2024-04-10 14:09:34] INFO root fetch - processPackages [filetrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/filetrack-0.0.5.tar.gz tmp/filetrack-0.0.6.tar.gz --markdown 20240410/f/filetrack/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-10 14:09:34] INFO root fetch - processPackages [datalad-cds]: executing diffoscope
+[2024-04-10 14:09:34] INFO root fetch - processPackages [datalad-cds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datalad-cds-0.0.1.tar.gz tmp/datalad-cds-0.0.2.tar.gz --markdown 20240410/d/datalad-cds/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-10 14:09:34] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2024-04-10 14:09:34] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip --markdown 20240410/f/few-shot-priming/0.3.98-0.3.99/README.md --exclude *.pyd
+[2024-04-10 14:09:34] INFO root fetch - processPackages [document-ingestor]: Remove: archive file [/home/abi/fetcher/tmp/document_ingestor-0.0.6-py3-none-any.whl.zip]
+[2024-04-10 14:09:34] INFO root fetch - processPackages [document-ingestor]: Remove: archive file [/home/abi/fetcher/tmp/document_ingestor-0.0.7-py3-none-any.whl.zip]
+[2024-04-10 14:09:34] INFO root fetch - main [MainThread]: End processing [document-ingestor]: success
+[2024-04-10 14:09:34] INFO root fetch - processPackages [filetrack]: Remove: archive file [/home/abi/fetcher/tmp/filetrack-0.0.5.tar.gz]
+[2024-04-10 14:09:34] INFO root fetch - processPackages [filetrack]: Remove: archive file [/home/abi/fetcher/tmp/filetrack-0.0.6.tar.gz]
+[2024-04-10 14:09:34] INFO root fetch - main [MainThread]: End processing [filetrack]: success
+[2024-04-10 14:09:34] INFO root fetch - processPackages [datalad-cds]: Remove: archive file [/home/abi/fetcher/tmp/datalad-cds-0.0.1.tar.gz]
+[2024-04-10 14:09:34] INFO root fetch - processPackages [datalad-cds]: Remove: archive file [/home/abi/fetcher/tmp/datalad-cds-0.0.2.tar.gz]
+[2024-04-10 14:09:34] INFO root fetch - main [MainThread]: End processing [datalad-cds]: success
+[2024-04-10 14:09:35] INFO root fetch - processPackages [torcheval-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torcheval-nightly-2024.4.8.tar.gz]
+[2024-04-10 14:09:35] INFO root fetch - processPackages [torcheval-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torcheval-nightly-2024.4.9.tar.gz]
+[2024-04-10 14:09:35] INFO root fetch - main [MainThread]: End processing [torcheval-nightly]: success
+[2024-04-10 14:09:35] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip]
+[2024-04-10 14:09:35] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
+[2024-04-10 14:09:35] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2024-04-10 14:09:35] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-04-10 14:09:35] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-04-10 14:09:35] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-04-10 14:09:35] INFO root fetch - main [MainThread]: Store serial: [22700672]

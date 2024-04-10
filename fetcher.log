@@ -9568,3 +9568,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 04:33:03] INFO root fetch - processPackages [ros-cdk-ess]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ess-1.0.9.tar.gz]
 [2024-04-10 04:33:03] INFO root fetch - main [MainThread]: End processing [ros-cdk-ess]: success
 [2024-04-10 04:33:03] INFO root fetch - main [MainThread]: Store serial: [22694682]
+[2024-04-10 04:35:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22694682]
+[2024-04-10 04:35:14] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-10 04:35:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pih-ws
+[2024-04-10 04:35:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pih-zabbix
+[2024-04-10 04:35:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ros-cdk-swas
+[2024-04-10 04:35:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ros-cdk-ddos
+[2024-04-10 04:35:14] INFO root fetch - processPackages [pih-zabbix]: New version: [0.13] Old Version: [0.12]
+[2024-04-10 04:35:14] WARNING root fetch - processPackages [ros-cdk-ddos]: Skipping, unable to determine old version
+[2024-04-10 04:35:14] INFO root fetch - main [MainThread]: End processing [ros-cdk-ddos] error
+[2024-04-10 04:35:14] INFO root fetch - processPackages [pih-ws]: New version: [0.13] Old Version: [0.12]
+[2024-04-10 04:35:14] INFO root fetch - processPackages [ros-cdk-swas]: New version: [1.0.24] Old Version: [1.0.23]
+[2024-04-10 04:35:15] INFO root fetch - processPackages [pih-zabbix]: Downloading https://files.pythonhosted.org/packages/98/51/de8e00e22e6f44f8aa4609fd542fa8627b27da365de294d689bec0de71a8/pih-zabbix-0.12.tar.gz
+[2024-04-10 04:35:15] INFO root fetch - processPackages [pih-ws]: Downloading https://files.pythonhosted.org/packages/b1/8c/11253dcf2e278da70845268ba08b7ff7d2c0b8006b1cf4da39b8fb7ba6ee/pih-ws-0.12.tar.gz
+[2024-04-10 04:35:15] INFO root fetch - processPackages [ros-cdk-swas]: Downloading https://files.pythonhosted.org/packages/dc/1a/8040f4473551de575a7505bedf7c47ce57e8248d7734311a50d86cf2c15a/ros-cdk-swas-1.0.23.tar.gz
+[2024-04-10 04:35:15] INFO root fetch - processPackages [ros-cdk-swas]: Downloading https://files.pythonhosted.org/packages/14/f0/1f1ec4ef21462644f2e9d5528c549314f06f168e217f7efe47a4589ecee5/ros-cdk-swas-1.0.24.tar.gz
+[2024-04-10 04:35:15] INFO root fetch - processPackages [pih-zabbix]: Downloading https://files.pythonhosted.org/packages/88/3f/27177d13da777fa6cc8514436ebd76630a7f311430d244ee5f3f022548d0/pih-zabbix-0.13.tar.gz
+[2024-04-10 04:35:15] INFO root fetch - processPackages [pih-ws]: Downloading https://files.pythonhosted.org/packages/4c/17/8a2e7000f197dc86a59c93faa6be1572fe7938e51ed6b30cb84bd406162e/pih-ws-0.13.tar.gz
+[2024-04-10 04:35:15] INFO root fetch - processPackages [ros-cdk-swas]: executing diffoscope
+[2024-04-10 04:35:15] INFO root fetch - processPackages [ros-cdk-swas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-swas-1.0.23.tar.gz tmp/ros-cdk-swas-1.0.24.tar.gz --markdown 20240410/r/ros-cdk-swas/1.0.23-1.0.24/README.md --exclude *.pyd
+[2024-04-10 04:35:15] INFO root fetch - processPackages [pih-zabbix]: executing diffoscope
+[2024-04-10 04:35:15] INFO root fetch - processPackages [pih-zabbix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-zabbix-0.12.tar.gz tmp/pih-zabbix-0.13.tar.gz --markdown 20240410/p/pih-zabbix/0.12-0.13/README.md --exclude *.pyd
+[2024-04-10 04:35:15] INFO root fetch - processPackages [pih-ws]: executing diffoscope
+[2024-04-10 04:35:15] INFO root fetch - processPackages [pih-ws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-ws-0.12.tar.gz tmp/pih-ws-0.13.tar.gz --markdown 20240410/p/pih-ws/0.12-0.13/README.md --exclude *.pyd
+[2024-04-10 04:35:16] INFO root fetch - processPackages [ros-cdk-swas]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-swas-1.0.23.tar.gz]
+[2024-04-10 04:35:16] INFO root fetch - processPackages [ros-cdk-swas]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-swas-1.0.24.tar.gz]
+[2024-04-10 04:35:16] INFO root fetch - main [MainThread]: End processing [ros-cdk-swas]: success
+[2024-04-10 04:35:16] INFO root fetch - processPackages [pih-zabbix]: Remove: archive file [/home/abi/fetcher/tmp/pih-zabbix-0.12.tar.gz]
+[2024-04-10 04:35:16] INFO root fetch - processPackages [pih-zabbix]: Remove: archive file [/home/abi/fetcher/tmp/pih-zabbix-0.13.tar.gz]
+[2024-04-10 04:35:16] INFO root fetch - main [MainThread]: End processing [pih-zabbix]: success
+[2024-04-10 04:35:16] INFO root fetch - processPackages [pih-ws]: Remove: archive file [/home/abi/fetcher/tmp/pih-ws-0.12.tar.gz]
+[2024-04-10 04:35:16] INFO root fetch - processPackages [pih-ws]: Remove: archive file [/home/abi/fetcher/tmp/pih-ws-0.13.tar.gz]
+[2024-04-10 04:35:16] INFO root fetch - main [MainThread]: End processing [pih-ws]: success
+[2024-04-10 04:35:16] INFO root fetch - main [MainThread]: Store serial: [22694694]

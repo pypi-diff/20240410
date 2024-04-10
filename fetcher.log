@@ -19832,3 +19832,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 12:07:56] INFO root fetch - processPackages [limepkg-getaccept]: Remove: archive file [/home/abi/fetcher/tmp/limepkg_getaccept-1.3.7.dev1-py3-none-any.whl.zip]
 [2024-04-10 12:07:56] INFO root fetch - main [MainThread]: End processing [limepkg-getaccept]: success
 [2024-04-10 12:07:56] INFO root fetch - main [MainThread]: Store serial: [22698788]
+[2024-04-10 12:10:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22698788]
+[2024-04-10 12:10:06] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-10 12:10:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cycode
+[2024-04-10 12:10:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: target-ports
+[2024-04-10 12:10:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: streamlit-local-storage
+[2024-04-10 12:10:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: extremitypathfinder
+[2024-04-10 12:10:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ou-container-builder
+[2024-04-10 12:10:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zf-school-sdk
+[2024-04-10 12:10:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: salure-helpers-shiftbase
+[2024-04-10 12:10:06] INFO root fetch - processPackages [streamlit-local-storage]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-10 12:10:06] INFO root fetch - processPackages [streamlit-local-storage]: Downloading https://files.pythonhosted.org/packages/28/56/e79513b682c9b6535e2b0c49cc4a18f464f4a999da0e0159fdfd964c1e89/streamlit-local-storage-0.0.8.tar.gz
+[2024-04-10 12:10:06] INFO root fetch - processPackages [zf-school-sdk]: New version: [1.6.0] Old Version: [1.5.0]
+[2024-04-10 12:10:06] INFO root fetch - processPackages [extremitypathfinder]: New version: [2.7.2] Old Version: [2.7.1]
+[2024-04-10 12:10:06] INFO root fetch - processPackages [target-ports]: New version: [2.1] Old Version: [2.0]
+[2024-04-10 12:10:06] INFO root fetch - processPackages [salure-helpers-shiftbase]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-10 12:10:06] INFO root fetch - processPackages [ou-container-builder]: New version: [3.0.0b9] Old Version: [3.0.0b8]
+[2024-04-10 12:10:06] INFO root fetch - processPackages [cycode]: New version: [1.9.4.dev1] Old Version: [1.9.3.dev2]
+[2024-04-10 12:10:06] INFO root fetch - processPackages [extremitypathfinder]: Downloading https://files.pythonhosted.org/packages/bb/a6/8ca91f526c0ed19c53761564b4fad1b88b8dc3c86424a17ef88b95f05aa0/extremitypathfinder-2.7.1.tar.gz
+[2024-04-10 12:10:06] INFO root fetch - processPackages [target-ports]: Downloading https://files.pythonhosted.org/packages/ef/f6/49e106c59f77bc5b230e14928488dfe2987eb83312573d45ef96805b7dc9/target-ports-2.0.tar.gz
+[2024-04-10 12:10:06] INFO root fetch - processPackages [zf-school-sdk]: Downloading https://files.pythonhosted.org/packages/ff/5e/b58de95a3fd356fdeba92406d607cbd77dee7b23d25ea28875d08e0c1a78/zf-school-sdk-1.5.0.tar.gz
+[2024-04-10 12:10:06] INFO root fetch - processPackages [cycode]: Downloading https://files.pythonhosted.org/packages/e6/ca/35691b85b8394e9467dbe5dee84a7bcc76cf891e17ed64df6c726c36a782/cycode-1.9.3.dev2.tar.gz
+[2024-04-10 12:10:06] INFO root fetch - processPackages [ou-container-builder]: Downloading https://files.pythonhosted.org/packages/2b/8d/664abd6ca7e6d64be865baf416092c6c029076de138b6ed48cc1cfd9f68f/ou_container_builder-3.0.0b8.tar.gz
+[2024-04-10 12:10:06] INFO root fetch - processPackages [salure-helpers-shiftbase]: Downloading https://files.pythonhosted.org/packages/98/9b/198a98eea9bbb2403b88c5211023ca6f8d9b34b0dee77bf6cd37261bd861/salure_helpers_shiftbase-0.0.6.tar.gz
+[2024-04-10 12:10:06] INFO root fetch - processPackages [streamlit-local-storage]: Downloading https://files.pythonhosted.org/packages/c6/99/89a3816ec823682205e37522e07a3d940cc8107a1da7d0941d4403c4b032/streamlit-local-storage-0.0.9.tar.gz
+[2024-04-10 12:10:07] INFO root fetch - processPackages [streamlit-local-storage]: executing diffoscope
+[2024-04-10 12:10:07] INFO root fetch - processPackages [streamlit-local-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-local-storage-0.0.8.tar.gz tmp/streamlit-local-storage-0.0.9.tar.gz --markdown 20240410/s/streamlit-local-storage/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-10 12:10:07] INFO root fetch - processPackages [target-ports]: Downloading https://files.pythonhosted.org/packages/d2/7a/cedc061edc3fa338f5e69edae3cb44a3a2869d4185e6b7483cb5c3da6b80/target-ports-2.1.tar.gz
+[2024-04-10 12:10:07] INFO root fetch - processPackages [salure-helpers-shiftbase]: Downloading https://files.pythonhosted.org/packages/8b/a4/5f45d2efbb8afbb3eaf45e3e4190b4c6542993522463fad0d590e027b2aa/salure_helpers_shiftbase-0.0.7.tar.gz
+[2024-04-10 12:10:07] INFO root fetch - processPackages [ou-container-builder]: Downloading https://files.pythonhosted.org/packages/9d/9b/cb7b152b91614b87ce3604257b142338a0eeaa656337666853a1d02a8dfe/ou_container_builder-3.0.0b9.tar.gz
+[2024-04-10 12:10:07] INFO root fetch - processPackages [extremitypathfinder]: Downloading https://files.pythonhosted.org/packages/5c/5a/8692b0a56aca8f51fb5d839d2607ff71b95fd6ba6540784666e09668ac4f/extremitypathfinder-2.7.2.tar.gz
+[2024-04-10 12:10:07] INFO root fetch - processPackages [target-ports]: executing diffoscope
+[2024-04-10 12:10:07] INFO root fetch - processPackages [target-ports]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/target-ports-2.0.tar.gz tmp/target-ports-2.1.tar.gz --markdown 20240410/t/target-ports/2.0-2.1/README.md --exclude *.pyd
+[2024-04-10 12:10:07] INFO root fetch - processPackages [zf-school-sdk]: Downloading https://files.pythonhosted.org/packages/2e/e4/439039f75f4c0dea25cf2117d9531d33c63747b3901a32c8a0e9acb02172/zf-school-sdk-1.6.0.tar.gz
+[2024-04-10 12:10:07] INFO root fetch - processPackages [cycode]: Downloading https://files.pythonhosted.org/packages/fa/d8/a5da727427baf295ae289b537d7c8d330b3be6ad3c32bbb70076c0013152/cycode-1.9.4.dev1.tar.gz
+[2024-04-10 12:10:07] INFO root fetch - processPackages [salure-helpers-shiftbase]: executing diffoscope
+[2024-04-10 12:10:07] INFO root fetch - processPackages [salure-helpers-shiftbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salure_helpers_shiftbase-0.0.6.tar.gz tmp/salure_helpers_shiftbase-0.0.7.tar.gz --markdown 20240410/s/salure-helpers-shiftbase/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-10 12:10:07] INFO root fetch - processPackages [ou-container-builder]: executing diffoscope
+[2024-04-10 12:10:07] INFO root fetch - processPackages [ou-container-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ou_container_builder-3.0.0b8.tar.gz tmp/ou_container_builder-3.0.0b9.tar.gz --markdown 20240410/o/ou-container-builder/3.0.0b8-3.0.0b9/README.md --exclude *.pyd
+[2024-04-10 12:10:07] INFO root fetch - processPackages [extremitypathfinder]: executing diffoscope
+[2024-04-10 12:10:07] INFO root fetch - processPackages [extremitypathfinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extremitypathfinder-2.7.1.tar.gz tmp/extremitypathfinder-2.7.2.tar.gz --markdown 20240410/e/extremitypathfinder/2.7.1-2.7.2/README.md --exclude *.pyd
+[2024-04-10 12:10:07] INFO root fetch - processPackages [zf-school-sdk]: executing diffoscope
+[2024-04-10 12:10:07] INFO root fetch - processPackages [zf-school-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zf-school-sdk-1.5.0.tar.gz tmp/zf-school-sdk-1.6.0.tar.gz --markdown 20240410/z/zf-school-sdk/1.5.0-1.6.0/README.md --exclude *.pyd
+[2024-04-10 12:10:07] INFO root fetch - processPackages [cycode]: executing diffoscope
+[2024-04-10 12:10:07] INFO root fetch - processPackages [cycode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cycode-1.9.3.dev2.tar.gz tmp/cycode-1.9.4.dev1.tar.gz --markdown 20240410/c/cycode/1.9.3.dev2-1.9.4.dev1/README.md --exclude *.pyd
+[2024-04-10 12:10:07] INFO root fetch - processPackages [target-ports]: Remove: archive file [/home/abi/fetcher/tmp/target-ports-2.0.tar.gz]
+[2024-04-10 12:10:07] INFO root fetch - processPackages [target-ports]: Remove: archive file [/home/abi/fetcher/tmp/target-ports-2.1.tar.gz]
+[2024-04-10 12:10:07] INFO root fetch - main [MainThread]: End processing [target-ports]: success
+[2024-04-10 12:10:08] INFO root fetch - processPackages [salure-helpers-shiftbase]: Remove: archive file [/home/abi/fetcher/tmp/salure_helpers_shiftbase-0.0.6.tar.gz]
+[2024-04-10 12:10:08] INFO root fetch - processPackages [salure-helpers-shiftbase]: Remove: archive file [/home/abi/fetcher/tmp/salure_helpers_shiftbase-0.0.7.tar.gz]
+[2024-04-10 12:10:08] INFO root fetch - main [MainThread]: End processing [salure-helpers-shiftbase]: success
+[2024-04-10 12:10:08] INFO root fetch - processPackages [zf-school-sdk]: Remove: archive file [/home/abi/fetcher/tmp/zf-school-sdk-1.5.0.tar.gz]
+[2024-04-10 12:10:08] INFO root fetch - processPackages [zf-school-sdk]: Remove: archive file [/home/abi/fetcher/tmp/zf-school-sdk-1.6.0.tar.gz]
+[2024-04-10 12:10:08] INFO root fetch - main [MainThread]: End processing [zf-school-sdk]: success
+[2024-04-10 12:10:08] INFO root fetch - processPackages [extremitypathfinder]: Remove: archive file [/home/abi/fetcher/tmp/extremitypathfinder-2.7.1.tar.gz]
+[2024-04-10 12:10:08] INFO root fetch - processPackages [extremitypathfinder]: Remove: archive file [/home/abi/fetcher/tmp/extremitypathfinder-2.7.2.tar.gz]
+[2024-04-10 12:10:08] INFO root fetch - main [MainThread]: End processing [extremitypathfinder]: success
+[2024-04-10 12:10:08] INFO root fetch - processPackages [cycode]: Remove: archive file [/home/abi/fetcher/tmp/cycode-1.9.3.dev2.tar.gz]
+[2024-04-10 12:10:08] INFO root fetch - processPackages [cycode]: Remove: archive file [/home/abi/fetcher/tmp/cycode-1.9.4.dev1.tar.gz]
+[2024-04-10 12:10:08] INFO root fetch - main [MainThread]: End processing [cycode]: success
+[2024-04-10 12:10:08] INFO root fetch - processPackages [ou-container-builder]: Remove: archive file [/home/abi/fetcher/tmp/ou_container_builder-3.0.0b8.tar.gz]
+[2024-04-10 12:10:08] INFO root fetch - processPackages [ou-container-builder]: Remove: archive file [/home/abi/fetcher/tmp/ou_container_builder-3.0.0b9.tar.gz]
+[2024-04-10 12:10:08] INFO root fetch - main [MainThread]: End processing [ou-container-builder]: success
+[2024-04-10 12:10:20] INFO root fetch - processPackages [streamlit-local-storage]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-local-storage-0.0.8.tar.gz]
+[2024-04-10 12:10:20] INFO root fetch - processPackages [streamlit-local-storage]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-local-storage-0.0.9.tar.gz]
+[2024-04-10 12:10:20] INFO root fetch - main [MainThread]: End processing [streamlit-local-storage]: success
+[2024-04-10 12:10:20] INFO root fetch - main [MainThread]: Store serial: [22698809]

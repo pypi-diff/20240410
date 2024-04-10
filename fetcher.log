@@ -20389,3 +20389,60 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 12:32:52] INFO root fetch - processPackages [streamlit-local-storage]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-local-storage-0.0.9.tar.gz]
 [2024-04-10 12:32:52] INFO root fetch - main [MainThread]: End processing [streamlit-local-storage]: success
 [2024-04-10 12:32:52] INFO root fetch - main [MainThread]: Store serial: [22698991]
+[2024-04-10 12:34:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22698991]
+[2024-04-10 12:35:00] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-10 12:35:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: insight-plugin
+[2024-04-10 12:35:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: freegenius
+[2024-04-10 12:35:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-ws-analytics
+[2024-04-10 12:35:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spaceone-api
+[2024-04-10 12:35:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: findatapy
+[2024-04-10 12:35:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-linode
+[2024-04-10 12:35:00] INFO root fetch - processPackages [freegenius]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-10 12:35:00] INFO root fetch - processPackages [insight-plugin]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-10 12:35:00] INFO root fetch - processPackages [django-ws-analytics]: New version: [1.0.9] Old Version: [1.0.7]
+[2024-04-10 12:35:00] INFO root fetch - processPackages [pulumi-linode]: New version: [4.9.1] Old Version: [4.9.0a1700248892]
+[2024-04-10 12:35:01] INFO root fetch - processPackages [spaceone-api]: New version: [2.0.dev89] Old Version: [2.0.dev78]
+[2024-04-10 12:35:01] INFO root fetch - processPackages [findatapy]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-10 12:35:01] INFO root fetch - processPackages [django-ws-analytics]: Downloading https://files.pythonhosted.org/packages/6d/f9/1a5b5f917fd0beff2816e07e84872585fe96fc02754df2555428e369c9e9/django-ws-analytics-1.0.7.tar.gz
+[2024-04-10 12:35:01] INFO root fetch - processPackages [freegenius]: Downloading https://files.pythonhosted.org/packages/6f/a0/f28ee0e233993d710b958fb4eca9f4892fdc879db0894cb221c3c672db85/freegenius-0.0.8.tar.gz
+[2024-04-10 12:35:01] INFO root fetch - processPackages [insight-plugin]: Downloading https://files.pythonhosted.org/packages/4a/8a/5824c0c6b94cd4e7ef33308a97d0c995b80507677e19a2b69c8fd5661552/insight_plugin-1.1.0.tar.gz
+[2024-04-10 12:35:01] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/63/38/896ca815cd9f0d4be5040377b88a5b629fee8eedad29b468c7a50e063060/spaceone-api-2.0.dev78.tar.gz
+[2024-04-10 12:35:01] INFO root fetch - processPackages [pulumi-linode]: Downloading https://files.pythonhosted.org/packages/df/eb/e8d27e31574126cebb3db17960087d6e1cf94c88143b981d26b7b94fef71/pulumi_linode-4.9.0a1700248892.tar.gz
+[2024-04-10 12:35:01] INFO root fetch - processPackages [findatapy]: Downloading https://files.pythonhosted.org/packages/62/42/3cb60df4d1c9f9318c6e13e27b88469d8b661bf946e08abb586e011410c8/findatapy-0.1.8.tar.gz
+[2024-04-10 12:35:01] INFO root fetch - processPackages [django-ws-analytics]: Downloading https://files.pythonhosted.org/packages/60/4e/e84fd37a53687d65c63d95a5b49973cb5cee8905941f82fe705955fcd5f6/django-ws-analytics-1.0.9.tar.gz
+[2024-04-10 12:35:01] INFO root fetch - processPackages [freegenius]: Downloading https://files.pythonhosted.org/packages/64/a9/f3ae6b148a4bd786790a124582c069ff16ee88fb307a8ebff8181577bb4d/freegenius-0.0.9.tar.gz
+[2024-04-10 12:35:01] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/c0/ea/4a6c8347250e808ffcceef19de666ffee1c045761343985127f39a05bc13/spaceone-api-2.0.dev89.tar.gz
+[2024-04-10 12:35:01] INFO root fetch - processPackages [pulumi-linode]: Downloading https://files.pythonhosted.org/packages/1d/8f/908b3d1b357dcb4b00198e9afd3e1c31b7f20023adddd41e8a53a4577ee0/pulumi_linode-4.9.1.tar.gz
+[2024-04-10 12:35:01] INFO root fetch - processPackages [insight-plugin]: Downloading https://files.pythonhosted.org/packages/03/0b/328fe1b1234d9ac34d5744a340570a6bea833a6b17084086d34e03625edd/insight_plugin-1.2.0.tar.gz
+[2024-04-10 12:35:01] INFO root fetch - processPackages [django-ws-analytics]: executing diffoscope
+[2024-04-10 12:35:01] INFO root fetch - processPackages [django-ws-analytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-ws-analytics-1.0.7.tar.gz tmp/django-ws-analytics-1.0.9.tar.gz --markdown 20240410/d/django-ws-analytics/1.0.7-1.0.9/README.md --exclude *.pyd
+[2024-04-10 12:35:01] INFO root fetch - processPackages [freegenius]: executing diffoscope
+[2024-04-10 12:35:01] INFO root fetch - processPackages [freegenius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freegenius-0.0.8.tar.gz tmp/freegenius-0.0.9.tar.gz --markdown 20240410/f/freegenius/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-10 12:35:01] INFO root fetch - processPackages [insight-plugin]: executing diffoscope
+[2024-04-10 12:35:01] INFO root fetch - processPackages [insight-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/insight_plugin-1.1.0.tar.gz tmp/insight_plugin-1.2.0.tar.gz --markdown 20240410/i/insight-plugin/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-04-10 12:35:01] INFO root fetch - processPackages [pulumi-linode]: executing diffoscope
+[2024-04-10 12:35:01] INFO root fetch - processPackages [pulumi-linode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_linode-4.9.0a1700248892.tar.gz tmp/pulumi_linode-4.9.1.tar.gz --markdown 20240410/p/pulumi-linode/4.9.0a1700248892-4.9.1/README.md --exclude *.pyd
+[2024-04-10 12:35:01] INFO root fetch - processPackages [spaceone-api]: executing diffoscope
+[2024-04-10 12:35:01] INFO root fetch - processPackages [spaceone-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-api-2.0.dev78.tar.gz tmp/spaceone-api-2.0.dev89.tar.gz --markdown 20240410/s/spaceone-api/2.0.dev78-2.0.dev89/README.md --exclude *.pyd
+[2024-04-10 12:35:01] INFO root fetch - processPackages [findatapy]: Downloading https://files.pythonhosted.org/packages/90/9a/510bde9636a0a5fcc7f0eac3b6f14cc6abcfc8cbe20da25cb83b1cbd86ea/findatapy-0.1.9.tar.gz
+[2024-04-10 12:35:01] INFO root fetch - processPackages [findatapy]: executing diffoscope
+[2024-04-10 12:35:01] INFO root fetch - processPackages [findatapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findatapy-0.1.8.tar.gz tmp/findatapy-0.1.9.tar.gz --markdown 20240410/f/findatapy/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-10 12:35:02] INFO root fetch - processPackages [django-ws-analytics]: Remove: archive file [/home/abi/fetcher/tmp/django-ws-analytics-1.0.7.tar.gz]
+[2024-04-10 12:35:02] INFO root fetch - processPackages [django-ws-analytics]: Remove: archive file [/home/abi/fetcher/tmp/django-ws-analytics-1.0.9.tar.gz]
+[2024-04-10 12:35:02] INFO root fetch - main [MainThread]: End processing [django-ws-analytics]: success
+[2024-04-10 12:35:02] INFO root fetch - processPackages [freegenius]: Remove: archive file [/home/abi/fetcher/tmp/freegenius-0.0.8.tar.gz]
+[2024-04-10 12:35:02] INFO root fetch - processPackages [freegenius]: Remove: archive file [/home/abi/fetcher/tmp/freegenius-0.0.9.tar.gz]
+[2024-04-10 12:35:02] INFO root fetch - main [MainThread]: End processing [freegenius]: success
+[2024-04-10 12:35:02] INFO root fetch - processPackages [pulumi-linode]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_linode-4.9.0a1700248892.tar.gz]
+[2024-04-10 12:35:02] INFO root fetch - processPackages [pulumi-linode]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_linode-4.9.1.tar.gz]
+[2024-04-10 12:35:02] INFO root fetch - main [MainThread]: End processing [pulumi-linode]: success
+[2024-04-10 12:35:02] INFO root fetch - processPackages [insight-plugin]: Remove: archive file [/home/abi/fetcher/tmp/insight_plugin-1.1.0.tar.gz]
+[2024-04-10 12:35:02] INFO root fetch - processPackages [insight-plugin]: Remove: archive file [/home/abi/fetcher/tmp/insight_plugin-1.2.0.tar.gz]
+[2024-04-10 12:35:02] INFO root fetch - main [MainThread]: End processing [insight-plugin]: success
+[2024-04-10 12:35:02] INFO root fetch - processPackages [findatapy]: Remove: archive file [/home/abi/fetcher/tmp/findatapy-0.1.8.tar.gz]
+[2024-04-10 12:35:02] INFO root fetch - processPackages [findatapy]: Remove: archive file [/home/abi/fetcher/tmp/findatapy-0.1.9.tar.gz]
+[2024-04-10 12:35:02] INFO root fetch - main [MainThread]: End processing [findatapy]: success
+[2024-04-10 12:35:03] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-api-2.0.dev78.tar.gz]
+[2024-04-10 12:35:03] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-api-2.0.dev89.tar.gz]
+[2024-04-10 12:35:03] INFO root fetch - main [MainThread]: End processing [spaceone-api]: success
+[2024-04-10 12:35:03] INFO root fetch - main [MainThread]: Store serial: [22699012]

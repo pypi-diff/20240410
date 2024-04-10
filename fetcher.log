@@ -2917,3 +2917,87 @@
 [2024-04-10 02:17:01] INFO root fetch - processPackages [keri]: Remove: archive file [/home/abi/fetcher/tmp/keri-1.2.0.dev0.tar.gz]
 [2024-04-10 02:17:01] INFO root fetch - main [MainThread]: End processing [keri]: success
 [2024-04-10 02:17:01] INFO root fetch - main [MainThread]: Store serial: [22692277]
+[2024-04-10 02:19:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22692277]
+[2024-04-10 02:19:09] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-10 02:19:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-secret-manager-wrapper-layer
+[2024-04-10 02:19:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reloadium
+[2024-04-10 02:19:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quant2
+[2024-04-10 02:19:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: draggable-line-chart
+[2024-04-10 02:19:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-gitlab-runner
+[2024-04-10 02:19:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-budibase
+[2024-04-10 02:19:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdklabs.appsync-utils
+[2024-04-10 02:19:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: torchao-nightly
+[2024-04-10 02:19:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Geode-Common
+[2024-04-10 02:19:10] INFO root fetch - processPackages [quant2]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-10 02:19:10] INFO root fetch - processPackages [cdk-budibase]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-10 02:19:10] INFO root fetch - processPackages [torchao-nightly]: New version: [2024.4.9] Old Version: [2024.4.8]
+[2024-04-10 02:19:10] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-04-10 02:19:10] INFO root fetch - processPackages [cdklabs.appsync-utils]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-10 02:19:10] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-10 02:19:10] INFO root fetch - processPackages [cdk-budibase]: Downloading https://files.pythonhosted.org/packages/4f/0a/01c6428b0ea2e78dd2dd9e10aba3ba8252b6cd0992b5a90ea9ba90983551/cdk-budibase-0.0.98.tar.gz
+[2024-04-10 02:19:10] INFO root fetch - processPackages [draggable-line-chart]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-10 02:19:10] INFO root fetch - processPackages [quant2]: Downloading https://files.pythonhosted.org/packages/11/bf/4225581d3021d37874804da989897221f25fc6c93fa5f1b07d38fcbf01d3/quant2-0.0.8.tar.gz
+[2024-04-10 02:19:10] INFO root fetch - processPackages [reloadium]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-04-10 02:19:10] INFO root fetch - processPackages [torchao-nightly]: Downloading https://files.pythonhosted.org/packages/5f/75/fa2f35d39cfd048a42fe784f2a57da5743e7983bb669c3e4d8eb5aa83710/torchao-nightly-2024.4.8.tar.gz
+[2024-04-10 02:19:10] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/07/29/9f2cc8590770873b6073743e94ff15a2a7913eb0de3e6a4d2fc133008f62/cdk-gitlab-runner-2.2.98.tar.gz
+[2024-04-10 02:19:10] INFO root fetch - processPackages [cdklabs.appsync-utils]: Downloading https://files.pythonhosted.org/packages/c2/b6/9921880127918975163ef796466fd100a8f3a6246436ca4993eafae4915d/cdklabs.appsync-utils-0.0.98.tar.gz
+[2024-04-10 02:19:10] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/00/91/545869a3cc999dbc9750aad345d775087610ebf834517c928a0d0e289c4e/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz
+[2024-04-10 02:19:10] INFO root fetch - processPackages [Geode-Common]: New version: [31.0.6rc1] Old Version: [31.0.6]
+[2024-04-10 02:19:10] INFO root fetch - processPackages [quant2]: Downloading https://files.pythonhosted.org/packages/14/b2/02902adfc8374a2d4e7cf6e11c97319142fb7a2f1565e78bcc91dd0cd825/quant2-0.0.9.tar.gz
+[2024-04-10 02:19:10] INFO root fetch - processPackages [draggable-line-chart]: Downloading https://files.pythonhosted.org/packages/d8/eb/95187f4b0820dd020651af726eb2190ebdde7ad3c5d5d4ddaae1fb859bea/draggable-line-chart-0.2.0.tar.gz
+[2024-04-10 02:19:10] INFO root fetch - processPackages [reloadium]: Downloading https://files.pythonhosted.org/packages/3d/b2/6394062713499799128d6979da5a487d8029b11e6b672215451dca093df3/reloadium-1.4.0-py3-none-any.whl
+[2024-04-10 02:19:10] INFO root fetch - processPackages [cdk-budibase]: Downloading https://files.pythonhosted.org/packages/3d/b1/10d1c8f0601959fd0771f3dc7b94b15e702b81729d74397e80ca3dd66c88/cdk-budibase-0.0.99.tar.gz
+[2024-04-10 02:19:10] INFO root fetch - processPackages [torchao-nightly]: Downloading https://files.pythonhosted.org/packages/4b/d5/e0ae6447ebc2fc27b71391c55653c89c441bbe6a6a8a7b37aa28dc13014e/torchao-nightly-2024.4.9.tar.gz
+[2024-04-10 02:19:10] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/16/61/e9f00b4e877a6352bd641de360f7577c27548fbcedc3aab19b1cf3852b9a/cdk-gitlab-runner-2.2.99.tar.gz
+[2024-04-10 02:19:10] INFO root fetch - processPackages [cdklabs.appsync-utils]: Downloading https://files.pythonhosted.org/packages/fe/2c/3a8605fe934a0a120041c6190f384b00350c8036420ee8d53ac0b0906f74/cdklabs.appsync-utils-0.0.99.tar.gz
+[2024-04-10 02:19:10] INFO root fetch - processPackages [quant2]: executing diffoscope
+[2024-04-10 02:19:10] INFO root fetch - processPackages [quant2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quant2-0.0.8.tar.gz tmp/quant2-0.0.9.tar.gz --markdown 20240410/q/quant2/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-10 02:19:10] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/c2/c5/a8a13bb72ea375e2ce99dd389e945478ce7d95d8628acf6db64f14f674f5/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz
+[2024-04-10 02:19:10] INFO root fetch - processPackages [Geode-Common]: Downloading https://files.pythonhosted.org/packages/01/88/569d5d09a38b5521ea31b43d1229963c2e56d4e8ee7c42e6519dc7cc0219/Geode_Common-31.0.6-cp311-cp311-manylinux2014_x86_64.whl
+[2024-04-10 02:19:10] INFO root fetch - processPackages [torchao-nightly]: executing diffoscope
+[2024-04-10 02:19:10] INFO root fetch - processPackages [torchao-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchao-nightly-2024.4.8.tar.gz tmp/torchao-nightly-2024.4.9.tar.gz --markdown 20240410/t/torchao-nightly/2024.4.8-2024.4.9/README.md --exclude *.pyd
+[2024-04-10 02:19:10] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2024-04-10 02:19:10] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.2.98.tar.gz tmp/cdk-gitlab-runner-2.2.99.tar.gz --markdown 20240410/c/cdk-gitlab-runner/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-04-10 02:19:10] INFO root fetch - processPackages [cdklabs.appsync-utils]: executing diffoscope
+[2024-04-10 02:19:10] INFO root fetch - processPackages [cdklabs.appsync-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.appsync-utils-0.0.98.tar.gz tmp/cdklabs.appsync-utils-0.0.99.tar.gz --markdown 20240410/c/cdklabs.appsync-utils/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-10 02:19:10] INFO root fetch - processPackages [cdk-budibase]: executing diffoscope
+[2024-04-10 02:19:10] INFO root fetch - processPackages [cdk-budibase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-budibase-0.0.98.tar.gz tmp/cdk-budibase-0.0.99.tar.gz --markdown 20240410/c/cdk-budibase/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-10 02:19:10] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: executing diffoscope
+[2024-04-10 02:19:10] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz --markdown 20240410/c/cdk-secret-manager-wrapper-layer/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-04-10 02:19:10] INFO root fetch - processPackages [reloadium]: Downloading https://files.pythonhosted.org/packages/39/df/b6c60903ebacdfeb6dc3c8770ccf29e29ff91184bbbe426073e22c64bd54/reloadium-1.4.1-py3-none-any.whl
+[2024-04-10 02:19:10] INFO root fetch - processPackages [draggable-line-chart]: Downloading https://files.pythonhosted.org/packages/99/f5/71d50f3f3e49669ecfbb3057a699105952f5af764d5bffe1cdf37a5828a2/draggable-line-chart-0.2.1.tar.gz
+[2024-04-10 02:19:11] INFO root fetch - processPackages [reloadium]: executing diffoscope
+[2024-04-10 02:19:11] INFO root fetch - processPackages [reloadium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reloadium-1.4.0-py3-none-any.whl.zip tmp/reloadium-1.4.1-py3-none-any.whl.zip --markdown 20240410/r/reloadium/1.4.0-1.4.1/README.md --exclude *.pyd
+[2024-04-10 02:19:11] INFO root fetch - processPackages [draggable-line-chart]: executing diffoscope
+[2024-04-10 02:19:11] INFO root fetch - processPackages [draggable-line-chart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/draggable-line-chart-0.2.0.tar.gz tmp/draggable-line-chart-0.2.1.tar.gz --markdown 20240410/d/draggable-line-chart/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-10 02:19:11] INFO root fetch - processPackages [quant2]: Remove: archive file [/home/abi/fetcher/tmp/quant2-0.0.8.tar.gz]
+[2024-04-10 02:19:11] INFO root fetch - processPackages [quant2]: Remove: archive file [/home/abi/fetcher/tmp/quant2-0.0.9.tar.gz]
+[2024-04-10 02:19:11] INFO root fetch - main [MainThread]: End processing [quant2]: success
+[2024-04-10 02:19:11] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.98.tar.gz]
+[2024-04-10 02:19:11] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.99.tar.gz]
+[2024-04-10 02:19:11] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2024-04-10 02:19:11] INFO root fetch - processPackages [torchao-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchao-nightly-2024.4.8.tar.gz]
+[2024-04-10 02:19:11] INFO root fetch - processPackages [torchao-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchao-nightly-2024.4.9.tar.gz]
+[2024-04-10 02:19:11] INFO root fetch - main [MainThread]: End processing [torchao-nightly]: success
+[2024-04-10 02:19:11] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz]
+[2024-04-10 02:19:11] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz]
+[2024-04-10 02:19:11] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
+[2024-04-10 02:19:11] INFO root fetch - processPackages [cdk-budibase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budibase-0.0.98.tar.gz]
+[2024-04-10 02:19:11] INFO root fetch - processPackages [cdk-budibase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budibase-0.0.99.tar.gz]
+[2024-04-10 02:19:11] INFO root fetch - main [MainThread]: End processing [cdk-budibase]: success
+[2024-04-10 02:19:11] INFO root fetch - processPackages [cdklabs.appsync-utils]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.appsync-utils-0.0.98.tar.gz]
+[2024-04-10 02:19:11] INFO root fetch - processPackages [cdklabs.appsync-utils]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.appsync-utils-0.0.99.tar.gz]
+[2024-04-10 02:19:11] INFO root fetch - main [MainThread]: End processing [cdklabs.appsync-utils]: success
+[2024-04-10 02:19:12] INFO root fetch - processPackages [reloadium]: Remove: archive file [/home/abi/fetcher/tmp/reloadium-1.4.0-py3-none-any.whl.zip]
+[2024-04-10 02:19:12] INFO root fetch - processPackages [reloadium]: Remove: archive file [/home/abi/fetcher/tmp/reloadium-1.4.1-py3-none-any.whl.zip]
+[2024-04-10 02:19:12] INFO root fetch - main [MainThread]: End processing [reloadium]: success
+[2024-04-10 02:19:12] INFO root fetch - processPackages [Geode-Common]: Downloading https://files.pythonhosted.org/packages/3a/d7/32a6b1150ca0e4b76113b74e100947ac746ae84f239bcc8ad74b424ea557/Geode_Common-31.0.6rc1-cp39-cp39-win_amd64.whl
+[2024-04-10 02:19:12] INFO root fetch - processPackages [Geode-Common]: executing diffoscope
+[2024-04-10 02:19:12] INFO root fetch - processPackages [Geode-Common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Common-31.0.6-cp311-cp311-manylinux2014_x86_64.whl.zip tmp/Geode_Common-31.0.6rc1-cp39-cp39-win_amd64.whl.zip --markdown 20240410/G/Geode-Common/31.0.6-31.0.6rc1/README.md --exclude *.pyd
+[2024-04-10 02:19:13] INFO root fetch - processPackages [Geode-Common]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Common-31.0.6-cp311-cp311-manylinux2014_x86_64.whl.zip]
+[2024-04-10 02:19:13] INFO root fetch - processPackages [Geode-Common]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Common-31.0.6rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-10 02:19:13] INFO root fetch - main [MainThread]: End processing [Geode-Common]: success
+[2024-04-10 02:19:47] INFO root fetch - processPackages [draggable-line-chart]: Remove: archive file [/home/abi/fetcher/tmp/draggable-line-chart-0.2.0.tar.gz]
+[2024-04-10 02:19:47] INFO root fetch - processPackages [draggable-line-chart]: Remove: archive file [/home/abi/fetcher/tmp/draggable-line-chart-0.2.1.tar.gz]
+[2024-04-10 02:19:47] INFO root fetch - main [MainThread]: End processing [draggable-line-chart]: success
+[2024-04-10 02:19:47] INFO root fetch - main [MainThread]: Store serial: [22692318]

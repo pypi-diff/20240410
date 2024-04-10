@@ -18872,3 +18872,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 11:29:54] INFO root fetch - processPackages [fuNEGF]: Remove: archive file [/home/abi/fetcher/tmp/fuNEGF-0.1.2-py3-none-any.whl.zip]
 [2024-04-10 11:29:54] INFO root fetch - main [MainThread]: End processing [fuNEGF]: success
 [2024-04-10 11:29:54] INFO root fetch - main [MainThread]: Store serial: [22698429]
+[2024-04-10 11:31:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22698429]
+[2024-04-10 11:32:04] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-10 11:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fuNEGF
+[2024-04-10 11:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: agricore_sp_models
+[2024-04-10 11:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-pfx
+[2024-04-10 11:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cai-causal-graph
+[2024-04-10 11:32:05] INFO root fetch - processPackages [fuNEGF]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-10 11:32:05] INFO root fetch - processPackages [agricore_sp_models]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-04-10 11:32:05] INFO root fetch - processPackages [django-pfx]: New version: [1.4.dev8] Old Version: [1.4.dev6]
+[2024-04-10 11:32:05] INFO root fetch - processPackages [fuNEGF]: Downloading https://files.pythonhosted.org/packages/b8/03/52fc4e6da52ff71b453c0e30696585ed0def10e14c0c84fa374e515092ae/fuNEGF-0.1.1.tar.gz
+[2024-04-10 11:32:05] INFO root fetch - processPackages [cai-causal-graph]: New version: [0.4.7.dev0] Old Version: [0.4.7]
+[2024-04-10 11:32:05] INFO root fetch - processPackages [agricore_sp_models]: Downloading https://files.pythonhosted.org/packages/99/3b/b1847ba262596ccdb2f2745d722aa75dade6d77edde9077aa24e0867d5f0/agricore_sp_models-0.5.8.tar.gz
+[2024-04-10 11:32:05] INFO root fetch - processPackages [django-pfx]: Downloading https://files.pythonhosted.org/packages/2e/9f/65575dd6215264f53e9e8b7a4683326bc83c43481f371071af7e71e7a40e/django-pfx-1.4.dev6.tar.gz
+[2024-04-10 11:32:05] INFO root fetch - processPackages [cai-causal-graph]: Downloading https://files.pythonhosted.org/packages/90/9f/39a530255c7419ff24fce6a48b56bdfe09b0001ddfdb9f1d49f8e75b0bf4/cai_causal_graph-0.4.7.tar.gz
+[2024-04-10 11:32:05] INFO root fetch - processPackages [agricore_sp_models]: Downloading https://files.pythonhosted.org/packages/4f/c3/15dc30bfa86b2dc97f35cb28d8ef45f99d8a64f480013f5b15c7b47dde11/agricore_sp_models-0.5.9.tar.gz
+[2024-04-10 11:32:05] INFO root fetch - processPackages [django-pfx]: Downloading https://files.pythonhosted.org/packages/7f/53/caf5a55c22d1a4048e13c64bf53557581259f02deab3e33483ff3512cdf3/django-pfx-1.4.dev8.tar.gz
+[2024-04-10 11:32:05] INFO root fetch - processPackages [agricore_sp_models]: executing diffoscope
+[2024-04-10 11:32:05] INFO root fetch - processPackages [agricore_sp_models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agricore_sp_models-0.5.8.tar.gz tmp/agricore_sp_models-0.5.9.tar.gz --markdown 20240410/a/agricore_sp_models/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-04-10 11:32:05] INFO root fetch - processPackages [django-pfx]: executing diffoscope
+[2024-04-10 11:32:05] INFO root fetch - processPackages [django-pfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-pfx-1.4.dev6.tar.gz tmp/django-pfx-1.4.dev8.tar.gz --markdown 20240410/d/django-pfx/1.4.dev6-1.4.dev8/README.md --exclude *.pyd
+[2024-04-10 11:32:05] INFO root fetch - processPackages [fuNEGF]: Downloading https://files.pythonhosted.org/packages/57/ad/fb1e0f40e9c9aef3e119f93bbdc2bfef5ff6db164aa12f261f3ebbedfe29/fuNEGF-0.1.2-py3-none-any.whl
+[2024-04-10 11:32:05] INFO root fetch - processPackages [fuNEGF]: executing diffoscope
+[2024-04-10 11:32:05] INFO root fetch - processPackages [fuNEGF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fuNEGF-0.1.1.tar.gz tmp/fuNEGF-0.1.2-py3-none-any.whl.zip --markdown 20240410/f/fuNEGF/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-10 11:32:05] INFO root fetch - processPackages [cai-causal-graph]: Downloading https://files.pythonhosted.org/packages/16/8a/ae06905fc8a735e8393d44938f225761d67ff2f527ae0b3ddd505ff4309c/cai_causal_graph-0.4.7.dev0.tar.gz
+[2024-04-10 11:32:05] INFO root fetch - processPackages [cai-causal-graph]: executing diffoscope
+[2024-04-10 11:32:05] INFO root fetch - processPackages [cai-causal-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cai_causal_graph-0.4.7.tar.gz tmp/cai_causal_graph-0.4.7.dev0.tar.gz --markdown 20240410/c/cai-causal-graph/0.4.7-0.4.7.dev0/README.md --exclude *.pyd
+[2024-04-10 11:32:06] INFO root fetch - processPackages [agricore_sp_models]: Remove: archive file [/home/abi/fetcher/tmp/agricore_sp_models-0.5.8.tar.gz]
+[2024-04-10 11:32:06] INFO root fetch - processPackages [agricore_sp_models]: Remove: archive file [/home/abi/fetcher/tmp/agricore_sp_models-0.5.9.tar.gz]
+[2024-04-10 11:32:06] INFO root fetch - main [MainThread]: End processing [agricore_sp_models]: success
+[2024-04-10 11:32:06] INFO root fetch - processPackages [fuNEGF]: Remove: archive file [/home/abi/fetcher/tmp/fuNEGF-0.1.1.tar.gz]
+[2024-04-10 11:32:06] INFO root fetch - processPackages [fuNEGF]: Remove: archive file [/home/abi/fetcher/tmp/fuNEGF-0.1.2-py3-none-any.whl.zip]
+[2024-04-10 11:32:06] INFO root fetch - main [MainThread]: End processing [fuNEGF]: success
+[2024-04-10 11:32:06] INFO root fetch - processPackages [django-pfx]: Remove: archive file [/home/abi/fetcher/tmp/django-pfx-1.4.dev6.tar.gz]
+[2024-04-10 11:32:06] INFO root fetch - processPackages [django-pfx]: Remove: archive file [/home/abi/fetcher/tmp/django-pfx-1.4.dev8.tar.gz]
+[2024-04-10 11:32:06] INFO root fetch - main [MainThread]: End processing [django-pfx]: success
+[2024-04-10 11:32:06] INFO root fetch - processPackages [cai-causal-graph]: Remove: archive file [/home/abi/fetcher/tmp/cai_causal_graph-0.4.7.tar.gz]
+[2024-04-10 11:32:06] INFO root fetch - processPackages [cai-causal-graph]: Remove: archive file [/home/abi/fetcher/tmp/cai_causal_graph-0.4.7.dev0.tar.gz]
+[2024-04-10 11:32:06] INFO root fetch - main [MainThread]: End processing [cai-causal-graph]: success
+[2024-04-10 11:32:06] INFO root fetch - main [MainThread]: Store serial: [22698445]

@@ -7596,3 +7596,36 @@
 [2024-04-10 03:22:54] INFO root fetch - processPackages [spectrum-image]: Remove: archive file [/home/abi/fetcher/tmp/spectrum_image-0.2.5.tar.gz]
 [2024-04-10 03:22:54] INFO root fetch - main [MainThread]: End processing [spectrum-image]: success
 [2024-04-10 03:22:54] INFO root fetch - main [MainThread]: Store serial: [22693788]
+[2024-04-10 03:24:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22693788]
+[2024-04-10 03:25:04] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-10 03:25:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: surfkit
+[2024-04-10 03:25:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reldplayer
+[2024-04-10 03:25:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: onediff
+[2024-04-10 03:25:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: onediffx
+[2024-04-10 03:25:04] INFO root fetch - processPackages [surfkit]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-10 03:25:04] INFO root fetch - processPackages [onediffx]: New version: [0.13.0.dev202404090125] Old Version: [0.13.0.dev202404080125]
+[2024-04-10 03:25:04] INFO root fetch - processPackages [onediff]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-10 03:25:04] ERROR root fetch - processPackages [reldplayer]: Unable to get metadata: No such project 'reldplayer'
+[2024-04-10 03:25:04] INFO root fetch - main [MainThread]: End processing [reldplayer] error
+[2024-04-10 03:25:04] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/00/dc/343980c083ea4ae8ce963639c51b39c0b3ba7869e96ca748256ff1b67925/surfkit-0.1.8.tar.gz
+[2024-04-10 03:25:04] INFO root fetch - processPackages [onediffx]: Downloading https://files.pythonhosted.org/packages/0a/e2/9d03d89f1ae11c38e7d1ad1606ca45d372811960a42b50dc4d9f548a5b0a/onediffx-0.13.0.dev202404080125.tar.gz
+[2024-04-10 03:25:04] INFO root fetch - processPackages [onediff]: Downloading https://files.pythonhosted.org/packages/b5/b9/374ebf1306993c83fd9b2b7bc584983456da7a4dda0cd79e923e85476450/onediff-0.8.0-py3-none-any.whl
+[2024-04-10 03:25:04] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/e2/bd/4b842eb12eca8c3a3ea5d2915b52f91a3259c7e0160d2a0a88aeb13ae4a7/surfkit-0.1.9.tar.gz
+[2024-04-10 03:25:04] INFO root fetch - processPackages [onediffx]: Downloading https://files.pythonhosted.org/packages/f3/73/e226c9345fecfc24377cc8ad32ac2fdc2ca35d2c123f11e19a26ffb23eb5/onediffx-0.13.0.dev202404090125.tar.gz
+[2024-04-10 03:25:04] INFO root fetch - processPackages [onediff]: Downloading https://files.pythonhosted.org/packages/ef/35/e11ef77b4ecbfca20f6a6f4e859e3366285f109bbe200a8a82c62b8db14d/onediff-0.9.0-py3-none-any.whl
+[2024-04-10 03:25:05] INFO root fetch - processPackages [surfkit]: executing diffoscope
+[2024-04-10 03:25:05] INFO root fetch - processPackages [surfkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surfkit-0.1.8.tar.gz tmp/surfkit-0.1.9.tar.gz --markdown 20240410/s/surfkit/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-10 03:25:05] INFO root fetch - processPackages [onediffx]: executing diffoscope
+[2024-04-10 03:25:05] INFO root fetch - processPackages [onediffx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onediffx-0.13.0.dev202404080125.tar.gz tmp/onediffx-0.13.0.dev202404090125.tar.gz --markdown 20240410/o/onediffx/0.13.0.dev202404080125-0.13.0.dev202404090125/README.md --exclude *.pyd
+[2024-04-10 03:25:05] INFO root fetch - processPackages [onediff]: executing diffoscope
+[2024-04-10 03:25:05] INFO root fetch - processPackages [onediff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onediff-0.8.0-py3-none-any.whl.zip tmp/onediff-0.9.0-py3-none-any.whl.zip --markdown 20240410/o/onediff/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-10 03:25:05] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.8.tar.gz]
+[2024-04-10 03:25:05] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.9.tar.gz]
+[2024-04-10 03:25:05] INFO root fetch - main [MainThread]: End processing [surfkit]: success
+[2024-04-10 03:25:05] INFO root fetch - processPackages [onediffx]: Remove: archive file [/home/abi/fetcher/tmp/onediffx-0.13.0.dev202404080125.tar.gz]
+[2024-04-10 03:25:05] INFO root fetch - processPackages [onediffx]: Remove: archive file [/home/abi/fetcher/tmp/onediffx-0.13.0.dev202404090125.tar.gz]
+[2024-04-10 03:25:05] INFO root fetch - main [MainThread]: End processing [onediffx]: success
+[2024-04-10 03:25:05] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-0.8.0-py3-none-any.whl.zip]
+[2024-04-10 03:25:05] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-0.9.0-py3-none-any.whl.zip]
+[2024-04-10 03:25:05] INFO root fetch - main [MainThread]: End processing [onediff]: success
+[2024-04-10 03:25:05] INFO root fetch - main [MainThread]: Store serial: [22693867]

@@ -21449,3 +21449,55 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 13:09:53] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2024-04-10 13:09:53] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2024-04-10 13:09:53] INFO root fetch - main [MainThread]: Store serial: [22699668]
+[2024-04-10 13:11:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22699668]
+[2024-04-10 13:12:02] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-10 13:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl-core-cpp
+[2024-04-10 13:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cg
+[2024-04-10 13:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: easyaddition-quicklyfix
+[2024-04-10 13:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dissect.target
+[2024-04-10 13:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: velikafkaclient
+[2024-04-10 13:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ycls
+[2024-04-10 13:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lpb-lib
+[2024-04-10 13:12:02] INFO root fetch - processPackages [easyaddition-quicklyfix]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-10 13:12:02] INFO root fetch - processPackages [velikafkaclient]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-10 13:12:02] INFO root fetch - processPackages [lpb-lib]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-10 13:12:02] INFO root fetch - processPackages [cg]: New version: [59.9.1] Old Version: [59.9.0]
+[2024-04-10 13:12:02] INFO root fetch - processPackages [dissect.target]: New version: [3.9] Old Version: [3.8]
+[2024-04-10 13:12:02] INFO root fetch - processPackages [bigdl-core-cpp]: New version: [2.5.0b20240410] Old Version: [2.5.0b20240409]
+[2024-04-10 13:12:02] ERROR root fetch - processPackages [ycls]: Unable to get metadata: No such project 'ycls'
+[2024-04-10 13:12:02] INFO root fetch - main [MainThread]: End processing [ycls] error
+[2024-04-10 13:12:02] INFO root fetch - processPackages [dissect.target]: Downloading https://files.pythonhosted.org/packages/fd/85/dee67cb24b471b811af4e5b31762f8244b20913dcc98ec76ec5b921e9a68/dissect.target-3.8.tar.gz
+[2024-04-10 13:12:02] INFO root fetch - processPackages [lpb-lib]: Downloading https://files.pythonhosted.org/packages/0d/26/1dd9e1d1a3ce019cafc4f46170666ad5800692eb72cc756bf87723616469/lpb_lib-0.0.8.tar.gz
+[2024-04-10 13:12:02] INFO root fetch - processPackages [velikafkaclient]: Downloading https://files.pythonhosted.org/packages/b0/dc/87b494a0e4b062d3de83ceebad67fbe8fa3c07a5552e4b3e17b8158fa9b1/velikafkaclient-1.1.8.tar.gz
+[2024-04-10 13:12:02] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/a4/79/664dc1d5b463ee0406caa2e43f4dec36f68ff9a520e4d9d51666e6ea5021/cg-59.9.0.tar.gz
+[2024-04-10 13:12:02] WARNING root fetch - processPackages [dissect.target]: Skipping package: exceeds size limit 63551809>=10485760
+[2024-04-10 13:12:02] INFO root fetch - main [MainThread]: End processing [dissect.target] error
+[2024-04-10 13:12:02] INFO root fetch - processPackages [easyaddition-quicklyfix]: Downloading https://files.pythonhosted.org/packages/4e/74/781d02a2da9e00d24b4cfa1fd6baf3dc2fa2aa101b57375a5b12308370f5/easyaddition_quicklyfix-0.0.3.tar.gz
+[2024-04-10 13:12:02] INFO root fetch - processPackages [bigdl-core-cpp]: Downloading https://files.pythonhosted.org/packages/e4/61/3a5ee5311af1152cba11c3477f7d50bf1725431396bad8f1682eab73ab2e/bigdl_core_cpp-2.5.0b20240409-py3-none-win_amd64.whl
+[2024-04-10 13:12:02] WARNING root fetch - processPackages [bigdl-core-cpp]: Skipping package: exceeds size limit 36301344>=10485760
+[2024-04-10 13:12:02] INFO root fetch - main [MainThread]: End processing [bigdl-core-cpp] error
+[2024-04-10 13:12:02] INFO root fetch - processPackages [lpb-lib]: Downloading https://files.pythonhosted.org/packages/b5/a0/298a14417ab88f356ce41373b4a46c619d3e2e4ea96551c2b8cb1385ec7b/lpb_lib-0.0.9.tar.gz
+[2024-04-10 13:12:02] INFO root fetch - processPackages [velikafkaclient]: Downloading https://files.pythonhosted.org/packages/ea/56/47d5380645e9b1b30c4e572af36ca3fb85e8d47c56ae450cf3468312a10e/velikafkaclient-1.1.9.tar.gz
+[2024-04-10 13:12:02] INFO root fetch - processPackages [lpb-lib]: executing diffoscope
+[2024-04-10 13:12:02] INFO root fetch - processPackages [lpb-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lpb_lib-0.0.8.tar.gz tmp/lpb_lib-0.0.9.tar.gz --markdown 20240410/l/lpb-lib/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-10 13:12:02] INFO root fetch - processPackages [velikafkaclient]: executing diffoscope
+[2024-04-10 13:12:02] INFO root fetch - processPackages [velikafkaclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/velikafkaclient-1.1.8.tar.gz tmp/velikafkaclient-1.1.9.tar.gz --markdown 20240410/v/velikafkaclient/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-04-10 13:12:02] INFO root fetch - processPackages [easyaddition-quicklyfix]: Downloading https://files.pythonhosted.org/packages/62/48/4325edffffe7f6aed330e2187e3430b85dba19d2a88a44eecd9e26f18549/easyaddition_quicklyfix-0.0.4.tar.gz
+[2024-04-10 13:12:02] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/da/9f/c4869b003070cd94f090db42e1f076a49bf9c0b1856d209eeb540379d711/cg-59.9.1.tar.gz
+[2024-04-10 13:12:03] INFO root fetch - processPackages [easyaddition-quicklyfix]: executing diffoscope
+[2024-04-10 13:12:03] INFO root fetch - processPackages [easyaddition-quicklyfix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyaddition_quicklyfix-0.0.3.tar.gz tmp/easyaddition_quicklyfix-0.0.4.tar.gz --markdown 20240410/e/easyaddition-quicklyfix/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-10 13:12:03] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-04-10 13:12:03] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-59.9.0.tar.gz tmp/cg-59.9.1.tar.gz --markdown 20240410/c/cg/59.9.0-59.9.1/README.md --exclude *.pyd
+[2024-04-10 13:12:03] INFO root fetch - processPackages [lpb-lib]: Remove: archive file [/home/abi/fetcher/tmp/lpb_lib-0.0.8.tar.gz]
+[2024-04-10 13:12:03] INFO root fetch - processPackages [lpb-lib]: Remove: archive file [/home/abi/fetcher/tmp/lpb_lib-0.0.9.tar.gz]
+[2024-04-10 13:12:03] INFO root fetch - main [MainThread]: End processing [lpb-lib]: success
+[2024-04-10 13:12:03] INFO root fetch - processPackages [velikafkaclient]: Remove: archive file [/home/abi/fetcher/tmp/velikafkaclient-1.1.8.tar.gz]
+[2024-04-10 13:12:03] INFO root fetch - processPackages [velikafkaclient]: Remove: archive file [/home/abi/fetcher/tmp/velikafkaclient-1.1.9.tar.gz]
+[2024-04-10 13:12:03] INFO root fetch - main [MainThread]: End processing [velikafkaclient]: success
+[2024-04-10 13:12:03] INFO root fetch - processPackages [easyaddition-quicklyfix]: Remove: archive file [/home/abi/fetcher/tmp/easyaddition_quicklyfix-0.0.3.tar.gz]
+[2024-04-10 13:12:03] INFO root fetch - processPackages [easyaddition-quicklyfix]: Remove: archive file [/home/abi/fetcher/tmp/easyaddition_quicklyfix-0.0.4.tar.gz]
+[2024-04-10 13:12:03] INFO root fetch - main [MainThread]: End processing [easyaddition-quicklyfix]: success
+[2024-04-10 13:12:07] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-59.9.0.tar.gz]
+[2024-04-10 13:12:07] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-59.9.1.tar.gz]
+[2024-04-10 13:12:07] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-04-10 13:12:07] INFO root fetch - main [MainThread]: Store serial: [22699747]

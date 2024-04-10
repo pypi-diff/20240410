@@ -21081,3 +21081,39 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 12:57:36] INFO root fetch - processPackages [thonny-etboard-micropython-firmware]: Remove: archive file [/home/abi/fetcher/tmp/thonny_etboard_micropython_firmware-1.0.2-py3-none-any.whl.zip]
 [2024-04-10 12:57:36] INFO root fetch - main [MainThread]: End processing [thonny-etboard-micropython-firmware]: success
 [2024-04-10 12:57:36] INFO root fetch - main [MainThread]: Store serial: [22699468]
+[2024-04-10 12:59:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22699468]
+[2024-04-10 12:59:45] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-10 12:59:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: thonny-etboard-micropython-firmware
+[2024-04-10 12:59:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: thonny-etboard-micropython-firmware-new
+[2024-04-10 12:59:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mizdb-watchlist
+[2024-04-10 12:59:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: streamlit-browser-session-storage
+[2024-04-10 12:59:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ActiveCollab
+[2024-04-10 12:59:45] INFO root fetch - processPackages [streamlit-browser-session-storage]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-10 12:59:45] INFO root fetch - processPackages [thonny-etboard-micropython-firmware]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-10 12:59:45] INFO root fetch - processPackages [mizdb-watchlist]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-10 12:59:45] WARNING root fetch - processPackages [ActiveCollab]: Skipping, unable to determine old version
+[2024-04-10 12:59:45] INFO root fetch - main [MainThread]: End processing [ActiveCollab] error
+[2024-04-10 12:59:45] WARNING root fetch - processPackages [thonny-etboard-micropython-firmware-new]: Skipping, unable to determine old version
+[2024-04-10 12:59:45] INFO root fetch - main [MainThread]: End processing [thonny-etboard-micropython-firmware-new] error
+[2024-04-10 12:59:45] INFO root fetch - processPackages [thonny-etboard-micropython-firmware]: Downloading https://files.pythonhosted.org/packages/26/19/d4d9aa4351c2e0b390f440059502f055fc20e2e3e2e0664eaa2efe0c468c/thonny-etboard-micropython-firmware-1.0.1.tar.gz
+[2024-04-10 12:59:45] INFO root fetch - processPackages [streamlit-browser-session-storage]: Downloading https://files.pythonhosted.org/packages/3b/66/f768580442963ed0165bfbd7d71bd58ff733bb50f21cefd973e54a66fcc3/streamlit-browser-session-storage-0.0.7.tar.gz
+[2024-04-10 12:59:45] INFO root fetch - processPackages [mizdb-watchlist]: Downloading https://files.pythonhosted.org/packages/b8/72/1710cddd24581fee979050aba12b4eb8d0b8b027ffd962f6385869da1931/mizdb_watchlist-0.1.6.tar.gz
+[2024-04-10 12:59:46] INFO root fetch - processPackages [mizdb-watchlist]: Downloading https://files.pythonhosted.org/packages/fe/43/0aa8e3ab9b9046bdd0c0c02d075bb11b750f6172264f4e9da0c2878d5e45/mizdb_watchlist-0.1.7.tar.gz
+[2024-04-10 12:59:46] INFO root fetch - processPackages [streamlit-browser-session-storage]: Downloading https://files.pythonhosted.org/packages/04/c2/6b8922d8ec7dc9c175bd631f042c386f7729a88f230a6e6c1e2d96838b14/streamlit-browser-session-storage-0.0.8.tar.gz
+[2024-04-10 12:59:46] INFO root fetch - processPackages [thonny-etboard-micropython-firmware]: Downloading https://files.pythonhosted.org/packages/ea/09/7689f97f6180fe36c774e0dbbd36186a7dc482e3fba0a63b739e072fed8d/thonny_etboard_micropython_firmware-1.0.2-py3-none-any.whl
+[2024-04-10 12:59:46] INFO root fetch - processPackages [mizdb-watchlist]: executing diffoscope
+[2024-04-10 12:59:46] INFO root fetch - processPackages [mizdb-watchlist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mizdb_watchlist-0.1.6.tar.gz tmp/mizdb_watchlist-0.1.7.tar.gz --markdown 20240410/m/mizdb-watchlist/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-10 12:59:46] INFO root fetch - processPackages [thonny-etboard-micropython-firmware]: executing diffoscope
+[2024-04-10 12:59:46] INFO root fetch - processPackages [thonny-etboard-micropython-firmware]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thonny-etboard-micropython-firmware-1.0.1.tar.gz tmp/thonny_etboard_micropython_firmware-1.0.2-py3-none-any.whl.zip --markdown 20240410/t/thonny-etboard-micropython-firmware/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-10 12:59:46] INFO root fetch - processPackages [streamlit-browser-session-storage]: executing diffoscope
+[2024-04-10 12:59:46] INFO root fetch - processPackages [streamlit-browser-session-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-browser-session-storage-0.0.7.tar.gz tmp/streamlit-browser-session-storage-0.0.8.tar.gz --markdown 20240410/s/streamlit-browser-session-storage/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-10 12:59:46] INFO root fetch - processPackages [mizdb-watchlist]: Remove: archive file [/home/abi/fetcher/tmp/mizdb_watchlist-0.1.6.tar.gz]
+[2024-04-10 12:59:46] INFO root fetch - processPackages [mizdb-watchlist]: Remove: archive file [/home/abi/fetcher/tmp/mizdb_watchlist-0.1.7.tar.gz]
+[2024-04-10 12:59:46] INFO root fetch - main [MainThread]: End processing [mizdb-watchlist]: success
+[2024-04-10 12:59:46] INFO root fetch - processPackages [thonny-etboard-micropython-firmware]: Remove: archive file [/home/abi/fetcher/tmp/thonny-etboard-micropython-firmware-1.0.1.tar.gz]
+[2024-04-10 12:59:46] INFO root fetch - processPackages [thonny-etboard-micropython-firmware]: Remove: archive file [/home/abi/fetcher/tmp/thonny_etboard_micropython_firmware-1.0.2-py3-none-any.whl.zip]
+[2024-04-10 12:59:46] INFO root fetch - main [MainThread]: End processing [thonny-etboard-micropython-firmware]: success
+[2024-04-10 12:59:59] INFO root fetch - processPackages [streamlit-browser-session-storage]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-browser-session-storage-0.0.7.tar.gz]
+[2024-04-10 12:59:59] INFO root fetch - processPackages [streamlit-browser-session-storage]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-browser-session-storage-0.0.8.tar.gz]
+[2024-04-10 12:59:59] INFO root fetch - main [MainThread]: End processing [streamlit-browser-session-storage]: success
+[2024-04-10 12:59:59] INFO root fetch - main [MainThread]: Store serial: [22699487]

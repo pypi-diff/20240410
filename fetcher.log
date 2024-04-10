@@ -14618,3 +14618,45 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 08:47:14] INFO root fetch - processPackages [GraphSpy]: Remove: archive file [/home/abi/fetcher/tmp/GraphSpy-1.1.4.tar.gz]
 [2024-04-10 08:47:14] INFO root fetch - main [MainThread]: End processing [GraphSpy]: success
 [2024-04-10 08:47:14] INFO root fetch - main [MainThread]: Store serial: [22696620]
+[2024-04-10 08:49:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22696620]
+[2024-04-10 08:49:24] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-10 08:49:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyaubo-sdk
+[2024-04-10 08:49:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyCanDI
+[2024-04-10 08:49:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: solvency2-data
+[2024-04-10 08:49:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vloc-plugin-selenium
+[2024-04-10 08:49:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tablite
+[2024-04-10 08:49:24] INFO root fetch - processPackages [pyaubo-sdk]: New version: [0.23.0] Old Version: [0.22.4]
+[2024-04-10 08:49:24] INFO root fetch - processPackages [vloc-plugin-selenium]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-10 08:49:24] INFO root fetch - processPackages [pyaubo-sdk]: Downloading https://files.pythonhosted.org/packages/7a/0f/274cfbfaba07befccb9cf2aaa8c8bc7a1e8172ba648f5d186dea112f2e29/pyaubo_sdk-0.22.4-cp310-cp310-win_amd64.whl
+[2024-04-10 08:49:24] INFO root fetch - processPackages [vloc-plugin-selenium]: Downloading https://files.pythonhosted.org/packages/04/fd/59dd523d9a273472fbb08cca48fd8709642d210720da1c8b4f0e882f7839/vloc_plugin_selenium-0.0.4.tar.gz
+[2024-04-10 08:49:24] WARNING root fetch - processPackages [PyCanDI]: Skipping, unable to determine old version
+[2024-04-10 08:49:24] INFO root fetch - main [MainThread]: End processing [PyCanDI] error
+[2024-04-10 08:49:24] INFO root fetch - processPackages [solvency2-data]: New version: [0.2.0] Old Version: [0.1.7]
+[2024-04-10 08:49:24] INFO root fetch - processPackages [tablite]: New version: [2023.9.8] Old Version: [2023.9.7]
+[2024-04-10 08:49:24] INFO root fetch - processPackages [solvency2-data]: Downloading https://files.pythonhosted.org/packages/7e/77/07dc1b5014ca288600d1eb77e32e9d90edc40d78e397797daac1bbe91969/solvency2_data-0.1.7.tar.gz
+[2024-04-10 08:49:25] INFO root fetch - processPackages [tablite]: Downloading https://files.pythonhosted.org/packages/69/1a/7380abcd1131d63fbfc3f716566dd75131728fab496d42a2a313fe6ba840/tablite-2023.9.7-py3-none-any.whl
+[2024-04-10 08:49:25] INFO root fetch - processPackages [pyaubo-sdk]: Downloading https://files.pythonhosted.org/packages/a7/cd/3710ee945afdc87b25f491ae227ce18aaa7ccaf45f6dab95ccb5b3bdd5df/pyaubo_sdk-0.23.0-cp39-cp39-win_amd64.whl
+[2024-04-10 08:49:25] INFO root fetch - processPackages [vloc-plugin-selenium]: Downloading https://files.pythonhosted.org/packages/39/ae/cadc0e0ab648cedf51110ae37317c8546f72c62dde66e71c84f50bad36ab/vloc_plugin_selenium-0.0.5.tar.gz
+[2024-04-10 08:49:25] INFO root fetch - processPackages [vloc-plugin-selenium]: executing diffoscope
+[2024-04-10 08:49:25] INFO root fetch - processPackages [vloc-plugin-selenium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vloc_plugin_selenium-0.0.4.tar.gz tmp/vloc_plugin_selenium-0.0.5.tar.gz --markdown 20240410/v/vloc-plugin-selenium/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-10 08:49:25] INFO root fetch - processPackages [solvency2-data]: Downloading https://files.pythonhosted.org/packages/1e/19/834673576a598595ab28891350048e6025e8aa0f639b7e72bbf566c5690e/solvency2_data-0.2.0.tar.gz
+[2024-04-10 08:49:25] INFO root fetch - processPackages [pyaubo-sdk]: executing diffoscope
+[2024-04-10 08:49:25] INFO root fetch - processPackages [pyaubo-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyaubo_sdk-0.22.4-cp310-cp310-win_amd64.whl.zip tmp/pyaubo_sdk-0.23.0-cp39-cp39-win_amd64.whl.zip --markdown 20240410/p/pyaubo-sdk/0.22.4-0.23.0/README.md --exclude *.pyd
+[2024-04-10 08:49:25] INFO root fetch - processPackages [solvency2-data]: executing diffoscope
+[2024-04-10 08:49:25] INFO root fetch - processPackages [solvency2-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solvency2_data-0.1.7.tar.gz tmp/solvency2_data-0.2.0.tar.gz --markdown 20240410/s/solvency2-data/0.1.7-0.2.0/README.md --exclude *.pyd
+[2024-04-10 08:49:25] INFO root fetch - processPackages [tablite]: Downloading https://files.pythonhosted.org/packages/b8/4a/752f66fecda7a2172d5056375800c9d050a5bc79c8c17e507a15a09c09ed/tablite-2023.9.8-py3-none-any.whl
+[2024-04-10 08:49:25] INFO root fetch - processPackages [tablite]: executing diffoscope
+[2024-04-10 08:49:25] INFO root fetch - processPackages [tablite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablite-2023.9.7-py3-none-any.whl.zip tmp/tablite-2023.9.8-py3-none-any.whl.zip --markdown 20240410/t/tablite/2023.9.7-2023.9.8/README.md --exclude *.pyd
+[2024-04-10 08:49:25] INFO root fetch - processPackages [vloc-plugin-selenium]: Remove: archive file [/home/abi/fetcher/tmp/vloc_plugin_selenium-0.0.4.tar.gz]
+[2024-04-10 08:49:25] INFO root fetch - processPackages [vloc-plugin-selenium]: Remove: archive file [/home/abi/fetcher/tmp/vloc_plugin_selenium-0.0.5.tar.gz]
+[2024-04-10 08:49:25] INFO root fetch - main [MainThread]: End processing [vloc-plugin-selenium]: success
+[2024-04-10 08:49:25] INFO root fetch - processPackages [pyaubo-sdk]: Remove: archive file [/home/abi/fetcher/tmp/pyaubo_sdk-0.22.4-cp310-cp310-win_amd64.whl.zip]
+[2024-04-10 08:49:25] INFO root fetch - processPackages [pyaubo-sdk]: Remove: archive file [/home/abi/fetcher/tmp/pyaubo_sdk-0.23.0-cp39-cp39-win_amd64.whl.zip]
+[2024-04-10 08:49:25] INFO root fetch - main [MainThread]: End processing [pyaubo-sdk]: success
+[2024-04-10 08:49:26] INFO root fetch - processPackages [solvency2-data]: Remove: archive file [/home/abi/fetcher/tmp/solvency2_data-0.1.7.tar.gz]
+[2024-04-10 08:49:26] INFO root fetch - processPackages [solvency2-data]: Remove: archive file [/home/abi/fetcher/tmp/solvency2_data-0.2.0.tar.gz]
+[2024-04-10 08:49:26] INFO root fetch - main [MainThread]: End processing [solvency2-data]: success
+[2024-04-10 08:49:26] INFO root fetch - processPackages [tablite]: Remove: archive file [/home/abi/fetcher/tmp/tablite-2023.9.7-py3-none-any.whl.zip]
+[2024-04-10 08:49:26] INFO root fetch - processPackages [tablite]: Remove: archive file [/home/abi/fetcher/tmp/tablite-2023.9.8-py3-none-any.whl.zip]
+[2024-04-10 08:49:26] INFO root fetch - main [MainThread]: End processing [tablite]: success
+[2024-04-10 08:49:26] INFO root fetch - main [MainThread]: Store serial: [22696647]

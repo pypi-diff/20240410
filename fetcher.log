@@ -14441,3 +14441,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 08:40:36] INFO root fetch - processPackages [pulumi-onelogin]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_onelogin-0.6.3a1712729246.tar.gz]
 [2024-04-10 08:40:36] INFO root fetch - main [MainThread]: End processing [pulumi-onelogin]: success
 [2024-04-10 08:40:36] INFO root fetch - main [MainThread]: Store serial: [22696542]
+[2024-04-10 08:42:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22696542]
+[2024-04-10 08:42:45] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-10 08:42:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rtraflow
+[2024-04-10 08:42:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-postgresql
+[2024-04-10 08:42:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unstract-sdk
+[2024-04-10 08:42:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumiverse-grafana
+[2024-04-10 08:42:45] WARNING root fetch - processPackages [rtraflow]: Skipping, unable to determine old version
+[2024-04-10 08:42:45] INFO root fetch - main [MainThread]: End processing [rtraflow] error
+[2024-04-10 08:42:45] INFO root fetch - processPackages [pulumiverse-grafana]: New version: [0.4.1a1712697651] Old Version: [0.4.1a1711521842]
+[2024-04-10 08:42:45] INFO root fetch - processPackages [pulumiverse-grafana]: Downloading https://files.pythonhosted.org/packages/4d/f7/11076e3f2efb8ab80ef2bf661e50253f780bb22151c9e247c26ccf74d826/pulumiverse_grafana-0.4.1a1711521842.tar.gz
+[2024-04-10 08:42:45] INFO root fetch - processPackages [unstract-sdk]: New version: [0.9.0] Old Version: [0.18.2]
+[2024-04-10 08:42:45] INFO root fetch - processPackages [pulumi-postgresql]: New version: [3.9.0a1689896978] Old Version: [3.9.0a1689315090]
+[2024-04-10 08:42:45] INFO root fetch - processPackages [unstract-sdk]: Downloading https://files.pythonhosted.org/packages/d6/a8/b6ec599498617e090273464d04b81047f1b3edd3fc5415821130fb1d7212/unstract_sdk-0.18.2.tar.gz
+[2024-04-10 08:42:45] INFO root fetch - processPackages [pulumiverse-grafana]: Downloading https://files.pythonhosted.org/packages/f7/6a/34d012e861b05fe6e067a638bb1b2211ffba97121594fa30f8e68504b1ce/pulumiverse_grafana-0.4.1a1712697651.tar.gz
+[2024-04-10 08:42:45] INFO root fetch - processPackages [pulumi-postgresql]: Downloading https://files.pythonhosted.org/packages/ed/e0/7fdde90ef74fd102795261322b0ac8625336995854691a442d881f55cb87/pulumi_postgresql-3.9.0a1689315090.tar.gz
+[2024-04-10 08:42:45] INFO root fetch - processPackages [pulumiverse-grafana]: executing diffoscope
+[2024-04-10 08:42:45] INFO root fetch - processPackages [pulumiverse-grafana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumiverse_grafana-0.4.1a1711521842.tar.gz tmp/pulumiverse_grafana-0.4.1a1712697651.tar.gz --markdown 20240410/p/pulumiverse-grafana/0.4.1a1711521842-0.4.1a1712697651/README.md --exclude *.pyd
+[2024-04-10 08:42:46] INFO root fetch - processPackages [unstract-sdk]: Downloading https://files.pythonhosted.org/packages/22/1f/50c387a8927cd896566732d9181d7f9f7e3401ecd3b8958f546dd4dc605f/unstract_sdk-0.9.0.tar.gz
+[2024-04-10 08:42:46] INFO root fetch - processPackages [pulumi-postgresql]: Downloading https://files.pythonhosted.org/packages/a0/7c/da57549229c7dc197fea08a82cd8c820b56d0bf8e0ed12fafc5fec8b3eff/pulumi_postgresql-3.9.0a1689896978.tar.gz
+[2024-04-10 08:42:46] INFO root fetch - processPackages [unstract-sdk]: executing diffoscope
+[2024-04-10 08:42:46] INFO root fetch - processPackages [unstract-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unstract_sdk-0.18.2.tar.gz tmp/unstract_sdk-0.9.0.tar.gz --markdown 20240410/u/unstract-sdk/0.18.2-0.9.0/README.md --exclude *.pyd
+[2024-04-10 08:42:46] INFO root fetch - processPackages [pulumi-postgresql]: executing diffoscope
+[2024-04-10 08:42:46] INFO root fetch - processPackages [pulumi-postgresql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_postgresql-3.9.0a1689315090.tar.gz tmp/pulumi_postgresql-3.9.0a1689896978.tar.gz --markdown 20240410/p/pulumi-postgresql/3.9.0a1689315090-3.9.0a1689896978/README.md --exclude *.pyd
+[2024-04-10 08:42:47] INFO root fetch - processPackages [pulumiverse-grafana]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_grafana-0.4.1a1711521842.tar.gz]
+[2024-04-10 08:42:47] INFO root fetch - processPackages [pulumiverse-grafana]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_grafana-0.4.1a1712697651.tar.gz]
+[2024-04-10 08:42:47] INFO root fetch - main [MainThread]: End processing [pulumiverse-grafana]: success
+[2024-04-10 08:42:47] INFO root fetch - processPackages [unstract-sdk]: Remove: archive file [/home/abi/fetcher/tmp/unstract_sdk-0.18.2.tar.gz]
+[2024-04-10 08:42:47] INFO root fetch - processPackages [unstract-sdk]: Remove: archive file [/home/abi/fetcher/tmp/unstract_sdk-0.9.0.tar.gz]
+[2024-04-10 08:42:47] INFO root fetch - main [MainThread]: End processing [unstract-sdk]: success
+[2024-04-10 08:42:47] INFO root fetch - processPackages [pulumi-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_postgresql-3.9.0a1689315090.tar.gz]
+[2024-04-10 08:42:47] INFO root fetch - processPackages [pulumi-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_postgresql-3.9.0a1689896978.tar.gz]
+[2024-04-10 08:42:47] INFO root fetch - main [MainThread]: End processing [pulumi-postgresql]: success
+[2024-04-10 08:42:47] INFO root fetch - main [MainThread]: Store serial: [22696553]

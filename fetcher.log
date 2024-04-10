@@ -14549,3 +14549,72 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 08:45:00] INFO root fetch - processPackages [pulumi-openstack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_openstack-3.9.0a1659603007.tar.gz]
 [2024-04-10 08:45:00] INFO root fetch - main [MainThread]: End processing [pulumi-openstack]: success
 [2024-04-10 08:45:00] INFO root fetch - main [MainThread]: Store serial: [22696584]
+[2024-04-10 08:47:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22696584]
+[2024-04-10 08:47:12] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-10 08:47:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yplib
+[2024-04-10 08:47:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: simplify-automation
+[2024-04-10 08:47:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: plus-slurm
+[2024-04-10 08:47:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nfgan
+[2024-04-10 08:47:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: GraphSpy
+[2024-04-10 08:47:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-opsgenie
+[2024-04-10 08:47:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: JayttleProcess
+[2024-04-10 08:47:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: DLMS-SPODES-communications
+[2024-04-10 08:47:12] INFO root fetch - processPackages [plus-slurm]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-10 08:47:12] INFO root fetch - processPackages [nfgan]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-10 08:47:12] INFO root fetch - processPackages [plus-slurm]: Downloading https://files.pythonhosted.org/packages/24/04/bb96408ef9a99758b056b0a315e5646bc7c77e31d2fa322cd0ba55e9e40d/plus_slurm-0.2.2.tar.gz
+[2024-04-10 08:47:12] INFO root fetch - processPackages [JayttleProcess]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-10 08:47:12] WARNING root fetch - processPackages [simplify-automation]: Skipping, unable to determine old version
+[2024-04-10 08:47:12] INFO root fetch - main [MainThread]: End processing [simplify-automation] error
+[2024-04-10 08:47:12] INFO root fetch - processPackages [GraphSpy]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-04-10 08:47:12] INFO root fetch - processPackages [yplib]: New version: [5.5.8] Old Version: [5.5.7]
+[2024-04-10 08:47:12] INFO root fetch - processPackages [DLMS-SPODES-communications]: New version: [1.2.4] Old Version: [1.2.3]
+[2024-04-10 08:47:12] INFO root fetch - processPackages [pulumi-opsgenie]: New version: [1.4.0a1712729271] Old Version: [1.4.0a1712469563]
+[2024-04-10 08:47:12] INFO root fetch - processPackages [nfgan]: Downloading https://files.pythonhosted.org/packages/46/bc/54d49701ba949c0e5dd7e8969e116d70c8d354014b8feb7ceec241f7330c/nfgan-0.0.1.tar.gz
+[2024-04-10 08:47:12] INFO root fetch - processPackages [JayttleProcess]: Downloading https://files.pythonhosted.org/packages/19/68/1d8c3f4900522419adbd222b8d470b8f8c6c8b9c2c89a19db2d4ac1721d4/JayttleProcess-0.1.4-py3-none-any.whl
+[2024-04-10 08:47:12] INFO root fetch - processPackages [GraphSpy]: Downloading https://files.pythonhosted.org/packages/c8/7d/e2372a1a52c7d6501baedc0257278bd988230ce91f183eb0343de080a0d7/GraphSpy-1.1.3.tar.gz
+[2024-04-10 08:47:12] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/cf/6f/1ccd13dc453b8c27317e22822c1f0fd61ac876b46238b0da149979b1a6d9/yplib-5.5.7.tar.gz
+[2024-04-10 08:47:13] INFO root fetch - processPackages [DLMS-SPODES-communications]: Downloading https://files.pythonhosted.org/packages/10/3e/4feef7e8d509ee63be4d8857bca72d06b853ea32856ada64964062f802ad/DLMS_SPODES_communications-1.2.3.tar.gz
+[2024-04-10 08:47:13] INFO root fetch - processPackages [plus-slurm]: Downloading https://files.pythonhosted.org/packages/bd/28/e996449a94f6ac4f0399b64d7078f00c35a6faf366fb99308628cdbe227c/plus_slurm-0.2.3.tar.gz
+[2024-04-10 08:47:13] INFO root fetch - processPackages [pulumi-opsgenie]: Downloading https://files.pythonhosted.org/packages/0c/b3/34c8116183ba184fb5143e46b29e603ea58ac199dfd75b421b7a984d0bfe/pulumi_opsgenie-1.4.0a1712469563.tar.gz
+[2024-04-10 08:47:13] INFO root fetch - processPackages [nfgan]: Downloading https://files.pythonhosted.org/packages/31/af/e0307ec570281472b05b2c28d012ee4ff9f238318379bed5070c7ed6f7cf/nfgan-0.0.2.tar.gz
+[2024-04-10 08:47:13] INFO root fetch - processPackages [plus-slurm]: executing diffoscope
+[2024-04-10 08:47:13] INFO root fetch - processPackages [plus-slurm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plus_slurm-0.2.2.tar.gz tmp/plus_slurm-0.2.3.tar.gz --markdown 20240410/p/plus-slurm/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-10 08:47:13] INFO root fetch - processPackages [nfgan]: executing diffoscope
+[2024-04-10 08:47:13] INFO root fetch - processPackages [nfgan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nfgan-0.0.1.tar.gz tmp/nfgan-0.0.2.tar.gz --markdown 20240410/n/nfgan/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-10 08:47:13] INFO root fetch - processPackages [GraphSpy]: Downloading https://files.pythonhosted.org/packages/67/99/dd8dc59ab7511c25becba82ce858a3cadcf6abb4b0014ecf3f3793062a9c/GraphSpy-1.1.4.tar.gz
+[2024-04-10 08:47:13] INFO root fetch - processPackages [JayttleProcess]: Downloading https://files.pythonhosted.org/packages/9f/f5/c6964fb5debcef14e47a391c21b4c0b18f62c372bfa271ffe96fe1bfa629/JayttleProcess-0.1.5-py3-none-any.whl
+[2024-04-10 08:47:13] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/8c/55/bc4a98f5e6c02f2319c03c7c17025498fe533c50531b0006e9f25a187f5c/yplib-5.5.8.tar.gz
+[2024-04-10 08:47:13] INFO root fetch - processPackages [DLMS-SPODES-communications]: Downloading https://files.pythonhosted.org/packages/b5/ae/6bba7c2f0238066146aaae2209c608f0c4fd2f930540ad8d5898efa118fd/DLMS_SPODES_communications-1.2.4.tar.gz
+[2024-04-10 08:47:13] INFO root fetch - processPackages [GraphSpy]: executing diffoscope
+[2024-04-10 08:47:13] INFO root fetch - processPackages [GraphSpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GraphSpy-1.1.3.tar.gz tmp/GraphSpy-1.1.4.tar.gz --markdown 20240410/G/GraphSpy/1.1.3-1.1.4/README.md --exclude *.pyd
+[2024-04-10 08:47:13] INFO root fetch - processPackages [pulumi-opsgenie]: Downloading https://files.pythonhosted.org/packages/e1/71/e587463e026b7522829fd0c43d1ebb41a352eae790057c99916957defb60/pulumi_opsgenie-1.4.0a1712729271.tar.gz
+[2024-04-10 08:47:13] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2024-04-10 08:47:13] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-5.5.7.tar.gz tmp/yplib-5.5.8.tar.gz --markdown 20240410/y/yplib/5.5.7-5.5.8/README.md --exclude *.pyd
+[2024-04-10 08:47:13] INFO root fetch - processPackages [JayttleProcess]: executing diffoscope
+[2024-04-10 08:47:13] INFO root fetch - processPackages [JayttleProcess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JayttleProcess-0.1.4-py3-none-any.whl.zip tmp/JayttleProcess-0.1.5-py3-none-any.whl.zip --markdown 20240410/J/JayttleProcess/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-10 08:47:13] INFO root fetch - processPackages [DLMS-SPODES-communications]: executing diffoscope
+[2024-04-10 08:47:13] INFO root fetch - processPackages [DLMS-SPODES-communications]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES_communications-1.2.3.tar.gz tmp/DLMS_SPODES_communications-1.2.4.tar.gz --markdown 20240410/D/DLMS-SPODES-communications/1.2.3-1.2.4/README.md --exclude *.pyd
+[2024-04-10 08:47:13] INFO root fetch - processPackages [pulumi-opsgenie]: executing diffoscope
+[2024-04-10 08:47:13] INFO root fetch - processPackages [pulumi-opsgenie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_opsgenie-1.4.0a1712469563.tar.gz tmp/pulumi_opsgenie-1.4.0a1712729271.tar.gz --markdown 20240410/p/pulumi-opsgenie/1.4.0a1712469563-1.4.0a1712729271/README.md --exclude *.pyd
+[2024-04-10 08:47:14] INFO root fetch - processPackages [plus-slurm]: Remove: archive file [/home/abi/fetcher/tmp/plus_slurm-0.2.2.tar.gz]
+[2024-04-10 08:47:14] INFO root fetch - processPackages [plus-slurm]: Remove: archive file [/home/abi/fetcher/tmp/plus_slurm-0.2.3.tar.gz]
+[2024-04-10 08:47:14] INFO root fetch - main [MainThread]: End processing [plus-slurm]: success
+[2024-04-10 08:47:14] INFO root fetch - processPackages [nfgan]: Remove: archive file [/home/abi/fetcher/tmp/nfgan-0.0.1.tar.gz]
+[2024-04-10 08:47:14] INFO root fetch - processPackages [nfgan]: Remove: archive file [/home/abi/fetcher/tmp/nfgan-0.0.2.tar.gz]
+[2024-04-10 08:47:14] INFO root fetch - main [MainThread]: End processing [nfgan]: success
+[2024-04-10 08:47:14] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-5.5.7.tar.gz]
+[2024-04-10 08:47:14] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-5.5.8.tar.gz]
+[2024-04-10 08:47:14] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2024-04-10 08:47:14] INFO root fetch - processPackages [DLMS-SPODES-communications]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES_communications-1.2.3.tar.gz]
+[2024-04-10 08:47:14] INFO root fetch - processPackages [DLMS-SPODES-communications]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES_communications-1.2.4.tar.gz]
+[2024-04-10 08:47:14] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES-communications]: success
+[2024-04-10 08:47:14] INFO root fetch - processPackages [JayttleProcess]: Remove: archive file [/home/abi/fetcher/tmp/JayttleProcess-0.1.4-py3-none-any.whl.zip]
+[2024-04-10 08:47:14] INFO root fetch - processPackages [JayttleProcess]: Remove: archive file [/home/abi/fetcher/tmp/JayttleProcess-0.1.5-py3-none-any.whl.zip]
+[2024-04-10 08:47:14] INFO root fetch - main [MainThread]: End processing [JayttleProcess]: success
+[2024-04-10 08:47:14] INFO root fetch - processPackages [pulumi-opsgenie]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opsgenie-1.4.0a1712469563.tar.gz]
+[2024-04-10 08:47:14] INFO root fetch - processPackages [pulumi-opsgenie]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opsgenie-1.4.0a1712729271.tar.gz]
+[2024-04-10 08:47:14] INFO root fetch - main [MainThread]: End processing [pulumi-opsgenie]: success
+[2024-04-10 08:47:14] INFO root fetch - processPackages [GraphSpy]: Remove: archive file [/home/abi/fetcher/tmp/GraphSpy-1.1.3.tar.gz]
+[2024-04-10 08:47:14] INFO root fetch - processPackages [GraphSpy]: Remove: archive file [/home/abi/fetcher/tmp/GraphSpy-1.1.4.tar.gz]
+[2024-04-10 08:47:14] INFO root fetch - main [MainThread]: End processing [GraphSpy]: success
+[2024-04-10 08:47:14] INFO root fetch - main [MainThread]: Store serial: [22696620]

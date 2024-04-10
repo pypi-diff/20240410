@@ -8373,3 +8373,45 @@
 [2024-04-10 03:48:44] INFO root fetch - processPackages [ats-case]: Remove: archive file [/home/abi/fetcher/tmp/ats_case-1.2.9.tar.gz]
 [2024-04-10 03:48:44] INFO root fetch - main [MainThread]: End processing [ats-case]: success
 [2024-04-10 03:48:44] INFO root fetch - main [MainThread]: Store serial: [22694292]
+[2024-04-10 03:50:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22694292]
+[2024-04-10 03:50:54] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-10 03:50:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sampa
+[2024-04-10 03:50:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nuon
+[2024-04-10 03:50:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyfilebrowser
+[2024-04-10 03:50:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pih-mio
+[2024-04-10 03:50:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datascope-experiments
+[2024-04-10 03:50:54] INFO root fetch - processPackages [pyfilebrowser]: New version: [0.0.9b0] Old Version: [0.0.9a0]
+[2024-04-10 03:50:54] WARNING root fetch - processPackages [sampa]: Skipping, unable to determine old version
+[2024-04-10 03:50:54] INFO root fetch - main [MainThread]: End processing [sampa] error
+[2024-04-10 03:50:54] INFO root fetch - processPackages [nuon]: New version: [0.19.94] Old Version: [0.19.93]
+[2024-04-10 03:50:54] INFO root fetch - processPackages [datascope-experiments]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-10 03:50:54] INFO root fetch - processPackages [pyfilebrowser]: Downloading https://files.pythonhosted.org/packages/2f/eb/10b988a7590f89409d807e02c017d767dd502674e53d5bdba3ea5a365981/pyfilebrowser-0.0.9a0-py3-none-any.whl
+[2024-04-10 03:50:54] INFO root fetch - processPackages [pih-mio]: New version: [0.26] Old Version: [0.25]
+[2024-04-10 03:50:54] INFO root fetch - processPackages [nuon]: Downloading https://files.pythonhosted.org/packages/ac/81/dd3026680059afc9a531209fd49195ad70f86f55b003b082537ca4b0a2c3/nuon-0.19.93.tar.gz
+[2024-04-10 03:50:54] INFO root fetch - processPackages [datascope-experiments]: Downloading https://files.pythonhosted.org/packages/45/04/38d90a22277d9e206a1f680f99cbfda58ca9cb856a5fdfdcee40e032f0e8/datascope-experiments-0.0.8.tar.gz
+[2024-04-10 03:50:54] INFO root fetch - processPackages [pyfilebrowser]: Downloading https://files.pythonhosted.org/packages/57/a9/7d7bcb29de7ad354a2f7bfdf7ed9105991a9ba058bba47bb85aa4020554e/pyfilebrowser-0.0.9b0-py3-none-any.whl
+[2024-04-10 03:50:54] INFO root fetch - processPackages [datascope-experiments]: Downloading https://files.pythonhosted.org/packages/b1/bc/05ddc96ba1314c3a59709691d24646790023b2b8b38620c39e9ae4412371/datascope-experiments-0.0.9.tar.gz
+[2024-04-10 03:50:54] INFO root fetch - processPackages [pyfilebrowser]: executing diffoscope
+[2024-04-10 03:50:54] INFO root fetch - processPackages [pyfilebrowser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfilebrowser-0.0.9a0-py3-none-any.whl.zip tmp/pyfilebrowser-0.0.9b0-py3-none-any.whl.zip --markdown 20240410/p/pyfilebrowser/0.0.9a0-0.0.9b0/README.md --exclude *.pyd
+[2024-04-10 03:50:54] INFO root fetch - processPackages [pih-mio]: Downloading https://files.pythonhosted.org/packages/31/85/7ab98cd81c1f214006080b60a75aac29e29517017f706394ebb338dfcd64/pih-mio-0.25.tar.gz
+[2024-04-10 03:50:54] INFO root fetch - processPackages [nuon]: Downloading https://files.pythonhosted.org/packages/6e/c1/4e78bc87b23bd764681017382f2ec7917bf6733fe14bbbe237d2bf0d48fd/nuon-0.19.94.tar.gz
+[2024-04-10 03:50:54] INFO root fetch - processPackages [datascope-experiments]: executing diffoscope
+[2024-04-10 03:50:54] INFO root fetch - processPackages [datascope-experiments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datascope-experiments-0.0.8.tar.gz tmp/datascope-experiments-0.0.9.tar.gz --markdown 20240410/d/datascope-experiments/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-10 03:50:54] INFO root fetch - processPackages [nuon]: executing diffoscope
+[2024-04-10 03:50:54] INFO root fetch - processPackages [nuon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nuon-0.19.93.tar.gz tmp/nuon-0.19.94.tar.gz --markdown 20240410/n/nuon/0.19.93-0.19.94/README.md --exclude *.pyd
+[2024-04-10 03:50:55] INFO root fetch - processPackages [pyfilebrowser]: Remove: archive file [/home/abi/fetcher/tmp/pyfilebrowser-0.0.9a0-py3-none-any.whl.zip]
+[2024-04-10 03:50:55] INFO root fetch - processPackages [pyfilebrowser]: Remove: archive file [/home/abi/fetcher/tmp/pyfilebrowser-0.0.9b0-py3-none-any.whl.zip]
+[2024-04-10 03:50:55] INFO root fetch - main [MainThread]: End processing [pyfilebrowser]: success
+[2024-04-10 03:50:55] INFO root fetch - processPackages [pih-mio]: Downloading https://files.pythonhosted.org/packages/e7/bf/72ef525c5922fae797c7431ea1d5f1c23230905210fc8f0bf8f804acf924/pih-mio-0.26.tar.gz
+[2024-04-10 03:50:55] INFO root fetch - processPackages [datascope-experiments]: Remove: archive file [/home/abi/fetcher/tmp/datascope-experiments-0.0.8.tar.gz]
+[2024-04-10 03:50:55] INFO root fetch - processPackages [datascope-experiments]: Remove: archive file [/home/abi/fetcher/tmp/datascope-experiments-0.0.9.tar.gz]
+[2024-04-10 03:50:55] INFO root fetch - main [MainThread]: End processing [datascope-experiments]: success
+[2024-04-10 03:50:55] INFO root fetch - processPackages [pih-mio]: executing diffoscope
+[2024-04-10 03:50:55] INFO root fetch - processPackages [pih-mio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-mio-0.25.tar.gz tmp/pih-mio-0.26.tar.gz --markdown 20240410/p/pih-mio/0.25-0.26/README.md --exclude *.pyd
+[2024-04-10 03:50:56] INFO root fetch - processPackages [pih-mio]: Remove: archive file [/home/abi/fetcher/tmp/pih-mio-0.25.tar.gz]
+[2024-04-10 03:50:56] INFO root fetch - processPackages [pih-mio]: Remove: archive file [/home/abi/fetcher/tmp/pih-mio-0.26.tar.gz]
+[2024-04-10 03:50:56] INFO root fetch - main [MainThread]: End processing [pih-mio]: success
+[2024-04-10 03:50:56] INFO root fetch - processPackages [nuon]: Remove: archive file [/home/abi/fetcher/tmp/nuon-0.19.93.tar.gz]
+[2024-04-10 03:50:56] INFO root fetch - processPackages [nuon]: Remove: archive file [/home/abi/fetcher/tmp/nuon-0.19.94.tar.gz]
+[2024-04-10 03:50:56] INFO root fetch - main [MainThread]: End processing [nuon]: success
+[2024-04-10 03:50:56] INFO root fetch - main [MainThread]: Store serial: [22694303]

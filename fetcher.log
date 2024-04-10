@@ -17076,3 +17076,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 10:20:19] INFO root fetch - processPackages [sirmordred]: Remove: archive file [/home/abi/fetcher/tmp/sirmordred-1.0.0rc1.tar.gz]
 [2024-04-10 10:20:19] INFO root fetch - main [MainThread]: End processing [sirmordred]: success
 [2024-04-10 10:20:19] INFO root fetch - main [MainThread]: Store serial: [22697596]
+[2024-04-10 10:22:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22697596]
+[2024-04-10 10:22:29] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-10 10:22:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CTK-Desert
+[2024-04-10 10:22:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: clean-html-for-llm
+[2024-04-10 10:22:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: testsolar-testtool-sdk
+[2024-04-10 10:22:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TineAutomationToolkit
+[2024-04-10 10:22:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lusid-drive-sdk
+[2024-04-10 10:22:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bdffont
+[2024-04-10 10:22:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: myRIO-library
+[2024-04-10 10:22:29] INFO root fetch - processPackages [testsolar-testtool-sdk]: New version: [0.1.4] Old Version: [0.1.2]
+[2024-04-10 10:22:29] INFO root fetch - processPackages [CTK-Desert]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-10 10:22:29] INFO root fetch - processPackages [clean-html-for-llm]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-10 10:22:29] INFO root fetch - processPackages [lusid-drive-sdk]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-10 10:22:30] INFO root fetch - processPackages [testsolar-testtool-sdk]: Downloading https://files.pythonhosted.org/packages/e1/17/0cbf5e2bfbe9f40d7dcd6fbe90ec9f30908ca709afacc9060097cd9b4fcb/testsolar-testtool-sdk-0.1.2.tar.gz
+[2024-04-10 10:22:30] INFO root fetch - processPackages [CTK-Desert]: Downloading https://files.pythonhosted.org/packages/9a/73/c7239044a3b6edf571c3f5feded6aab241cff792f7acd98dd42652e44c95/CTK_Desert-0.0.8.tar.gz
+[2024-04-10 10:22:30] INFO root fetch - processPackages [TineAutomationToolkit]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-10 10:22:30] INFO root fetch - processPackages [bdffont]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-10 10:22:30] INFO root fetch - processPackages [myRIO-library]: New version: [1.2.1] Old Version: [1.1.2]
+[2024-04-10 10:22:30] INFO root fetch - processPackages [clean-html-for-llm]: Downloading https://files.pythonhosted.org/packages/c8/69/43b9702fb23867b7fbfbb9073248b0cc22a094cef3c8a97ba646905e3e3c/clean_html_for_llm-1.1.0.tar.gz
+[2024-04-10 10:22:30] INFO root fetch - processPackages [bdffont]: Downloading https://files.pythonhosted.org/packages/9f/78/c824af9f0c4c22da3a7b211d6acf4fcf5cc3738dae57d6eb3d860af0f5e6/bdffont-0.0.8.tar.gz
+[2024-04-10 10:22:30] INFO root fetch - processPackages [TineAutomationToolkit]: Downloading https://files.pythonhosted.org/packages/3e/33/77cdd3599585da47e4e493539b7ed6c05a6713d151410c672cae6e2d5f5b/TineAutomationToolkit-1.0.0.tar.gz
+[2024-04-10 10:22:30] INFO root fetch - processPackages [myRIO-library]: Downloading https://files.pythonhosted.org/packages/23/81/a1a9595379fd04f4345ff453f86c66b9efebf36bbd476856e259de860cf5/myRIO_library-1.1.2.tar.gz
+[2024-04-10 10:22:30] INFO root fetch - processPackages [lusid-drive-sdk]: Downloading https://files.pythonhosted.org/packages/f4/a1/95ed20171b4553290b9cc6ac102b80e8dcbb6bbc79624e6c14d4e1b07f0a/lusid_drive_sdk-2.0.8.tar.gz
+[2024-04-10 10:22:30] INFO root fetch - processPackages [testsolar-testtool-sdk]: Downloading https://files.pythonhosted.org/packages/17/a9/1c42b7117ff35b98358888d729f9a3289025c1f19896b3120f8f265c672a/testsolar-testtool-sdk-0.1.4.tar.gz
+[2024-04-10 10:22:30] INFO root fetch - processPackages [testsolar-testtool-sdk]: executing diffoscope
+[2024-04-10 10:22:30] INFO root fetch - processPackages [testsolar-testtool-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testsolar-testtool-sdk-0.1.2.tar.gz tmp/testsolar-testtool-sdk-0.1.4.tar.gz --markdown 20240410/t/testsolar-testtool-sdk/0.1.2-0.1.4/README.md --exclude *.pyd
+[2024-04-10 10:22:30] INFO root fetch - processPackages [CTK-Desert]: Downloading https://files.pythonhosted.org/packages/6d/b4/d3af97e7bf9ae492dceb1aad8191e260b603096af0a9755ffd707156f69f/CTK_Desert-0.0.9.tar.gz
+[2024-04-10 10:22:30] INFO root fetch - processPackages [lusid-drive-sdk]: Downloading https://files.pythonhosted.org/packages/7d/67/970d29fd9f0d3a1595e563d2cbb924002e97a117252a8523efd70efd0380/lusid_drive_sdk-2.0.9.tar.gz
+[2024-04-10 10:22:30] INFO root fetch - processPackages [TineAutomationToolkit]: Downloading https://files.pythonhosted.org/packages/d3/64/b674091b2a5207b76e9feb56f5a2f1161dff02eb213bce8303f81e4df841/TineAutomationToolkit-1.0.1.tar.gz
+[2024-04-10 10:22:30] INFO root fetch - processPackages [bdffont]: Downloading https://files.pythonhosted.org/packages/cb/1d/a43b84db5c4d3d9bdecfbaa4cbf25995eedcd5543266587876372fb4e338/bdffont-0.0.9.tar.gz
+[2024-04-10 10:22:30] INFO root fetch - processPackages [lusid-drive-sdk]: executing diffoscope
+[2024-04-10 10:22:30] INFO root fetch - processPackages [lusid-drive-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_drive_sdk-2.0.8.tar.gz tmp/lusid_drive_sdk-2.0.9.tar.gz --markdown 20240410/l/lusid-drive-sdk/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-04-10 10:22:30] INFO root fetch - processPackages [CTK-Desert]: executing diffoscope
+[2024-04-10 10:22:30] INFO root fetch - processPackages [CTK-Desert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CTK_Desert-0.0.8.tar.gz tmp/CTK_Desert-0.0.9.tar.gz --markdown 20240410/C/CTK-Desert/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-10 10:22:30] INFO root fetch - processPackages [clean-html-for-llm]: Downloading https://files.pythonhosted.org/packages/d7/f8/1304a1f31f570ca6b1bb8c90fb6c964fa8e0eaca26b7a09499b4043ffb09/clean_html_for_llm-1.2.0.tar.gz
+[2024-04-10 10:22:30] INFO root fetch - processPackages [myRIO-library]: Downloading https://files.pythonhosted.org/packages/6a/f8/bb5823d469ab2f363f58280bfe72685b85fbc2acc0fd42604e34e1c9253b/myRIO_library-1.2.1.tar.gz
+[2024-04-10 10:22:30] INFO root fetch - processPackages [TineAutomationToolkit]: executing diffoscope
+[2024-04-10 10:22:30] INFO root fetch - processPackages [TineAutomationToolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TineAutomationToolkit-1.0.0.tar.gz tmp/TineAutomationToolkit-1.0.1.tar.gz --markdown 20240410/T/TineAutomationToolkit/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-10 10:22:30] INFO root fetch - processPackages [clean-html-for-llm]: executing diffoscope
+[2024-04-10 10:22:30] INFO root fetch - processPackages [clean-html-for-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clean_html_for_llm-1.1.0.tar.gz tmp/clean_html_for_llm-1.2.0.tar.gz --markdown 20240410/c/clean-html-for-llm/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-04-10 10:22:31] INFO root fetch - processPackages [bdffont]: executing diffoscope
+[2024-04-10 10:22:31] INFO root fetch - processPackages [bdffont]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bdffont-0.0.8.tar.gz tmp/bdffont-0.0.9.tar.gz --markdown 20240410/b/bdffont/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-10 10:22:31] INFO root fetch - processPackages [testsolar-testtool-sdk]: Remove: archive file [/home/abi/fetcher/tmp/testsolar-testtool-sdk-0.1.2.tar.gz]
+[2024-04-10 10:22:31] INFO root fetch - processPackages [testsolar-testtool-sdk]: Remove: archive file [/home/abi/fetcher/tmp/testsolar-testtool-sdk-0.1.4.tar.gz]
+[2024-04-10 10:22:31] INFO root fetch - main [MainThread]: End processing [testsolar-testtool-sdk]: success
+[2024-04-10 10:22:31] INFO root fetch - processPackages [TineAutomationToolkit]: Remove: archive file [/home/abi/fetcher/tmp/TineAutomationToolkit-1.0.0.tar.gz]
+[2024-04-10 10:22:31] INFO root fetch - processPackages [TineAutomationToolkit]: Remove: archive file [/home/abi/fetcher/tmp/TineAutomationToolkit-1.0.1.tar.gz]
+[2024-04-10 10:22:31] INFO root fetch - main [MainThread]: End processing [TineAutomationToolkit]: success
+[2024-04-10 10:22:31] INFO root fetch - processPackages [lusid-drive-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_drive_sdk-2.0.8.tar.gz]
+[2024-04-10 10:22:31] INFO root fetch - processPackages [lusid-drive-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_drive_sdk-2.0.9.tar.gz]
+[2024-04-10 10:22:31] INFO root fetch - main [MainThread]: End processing [lusid-drive-sdk]: success
+[2024-04-10 10:22:31] INFO root fetch - processPackages [myRIO-library]: executing diffoscope
+[2024-04-10 10:22:31] INFO root fetch - processPackages [myRIO-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myRIO_library-1.1.2.tar.gz tmp/myRIO_library-1.2.1.tar.gz --markdown 20240410/m/myRIO-library/1.1.2-1.2.1/README.md --exclude *.pyd
+[2024-04-10 10:22:31] INFO root fetch - processPackages [CTK-Desert]: Remove: archive file [/home/abi/fetcher/tmp/CTK_Desert-0.0.8.tar.gz]
+[2024-04-10 10:22:31] INFO root fetch - processPackages [CTK-Desert]: Remove: archive file [/home/abi/fetcher/tmp/CTK_Desert-0.0.9.tar.gz]
+[2024-04-10 10:22:31] INFO root fetch - main [MainThread]: End processing [CTK-Desert]: success
+[2024-04-10 10:22:31] INFO root fetch - processPackages [clean-html-for-llm]: Remove: archive file [/home/abi/fetcher/tmp/clean_html_for_llm-1.1.0.tar.gz]
+[2024-04-10 10:22:31] INFO root fetch - processPackages [clean-html-for-llm]: Remove: archive file [/home/abi/fetcher/tmp/clean_html_for_llm-1.2.0.tar.gz]
+[2024-04-10 10:22:31] INFO root fetch - main [MainThread]: End processing [clean-html-for-llm]: success
+[2024-04-10 10:22:31] INFO root fetch - processPackages [bdffont]: Remove: archive file [/home/abi/fetcher/tmp/bdffont-0.0.8.tar.gz]
+[2024-04-10 10:22:31] INFO root fetch - processPackages [bdffont]: Remove: archive file [/home/abi/fetcher/tmp/bdffont-0.0.9.tar.gz]
+[2024-04-10 10:22:31] INFO root fetch - main [MainThread]: End processing [bdffont]: success
+[2024-04-10 10:22:33] INFO root fetch - processPackages [myRIO-library]: Remove: archive file [/home/abi/fetcher/tmp/myRIO_library-1.1.2.tar.gz]
+[2024-04-10 10:22:33] INFO root fetch - processPackages [myRIO-library]: Remove: archive file [/home/abi/fetcher/tmp/myRIO_library-1.2.1.tar.gz]
+[2024-04-10 10:22:33] INFO root fetch - main [MainThread]: End processing [myRIO-library]: success
+[2024-04-10 10:22:33] INFO root fetch - main [MainThread]: Store serial: [22697617]

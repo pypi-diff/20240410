@@ -14132,3 +14132,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 08:23:01] INFO root fetch - processPackages [pyfemtet]: Remove: archive file [/home/abi/fetcher/tmp/pyfemtet-0.4.1.tar.gz]
 [2024-04-10 08:23:01] INFO root fetch - main [MainThread]: End processing [pyfemtet]: success
 [2024-04-10 08:23:01] INFO root fetch - main [MainThread]: Store serial: [22696447]
+[2024-04-10 08:25:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22696447]
+[2024-04-10 08:25:10] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-10 08:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: resamp
+[2024-04-10 08:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-mailgun
+[2024-04-10 08:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: r2r
+[2024-04-10 08:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cloud-governance
+[2024-04-10 08:25:10] INFO root fetch - processPackages [r2r]: New version: [0.1.33] Old Version: [0.1.32]
+[2024-04-10 08:25:10] INFO root fetch - processPackages [resamp]: New version: [1.6.7.1] Old Version: [1.6.7]
+[2024-04-10 08:25:10] INFO root fetch - processPackages [cloud-governance]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-04-10 08:25:10] INFO root fetch - processPackages [r2r]: Downloading https://files.pythonhosted.org/packages/7d/bf/65bd4c5f4cdb5e07535d73e64ef23b9e44ea2d1b00706d4a4f94d2ed38d0/r2r-0.1.32.tar.gz
+[2024-04-10 08:25:10] INFO root fetch - processPackages [resamp]: Downloading https://files.pythonhosted.org/packages/35/77/7aa32fad3bab3a6f1bd39f6b21cc3f56cffdbbdd72cff9ac2bd8835c8493/resamp-1.6.7.tar.gz
+[2024-04-10 08:25:10] INFO root fetch - processPackages [pulumi-mailgun]: New version: [3.6.0a1712728356] Old Version: [3.6.0a1712469107]
+[2024-04-10 08:25:10] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/af/f8/db9bacb41ff13a7d3ae59369ae36809c3202232c910b932a09e42257b676/cloud-governance-1.1.98.tar.gz
+[2024-04-10 08:25:10] INFO root fetch - processPackages [pulumi-mailgun]: Downloading https://files.pythonhosted.org/packages/5d/2e/216df59ab21cf7a5e5b6d709457858448552d6517448a405a0c1770e717d/pulumi_mailgun-3.6.0a1712469107.tar.gz
+[2024-04-10 08:25:10] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/ec/3e/06dc6e6844d3033717858064a494efaaf4cdae01a0c58d2b2a38273075e2/cloud-governance-1.1.99.tar.gz
+[2024-04-10 08:25:10] INFO root fetch - processPackages [resamp]: Downloading https://files.pythonhosted.org/packages/58/7a/1f71c9223d956ba3340bb3ac7f42e8f9c18bc2e68e2abdf9fb7603feb4ab/resamp-1.6.7.1.tar.gz
+[2024-04-10 08:25:10] INFO root fetch - processPackages [cloud-governance]: executing diffoscope
+[2024-04-10 08:25:10] INFO root fetch - processPackages [cloud-governance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-governance-1.1.98.tar.gz tmp/cloud-governance-1.1.99.tar.gz --markdown 20240410/c/cloud-governance/1.1.98-1.1.99/README.md --exclude *.pyd
+[2024-04-10 08:25:10] INFO root fetch - processPackages [r2r]: Downloading https://files.pythonhosted.org/packages/30/ef/48daffa3ee6b60ed440762a70a244d1494663f7b9e538e328846378d156c/r2r-0.1.33.tar.gz
+[2024-04-10 08:25:10] INFO root fetch - processPackages [resamp]: executing diffoscope
+[2024-04-10 08:25:10] INFO root fetch - processPackages [resamp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resamp-1.6.7.tar.gz tmp/resamp-1.6.7.1.tar.gz --markdown 20240410/r/resamp/1.6.7-1.6.7.1/README.md --exclude *.pyd
+[2024-04-10 08:25:10] INFO root fetch - processPackages [pulumi-mailgun]: Downloading https://files.pythonhosted.org/packages/11/76/9b65deb228e6354db03e9b5e8a9a027c0b4c96b11f1c6c378407a7b189ca/pulumi_mailgun-3.6.0a1712728356.tar.gz
+[2024-04-10 08:25:11] INFO root fetch - processPackages [pulumi-mailgun]: executing diffoscope
+[2024-04-10 08:25:11] INFO root fetch - processPackages [pulumi-mailgun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mailgun-3.6.0a1712469107.tar.gz tmp/pulumi_mailgun-3.6.0a1712728356.tar.gz --markdown 20240410/p/pulumi-mailgun/3.6.0a1712469107-3.6.0a1712728356/README.md --exclude *.pyd
+[2024-04-10 08:25:11] INFO root fetch - processPackages [r2r]: executing diffoscope
+[2024-04-10 08:25:11] INFO root fetch - processPackages [r2r]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/r2r-0.1.32.tar.gz tmp/r2r-0.1.33.tar.gz --markdown 20240410/r/r2r/0.1.32-0.1.33/README.md --exclude *.pyd
+[2024-04-10 08:25:11] INFO root fetch - processPackages [resamp]: Remove: archive file [/home/abi/fetcher/tmp/resamp-1.6.7.tar.gz]
+[2024-04-10 08:25:11] INFO root fetch - processPackages [resamp]: Remove: archive file [/home/abi/fetcher/tmp/resamp-1.6.7.1.tar.gz]
+[2024-04-10 08:25:11] INFO root fetch - main [MainThread]: End processing [resamp]: success
+[2024-04-10 08:25:11] INFO root fetch - processPackages [pulumi-mailgun]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mailgun-3.6.0a1712469107.tar.gz]
+[2024-04-10 08:25:11] INFO root fetch - processPackages [pulumi-mailgun]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mailgun-3.6.0a1712728356.tar.gz]
+[2024-04-10 08:25:11] INFO root fetch - main [MainThread]: End processing [pulumi-mailgun]: success
+[2024-04-10 08:25:12] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.98.tar.gz]
+[2024-04-10 08:25:12] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.99.tar.gz]
+[2024-04-10 08:25:12] INFO root fetch - main [MainThread]: End processing [cloud-governance]: success
+[2024-04-10 08:25:12] INFO root fetch - processPackages [r2r]: Remove: archive file [/home/abi/fetcher/tmp/r2r-0.1.32.tar.gz]
+[2024-04-10 08:25:12] INFO root fetch - processPackages [r2r]: Remove: archive file [/home/abi/fetcher/tmp/r2r-0.1.33.tar.gz]
+[2024-04-10 08:25:12] INFO root fetch - main [MainThread]: End processing [r2r]: success
+[2024-04-10 08:25:12] INFO root fetch - main [MainThread]: Store serial: [22696457]

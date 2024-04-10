@@ -9416,3 +9416,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 04:26:30] INFO root fetch - processPackages [dflow-galaxy]: Remove: archive file [/home/abi/fetcher/tmp/dflow_galaxy-0.1.5.post1.tar.gz]
 [2024-04-10 04:26:30] INFO root fetch - main [MainThread]: End processing [dflow-galaxy]: success
 [2024-04-10 04:26:30] INFO root fetch - main [MainThread]: Store serial: [22694635]
+[2024-04-10 04:28:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22694635]
+[2024-04-10 04:28:39] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-10 04:28:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: soundtools
+[2024-04-10 04:28:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: supamodel
+[2024-04-10 04:28:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lytekit
+[2024-04-10 04:28:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ros-cdk-assembly-schema
+[2024-04-10 04:28:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pih-rcgn
+[2024-04-10 04:28:39] INFO root fetch - processPackages [supamodel]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-10 04:28:39] INFO root fetch - processPackages [soundtools]: New version: [0.1.3.4] Old Version: [0.1.3.3]
+[2024-04-10 04:28:39] INFO root fetch - processPackages [lytekit]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-10 04:28:39] INFO root fetch - processPackages [supamodel]: Downloading https://files.pythonhosted.org/packages/b4/41/c1ac2d856f8b6b945802c9d05161a151a435652cad21ea6e6c278d0e3a13/supamodel-0.4.1.tar.gz
+[2024-04-10 04:28:39] INFO root fetch - processPackages [soundtools]: Downloading https://files.pythonhosted.org/packages/8d/c1/a65627867dd84718bcefb6cfca71d30ff62f52277dbc73bcac6daa8de6fe/soundtools-0.1.3.3.tar.gz
+[2024-04-10 04:28:39] INFO root fetch - processPackages [lytekit]: Downloading https://files.pythonhosted.org/packages/48/cd/6a788f7e7d3a2c6402e6960b97f9026ea7e521c6e6245a58cfb4fc6efb4f/lytekit-0.9.0.tar.gz
+[2024-04-10 04:28:39] INFO root fetch - processPackages [pih-rcgn]: New version: [0.14] Old Version: [0.13]
+[2024-04-10 04:28:39] INFO root fetch - processPackages [ros-cdk-assembly-schema]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-10 04:28:40] INFO root fetch - processPackages [soundtools]: Downloading https://files.pythonhosted.org/packages/be/0b/65794ea3c8858c0ef948679c0b2ff618439833e15b219f3398b9b88f2171/soundtools-0.1.3.4.tar.gz
+[2024-04-10 04:28:40] INFO root fetch - processPackages [pih-rcgn]: Downloading https://files.pythonhosted.org/packages/66/29/d07a1eb97cc2d14f16ad0e3b0141bcf92c11cfbbcbf029add68eba982cde/pih-rcgn-0.13.tar.gz
+[2024-04-10 04:28:40] INFO root fetch - processPackages [ros-cdk-assembly-schema]: Downloading https://files.pythonhosted.org/packages/69/c7/844c7616a479dbd33dba633da09bb99b6647c86e91d4ebf7a7bf8e50d64a/ros-cdk-assembly-schema-1.0.8.tar.gz
+[2024-04-10 04:28:40] INFO root fetch - processPackages [lytekit]: Downloading https://files.pythonhosted.org/packages/be/b6/90e266a6c058766bec4ce41653490f4b504a5be53aea11f1ff7873bb8d07/lytekit-0.9.1.tar.gz
+[2024-04-10 04:28:40] INFO root fetch - processPackages [supamodel]: Downloading https://files.pythonhosted.org/packages/d4/0f/0935d01c884c429f5fd09c64fc76e33515c35e80f010af8203019739f205/supamodel-0.4.2.tar.gz
+[2024-04-10 04:28:40] INFO root fetch - processPackages [soundtools]: executing diffoscope
+[2024-04-10 04:28:40] INFO root fetch - processPackages [soundtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soundtools-0.1.3.3.tar.gz tmp/soundtools-0.1.3.4.tar.gz --markdown 20240410/s/soundtools/0.1.3.3-0.1.3.4/README.md --exclude *.pyd
+[2024-04-10 04:28:40] INFO root fetch - processPackages [supamodel]: executing diffoscope
+[2024-04-10 04:28:40] INFO root fetch - processPackages [supamodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supamodel-0.4.1.tar.gz tmp/supamodel-0.4.2.tar.gz --markdown 20240410/s/supamodel/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-04-10 04:28:40] INFO root fetch - processPackages [lytekit]: executing diffoscope
+[2024-04-10 04:28:40] INFO root fetch - processPackages [lytekit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lytekit-0.9.0.tar.gz tmp/lytekit-0.9.1.tar.gz --markdown 20240410/l/lytekit/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-10 04:28:40] INFO root fetch - processPackages [pih-rcgn]: Downloading https://files.pythonhosted.org/packages/a8/f0/2da28e63ead1edc2ecd90ba11e7b127c5f0a525531451bb8806a7f18b791/pih-rcgn-0.14.tar.gz
+[2024-04-10 04:28:40] INFO root fetch - processPackages [ros-cdk-assembly-schema]: Downloading https://files.pythonhosted.org/packages/2b/83/1e959ec26eed4d2aa4034c97ab2977a82364f27f03651d9841a04d9defe4/ros-cdk-assembly-schema-1.0.9.tar.gz
+[2024-04-10 04:28:40] INFO root fetch - processPackages [pih-rcgn]: executing diffoscope
+[2024-04-10 04:28:40] INFO root fetch - processPackages [pih-rcgn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-rcgn-0.13.tar.gz tmp/pih-rcgn-0.14.tar.gz --markdown 20240410/p/pih-rcgn/0.13-0.14/README.md --exclude *.pyd
+[2024-04-10 04:28:40] INFO root fetch - processPackages [ros-cdk-assembly-schema]: executing diffoscope
+[2024-04-10 04:28:40] INFO root fetch - processPackages [ros-cdk-assembly-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-assembly-schema-1.0.8.tar.gz tmp/ros-cdk-assembly-schema-1.0.9.tar.gz --markdown 20240410/r/ros-cdk-assembly-schema/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-10 04:28:40] INFO root fetch - processPackages [soundtools]: Remove: archive file [/home/abi/fetcher/tmp/soundtools-0.1.3.3.tar.gz]
+[2024-04-10 04:28:40] INFO root fetch - processPackages [soundtools]: Remove: archive file [/home/abi/fetcher/tmp/soundtools-0.1.3.4.tar.gz]
+[2024-04-10 04:28:40] INFO root fetch - main [MainThread]: End processing [soundtools]: success
+[2024-04-10 04:28:40] INFO root fetch - processPackages [supamodel]: Remove: archive file [/home/abi/fetcher/tmp/supamodel-0.4.1.tar.gz]
+[2024-04-10 04:28:40] INFO root fetch - processPackages [supamodel]: Remove: archive file [/home/abi/fetcher/tmp/supamodel-0.4.2.tar.gz]
+[2024-04-10 04:28:40] INFO root fetch - main [MainThread]: End processing [supamodel]: success
+[2024-04-10 04:28:41] INFO root fetch - processPackages [pih-rcgn]: Remove: archive file [/home/abi/fetcher/tmp/pih-rcgn-0.13.tar.gz]
+[2024-04-10 04:28:41] INFO root fetch - processPackages [pih-rcgn]: Remove: archive file [/home/abi/fetcher/tmp/pih-rcgn-0.14.tar.gz]
+[2024-04-10 04:28:41] INFO root fetch - main [MainThread]: End processing [pih-rcgn]: success
+[2024-04-10 04:28:41] INFO root fetch - processPackages [ros-cdk-assembly-schema]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-assembly-schema-1.0.8.tar.gz]
+[2024-04-10 04:28:41] INFO root fetch - processPackages [ros-cdk-assembly-schema]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-assembly-schema-1.0.9.tar.gz]
+[2024-04-10 04:28:41] INFO root fetch - main [MainThread]: End processing [ros-cdk-assembly-schema]: success
+[2024-04-10 04:28:41] INFO root fetch - processPackages [lytekit]: Remove: archive file [/home/abi/fetcher/tmp/lytekit-0.9.0.tar.gz]
+[2024-04-10 04:28:41] INFO root fetch - processPackages [lytekit]: Remove: archive file [/home/abi/fetcher/tmp/lytekit-0.9.1.tar.gz]
+[2024-04-10 04:28:41] INFO root fetch - main [MainThread]: End processing [lytekit]: success
+[2024-04-10 04:28:41] INFO root fetch - main [MainThread]: Store serial: [22694649]

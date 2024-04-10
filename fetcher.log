@@ -15920,3 +15920,72 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 09:35:34] INFO root fetch - processPackages [chetoolbox]: Remove: archive file [/home/abi/fetcher/tmp/chetoolbox-0.0.9.tar.gz]
 [2024-04-10 09:35:34] INFO root fetch - main [MainThread]: End processing [chetoolbox]: success
 [2024-04-10 09:35:34] INFO root fetch - main [MainThread]: Store serial: [22697077]
+[2024-04-10 09:37:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22697077]
+[2024-04-10 09:37:43] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-10 09:37:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pharindoko.cdk-internal-gateway
+[2024-04-10 09:37:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llmuses
+[2024-04-10 09:37:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mazegroup
+[2024-04-10 09:37:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-oci
+[2024-04-10 09:37:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pg-logidater
+[2024-04-10 09:37:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pluginTest
+[2024-04-10 09:37:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: characterai
+[2024-04-10 09:37:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: special-character-converter
+[2024-04-10 09:37:43] INFO root fetch - processPackages [llmuses]: New version: [0.2.7rc7] Old Version: [0.2.7rc5]
+[2024-04-10 09:37:43] INFO root fetch - processPackages [mazegroup]: New version: [0.1.2.1] Old Version: [0.1.2]
+[2024-04-10 09:37:43] INFO root fetch - processPackages [pg-logidater]: New version: [0.2.0] Old Version: [0.1.0b0]
+[2024-04-10 09:37:43] INFO root fetch - processPackages [llmuses]: Downloading https://files.pythonhosted.org/packages/13/5d/4280bfbf33ff37ae2f7c2241b50004297bf6d1467b549fbc30197f5b7809/llmuses-0.2.7rc5.tar.gz
+[2024-04-10 09:37:43] INFO root fetch - processPackages [mazegroup]: Downloading https://files.pythonhosted.org/packages/0d/3c/9616f39472fcdbadf2657e80117d3deb82eca492e9009ab15cf2dbc66368/mazegroup-0.1.2.tar.gz
+[2024-04-10 09:37:43] INFO root fetch - processPackages [pg-logidater]: Downloading https://files.pythonhosted.org/packages/96/a7/7dc4106c5a2c651e23d9689351586adf1debcacc565a6d0beb7e95a2377b/pg_logidater-0.1.0b0.tar.gz
+[2024-04-10 09:37:43] INFO root fetch - processPackages [pluginTest]: New version: [0.2.1] Old Version: [0.1]
+[2024-04-10 09:37:43] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-04-10 09:37:43] INFO root fetch - processPackages [characterai]: New version: [1.0.0a1] Old Version: [0.8.0]
+[2024-04-10 09:37:43] WARNING root fetch - processPackages [special-character-converter]: Skipping, unable to determine old version
+[2024-04-10 09:37:43] INFO root fetch - main [MainThread]: End processing [special-character-converter] error
+[2024-04-10 09:37:43] INFO root fetch - processPackages [pulumi-oci]: New version: [1.9.0a1693981063] Old Version: [1.9.0a1693634572]
+[2024-04-10 09:37:43] INFO root fetch - processPackages [pluginTest]: Downloading https://files.pythonhosted.org/packages/54/1f/c4f121a56e1227c4470d147cd610069850ec1ad07c499352725e91548f38/pluginTest-0.1.tar.gz
+[2024-04-10 09:37:43] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: Downloading https://files.pythonhosted.org/packages/b4/c4/6b46967dcaa783d76e3d1d4e1a507138bbc525afce0dd76601ef830678d7/pharindoko.cdk-internal-gateway-1.4.8.tar.gz
+[2024-04-10 09:37:43] INFO root fetch - processPackages [pg-logidater]: Downloading https://files.pythonhosted.org/packages/2a/eb/2b99b35e7b4e976dde0037e71f560954a3611cd230267e4deb99a18ecf32/pg_logidater-0.2.0.tar.gz
+[2024-04-10 09:37:43] INFO root fetch - processPackages [pulumi-oci]: Downloading https://files.pythonhosted.org/packages/02/f8/59b31ede3416e4e37062af605ed2293a67d7cfe3eec867258c58481c638d/pulumi_oci-1.9.0a1693634572.tar.gz
+[2024-04-10 09:37:43] INFO root fetch - processPackages [llmuses]: Downloading https://files.pythonhosted.org/packages/38/02/53aaa28c4b1eabb27aff98bf38add5daeb38c8d8ffe59785ab3feee2cb34/llmuses-0.2.7rc7.tar.gz
+[2024-04-10 09:37:44] INFO root fetch - processPackages [characterai]: Downloading https://files.pythonhosted.org/packages/8d/3c/daf01659ba68f7089e5f3e48f34b85e4be7bf330889c3ed56523af2dd59f/characterai-0.8.0.tar.gz
+[2024-04-10 09:37:44] INFO root fetch - processPackages [mazegroup]: Downloading https://files.pythonhosted.org/packages/2d/45/d69be717708d3d4ab7597f9adbcfee9727c5b4db6fa15cbe0e3855ecf3e4/mazegroup-0.1.2.1.tar.gz
+[2024-04-10 09:37:44] INFO root fetch - processPackages [pg-logidater]: executing diffoscope
+[2024-04-10 09:37:44] INFO root fetch - processPackages [pg-logidater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pg_logidater-0.1.0b0.tar.gz tmp/pg_logidater-0.2.0.tar.gz --markdown 20240410/p/pg-logidater/0.1.0b0-0.2.0/README.md --exclude *.pyd
+[2024-04-10 09:37:44] INFO root fetch - processPackages [llmuses]: executing diffoscope
+[2024-04-10 09:37:44] INFO root fetch - processPackages [llmuses]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmuses-0.2.7rc5.tar.gz tmp/llmuses-0.2.7rc7.tar.gz --markdown 20240410/l/llmuses/0.2.7rc5-0.2.7rc7/README.md --exclude *.pyd
+[2024-04-10 09:37:44] INFO root fetch - processPackages [mazegroup]: executing diffoscope
+[2024-04-10 09:37:44] INFO root fetch - processPackages [mazegroup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mazegroup-0.1.2.tar.gz tmp/mazegroup-0.1.2.1.tar.gz --markdown 20240410/m/mazegroup/0.1.2-0.1.2.1/README.md --exclude *.pyd
+[2024-04-10 09:37:44] INFO root fetch - processPackages [pluginTest]: Downloading https://files.pythonhosted.org/packages/d3/fa/3dd1adcfc148a688d95ab473fb5991edbba8ada697be13d4f8a6d6c9cb9a/pluginTest-0.2.1.tar.gz
+[2024-04-10 09:37:44] INFO root fetch - processPackages [characterai]: Downloading https://files.pythonhosted.org/packages/e2/cc/1292e4ac4920396da8c3b93947b5570af5412b849d8c37e97486557bfa8f/characterai-1.0.0a1.tar.gz
+[2024-04-10 09:37:44] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: Downloading https://files.pythonhosted.org/packages/8a/07/ef2b32da8b00fe395932d288b252a3324e6ccaecf8cb56985433d2fda12e/pharindoko.cdk-internal-gateway-1.4.9.tar.gz
+[2024-04-10 09:37:44] INFO root fetch - processPackages [pluginTest]: executing diffoscope
+[2024-04-10 09:37:44] INFO root fetch - processPackages [pluginTest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pluginTest-0.1.tar.gz tmp/pluginTest-0.2.1.tar.gz --markdown 20240410/p/pluginTest/0.1-0.2.1/README.md --exclude *.pyd
+[2024-04-10 09:37:44] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: executing diffoscope
+[2024-04-10 09:37:44] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pharindoko.cdk-internal-gateway-1.4.8.tar.gz tmp/pharindoko.cdk-internal-gateway-1.4.9.tar.gz --markdown 20240410/p/pharindoko.cdk-internal-gateway/1.4.8-1.4.9/README.md --exclude *.pyd
+[2024-04-10 09:37:44] INFO root fetch - processPackages [characterai]: executing diffoscope
+[2024-04-10 09:37:44] INFO root fetch - processPackages [characterai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/characterai-0.8.0.tar.gz tmp/characterai-1.0.0a1.tar.gz --markdown 20240410/c/characterai/0.8.0-1.0.0a1/README.md --exclude *.pyd
+[2024-04-10 09:37:44] INFO root fetch - processPackages [pulumi-oci]: Downloading https://files.pythonhosted.org/packages/77/93/cd3384a9ca236f6aa79a6f6fa7c94647e0588bdaf8a86d173cca47e31e21/pulumi_oci-1.9.0a1693981063.tar.gz
+[2024-04-10 09:37:45] INFO root fetch - processPackages [mazegroup]: Remove: archive file [/home/abi/fetcher/tmp/mazegroup-0.1.2.tar.gz]
+[2024-04-10 09:37:45] INFO root fetch - processPackages [mazegroup]: Remove: archive file [/home/abi/fetcher/tmp/mazegroup-0.1.2.1.tar.gz]
+[2024-04-10 09:37:45] INFO root fetch - main [MainThread]: End processing [mazegroup]: success
+[2024-04-10 09:37:45] INFO root fetch - processPackages [pg-logidater]: Remove: archive file [/home/abi/fetcher/tmp/pg_logidater-0.1.0b0.tar.gz]
+[2024-04-10 09:37:45] INFO root fetch - processPackages [pg-logidater]: Remove: archive file [/home/abi/fetcher/tmp/pg_logidater-0.2.0.tar.gz]
+[2024-04-10 09:37:45] INFO root fetch - main [MainThread]: End processing [pg-logidater]: success
+[2024-04-10 09:37:45] INFO root fetch - processPackages [pluginTest]: Remove: archive file [/home/abi/fetcher/tmp/pluginTest-0.1.tar.gz]
+[2024-04-10 09:37:45] INFO root fetch - processPackages [pluginTest]: Remove: archive file [/home/abi/fetcher/tmp/pluginTest-0.2.1.tar.gz]
+[2024-04-10 09:37:45] INFO root fetch - main [MainThread]: End processing [pluginTest]: success
+[2024-04-10 09:37:45] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: Remove: archive file [/home/abi/fetcher/tmp/pharindoko.cdk-internal-gateway-1.4.8.tar.gz]
+[2024-04-10 09:37:45] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: Remove: archive file [/home/abi/fetcher/tmp/pharindoko.cdk-internal-gateway-1.4.9.tar.gz]
+[2024-04-10 09:37:45] INFO root fetch - main [MainThread]: End processing [pharindoko.cdk-internal-gateway]: success
+[2024-04-10 09:37:45] INFO root fetch - processPackages [characterai]: Remove: archive file [/home/abi/fetcher/tmp/characterai-0.8.0.tar.gz]
+[2024-04-10 09:37:45] INFO root fetch - processPackages [characterai]: Remove: archive file [/home/abi/fetcher/tmp/characterai-1.0.0a1.tar.gz]
+[2024-04-10 09:37:45] INFO root fetch - main [MainThread]: End processing [characterai]: success
+[2024-04-10 09:37:45] INFO root fetch - processPackages [pulumi-oci]: executing diffoscope
+[2024-04-10 09:37:45] INFO root fetch - processPackages [pulumi-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_oci-1.9.0a1693634572.tar.gz tmp/pulumi_oci-1.9.0a1693981063.tar.gz --markdown 20240410/p/pulumi-oci/1.9.0a1693634572-1.9.0a1693981063/README.md --exclude *.pyd
+[2024-04-10 09:37:45] INFO root fetch - processPackages [llmuses]: Remove: archive file [/home/abi/fetcher/tmp/llmuses-0.2.7rc5.tar.gz]
+[2024-04-10 09:37:45] INFO root fetch - processPackages [llmuses]: Remove: archive file [/home/abi/fetcher/tmp/llmuses-0.2.7rc7.tar.gz]
+[2024-04-10 09:37:45] INFO root fetch - main [MainThread]: End processing [llmuses]: success
+[2024-04-10 09:38:03] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-1.9.0a1693634572.tar.gz]
+[2024-04-10 09:38:03] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-1.9.0a1693981063.tar.gz]
+[2024-04-10 09:38:03] INFO root fetch - main [MainThread]: End processing [pulumi-oci]: success
+[2024-04-10 09:38:03] INFO root fetch - main [MainThread]: Store serial: [22697101]

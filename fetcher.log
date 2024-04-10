@@ -21239,3 +21239,123 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 13:04:30] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-59.9.1.tar.gz]
 [2024-04-10 13:04:30] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-04-10 13:04:30] INFO root fetch - main [MainThread]: Store serial: [22699532]
+[2024-04-10 13:06:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22699532]
+[2024-04-10 13:06:40] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-04-10 13:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: promptflow-tracing
+[2024-04-10 13:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: promptflow-core
+[2024-04-10 13:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: promptflow-devkit
+[2024-04-10 13:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pysquril
+[2024-04-10 13:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: promptflow-azure
+[2024-04-10 13:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Repo2Prompt
+[2024-04-10 13:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: promptflow
+[2024-04-10 13:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: djangoldp-event
+[2024-04-10 13:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: djangoldp-resource
+[2024-04-10 13:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kj20240410
+[2024-04-10 13:06:40] WARNING root fetch - processPackages [Repo2Prompt]: Skipping, unable to determine old version
+[2024-04-10 13:06:40] INFO root fetch - processPackages [Repo2Prompt]: Start processing: HSR
+[2024-04-10 13:06:40] INFO root fetch - main [MainThread]: End processing [Repo2Prompt] error
+[2024-04-10 13:06:40] INFO root fetch - processPackages [promptflow]: New version: [1.7.0] Old Version: [1.6.0]
+[2024-04-10 13:06:40] INFO root fetch - processPackages [HSR]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-10 13:06:40] INFO root fetch - processPackages [promptflow-core]: New version: [1.8.0] Old Version: [0.1.0b1]
+[2024-04-10 13:06:40] INFO root fetch - processPackages [pysquril]: New version: [0.6.2] Old Version: [0.6.0]
+[2024-04-10 13:06:40] INFO root fetch - processPackages [promptflow-tracing]: New version: [1.8.0] Old Version: [1.0.0]
+[2024-04-10 13:06:40] INFO root fetch - processPackages [djangoldp-event]: New version: [3.1.3] Old Version: [3.1.2]
+[2024-04-10 13:06:40] WARNING root fetch - processPackages [kj20240410]: Skipping, unable to determine old version
+[2024-04-10 13:06:40] INFO root fetch - processPackages [promptflow-devkit]: New version: [1.8.0] Old Version: [0.1.0b1]
+[2024-04-10 13:06:40] INFO root fetch - processPackages [kj20240410]: Start processing: digital-cortex
+[2024-04-10 13:06:40] INFO root fetch - main [MainThread]: End processing [kj20240410] error
+[2024-04-10 13:06:40] INFO root fetch - processPackages [djangoldp-resource]: New version: [3.1.3] Old Version: [3.1.2]
+[2024-04-10 13:06:40] INFO root fetch - processPackages [promptflow-azure]: New version: [1.8.0] Old Version: [0.1.0b1]
+[2024-04-10 13:06:40] INFO root fetch - processPackages [HSR]: Downloading https://files.pythonhosted.org/packages/e9/7a/8d520257c01825e8e1ba0f024da89342ea492ff70c729b07135569d44ccf/HSR-0.1.4.tar.gz
+[2024-04-10 13:06:40] INFO root fetch - processPackages [promptflow]: Downloading https://files.pythonhosted.org/packages/47/27/43156cda646f9473ad3e45d9ac249a4dbaa16ac4dac9c14dcde6f84d245b/promptflow-1.6.0-py3-none-any.whl
+[2024-04-10 13:06:40] INFO root fetch - processPackages [digital-cortex]: New version: [0.0.39] Old Version: [0.0.38]
+[2024-04-10 13:06:40] INFO root fetch - processPackages [promptflow-tracing]: Downloading https://files.pythonhosted.org/packages/36/f4/b9716661e4e8e60b54df54a496bd083f2464d83423b5db8d7e513fef7cad/promptflow_tracing-1.0.0-py3-none-any.whl
+[2024-04-10 13:06:40] INFO root fetch - processPackages [promptflow-core]: Downloading https://files.pythonhosted.org/packages/2a/96/25ddaf418965cbb221d65b1d711d4af5b5bc754593852f76210644f67173/promptflow_core-0.1.0b1-py3-none-any.whl
+[2024-04-10 13:06:40] INFO root fetch - processPackages [pysquril]: Downloading https://files.pythonhosted.org/packages/f4/02/e18c221606fd81e537e8a568376d44bff62e32d81d928d605ea58502a1ea/pysquril-0.6.0.tar.gz
+[2024-04-10 13:06:40] INFO root fetch - processPackages [djangoldp-event]: Downloading https://files.pythonhosted.org/packages/86/3a/b90a12a33caa652b3b3db07b9727f0b861a940892e50497a16769e803818/djangoldp_event-3.1.2.tar.gz
+[2024-04-10 13:06:40] INFO root fetch - processPackages [djangoldp-resource]: Downloading https://files.pythonhosted.org/packages/ca/b7/f4158501235b3d13e215041797d15d0f030e28692069fa32a338a48fe713/djangoldp_resource-3.1.2.tar.gz
+[2024-04-10 13:06:40] INFO root fetch - processPackages [promptflow-azure]: Downloading https://files.pythonhosted.org/packages/d6/e9/e6c056e2455da430fcb286e602af5cb5334c026dcbc95311501129f110cb/promptflow_azure-0.1.0b1-py3-none-any.whl
+[2024-04-10 13:06:40] INFO root fetch - processPackages [digital-cortex]: Downloading https://files.pythonhosted.org/packages/79/9b/e6df2881ab726b6f96c0d15e554c440baad888a0bb9f4bbf6b92abd51e46/digital_cortex-0.0.38.tar.gz
+[2024-04-10 13:06:40] INFO root fetch - processPackages [promptflow-devkit]: Downloading https://files.pythonhosted.org/packages/82/68/13b87fbb2d4f9656e89ee218cb4094d6fe19345f834c857dd1cac3654163/promptflow_devkit-0.1.0b1-py3-none-any.whl
+[2024-04-10 13:06:40] INFO root fetch - processPackages [HSR]: Downloading https://files.pythonhosted.org/packages/7f/ab/bfc8cb5e5290d5556d6162087d788994479bc2ccdc8b56b67e457cc5f6cd/HSR-0.1.5.tar.gz
+[2024-04-10 13:06:41] INFO root fetch - processPackages [digital-cortex]: Downloading https://files.pythonhosted.org/packages/89/39/90c92276d2f8ddeab43a7e03940022c3b234efb5c68f3701710bf7fed91f/digital_cortex-0.0.39.tar.gz
+[2024-04-10 13:06:41] INFO root fetch - processPackages [HSR]: executing diffoscope
+[2024-04-10 13:06:41] INFO root fetch - processPackages [HSR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HSR-0.1.4.tar.gz tmp/HSR-0.1.5.tar.gz --markdown 20240410/H/HSR/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-10 13:06:41] INFO root fetch - processPackages [promptflow-tracing]: Downloading https://files.pythonhosted.org/packages/49/14/dbc959af05f0dfaebeb90ad196ce4d9f95f03555385ad4f68e402357d929/promptflow_tracing-1.8.0-py3-none-any.whl
+[2024-04-10 13:06:41] INFO root fetch - processPackages [pysquril]: Downloading https://files.pythonhosted.org/packages/09/3d/db7604aebeccd7c6c2a3546518f551114a3afff467921cb62567c5556537/pysquril-0.6.2.tar.gz
+[2024-04-10 13:06:41] INFO root fetch - processPackages [digital-cortex]: executing diffoscope
+[2024-04-10 13:06:41] INFO root fetch - processPackages [digital-cortex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digital_cortex-0.0.38.tar.gz tmp/digital_cortex-0.0.39.tar.gz --markdown 20240410/d/digital-cortex/0.0.38-0.0.39/README.md --exclude *.pyd
+[2024-04-10 13:06:41] INFO root fetch - processPackages [promptflow-core]: Downloading https://files.pythonhosted.org/packages/25/4d/3b703134fd3c50f59bb1c3fea4210db6b74f9f4694cd97b5bbfc941ffa83/promptflow_core-1.8.0-py3-none-any.whl
+[2024-04-10 13:06:41] INFO root fetch - processPackages [promptflow]: Downloading https://files.pythonhosted.org/packages/45/37/694523b9bcd84ffc756f7f25bf2437950156860ec2e5b663a7fabf975bfa/promptflow-1.7.0-py3-none-any.whl
+[2024-04-10 13:06:41] INFO root fetch - processPackages [promptflow-tracing]: executing diffoscope
+[2024-04-10 13:06:41] INFO root fetch - processPackages [promptflow-tracing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptflow_tracing-1.0.0-py3-none-any.whl.zip tmp/promptflow_tracing-1.8.0-py3-none-any.whl.zip --markdown 20240410/p/promptflow-tracing/1.0.0-1.8.0/README.md --exclude *.pyd
+[2024-04-10 13:06:41] INFO root fetch - processPackages [djangoldp-resource]: Downloading https://files.pythonhosted.org/packages/e2/cc/c888637404f6af69bfad15c85b75095fa4ecd47f123ab8a65a7dcc9c8ac2/djangoldp_resource-3.1.3.tar.gz
+[2024-04-10 13:06:41] INFO root fetch - processPackages [pysquril]: executing diffoscope
+[2024-04-10 13:06:41] INFO root fetch - processPackages [pysquril]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysquril-0.6.0.tar.gz tmp/pysquril-0.6.2.tar.gz --markdown 20240410/p/pysquril/0.6.0-0.6.2/README.md --exclude *.pyd
+[2024-04-10 13:06:41] INFO root fetch - processPackages [djangoldp-event]: Downloading https://files.pythonhosted.org/packages/94/11/92a5f1896e3b9e454647c464390adb910b0c986f1ba361bc2f2eea841212/djangoldp_event-3.1.3.tar.gz
+[2024-04-10 13:06:41] INFO root fetch - processPackages [promptflow-azure]: Downloading https://files.pythonhosted.org/packages/36/ea/080a767769525e5743710e7a54e425b2aae998dc9e2f711689a2efc5e291/promptflow_azure-1.8.0-py3-none-any.whl
+[2024-04-10 13:06:41] INFO root fetch - processPackages [djangoldp-resource]: executing diffoscope
+[2024-04-10 13:06:41] INFO root fetch - processPackages [djangoldp-resource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_resource-3.1.2.tar.gz tmp/djangoldp_resource-3.1.3.tar.gz --markdown 20240410/d/djangoldp-resource/3.1.2-3.1.3/README.md --exclude *.pyd
+[2024-04-10 13:06:41] INFO root fetch - processPackages [djangoldp-event]: executing diffoscope
+[2024-04-10 13:06:41] INFO root fetch - processPackages [djangoldp-event]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_event-3.1.2.tar.gz tmp/djangoldp_event-3.1.3.tar.gz --markdown 20240410/d/djangoldp-event/3.1.2-3.1.3/README.md --exclude *.pyd
+[2024-04-10 13:06:41] INFO root fetch - processPackages [promptflow-core]: executing diffoscope
+[2024-04-10 13:06:41] INFO root fetch - processPackages [promptflow-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptflow_core-0.1.0b1-py3-none-any.whl.zip tmp/promptflow_core-1.8.0-py3-none-any.whl.zip --markdown 20240410/p/promptflow-core/0.1.0b1-1.8.0/README.md --exclude *.pyd
+[2024-04-10 13:06:41] INFO root fetch - processPackages [promptflow-azure]: executing diffoscope
+[2024-04-10 13:06:41] INFO root fetch - processPackages [promptflow-azure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptflow_azure-0.1.0b1-py3-none-any.whl.zip tmp/promptflow_azure-1.8.0-py3-none-any.whl.zip --markdown 20240410/p/promptflow-azure/0.1.0b1-1.8.0/README.md --exclude *.pyd
+[2024-04-10 13:06:41] INFO root fetch - processPackages [promptflow-devkit]: Downloading https://files.pythonhosted.org/packages/a7/80/a42998ec0e0d7a76bcd3a43d1f267fad31864cde8300a116126c2d5669fb/promptflow_devkit-1.8.0-py3-none-any.whl
+[2024-04-10 13:06:41] INFO root fetch - processPackages [promptflow]: executing diffoscope
+[2024-04-10 13:06:41] INFO root fetch - processPackages [promptflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptflow-1.6.0-py3-none-any.whl.zip tmp/promptflow-1.7.0-py3-none-any.whl.zip --markdown 20240410/p/promptflow/1.6.0-1.7.0/README.md --exclude *.pyd
+[2024-04-10 13:06:41] INFO root fetch - processPackages [promptflow-devkit]: executing diffoscope
+[2024-04-10 13:06:41] INFO root fetch - processPackages [promptflow-devkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptflow_devkit-0.1.0b1-py3-none-any.whl.zip tmp/promptflow_devkit-1.8.0-py3-none-any.whl.zip --markdown 20240410/p/promptflow-devkit/0.1.0b1-1.8.0/README.md --exclude *.pyd
+[2024-04-10 13:06:41] INFO root fetch - processPackages [HSR]: Remove: archive file [/home/abi/fetcher/tmp/HSR-0.1.4.tar.gz]
+[2024-04-10 13:06:41] INFO root fetch - processPackages [HSR]: Remove: archive file [/home/abi/fetcher/tmp/HSR-0.1.5.tar.gz]
+[2024-04-10 13:06:41] INFO root fetch - processPackages [HSR]: Start processing: alchemite-apiclient
+[2024-04-10 13:06:41] INFO root fetch - main [MainThread]: End processing [HSR]: success
+[2024-04-10 13:06:42] INFO root fetch - processPackages [alchemite-apiclient]: New version: [0.73.0] Old Version: [0.72.0]
+[2024-04-10 13:06:42] INFO root fetch - processPackages [digital-cortex]: Remove: archive file [/home/abi/fetcher/tmp/digital_cortex-0.0.38.tar.gz]
+[2024-04-10 13:06:42] INFO root fetch - processPackages [digital-cortex]: Remove: archive file [/home/abi/fetcher/tmp/digital_cortex-0.0.39.tar.gz]
+[2024-04-10 13:06:42] INFO root fetch - processPackages [digital-cortex]: Start processing: socktalk
+[2024-04-10 13:06:42] INFO root fetch - main [MainThread]: End processing [digital-cortex]: success
+[2024-04-10 13:06:42] INFO root fetch - processPackages [socktalk]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-10 13:06:42] INFO root fetch - processPackages [pysquril]: Remove: archive file [/home/abi/fetcher/tmp/pysquril-0.6.0.tar.gz]
+[2024-04-10 13:06:42] INFO root fetch - processPackages [pysquril]: Remove: archive file [/home/abi/fetcher/tmp/pysquril-0.6.2.tar.gz]
+[2024-04-10 13:06:42] INFO root fetch - processPackages [pysquril]: Start processing: easyaddition-quicklyfix
+[2024-04-10 13:06:42] INFO root fetch - main [MainThread]: End processing [pysquril]: success
+[2024-04-10 13:06:42] WARNING root fetch - processPackages [easyaddition-quicklyfix]: Skipping, unable to determine old version
+[2024-04-10 13:06:42] INFO root fetch - main [MainThread]: End processing [easyaddition-quicklyfix] error
+[2024-04-10 13:06:42] INFO root fetch - processPackages [socktalk]: Downloading https://files.pythonhosted.org/packages/ce/47/1ce892258340de822a08184a89aed156d6461dcf789180de46f61fa28228/socktalk-0.1.1.tar.gz
+[2024-04-10 13:06:42] INFO root fetch - processPackages [alchemite-apiclient]: Downloading https://files.pythonhosted.org/packages/ed/6a/1998ca637b4b2614a2acba79cc4e061d3661455ae20306ad0df559ba01f2/alchemite_apiclient-0.72.0.tar.gz
+[2024-04-10 13:06:42] INFO root fetch - processPackages [promptflow-tracing]: Remove: archive file [/home/abi/fetcher/tmp/promptflow_tracing-1.0.0-py3-none-any.whl.zip]
+[2024-04-10 13:06:42] INFO root fetch - processPackages [promptflow-tracing]: Remove: archive file [/home/abi/fetcher/tmp/promptflow_tracing-1.8.0-py3-none-any.whl.zip]
+[2024-04-10 13:06:42] INFO root fetch - main [MainThread]: End processing [promptflow-tracing]: success
+[2024-04-10 13:06:42] INFO root fetch - processPackages [djangoldp-resource]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_resource-3.1.2.tar.gz]
+[2024-04-10 13:06:42] INFO root fetch - processPackages [djangoldp-resource]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_resource-3.1.3.tar.gz]
+[2024-04-10 13:06:42] INFO root fetch - main [MainThread]: End processing [djangoldp-resource]: success
+[2024-04-10 13:06:42] INFO root fetch - processPackages [djangoldp-event]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_event-3.1.2.tar.gz]
+[2024-04-10 13:06:42] INFO root fetch - processPackages [djangoldp-event]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_event-3.1.3.tar.gz]
+[2024-04-10 13:06:42] INFO root fetch - main [MainThread]: End processing [djangoldp-event]: success
+[2024-04-10 13:06:42] INFO root fetch - processPackages [socktalk]: Downloading https://files.pythonhosted.org/packages/88/18/c1d45ac374263de9fb1802b8cc251c73c0c8eebfdfb91356647fb984d485/socktalk-0.1.2.tar.gz
+[2024-04-10 13:06:42] INFO root fetch - processPackages [alchemite-apiclient]: Downloading https://files.pythonhosted.org/packages/c5/6e/6d19ce053a39c9959a652910115d2e03b13877913646e74edc950344ac17/alchemite_apiclient-0.73.0.tar.gz
+[2024-04-10 13:06:42] INFO root fetch - processPackages [socktalk]: executing diffoscope
+[2024-04-10 13:06:42] INFO root fetch - processPackages [socktalk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socktalk-0.1.1.tar.gz tmp/socktalk-0.1.2.tar.gz --markdown 20240410/s/socktalk/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-10 13:06:42] INFO root fetch - processPackages [promptflow-azure]: Remove: archive file [/home/abi/fetcher/tmp/promptflow_azure-0.1.0b1-py3-none-any.whl.zip]
+[2024-04-10 13:06:42] INFO root fetch - processPackages [promptflow-azure]: Remove: archive file [/home/abi/fetcher/tmp/promptflow_azure-1.8.0-py3-none-any.whl.zip]
+[2024-04-10 13:06:42] INFO root fetch - main [MainThread]: End processing [promptflow-azure]: success
+[2024-04-10 13:06:43] INFO root fetch - processPackages [promptflow-core]: Remove: archive file [/home/abi/fetcher/tmp/promptflow_core-0.1.0b1-py3-none-any.whl.zip]
+[2024-04-10 13:06:43] INFO root fetch - processPackages [promptflow-core]: Remove: archive file [/home/abi/fetcher/tmp/promptflow_core-1.8.0-py3-none-any.whl.zip]
+[2024-04-10 13:06:43] INFO root fetch - main [MainThread]: End processing [promptflow-core]: success
+[2024-04-10 13:06:43] INFO root fetch - processPackages [alchemite-apiclient]: executing diffoscope
+[2024-04-10 13:06:43] INFO root fetch - processPackages [alchemite-apiclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alchemite_apiclient-0.72.0.tar.gz tmp/alchemite_apiclient-0.73.0.tar.gz --markdown 20240410/a/alchemite-apiclient/0.72.0-0.73.0/README.md --exclude *.pyd
+[2024-04-10 13:06:43] INFO root fetch - processPackages [socktalk]: Remove: archive file [/home/abi/fetcher/tmp/socktalk-0.1.1.tar.gz]
+[2024-04-10 13:06:43] INFO root fetch - processPackages [socktalk]: Remove: archive file [/home/abi/fetcher/tmp/socktalk-0.1.2.tar.gz]
+[2024-04-10 13:06:43] INFO root fetch - main [MainThread]: End processing [socktalk]: success
+[2024-04-10 13:06:46] INFO root fetch - processPackages [alchemite-apiclient]: Remove: archive file [/home/abi/fetcher/tmp/alchemite_apiclient-0.72.0.tar.gz]
+[2024-04-10 13:06:46] INFO root fetch - processPackages [alchemite-apiclient]: Remove: archive file [/home/abi/fetcher/tmp/alchemite_apiclient-0.73.0.tar.gz]
+[2024-04-10 13:06:46] INFO root fetch - main [MainThread]: End processing [alchemite-apiclient]: success
+[2024-04-10 13:07:10] INFO root fetch - processPackages [promptflow-devkit]: Remove: archive file [/home/abi/fetcher/tmp/promptflow_devkit-0.1.0b1-py3-none-any.whl.zip]
+[2024-04-10 13:07:10] INFO root fetch - processPackages [promptflow-devkit]: Remove: archive file [/home/abi/fetcher/tmp/promptflow_devkit-1.8.0-py3-none-any.whl.zip]
+[2024-04-10 13:07:10] INFO root fetch - main [MainThread]: End processing [promptflow-devkit]: success
+[2024-04-10 13:07:25] INFO root fetch - processPackages [promptflow]: Remove: archive file [/home/abi/fetcher/tmp/promptflow-1.6.0-py3-none-any.whl.zip]
+[2024-04-10 13:07:25] INFO root fetch - processPackages [promptflow]: Remove: archive file [/home/abi/fetcher/tmp/promptflow-1.7.0-py3-none-any.whl.zip]
+[2024-04-10 13:07:25] INFO root fetch - main [MainThread]: End processing [promptflow]: success
+[2024-04-10 13:07:25] INFO root fetch - main [MainThread]: Store serial: [22699576]

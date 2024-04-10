@@ -17770,3 +17770,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 10:45:26] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.9.tar.gz]
 [2024-04-10 10:45:26] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2024-04-10 10:45:26] INFO root fetch - main [MainThread]: Store serial: [22697936]
+[2024-04-10 10:47:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22697936]
+[2024-04-10 10:47:38] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-10 10:47:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qontract-reconcile
+[2024-04-10 10:47:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: apache-bookkeeper-client
+[2024-04-10 10:47:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: simgui
+[2024-04-10 10:47:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: truvity-sdk
+[2024-04-10 10:47:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mysql-compare
+[2024-04-10 10:47:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: drf-simple-jwt-2fa
+[2024-04-10 10:47:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tf-nightly-cpu
+[2024-04-10 10:47:38] INFO root fetch - processPackages [drf-simple-jwt-2fa]: New version: [1.2.6] Old Version: [1.2.5]
+[2024-04-10 10:47:38] INFO root fetch - processPackages [simgui]: New version: [1.5.1] Old Version: [1.5.0]
+[2024-04-10 10:47:38] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-04-10 10:47:38] INFO root fetch - processPackages [drf-simple-jwt-2fa]: Downloading https://files.pythonhosted.org/packages/18/9f/4be7a78c1a7d5627cb384c7207d2291ba540f1d7eedb4cb370cffcd5e1af/drf-simple-jwt-2fa-1.2.5.tar.gz
+[2024-04-10 10:47:38] INFO root fetch - processPackages [truvity-sdk]: New version: [0.0.7rc2] Old Version: [0.0.7rc1]
+[2024-04-10 10:47:38] INFO root fetch - processPackages [simgui]: Downloading https://files.pythonhosted.org/packages/fa/8a/d8322766c289a8c490f206418dc49bf2ef9beae87dfb26c9d5bb79813327/simgui-1.5.0.tar.gz
+[2024-04-10 10:47:38] INFO root fetch - processPackages [apache-bookkeeper-client]: New version: [4.9.2] Old Version: [4.9.1]
+[2024-04-10 10:47:38] INFO root fetch - processPackages [mysql-compare]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-10 10:47:38] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-04-10 10:47:39] INFO root fetch - processPackages [apache-bookkeeper-client]: Downloading https://files.pythonhosted.org/packages/1f/f8/25880080e8e62b0cfc188d67e7dc2781b1155c9f4e12263aadd18d7677f7/apache-bookkeeper-client-4.9.1.tar.gz
+[2024-04-10 10:47:39] INFO root fetch - processPackages [mysql-compare]: Downloading https://files.pythonhosted.org/packages/b0/a9/b948ffa278910b8fd86299b1d9581d53424d179e07a907b51cce532c45b8/mysql-compare-0.2.8.tar.gz
+[2024-04-10 10:47:39] INFO root fetch - processPackages [truvity-sdk]: Downloading https://files.pythonhosted.org/packages/4c/aa/77870e9743ce0a63927cad8bd8143b5fad2f81f341f07d9b962083aa3592/truvity_sdk-0.0.7rc1.tar.gz
+[2024-04-10 10:47:39] INFO root fetch - processPackages [drf-simple-jwt-2fa]: Downloading https://files.pythonhosted.org/packages/0c/95/9e6f8a2999610671b1e5c8de7509bedf321d9e788bf88ecf11abd5e025c1/drf-simple-jwt-2fa-1.2.6.tar.gz
+[2024-04-10 10:47:39] INFO root fetch - processPackages [simgui]: Downloading https://files.pythonhosted.org/packages/8c/db/ffa26864da4d485387031f5dc21d6df5545ba707e6f2fade683f10d3bb79/simgui-1.5.1.tar.gz
+[2024-04-10 10:47:39] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-04-10 10:47:39] INFO root fetch - processPackages [drf-simple-jwt-2fa]: executing diffoscope
+[2024-04-10 10:47:39] INFO root fetch - processPackages [drf-simple-jwt-2fa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf-simple-jwt-2fa-1.2.5.tar.gz tmp/drf-simple-jwt-2fa-1.2.6.tar.gz --markdown 20240410/d/drf-simple-jwt-2fa/1.2.5-1.2.6/README.md --exclude *.pyd
+[2024-04-10 10:47:39] INFO root fetch - processPackages [simgui]: executing diffoscope
+[2024-04-10 10:47:39] INFO root fetch - processPackages [simgui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simgui-1.5.0.tar.gz tmp/simgui-1.5.1.tar.gz --markdown 20240410/s/simgui/1.5.0-1.5.1/README.md --exclude *.pyd
+[2024-04-10 10:47:39] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.17.0.dev20240410] Old Version: [2.17.0.dev20240409]
+[2024-04-10 10:47:39] INFO root fetch - processPackages [apache-bookkeeper-client]: Downloading https://files.pythonhosted.org/packages/cf/05/1d3ccb5e0c997ed828f8c2e566e6d03b9aa2b87e4082e897c44b833169b4/apache-bookkeeper-client-4.9.2.tar.gz
+[2024-04-10 10:47:39] INFO root fetch - processPackages [mysql-compare]: Downloading https://files.pythonhosted.org/packages/f4/ec/e1e4c8bf19c39b76e565554550368a429d467a0fee74573dcc638c950a0a/mysql-compare-0.2.9.tar.gz
+[2024-04-10 10:47:39] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-04-10 10:47:39] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240410/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-04-10 10:47:39] INFO root fetch - processPackages [truvity-sdk]: Downloading https://files.pythonhosted.org/packages/de/db/cec045ffc47a6628adc7dbb8d98e9abfd77988e3ef608f8c311db3cda501/truvity_sdk-0.0.7rc2.tar.gz
+[2024-04-10 10:47:39] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/32/e3/857b594e3babaeb180775eab768462dc11a8814a6a0ec12864a3968aa222/tf_nightly_cpu-2.17.0.dev20240409-cp39-cp39-win_amd64.whl
+[2024-04-10 10:47:39] INFO root fetch - processPackages [mysql-compare]: executing diffoscope
+[2024-04-10 10:47:39] INFO root fetch - processPackages [mysql-compare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysql-compare-0.2.8.tar.gz tmp/mysql-compare-0.2.9.tar.gz --markdown 20240410/m/mysql-compare/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-10 10:47:39] INFO root fetch - processPackages [truvity-sdk]: executing diffoscope
+[2024-04-10 10:47:39] INFO root fetch - processPackages [truvity-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/truvity_sdk-0.0.7rc1.tar.gz tmp/truvity_sdk-0.0.7rc2.tar.gz --markdown 20240410/t/truvity-sdk/0.0.7rc1-0.0.7rc2/README.md --exclude *.pyd
+[2024-04-10 10:47:39] INFO root fetch - processPackages [apache-bookkeeper-client]: executing diffoscope
+[2024-04-10 10:47:39] INFO root fetch - processPackages [apache-bookkeeper-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-bookkeeper-client-4.9.1.tar.gz tmp/apache-bookkeeper-client-4.9.2.tar.gz --markdown 20240410/a/apache-bookkeeper-client/4.9.1-4.9.2/README.md --exclude *.pyd
+[2024-04-10 10:47:39] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/e2/bd/8da8f3c775692e5ffd962952489f9e3a0386639249c7ad5b19f5c920060e/tf_nightly_cpu-2.17.0.dev20240410-cp39-cp39-win_amd64.whl
+[2024-04-10 10:47:40] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2024-04-10 10:47:40] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.17.0.dev20240409-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.17.0.dev20240410-cp39-cp39-win_amd64.whl.zip --markdown 20240410/t/tf-nightly-cpu/2.17.0.dev20240409-2.17.0.dev20240410/README.md --exclude *.pyd
+[2024-04-10 10:47:40] INFO root fetch - processPackages [drf-simple-jwt-2fa]: Remove: archive file [/home/abi/fetcher/tmp/drf-simple-jwt-2fa-1.2.5.tar.gz]
+[2024-04-10 10:47:40] INFO root fetch - processPackages [drf-simple-jwt-2fa]: Remove: archive file [/home/abi/fetcher/tmp/drf-simple-jwt-2fa-1.2.6.tar.gz]
+[2024-04-10 10:47:40] INFO root fetch - main [MainThread]: End processing [drf-simple-jwt-2fa]: success
+[2024-04-10 10:47:40] INFO root fetch - processPackages [simgui]: Remove: archive file [/home/abi/fetcher/tmp/simgui-1.5.0.tar.gz]
+[2024-04-10 10:47:40] INFO root fetch - processPackages [simgui]: Remove: archive file [/home/abi/fetcher/tmp/simgui-1.5.1.tar.gz]
+[2024-04-10 10:47:40] INFO root fetch - main [MainThread]: End processing [simgui]: success
+[2024-04-10 10:47:40] INFO root fetch - processPackages [mysql-compare]: Remove: archive file [/home/abi/fetcher/tmp/mysql-compare-0.2.8.tar.gz]
+[2024-04-10 10:47:40] INFO root fetch - processPackages [mysql-compare]: Remove: archive file [/home/abi/fetcher/tmp/mysql-compare-0.2.9.tar.gz]
+[2024-04-10 10:47:40] INFO root fetch - main [MainThread]: End processing [mysql-compare]: success
+[2024-04-10 10:47:40] INFO root fetch - processPackages [truvity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/truvity_sdk-0.0.7rc1.tar.gz]
+[2024-04-10 10:47:40] INFO root fetch - processPackages [truvity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/truvity_sdk-0.0.7rc2.tar.gz]
+[2024-04-10 10:47:40] INFO root fetch - main [MainThread]: End processing [truvity-sdk]: success
+[2024-04-10 10:47:40] INFO root fetch - processPackages [apache-bookkeeper-client]: Remove: archive file [/home/abi/fetcher/tmp/apache-bookkeeper-client-4.9.1.tar.gz]
+[2024-04-10 10:47:40] INFO root fetch - processPackages [apache-bookkeeper-client]: Remove: archive file [/home/abi/fetcher/tmp/apache-bookkeeper-client-4.9.2.tar.gz]
+[2024-04-10 10:47:40] INFO root fetch - main [MainThread]: End processing [apache-bookkeeper-client]: success
+[2024-04-10 10:47:40] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240409-cp39-cp39-win_amd64.whl.zip]
+[2024-04-10 10:47:40] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240410-cp39-cp39-win_amd64.whl.zip]
+[2024-04-10 10:47:40] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2024-04-10 10:47:42] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-04-10 10:47:42] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-04-10 10:47:42] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-04-10 10:47:42] INFO root fetch - main [MainThread]: Store serial: [22697961]

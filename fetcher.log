@@ -2713,3 +2713,72 @@
 [2024-04-10 02:10:28] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.6.dev202404090009.tar.gz]
 [2024-04-10 02:10:28] INFO root fetch - main [MainThread]: End processing [openbb-nightly]: success
 [2024-04-10 02:10:28] INFO root fetch - main [MainThread]: Store serial: [22692169]
+[2024-04-10 02:12:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22692169]
+[2024-04-10 02:12:37] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-10 02:12:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mct-quantizers-nightly
+[2024-04-10 02:12:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trieve-py-client
+[2024-04-10 02:12:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: npc_lims
+[2024-04-10 02:12:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-events-notify
+[2024-04-10 02:12:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lbt-dragonfly
+[2024-04-10 02:12:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: althaia
+[2024-04-10 02:12:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: FlutterWaveDjango
+[2024-04-10 02:12:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: latch
+[2024-04-10 02:12:37] INFO root fetch - processPackages [mct-quantizers-nightly]: New version: [1.4.0.20240409.post1057] Old Version: [1.4.0.20240408.post1047]
+[2024-04-10 02:12:37] INFO root fetch - processPackages [trieve-py-client]: New version: [0.6.0] Old Version: [0.5.7]
+[2024-04-10 02:12:37] INFO root fetch - processPackages [npc_lims]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-10 02:12:37] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2024-04-10 02:12:37] INFO root fetch - processPackages [latch]: New version: [2.9.6] Old Version: [2.9.5]
+[2024-04-10 02:12:37] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.2.92] Old Version: [2.2.91]
+[2024-04-10 02:12:37] WARNING root fetch - processPackages [FlutterWaveDjango]: Skipping, unable to determine old version
+[2024-04-10 02:12:37] INFO root fetch - main [MainThread]: End processing [FlutterWaveDjango] error
+[2024-04-10 02:12:37] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/f3/d7/89a856fa1a64601d0cc3b701234fbfc65b0fdffd5665ade88e91759caa62/mct-quantizers-nightly-1.4.0.20240408.post1047.tar.gz
+[2024-04-10 02:12:37] INFO root fetch - processPackages [trieve-py-client]: Downloading https://files.pythonhosted.org/packages/57/3e/41d33e2366b544dc318e61fae1039b212ac820c32ad9a6d88aad2b66f9e6/trieve_py_client-0.5.7-py3-none-any.whl
+[2024-04-10 02:12:37] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2024-04-10 02:12:37] INFO root fetch - processPackages [npc_lims]: Downloading https://files.pythonhosted.org/packages/eb/a3/a72478dcef25d9b46c35b7730c5c9a426e07354369fb652045cc1befbe7e/npc_lims-0.1.98.tar.gz
+[2024-04-10 02:12:37] INFO root fetch - processPackages [althaia]: New version: [3.21.1] Old Version: [3.20.1]
+[2024-04-10 02:12:37] INFO root fetch - processPackages [latch]: Downloading https://files.pythonhosted.org/packages/79/f7/1912dae713dbd539910745289141bab27e2ec23827c1f7112accaf98bdda/latch-2.9.5.tar.gz
+[2024-04-10 02:12:37] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/d2/2a/a0fe074a7587e54860dae084e0eb98ae176090cb013d460b36679a0e62be/cdk-events-notify-2.2.91.tar.gz
+[2024-04-10 02:12:37] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2024-04-10 02:12:37] INFO root fetch - processPackages [npc_lims]: Downloading https://files.pythonhosted.org/packages/20/8f/2a3ef0e71c09fd01ba3685a9f92c448766eab8a9e83f1e03e62e90091e0a/npc_lims-0.1.99.tar.gz
+[2024-04-10 02:12:37] INFO root fetch - processPackages [althaia]: Downloading https://files.pythonhosted.org/packages/ca/70/4ef5fd5eb700c4fcd2b35b7446d2189a1db519ece44857e6c5eb6167740b/althaia-3.20.1.tar.gz
+[2024-04-10 02:12:37] INFO root fetch - processPackages [latch]: Downloading https://files.pythonhosted.org/packages/5e/5a/e91171b6eca0ba929f7259719a3d389fd86242408d94dbf266925a9f4d21/latch-2.9.6.tar.gz
+[2024-04-10 02:12:37] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/0e/67/f45d4e12d58052e6d61ee0084b2e73e3beffbe6449194d4543d832e17f5c/cdk-events-notify-2.2.92.tar.gz
+[2024-04-10 02:12:37] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/4b/f5/603e1dbf30aa1bbda827c060ebb8e3ab115ce88832186769cffa83aa2981/mct-quantizers-nightly-1.4.0.20240409.post1057.tar.gz
+[2024-04-10 02:12:37] INFO root fetch - processPackages [npc_lims]: executing diffoscope
+[2024-04-10 02:12:37] INFO root fetch - processPackages [npc_lims]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/npc_lims-0.1.98.tar.gz tmp/npc_lims-0.1.99.tar.gz --markdown 20240410/n/npc_lims/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-10 02:12:37] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2024-04-10 02:12:37] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20240410/l/lbt-dragonfly/0.9.98-0.9.99/README.md --exclude *.pyd
+[2024-04-10 02:12:37] INFO root fetch - processPackages [trieve-py-client]: Downloading https://files.pythonhosted.org/packages/44/20/2f5d4850240756cbee95b0ed2ff8fa33c7b0da6f6587f998b3dff1908ead/trieve_py_client-0.6.0-py3-none-any.whl
+[2024-04-10 02:12:37] INFO root fetch - processPackages [latch]: executing diffoscope
+[2024-04-10 02:12:37] INFO root fetch - processPackages [latch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latch-2.9.5.tar.gz tmp/latch-2.9.6.tar.gz --markdown 20240410/l/latch/2.9.5-2.9.6/README.md --exclude *.pyd
+[2024-04-10 02:12:37] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2024-04-10 02:12:37] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.2.91.tar.gz tmp/cdk-events-notify-2.2.92.tar.gz --markdown 20240410/c/cdk-events-notify/2.2.91-2.2.92/README.md --exclude *.pyd
+[2024-04-10 02:12:37] INFO root fetch - processPackages [mct-quantizers-nightly]: executing diffoscope
+[2024-04-10 02:12:37] INFO root fetch - processPackages [mct-quantizers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-quantizers-nightly-1.4.0.20240408.post1047.tar.gz tmp/mct-quantizers-nightly-1.4.0.20240409.post1057.tar.gz --markdown 20240410/m/mct-quantizers-nightly/1.4.0.20240408.post1047-1.4.0.20240409.post1057/README.md --exclude *.pyd
+[2024-04-10 02:12:37] INFO root fetch - processPackages [trieve-py-client]: executing diffoscope
+[2024-04-10 02:12:37] INFO root fetch - processPackages [trieve-py-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trieve_py_client-0.5.7-py3-none-any.whl.zip tmp/trieve_py_client-0.6.0-py3-none-any.whl.zip --markdown 20240410/t/trieve-py-client/0.5.7-0.6.0/README.md --exclude *.pyd
+[2024-04-10 02:12:38] INFO root fetch - processPackages [althaia]: Downloading https://files.pythonhosted.org/packages/a4/00/e07f2a58d6bab3b348cab730228b683340c4d1de7ebfbaf2da2bfb531363/althaia-3.21.1-cp311-cp311-win_amd64.whl
+[2024-04-10 02:12:38] INFO root fetch - processPackages [althaia]: executing diffoscope
+[2024-04-10 02:12:38] INFO root fetch - processPackages [althaia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/althaia-3.20.1.tar.gz tmp/althaia-3.21.1-cp311-cp311-win_amd64.whl.zip --markdown 20240410/a/althaia/3.20.1-3.21.1/README.md --exclude *.pyd
+[2024-04-10 02:12:38] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.91.tar.gz]
+[2024-04-10 02:12:38] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.92.tar.gz]
+[2024-04-10 02:12:38] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2024-04-10 02:12:38] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.98.tar.gz]
+[2024-04-10 02:12:38] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
+[2024-04-10 02:12:38] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2024-04-10 02:12:38] INFO root fetch - processPackages [npc_lims]: Remove: archive file [/home/abi/fetcher/tmp/npc_lims-0.1.98.tar.gz]
+[2024-04-10 02:12:38] INFO root fetch - processPackages [npc_lims]: Remove: archive file [/home/abi/fetcher/tmp/npc_lims-0.1.99.tar.gz]
+[2024-04-10 02:12:38] INFO root fetch - main [MainThread]: End processing [npc_lims]: success
+[2024-04-10 02:12:38] INFO root fetch - processPackages [latch]: Remove: archive file [/home/abi/fetcher/tmp/latch-2.9.5.tar.gz]
+[2024-04-10 02:12:38] INFO root fetch - processPackages [latch]: Remove: archive file [/home/abi/fetcher/tmp/latch-2.9.6.tar.gz]
+[2024-04-10 02:12:38] INFO root fetch - main [MainThread]: End processing [latch]: success
+[2024-04-10 02:12:38] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.4.0.20240408.post1047.tar.gz]
+[2024-04-10 02:12:38] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.4.0.20240409.post1057.tar.gz]
+[2024-04-10 02:12:38] INFO root fetch - main [MainThread]: End processing [mct-quantizers-nightly]: success
+[2024-04-10 02:12:39] INFO root fetch - processPackages [althaia]: Remove: archive file [/home/abi/fetcher/tmp/althaia-3.20.1.tar.gz]
+[2024-04-10 02:12:39] INFO root fetch - processPackages [althaia]: Remove: archive file [/home/abi/fetcher/tmp/althaia-3.21.1-cp311-cp311-win_amd64.whl.zip]
+[2024-04-10 02:12:39] INFO root fetch - main [MainThread]: End processing [althaia]: success
+[2024-04-10 02:12:39] INFO root fetch - processPackages [trieve-py-client]: Remove: archive file [/home/abi/fetcher/tmp/trieve_py_client-0.5.7-py3-none-any.whl.zip]
+[2024-04-10 02:12:39] INFO root fetch - processPackages [trieve-py-client]: Remove: archive file [/home/abi/fetcher/tmp/trieve_py_client-0.6.0-py3-none-any.whl.zip]
+[2024-04-10 02:12:39] INFO root fetch - main [MainThread]: End processing [trieve-py-client]: success
+[2024-04-10 02:12:39] INFO root fetch - main [MainThread]: Store serial: [22692207]

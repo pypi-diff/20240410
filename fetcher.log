@@ -13665,3 +13665,54 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 08:00:47] INFO root fetch - processPackages [r2r]: Remove: archive file [/home/abi/fetcher/tmp/r2r-0.1.32.tar.gz]
 [2024-04-10 08:00:47] INFO root fetch - main [MainThread]: End processing [r2r]: success
 [2024-04-10 08:00:47] INFO root fetch - main [MainThread]: Store serial: [22696278]
+[2024-04-10 08:02:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22696278]
+[2024-04-10 08:02:56] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-10 08:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: selenium-network-intercept
+[2024-04-10 08:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-digitalocean
+[2024-04-10 08:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tibia.py
+[2024-04-10 08:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rajeshPackage
+[2024-04-10 08:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nvidia-ammo
+[2024-04-10 08:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bttc
+[2024-04-10 08:02:56] INFO root fetch - processPackages [bttc]: New version: [0.0.73.7] Old Version: [0.0.73.6]
+[2024-04-10 08:02:56] INFO root fetch - processPackages [selenium-network-intercept]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-10 08:02:56] INFO root fetch - processPackages [bttc]: Downloading https://files.pythonhosted.org/packages/dc/1e/838537182e661ab021be99426c60c5ffa1fc7dff404434b50a79deb362b2/bttc-0.0.73.6.tar.gz
+[2024-04-10 08:02:56] INFO root fetch - processPackages [selenium-network-intercept]: Downloading https://files.pythonhosted.org/packages/3b/9f/a5eb4f4aeedcb9bf240d09045291d16c5b42aea94fcc3f118c33bb3957fc/selenium-network-intercept-1.0.0.tar.gz
+[2024-04-10 08:02:56] WARNING root fetch - processPackages [rajeshPackage]: Skipping, unable to determine old version
+[2024-04-10 08:02:56] INFO root fetch - main [MainThread]: End processing [rajeshPackage] error
+[2024-04-10 08:02:56] INFO root fetch - processPackages [nvidia-ammo]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-10 08:02:56] INFO root fetch - processPackages [tibia.py]: New version: [6.3.0] Old Version: [6.2.0]
+[2024-04-10 08:02:56] INFO root fetch - processPackages [pulumi-digitalocean]: New version: [4.9.0a1637244514] Old Version: [4.9.0]
+[2024-04-10 08:02:56] INFO root fetch - processPackages [tibia.py]: Downloading https://files.pythonhosted.org/packages/b7/93/bdcbb8ba7ff536c0070f5cc2a58191cec2281611fd0e192710fc91e9560f/tibia.py-6.2.0.tar.gz
+[2024-04-10 08:02:56] INFO root fetch - processPackages [selenium-network-intercept]: Downloading https://files.pythonhosted.org/packages/2e/ef/2e191d0155d1a64df023af7c4a6fad9e0fc9525a13e10d02c0b072a405f3/selenium-network-intercept-1.0.1.tar.gz
+[2024-04-10 08:02:57] INFO root fetch - processPackages [pulumi-digitalocean]: Downloading https://files.pythonhosted.org/packages/27/fe/88f79d9daf961f609409c5330a59d5bf5ff3effa841b5317256e773c92dd/pulumi_digitalocean-4.9.0.tar.gz
+[2024-04-10 08:02:57] INFO root fetch - processPackages [nvidia-ammo]: Downloading https://files.pythonhosted.org/packages/f9/4e/3fbf614af4c3cb6369882f31a86d087d5ff0c77fbb190e7874132bdc1972/nvidia_ammo-0.9.2.tar.gz
+[2024-04-10 08:02:57] INFO root fetch - processPackages [selenium-network-intercept]: executing diffoscope
+[2024-04-10 08:02:57] INFO root fetch - processPackages [selenium-network-intercept]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium-network-intercept-1.0.0.tar.gz tmp/selenium-network-intercept-1.0.1.tar.gz --markdown 20240410/s/selenium-network-intercept/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-10 08:02:57] INFO root fetch - processPackages [bttc]: Downloading https://files.pythonhosted.org/packages/c8/e1/13e5b5c4c5cd4d9ef5c6315e025a9de4f8d72c89b1a125d8bfe64d4665e6/bttc-0.0.73.7.tar.gz
+[2024-04-10 08:02:57] INFO root fetch - processPackages [bttc]: executing diffoscope
+[2024-04-10 08:02:57] INFO root fetch - processPackages [bttc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bttc-0.0.73.6.tar.gz tmp/bttc-0.0.73.7.tar.gz --markdown 20240410/b/bttc/0.0.73.6-0.0.73.7/README.md --exclude *.pyd
+[2024-04-10 08:02:57] INFO root fetch - processPackages [pulumi-digitalocean]: Downloading https://files.pythonhosted.org/packages/aa/e4/0dfa539667fb3462b4c16072050ebf8e1a80d862ac88c8b00ae29b019195/pulumi_digitalocean-4.9.0a1637244514.tar.gz
+[2024-04-10 08:02:57] INFO root fetch - processPackages [tibia.py]: Downloading https://files.pythonhosted.org/packages/80/e0/36e9783d556f35d1324d498a237010a16fa8791afe0c8fc8b2c60bdc0ac7/tibia.py-6.3.0.tar.gz
+[2024-04-10 08:02:57] INFO root fetch - processPackages [nvidia-ammo]: Downloading https://files.pythonhosted.org/packages/61/43/2bbffe09f030af60789801ae9151ab27874ba77f1dc3a979c4838b1de139/nvidia_ammo-0.9.3.tar.gz
+[2024-04-10 08:02:57] INFO root fetch - processPackages [nvidia-ammo]: executing diffoscope
+[2024-04-10 08:02:57] INFO root fetch - processPackages [nvidia-ammo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia_ammo-0.9.2.tar.gz tmp/nvidia_ammo-0.9.3.tar.gz --markdown 20240410/n/nvidia-ammo/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-10 08:02:57] INFO root fetch - processPackages [tibia.py]: executing diffoscope
+[2024-04-10 08:02:57] INFO root fetch - processPackages [tibia.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tibia.py-6.2.0.tar.gz tmp/tibia.py-6.3.0.tar.gz --markdown 20240410/t/tibia.py/6.2.0-6.3.0/README.md --exclude *.pyd
+[2024-04-10 08:02:57] INFO root fetch - processPackages [pulumi-digitalocean]: executing diffoscope
+[2024-04-10 08:02:57] INFO root fetch - processPackages [pulumi-digitalocean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_digitalocean-4.9.0.tar.gz tmp/pulumi_digitalocean-4.9.0a1637244514.tar.gz --markdown 20240410/p/pulumi-digitalocean/4.9.0-4.9.0a1637244514/README.md --exclude *.pyd
+[2024-04-10 08:02:57] INFO root fetch - processPackages [selenium-network-intercept]: Remove: archive file [/home/abi/fetcher/tmp/selenium-network-intercept-1.0.0.tar.gz]
+[2024-04-10 08:02:57] INFO root fetch - processPackages [selenium-network-intercept]: Remove: archive file [/home/abi/fetcher/tmp/selenium-network-intercept-1.0.1.tar.gz]
+[2024-04-10 08:02:57] INFO root fetch - main [MainThread]: End processing [selenium-network-intercept]: success
+[2024-04-10 08:02:58] INFO root fetch - processPackages [bttc]: Remove: archive file [/home/abi/fetcher/tmp/bttc-0.0.73.6.tar.gz]
+[2024-04-10 08:02:58] INFO root fetch - processPackages [bttc]: Remove: archive file [/home/abi/fetcher/tmp/bttc-0.0.73.7.tar.gz]
+[2024-04-10 08:02:58] INFO root fetch - main [MainThread]: End processing [bttc]: success
+[2024-04-10 08:02:58] INFO root fetch - processPackages [nvidia-ammo]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_ammo-0.9.2.tar.gz]
+[2024-04-10 08:02:58] INFO root fetch - processPackages [nvidia-ammo]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_ammo-0.9.3.tar.gz]
+[2024-04-10 08:02:58] INFO root fetch - main [MainThread]: End processing [nvidia-ammo]: success
+[2024-04-10 08:02:58] INFO root fetch - processPackages [tibia.py]: Remove: archive file [/home/abi/fetcher/tmp/tibia.py-6.2.0.tar.gz]
+[2024-04-10 08:02:58] INFO root fetch - processPackages [tibia.py]: Remove: archive file [/home/abi/fetcher/tmp/tibia.py-6.3.0.tar.gz]
+[2024-04-10 08:02:58] INFO root fetch - main [MainThread]: End processing [tibia.py]: success
+[2024-04-10 08:02:58] INFO root fetch - processPackages [pulumi-digitalocean]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_digitalocean-4.9.0.tar.gz]
+[2024-04-10 08:02:58] INFO root fetch - processPackages [pulumi-digitalocean]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_digitalocean-4.9.0a1637244514.tar.gz]
+[2024-04-10 08:02:58] INFO root fetch - main [MainThread]: End processing [pulumi-digitalocean]: success
+[2024-04-10 08:02:58] INFO root fetch - main [MainThread]: Store serial: [22696299]

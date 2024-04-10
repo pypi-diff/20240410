@@ -13020,3 +13020,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 07:21:26] INFO root fetch - processPackages [pih-mio]: Remove: archive file [/home/abi/fetcher/tmp/pih-mio-0.26.tar.gz]
 [2024-04-10 07:21:26] INFO root fetch - main [MainThread]: End processing [pih-mio]: success
 [2024-04-10 07:21:26] INFO root fetch - main [MainThread]: Store serial: [22696008]
+[2024-04-10 07:23:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22696008]
+[2024-04-10 07:23:35] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-10 07:23:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vbao-MVVM
+[2024-04-10 07:23:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pypn-ref-geo
+[2024-04-10 07:23:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: endec
+[2024-04-10 07:23:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: GeneralAgent
+[2024-04-10 07:23:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: diso
+[2024-04-10 07:23:35] INFO root fetch - processPackages [GeneralAgent]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-10 07:23:35] INFO root fetch - processPackages [GeneralAgent]: Downloading https://files.pythonhosted.org/packages/4a/85/8ba69c65756dc2834f17de340ea370a0f1766c4e2dbf7ad78a7a1d7897c8/generalagent-0.2.8.tar.gz
+[2024-04-10 07:23:35] INFO root fetch - processPackages [diso]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-10 07:23:35] INFO root fetch - processPackages [pypn-ref-geo]: New version: [1.5.2] Old Version: [1.5.1]
+[2024-04-10 07:23:35] INFO root fetch - processPackages [vbao-MVVM]: New version: [0.2.1] Old Version: [0.2]
+[2024-04-10 07:23:36] INFO root fetch - processPackages [endec]: New version: [0.1.0b2] Old Version: [0.1.0b1]
+[2024-04-10 07:23:36] INFO root fetch - processPackages [diso]: Downloading https://files.pythonhosted.org/packages/d4/68/93ea7a8a2c29dc467b9e7284a0de032e834f147df2f2e8652c7a3703d9ab/diso-0.1.0.tar.gz
+[2024-04-10 07:23:36] INFO root fetch - processPackages [pypn-ref-geo]: Downloading https://files.pythonhosted.org/packages/94/52/35ad86f893a25b58057094ea9d9f9ca8898538ac260050f02d3b522fa4ba/pypn-ref-geo-1.5.1.tar.gz
+[2024-04-10 07:23:36] INFO root fetch - processPackages [vbao-MVVM]: Downloading https://files.pythonhosted.org/packages/6a/ca/53f751fe7bd6ce03242449ee9c06ee9cb1d046e0f31f21420a4e53834821/vbao_MVVM-0.2-py3-none-any.whl
+[2024-04-10 07:23:36] INFO root fetch - processPackages [endec]: Downloading https://files.pythonhosted.org/packages/3c/ad/414eed85c8edd903f972ad8a9fd2dee3bb4ff44e5fa522c62b75387312be/endec-0.1.0b1.tar.gz
+[2024-04-10 07:23:36] INFO root fetch - processPackages [GeneralAgent]: Downloading https://files.pythonhosted.org/packages/e9/fa/fc31444c8cf506043f3d6aabb6baa345465ece6af60121119b62330ca790/generalagent-0.2.9.tar.gz
+[2024-04-10 07:23:36] INFO root fetch - processPackages [vbao-MVVM]: Downloading https://files.pythonhosted.org/packages/8e/d6/dc479c9392f66bbae901d5723af16eb2e1cff63a6707a5350e7584394022/vbao_MVVM-0.2.1.tar.gz
+[2024-04-10 07:23:36] INFO root fetch - processPackages [diso]: Downloading https://files.pythonhosted.org/packages/c2/52/3e1a208e7c52e31dda339c024e543aa4a93b8e57a43accab30ce6320d322/diso-0.1.1.tar.gz
+[2024-04-10 07:23:36] INFO root fetch - processPackages [pypn-ref-geo]: Downloading https://files.pythonhosted.org/packages/03/78/a15fd281897b1e39847771e25367d13a7a8cbc62e7fa396afd23ed2424b1/pypn-ref-geo-1.5.2.tar.gz
+[2024-04-10 07:23:36] INFO root fetch - processPackages [vbao-MVVM]: executing diffoscope
+[2024-04-10 07:23:36] INFO root fetch - processPackages [vbao-MVVM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbao_MVVM-0.2-py3-none-any.whl.zip tmp/vbao_MVVM-0.2.1.tar.gz --markdown 20240410/v/vbao-MVVM/0.2-0.2.1/README.md --exclude *.pyd
+[2024-04-10 07:23:36] INFO root fetch - processPackages [diso]: executing diffoscope
+[2024-04-10 07:23:36] INFO root fetch - processPackages [diso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diso-0.1.0.tar.gz tmp/diso-0.1.1.tar.gz --markdown 20240410/d/diso/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-10 07:23:36] INFO root fetch - processPackages [endec]: Downloading https://files.pythonhosted.org/packages/d6/36/ac45c2704c3e087356c46d7d0a81fc6f0112f9a6588de086fc4d7d15136d/endec-0.1.0b2-pp39-pypy39_pp73-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl
+[2024-04-10 07:23:36] INFO root fetch - processPackages [pypn-ref-geo]: executing diffoscope
+[2024-04-10 07:23:36] INFO root fetch - processPackages [pypn-ref-geo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypn-ref-geo-1.5.1.tar.gz tmp/pypn-ref-geo-1.5.2.tar.gz --markdown 20240410/p/pypn-ref-geo/1.5.1-1.5.2/README.md --exclude *.pyd
+[2024-04-10 07:23:36] INFO root fetch - processPackages [GeneralAgent]: executing diffoscope
+[2024-04-10 07:23:36] INFO root fetch - processPackages [GeneralAgent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/generalagent-0.2.8.tar.gz tmp/generalagent-0.2.9.tar.gz --markdown 20240410/G/GeneralAgent/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-10 07:23:37] INFO root fetch - processPackages [diso]: Remove: archive file [/home/abi/fetcher/tmp/diso-0.1.0.tar.gz]
+[2024-04-10 07:23:37] INFO root fetch - processPackages [diso]: Remove: archive file [/home/abi/fetcher/tmp/diso-0.1.1.tar.gz]
+[2024-04-10 07:23:37] INFO root fetch - main [MainThread]: End processing [diso]: success
+[2024-04-10 07:23:37] INFO root fetch - processPackages [vbao-MVVM]: Remove: archive file [/home/abi/fetcher/tmp/vbao_MVVM-0.2-py3-none-any.whl.zip]
+[2024-04-10 07:23:37] INFO root fetch - processPackages [vbao-MVVM]: Remove: archive file [/home/abi/fetcher/tmp/vbao_MVVM-0.2.1.tar.gz]
+[2024-04-10 07:23:37] INFO root fetch - main [MainThread]: End processing [vbao-MVVM]: success
+[2024-04-10 07:23:37] INFO root fetch - processPackages [endec]: executing diffoscope
+[2024-04-10 07:23:37] INFO root fetch - processPackages [endec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/endec-0.1.0b1.tar.gz tmp/endec-0.1.0b2-pp39-pypy39_pp73-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl.zip --markdown 20240410/e/endec/0.1.0b1-0.1.0b2/README.md --exclude *.pyd
+[2024-04-10 07:23:37] INFO root fetch - processPackages [pypn-ref-geo]: Remove: archive file [/home/abi/fetcher/tmp/pypn-ref-geo-1.5.1.tar.gz]
+[2024-04-10 07:23:37] INFO root fetch - processPackages [pypn-ref-geo]: Remove: archive file [/home/abi/fetcher/tmp/pypn-ref-geo-1.5.2.tar.gz]
+[2024-04-10 07:23:37] INFO root fetch - main [MainThread]: End processing [pypn-ref-geo]: success
+[2024-04-10 07:23:37] INFO root fetch - processPackages [GeneralAgent]: Remove: archive file [/home/abi/fetcher/tmp/generalagent-0.2.8.tar.gz]
+[2024-04-10 07:23:37] INFO root fetch - processPackages [GeneralAgent]: Remove: archive file [/home/abi/fetcher/tmp/generalagent-0.2.9.tar.gz]
+[2024-04-10 07:23:37] INFO root fetch - main [MainThread]: End processing [GeneralAgent]: success
+[2024-04-10 07:23:37] INFO root fetch - processPackages [endec]: Remove: archive file [/home/abi/fetcher/tmp/endec-0.1.0b1.tar.gz]
+[2024-04-10 07:23:37] INFO root fetch - processPackages [endec]: Remove: archive file [/home/abi/fetcher/tmp/endec-0.1.0b2-pp39-pypy39_pp73-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl.zip]
+[2024-04-10 07:23:37] INFO root fetch - main [MainThread]: End processing [endec]: success
+[2024-04-10 07:23:37] INFO root fetch - main [MainThread]: Store serial: [22696044]

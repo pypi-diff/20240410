@@ -18510,3 +18510,77 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 11:14:16] INFO root fetch - processPackages [ezside]: Remove: archive file [/home/abi/fetcher/tmp/ezside-0.1.9.tar.gz]
 [2024-04-10 11:14:16] INFO root fetch - main [MainThread]: End processing [ezside]: success
 [2024-04-10 11:14:16] INFO root fetch - main [MainThread]: Store serial: [22698280]
+[2024-04-10 11:16:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22698280]
+[2024-04-10 11:16:26] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-10 11:16:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pygments-lexer-petrichorscript
+[2024-04-10 11:16:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: clara-viz
+[2024-04-10 11:16:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: plotgen
+[2024-04-10 11:16:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spanishconjugator
+[2024-04-10 11:16:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: clara-viz
+[2024-04-10 11:16:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: awil-mcp3802
+[2024-04-10 11:16:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: RL-OM
+[2024-04-10 11:16:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jeongin2024
+[2024-04-10 11:16:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: clara-viz-core
+[2024-04-10 11:16:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: clara-viz-widgets
+[2024-04-10 11:16:26] INFO root fetch - processPackages [clara-viz]: New version: [0.4.0] Old Version: [0.3.2]
+[2024-04-10 11:16:26] INFO root fetch - processPackages [clara-viz]: New version: [0.4.0] Old Version: [0.3.2]
+[2024-04-10 11:16:26] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-04-10 11:16:26] WARNING root fetch - processPackages [jeongin2024]: Skipping, unable to determine old version
+[2024-04-10 11:16:26] INFO root fetch - processPackages [clara-viz-widgets]: New version: [0.4.0] Old Version: [0.3.1]
+[2024-04-10 11:16:26] WARNING root fetch - processPackages [awil-mcp3802]: Skipping, unable to determine old version
+[2024-04-10 11:16:26] INFO root fetch - main [MainThread]: End processing [jeongin2024] error
+[2024-04-10 11:16:26] INFO root fetch - processPackages [pygments-lexer-petrichorscript]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-10 11:16:26] INFO root fetch - processPackages [clara-viz-core]: New version: [0.4.0] Old Version: [0.3.1]
+[2024-04-10 11:16:26] INFO root fetch - main [MainThread]: End processing [awil-mcp3802] error
+[2024-04-10 11:16:26] INFO root fetch - processPackages [plotgen]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-10 11:16:26] INFO root fetch - processPackages [RL-OM]: New version: [0.7.9] Old Version: [0.7.87]
+[2024-04-10 11:16:26] INFO root fetch - processPackages [clara-viz]: Downloading https://files.pythonhosted.org/packages/50/95/52d881d5c1c7930cbddddcff618ec019209bb568f36c6ae43efa83304232/clara_viz-0.3.2-py2.py3-none-any.whl
+[2024-04-10 11:16:26] INFO root fetch - processPackages [clara-viz]: Downloading https://files.pythonhosted.org/packages/50/95/52d881d5c1c7930cbddddcff618ec019209bb568f36c6ae43efa83304232/clara_viz-0.3.2-py2.py3-none-any.whl
+[2024-04-10 11:16:26] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-04-10 11:16:26] INFO root fetch - processPackages [RL-OM]: Downloading https://files.pythonhosted.org/packages/80/75/d4f21c3e3aa099f4b57886bf92b8a1c5b3fb27208e91a14f6aa02def38b8/RL_OM-0.7.87.tar.gz
+[2024-04-10 11:16:26] INFO root fetch - processPackages [pygments-lexer-petrichorscript]: Downloading https://files.pythonhosted.org/packages/c2/1b/d5b215304861d11a05ebfe2ea253a65614e60003a1a255c5ae1877ccf2c5/pygments-lexer-petrichorscript-1.0.4.tar.gz
+[2024-04-10 11:16:26] INFO root fetch - processPackages [clara-viz-core]: Downloading https://files.pythonhosted.org/packages/eb/8b/dfd3f52eff1fa1763f980e95d21bc44364c1e6813161861edc798cf6b8b1/clara_viz_core-0.3.1-py2.py3-none-manylinux_2_28_x86_64.whl
+[2024-04-10 11:16:26] INFO root fetch - processPackages [clara-viz-widgets]: Downloading https://files.pythonhosted.org/packages/bf/f5/775ef4bc295d9b78cae81d5c454411373f5f13112208f188218666d1a65a/clara_viz_widgets-0.3.1-py2.py3-none-any.whl
+[2024-04-10 11:16:26] INFO root fetch - processPackages [plotgen]: Downloading https://files.pythonhosted.org/packages/82/a0/8dbe948c2fd349d77a62892d410fadf6c8effd60e1a68c9ddc585d34cc15/plotgen-0.8.8-py3-none-any.whl
+[2024-04-10 11:16:27] WARNING root fetch - processPackages [clara-viz-core]: Skipping package: exceeds size limit 16182298>=10485760
+[2024-04-10 11:16:27] INFO root fetch - main [MainThread]: End processing [clara-viz-core] error
+[2024-04-10 11:16:27] INFO root fetch - processPackages [clara-viz]: Downloading https://files.pythonhosted.org/packages/33/af/18bfb66f495d3fb8c0b40f0ab6fc96ef3ee6d2e6027c38222d7f4c2a8b98/clara_viz-0.4.0-py2.py3-none-any.whl
+[2024-04-10 11:16:27] INFO root fetch - processPackages [clara-viz]: Downloading https://files.pythonhosted.org/packages/33/af/18bfb66f495d3fb8c0b40f0ab6fc96ef3ee6d2e6027c38222d7f4c2a8b98/clara_viz-0.4.0-py2.py3-none-any.whl
+[2024-04-10 11:16:27] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-04-10 11:16:27] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240410/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-04-10 11:16:27] INFO root fetch - processPackages [pygments-lexer-petrichorscript]: Downloading https://files.pythonhosted.org/packages/20/6b/b5f09c11f5d328aa852029ae31a08e1156cdd5b1f8aad6a90f1dbf46d618/pygments-lexer-petrichorscript-1.0.5.tar.gz
+[2024-04-10 11:16:27] INFO root fetch - processPackages [clara-viz]: executing diffoscope
+[2024-04-10 11:16:27] INFO root fetch - processPackages [clara-viz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clara_viz-0.3.2-py2.py3-none-any.whl.zip tmp/clara_viz-0.4.0-py2.py3-none-any.whl.zip --markdown 20240410/c/clara-viz/0.3.2-0.4.0/README.md --exclude *.pyd
+[2024-04-10 11:16:27] INFO root fetch - processPackages [clara-viz]: executing diffoscope
+[2024-04-10 11:16:27] INFO root fetch - processPackages [clara-viz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clara_viz-0.3.2-py2.py3-none-any.whl.zip tmp/clara_viz-0.4.0-py2.py3-none-any.whl.zip --markdown 20240410/c/clara-viz/0.3.2-0.4.0/README.md --exclude *.pyd
+[2024-04-10 11:16:27] INFO root fetch - processPackages [pygments-lexer-petrichorscript]: executing diffoscope
+[2024-04-10 11:16:27] INFO root fetch - processPackages [pygments-lexer-petrichorscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygments-lexer-petrichorscript-1.0.4.tar.gz tmp/pygments-lexer-petrichorscript-1.0.5.tar.gz --markdown 20240410/p/pygments-lexer-petrichorscript/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-10 11:16:27] INFO root fetch - processPackages [RL-OM]: Downloading https://files.pythonhosted.org/packages/60/c3/87dd050cb3e40501c945f9c2e6c04e5d56c18565b74ab235d86ea2c9d24a/RL_OM-0.7.9.tar.gz
+[2024-04-10 11:16:27] INFO root fetch - processPackages [plotgen]: Downloading https://files.pythonhosted.org/packages/fc/01/b63cc63fb60f02349d59c48b26db7629ae04b5023d7a3ce1c60efc7b268e/plotgen-0.8.9-py3-none-any.whl
+[2024-04-10 11:16:27] INFO root fetch - processPackages [clara-viz-widgets]: Downloading https://files.pythonhosted.org/packages/9d/5a/656008e373e7cc435a08c286b3dbdbb7d14c443cb54ce27a3c3c4e1b0b65/clara_viz_widgets-0.4.0-py2.py3-none-any.whl
+[2024-04-10 11:16:27] INFO root fetch - processPackages [RL-OM]: executing diffoscope
+[2024-04-10 11:16:27] INFO root fetch - processPackages [RL-OM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RL_OM-0.7.87.tar.gz tmp/RL_OM-0.7.9.tar.gz --markdown 20240410/R/RL-OM/0.7.87-0.7.9/README.md --exclude *.pyd
+[2024-04-10 11:16:27] INFO root fetch - processPackages [plotgen]: executing diffoscope
+[2024-04-10 11:16:27] INFO root fetch - processPackages [plotgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plotgen-0.8.8-py3-none-any.whl.zip tmp/plotgen-0.8.9-py3-none-any.whl.zip --markdown 20240410/p/plotgen/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-04-10 11:16:27] INFO root fetch - processPackages [clara-viz-widgets]: executing diffoscope
+[2024-04-10 11:16:27] INFO root fetch - processPackages [clara-viz-widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clara_viz_widgets-0.3.1-py2.py3-none-any.whl.zip tmp/clara_viz_widgets-0.4.0-py2.py3-none-any.whl.zip --markdown 20240410/c/clara-viz-widgets/0.3.1-0.4.0/README.md --exclude *.pyd
+[2024-04-10 11:16:28] INFO root fetch - processPackages [pygments-lexer-petrichorscript]: Remove: archive file [/home/abi/fetcher/tmp/pygments-lexer-petrichorscript-1.0.4.tar.gz]
+[2024-04-10 11:16:28] INFO root fetch - processPackages [pygments-lexer-petrichorscript]: Remove: archive file [/home/abi/fetcher/tmp/pygments-lexer-petrichorscript-1.0.5.tar.gz]
+[2024-04-10 11:16:28] INFO root fetch - main [MainThread]: End processing [pygments-lexer-petrichorscript]: success
+[2024-04-10 11:16:28] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2024-04-10 11:16:28] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2024-04-10 11:16:28] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-04-10 11:16:28] INFO root fetch - processPackages [clara-viz]: Remove: archive file [/home/abi/fetcher/tmp/clara_viz-0.3.2-py2.py3-none-any.whl.zip]
+[2024-04-10 11:16:28] INFO root fetch - processPackages [clara-viz]: Remove: archive file [/home/abi/fetcher/tmp/clara_viz-0.4.0-py2.py3-none-any.whl.zip]
+[2024-04-10 11:16:28] INFO root fetch - main [MainThread]: End processing [clara-viz]: success
+[2024-04-10 11:16:28] INFO root fetch - main [MainThread]: End processing [clara-viz]: success
+[2024-04-10 11:16:28] INFO root fetch - processPackages [plotgen]: Remove: archive file [/home/abi/fetcher/tmp/plotgen-0.8.8-py3-none-any.whl.zip]
+[2024-04-10 11:16:28] INFO root fetch - processPackages [plotgen]: Remove: archive file [/home/abi/fetcher/tmp/plotgen-0.8.9-py3-none-any.whl.zip]
+[2024-04-10 11:16:28] INFO root fetch - main [MainThread]: End processing [plotgen]: success
+[2024-04-10 11:16:28] INFO root fetch - processPackages [RL-OM]: Remove: archive file [/home/abi/fetcher/tmp/RL_OM-0.7.87.tar.gz]
+[2024-04-10 11:16:28] INFO root fetch - processPackages [RL-OM]: Remove: archive file [/home/abi/fetcher/tmp/RL_OM-0.7.9.tar.gz]
+[2024-04-10 11:16:28] INFO root fetch - main [MainThread]: End processing [RL-OM]: success
+[2024-04-10 11:16:34] INFO root fetch - processPackages [clara-viz-widgets]: Remove: archive file [/home/abi/fetcher/tmp/clara_viz_widgets-0.3.1-py2.py3-none-any.whl.zip]
+[2024-04-10 11:16:34] INFO root fetch - processPackages [clara-viz-widgets]: Remove: archive file [/home/abi/fetcher/tmp/clara_viz_widgets-0.4.0-py2.py3-none-any.whl.zip]
+[2024-04-10 11:16:34] INFO root fetch - main [MainThread]: End processing [clara-viz-widgets]: success
+[2024-04-10 11:16:34] INFO root fetch - main [MainThread]: Store serial: [22698314]

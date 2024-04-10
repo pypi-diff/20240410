@@ -23348,3 +23348,90 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-10 14:16:21] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2024-04-10 14:16:21] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2024-04-10 14:16:21] INFO root fetch - main [MainThread]: Store serial: [22700748]
+[2024-04-10 14:18:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22700748]
+[2024-04-10 14:18:31] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-10 14:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hsr
+[2024-04-10 14:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hartware-lib
+[2024-04-10 14:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: thonny-etboard-micropython-firmware-v2
+[2024-04-10 14:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jsm-user-services
+[2024-04-10 14:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py-portfolio-index
+[2024-04-10 14:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hacktools
+[2024-04-10 14:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: barc4plots
+[2024-04-10 14:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eolymp
+[2024-04-10 14:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyoxynet
+[2024-04-10 14:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fgen
+[2024-04-10 14:18:31] INFO root fetch - processPackages [thonny-etboard-micropython-firmware-v2]: New version: [1.0.7] Old Version: [1.0.5]
+[2024-04-10 14:18:31] INFO root fetch - processPackages [hsr]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-10 14:18:32] INFO root fetch - processPackages [eolymp]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-10 14:18:32] WARNING root fetch - processPackages [barc4plots]: Skipping, unable to determine old version
+[2024-04-10 14:18:32] INFO root fetch - main [MainThread]: End processing [barc4plots] error
+[2024-04-10 14:18:32] INFO root fetch - processPackages [jsm-user-services]: New version: [1.4.0] Old Version: [1.3.7]
+[2024-04-10 14:18:32] INFO root fetch - processPackages [thonny-etboard-micropython-firmware-v2]: Downloading https://files.pythonhosted.org/packages/7a/93/2c83ad56e9211139acaabe8d35e1d481a038c7f39cb8e0408744bb084f03/thonny-etboard-micropython-firmware-v2-1.0.5.tar.gz
+[2024-04-10 14:18:32] INFO root fetch - processPackages [py-portfolio-index]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-10 14:18:32] INFO root fetch - processPackages [fgen]: New version: [0.4.1] Old Version: [0.3.1]
+[2024-04-10 14:18:32] INFO root fetch - processPackages [hartware-lib]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-04-10 14:18:32] INFO root fetch - processPackages [pyoxynet]: New version: [0.0.9.9] Old Version: [0.0.9.8]
+[2024-04-10 14:18:32] INFO root fetch - processPackages [eolymp]: Downloading https://files.pythonhosted.org/packages/b4/7e/616d80edbba0ebc4de3d8b9e073268ed513845acc17f3f0c5687e2745d1d/eolymp-0.9.8.tar.gz
+[2024-04-10 14:18:32] INFO root fetch - processPackages [hsr]: Downloading https://files.pythonhosted.org/packages/7f/ab/bfc8cb5e5290d5556d6162087d788994479bc2ccdc8b56b67e457cc5f6cd/HSR-0.1.5.tar.gz
+[2024-04-10 14:18:32] INFO root fetch - processPackages [jsm-user-services]: Downloading https://files.pythonhosted.org/packages/e9/92/0b0e893cbdc35e765f33a47981cdad787bdd4ccf10b3618734dd047552ac/jsm_user_services-1.3.7.tar.gz
+[2024-04-10 14:18:32] INFO root fetch - processPackages [fgen]: Downloading https://files.pythonhosted.org/packages/8e/ad/8fcd76b5a73cc1d89ec3cedd91db938e9fe8abd8753635ca26c522378550/fgen-0.3.1.tar.gz
+[2024-04-10 14:18:32] INFO root fetch - processPackages [hartware-lib]: Downloading https://files.pythonhosted.org/packages/03/46/ac0f39f8de34d3e502efc68fb0b4cb2db2ca0a3de162d83426118822c785/hartware_lib-0.5.8.tar.gz
+[2024-04-10 14:18:32] INFO root fetch - processPackages [py-portfolio-index]: Downloading https://files.pythonhosted.org/packages/56/47/1136551b0e963bbc2d3d3fce66043142f2f536a88a5e5918b3bae66b9480/py-portfolio-index-0.0.8.tar.gz
+[2024-04-10 14:18:32] INFO root fetch - processPackages [eolymp]: Downloading https://files.pythonhosted.org/packages/b7/fe/df96d638fe0a51e45220154bf6bc8588f92805e80d6cf2e908d0226bf3c9/eolymp-0.9.9.tar.gz
+[2024-04-10 14:18:32] INFO root fetch - processPackages [pyoxynet]: Downloading https://files.pythonhosted.org/packages/b0/fc/515fba70151d23e2002eff3cb89de86f3323f2de498b24ac5634ad424107/pyoxynet-0.0.9.8.tar.gz
+[2024-04-10 14:18:32] INFO root fetch - processPackages [hsr]: Downloading https://files.pythonhosted.org/packages/48/4f/57374aae7926460e91aa1e9b4e57a6b8a1784db87d63ea2a8dd609af9e99/HSR-0.1.6.tar.gz
+[2024-04-10 14:18:32] INFO root fetch - processPackages [hacktools]: New version: [0.9.0] Old Version: [0.8.7]
+[2024-04-10 14:18:32] INFO root fetch - processPackages [thonny-etboard-micropython-firmware-v2]: Downloading https://files.pythonhosted.org/packages/5d/5c/f62378d17ace253eb84bbe9616babe85dbae178f495668ff635ee763031f/thonny-etboard-micropython-firmware-v2-1.0.7.tar.gz
+[2024-04-10 14:18:32] INFO root fetch - processPackages [eolymp]: executing diffoscope
+[2024-04-10 14:18:32] INFO root fetch - processPackages [eolymp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eolymp-0.9.8.tar.gz tmp/eolymp-0.9.9.tar.gz --markdown 20240410/e/eolymp/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-10 14:18:32] INFO root fetch - processPackages [jsm-user-services]: Downloading https://files.pythonhosted.org/packages/13/1a/57f361d699549e74ddfe4073adc4cb99818f2215a3e9de534df3c3e58d6c/jsm_user_services-1.4.0.tar.gz
+[2024-04-10 14:18:32] INFO root fetch - processPackages [hsr]: executing diffoscope
+[2024-04-10 14:18:32] INFO root fetch - processPackages [hsr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HSR-0.1.5.tar.gz tmp/HSR-0.1.6.tar.gz --markdown 20240410/h/hsr/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-10 14:18:32] INFO root fetch - processPackages [hartware-lib]: Downloading https://files.pythonhosted.org/packages/7d/2a/7bd8d68f49311eac1ff785d955efb3e5cd3c5e784ed268c1d359483d5162/hartware_lib-0.5.9.tar.gz
+[2024-04-10 14:18:32] INFO root fetch - processPackages [jsm-user-services]: executing diffoscope
+[2024-04-10 14:18:32] INFO root fetch - processPackages [jsm-user-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsm_user_services-1.3.7.tar.gz tmp/jsm_user_services-1.4.0.tar.gz --markdown 20240410/j/jsm-user-services/1.3.7-1.4.0/README.md --exclude *.pyd
+[2024-04-10 14:18:32] INFO root fetch - processPackages [hacktools]: Downloading https://files.pythonhosted.org/packages/e4/c3/3c280c8e98e8d2851ec6e26962dd71a2e982b607a801367380dffe1b9104/hacktools-0.8.7.tar.gz
+[2024-04-10 14:18:32] INFO root fetch - processPackages [hartware-lib]: executing diffoscope
+[2024-04-10 14:18:32] INFO root fetch - processPackages [hartware-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hartware_lib-0.5.8.tar.gz tmp/hartware_lib-0.5.9.tar.gz --markdown 20240410/h/hartware-lib/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-04-10 14:18:32] INFO root fetch - processPackages [fgen]: Downloading https://files.pythonhosted.org/packages/fd/e7/52fe41bcf846357d16b3ad9b269b8f2c782abcbd0ff84be57f09709f18b6/fgen-0.4.1.tar.gz
+[2024-04-10 14:18:32] INFO root fetch - processPackages [py-portfolio-index]: Downloading https://files.pythonhosted.org/packages/35/d9/e930790cd08eb7aba472719eb95421a6b5ed634f852f1eb262a0430147f6/py-portfolio-index-0.0.9.tar.gz
+[2024-04-10 14:18:33] INFO root fetch - processPackages [thonny-etboard-micropython-firmware-v2]: executing diffoscope
+[2024-04-10 14:18:33] INFO root fetch - processPackages [thonny-etboard-micropython-firmware-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thonny-etboard-micropython-firmware-v2-1.0.5.tar.gz tmp/thonny-etboard-micropython-firmware-v2-1.0.7.tar.gz --markdown 20240410/t/thonny-etboard-micropython-firmware-v2/1.0.5-1.0.7/README.md --exclude *.pyd
+[2024-04-10 14:18:33] INFO root fetch - processPackages [py-portfolio-index]: executing diffoscope
+[2024-04-10 14:18:33] INFO root fetch - processPackages [py-portfolio-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-portfolio-index-0.0.8.tar.gz tmp/py-portfolio-index-0.0.9.tar.gz --markdown 20240410/p/py-portfolio-index/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-10 14:18:33] INFO root fetch - processPackages [fgen]: executing diffoscope
+[2024-04-10 14:18:33] INFO root fetch - processPackages [fgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fgen-0.3.1.tar.gz tmp/fgen-0.4.1.tar.gz --markdown 20240410/f/fgen/0.3.1-0.4.1/README.md --exclude *.pyd
+[2024-04-10 14:18:33] INFO root fetch - processPackages [hacktools]: Downloading https://files.pythonhosted.org/packages/b6/83/60990d272c11fd6564f42220419d25ec97bfa5d49fa5a5885d2ebd116f4b/hacktools-0.9.0.tar.gz
+[2024-04-10 14:18:33] INFO root fetch - processPackages [hacktools]: executing diffoscope
+[2024-04-10 14:18:33] INFO root fetch - processPackages [hacktools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hacktools-0.8.7.tar.gz tmp/hacktools-0.9.0.tar.gz --markdown 20240410/h/hacktools/0.8.7-0.9.0/README.md --exclude *.pyd
+[2024-04-10 14:18:33] INFO root fetch - processPackages [hsr]: Remove: archive file [/home/abi/fetcher/tmp/HSR-0.1.5.tar.gz]
+[2024-04-10 14:18:33] INFO root fetch - processPackages [hsr]: Remove: archive file [/home/abi/fetcher/tmp/HSR-0.1.6.tar.gz]
+[2024-04-10 14:18:33] INFO root fetch - main [MainThread]: End processing [hsr]: success
+[2024-04-10 14:18:33] INFO root fetch - processPackages [hartware-lib]: Remove: archive file [/home/abi/fetcher/tmp/hartware_lib-0.5.8.tar.gz]
+[2024-04-10 14:18:33] INFO root fetch - processPackages [hartware-lib]: Remove: archive file [/home/abi/fetcher/tmp/hartware_lib-0.5.9.tar.gz]
+[2024-04-10 14:18:33] INFO root fetch - main [MainThread]: End processing [hartware-lib]: success
+[2024-04-10 14:18:33] INFO root fetch - processPackages [pyoxynet]: Downloading https://files.pythonhosted.org/packages/41/8b/2c3056a7fa525137845d730655c8ebdc5f75e1a43909a910d81142b5a885/pyoxynet-0.0.9.9.tar.gz
+[2024-04-10 14:18:33] INFO root fetch - processPackages [jsm-user-services]: Remove: archive file [/home/abi/fetcher/tmp/jsm_user_services-1.3.7.tar.gz]
+[2024-04-10 14:18:33] INFO root fetch - processPackages [jsm-user-services]: Remove: archive file [/home/abi/fetcher/tmp/jsm_user_services-1.4.0.tar.gz]
+[2024-04-10 14:18:33] INFO root fetch - main [MainThread]: End processing [jsm-user-services]: success
+[2024-04-10 14:18:33] INFO root fetch - processPackages [py-portfolio-index]: Remove: archive file [/home/abi/fetcher/tmp/py-portfolio-index-0.0.8.tar.gz]
+[2024-04-10 14:18:33] INFO root fetch - processPackages [py-portfolio-index]: Remove: archive file [/home/abi/fetcher/tmp/py-portfolio-index-0.0.9.tar.gz]
+[2024-04-10 14:18:33] INFO root fetch - main [MainThread]: End processing [py-portfolio-index]: success
+[2024-04-10 14:18:33] INFO root fetch - processPackages [fgen]: Remove: archive file [/home/abi/fetcher/tmp/fgen-0.3.1.tar.gz]
+[2024-04-10 14:18:33] INFO root fetch - processPackages [fgen]: Remove: archive file [/home/abi/fetcher/tmp/fgen-0.4.1.tar.gz]
+[2024-04-10 14:18:33] INFO root fetch - main [MainThread]: End processing [fgen]: success
+[2024-04-10 14:18:33] INFO root fetch - processPackages [pyoxynet]: executing diffoscope
+[2024-04-10 14:18:33] INFO root fetch - processPackages [pyoxynet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyoxynet-0.0.9.8.tar.gz tmp/pyoxynet-0.0.9.9.tar.gz --markdown 20240410/p/pyoxynet/0.0.9.8-0.0.9.9/README.md --exclude *.pyd
+[2024-04-10 14:18:34] INFO root fetch - processPackages [thonny-etboard-micropython-firmware-v2]: Remove: archive file [/home/abi/fetcher/tmp/thonny-etboard-micropython-firmware-v2-1.0.5.tar.gz]
+[2024-04-10 14:18:34] INFO root fetch - processPackages [thonny-etboard-micropython-firmware-v2]: Remove: archive file [/home/abi/fetcher/tmp/thonny-etboard-micropython-firmware-v2-1.0.7.tar.gz]
+[2024-04-10 14:18:34] INFO root fetch - main [MainThread]: End processing [thonny-etboard-micropython-firmware-v2]: success
+[2024-04-10 14:18:34] INFO root fetch - processPackages [hacktools]: Remove: archive file [/home/abi/fetcher/tmp/hacktools-0.8.7.tar.gz]
+[2024-04-10 14:18:34] INFO root fetch - processPackages [hacktools]: Remove: archive file [/home/abi/fetcher/tmp/hacktools-0.9.0.tar.gz]
+[2024-04-10 14:18:34] INFO root fetch - main [MainThread]: End processing [hacktools]: success
+[2024-04-10 14:18:34] INFO root fetch - processPackages [eolymp]: Remove: archive file [/home/abi/fetcher/tmp/eolymp-0.9.8.tar.gz]
+[2024-04-10 14:18:34] INFO root fetch - processPackages [eolymp]: Remove: archive file [/home/abi/fetcher/tmp/eolymp-0.9.9.tar.gz]
+[2024-04-10 14:18:34] INFO root fetch - main [MainThread]: End processing [eolymp]: success
+[2024-04-10 14:18:35] INFO root fetch - processPackages [pyoxynet]: Remove: archive file [/home/abi/fetcher/tmp/pyoxynet-0.0.9.8.tar.gz]
+[2024-04-10 14:18:35] INFO root fetch - processPackages [pyoxynet]: Remove: archive file [/home/abi/fetcher/tmp/pyoxynet-0.0.9.9.tar.gz]
+[2024-04-10 14:18:35] INFO root fetch - main [MainThread]: End processing [pyoxynet]: success
+[2024-04-10 14:18:35] INFO root fetch - main [MainThread]: Store serial: [22700828]

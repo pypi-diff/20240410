@@ -15618,3 +15618,101 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 09:24:34] INFO root fetch - processPackages [pulumi-rancher2]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rancher2-6.2.0a1712730122.tar.gz]
 [2024-04-10 09:24:34] INFO root fetch - main [MainThread]: End processing [pulumi-rancher2]: success
 [2024-04-10 09:24:34] INFO root fetch - main [MainThread]: Store serial: [22696972]
+[2024-04-10 09:26:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22696972]
+[2024-04-10 09:26:42] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-10 09:26:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pfolio
+[2024-04-10 09:26:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pfund
+[2024-04-10 09:26:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pfeed
+[2024-04-10 09:26:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-sumologic
+[2024-04-10 09:26:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yellowdog-python-examples
+[2024-04-10 09:26:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zrb-ollama
+[2024-04-10 09:26:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: superlinked
+[2024-04-10 09:26:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: oxfel
+[2024-04-10 09:26:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: DLMS-SPODES-client
+[2024-04-10 09:26:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: robotframework-robocop
+[2024-04-10 09:26:42] INFO root fetch - processPackages [pfeed]: New version: [0.0.1.dev8] Old Version: [0.0.1.dev7]
+[2024-04-10 09:26:42] INFO root fetch - processPackages [pfund]: New version: [0.0.1.dev8] Old Version: [0.0.1.dev7]
+[2024-04-10 09:26:42] INFO root fetch - processPackages [pfolio]: New version: [0.0.1.dev2] Old Version: [0.0.1.dev1]
+[2024-04-10 09:26:42] INFO root fetch - processPackages [oxfel]: New version: [0.4.0] Old Version: [0.3.5]
+[2024-04-10 09:26:42] INFO root fetch - processPackages [DLMS-SPODES-client]: New version: [0.7.3] Old Version: [0.7.2]
+[2024-04-10 09:26:42] INFO root fetch - processPackages [pfeed]: Downloading https://files.pythonhosted.org/packages/79/f5/16343c90a1061264e731d27de377f7cf29f36e4f27256e670e7b2abe92d2/pfeed-0.0.1.dev7.tar.gz
+[2024-04-10 09:26:42] INFO root fetch - processPackages [pfund]: Downloading https://files.pythonhosted.org/packages/22/98/5a4e25b8542c13978600c303c0d12658f7888fc8111309a58bd5cc8363d1/pfund-0.0.1.dev7.tar.gz
+[2024-04-10 09:26:42] INFO root fetch - processPackages [superlinked]: New version: [3.9.1] Old Version: [3.9.0]
+[2024-04-10 09:26:42] INFO root fetch - processPackages [pulumi-sumologic]: New version: [0.9.1a1663799436] Old Version: [0.9.0]
+[2024-04-10 09:26:42] INFO root fetch - processPackages [zrb-ollama]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-10 09:26:42] INFO root fetch - processPackages [robotframework-robocop]: New version: [5.0.4] Old Version: [5.0.3]
+[2024-04-10 09:26:42] INFO root fetch - processPackages [pfolio]: Downloading https://files.pythonhosted.org/packages/44/b7/cc923a3750adfc549133ed2fa781f680b9cd9a7cf4c9d52c34d8d6c64e4f/pfolio-0.0.1.dev1.tar.gz
+[2024-04-10 09:26:42] INFO root fetch - processPackages [yellowdog-python-examples]: New version: [7.8.4] Old Version: [7.8.3]
+[2024-04-10 09:26:42] INFO root fetch - processPackages [oxfel]: Downloading https://files.pythonhosted.org/packages/3b/93/42aa886003ae384ea64beb13577f35af5ebf6dbe07c951ce4490dd6b6e3d/oxfel-0.3.5-py3-none-any.whl
+[2024-04-10 09:26:42] INFO root fetch - processPackages [DLMS-SPODES-client]: Downloading https://files.pythonhosted.org/packages/3b/41/9d356bff5306e89cda0ba7f88a4303cfcf7e761e31927ca9578bf5231ae6/DLMS_SPODES_client-0.7.2.tar.gz
+[2024-04-10 09:26:42] INFO root fetch - processPackages [zrb-ollama]: Downloading https://files.pythonhosted.org/packages/f4/ae/69059b69235236d7f5ee8e73d5ccae36e84fcab054c8f7e2210ea50def53/zrb_ollama-0.0.8.tar.gz
+[2024-04-10 09:26:42] WARNING root fetch - processPackages [oxfel]: Skipping package: exceeds size limit 11553058>=10485760
+[2024-04-10 09:26:42] INFO root fetch - processPackages [oxfel]: Start processing: miniagents
+[2024-04-10 09:26:42] INFO root fetch - main [MainThread]: End processing [oxfel] error
+[2024-04-10 09:26:42] INFO root fetch - processPackages [robotframework-robocop]: Downloading https://files.pythonhosted.org/packages/3e/e1/a842a69c5029710d9b69ba7c6655b115d1394060db62429634a87f8094a8/robotframework-robocop-5.0.3.tar.gz
+[2024-04-10 09:26:42] INFO root fetch - processPackages [superlinked]: Downloading https://files.pythonhosted.org/packages/f7/5e/84d09e0e05b737b135f953e725a7a56acf875659f3a729403902dc51bddf/superlinked-3.9.0.tar.gz
+[2024-04-10 09:26:42] INFO root fetch - processPackages [yellowdog-python-examples]: Downloading https://files.pythonhosted.org/packages/eb/5a/bc82984960ca553d738e602c174c640242094c48810ad4d6ef423ccdbfc7/yellowdog-python-examples-7.8.3.tar.gz
+[2024-04-10 09:26:42] INFO root fetch - processPackages [pulumi-sumologic]: Downloading https://files.pythonhosted.org/packages/6e/f2/ba414f5902bee40f219e9fb7e62d763f8263329614fc12ed2b5b02a34627/pulumi_sumologic-0.9.0.tar.gz
+[2024-04-10 09:26:43] INFO root fetch - processPackages [pfolio]: Downloading https://files.pythonhosted.org/packages/48/04/c43faa890fb6d9226589c2d24ba01ad2bf2265158ae8b7971ce00fbe4668/pfolio-0.0.1.dev2.tar.gz
+[2024-04-10 09:26:43] INFO root fetch - processPackages [miniagents]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-10 09:26:43] INFO root fetch - processPackages [pfeed]: Downloading https://files.pythonhosted.org/packages/f4/ad/ca0aff5489ee8fd709ea2d02b21f4eca153f9a4f4a588476a0a8f5c6802a/pfeed-0.0.1.dev8.tar.gz
+[2024-04-10 09:26:43] INFO root fetch - processPackages [pfund]: Downloading https://files.pythonhosted.org/packages/1c/aa/ebd79c573934175de76644a6c4e83b7d9cf6fc43cec2479397f21f4b60c2/pfund-0.0.1.dev8.tar.gz
+[2024-04-10 09:26:43] INFO root fetch - processPackages [DLMS-SPODES-client]: Downloading https://files.pythonhosted.org/packages/f2/08/dec60131ee353e2f334e3971aed664e12e5446324025ea6d9def83c6e631/DLMS_SPODES_client-0.7.3.tar.gz
+[2024-04-10 09:26:43] INFO root fetch - processPackages [pfolio]: executing diffoscope
+[2024-04-10 09:26:43] INFO root fetch - processPackages [pfolio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pfolio-0.0.1.dev1.tar.gz tmp/pfolio-0.0.1.dev2.tar.gz --markdown 20240410/p/pfolio/0.0.1.dev1-0.0.1.dev2/README.md --exclude *.pyd
+[2024-04-10 09:26:43] INFO root fetch - processPackages [pfeed]: executing diffoscope
+[2024-04-10 09:26:43] INFO root fetch - processPackages [pfeed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pfeed-0.0.1.dev7.tar.gz tmp/pfeed-0.0.1.dev8.tar.gz --markdown 20240410/p/pfeed/0.0.1.dev7-0.0.1.dev8/README.md --exclude *.pyd
+[2024-04-10 09:26:43] INFO root fetch - processPackages [miniagents]: Downloading https://files.pythonhosted.org/packages/5b/6a/ea8a3f73ed735a67251ac95c162686f5636aed9201e3877706e399ba4bb4/miniagents-0.0.3.tar.gz
+[2024-04-10 09:26:43] INFO root fetch - processPackages [pfund]: executing diffoscope
+[2024-04-10 09:26:43] INFO root fetch - processPackages [pfund]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pfund-0.0.1.dev7.tar.gz tmp/pfund-0.0.1.dev8.tar.gz --markdown 20240410/p/pfund/0.0.1.dev7-0.0.1.dev8/README.md --exclude *.pyd
+[2024-04-10 09:26:43] INFO root fetch - processPackages [DLMS-SPODES-client]: executing diffoscope
+[2024-04-10 09:26:43] INFO root fetch - processPackages [DLMS-SPODES-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES_client-0.7.2.tar.gz tmp/DLMS_SPODES_client-0.7.3.tar.gz --markdown 20240410/D/DLMS-SPODES-client/0.7.2-0.7.3/README.md --exclude *.pyd
+[2024-04-10 09:26:43] INFO root fetch - processPackages [superlinked]: Downloading https://files.pythonhosted.org/packages/8f/6e/416193b22be21ffe493186a65f1f74ccb3521c483e54ad50c3c9f4533119/superlinked-3.9.1.tar.gz
+[2024-04-10 09:26:43] INFO root fetch - processPackages [yellowdog-python-examples]: Downloading https://files.pythonhosted.org/packages/2d/41/14de62825f7c2607dfb9f8538ab61f0e4d43eed6e037ced59009a0f8de63/yellowdog-python-examples-7.8.4.tar.gz
+[2024-04-10 09:26:43] INFO root fetch - processPackages [pulumi-sumologic]: Downloading https://files.pythonhosted.org/packages/67/c4/8f95a0de8aac6e9d9348bd2698c48e05211e3a2fabda9b0e7bcaa7b80ca8/pulumi_sumologic-0.9.1a1663799436.tar.gz
+[2024-04-10 09:26:43] INFO root fetch - processPackages [zrb-ollama]: Downloading https://files.pythonhosted.org/packages/69/23/7a6f9fb793122c69b80ff6088f3dfab05f8782dabcf0f861a1f3e8a98a56/zrb_ollama-0.0.9.tar.gz
+[2024-04-10 09:26:43] INFO root fetch - processPackages [robotframework-robocop]: Downloading https://files.pythonhosted.org/packages/8a/20/6c986381b6ac9d9b07d13d0cb09e4878e0e7dd30c656c72de59b1dfcacb5/robotframework-robocop-5.0.4.tar.gz
+[2024-04-10 09:26:43] INFO root fetch - processPackages [superlinked]: executing diffoscope
+[2024-04-10 09:26:43] INFO root fetch - processPackages [superlinked]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superlinked-3.9.0.tar.gz tmp/superlinked-3.9.1.tar.gz --markdown 20240410/s/superlinked/3.9.0-3.9.1/README.md --exclude *.pyd
+[2024-04-10 09:26:43] INFO root fetch - processPackages [yellowdog-python-examples]: executing diffoscope
+[2024-04-10 09:26:43] INFO root fetch - processPackages [yellowdog-python-examples]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yellowdog-python-examples-7.8.3.tar.gz tmp/yellowdog-python-examples-7.8.4.tar.gz --markdown 20240410/y/yellowdog-python-examples/7.8.3-7.8.4/README.md --exclude *.pyd
+[2024-04-10 09:26:43] INFO root fetch - processPackages [pulumi-sumologic]: executing diffoscope
+[2024-04-10 09:26:43] INFO root fetch - processPackages [pulumi-sumologic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_sumologic-0.9.0.tar.gz tmp/pulumi_sumologic-0.9.1a1663799436.tar.gz --markdown 20240410/p/pulumi-sumologic/0.9.0-0.9.1a1663799436/README.md --exclude *.pyd
+[2024-04-10 09:26:43] INFO root fetch - processPackages [zrb-ollama]: executing diffoscope
+[2024-04-10 09:26:43] INFO root fetch - processPackages [zrb-ollama]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zrb_ollama-0.0.8.tar.gz tmp/zrb_ollama-0.0.9.tar.gz --markdown 20240410/z/zrb-ollama/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-10 09:26:43] INFO root fetch - processPackages [robotframework-robocop]: executing diffoscope
+[2024-04-10 09:26:43] INFO root fetch - processPackages [robotframework-robocop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-robocop-5.0.3.tar.gz tmp/robotframework-robocop-5.0.4.tar.gz --markdown 20240410/r/robotframework-robocop/5.0.3-5.0.4/README.md --exclude *.pyd
+[2024-04-10 09:26:43] INFO root fetch - processPackages [miniagents]: Downloading https://files.pythonhosted.org/packages/cf/fe/fadb01c0382ccb6e8bb0e52f8ac427dfe1a1c03adfff608d92eb6789409f/miniagents-0.0.4.tar.gz
+[2024-04-10 09:26:44] INFO root fetch - processPackages [miniagents]: executing diffoscope
+[2024-04-10 09:26:44] INFO root fetch - processPackages [miniagents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miniagents-0.0.3.tar.gz tmp/miniagents-0.0.4.tar.gz --markdown 20240410/m/miniagents/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-10 09:26:44] INFO root fetch - processPackages [pfolio]: Remove: archive file [/home/abi/fetcher/tmp/pfolio-0.0.1.dev1.tar.gz]
+[2024-04-10 09:26:44] INFO root fetch - processPackages [pfolio]: Remove: archive file [/home/abi/fetcher/tmp/pfolio-0.0.1.dev2.tar.gz]
+[2024-04-10 09:26:44] INFO root fetch - main [MainThread]: End processing [pfolio]: success
+[2024-04-10 09:26:44] INFO root fetch - processPackages [pfeed]: Remove: archive file [/home/abi/fetcher/tmp/pfeed-0.0.1.dev7.tar.gz]
+[2024-04-10 09:26:44] INFO root fetch - processPackages [pfeed]: Remove: archive file [/home/abi/fetcher/tmp/pfeed-0.0.1.dev8.tar.gz]
+[2024-04-10 09:26:44] INFO root fetch - main [MainThread]: End processing [pfeed]: success
+[2024-04-10 09:26:44] INFO root fetch - processPackages [DLMS-SPODES-client]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES_client-0.7.2.tar.gz]
+[2024-04-10 09:26:44] INFO root fetch - processPackages [DLMS-SPODES-client]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES_client-0.7.3.tar.gz]
+[2024-04-10 09:26:44] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES-client]: success
+[2024-04-10 09:26:44] INFO root fetch - processPackages [zrb-ollama]: Remove: archive file [/home/abi/fetcher/tmp/zrb_ollama-0.0.8.tar.gz]
+[2024-04-10 09:26:44] INFO root fetch - processPackages [zrb-ollama]: Remove: archive file [/home/abi/fetcher/tmp/zrb_ollama-0.0.9.tar.gz]
+[2024-04-10 09:26:44] INFO root fetch - main [MainThread]: End processing [zrb-ollama]: success
+[2024-04-10 09:26:45] INFO root fetch - processPackages [pfund]: Remove: archive file [/home/abi/fetcher/tmp/pfund-0.0.1.dev7.tar.gz]
+[2024-04-10 09:26:45] INFO root fetch - processPackages [pfund]: Remove: archive file [/home/abi/fetcher/tmp/pfund-0.0.1.dev8.tar.gz]
+[2024-04-10 09:26:45] INFO root fetch - main [MainThread]: End processing [pfund]: success
+[2024-04-10 09:26:45] INFO root fetch - processPackages [yellowdog-python-examples]: Remove: archive file [/home/abi/fetcher/tmp/yellowdog-python-examples-7.8.3.tar.gz]
+[2024-04-10 09:26:45] INFO root fetch - processPackages [yellowdog-python-examples]: Remove: archive file [/home/abi/fetcher/tmp/yellowdog-python-examples-7.8.4.tar.gz]
+[2024-04-10 09:26:45] INFO root fetch - main [MainThread]: End processing [yellowdog-python-examples]: success
+[2024-04-10 09:26:45] INFO root fetch - processPackages [pulumi-sumologic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_sumologic-0.9.0.tar.gz]
+[2024-04-10 09:26:45] INFO root fetch - processPackages [pulumi-sumologic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_sumologic-0.9.1a1663799436.tar.gz]
+[2024-04-10 09:26:45] INFO root fetch - main [MainThread]: End processing [pulumi-sumologic]: success
+[2024-04-10 09:26:45] INFO root fetch - processPackages [robotframework-robocop]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-robocop-5.0.3.tar.gz]
+[2024-04-10 09:26:45] INFO root fetch - processPackages [robotframework-robocop]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-robocop-5.0.4.tar.gz]
+[2024-04-10 09:26:45] INFO root fetch - main [MainThread]: End processing [robotframework-robocop]: success
+[2024-04-10 09:26:45] INFO root fetch - processPackages [miniagents]: Remove: archive file [/home/abi/fetcher/tmp/miniagents-0.0.3.tar.gz]
+[2024-04-10 09:26:45] INFO root fetch - processPackages [miniagents]: Remove: archive file [/home/abi/fetcher/tmp/miniagents-0.0.4.tar.gz]
+[2024-04-10 09:26:45] INFO root fetch - main [MainThread]: End processing [miniagents]: success
+[2024-04-10 09:26:45] INFO root fetch - processPackages [superlinked]: Remove: archive file [/home/abi/fetcher/tmp/superlinked-3.9.0.tar.gz]
+[2024-04-10 09:26:45] INFO root fetch - processPackages [superlinked]: Remove: archive file [/home/abi/fetcher/tmp/superlinked-3.9.1.tar.gz]
+[2024-04-10 09:26:45] INFO root fetch - main [MainThread]: End processing [superlinked]: success
+[2024-04-10 09:26:45] INFO root fetch - main [MainThread]: Store serial: [22697001]

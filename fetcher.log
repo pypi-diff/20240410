@@ -11427,3 +11427,72 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 05:56:54] INFO root fetch - processPackages [ros-cdk-acm]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-acm-1.0.9.tar.gz]
 [2024-04-10 05:56:54] INFO root fetch - main [MainThread]: End processing [ros-cdk-acm]: success
 [2024-04-10 05:56:54] INFO root fetch - main [MainThread]: Store serial: [22695474]
+[2024-04-10 05:58:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22695474]
+[2024-04-10 05:59:03] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-10 05:59:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ros-cdk-waf
+[2024-04-10 05:59:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aa-bootswatch
+[2024-04-10 05:59:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: notification-py
+[2024-04-10 05:59:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-ssi-state-change-constrain-mixin
+[2024-04-10 05:59:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: t265
+[2024-04-10 05:59:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-ssi-status-check-mixin
+[2024-04-10 05:59:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ros-cdk-nas
+[2024-04-10 05:59:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ros-cdk-emr
+[2024-04-10 05:59:03] INFO root fetch - processPackages [notification-py]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-10 05:59:03] INFO root fetch - processPackages [odoo14-addon-ssi-state-change-constrain-mixin]: New version: [14.0.1.7.0] Old Version: [14.0.1.6.1]
+[2024-04-10 05:59:03] INFO root fetch - processPackages [ros-cdk-nas]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-10 05:59:03] INFO root fetch - processPackages [ros-cdk-waf]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-10 05:59:03] INFO root fetch - processPackages [notification-py]: Downloading https://files.pythonhosted.org/packages/be/a3/c4534ceb28b8cde176a1761a9f6a35a342796bee2fd2157f39ecb400cf78/notification_py-0.0.8.tar.gz
+[2024-04-10 05:59:03] WARNING root fetch - processPackages [aa-bootswatch]: Skipping, unable to determine old version
+[2024-04-10 05:59:03] INFO root fetch - main [MainThread]: End processing [aa-bootswatch] error
+[2024-04-10 05:59:03] INFO root fetch - processPackages [ros-cdk-emr]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-10 05:59:03] INFO root fetch - processPackages [t265]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-10 05:59:03] INFO root fetch - processPackages [odoo14-addon-ssi-status-check-mixin]: New version: [14.0.2.2.0] Old Version: [14.0.2.1.1]
+[2024-04-10 05:59:04] INFO root fetch - processPackages [odoo14-addon-ssi-state-change-constrain-mixin]: Downloading https://files.pythonhosted.org/packages/a6/1b/de2728ddb98049415d4591f35ea8e30ce7a067f2b1dd1a0f0358bf385c9e/odoo14_addon_ssi_state_change_constrain_mixin-14.0.1.6.1-py3-none-any.whl
+[2024-04-10 05:59:04] INFO root fetch - processPackages [ros-cdk-waf]: Downloading https://files.pythonhosted.org/packages/a9/70/b12853a89bbcbb70d17ad4e181706e68e07950df8d46ede35d4033b38e82/ros-cdk-waf-1.0.8.tar.gz
+[2024-04-10 05:59:04] INFO root fetch - processPackages [notification-py]: Downloading https://files.pythonhosted.org/packages/7b/b9/db93173f86455aca87420afcdfbc3116912eeb355772f86954f6f0c58c2a/notification_py-0.0.9.tar.gz
+[2024-04-10 05:59:04] INFO root fetch - processPackages [ros-cdk-nas]: Downloading https://files.pythonhosted.org/packages/82/0f/51e12fdd559235a6d01da0cf5466cb8c2c894633b792f408fd6c107b5b7b/ros-cdk-nas-1.0.8.tar.gz
+[2024-04-10 05:59:04] INFO root fetch - processPackages [ros-cdk-emr]: Downloading https://files.pythonhosted.org/packages/50/61/202417019680bcdf94da5ef5ff605881e25813c2c7cd5b4bf0d3190d9e33/ros-cdk-emr-1.0.8.tar.gz
+[2024-04-10 05:59:04] INFO root fetch - processPackages [odoo14-addon-ssi-status-check-mixin]: Downloading https://files.pythonhosted.org/packages/15/ff/fa290a4e0b28947269a426ad47ecfdbcbac6442974af3d2342310d4eae21/odoo14_addon_ssi_status_check_mixin-14.0.2.1.1-py3-none-any.whl
+[2024-04-10 05:59:04] INFO root fetch - processPackages [t265]: Downloading https://files.pythonhosted.org/packages/cf/69/242c3357a904d6615a0501f70feaf98832e847ecd2b951064c0a19c5a4fc/t265-0.1.8.tar.gz
+[2024-04-10 05:59:04] INFO root fetch - processPackages [notification-py]: executing diffoscope
+[2024-04-10 05:59:04] INFO root fetch - processPackages [notification-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notification_py-0.0.8.tar.gz tmp/notification_py-0.0.9.tar.gz --markdown 20240410/n/notification-py/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-10 05:59:04] INFO root fetch - processPackages [odoo14-addon-ssi-state-change-constrain-mixin]: Downloading https://files.pythonhosted.org/packages/c8/b3/4abc9121141878f60bf926d338a6337337d152c1ac2d4b9cef24aa09a3b0/odoo14_addon_ssi_state_change_constrain_mixin-14.0.1.7.0-py3-none-any.whl
+[2024-04-10 05:59:04] INFO root fetch - processPackages [t265]: Downloading https://files.pythonhosted.org/packages/29/e7/2ae62a9393e14f8db6efb9c46a4d743b95f34958328a84ed8a8e8ecaeb95/t265-0.1.9-py3-none-any.whl
+[2024-04-10 05:59:04] INFO root fetch - processPackages [ros-cdk-emr]: Downloading https://files.pythonhosted.org/packages/8e/dd/a78ed513dffb3ea1146d45f0e1e11a5e14f1ba4e37217d9c7fc294a8ae85/ros-cdk-emr-1.0.9.tar.gz
+[2024-04-10 05:59:04] INFO root fetch - processPackages [odoo14-addon-ssi-state-change-constrain-mixin]: executing diffoscope
+[2024-04-10 05:59:04] INFO root fetch - processPackages [odoo14-addon-ssi-state-change-constrain-mixin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ssi_state_change_constrain_mixin-14.0.1.6.1-py3-none-any.whl.zip tmp/odoo14_addon_ssi_state_change_constrain_mixin-14.0.1.7.0-py3-none-any.whl.zip --markdown 20240410/o/odoo14-addon-ssi-state-change-constrain-mixin/14.0.1.6.1-14.0.1.7.0/README.md --exclude *.pyd
+[2024-04-10 05:59:04] INFO root fetch - processPackages [t265]: executing diffoscope
+[2024-04-10 05:59:04] INFO root fetch - processPackages [t265]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t265-0.1.8.tar.gz tmp/t265-0.1.9-py3-none-any.whl.zip --markdown 20240410/t/t265/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-10 05:59:04] INFO root fetch - processPackages [ros-cdk-waf]: Downloading https://files.pythonhosted.org/packages/50/4b/86db9ca259d7bfef95fb333226033ce4d276df87301e9784639da81572aa/ros-cdk-waf-1.0.9.tar.gz
+[2024-04-10 05:59:04] INFO root fetch - processPackages [ros-cdk-nas]: Downloading https://files.pythonhosted.org/packages/df/65/0baa91d3551d59c6ac463425f293aaad4c7f1067a94d70014c2056f5b5a8/ros-cdk-nas-1.0.9.tar.gz
+[2024-04-10 05:59:04] INFO root fetch - processPackages [odoo14-addon-ssi-status-check-mixin]: Downloading https://files.pythonhosted.org/packages/8c/cb/4ec8c535d1b70b2e76213fd5d3915935f34e841a5444e61dd47a63b31c3a/odoo14_addon_ssi_status_check_mixin-14.0.2.2.0-py3-none-any.whl
+[2024-04-10 05:59:04] INFO root fetch - processPackages [ros-cdk-emr]: executing diffoscope
+[2024-04-10 05:59:04] INFO root fetch - processPackages [ros-cdk-emr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-emr-1.0.8.tar.gz tmp/ros-cdk-emr-1.0.9.tar.gz --markdown 20240410/r/ros-cdk-emr/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-10 05:59:04] INFO root fetch - processPackages [ros-cdk-waf]: executing diffoscope
+[2024-04-10 05:59:04] INFO root fetch - processPackages [ros-cdk-waf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-waf-1.0.8.tar.gz tmp/ros-cdk-waf-1.0.9.tar.gz --markdown 20240410/r/ros-cdk-waf/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-10 05:59:04] INFO root fetch - processPackages [ros-cdk-nas]: executing diffoscope
+[2024-04-10 05:59:04] INFO root fetch - processPackages [ros-cdk-nas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-nas-1.0.8.tar.gz tmp/ros-cdk-nas-1.0.9.tar.gz --markdown 20240410/r/ros-cdk-nas/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-10 05:59:04] INFO root fetch - processPackages [odoo14-addon-ssi-status-check-mixin]: executing diffoscope
+[2024-04-10 05:59:04] INFO root fetch - processPackages [odoo14-addon-ssi-status-check-mixin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ssi_status_check_mixin-14.0.2.1.1-py3-none-any.whl.zip tmp/odoo14_addon_ssi_status_check_mixin-14.0.2.2.0-py3-none-any.whl.zip --markdown 20240410/o/odoo14-addon-ssi-status-check-mixin/14.0.2.1.1-14.0.2.2.0/README.md --exclude *.pyd
+[2024-04-10 05:59:04] INFO root fetch - processPackages [notification-py]: Remove: archive file [/home/abi/fetcher/tmp/notification_py-0.0.8.tar.gz]
+[2024-04-10 05:59:04] INFO root fetch - processPackages [notification-py]: Remove: archive file [/home/abi/fetcher/tmp/notification_py-0.0.9.tar.gz]
+[2024-04-10 05:59:04] INFO root fetch - main [MainThread]: End processing [notification-py]: success
+[2024-04-10 05:59:05] INFO root fetch - processPackages [t265]: Remove: archive file [/home/abi/fetcher/tmp/t265-0.1.8.tar.gz]
+[2024-04-10 05:59:05] INFO root fetch - processPackages [t265]: Remove: archive file [/home/abi/fetcher/tmp/t265-0.1.9-py3-none-any.whl.zip]
+[2024-04-10 05:59:05] INFO root fetch - main [MainThread]: End processing [t265]: success
+[2024-04-10 05:59:05] INFO root fetch - processPackages [odoo14-addon-ssi-state-change-constrain-mixin]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_state_change_constrain_mixin-14.0.1.6.1-py3-none-any.whl.zip]
+[2024-04-10 05:59:05] INFO root fetch - processPackages [odoo14-addon-ssi-state-change-constrain-mixin]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_state_change_constrain_mixin-14.0.1.7.0-py3-none-any.whl.zip]
+[2024-04-10 05:59:05] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-state-change-constrain-mixin]: success
+[2024-04-10 05:59:05] INFO root fetch - processPackages [ros-cdk-emr]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-emr-1.0.8.tar.gz]
+[2024-04-10 05:59:05] INFO root fetch - processPackages [ros-cdk-emr]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-emr-1.0.9.tar.gz]
+[2024-04-10 05:59:05] INFO root fetch - main [MainThread]: End processing [ros-cdk-emr]: success
+[2024-04-10 05:59:05] INFO root fetch - processPackages [ros-cdk-nas]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-nas-1.0.8.tar.gz]
+[2024-04-10 05:59:05] INFO root fetch - processPackages [ros-cdk-nas]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-nas-1.0.9.tar.gz]
+[2024-04-10 05:59:05] INFO root fetch - main [MainThread]: End processing [ros-cdk-nas]: success
+[2024-04-10 05:59:05] INFO root fetch - processPackages [ros-cdk-waf]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-waf-1.0.8.tar.gz]
+[2024-04-10 05:59:05] INFO root fetch - processPackages [ros-cdk-waf]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-waf-1.0.9.tar.gz]
+[2024-04-10 05:59:05] INFO root fetch - main [MainThread]: End processing [ros-cdk-waf]: success
+[2024-04-10 05:59:05] INFO root fetch - processPackages [odoo14-addon-ssi-status-check-mixin]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_status_check_mixin-14.0.2.1.1-py3-none-any.whl.zip]
+[2024-04-10 05:59:05] INFO root fetch - processPackages [odoo14-addon-ssi-status-check-mixin]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_status_check_mixin-14.0.2.2.0-py3-none-any.whl.zip]
+[2024-04-10 05:59:05] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-status-check-mixin]: success
+[2024-04-10 05:59:05] INFO root fetch - main [MainThread]: Store serial: [22695495]

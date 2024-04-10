@@ -20895,3 +20895,52 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 12:48:40] INFO root fetch - processPackages [h5py]: Remove: archive file [/home/abi/fetcher/tmp/h5py-3.9.0.tar.gz]
 [2024-04-10 12:48:40] INFO root fetch - main [MainThread]: End processing [h5py]: success
 [2024-04-10 12:48:40] INFO root fetch - main [MainThread]: Store serial: [22699371]
+[2024-04-10 12:50:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22699371]
+[2024-04-10 12:50:49] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-10 12:50:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: optrabot
+[2024-04-10 12:50:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: topologicpy
+[2024-04-10 12:50:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: FJFormer
+[2024-04-10 12:50:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: certora-cli-alpha-master
+[2024-04-10 12:50:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pygoogalytics
+[2024-04-10 12:50:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: music-kraken
+[2024-04-10 12:50:49] INFO root fetch - processPackages [optrabot]: New version: [0.8.2a2] Old Version: [0.8.2a1]
+[2024-04-10 12:50:49] INFO root fetch - processPackages [pygoogalytics]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-04-10 12:50:49] INFO root fetch - processPackages [FJFormer]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-10 12:50:49] INFO root fetch - processPackages [music-kraken]: New version: [1.9.0] Old Version: [1.2.0]
+[2024-04-10 12:50:49] INFO root fetch - processPackages [topologicpy]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-04-10 12:50:49] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240410.9.49.501422] Old Version: [20240410.10.25.161527]
+[2024-04-10 12:50:49] INFO root fetch - processPackages [pygoogalytics]: Downloading https://files.pythonhosted.org/packages/1b/91/f1c87d3dd588d92f54b1d9abc16a3d0442024fc3e3862a578fb13436c1cd/pygoogalytics-0.6.8.tar.gz
+[2024-04-10 12:50:49] INFO root fetch - processPackages [optrabot]: Downloading https://files.pythonhosted.org/packages/c2/fc/4aab567caf06974fadf46e2c728ac98ab7bd24d40ce1260eb26054c6ef67/optrabot-0.8.2a1.tar.gz
+[2024-04-10 12:50:49] INFO root fetch - processPackages [FJFormer]: Downloading https://files.pythonhosted.org/packages/0b/43/850472cfcc60a0b17d735c2f45192f54fa27699e51327cc54c462f338d8b/fjformer-0.0.8.tar.gz
+[2024-04-10 12:50:49] INFO root fetch - processPackages [topologicpy]: Downloading https://files.pythonhosted.org/packages/48/5a/b279e6fe9228272a276b31a6a01292677b81aba647661d969e795f980b0b/topologicpy-0.5.0.tar.gz
+[2024-04-10 12:50:49] INFO root fetch - processPackages [music-kraken]: Downloading https://files.pythonhosted.org/packages/b5/11/af6a2af22042e3643add72a31ff2e3ed9b24d5c3b2a5847d36b386dd478c/music_kraken-1.2.0.tar.gz
+[2024-04-10 12:50:49] WARNING root fetch - processPackages [topologicpy]: Skipping package: exceeds size limit 50602427>=10485760
+[2024-04-10 12:50:49] INFO root fetch - main [MainThread]: End processing [topologicpy] error
+[2024-04-10 12:50:49] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/23/d9/0a73f27d06f33d64f6d5e4bbd36dc4774e329800ada716147ca9f8fddc48/certora-cli-alpha-master-20240410.10.25.161527.tar.gz
+[2024-04-10 12:50:49] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14482362>=10485760
+[2024-04-10 12:50:49] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-04-10 12:50:49] INFO root fetch - processPackages [music-kraken]: Downloading https://files.pythonhosted.org/packages/f6/bf/5cddc4d49d5389dbb323168d462c1ecc653460365394780a774f82856f43/music_kraken-1.9.0.tar.gz
+[2024-04-10 12:50:49] INFO root fetch - processPackages [FJFormer]: Downloading https://files.pythonhosted.org/packages/8f/ec/c16449606954b352deeb85b070a59df2b7f8672cf157269ebbf120b62e62/fjformer-0.0.9.tar.gz
+[2024-04-10 12:50:49] INFO root fetch - processPackages [pygoogalytics]: Downloading https://files.pythonhosted.org/packages/c8/45/2026883e07e10ce826c33444a90c539e25e489ab2b8539b08e55efa185b7/pygoogalytics-0.6.9.tar.gz
+[2024-04-10 12:50:49] INFO root fetch - processPackages [optrabot]: Downloading https://files.pythonhosted.org/packages/05/cd/eabe0791768734291a536a96e4e2e52dcfa21878ae8aa04b4de728e90782/optrabot-0.8.2a2.tar.gz
+[2024-04-10 12:50:49] INFO root fetch - processPackages [music-kraken]: executing diffoscope
+[2024-04-10 12:50:49] INFO root fetch - processPackages [music-kraken]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/music_kraken-1.2.0.tar.gz tmp/music_kraken-1.9.0.tar.gz --markdown 20240410/m/music-kraken/1.2.0-1.9.0/README.md --exclude *.pyd
+[2024-04-10 12:50:49] INFO root fetch - processPackages [pygoogalytics]: executing diffoscope
+[2024-04-10 12:50:49] INFO root fetch - processPackages [pygoogalytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygoogalytics-0.6.8.tar.gz tmp/pygoogalytics-0.6.9.tar.gz --markdown 20240410/p/pygoogalytics/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-04-10 12:50:49] INFO root fetch - processPackages [FJFormer]: executing diffoscope
+[2024-04-10 12:50:49] INFO root fetch - processPackages [FJFormer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fjformer-0.0.8.tar.gz tmp/fjformer-0.0.9.tar.gz --markdown 20240410/F/FJFormer/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-10 12:50:49] INFO root fetch - processPackages [optrabot]: executing diffoscope
+[2024-04-10 12:50:49] INFO root fetch - processPackages [optrabot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optrabot-0.8.2a1.tar.gz tmp/optrabot-0.8.2a2.tar.gz --markdown 20240410/o/optrabot/0.8.2a1-0.8.2a2/README.md --exclude *.pyd
+[2024-04-10 12:50:50] INFO root fetch - processPackages [music-kraken]: Remove: archive file [/home/abi/fetcher/tmp/music_kraken-1.2.0.tar.gz]
+[2024-04-10 12:50:50] INFO root fetch - processPackages [music-kraken]: Remove: archive file [/home/abi/fetcher/tmp/music_kraken-1.9.0.tar.gz]
+[2024-04-10 12:50:50] INFO root fetch - main [MainThread]: End processing [music-kraken]: success
+[2024-04-10 12:50:50] INFO root fetch - processPackages [pygoogalytics]: Remove: archive file [/home/abi/fetcher/tmp/pygoogalytics-0.6.8.tar.gz]
+[2024-04-10 12:50:50] INFO root fetch - processPackages [pygoogalytics]: Remove: archive file [/home/abi/fetcher/tmp/pygoogalytics-0.6.9.tar.gz]
+[2024-04-10 12:50:50] INFO root fetch - main [MainThread]: End processing [pygoogalytics]: success
+[2024-04-10 12:50:50] INFO root fetch - processPackages [FJFormer]: Remove: archive file [/home/abi/fetcher/tmp/fjformer-0.0.8.tar.gz]
+[2024-04-10 12:50:50] INFO root fetch - processPackages [FJFormer]: Remove: archive file [/home/abi/fetcher/tmp/fjformer-0.0.9.tar.gz]
+[2024-04-10 12:50:50] INFO root fetch - main [MainThread]: End processing [FJFormer]: success
+[2024-04-10 12:50:50] INFO root fetch - processPackages [optrabot]: Remove: archive file [/home/abi/fetcher/tmp/optrabot-0.8.2a1.tar.gz]
+[2024-04-10 12:50:50] INFO root fetch - processPackages [optrabot]: Remove: archive file [/home/abi/fetcher/tmp/optrabot-0.8.2a2.tar.gz]
+[2024-04-10 12:50:50] INFO root fetch - main [MainThread]: End processing [optrabot]: success
+[2024-04-10 12:50:50] INFO root fetch - main [MainThread]: Store serial: [22699406]

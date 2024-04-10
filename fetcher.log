@@ -14977,3 +14977,72 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 09:00:25] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.33.1.dev20240408.tar.gz]
 [2024-04-10 09:00:25] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2024-04-10 09:00:25] INFO root fetch - main [MainThread]: Store serial: [22696747]
+[2024-04-10 09:02:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22696747]
+[2024-04-10 09:02:34] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-10 09:02:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zscaler-pulumi-zia
+[2024-04-10 09:02:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: collective.eeafaceted.collectionwidget
+[2024-04-10 09:02:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ul-api-utils
+[2024-04-10 09:02:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hubstudio-api
+[2024-04-10 09:02:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyckb
+[2024-04-10 09:02:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: collective.iconifiedcategory
+[2024-04-10 09:02:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tf-models-nightly
+[2024-04-10 09:02:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: seqio-nightly
+[2024-04-10 09:02:34] INFO root fetch - processPackages [zscaler-pulumi-zia]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-10 09:02:34] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2024-04-10 09:02:34] INFO root fetch - processPackages [ul-api-utils]: New version: [7.8.5] Old Version: [7.8.4]
+[2024-04-10 09:02:34] INFO root fetch - processPackages [collective.eeafaceted.collectionwidget]: New version: [1.9] Old Version: [1.8]
+[2024-04-10 09:02:34] WARNING root fetch - processPackages [hubstudio-api]: Skipping, unable to determine old version
+[2024-04-10 09:02:34] INFO root fetch - main [MainThread]: End processing [hubstudio-api] error
+[2024-04-10 09:02:34] INFO root fetch - processPackages [pyckb]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-10 09:02:34] INFO root fetch - processPackages [zscaler-pulumi-zia]: Downloading https://files.pythonhosted.org/packages/eb/8f/31ed5fd49479fd3195cab16ac8bb0c12b28a38dc05d397a97e2f13fe4f4b/zscaler_pulumi_zia-0.0.5.tar.gz
+[2024-04-10 09:02:34] INFO root fetch - processPackages [collective.iconifiedcategory]: New version: [0.9] Old Version: [0.8]
+[2024-04-10 09:02:34] INFO root fetch - processPackages [tf-models-nightly]: New version: [2.9.0.dev20220920] Old Version: [2.9.0.dev20220919]
+[2024-04-10 09:02:34] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2024-04-10 09:02:34] INFO root fetch - processPackages [ul-api-utils]: Downloading https://files.pythonhosted.org/packages/97/28/ec8a312433aa8029cfefc9df8f7d435c1922766dfc02a5bb119469fac936/ul-api-utils-7.8.4.tar.gz
+[2024-04-10 09:02:34] INFO root fetch - processPackages [collective.eeafaceted.collectionwidget]: Downloading https://files.pythonhosted.org/packages/27/28/b5aba0ad4d095916b7a7d880e19e9a457aaf3777e361df11b292061d5d9b/collective.eeafaceted.collectionwidget-1.8.tar.gz
+[2024-04-10 09:02:34] INFO root fetch - processPackages [pyckb]: Downloading https://files.pythonhosted.org/packages/0a/e9/330c4496392e0a1493bc43b58fc5fd56c7471a0fb2b97135065e7c6ab3b1/pyckb-0.1.7.tar.gz
+[2024-04-10 09:02:34] INFO root fetch - processPackages [collective.iconifiedcategory]: Downloading https://files.pythonhosted.org/packages/b7/d6/b36d4c663cff7fe230c3eb092cd059ccda090bd90041e6425f875fa42db8/collective.iconifiedcategory-0.8.tar.gz
+[2024-04-10 09:02:34] INFO root fetch - processPackages [tf-models-nightly]: Downloading https://files.pythonhosted.org/packages/73/e9/06af7a12cda1722ec668213b9e91a8a2e918011d3ef8e9a98146ee4f76ef/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl
+[2024-04-10 09:02:34] INFO root fetch - processPackages [zscaler-pulumi-zia]: Downloading https://files.pythonhosted.org/packages/ca/fb/c108645f4e5a4db8c0c3e0afe3c303d2735af83615e4ef9af018ff85e92e/zscaler_pulumi_zia-0.0.6.tar.gz
+[2024-04-10 09:02:34] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2024-04-10 09:02:34] INFO root fetch - processPackages [zscaler-pulumi-zia]: executing diffoscope
+[2024-04-10 09:02:34] INFO root fetch - processPackages [zscaler-pulumi-zia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zscaler_pulumi_zia-0.0.5.tar.gz tmp/zscaler_pulumi_zia-0.0.6.tar.gz --markdown 20240410/z/zscaler-pulumi-zia/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-10 09:02:34] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2024-04-10 09:02:34] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20240410/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/README.md --exclude *.pyd
+[2024-04-10 09:02:35] INFO root fetch - processPackages [collective.eeafaceted.collectionwidget]: Downloading https://files.pythonhosted.org/packages/b4/7b/28a35c6502a1f2fe9af7b263dd47a7209c74af3c55ae7411333846fdffdd/collective.eeafaceted.collectionwidget-1.9.tar.gz
+[2024-04-10 09:02:35] INFO root fetch - processPackages [pyckb]: Downloading https://files.pythonhosted.org/packages/34/d9/1e6e6e0c0b2b699b8f18b563b9c08c37c2af6c551c4f075e01ce2350a883/pyckb-0.1.8.tar.gz
+[2024-04-10 09:02:35] INFO root fetch - processPackages [ul-api-utils]: Downloading https://files.pythonhosted.org/packages/73/3f/80d267e16d51847cfa618a84f18da257d87a0ee7fc879c86580ed4e4a384/ul-api-utils-7.8.5.tar.gz
+[2024-04-10 09:02:35] INFO root fetch - processPackages [collective.iconifiedcategory]: Downloading https://files.pythonhosted.org/packages/33/bf/243b1530007d6910c4da903bfbccca17d0ec17b93ada53bcd786a1485ac4/collective.iconifiedcategory-0.9.tar.gz
+[2024-04-10 09:02:35] INFO root fetch - processPackages [collective.eeafaceted.collectionwidget]: executing diffoscope
+[2024-04-10 09:02:35] INFO root fetch - processPackages [collective.eeafaceted.collectionwidget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collective.eeafaceted.collectionwidget-1.8.tar.gz tmp/collective.eeafaceted.collectionwidget-1.9.tar.gz --markdown 20240410/c/collective.eeafaceted.collectionwidget/1.8-1.9/README.md --exclude *.pyd
+[2024-04-10 09:02:35] INFO root fetch - processPackages [pyckb]: executing diffoscope
+[2024-04-10 09:02:35] INFO root fetch - processPackages [pyckb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyckb-0.1.7.tar.gz tmp/pyckb-0.1.8.tar.gz --markdown 20240410/p/pyckb/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-10 09:02:35] INFO root fetch - processPackages [tf-models-nightly]: Downloading https://files.pythonhosted.org/packages/e2/76/79c5fb2cd23f346ee912b9c289c2a9bab6fc8d178658f931ac9a023224c6/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl
+[2024-04-10 09:02:35] INFO root fetch - processPackages [ul-api-utils]: executing diffoscope
+[2024-04-10 09:02:35] INFO root fetch - processPackages [ul-api-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ul-api-utils-7.8.4.tar.gz tmp/ul-api-utils-7.8.5.tar.gz --markdown 20240410/u/ul-api-utils/7.8.4-7.8.5/README.md --exclude *.pyd
+[2024-04-10 09:02:35] INFO root fetch - processPackages [collective.iconifiedcategory]: executing diffoscope
+[2024-04-10 09:02:35] INFO root fetch - processPackages [collective.iconifiedcategory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collective.iconifiedcategory-0.8.tar.gz tmp/collective.iconifiedcategory-0.9.tar.gz --markdown 20240410/c/collective.iconifiedcategory/0.8-0.9/README.md --exclude *.pyd
+[2024-04-10 09:02:35] INFO root fetch - processPackages [tf-models-nightly]: executing diffoscope
+[2024-04-10 09:02:35] INFO root fetch - processPackages [tf-models-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl.zip tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip --markdown 20240410/t/tf-models-nightly/2.9.0.dev20220919-2.9.0.dev20220920/README.md --exclude *.pyd
+[2024-04-10 09:02:36] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2024-04-10 09:02:36] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2024-04-10 09:02:36] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2024-04-10 09:02:36] INFO root fetch - processPackages [pyckb]: Remove: archive file [/home/abi/fetcher/tmp/pyckb-0.1.7.tar.gz]
+[2024-04-10 09:02:36] INFO root fetch - processPackages [pyckb]: Remove: archive file [/home/abi/fetcher/tmp/pyckb-0.1.8.tar.gz]
+[2024-04-10 09:02:36] INFO root fetch - main [MainThread]: End processing [pyckb]: success
+[2024-04-10 09:02:36] INFO root fetch - processPackages [collective.eeafaceted.collectionwidget]: Remove: archive file [/home/abi/fetcher/tmp/collective.eeafaceted.collectionwidget-1.8.tar.gz]
+[2024-04-10 09:02:36] INFO root fetch - processPackages [collective.eeafaceted.collectionwidget]: Remove: archive file [/home/abi/fetcher/tmp/collective.eeafaceted.collectionwidget-1.9.tar.gz]
+[2024-04-10 09:02:36] INFO root fetch - main [MainThread]: End processing [collective.eeafaceted.collectionwidget]: success
+[2024-04-10 09:02:36] INFO root fetch - processPackages [zscaler-pulumi-zia]: Remove: archive file [/home/abi/fetcher/tmp/zscaler_pulumi_zia-0.0.5.tar.gz]
+[2024-04-10 09:02:36] INFO root fetch - processPackages [zscaler-pulumi-zia]: Remove: archive file [/home/abi/fetcher/tmp/zscaler_pulumi_zia-0.0.6.tar.gz]
+[2024-04-10 09:02:36] INFO root fetch - main [MainThread]: End processing [zscaler-pulumi-zia]: success
+[2024-04-10 09:02:36] INFO root fetch - processPackages [ul-api-utils]: Remove: archive file [/home/abi/fetcher/tmp/ul-api-utils-7.8.4.tar.gz]
+[2024-04-10 09:02:36] INFO root fetch - processPackages [ul-api-utils]: Remove: archive file [/home/abi/fetcher/tmp/ul-api-utils-7.8.5.tar.gz]
+[2024-04-10 09:02:36] INFO root fetch - main [MainThread]: End processing [ul-api-utils]: success
+[2024-04-10 09:02:36] INFO root fetch - processPackages [collective.iconifiedcategory]: Remove: archive file [/home/abi/fetcher/tmp/collective.iconifiedcategory-0.8.tar.gz]
+[2024-04-10 09:02:36] INFO root fetch - processPackages [collective.iconifiedcategory]: Remove: archive file [/home/abi/fetcher/tmp/collective.iconifiedcategory-0.9.tar.gz]
+[2024-04-10 09:02:36] INFO root fetch - main [MainThread]: End processing [collective.iconifiedcategory]: success
+[2024-04-10 09:02:39] INFO root fetch - processPackages [tf-models-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl.zip]
+[2024-04-10 09:02:39] INFO root fetch - processPackages [tf-models-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip]
+[2024-04-10 09:02:39] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
+[2024-04-10 09:02:39] INFO root fetch - main [MainThread]: Store serial: [22696770]

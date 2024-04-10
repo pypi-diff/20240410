@@ -11703,3 +11703,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 06:07:53] INFO root fetch - processPackages [nonebot-plugin-orangejuice]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-orangejuice-0.9.0.tar.gz]
 [2024-04-10 06:07:53] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-orangejuice]: success
 [2024-04-10 06:07:53] INFO root fetch - main [MainThread]: Store serial: [22695565]
+[2024-04-10 06:09:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22695565]
+[2024-04-10 06:10:02] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-10 06:10:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ros-cdk-bss
+[2024-04-10 06:10:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ros-cdk-ecs
+[2024-04-10 06:10:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cvd
+[2024-04-10 06:10:02] INFO root fetch - processPackages [ros-cdk-ecs]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-10 06:10:02] INFO root fetch - processPackages [ros-cdk-bss]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-10 06:10:02] INFO root fetch - processPackages [cvd]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-10 06:10:02] INFO root fetch - processPackages [ros-cdk-ecs]: Downloading https://files.pythonhosted.org/packages/b8/dc/4d8f536da0ccdadad4e0b61144a3c22557401b784fd85b11f4e99134ce4c/ros-cdk-ecs-1.0.8.tar.gz
+[2024-04-10 06:10:02] INFO root fetch - processPackages [ros-cdk-bss]: Downloading https://files.pythonhosted.org/packages/01/5d/7367ba097309c2cad4d93042e0b57559d3baca78f6413adfc0241c79ab5c/ros-cdk-bss-1.0.8.tar.gz
+[2024-04-10 06:10:02] INFO root fetch - processPackages [cvd]: Downloading https://files.pythonhosted.org/packages/94/54/b85ea2f9a76f299ffa94a6aa3d914a4cd48ba4aac886807f215142bfa440/cvd-0.1.6.tar.gz
+[2024-04-10 06:10:03] INFO root fetch - processPackages [ros-cdk-bss]: Downloading https://files.pythonhosted.org/packages/3a/67/4f5261976d3d0ebbad88eead45b2e0cea6f54d974cab64d1e56e73d28912/ros-cdk-bss-1.0.9.tar.gz
+[2024-04-10 06:10:03] INFO root fetch - processPackages [ros-cdk-ecs]: Downloading https://files.pythonhosted.org/packages/3a/15/8d8cb5408298eea80071698c66dd31874bf70897a42bf316f9575236aa30/ros-cdk-ecs-1.0.9.tar.gz
+[2024-04-10 06:10:03] INFO root fetch - processPackages [cvd]: Downloading https://files.pythonhosted.org/packages/ed/4a/1f064ba2eb3911c570cb32f6e8f957c39daf2b0c17d1a243c5aa8ad6efc8/cvd-0.1.7.tar.gz
+[2024-04-10 06:10:03] INFO root fetch - processPackages [ros-cdk-bss]: executing diffoscope
+[2024-04-10 06:10:03] INFO root fetch - processPackages [ros-cdk-bss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-bss-1.0.8.tar.gz tmp/ros-cdk-bss-1.0.9.tar.gz --markdown 20240410/r/ros-cdk-bss/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-10 06:10:03] INFO root fetch - processPackages [ros-cdk-ecs]: executing diffoscope
+[2024-04-10 06:10:03] INFO root fetch - processPackages [ros-cdk-ecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-ecs-1.0.8.tar.gz tmp/ros-cdk-ecs-1.0.9.tar.gz --markdown 20240410/r/ros-cdk-ecs/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-10 06:10:03] INFO root fetch - processPackages [cvd]: executing diffoscope
+[2024-04-10 06:10:03] INFO root fetch - processPackages [cvd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvd-0.1.6.tar.gz tmp/cvd-0.1.7.tar.gz --markdown 20240410/c/cvd/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-10 06:10:03] INFO root fetch - processPackages [ros-cdk-bss]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-bss-1.0.8.tar.gz]
+[2024-04-10 06:10:03] INFO root fetch - processPackages [ros-cdk-bss]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-bss-1.0.9.tar.gz]
+[2024-04-10 06:10:03] INFO root fetch - main [MainThread]: End processing [ros-cdk-bss]: success
+[2024-04-10 06:10:04] INFO root fetch - processPackages [cvd]: Remove: archive file [/home/abi/fetcher/tmp/cvd-0.1.6.tar.gz]
+[2024-04-10 06:10:04] INFO root fetch - processPackages [cvd]: Remove: archive file [/home/abi/fetcher/tmp/cvd-0.1.7.tar.gz]
+[2024-04-10 06:10:04] INFO root fetch - main [MainThread]: End processing [cvd]: success
+[2024-04-10 06:10:04] INFO root fetch - processPackages [ros-cdk-ecs]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ecs-1.0.8.tar.gz]
+[2024-04-10 06:10:04] INFO root fetch - processPackages [ros-cdk-ecs]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ecs-1.0.9.tar.gz]
+[2024-04-10 06:10:04] INFO root fetch - main [MainThread]: End processing [ros-cdk-ecs]: success
+[2024-04-10 06:10:04] INFO root fetch - main [MainThread]: Store serial: [22695572]

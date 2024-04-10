@@ -22412,3 +22412,57 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-10 13:42:56] INFO root fetch - processPackages [pymasmovil]: Remove: archive file [/home/abi/fetcher/tmp/pymasmovil-0.0.9.tar.gz]
 [2024-04-10 13:42:56] INFO root fetch - main [MainThread]: End processing [pymasmovil]: success
 [2024-04-10 13:42:56] INFO root fetch - main [MainThread]: Store serial: [22700212]
+[2024-04-10 13:45:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22700212]
+[2024-04-10 13:45:05] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-10 13:45:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: libpss
+[2024-04-10 13:45:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: NetworkXsimple
+[2024-04-10 13:45:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: checkatlas
+[2024-04-10 13:45:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: polars-ols
+[2024-04-10 13:45:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nifti2dicom
+[2024-04-10 13:45:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: thonny-etboard-micropython-firmware-v2
+[2024-04-10 13:45:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-oci
+[2024-04-10 13:45:05] INFO root fetch - processPackages [NetworkXsimple]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-10 13:45:05] WARNING root fetch - processPackages [thonny-etboard-micropython-firmware-v2]: Skipping, unable to determine old version
+[2024-04-10 13:45:05] INFO root fetch - main [MainThread]: End processing [thonny-etboard-micropython-firmware-v2] error
+[2024-04-10 13:45:05] WARNING root fetch - processPackages [libpss]: Skipping, unable to determine old version
+[2024-04-10 13:45:05] INFO root fetch - main [MainThread]: End processing [libpss] error
+[2024-04-10 13:45:05] INFO root fetch - processPackages [NetworkXsimple]: Downloading https://files.pythonhosted.org/packages/f4/f9/eacf3ee821d3694cb50de035c3bb6e4bc9afa1f8eeff41f32f1a1cd769fe/NetworkXsimple-0.1.7-py3-none-any.whl
+[2024-04-10 13:45:05] INFO root fetch - processPackages [polars-ols]: New version: [0.2.8] Old Version: [0.2.6]
+[2024-04-10 13:45:05] INFO root fetch - processPackages [nifti2dicom]: New version: [1.2] Old Version: [1.1.9]
+[2024-04-10 13:45:05] INFO root fetch - processPackages [checkatlas]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-10 13:45:05] INFO root fetch - processPackages [pulumi-oci]: New version: [1.9.0a1693981063] Old Version: [1.9.0a1693634572]
+[2024-04-10 13:45:05] INFO root fetch - processPackages [nifti2dicom]: Downloading https://files.pythonhosted.org/packages/6d/1d/649e20fb080d60343bd54fec32f2ad6ef7eb0c626259fa774f50927f3b1e/nifti2dicom-1.1.9.tar.gz
+[2024-04-10 13:45:05] INFO root fetch - processPackages [polars-ols]: Downloading https://files.pythonhosted.org/packages/23/37/822219aedfba32967dca0a87012d5aea5c49c341eb2cf7f681943bc1c807/polars_ols-0.2.6.tar.gz
+[2024-04-10 13:45:05] INFO root fetch - processPackages [pulumi-oci]: Downloading https://files.pythonhosted.org/packages/02/f8/59b31ede3416e4e37062af605ed2293a67d7cfe3eec867258c58481c638d/pulumi_oci-1.9.0a1693634572.tar.gz
+[2024-04-10 13:45:05] INFO root fetch - processPackages [checkatlas]: Downloading https://files.pythonhosted.org/packages/2e/9e/c0b8396e14cb544486c93e79d175a8201f666ee3de9dc3fc5b5f0b1e2b96/checkatlas-0.4.8.tar.gz
+[2024-04-10 13:45:05] INFO root fetch - processPackages [NetworkXsimple]: Downloading https://files.pythonhosted.org/packages/46/d3/c75b0a7b3a817079248dbaec2bb982f6613de5f75272a07b180e8e81c3a6/NetworkXsimple-0.1.8.tar.gz
+[2024-04-10 13:45:06] INFO root fetch - processPackages [NetworkXsimple]: executing diffoscope
+[2024-04-10 13:45:06] INFO root fetch - processPackages [NetworkXsimple]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NetworkXsimple-0.1.7-py3-none-any.whl.zip tmp/NetworkXsimple-0.1.8.tar.gz --markdown 20240410/N/NetworkXsimple/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-10 13:45:06] INFO root fetch - processPackages [nifti2dicom]: Downloading https://files.pythonhosted.org/packages/7d/21/123f65c8da460d20f325c27f5ef7c25e394b3c8f67ae88682ce73f88117b/nifti2dicom-1.2.tar.gz
+[2024-04-10 13:45:06] INFO root fetch - processPackages [polars-ols]: Downloading https://files.pythonhosted.org/packages/42/1e/53475b4f4882d9aa1cb446097a3c318783a0dd88c0e99bb1f5ab9feb58b7/polars_ols-0.2.8.tar.gz
+[2024-04-10 13:45:06] INFO root fetch - processPackages [checkatlas]: Downloading https://files.pythonhosted.org/packages/95/86/db47dd80d9490f53e7d6fe159556c9ff5dcfdce31bce68e0f19e3a775b65/checkatlas-0.4.9.tar.gz
+[2024-04-10 13:45:06] INFO root fetch - processPackages [nifti2dicom]: executing diffoscope
+[2024-04-10 13:45:06] INFO root fetch - processPackages [nifti2dicom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nifti2dicom-1.1.9.tar.gz tmp/nifti2dicom-1.2.tar.gz --markdown 20240410/n/nifti2dicom/1.1.9-1.2/README.md --exclude *.pyd
+[2024-04-10 13:45:06] INFO root fetch - processPackages [checkatlas]: executing diffoscope
+[2024-04-10 13:45:06] INFO root fetch - processPackages [checkatlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkatlas-0.4.8.tar.gz tmp/checkatlas-0.4.9.tar.gz --markdown 20240410/c/checkatlas/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-04-10 13:45:06] INFO root fetch - processPackages [pulumi-oci]: Downloading https://files.pythonhosted.org/packages/77/93/cd3384a9ca236f6aa79a6f6fa7c94647e0588bdaf8a86d173cca47e31e21/pulumi_oci-1.9.0a1693981063.tar.gz
+[2024-04-10 13:45:06] INFO root fetch - processPackages [polars-ols]: executing diffoscope
+[2024-04-10 13:45:06] INFO root fetch - processPackages [polars-ols]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars_ols-0.2.6.tar.gz tmp/polars_ols-0.2.8.tar.gz --markdown 20240410/p/polars-ols/0.2.6-0.2.8/README.md --exclude *.pyd
+[2024-04-10 13:45:06] INFO root fetch - processPackages [NetworkXsimple]: Remove: archive file [/home/abi/fetcher/tmp/NetworkXsimple-0.1.7-py3-none-any.whl.zip]
+[2024-04-10 13:45:06] INFO root fetch - processPackages [NetworkXsimple]: Remove: archive file [/home/abi/fetcher/tmp/NetworkXsimple-0.1.8.tar.gz]
+[2024-04-10 13:45:06] INFO root fetch - main [MainThread]: End processing [NetworkXsimple]: success
+[2024-04-10 13:45:06] INFO root fetch - processPackages [pulumi-oci]: executing diffoscope
+[2024-04-10 13:45:06] INFO root fetch - processPackages [pulumi-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_oci-1.9.0a1693634572.tar.gz tmp/pulumi_oci-1.9.0a1693981063.tar.gz --markdown 20240410/p/pulumi-oci/1.9.0a1693634572-1.9.0a1693981063/README.md --exclude *.pyd
+[2024-04-10 13:45:06] INFO root fetch - processPackages [nifti2dicom]: Remove: archive file [/home/abi/fetcher/tmp/nifti2dicom-1.1.9.tar.gz]
+[2024-04-10 13:45:06] INFO root fetch - processPackages [nifti2dicom]: Remove: archive file [/home/abi/fetcher/tmp/nifti2dicom-1.2.tar.gz]
+[2024-04-10 13:45:06] INFO root fetch - main [MainThread]: End processing [nifti2dicom]: success
+[2024-04-10 13:45:07] INFO root fetch - processPackages [checkatlas]: Remove: archive file [/home/abi/fetcher/tmp/checkatlas-0.4.8.tar.gz]
+[2024-04-10 13:45:07] INFO root fetch - processPackages [checkatlas]: Remove: archive file [/home/abi/fetcher/tmp/checkatlas-0.4.9.tar.gz]
+[2024-04-10 13:45:07] INFO root fetch - main [MainThread]: End processing [checkatlas]: success
+[2024-04-10 13:45:07] INFO root fetch - processPackages [polars-ols]: Remove: archive file [/home/abi/fetcher/tmp/polars_ols-0.2.6.tar.gz]
+[2024-04-10 13:45:07] INFO root fetch - processPackages [polars-ols]: Remove: archive file [/home/abi/fetcher/tmp/polars_ols-0.2.8.tar.gz]
+[2024-04-10 13:45:07] INFO root fetch - main [MainThread]: End processing [polars-ols]: success
+[2024-04-10 13:45:22] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-1.9.0a1693634572.tar.gz]
+[2024-04-10 13:45:22] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-1.9.0a1693981063.tar.gz]
+[2024-04-10 13:45:22] INFO root fetch - main [MainThread]: End processing [pulumi-oci]: success
+[2024-04-10 13:45:22] INFO root fetch - main [MainThread]: Store serial: [22700240]

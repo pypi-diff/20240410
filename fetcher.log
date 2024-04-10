@@ -8343,3 +8343,33 @@
 [2024-04-10 03:46:33] INFO root fetch - processPackages [cve-bin-tool]: Remove: archive file [/home/abi/fetcher/tmp/cve-bin-tool-3.3rc3.tar.gz]
 [2024-04-10 03:46:33] INFO root fetch - main [MainThread]: End processing [cve-bin-tool]: success
 [2024-04-10 03:46:33] INFO root fetch - main [MainThread]: Store serial: [22694282]
+[2024-04-10 03:48:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22694282]
+[2024-04-10 03:48:42] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-10 03:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: agricore_sp_models
+[2024-04-10 03:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ats-case
+[2024-04-10 03:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pih-med-auto
+[2024-04-10 03:48:42] INFO root fetch - processPackages [agricore_sp_models]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-04-10 03:48:43] INFO root fetch - processPackages [agricore_sp_models]: Downloading https://files.pythonhosted.org/packages/99/3b/b1847ba262596ccdb2f2745d722aa75dade6d77edde9077aa24e0867d5f0/agricore_sp_models-0.5.8.tar.gz
+[2024-04-10 03:48:43] INFO root fetch - processPackages [pih-med-auto]: New version: [0.13] Old Version: [0.12]
+[2024-04-10 03:48:43] INFO root fetch - processPackages [ats-case]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-04-10 03:48:43] INFO root fetch - processPackages [agricore_sp_models]: Downloading https://files.pythonhosted.org/packages/4f/c3/15dc30bfa86b2dc97f35cb28d8ef45f99d8a64f480013f5b15c7b47dde11/agricore_sp_models-0.5.9.tar.gz
+[2024-04-10 03:48:43] INFO root fetch - processPackages [pih-med-auto]: Downloading https://files.pythonhosted.org/packages/3b/08/6f9cb493250ad676f197a5b7a54836ff58aeb820be729c2e1388ce975699/pih-med_auto-0.12.tar.gz
+[2024-04-10 03:48:43] INFO root fetch - processPackages [agricore_sp_models]: executing diffoscope
+[2024-04-10 03:48:43] INFO root fetch - processPackages [agricore_sp_models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agricore_sp_models-0.5.8.tar.gz tmp/agricore_sp_models-0.5.9.tar.gz --markdown 20240410/a/agricore_sp_models/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-04-10 03:48:43] INFO root fetch - processPackages [ats-case]: Downloading https://files.pythonhosted.org/packages/bf/d1/d967b1bd7c78f5f2250b0c12b405af08fe034f8a3b85176418f224a5caac/ats_case-1.2.8.tar.gz
+[2024-04-10 03:48:43] INFO root fetch - processPackages [pih-med-auto]: Downloading https://files.pythonhosted.org/packages/fe/da/5b71b9b32568a765b5271397c0c672aab5ff0203e88f1fb89d6c3576b61b/pih-med_auto-0.13.tar.gz
+[2024-04-10 03:48:43] INFO root fetch - processPackages [agricore_sp_models]: Remove: archive file [/home/abi/fetcher/tmp/agricore_sp_models-0.5.8.tar.gz]
+[2024-04-10 03:48:43] INFO root fetch - processPackages [agricore_sp_models]: Remove: archive file [/home/abi/fetcher/tmp/agricore_sp_models-0.5.9.tar.gz]
+[2024-04-10 03:48:43] INFO root fetch - main [MainThread]: End processing [agricore_sp_models]: success
+[2024-04-10 03:48:43] INFO root fetch - processPackages [pih-med-auto]: executing diffoscope
+[2024-04-10 03:48:43] INFO root fetch - processPackages [pih-med-auto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-med_auto-0.12.tar.gz tmp/pih-med_auto-0.13.tar.gz --markdown 20240410/p/pih-med-auto/0.12-0.13/README.md --exclude *.pyd
+[2024-04-10 03:48:43] INFO root fetch - processPackages [ats-case]: Downloading https://files.pythonhosted.org/packages/68/54/e0aabd592a71c8bb710330fc20cb7010b289b15b2207eb0fbfc1a80fefac/ats_case-1.2.9.tar.gz
+[2024-04-10 03:48:44] INFO root fetch - processPackages [ats-case]: executing diffoscope
+[2024-04-10 03:48:44] INFO root fetch - processPackages [ats-case]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ats_case-1.2.8.tar.gz tmp/ats_case-1.2.9.tar.gz --markdown 20240410/a/ats-case/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-04-10 03:48:44] INFO root fetch - processPackages [pih-med-auto]: Remove: archive file [/home/abi/fetcher/tmp/pih-med_auto-0.12.tar.gz]
+[2024-04-10 03:48:44] INFO root fetch - processPackages [pih-med-auto]: Remove: archive file [/home/abi/fetcher/tmp/pih-med_auto-0.13.tar.gz]
+[2024-04-10 03:48:44] INFO root fetch - main [MainThread]: End processing [pih-med-auto]: success
+[2024-04-10 03:48:44] INFO root fetch - processPackages [ats-case]: Remove: archive file [/home/abi/fetcher/tmp/ats_case-1.2.8.tar.gz]
+[2024-04-10 03:48:44] INFO root fetch - processPackages [ats-case]: Remove: archive file [/home/abi/fetcher/tmp/ats_case-1.2.9.tar.gz]
+[2024-04-10 03:48:44] INFO root fetch - main [MainThread]: End processing [ats-case]: success
+[2024-04-10 03:48:44] INFO root fetch - main [MainThread]: Store serial: [22694292]

@@ -21766,3 +21766,44 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-10 13:16:32] INFO root fetch - processPackages [dstack]: Remove: archive file [/home/abi/fetcher/tmp/dstack-0.9rc2.tar.gz]
 [2024-04-10 13:16:32] INFO root fetch - main [MainThread]: End processing [dstack]: success
 [2024-04-10 13:16:32] INFO root fetch - main [MainThread]: Store serial: [22699886]
+[2024-04-10 13:18:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22699886]
+[2024-04-10 13:18:42] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-10 13:18:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ciscoconfparse2
+[2024-04-10 13:18:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lusid-sdk
+[2024-04-10 13:18:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: easyaddition-quicklyfix
+[2024-04-10 13:18:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: text-tagging-model
+[2024-04-10 13:18:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-ws-analytics
+[2024-04-10 13:18:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyPCR
+[2024-04-10 13:18:42] INFO root fetch - processPackages [easyaddition-quicklyfix]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-10 13:18:42] INFO root fetch - processPackages [django-ws-analytics]: New version: [1.0.9] Old Version: [1.0.7]
+[2024-04-10 13:18:42] INFO root fetch - processPackages [easyaddition-quicklyfix]: Downloading https://files.pythonhosted.org/packages/62/48/4325edffffe7f6aed330e2187e3430b85dba19d2a88a44eecd9e26f18549/easyaddition_quicklyfix-0.0.4.tar.gz
+[2024-04-10 13:18:42] INFO root fetch - processPackages [django-ws-analytics]: Downloading https://files.pythonhosted.org/packages/6d/f9/1a5b5f917fd0beff2816e07e84872585fe96fc02754df2555428e369c9e9/django-ws-analytics-1.0.7.tar.gz
+[2024-04-10 13:18:42] WARNING root fetch - processPackages [pyPCR]: Skipping, unable to determine old version
+[2024-04-10 13:18:42] WARNING root fetch - processPackages [text-tagging-model]: Skipping, unable to determine old version
+[2024-04-10 13:18:42] INFO root fetch - main [MainThread]: End processing [pyPCR] error
+[2024-04-10 13:18:42] INFO root fetch - main [MainThread]: End processing [text-tagging-model] error
+[2024-04-10 13:18:42] INFO root fetch - processPackages [ciscoconfparse2]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-10 13:18:42] INFO root fetch - processPackages [lusid-sdk]: New version: [2.0.96b0] Old Version: [2.0.90b0]
+[2024-04-10 13:18:42] INFO root fetch - processPackages [django-ws-analytics]: Downloading https://files.pythonhosted.org/packages/60/4e/e84fd37a53687d65c63d95a5b49973cb5cee8905941f82fe705955fcd5f6/django-ws-analytics-1.0.9.tar.gz
+[2024-04-10 13:18:42] INFO root fetch - processPackages [ciscoconfparse2]: Downloading https://files.pythonhosted.org/packages/26/c5/d7a1bbb15197a52ec641fb3455b2bad160571ef08bbb87f61c8e83e45163/ciscoconfparse2-0.7.8.tar.gz
+[2024-04-10 13:18:42] WARNING root fetch - processPackages [ciscoconfparse2]: Skipping package: exceeds size limit 12946892>=10485760
+[2024-04-10 13:18:42] INFO root fetch - main [MainThread]: End processing [ciscoconfparse2] error
+[2024-04-10 13:18:42] INFO root fetch - processPackages [easyaddition-quicklyfix]: Downloading https://files.pythonhosted.org/packages/b2/0a/f94990387667d1b3b56ea53d1cc8415d122ca3b033e98b186cd3d076b067/easyaddition_quicklyfix-0.0.5.tar.gz
+[2024-04-10 13:18:42] INFO root fetch - processPackages [django-ws-analytics]: executing diffoscope
+[2024-04-10 13:18:42] INFO root fetch - processPackages [django-ws-analytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-ws-analytics-1.0.7.tar.gz tmp/django-ws-analytics-1.0.9.tar.gz --markdown 20240410/d/django-ws-analytics/1.0.7-1.0.9/README.md --exclude *.pyd
+[2024-04-10 13:18:42] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/f4/1b/decc10b66115dd2498625df6094dde867fd781fbd4fef934426474ebc9fe/lusid_sdk-2.0.90b0.tar.gz
+[2024-04-10 13:18:43] INFO root fetch - processPackages [easyaddition-quicklyfix]: executing diffoscope
+[2024-04-10 13:18:43] INFO root fetch - processPackages [easyaddition-quicklyfix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyaddition_quicklyfix-0.0.4.tar.gz tmp/easyaddition_quicklyfix-0.0.5.tar.gz --markdown 20240410/e/easyaddition-quicklyfix/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-10 13:18:43] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/79/bb/a00dd0006ca7cf9f5c9e9d6fb1a04a9f2b19a093e74becce026a1b0b4855/lusid_sdk-2.0.96b0.tar.gz
+[2024-04-10 13:18:43] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2024-04-10 13:18:43] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_sdk-2.0.90b0.tar.gz tmp/lusid_sdk-2.0.96b0.tar.gz --markdown 20240410/l/lusid-sdk/2.0.90b0-2.0.96b0/README.md --exclude *.pyd
+[2024-04-10 13:18:43] INFO root fetch - processPackages [django-ws-analytics]: Remove: archive file [/home/abi/fetcher/tmp/django-ws-analytics-1.0.7.tar.gz]
+[2024-04-10 13:18:43] INFO root fetch - processPackages [django-ws-analytics]: Remove: archive file [/home/abi/fetcher/tmp/django-ws-analytics-1.0.9.tar.gz]
+[2024-04-10 13:18:43] INFO root fetch - main [MainThread]: End processing [django-ws-analytics]: success
+[2024-04-10 13:18:43] INFO root fetch - processPackages [easyaddition-quicklyfix]: Remove: archive file [/home/abi/fetcher/tmp/easyaddition_quicklyfix-0.0.4.tar.gz]
+[2024-04-10 13:18:43] INFO root fetch - processPackages [easyaddition-quicklyfix]: Remove: archive file [/home/abi/fetcher/tmp/easyaddition_quicklyfix-0.0.5.tar.gz]
+[2024-04-10 13:18:43] INFO root fetch - main [MainThread]: End processing [easyaddition-quicklyfix]: success
+[2024-04-10 13:18:47] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.0.90b0.tar.gz]
+[2024-04-10 13:18:47] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.0.96b0.tar.gz]
+[2024-04-10 13:18:47] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2024-04-10 13:18:47] INFO root fetch - main [MainThread]: Store serial: [22699911]

@@ -7548,3 +7548,27 @@
 [2024-04-10 03:18:25] INFO root fetch - processPackages [mov-cli-films]: Remove: archive file [/home/abi/fetcher/tmp/mov-cli-films-1.3.6.tar.gz]
 [2024-04-10 03:18:25] INFO root fetch - main [MainThread]: End processing [mov-cli-films]: success
 [2024-04-10 03:18:25] INFO root fetch - main [MainThread]: Store serial: [22693622]
+[2024-04-10 03:20:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22693622]
+[2024-04-10 03:20:40] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-10 03:20:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pcy-algo
+[2024-04-10 03:20:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jemma
+[2024-04-10 03:20:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pygpt-net
+[2024-04-10 03:20:40] WARNING root fetch - processPackages [pcy-algo]: Skipping, unable to determine old version
+[2024-04-10 03:20:40] INFO root fetch - main [MainThread]: End processing [pcy-algo] error
+[2024-04-10 03:20:40] INFO root fetch - processPackages [jemma]: New version: [0.1.1286] Old Version: [0.1.1285]
+[2024-04-10 03:20:40] INFO root fetch - processPackages [jemma]: Downloading https://files.pythonhosted.org/packages/97/ee/9f91b25bbfc4f7924b25977a6761aa4d747b88a14ee90987622bc4db8294/jemma-0.1.1285.tar.gz
+[2024-04-10 03:20:40] INFO root fetch - processPackages [pygpt-net]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-10 03:20:40] INFO root fetch - processPackages [jemma]: Downloading https://files.pythonhosted.org/packages/30/09/7fa71c5d0e9826e9e758786e180f2ab0459404fd45afdfbd5d1fe26fdced/jemma-0.1.1286.tar.gz
+[2024-04-10 03:20:40] INFO root fetch - processPackages [pygpt-net]: Downloading https://files.pythonhosted.org/packages/a5/de/e40709b6067cd6a2fe2ce05bb561b0d9d4c91f6cd91f7b3c4bd151d18a9b/pygpt_net-2.1.8.tar.gz
+[2024-04-10 03:20:40] INFO root fetch - processPackages [jemma]: executing diffoscope
+[2024-04-10 03:20:40] INFO root fetch - processPackages [jemma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jemma-0.1.1285.tar.gz tmp/jemma-0.1.1286.tar.gz --markdown 20240410/j/jemma/0.1.1285-0.1.1286/README.md --exclude *.pyd
+[2024-04-10 03:20:41] INFO root fetch - processPackages [jemma]: Remove: archive file [/home/abi/fetcher/tmp/jemma-0.1.1285.tar.gz]
+[2024-04-10 03:20:41] INFO root fetch - processPackages [jemma]: Remove: archive file [/home/abi/fetcher/tmp/jemma-0.1.1286.tar.gz]
+[2024-04-10 03:20:41] INFO root fetch - main [MainThread]: End processing [jemma]: success
+[2024-04-10 03:20:41] INFO root fetch - processPackages [pygpt-net]: Downloading https://files.pythonhosted.org/packages/b1/0c/70ca3376ad87325507daa188a0b208ac8aba51d8f326cbde31d57835c897/pygpt_net-2.1.9.tar.gz
+[2024-04-10 03:20:41] INFO root fetch - processPackages [pygpt-net]: executing diffoscope
+[2024-04-10 03:20:41] INFO root fetch - processPackages [pygpt-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygpt_net-2.1.8.tar.gz tmp/pygpt_net-2.1.9.tar.gz --markdown 20240410/p/pygpt-net/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-04-10 03:20:43] INFO root fetch - processPackages [pygpt-net]: Remove: archive file [/home/abi/fetcher/tmp/pygpt_net-2.1.8.tar.gz]
+[2024-04-10 03:20:43] INFO root fetch - processPackages [pygpt-net]: Remove: archive file [/home/abi/fetcher/tmp/pygpt_net-2.1.9.tar.gz]
+[2024-04-10 03:20:43] INFO root fetch - main [MainThread]: End processing [pygpt-net]: success
+[2024-04-10 03:20:43] INFO root fetch - main [MainThread]: Store serial: [22693704]

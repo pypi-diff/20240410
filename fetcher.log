@@ -22714,3 +22714,54 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-10 13:54:12] INFO root fetch - processPackages [SciQLop]: Remove: archive file [/home/abi/fetcher/tmp/sciqlop-0.7.0.tar.gz]
 [2024-04-10 13:54:12] INFO root fetch - main [MainThread]: End processing [SciQLop]: success
 [2024-04-10 13:54:12] INFO root fetch - main [MainThread]: Store serial: [22700394]
+[2024-04-10 13:56:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22700394]
+[2024-04-10 13:56:21] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-10 13:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sequali
+[2024-04-10 13:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: moonstreamdb
+[2024-04-10 13:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: citation-finder
+[2024-04-10 13:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tcy
+[2024-04-10 13:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dstack
+[2024-04-10 13:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: celitech-sdk
+[2024-04-10 13:56:21] INFO root fetch - processPackages [celitech-sdk]: New version: [1.1.46] Old Version: [1.0.0]
+[2024-04-10 13:56:21] INFO root fetch - processPackages [dstack]: New version: [0.9rc2] Old Version: [0.9.post1]
+[2024-04-10 13:56:21] WARNING root fetch - processPackages [tcy]: Skipping, unable to determine old version
+[2024-04-10 13:56:21] INFO root fetch - main [MainThread]: End processing [tcy] error
+[2024-04-10 13:56:21] INFO root fetch - processPackages [citation-finder]: New version: [1.0.0] Old Version: [0.1.0]
+[2024-04-10 13:56:21] INFO root fetch - processPackages [moonstreamdb]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-10 13:56:21] INFO root fetch - processPackages [dstack]: Downloading https://files.pythonhosted.org/packages/8f/33/51159a0ccb0f3afa597b1288d1b6c5457782cc77d5b6ad328af94c001e8e/dstack-0.9.post1.tar.gz
+[2024-04-10 13:56:21] INFO root fetch - processPackages [sequali]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-04-10 13:56:21] INFO root fetch - processPackages [celitech-sdk]: Downloading https://files.pythonhosted.org/packages/0e/4a/4734f0d11e5bcc78aaefb92f3392ad30d2eb48b8ebfbe915d6219992263f/celitech-sdk-1.0.0.tar.gz
+[2024-04-10 13:56:21] INFO root fetch - processPackages [sequali]: Downloading https://files.pythonhosted.org/packages/1e/ff/cc3ffc25b7a087c3f71d472b1fd31ab5572854236cfc6d92bc8b9cbd5cfb/sequali-0.6.0.tar.gz
+[2024-04-10 13:56:21] INFO root fetch - processPackages [citation-finder]: Downloading https://files.pythonhosted.org/packages/56/3f/c20e37a3381490af6774bab26184b0efadedc90d025822430da82fe4290b/citation_finder-0.1.0.tar.gz
+[2024-04-10 13:56:21] INFO root fetch - processPackages [moonstreamdb]: Downloading https://files.pythonhosted.org/packages/bb/86/b5bc26236d688684674b9a4d0e0922e6a70cff16a3d97d9d9e871e6dd007/moonstreamdb-0.3.8.tar.gz
+[2024-04-10 13:56:21] INFO root fetch - processPackages [dstack]: Downloading https://files.pythonhosted.org/packages/0c/71/fa2b8b831003b2f30398328af884d3a70b5bda19450f6119233da4ce9edc/dstack-0.9rc2.tar.gz
+[2024-04-10 13:56:22] INFO root fetch - processPackages [dstack]: executing diffoscope
+[2024-04-10 13:56:22] INFO root fetch - processPackages [dstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dstack-0.9.post1.tar.gz tmp/dstack-0.9rc2.tar.gz --markdown 20240410/d/dstack/0.9.post1-0.9rc2/README.md --exclude *.pyd
+[2024-04-10 13:56:22] INFO root fetch - processPackages [celitech-sdk]: Downloading https://files.pythonhosted.org/packages/f7/c7/eb4cd7834c31d059e5cdafa15d522c86e83fe8f44b19423d5bc4b0ae1825/celitech-sdk-1.1.46.tar.gz
+[2024-04-10 13:56:22] INFO root fetch - processPackages [moonstreamdb]: Downloading https://files.pythonhosted.org/packages/1e/62/461691e87077f3969afaa756ab875aa88beb7c4a8738965f3375f46ebbe1/moonstreamdb-0.3.9.tar.gz
+[2024-04-10 13:56:22] INFO root fetch - processPackages [celitech-sdk]: executing diffoscope
+[2024-04-10 13:56:22] INFO root fetch - processPackages [celitech-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/celitech-sdk-1.0.0.tar.gz tmp/celitech-sdk-1.1.46.tar.gz --markdown 20240410/c/celitech-sdk/1.0.0-1.1.46/README.md --exclude *.pyd
+[2024-04-10 13:56:22] INFO root fetch - processPackages [sequali]: Downloading https://files.pythonhosted.org/packages/5f/b6/927a7132983f10ea22bbee9aa416e33c265ffe5e57421ae6fc2033758b82/sequali-0.7.0.tar.gz
+[2024-04-10 13:56:22] INFO root fetch - processPackages [citation-finder]: Downloading https://files.pythonhosted.org/packages/a9/35/885ba947e8ff2767eb1eb5f677ab1998726c37930f164089f2463ee14dbf/citation_finder-1.0.0.tar.gz
+[2024-04-10 13:56:22] INFO root fetch - processPackages [moonstreamdb]: executing diffoscope
+[2024-04-10 13:56:22] INFO root fetch - processPackages [moonstreamdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moonstreamdb-0.3.8.tar.gz tmp/moonstreamdb-0.3.9.tar.gz --markdown 20240410/m/moonstreamdb/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-10 13:56:22] INFO root fetch - processPackages [citation-finder]: executing diffoscope
+[2024-04-10 13:56:22] INFO root fetch - processPackages [citation-finder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citation_finder-0.1.0.tar.gz tmp/citation_finder-1.0.0.tar.gz --markdown 20240410/c/citation-finder/0.1.0-1.0.0/README.md --exclude *.pyd
+[2024-04-10 13:56:22] INFO root fetch - processPackages [sequali]: executing diffoscope
+[2024-04-10 13:56:22] INFO root fetch - processPackages [sequali]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sequali-0.6.0.tar.gz tmp/sequali-0.7.0.tar.gz --markdown 20240410/s/sequali/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-04-10 13:56:23] INFO root fetch - processPackages [moonstreamdb]: Remove: archive file [/home/abi/fetcher/tmp/moonstreamdb-0.3.8.tar.gz]
+[2024-04-10 13:56:23] INFO root fetch - processPackages [moonstreamdb]: Remove: archive file [/home/abi/fetcher/tmp/moonstreamdb-0.3.9.tar.gz]
+[2024-04-10 13:56:23] INFO root fetch - main [MainThread]: End processing [moonstreamdb]: success
+[2024-04-10 13:56:23] INFO root fetch - processPackages [celitech-sdk]: Remove: archive file [/home/abi/fetcher/tmp/celitech-sdk-1.0.0.tar.gz]
+[2024-04-10 13:56:23] INFO root fetch - processPackages [celitech-sdk]: Remove: archive file [/home/abi/fetcher/tmp/celitech-sdk-1.1.46.tar.gz]
+[2024-04-10 13:56:23] INFO root fetch - main [MainThread]: End processing [celitech-sdk]: success
+[2024-04-10 13:56:23] INFO root fetch - processPackages [citation-finder]: Remove: archive file [/home/abi/fetcher/tmp/citation_finder-0.1.0.tar.gz]
+[2024-04-10 13:56:23] INFO root fetch - processPackages [citation-finder]: Remove: archive file [/home/abi/fetcher/tmp/citation_finder-1.0.0.tar.gz]
+[2024-04-10 13:56:23] INFO root fetch - main [MainThread]: End processing [citation-finder]: success
+[2024-04-10 13:56:23] INFO root fetch - processPackages [dstack]: Remove: archive file [/home/abi/fetcher/tmp/dstack-0.9.post1.tar.gz]
+[2024-04-10 13:56:23] INFO root fetch - processPackages [dstack]: Remove: archive file [/home/abi/fetcher/tmp/dstack-0.9rc2.tar.gz]
+[2024-04-10 13:56:23] INFO root fetch - main [MainThread]: End processing [dstack]: success
+[2024-04-10 13:56:23] INFO root fetch - processPackages [sequali]: Remove: archive file [/home/abi/fetcher/tmp/sequali-0.6.0.tar.gz]
+[2024-04-10 13:56:23] INFO root fetch - processPackages [sequali]: Remove: archive file [/home/abi/fetcher/tmp/sequali-0.7.0.tar.gz]
+[2024-04-10 13:56:23] INFO root fetch - main [MainThread]: End processing [sequali]: success
+[2024-04-10 13:56:23] INFO root fetch - main [MainThread]: Store serial: [22700432]

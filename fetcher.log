@@ -17642,3 +17642,131 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 10:42:59] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1477-py3-none-any.whl.zip]
 [2024-04-10 10:42:59] INFO root fetch - main [MainThread]: End processing [nucliadb-admin-assets]: success
 [2024-04-10 10:42:59] INFO root fetch - main [MainThread]: Store serial: [22697843]
+[2024-04-10 10:45:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22697843]
+[2024-04-10 10:45:14] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-04-10 10:45:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: checkov
+[2024-04-10 10:45:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bricks-py
+[2024-04-10 10:45:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: agricore_sp_models
+[2024-04-10 10:45:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stackr
+[2024-04-10 10:45:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ecodev-core
+[2024-04-10 10:45:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: affinda
+[2024-04-10 10:45:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: finalytics
+[2024-04-10 10:45:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: myams-js
+[2024-04-10 10:45:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: simgui
+[2024-04-10 10:45:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tfp-nightly
+[2024-04-10 10:45:14] INFO root fetch - processPackages [agricore_sp_models]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-04-10 10:45:14] INFO root fetch - processPackages [myams-js]: New version: [2.4.4] Old Version: [2.4.3]
+[2024-04-10 10:45:14] INFO root fetch - processPackages [checkov]: New version: [3.2.9] Old Version: [3.2.8]
+[2024-04-10 10:45:14] WARNING root fetch - processPackages [stackr]: Skipping, unable to determine old version
+[2024-04-10 10:45:14] INFO root fetch - processPackages [ecodev-core]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-10 10:45:14] INFO root fetch - processPackages [stackr]: Start processing: pfund
+[2024-04-10 10:45:14] INFO root fetch - processPackages [bricks-py]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-10 10:45:14] INFO root fetch - main [MainThread]: End processing [stackr] error
+[2024-04-10 10:45:14] INFO root fetch - processPackages [simgui]: New version: [1.5.1] Old Version: [1.5.0]
+[2024-04-10 10:45:14] INFO root fetch - processPackages [agricore_sp_models]: Downloading https://files.pythonhosted.org/packages/99/3b/b1847ba262596ccdb2f2745d722aa75dade6d77edde9077aa24e0867d5f0/agricore_sp_models-0.5.8.tar.gz
+[2024-04-10 10:45:14] INFO root fetch - processPackages [affinda]: New version: [4.9.0] Old Version: [4.8.1]
+[2024-04-10 10:45:14] INFO root fetch - processPackages [finalytics]: New version: [0.3.0] Old Version: [0.2.5]
+[2024-04-10 10:45:14] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2024-04-10 10:45:14] INFO root fetch - processPackages [myams-js]: Downloading https://files.pythonhosted.org/packages/04/69/f6e5a2cefe6e78d0e7019aba10845bc0b27fefbfa3fb9c1613f95ed5f36b/myams_js-2.4.3.tar.gz
+[2024-04-10 10:45:14] INFO root fetch - processPackages [pfund]: New version: [0.0.1.dev9] Old Version: [0.0.1.dev8]
+[2024-04-10 10:45:14] WARNING root fetch - processPackages [myams-js]: Skipping package: exceeds size limit 19397165>=10485760
+[2024-04-10 10:45:14] INFO root fetch - processPackages [myams-js]: Start processing: pfeed
+[2024-04-10 10:45:14] INFO root fetch - main [MainThread]: End processing [myams-js] error
+[2024-04-10 10:45:14] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/88/07/1509be74cf47a29b012a6f7477139e57bee2a7d01634b6bd6a71d095ace8/checkov-3.2.8.tar.gz
+[2024-04-10 10:45:14] INFO root fetch - processPackages [bricks-py]: Downloading https://files.pythonhosted.org/packages/9f/3b/fe690ce21e4cf52d02199cdf608df918687abd881cac6b38642818f34388/bricks-py-0.0.8.tar.gz
+[2024-04-10 10:45:15] INFO root fetch - processPackages [pfund]: Downloading https://files.pythonhosted.org/packages/1c/aa/ebd79c573934175de76644a6c4e83b7d9cf6fc43cec2479397f21f4b60c2/pfund-0.0.1.dev8.tar.gz
+[2024-04-10 10:45:15] INFO root fetch - processPackages [affinda]: Downloading https://files.pythonhosted.org/packages/b8/42/2d7ae0302daac690c91569d7fbb66707c626d6712fd25b8b2e92aba77435/affinda-4.8.1.tar.gz
+[2024-04-10 10:45:15] INFO root fetch - processPackages [ecodev-core]: Downloading https://files.pythonhosted.org/packages/b5/a9/766d6853412070aa67063f8b8ba6353109df7a029b4e8c577447655f9dd1/ecodev_core-0.0.8.tar.gz
+[2024-04-10 10:45:15] INFO root fetch - processPackages [pfeed]: New version: [0.0.1.dev9] Old Version: [0.0.1.dev8]
+[2024-04-10 10:45:15] INFO root fetch - processPackages [agricore_sp_models]: Downloading https://files.pythonhosted.org/packages/4f/c3/15dc30bfa86b2dc97f35cb28d8ef45f99d8a64f480013f5b15c7b47dde11/agricore_sp_models-0.5.9.tar.gz
+[2024-04-10 10:45:15] INFO root fetch - processPackages [finalytics]: Downloading https://files.pythonhosted.org/packages/09/d3/5c33ae2668048b01a9a2c330148196bb540545a5fa2b2a30ac63a0e6aabf/finalytics-0.2.5.tar.gz
+[2024-04-10 10:45:15] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2024-04-10 10:45:15] INFO root fetch - processPackages [simgui]: Downloading https://files.pythonhosted.org/packages/fa/8a/d8322766c289a8c490f206418dc49bf2ef9beae87dfb26c9d5bb79813327/simgui-1.5.0.tar.gz
+[2024-04-10 10:45:15] INFO root fetch - processPackages [pfeed]: Downloading https://files.pythonhosted.org/packages/f4/ad/ca0aff5489ee8fd709ea2d02b21f4eca153f9a4f4a588476a0a8f5c6802a/pfeed-0.0.1.dev8.tar.gz
+[2024-04-10 10:45:15] INFO root fetch - processPackages [agricore_sp_models]: executing diffoscope
+[2024-04-10 10:45:15] INFO root fetch - processPackages [agricore_sp_models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agricore_sp_models-0.5.8.tar.gz tmp/agricore_sp_models-0.5.9.tar.gz --markdown 20240410/a/agricore_sp_models/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-04-10 10:45:15] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/8b/2e/76e1600c8d7d81ec9b7cc207e032f23feed398a5b54e6698055f7c5e0f8f/checkov-3.2.9.tar.gz
+[2024-04-10 10:45:15] INFO root fetch - processPackages [bricks-py]: Downloading https://files.pythonhosted.org/packages/29/6d/568fde747d2d51ed35954f550b7e5a646c59d12c5fd987f07e9ea267ae9c/bricks-py-0.0.9.tar.gz
+[2024-04-10 10:45:15] INFO root fetch - processPackages [ecodev-core]: Downloading https://files.pythonhosted.org/packages/2b/a0/d654c8a620b75677b176be54783974380dae7715c39ab4ada944771e7e75/ecodev_core-0.0.9.tar.gz
+[2024-04-10 10:45:15] INFO root fetch - processPackages [affinda]: Downloading https://files.pythonhosted.org/packages/27/14/0974ffb17feb20d1870434401d523dfd68229befd4a340456b1a9f07ece3/affinda-4.9.0.tar.gz
+[2024-04-10 10:45:15] INFO root fetch - processPackages [pfund]: Downloading https://files.pythonhosted.org/packages/45/59/9bad54da8a3f47eac93d16ff13bb07bc7aa45868745bfe57b33f3a230196/pfund-0.0.1.dev9.tar.gz
+[2024-04-10 10:45:15] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2024-04-10 10:45:15] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-3.2.8.tar.gz tmp/checkov-3.2.9.tar.gz --markdown 20240410/c/checkov/3.2.8-3.2.9/README.md --exclude *.pyd
+[2024-04-10 10:45:15] INFO root fetch - processPackages [simgui]: Downloading https://files.pythonhosted.org/packages/8c/db/ffa26864da4d485387031f5dc21d6df5545ba707e6f2fade683f10d3bb79/simgui-1.5.1.tar.gz
+[2024-04-10 10:45:15] INFO root fetch - processPackages [pfeed]: Downloading https://files.pythonhosted.org/packages/da/48/a906043c1ecba76f2c69272ff3d1ba77f46c7a51b2c7cdcd9ef3878bddd6/pfeed-0.0.1.dev9.tar.gz
+[2024-04-10 10:45:15] INFO root fetch - processPackages [ecodev-core]: executing diffoscope
+[2024-04-10 10:45:15] INFO root fetch - processPackages [ecodev-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecodev_core-0.0.8.tar.gz tmp/ecodev_core-0.0.9.tar.gz --markdown 20240410/e/ecodev-core/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-10 10:45:15] INFO root fetch - processPackages [bricks-py]: executing diffoscope
+[2024-04-10 10:45:15] INFO root fetch - processPackages [bricks-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bricks-py-0.0.8.tar.gz tmp/bricks-py-0.0.9.tar.gz --markdown 20240410/b/bricks-py/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-10 10:45:15] INFO root fetch - processPackages [simgui]: executing diffoscope
+[2024-04-10 10:45:15] INFO root fetch - processPackages [simgui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simgui-1.5.0.tar.gz tmp/simgui-1.5.1.tar.gz --markdown 20240410/s/simgui/1.5.0-1.5.1/README.md --exclude *.pyd
+[2024-04-10 10:45:15] INFO root fetch - processPackages [pfund]: executing diffoscope
+[2024-04-10 10:45:15] INFO root fetch - processPackages [pfund]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pfund-0.0.1.dev8.tar.gz tmp/pfund-0.0.1.dev9.tar.gz --markdown 20240410/p/pfund/0.0.1.dev8-0.0.1.dev9/README.md --exclude *.pyd
+[2024-04-10 10:45:15] INFO root fetch - processPackages [pfeed]: executing diffoscope
+[2024-04-10 10:45:15] INFO root fetch - processPackages [pfeed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pfeed-0.0.1.dev8.tar.gz tmp/pfeed-0.0.1.dev9.tar.gz --markdown 20240410/p/pfeed/0.0.1.dev8-0.0.1.dev9/README.md --exclude *.pyd
+[2024-04-10 10:45:15] INFO root fetch - processPackages [affinda]: executing diffoscope
+[2024-04-10 10:45:15] INFO root fetch - processPackages [affinda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/affinda-4.8.1.tar.gz tmp/affinda-4.9.0.tar.gz --markdown 20240410/a/affinda/4.8.1-4.9.0/README.md --exclude *.pyd
+[2024-04-10 10:45:15] INFO root fetch - processPackages [finalytics]: Downloading https://files.pythonhosted.org/packages/ee/63/05118b0a56ea448358f7e39e0988bdbe3cda9f5695cd093d23ecd4da105c/finalytics-0.3.0.tar.gz
+[2024-04-10 10:45:15] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2024-04-10 10:45:16] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2024-04-10 10:45:16] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20240410/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/README.md --exclude *.pyd
+[2024-04-10 10:45:16] INFO root fetch - processPackages [agricore_sp_models]: Remove: archive file [/home/abi/fetcher/tmp/agricore_sp_models-0.5.8.tar.gz]
+[2024-04-10 10:45:16] INFO root fetch - processPackages [agricore_sp_models]: Remove: archive file [/home/abi/fetcher/tmp/agricore_sp_models-0.5.9.tar.gz]
+[2024-04-10 10:45:16] INFO root fetch - processPackages [agricore_sp_models]: Start processing: streamlit-google-auth
+[2024-04-10 10:45:16] INFO root fetch - main [MainThread]: End processing [agricore_sp_models]: success
+[2024-04-10 10:45:16] INFO root fetch - processPackages [streamlit-google-auth]: New version: [1.1.7] Old Version: [1.1.6]
+[2024-04-10 10:45:16] INFO root fetch - processPackages [streamlit-google-auth]: Downloading https://files.pythonhosted.org/packages/e8/ab/377532c722ed2530adc69bf776b0425547f89be7fcbb3e5b12a84243175a/streamlit-google-auth-1.1.6.tar.gz
+[2024-04-10 10:45:17] INFO root fetch - processPackages [streamlit-google-auth]: Downloading https://files.pythonhosted.org/packages/d8/fc/d2311648341da0f033ebe55c5a3aaa0ffe8becc137e5c32cb71ac513f856/streamlit-google-auth-1.1.7.tar.gz
+[2024-04-10 10:45:17] INFO root fetch - processPackages [ecodev-core]: Remove: archive file [/home/abi/fetcher/tmp/ecodev_core-0.0.8.tar.gz]
+[2024-04-10 10:45:17] INFO root fetch - processPackages [ecodev-core]: Remove: archive file [/home/abi/fetcher/tmp/ecodev_core-0.0.9.tar.gz]
+[2024-04-10 10:45:17] INFO root fetch - processPackages [ecodev-core]: Start processing: pfolio
+[2024-04-10 10:45:17] INFO root fetch - main [MainThread]: End processing [ecodev-core]: success
+[2024-04-10 10:45:17] INFO root fetch - processPackages [streamlit-google-auth]: executing diffoscope
+[2024-04-10 10:45:17] INFO root fetch - processPackages [streamlit-google-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-google-auth-1.1.6.tar.gz tmp/streamlit-google-auth-1.1.7.tar.gz --markdown 20240410/s/streamlit-google-auth/1.1.6-1.1.7/README.md --exclude *.pyd
+[2024-04-10 10:45:17] INFO root fetch - processPackages [simgui]: Remove: archive file [/home/abi/fetcher/tmp/simgui-1.5.0.tar.gz]
+[2024-04-10 10:45:17] INFO root fetch - processPackages [simgui]: Remove: archive file [/home/abi/fetcher/tmp/simgui-1.5.1.tar.gz]
+[2024-04-10 10:45:17] INFO root fetch - processPackages [simgui]: Start processing: characterai
+[2024-04-10 10:45:17] INFO root fetch - main [MainThread]: End processing [simgui]: success
+[2024-04-10 10:45:17] INFO root fetch - processPackages [pfolio]: New version: [0.0.1.dev3] Old Version: [0.0.1.dev2]
+[2024-04-10 10:45:17] INFO root fetch - processPackages [characterai]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-10 10:45:17] INFO root fetch - processPackages [pfeed]: Remove: archive file [/home/abi/fetcher/tmp/pfeed-0.0.1.dev8.tar.gz]
+[2024-04-10 10:45:17] INFO root fetch - processPackages [finalytics]: executing diffoscope
+[2024-04-10 10:45:17] INFO root fetch - processPackages [pfeed]: Remove: archive file [/home/abi/fetcher/tmp/pfeed-0.0.1.dev9.tar.gz]
+[2024-04-10 10:45:17] INFO root fetch - processPackages [finalytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finalytics-0.2.5.tar.gz tmp/finalytics-0.3.0.tar.gz --markdown 20240410/f/finalytics/0.2.5-0.3.0/README.md --exclude *.pyd
+[2024-04-10 10:45:17] INFO root fetch - main [MainThread]: End processing [pfeed]: success
+[2024-04-10 10:45:17] INFO root fetch - processPackages [pfolio]: Downloading https://files.pythonhosted.org/packages/48/04/c43faa890fb6d9226589c2d24ba01ad2bf2265158ae8b7971ce00fbe4668/pfolio-0.0.1.dev2.tar.gz
+[2024-04-10 10:45:17] INFO root fetch - processPackages [bricks-py]: Remove: archive file [/home/abi/fetcher/tmp/bricks-py-0.0.8.tar.gz]
+[2024-04-10 10:45:17] INFO root fetch - processPackages [bricks-py]: Remove: archive file [/home/abi/fetcher/tmp/bricks-py-0.0.9.tar.gz]
+[2024-04-10 10:45:17] INFO root fetch - main [MainThread]: End processing [bricks-py]: success
+[2024-04-10 10:45:17] INFO root fetch - processPackages [characterai]: Downloading https://files.pythonhosted.org/packages/39/dd/c59a704cfb9476e8491b59e223ee200d0a80c066b9d2f548c12d68bc2c97/characterai-1.0.0.tar.gz
+[2024-04-10 10:45:17] INFO root fetch - processPackages [pfolio]: Downloading https://files.pythonhosted.org/packages/18/87/8c29abc8a74bd59e49a77ad2870bf2fb4be118993d01037deed513c2695c/pfolio-0.0.1.dev3.tar.gz
+[2024-04-10 10:45:18] INFO root fetch - processPackages [pfolio]: executing diffoscope
+[2024-04-10 10:45:18] INFO root fetch - processPackages [pfolio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pfolio-0.0.1.dev2.tar.gz tmp/pfolio-0.0.1.dev3.tar.gz --markdown 20240410/p/pfolio/0.0.1.dev2-0.0.1.dev3/README.md --exclude *.pyd
+[2024-04-10 10:45:18] INFO root fetch - processPackages [characterai]: Downloading https://files.pythonhosted.org/packages/17/29/9730a6e43ca76342b95a25d6b656be7b2a862e0f413390e4f1c2636a711b/characterai-1.0.1.tar.gz
+[2024-04-10 10:45:18] INFO root fetch - processPackages [pfund]: Remove: archive file [/home/abi/fetcher/tmp/pfund-0.0.1.dev8.tar.gz]
+[2024-04-10 10:45:18] INFO root fetch - processPackages [pfund]: Remove: archive file [/home/abi/fetcher/tmp/pfund-0.0.1.dev9.tar.gz]
+[2024-04-10 10:45:18] INFO root fetch - main [MainThread]: End processing [pfund]: success
+[2024-04-10 10:45:18] INFO root fetch - processPackages [streamlit-google-auth]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-google-auth-1.1.6.tar.gz]
+[2024-04-10 10:45:18] INFO root fetch - processPackages [streamlit-google-auth]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-google-auth-1.1.7.tar.gz]
+[2024-04-10 10:45:18] INFO root fetch - main [MainThread]: End processing [streamlit-google-auth]: success
+[2024-04-10 10:45:18] INFO root fetch - processPackages [characterai]: executing diffoscope
+[2024-04-10 10:45:18] INFO root fetch - processPackages [characterai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/characterai-1.0.0.tar.gz tmp/characterai-1.0.1.tar.gz --markdown 20240410/c/characterai/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-10 10:45:19] INFO root fetch - processPackages [pfolio]: Remove: archive file [/home/abi/fetcher/tmp/pfolio-0.0.1.dev2.tar.gz]
+[2024-04-10 10:45:19] INFO root fetch - processPackages [pfolio]: Remove: archive file [/home/abi/fetcher/tmp/pfolio-0.0.1.dev3.tar.gz]
+[2024-04-10 10:45:19] INFO root fetch - main [MainThread]: End processing [pfolio]: success
+[2024-04-10 10:45:19] INFO root fetch - processPackages [finalytics]: Remove: archive file [/home/abi/fetcher/tmp/finalytics-0.2.5.tar.gz]
+[2024-04-10 10:45:19] INFO root fetch - processPackages [finalytics]: Remove: archive file [/home/abi/fetcher/tmp/finalytics-0.3.0.tar.gz]
+[2024-04-10 10:45:19] INFO root fetch - main [MainThread]: End processing [finalytics]: success
+[2024-04-10 10:45:19] INFO root fetch - processPackages [characterai]: Remove: archive file [/home/abi/fetcher/tmp/characterai-1.0.0.tar.gz]
+[2024-04-10 10:45:19] INFO root fetch - processPackages [characterai]: Remove: archive file [/home/abi/fetcher/tmp/characterai-1.0.1.tar.gz]
+[2024-04-10 10:45:19] INFO root fetch - main [MainThread]: End processing [characterai]: success
+[2024-04-10 10:45:19] INFO root fetch - processPackages [affinda]: Remove: archive file [/home/abi/fetcher/tmp/affinda-4.8.1.tar.gz]
+[2024-04-10 10:45:19] INFO root fetch - processPackages [affinda]: Remove: archive file [/home/abi/fetcher/tmp/affinda-4.9.0.tar.gz]
+[2024-04-10 10:45:20] INFO root fetch - main [MainThread]: End processing [affinda]: success
+[2024-04-10 10:45:21] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2024-04-10 10:45:21] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2024-04-10 10:45:21] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2024-04-10 10:45:26] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.8.tar.gz]
+[2024-04-10 10:45:26] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.9.tar.gz]
+[2024-04-10 10:45:26] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2024-04-10 10:45:26] INFO root fetch - main [MainThread]: Store serial: [22697936]

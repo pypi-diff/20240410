@@ -14084,3 +14084,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 08:20:50] INFO root fetch - processPackages [intrinio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/intrinio-sdk-6.27.1.tar.gz]
 [2024-04-10 08:20:50] INFO root fetch - main [MainThread]: End processing [intrinio-sdk]: success
 [2024-04-10 08:20:50] INFO root fetch - main [MainThread]: Store serial: [22696433]
+[2024-04-10 08:22:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22696433]
+[2024-04-10 08:22:59] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-10 08:22:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addons-oca-stock-logistics-warehouse
+[2024-04-10 08:22:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kvfile
+[2024-04-10 08:22:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyfemtet
+[2024-04-10 08:22:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: testsolar-testtool-sdk
+[2024-04-10 08:22:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyE2
+[2024-04-10 08:22:59] INFO root fetch - processPackages [testsolar-testtool-sdk]: New version: [0.1.2] Old Version: [0.1]
+[2024-04-10 08:22:59] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-warehouse]: New version: [16.0.20240321.0] Old Version: [16.0.20240314.2]
+[2024-04-10 08:22:59] INFO root fetch - processPackages [kvfile]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-04-10 08:22:59] INFO root fetch - processPackages [testsolar-testtool-sdk]: Downloading https://files.pythonhosted.org/packages/66/6c/fd8f5f1a66c337cee84e72ec21f35578a37d39489b982012f94a9bb1f544/testsolar-testtool-sdk-0.1.tar.gz
+[2024-04-10 08:22:59] INFO root fetch - processPackages [pyfemtet]: New version: [0.4.1] Old Version: [0.3.9]
+[2024-04-10 08:22:59] INFO root fetch - processPackages [PyE2]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-10 08:22:59] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-warehouse]: Downloading https://files.pythonhosted.org/packages/c9/00/c9d8b2d93b224b294b0e1d35bdd70171c78602832fa2a375d902502d51ab/odoo_addons_oca_stock_logistics_warehouse-16.0.20240314.2-py3-none-any.whl
+[2024-04-10 08:22:59] INFO root fetch - processPackages [kvfile]: Downloading https://files.pythonhosted.org/packages/fb/ef/7607df54839b94a3699019df7825077d5b033cd5b71185ad5c873ae9337c/kvfile-1.1.1.tar.gz
+[2024-04-10 08:22:59] INFO root fetch - processPackages [pyfemtet]: Downloading https://files.pythonhosted.org/packages/89/d4/00d0aa9193bd0a01525bf332795382156f708a6478239a6c110d3f24626a/pyfemtet-0.3.9.tar.gz
+[2024-04-10 08:22:59] INFO root fetch - processPackages [PyE2]: Downloading https://files.pythonhosted.org/packages/7c/1f/ddc8b7c8209074ff0d22a75a309898a450f3e9e4116be5a7194e75d33974/pye2-0.7.8.tar.gz
+[2024-04-10 08:22:59] INFO root fetch - processPackages [testsolar-testtool-sdk]: Downloading https://files.pythonhosted.org/packages/e1/17/0cbf5e2bfbe9f40d7dcd6fbe90ec9f30908ca709afacc9060097cd9b4fcb/testsolar-testtool-sdk-0.1.2.tar.gz
+[2024-04-10 08:22:59] INFO root fetch - processPackages [testsolar-testtool-sdk]: executing diffoscope
+[2024-04-10 08:22:59] INFO root fetch - processPackages [testsolar-testtool-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testsolar-testtool-sdk-0.1.tar.gz tmp/testsolar-testtool-sdk-0.1.2.tar.gz --markdown 20240410/t/testsolar-testtool-sdk/0.1-0.1.2/README.md --exclude *.pyd
+[2024-04-10 08:22:59] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-warehouse]: Downloading https://files.pythonhosted.org/packages/9a/e7/326a7494165be20c45297d1602db97c4c7a1a5051bc0ada1e8f340078a37/odoo_addons_oca_stock_logistics_warehouse-16.0.20240321.0-py3-none-any.whl
+[2024-04-10 08:23:00] INFO root fetch - processPackages [pyfemtet]: Downloading https://files.pythonhosted.org/packages/ba/78/3da504aa1fb922fa8c9ac21b1b950f286188a51096159ec0583f16344b9d/pyfemtet-0.4.1.tar.gz
+[2024-04-10 08:23:00] INFO root fetch - processPackages [kvfile]: Downloading https://files.pythonhosted.org/packages/9f/5c/605d59e80fcc7ea9a520bdd8a5713e2de9cc2952a0ec2cce92135a9fd885/kvfile-1.1.2.tar.gz
+[2024-04-10 08:23:00] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-warehouse]: executing diffoscope
+[2024-04-10 08:23:00] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-warehouse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_stock_logistics_warehouse-16.0.20240314.2-py3-none-any.whl.zip tmp/odoo_addons_oca_stock_logistics_warehouse-16.0.20240321.0-py3-none-any.whl.zip --markdown 20240410/o/odoo-addons-oca-stock-logistics-warehouse/16.0.20240314.2-16.0.20240321.0/README.md --exclude *.pyd
+[2024-04-10 08:23:00] INFO root fetch - processPackages [PyE2]: Downloading https://files.pythonhosted.org/packages/e9/40/83bee283c4c5388414ec9563877eaf42c60425426715578ebc136fe413cb/pye2-0.7.9.tar.gz
+[2024-04-10 08:23:00] INFO root fetch - processPackages [kvfile]: executing diffoscope
+[2024-04-10 08:23:00] INFO root fetch - processPackages [kvfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kvfile-1.1.1.tar.gz tmp/kvfile-1.1.2.tar.gz --markdown 20240410/k/kvfile/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-04-10 08:23:00] INFO root fetch - processPackages [pyfemtet]: executing diffoscope
+[2024-04-10 08:23:00] INFO root fetch - processPackages [pyfemtet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfemtet-0.3.9.tar.gz tmp/pyfemtet-0.4.1.tar.gz --markdown 20240410/p/pyfemtet/0.3.9-0.4.1/README.md --exclude *.pyd
+[2024-04-10 08:23:00] INFO root fetch - processPackages [PyE2]: executing diffoscope
+[2024-04-10 08:23:00] INFO root fetch - processPackages [PyE2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pye2-0.7.8.tar.gz tmp/pye2-0.7.9.tar.gz --markdown 20240410/P/PyE2/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-10 08:23:00] INFO root fetch - processPackages [testsolar-testtool-sdk]: Remove: archive file [/home/abi/fetcher/tmp/testsolar-testtool-sdk-0.1.tar.gz]
+[2024-04-10 08:23:00] INFO root fetch - processPackages [testsolar-testtool-sdk]: Remove: archive file [/home/abi/fetcher/tmp/testsolar-testtool-sdk-0.1.2.tar.gz]
+[2024-04-10 08:23:00] INFO root fetch - main [MainThread]: End processing [testsolar-testtool-sdk]: success
+[2024-04-10 08:23:00] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-warehouse]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_stock_logistics_warehouse-16.0.20240314.2-py3-none-any.whl.zip]
+[2024-04-10 08:23:00] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-warehouse]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_stock_logistics_warehouse-16.0.20240321.0-py3-none-any.whl.zip]
+[2024-04-10 08:23:00] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-stock-logistics-warehouse]: success
+[2024-04-10 08:23:00] INFO root fetch - processPackages [kvfile]: Remove: archive file [/home/abi/fetcher/tmp/kvfile-1.1.1.tar.gz]
+[2024-04-10 08:23:00] INFO root fetch - processPackages [kvfile]: Remove: archive file [/home/abi/fetcher/tmp/kvfile-1.1.2.tar.gz]
+[2024-04-10 08:23:00] INFO root fetch - main [MainThread]: End processing [kvfile]: success
+[2024-04-10 08:23:01] INFO root fetch - processPackages [PyE2]: Remove: archive file [/home/abi/fetcher/tmp/pye2-0.7.8.tar.gz]
+[2024-04-10 08:23:01] INFO root fetch - processPackages [PyE2]: Remove: archive file [/home/abi/fetcher/tmp/pye2-0.7.9.tar.gz]
+[2024-04-10 08:23:01] INFO root fetch - main [MainThread]: End processing [PyE2]: success
+[2024-04-10 08:23:01] INFO root fetch - processPackages [pyfemtet]: Remove: archive file [/home/abi/fetcher/tmp/pyfemtet-0.3.9.tar.gz]
+[2024-04-10 08:23:01] INFO root fetch - processPackages [pyfemtet]: Remove: archive file [/home/abi/fetcher/tmp/pyfemtet-0.4.1.tar.gz]
+[2024-04-10 08:23:01] INFO root fetch - main [MainThread]: End processing [pyfemtet]: success
+[2024-04-10 08:23:01] INFO root fetch - main [MainThread]: Store serial: [22696447]

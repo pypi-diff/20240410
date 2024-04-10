@@ -11496,3 +11496,48 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 05:59:05] INFO root fetch - processPackages [odoo14-addon-ssi-status-check-mixin]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_status_check_mixin-14.0.2.2.0-py3-none-any.whl.zip]
 [2024-04-10 05:59:05] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-status-check-mixin]: success
 [2024-04-10 05:59:05] INFO root fetch - main [MainThread]: Store serial: [22695495]
+[2024-04-10 06:01:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22695495]
+[2024-04-10 06:01:14] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-10 06:01:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ros-cdk-adb
+[2024-04-10 06:01:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: switch-api
+[2024-04-10 06:01:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: airbyte-source-rss
+[2024-04-10 06:01:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: agentkit-llm
+[2024-04-10 06:01:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ros-cdk-nlb
+[2024-04-10 06:01:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hello-there-iv
+[2024-04-10 06:01:14] WARNING root fetch - processPackages [agentkit-llm]: Skipping, unable to determine old version
+[2024-04-10 06:01:14] INFO root fetch - main [MainThread]: End processing [agentkit-llm] error
+[2024-04-10 06:01:14] INFO root fetch - processPackages [switch-api]: New version: [0.5.4b2] Old Version: [0.5.4b1]
+[2024-04-10 06:01:14] WARNING root fetch - processPackages [hello-there-iv]: Skipping, unable to determine old version
+[2024-04-10 06:01:14] INFO root fetch - processPackages [ros-cdk-nlb]: New version: [1.0.9] Old Version: [1.0.24]
+[2024-04-10 06:01:14] INFO root fetch - main [MainThread]: End processing [hello-there-iv] error
+[2024-04-10 06:01:14] INFO root fetch - processPackages [ros-cdk-adb]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-10 06:01:14] INFO root fetch - processPackages [airbyte-source-rss]: New version: [1.0.0] Old Version: [0.1.0]
+[2024-04-10 06:01:15] INFO root fetch - processPackages [ros-cdk-nlb]: Downloading https://files.pythonhosted.org/packages/fb/d9/d6f00e55367d49a5b1e50f65f4c6d80c35d41df190c166c1e1439365b517/ros-cdk-nlb-1.0.24.tar.gz
+[2024-04-10 06:01:15] INFO root fetch - processPackages [airbyte-source-rss]: Downloading https://files.pythonhosted.org/packages/b6/73/2340141c254fc0c029549a86ad04dd96fb63e95203a8caf57a3bd1a45a47/airbyte-source-rss-0.1.0.tar.gz
+[2024-04-10 06:01:15] INFO root fetch - processPackages [switch-api]: Downloading https://files.pythonhosted.org/packages/b1/cc/13cfbd36ccf95f3cd6536c75f2981c38906d44bd1dcfbffca38f9d49740d/switch_api-0.5.4b1.tar.gz
+[2024-04-10 06:01:15] INFO root fetch - processPackages [ros-cdk-adb]: Downloading https://files.pythonhosted.org/packages/1a/64/b4ed9ad2c0a4e2060a3e0c0670b8ebc56e100aa98f34049cf06fd69c83eb/ros-cdk-adb-1.0.8.tar.gz
+[2024-04-10 06:01:15] INFO root fetch - processPackages [switch-api]: Downloading https://files.pythonhosted.org/packages/d1/ee/a193c33ded1eb210cbf5b2d48c41872f1e5edff8c839d69a3dae4849fa4f/switch_api-0.5.4b2.tar.gz
+[2024-04-10 06:01:15] INFO root fetch - processPackages [airbyte-source-rss]: Downloading https://files.pythonhosted.org/packages/1c/a1/04e0e2fdf597d7d56b21cc326763e16b7532dcd750a31965735a44176d99/airbyte_source_rss-1.0.0.tar.gz
+[2024-04-10 06:01:15] INFO root fetch - processPackages [ros-cdk-nlb]: Downloading https://files.pythonhosted.org/packages/ab/40/a90fcab30009222af951845f910e77e5ecef6b1d0760b0f478506bc6eb96/ros-cdk-nlb-1.0.9.tar.gz
+[2024-04-10 06:01:15] INFO root fetch - processPackages [switch-api]: executing diffoscope
+[2024-04-10 06:01:15] INFO root fetch - processPackages [switch-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/switch_api-0.5.4b1.tar.gz tmp/switch_api-0.5.4b2.tar.gz --markdown 20240410/s/switch-api/0.5.4b1-0.5.4b2/README.md --exclude *.pyd
+[2024-04-10 06:01:15] INFO root fetch - processPackages [ros-cdk-adb]: Downloading https://files.pythonhosted.org/packages/24/43/de2b821538577a04d2e77bd24da29873d8eabd80115b69bf8df04d7a0429/ros-cdk-adb-1.0.9.tar.gz
+[2024-04-10 06:01:15] INFO root fetch - processPackages [ros-cdk-nlb]: executing diffoscope
+[2024-04-10 06:01:15] INFO root fetch - processPackages [ros-cdk-nlb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-nlb-1.0.24.tar.gz tmp/ros-cdk-nlb-1.0.9.tar.gz --markdown 20240410/r/ros-cdk-nlb/1.0.24-1.0.9/README.md --exclude *.pyd
+[2024-04-10 06:01:15] INFO root fetch - processPackages [airbyte-source-rss]: executing diffoscope
+[2024-04-10 06:01:15] INFO root fetch - processPackages [airbyte-source-rss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-source-rss-0.1.0.tar.gz tmp/airbyte_source_rss-1.0.0.tar.gz --markdown 20240410/a/airbyte-source-rss/0.1.0-1.0.0/README.md --exclude *.pyd
+[2024-04-10 06:01:15] INFO root fetch - processPackages [ros-cdk-adb]: executing diffoscope
+[2024-04-10 06:01:15] INFO root fetch - processPackages [ros-cdk-adb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-adb-1.0.8.tar.gz tmp/ros-cdk-adb-1.0.9.tar.gz --markdown 20240410/r/ros-cdk-adb/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-10 06:01:16] INFO root fetch - processPackages [ros-cdk-nlb]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-nlb-1.0.24.tar.gz]
+[2024-04-10 06:01:16] INFO root fetch - processPackages [ros-cdk-nlb]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-nlb-1.0.9.tar.gz]
+[2024-04-10 06:01:16] INFO root fetch - main [MainThread]: End processing [ros-cdk-nlb]: success
+[2024-04-10 06:01:16] INFO root fetch - processPackages [ros-cdk-adb]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-adb-1.0.8.tar.gz]
+[2024-04-10 06:01:16] INFO root fetch - processPackages [ros-cdk-adb]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-adb-1.0.9.tar.gz]
+[2024-04-10 06:01:16] INFO root fetch - main [MainThread]: End processing [ros-cdk-adb]: success
+[2024-04-10 06:01:16] INFO root fetch - processPackages [airbyte-source-rss]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-source-rss-0.1.0.tar.gz]
+[2024-04-10 06:01:16] INFO root fetch - processPackages [airbyte-source-rss]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_rss-1.0.0.tar.gz]
+[2024-04-10 06:01:16] INFO root fetch - main [MainThread]: End processing [airbyte-source-rss]: success
+[2024-04-10 06:01:16] INFO root fetch - processPackages [switch-api]: Remove: archive file [/home/abi/fetcher/tmp/switch_api-0.5.4b1.tar.gz]
+[2024-04-10 06:01:16] INFO root fetch - processPackages [switch-api]: Remove: archive file [/home/abi/fetcher/tmp/switch_api-0.5.4b2.tar.gz]
+[2024-04-10 06:01:16] INFO root fetch - main [MainThread]: End processing [switch-api]: success
+[2024-04-10 06:01:16] INFO root fetch - main [MainThread]: Store serial: [22695512]

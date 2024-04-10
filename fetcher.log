@@ -15483,3 +15483,87 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 09:18:02] INFO root fetch - processPackages [pulumi-tailscale]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tailscale-0.9.1a1656330156.tar.gz]
 [2024-04-10 09:18:02] INFO root fetch - main [MainThread]: End processing [pulumi-tailscale]: success
 [2024-04-10 09:18:02] INFO root fetch - main [MainThread]: Store serial: [22696927]
+[2024-04-10 09:20:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22696927]
+[2024-04-10 09:20:11] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-10 09:20:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-splunk
+[2024-04-10 09:20:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: antchain-duanka
+[2024-04-10 09:20:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-search-engine-image-thumbnail
+[2024-04-10 09:20:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mecord-cli
+[2024-04-10 09:20:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ft-drift
+[2024-04-10 09:20:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jsonfmt
+[2024-04-10 09:20:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mazegroup
+[2024-04-10 09:20:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: codecarbon
+[2024-04-10 09:20:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aioxdl
+[2024-04-10 09:20:11] INFO root fetch - processPackages [mazegroup]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-10 09:20:11] INFO root fetch - processPackages [ft-drift]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-10 09:20:11] INFO root fetch - processPackages [aioxdl]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-10 09:20:11] INFO root fetch - processPackages [odoo-addon-search-engine-image-thumbnail]: New version: [16.0.1.0.4] Old Version: [16.0.1.0.3.2]
+[2024-04-10 09:20:11] INFO root fetch - processPackages [mazegroup]: Downloading https://files.pythonhosted.org/packages/0c/d6/0802598288609646cae71b1fd1d6fee14bf40aada2747e7b4ed827f26736/mazegroup-0.1.0.tar.gz
+[2024-04-10 09:20:11] INFO root fetch - processPackages [antchain-duanka]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-10 09:20:11] INFO root fetch - processPackages [odoo-addon-search-engine-image-thumbnail]: Downloading https://files.pythonhosted.org/packages/a5/77/9b1809f7c76f541d7686a93233ed4ca5fe5164446704767f82a536cf5096/odoo_addon_search_engine_image_thumbnail-16.0.1.0.3.2-py3-none-any.whl
+[2024-04-10 09:20:11] INFO root fetch - processPackages [jsonfmt]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-04-10 09:20:11] INFO root fetch - processPackages [mecord-cli]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-10 09:20:11] INFO root fetch - processPackages [codecarbon]: New version: [2.3.5] Old Version: [2.3.4]
+[2024-04-10 09:20:11] INFO root fetch - processPackages [pulumi-splunk]: New version: [1.3.0a1712731151] Old Version: [1.3.0a1712403003]
+[2024-04-10 09:20:11] INFO root fetch - processPackages [ft-drift]: Downloading https://files.pythonhosted.org/packages/b1/67/96f49cfcea9e411110d1e22f9f8f6ef75209a823dbf33ef9df4dae08a6e0/ft-drift-0.0.1.tar.gz
+[2024-04-10 09:20:11] INFO root fetch - processPackages [aioxdl]: Downloading https://files.pythonhosted.org/packages/65/b1/2b0acfe130b0da5a893ac20be194a2f26e78ea859960cfe719b08e277ab0/aioxdl-0.0.1.tar.gz
+[2024-04-10 09:20:11] INFO root fetch - processPackages [pulumi-splunk]: Downloading https://files.pythonhosted.org/packages/97/e8/e11c594b660c40d2d2a0866da34ac98f585ce780058dc385a54a076ea8f9/pulumi_splunk-1.3.0a1712403003.tar.gz
+[2024-04-10 09:20:11] INFO root fetch - processPackages [antchain-duanka]: Downloading https://files.pythonhosted.org/packages/a6/a7/9b815108607293ece7d97067ba6190dbef18fd261cc31097bdd3adb3d72e/antchain_duanka-1.0.5.tar.gz
+[2024-04-10 09:20:12] INFO root fetch - processPackages [odoo-addon-search-engine-image-thumbnail]: Downloading https://files.pythonhosted.org/packages/fb/e1/ce9bf2f73aae98a365a8ac9bf8f7522b0ca22c1e6472f480c743059a8b2a/odoo_addon_search_engine_image_thumbnail-16.0.1.0.4-py3-none-any.whl
+[2024-04-10 09:20:12] INFO root fetch - processPackages [jsonfmt]: Downloading https://files.pythonhosted.org/packages/68/49/0696d9d337d46717393957e17cb69dfbb3404dbd0990309e8902a8ae3880/jsonfmt-0.2.6.tar.gz
+[2024-04-10 09:20:12] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/7c/bf/66e6ad83ca0dd75592f8185e3bd1a6f8c9965bb170b7b3b18b4228228ff9/mecord-cli-0.7.8.tar.gz
+[2024-04-10 09:20:12] INFO root fetch - processPackages [codecarbon]: Downloading https://files.pythonhosted.org/packages/5b/8f/6471abe026e639c8287aa6f91b4d8e49f23a087075da2dc4f1612cffb823/codecarbon-2.3.4.tar.gz
+[2024-04-10 09:20:12] INFO root fetch - processPackages [mazegroup]: Downloading https://files.pythonhosted.org/packages/ca/10/26e5e6065ff7c13057312bc29d68d9b5cb3d1ea03485e12195151eceb3e0/mazegroup-0.1.1.tar.gz
+[2024-04-10 09:20:12] INFO root fetch - processPackages [odoo-addon-search-engine-image-thumbnail]: executing diffoscope
+[2024-04-10 09:20:12] INFO root fetch - processPackages [odoo-addon-search-engine-image-thumbnail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_search_engine_image_thumbnail-16.0.1.0.3.2-py3-none-any.whl.zip tmp/odoo_addon_search_engine_image_thumbnail-16.0.1.0.4-py3-none-any.whl.zip --markdown 20240410/o/odoo-addon-search-engine-image-thumbnail/16.0.1.0.3.2-16.0.1.0.4/README.md --exclude *.pyd
+[2024-04-10 09:20:12] INFO root fetch - processPackages [ft-drift]: Downloading https://files.pythonhosted.org/packages/2b/73/baf95747b18e1cdedd818cd59fb96834f6362a8effff1327fc8d78634dde/ft-drift-0.0.2.tar.gz
+[2024-04-10 09:20:12] INFO root fetch - processPackages [mazegroup]: executing diffoscope
+[2024-04-10 09:20:12] INFO root fetch - processPackages [mazegroup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mazegroup-0.1.0.tar.gz tmp/mazegroup-0.1.1.tar.gz --markdown 20240410/m/mazegroup/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-10 09:20:12] INFO root fetch - processPackages [aioxdl]: Downloading https://files.pythonhosted.org/packages/77/ab/efdcdafead7bdaafcaaf3be49387c0e4edddd3ebeb6c48d84dba7d36fe8c/aioxdl-0.0.2.tar.gz
+[2024-04-10 09:20:12] INFO root fetch - processPackages [ft-drift]: executing diffoscope
+[2024-04-10 09:20:12] INFO root fetch - processPackages [ft-drift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ft-drift-0.0.1.tar.gz tmp/ft-drift-0.0.2.tar.gz --markdown 20240410/f/ft-drift/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-10 09:20:12] INFO root fetch - processPackages [aioxdl]: executing diffoscope
+[2024-04-10 09:20:12] INFO root fetch - processPackages [aioxdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioxdl-0.0.1.tar.gz tmp/aioxdl-0.0.2.tar.gz --markdown 20240410/a/aioxdl/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-10 09:20:12] INFO root fetch - processPackages [antchain-duanka]: Downloading https://files.pythonhosted.org/packages/de/7f/d14b246d424ba0a963319fc485258ed6079c52a50c9ac0251fbecc7c4302/antchain_duanka-1.0.6.tar.gz
+[2024-04-10 09:20:12] INFO root fetch - processPackages [pulumi-splunk]: Downloading https://files.pythonhosted.org/packages/cd/7a/8fa4dbd8d63ad23d7c24ebfb21f27a307aac8992c98f847cf471b2978dc5/pulumi_splunk-1.3.0a1712731151.tar.gz
+[2024-04-10 09:20:12] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/70/13/191f5410fea42e233e3d24471a04404a7d4f46b99c28a29c24913449788b/mecord-cli-0.7.9.tar.gz
+[2024-04-10 09:20:12] INFO root fetch - processPackages [jsonfmt]: Downloading https://files.pythonhosted.org/packages/be/c2/c31d1fad0757bd9747c51eb0686634a34745d3c93f812d5b87b2558074dc/jsonfmt-0.2.7.tar.gz
+[2024-04-10 09:20:12] INFO root fetch - processPackages [codecarbon]: Downloading https://files.pythonhosted.org/packages/7d/a1/89d52cdb690e9ed297a22fc76f495c7ab3345b24e5444630e857e53be491/codecarbon-2.3.5.tar.gz
+[2024-04-10 09:20:12] INFO root fetch - processPackages [antchain-duanka]: executing diffoscope
+[2024-04-10 09:20:12] INFO root fetch - processPackages [antchain-duanka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_duanka-1.0.5.tar.gz tmp/antchain_duanka-1.0.6.tar.gz --markdown 20240410/a/antchain-duanka/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-04-10 09:20:12] INFO root fetch - processPackages [pulumi-splunk]: executing diffoscope
+[2024-04-10 09:20:12] INFO root fetch - processPackages [pulumi-splunk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_splunk-1.3.0a1712403003.tar.gz tmp/pulumi_splunk-1.3.0a1712731151.tar.gz --markdown 20240410/p/pulumi-splunk/1.3.0a1712403003-1.3.0a1712731151/README.md --exclude *.pyd
+[2024-04-10 09:20:12] INFO root fetch - processPackages [jsonfmt]: executing diffoscope
+[2024-04-10 09:20:12] INFO root fetch - processPackages [jsonfmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonfmt-0.2.6.tar.gz tmp/jsonfmt-0.2.7.tar.gz --markdown 20240410/j/jsonfmt/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-04-10 09:20:12] INFO root fetch - processPackages [mecord-cli]: executing diffoscope
+[2024-04-10 09:20:12] INFO root fetch - processPackages [mecord-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mecord-cli-0.7.8.tar.gz tmp/mecord-cli-0.7.9.tar.gz --markdown 20240410/m/mecord-cli/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-10 09:20:12] INFO root fetch - processPackages [codecarbon]: executing diffoscope
+[2024-04-10 09:20:12] INFO root fetch - processPackages [codecarbon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codecarbon-2.3.4.tar.gz tmp/codecarbon-2.3.5.tar.gz --markdown 20240410/c/codecarbon/2.3.4-2.3.5/README.md --exclude *.pyd
+[2024-04-10 09:20:13] INFO root fetch - processPackages [mazegroup]: Remove: archive file [/home/abi/fetcher/tmp/mazegroup-0.1.0.tar.gz]
+[2024-04-10 09:20:13] INFO root fetch - processPackages [mazegroup]: Remove: archive file [/home/abi/fetcher/tmp/mazegroup-0.1.1.tar.gz]
+[2024-04-10 09:20:13] INFO root fetch - main [MainThread]: End processing [mazegroup]: success
+[2024-04-10 09:20:13] INFO root fetch - processPackages [odoo-addon-search-engine-image-thumbnail]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_search_engine_image_thumbnail-16.0.1.0.3.2-py3-none-any.whl.zip]
+[2024-04-10 09:20:13] INFO root fetch - processPackages [odoo-addon-search-engine-image-thumbnail]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_search_engine_image_thumbnail-16.0.1.0.4-py3-none-any.whl.zip]
+[2024-04-10 09:20:13] INFO root fetch - main [MainThread]: End processing [odoo-addon-search-engine-image-thumbnail]: success
+[2024-04-10 09:20:13] INFO root fetch - processPackages [aioxdl]: Remove: archive file [/home/abi/fetcher/tmp/aioxdl-0.0.1.tar.gz]
+[2024-04-10 09:20:13] INFO root fetch - processPackages [aioxdl]: Remove: archive file [/home/abi/fetcher/tmp/aioxdl-0.0.2.tar.gz]
+[2024-04-10 09:20:13] INFO root fetch - main [MainThread]: End processing [aioxdl]: success
+[2024-04-10 09:20:13] INFO root fetch - processPackages [ft-drift]: Remove: archive file [/home/abi/fetcher/tmp/ft-drift-0.0.1.tar.gz]
+[2024-04-10 09:20:13] INFO root fetch - processPackages [ft-drift]: Remove: archive file [/home/abi/fetcher/tmp/ft-drift-0.0.2.tar.gz]
+[2024-04-10 09:20:13] INFO root fetch - main [MainThread]: End processing [ft-drift]: success
+[2024-04-10 09:20:13] INFO root fetch - processPackages [antchain-duanka]: Remove: archive file [/home/abi/fetcher/tmp/antchain_duanka-1.0.5.tar.gz]
+[2024-04-10 09:20:13] INFO root fetch - processPackages [antchain-duanka]: Remove: archive file [/home/abi/fetcher/tmp/antchain_duanka-1.0.6.tar.gz]
+[2024-04-10 09:20:13] INFO root fetch - main [MainThread]: End processing [antchain-duanka]: success
+[2024-04-10 09:20:13] INFO root fetch - processPackages [jsonfmt]: Remove: archive file [/home/abi/fetcher/tmp/jsonfmt-0.2.6.tar.gz]
+[2024-04-10 09:20:13] INFO root fetch - processPackages [jsonfmt]: Remove: archive file [/home/abi/fetcher/tmp/jsonfmt-0.2.7.tar.gz]
+[2024-04-10 09:20:13] INFO root fetch - main [MainThread]: End processing [jsonfmt]: success
+[2024-04-10 09:20:13] INFO root fetch - processPackages [pulumi-splunk]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_splunk-1.3.0a1712403003.tar.gz]
+[2024-04-10 09:20:13] INFO root fetch - processPackages [pulumi-splunk]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_splunk-1.3.0a1712731151.tar.gz]
+[2024-04-10 09:20:13] INFO root fetch - main [MainThread]: End processing [pulumi-splunk]: success
+[2024-04-10 09:20:13] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.7.8.tar.gz]
+[2024-04-10 09:20:13] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.7.9.tar.gz]
+[2024-04-10 09:20:13] INFO root fetch - main [MainThread]: End processing [mecord-cli]: success
+[2024-04-10 09:20:13] INFO root fetch - processPackages [codecarbon]: Remove: archive file [/home/abi/fetcher/tmp/codecarbon-2.3.4.tar.gz]
+[2024-04-10 09:20:13] INFO root fetch - processPackages [codecarbon]: Remove: archive file [/home/abi/fetcher/tmp/codecarbon-2.3.5.tar.gz]
+[2024-04-10 09:20:13] INFO root fetch - main [MainThread]: End processing [codecarbon]: success
+[2024-04-10 09:20:13] INFO root fetch - main [MainThread]: Store serial: [22696952]

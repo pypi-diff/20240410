@@ -23282,3 +23282,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-10 14:14:07] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
 [2024-04-10 14:14:07] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
 [2024-04-10 14:14:07] INFO root fetch - main [MainThread]: Store serial: [22700714]
+[2024-04-10 14:16:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22700714]
+[2024-04-10 14:16:18] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-10 14:16:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: illumio-pylo
+[2024-04-10 14:16:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: operagents
+[2024-04-10 14:16:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: peegy
+[2024-04-10 14:16:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: few-shot-priming
+[2024-04-10 14:16:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qontract-reconcile
+[2024-04-10 14:16:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hnt-nf-jira-library
+[2024-04-10 14:16:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: twopilabs-sense-x1000
+[2024-04-10 14:16:18] INFO root fetch - processPackages [few-shot-priming]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-04-10 14:16:18] INFO root fetch - processPackages [illumio-pylo]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-04-10 14:16:18] INFO root fetch - processPackages [twopilabs-sense-x1000]: New version: [0.7.7] Old Version: [0.7.5]
+[2024-04-10 14:16:18] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-04-10 14:16:18] INFO root fetch - processPackages [peegy]: New version: [1.5.5] Old Version: [1.5.4]
+[2024-04-10 14:16:18] INFO root fetch - processPackages [operagents]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-10 14:16:18] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/eb/67/d15b11d0bfb57369fa16ba7f8c97cd3ddec8f771e6da8f11a3d819004b69/few_shot_priming-0.3.98-py3-none-any.whl
+[2024-04-10 14:16:18] INFO root fetch - processPackages [hnt-nf-jira-library]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-04-10 14:16:18] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-04-10 14:16:18] INFO root fetch - processPackages [illumio-pylo]: Downloading https://files.pythonhosted.org/packages/ea/22/3b13d23245a6addf5fca189aaeb55957c8fe0ec39de9fe8aa87013eef65b/illumio_pylo-0.3.3.tar.gz
+[2024-04-10 14:16:18] INFO root fetch - processPackages [twopilabs-sense-x1000]: Downloading https://files.pythonhosted.org/packages/5c/49/0e3b69e9a2442cb2c11d2ff95d237d738c9cefd948947d62e51f43dd083f/twopilabs-sense-x1000-0.7.5.tar.gz
+[2024-04-10 14:16:18] INFO root fetch - processPackages [peegy]: Downloading https://files.pythonhosted.org/packages/28/bf/9b159fcaff3539385906f740ab0c512b9ba32db40862e77fce0164656edb/peegy-1.5.4.tar.gz
+[2024-04-10 14:16:18] INFO root fetch - processPackages [hnt-nf-jira-library]: Downloading https://files.pythonhosted.org/packages/7a/1e/0072cce90384615fe8fe7ca2699e8f0e9a3c1f7b5081d8626d5fa09923f5/hnt_nf_jira_library-0.2.5.tar.gz
+[2024-04-10 14:16:18] INFO root fetch - processPackages [operagents]: Downloading https://files.pythonhosted.org/packages/05/56/78ea07d413113cabe7ca03337446a069d6894d1d0e3324dc11d914d269bd/operagents-0.0.8.tar.gz
+[2024-04-10 14:16:18] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-04-10 14:16:19] INFO root fetch - processPackages [illumio-pylo]: Downloading https://files.pythonhosted.org/packages/53/8d/eb32a30030afcfa10ed8aebf48c7b188525385a24b49e608ef27b912bc15/illumio_pylo-0.3.4.tar.gz
+[2024-04-10 14:16:19] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/ff/11/548f6e96803602e6431dc610d736d401b20fde986f85c35c8ad19a6d0958/few_shot_priming-0.3.99-py3-none-any.whl
+[2024-04-10 14:16:19] INFO root fetch - processPackages [twopilabs-sense-x1000]: Downloading https://files.pythonhosted.org/packages/a3/c2/113587951d29e4b4d4c623a060afc2e90df6e56dda47fd5cf465f542cc93/twopilabs-sense-x1000-0.7.7.tar.gz
+[2024-04-10 14:16:19] INFO root fetch - processPackages [hnt-nf-jira-library]: Downloading https://files.pythonhosted.org/packages/82/13/24efa29e4f32d23b8e06008d729c2c7048e1dab17c0ad72ba28fae7be9a9/hnt_nf_jira_library-0.2.6.tar.gz
+[2024-04-10 14:16:19] INFO root fetch - processPackages [illumio-pylo]: executing diffoscope
+[2024-04-10 14:16:19] INFO root fetch - processPackages [illumio-pylo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/illumio_pylo-0.3.3.tar.gz tmp/illumio_pylo-0.3.4.tar.gz --markdown 20240410/i/illumio-pylo/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-04-10 14:16:19] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-04-10 14:16:19] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240410/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-04-10 14:16:19] INFO root fetch - processPackages [operagents]: Downloading https://files.pythonhosted.org/packages/b0/71/c6353e5f4f5875136783ea669333955fd7e91b22f4f9be4b5567ed1c97c5/operagents-0.0.9.tar.gz
+[2024-04-10 14:16:19] INFO root fetch - processPackages [peegy]: Downloading https://files.pythonhosted.org/packages/8c/84/01c9bb0a58030533096388da0f44067f9a0f2a809389cfc97fd8235a8c8a/peegy-1.5.5.tar.gz
+[2024-04-10 14:16:19] INFO root fetch - processPackages [hnt-nf-jira-library]: executing diffoscope
+[2024-04-10 14:16:19] INFO root fetch - processPackages [hnt-nf-jira-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hnt_nf_jira_library-0.2.5.tar.gz tmp/hnt_nf_jira_library-0.2.6.tar.gz --markdown 20240410/h/hnt-nf-jira-library/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-04-10 14:16:19] INFO root fetch - processPackages [twopilabs-sense-x1000]: executing diffoscope
+[2024-04-10 14:16:19] INFO root fetch - processPackages [twopilabs-sense-x1000]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twopilabs-sense-x1000-0.7.5.tar.gz tmp/twopilabs-sense-x1000-0.7.7.tar.gz --markdown 20240410/t/twopilabs-sense-x1000/0.7.5-0.7.7/README.md --exclude *.pyd
+[2024-04-10 14:16:19] INFO root fetch - processPackages [operagents]: executing diffoscope
+[2024-04-10 14:16:19] INFO root fetch - processPackages [operagents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/operagents-0.0.8.tar.gz tmp/operagents-0.0.9.tar.gz --markdown 20240410/o/operagents/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-10 14:16:19] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2024-04-10 14:16:19] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip --markdown 20240410/f/few-shot-priming/0.3.98-0.3.99/README.md --exclude *.pyd
+[2024-04-10 14:16:19] INFO root fetch - processPackages [peegy]: executing diffoscope
+[2024-04-10 14:16:19] INFO root fetch - processPackages [peegy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peegy-1.5.4.tar.gz tmp/peegy-1.5.5.tar.gz --markdown 20240410/p/peegy/1.5.4-1.5.5/README.md --exclude *.pyd
+[2024-04-10 14:16:20] INFO root fetch - processPackages [hnt-nf-jira-library]: Remove: archive file [/home/abi/fetcher/tmp/hnt_nf_jira_library-0.2.5.tar.gz]
+[2024-04-10 14:16:20] INFO root fetch - processPackages [hnt-nf-jira-library]: Remove: archive file [/home/abi/fetcher/tmp/hnt_nf_jira_library-0.2.6.tar.gz]
+[2024-04-10 14:16:20] INFO root fetch - main [MainThread]: End processing [hnt-nf-jira-library]: success
+[2024-04-10 14:16:20] INFO root fetch - processPackages [twopilabs-sense-x1000]: Remove: archive file [/home/abi/fetcher/tmp/twopilabs-sense-x1000-0.7.5.tar.gz]
+[2024-04-10 14:16:20] INFO root fetch - processPackages [twopilabs-sense-x1000]: Remove: archive file [/home/abi/fetcher/tmp/twopilabs-sense-x1000-0.7.7.tar.gz]
+[2024-04-10 14:16:20] INFO root fetch - main [MainThread]: End processing [twopilabs-sense-x1000]: success
+[2024-04-10 14:16:20] INFO root fetch - processPackages [operagents]: Remove: archive file [/home/abi/fetcher/tmp/operagents-0.0.8.tar.gz]
+[2024-04-10 14:16:20] INFO root fetch - processPackages [operagents]: Remove: archive file [/home/abi/fetcher/tmp/operagents-0.0.9.tar.gz]
+[2024-04-10 14:16:20] INFO root fetch - main [MainThread]: End processing [operagents]: success
+[2024-04-10 14:16:20] INFO root fetch - processPackages [illumio-pylo]: Remove: archive file [/home/abi/fetcher/tmp/illumio_pylo-0.3.3.tar.gz]
+[2024-04-10 14:16:20] INFO root fetch - processPackages [illumio-pylo]: Remove: archive file [/home/abi/fetcher/tmp/illumio_pylo-0.3.4.tar.gz]
+[2024-04-10 14:16:20] INFO root fetch - main [MainThread]: End processing [illumio-pylo]: success
+[2024-04-10 14:16:20] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip]
+[2024-04-10 14:16:20] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
+[2024-04-10 14:16:20] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2024-04-10 14:16:20] INFO root fetch - processPackages [peegy]: Remove: archive file [/home/abi/fetcher/tmp/peegy-1.5.4.tar.gz]
+[2024-04-10 14:16:20] INFO root fetch - processPackages [peegy]: Remove: archive file [/home/abi/fetcher/tmp/peegy-1.5.5.tar.gz]
+[2024-04-10 14:16:20] INFO root fetch - main [MainThread]: End processing [peegy]: success
+[2024-04-10 14:16:21] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-04-10 14:16:21] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-04-10 14:16:21] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-04-10 14:16:21] INFO root fetch - main [MainThread]: Store serial: [22700748]

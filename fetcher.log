@@ -9104,3 +9104,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 04:17:42] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240409.tar.gz]
 [2024-04-10 04:17:42] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
 [2024-04-10 04:17:42] INFO root fetch - main [MainThread]: Store serial: [22694514]
+[2024-04-10 04:19:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22694514]
+[2024-04-10 04:19:52] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-10 04:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: baseball
+[2024-04-10 04:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: api-pipe
+[2024-04-10 04:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bestnlp
+[2024-04-10 04:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ovos-plugin-vlc
+[2024-04-10 04:19:52] INFO root fetch - processPackages [bestnlp]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-04-10 04:19:52] INFO root fetch - processPackages [api-pipe]: New version: [1.0.7] Old Version: [1.0.60]
+[2024-04-10 04:19:52] INFO root fetch - processPackages [ovos-plugin-vlc]: New version: [0.0.2a5] Old Version: [0.0.2a4]
+[2024-04-10 04:19:52] INFO root fetch - processPackages [baseball]: New version: [9.9] Old Version: [9.8]
+[2024-04-10 04:19:52] INFO root fetch - processPackages [bestnlp]: Downloading https://files.pythonhosted.org/packages/d3/10/173b89bbdc8f8b03264c000367ce079b47cf14a7623b7044701f06015ed6/bestnlp-1.0.6-py3-none-any.whl
+[2024-04-10 04:19:52] INFO root fetch - processPackages [api-pipe]: Downloading https://files.pythonhosted.org/packages/77/60/5e461581c908c3e19572497fca36ebd1a6ae9ef60d6eb85ea4a3317ab27e/api_pipe-1.0.60.tar.gz
+[2024-04-10 04:19:52] INFO root fetch - processPackages [ovos-plugin-vlc]: Downloading https://files.pythonhosted.org/packages/d0/df/58971d436f57ebf846845f1354defa71859df3a8261b60fad33b218e74fb/ovos_plugin_vlc-0.0.2a4-py3-none-any.whl
+[2024-04-10 04:19:52] INFO root fetch - processPackages [baseball]: Downloading https://files.pythonhosted.org/packages/04/2a/8b198995c2f8d35c19f4b1e0e6c5c067e955f1258d57c1b1341eab88715e/baseball-9.8.tar.gz
+[2024-04-10 04:19:52] INFO root fetch - processPackages [ovos-plugin-vlc]: Downloading https://files.pythonhosted.org/packages/f5/6a/c55a3a7810bd8a20580ca5861e87cef38f5465501421ae74f73602b0512f/ovos_plugin_vlc-0.0.2a5-py3-none-any.whl
+[2024-04-10 04:19:52] INFO root fetch - processPackages [api-pipe]: Downloading https://files.pythonhosted.org/packages/1f/b5/faff998adffcc66196be2c881bace7e5fad585dca8b07c548a0a3165b0bf/api_pipe-1.0.7.tar.gz
+[2024-04-10 04:19:52] INFO root fetch - processPackages [baseball]: Downloading https://files.pythonhosted.org/packages/1a/e0/fb3c48a01fd33034695694663cfddfb7a099e47f8aa30dc6c901a5fcee37/baseball-9.9.tar.gz
+[2024-04-10 04:19:52] INFO root fetch - processPackages [api-pipe]: executing diffoscope
+[2024-04-10 04:19:52] INFO root fetch - processPackages [api-pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/api_pipe-1.0.60.tar.gz tmp/api_pipe-1.0.7.tar.gz --markdown 20240410/a/api-pipe/1.0.60-1.0.7/README.md --exclude *.pyd
+[2024-04-10 04:19:53] INFO root fetch - processPackages [baseball]: executing diffoscope
+[2024-04-10 04:19:53] INFO root fetch - processPackages [baseball]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baseball-9.8.tar.gz tmp/baseball-9.9.tar.gz --markdown 20240410/b/baseball/9.8-9.9/README.md --exclude *.pyd
+[2024-04-10 04:19:53] INFO root fetch - processPackages [bestnlp]: Downloading https://files.pythonhosted.org/packages/6b/02/df989465dd4740a74959c1a4f40140d35bc78638b86ebabbc9c92464252d/bestnlp-1.0.7-py3-none-any.whl
+[2024-04-10 04:19:53] INFO root fetch - processPackages [api-pipe]: Remove: archive file [/home/abi/fetcher/tmp/api_pipe-1.0.60.tar.gz]
+[2024-04-10 04:19:53] INFO root fetch - processPackages [api-pipe]: Remove: archive file [/home/abi/fetcher/tmp/api_pipe-1.0.7.tar.gz]
+[2024-04-10 04:19:53] INFO root fetch - main [MainThread]: End processing [api-pipe]: success
+[2024-04-10 04:19:53] INFO root fetch - processPackages [bestnlp]: executing diffoscope
+[2024-04-10 04:19:53] INFO root fetch - processPackages [bestnlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bestnlp-1.0.6-py3-none-any.whl.zip tmp/bestnlp-1.0.7-py3-none-any.whl.zip --markdown 20240410/b/bestnlp/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-04-10 04:19:53] INFO root fetch - processPackages [baseball]: Remove: archive file [/home/abi/fetcher/tmp/baseball-9.8.tar.gz]
+[2024-04-10 04:19:53] INFO root fetch - processPackages [baseball]: Remove: archive file [/home/abi/fetcher/tmp/baseball-9.9.tar.gz]
+[2024-04-10 04:19:53] INFO root fetch - main [MainThread]: End processing [baseball]: success
+[2024-04-10 04:19:53] INFO root fetch - processPackages [ovos-plugin-vlc]: executing diffoscope
+[2024-04-10 04:19:53] INFO root fetch - processPackages [ovos-plugin-vlc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_plugin_vlc-0.0.2a4-py3-none-any.whl.zip tmp/ovos_plugin_vlc-0.0.2a5-py3-none-any.whl.zip --markdown 20240410/o/ovos-plugin-vlc/0.0.2a4-0.0.2a5/README.md --exclude *.pyd
+[2024-04-10 04:19:54] INFO root fetch - processPackages [bestnlp]: Remove: archive file [/home/abi/fetcher/tmp/bestnlp-1.0.6-py3-none-any.whl.zip]
+[2024-04-10 04:19:54] INFO root fetch - processPackages [bestnlp]: Remove: archive file [/home/abi/fetcher/tmp/bestnlp-1.0.7-py3-none-any.whl.zip]
+[2024-04-10 04:19:54] INFO root fetch - main [MainThread]: End processing [bestnlp]: success
+[2024-04-10 04:19:54] INFO root fetch - processPackages [ovos-plugin-vlc]: Remove: archive file [/home/abi/fetcher/tmp/ovos_plugin_vlc-0.0.2a4-py3-none-any.whl.zip]
+[2024-04-10 04:19:54] INFO root fetch - processPackages [ovos-plugin-vlc]: Remove: archive file [/home/abi/fetcher/tmp/ovos_plugin_vlc-0.0.2a5-py3-none-any.whl.zip]
+[2024-04-10 04:19:54] INFO root fetch - main [MainThread]: End processing [ovos-plugin-vlc]: success
+[2024-04-10 04:19:54] INFO root fetch - main [MainThread]: Store serial: [22694526]

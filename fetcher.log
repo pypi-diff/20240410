@@ -9631,3 +9631,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 04:37:27] INFO root fetch - processPackages [prodvana]: Remove: archive file [/home/abi/fetcher/tmp/prodvana-0.3.9.tar.gz]
 [2024-04-10 04:37:27] INFO root fetch - main [MainThread]: End processing [prodvana]: success
 [2024-04-10 04:37:27] INFO root fetch - main [MainThread]: Store serial: [22694703]
+[2024-04-10 04:39:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22694703]
+[2024-04-10 04:39:37] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-10 04:39:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ros-cdk-cloudstoragegateway
+[2024-04-10 04:39:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gplugins
+[2024-04-10 04:39:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ros-cdk-nlpautoml
+[2024-04-10 04:39:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: DESlib
+[2024-04-10 04:39:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-account-financial-report
+[2024-04-10 04:39:37] INFO root fetch - processPackages [odoo-addon-account-financial-report]: New version: [16.0.1.5.4.3] Old Version: [16.0.1.5.4.2]
+[2024-04-10 04:39:37] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Downloading https://files.pythonhosted.org/packages/7f/74/a9425f9d56ffb9b34d4cdd2c73d2acaed76977f32841b6a95f1b68bd3e7f/odoo_addon_account_financial_report-16.0.1.5.4.2-py3-none-any.whl
+[2024-04-10 04:39:37] INFO root fetch - processPackages [gplugins]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-10 04:39:37] INFO root fetch - processPackages [ros-cdk-cloudstoragegateway]: New version: [1.0.24] Old Version: [1.0.23]
+[2024-04-10 04:39:37] INFO root fetch - processPackages [ros-cdk-nlpautoml]: New version: [1.0.24] Old Version: [1.0.23]
+[2024-04-10 04:39:37] INFO root fetch - processPackages [DESlib]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-04-10 04:39:37] INFO root fetch - processPackages [gplugins]: Downloading https://files.pythonhosted.org/packages/fa/65/d1d3c483fca66a8c6a47ce3657f5b7ddde9f75b4c029056096b4081bc307/gplugins-0.9.8.tar.gz
+[2024-04-10 04:39:37] INFO root fetch - processPackages [ros-cdk-cloudstoragegateway]: Downloading https://files.pythonhosted.org/packages/c7/f9/d1e605de3c90a88a6ade919a521458d4908e335b29f57c7d5ab17effbe1b/ros-cdk-cloudstoragegateway-1.0.23.tar.gz
+[2024-04-10 04:39:37] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Downloading https://files.pythonhosted.org/packages/f7/d4/669bc12d86b3ab06c2bc815d94f5d0e2d740b7f070d0beb0a444d54fb807/odoo_addon_account_financial_report-16.0.1.5.4.3-py3-none-any.whl
+[2024-04-10 04:39:37] INFO root fetch - processPackages [ros-cdk-nlpautoml]: Downloading https://files.pythonhosted.org/packages/8f/a6/b0f11c68ec4adbd735b2a34956d8cc4af8252d4da5d863883153a03ed00a/ros-cdk-nlpautoml-1.0.23.tar.gz
+[2024-04-10 04:39:37] INFO root fetch - processPackages [DESlib]: Downloading https://files.pythonhosted.org/packages/c3/be/e9c723932b580de822e78418855d77bfb8ef4bbc0a2ff6ee801b50055712/DESlib-0.3.5-py3-none-any.whl
+[2024-04-10 04:39:38] INFO root fetch - processPackages [odoo-addon-account-financial-report]: executing diffoscope
+[2024-04-10 04:39:38] INFO root fetch - processPackages [odoo-addon-account-financial-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_financial_report-16.0.1.5.4.2-py3-none-any.whl.zip tmp/odoo_addon_account_financial_report-16.0.1.5.4.3-py3-none-any.whl.zip --markdown 20240410/o/odoo-addon-account-financial-report/16.0.1.5.4.2-16.0.1.5.4.3/README.md --exclude *.pyd
+[2024-04-10 04:39:38] INFO root fetch - processPackages [ros-cdk-cloudstoragegateway]: Downloading https://files.pythonhosted.org/packages/32/59/40fececd820d8623da442737b22631cc8101b1c569cd8e546c890f9cfa54/ros-cdk-cloudstoragegateway-1.0.24.tar.gz
+[2024-04-10 04:39:38] INFO root fetch - processPackages [ros-cdk-nlpautoml]: Downloading https://files.pythonhosted.org/packages/f1/ab/b1ef9c1c85b245537a4bf213b050321d9af697d78a7791b8cfa17c30f14a/ros-cdk-nlpautoml-1.0.24.tar.gz
+[2024-04-10 04:39:38] INFO root fetch - processPackages [DESlib]: Downloading https://files.pythonhosted.org/packages/f0/6e/8eddc3bee61f47e7ea99aab77ad39d45e613b0439466326721c3d1cdcc10/DESlib-0.3.6.tar.gz
+[2024-04-10 04:39:38] INFO root fetch - processPackages [ros-cdk-cloudstoragegateway]: executing diffoscope
+[2024-04-10 04:39:38] INFO root fetch - processPackages [ros-cdk-cloudstoragegateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-cloudstoragegateway-1.0.23.tar.gz tmp/ros-cdk-cloudstoragegateway-1.0.24.tar.gz --markdown 20240410/r/ros-cdk-cloudstoragegateway/1.0.23-1.0.24/README.md --exclude *.pyd
+[2024-04-10 04:39:38] INFO root fetch - processPackages [gplugins]: Downloading https://files.pythonhosted.org/packages/8d/d1/6b532d5fd395ef4336d1e02c79051117722712aa3fcf6ca51f764a1e4d7d/gplugins-0.9.9.tar.gz
+[2024-04-10 04:39:38] INFO root fetch - processPackages [ros-cdk-nlpautoml]: executing diffoscope
+[2024-04-10 04:39:38] INFO root fetch - processPackages [ros-cdk-nlpautoml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-nlpautoml-1.0.23.tar.gz tmp/ros-cdk-nlpautoml-1.0.24.tar.gz --markdown 20240410/r/ros-cdk-nlpautoml/1.0.23-1.0.24/README.md --exclude *.pyd
+[2024-04-10 04:39:38] INFO root fetch - processPackages [DESlib]: executing diffoscope
+[2024-04-10 04:39:38] INFO root fetch - processPackages [DESlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DESlib-0.3.5-py3-none-any.whl.zip tmp/DESlib-0.3.6.tar.gz --markdown 20240410/D/DESlib/0.3.5-0.3.6/README.md --exclude *.pyd
+[2024-04-10 04:39:38] INFO root fetch - processPackages [gplugins]: executing diffoscope
+[2024-04-10 04:39:38] INFO root fetch - processPackages [gplugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gplugins-0.9.8.tar.gz tmp/gplugins-0.9.9.tar.gz --markdown 20240410/g/gplugins/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-10 04:39:38] INFO root fetch - processPackages [ros-cdk-cloudstoragegateway]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cloudstoragegateway-1.0.23.tar.gz]
+[2024-04-10 04:39:38] INFO root fetch - processPackages [ros-cdk-cloudstoragegateway]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cloudstoragegateway-1.0.24.tar.gz]
+[2024-04-10 04:39:38] INFO root fetch - main [MainThread]: End processing [ros-cdk-cloudstoragegateway]: success
+[2024-04-10 04:39:39] INFO root fetch - processPackages [ros-cdk-nlpautoml]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-nlpautoml-1.0.23.tar.gz]
+[2024-04-10 04:39:39] INFO root fetch - processPackages [ros-cdk-nlpautoml]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-nlpautoml-1.0.24.tar.gz]
+[2024-04-10 04:39:39] INFO root fetch - main [MainThread]: End processing [ros-cdk-nlpautoml]: success
+[2024-04-10 04:39:39] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_financial_report-16.0.1.5.4.2-py3-none-any.whl.zip]
+[2024-04-10 04:39:39] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_financial_report-16.0.1.5.4.3-py3-none-any.whl.zip]
+[2024-04-10 04:39:39] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-financial-report]: success
+[2024-04-10 04:39:39] INFO root fetch - processPackages [DESlib]: Remove: archive file [/home/abi/fetcher/tmp/DESlib-0.3.5-py3-none-any.whl.zip]
+[2024-04-10 04:39:39] INFO root fetch - processPackages [DESlib]: Remove: archive file [/home/abi/fetcher/tmp/DESlib-0.3.6.tar.gz]
+[2024-04-10 04:39:39] INFO root fetch - main [MainThread]: End processing [DESlib]: success
+[2024-04-10 04:39:39] INFO root fetch - processPackages [gplugins]: Remove: archive file [/home/abi/fetcher/tmp/gplugins-0.9.8.tar.gz]
+[2024-04-10 04:39:39] INFO root fetch - processPackages [gplugins]: Remove: archive file [/home/abi/fetcher/tmp/gplugins-0.9.9.tar.gz]
+[2024-04-10 04:39:39] INFO root fetch - main [MainThread]: End processing [gplugins]: success
+[2024-04-10 04:39:39] INFO root fetch - main [MainThread]: Store serial: [22694715]

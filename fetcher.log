@@ -20120,3 +20120,45 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 12:21:30] INFO root fetch - processPackages [iderare-pheno]: Remove: archive file [/home/abi/fetcher/tmp/iderare-pheno-0.5.0.tar.gz]
 [2024-04-10 12:21:30] INFO root fetch - main [MainThread]: End processing [iderare-pheno]: success
 [2024-04-10 12:21:30] INFO root fetch - main [MainThread]: Store serial: [22698892]
+[2024-04-10 12:23:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22698892]
+[2024-04-10 12:23:39] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-10 12:23:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sirji-messages
+[2024-04-10 12:23:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: IntuneCD
+[2024-04-10 12:23:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sirji-agents
+[2024-04-10 12:23:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tetra
+[2024-04-10 12:23:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pih
+[2024-04-10 12:23:39] WARNING root fetch - processPackages [tetra]: Skipping, unable to determine old version
+[2024-04-10 12:23:39] INFO root fetch - processPackages [sirji-messages]: New version: [0.0.9] Old Version: [0.0.7]
+[2024-04-10 12:23:39] INFO root fetch - main [MainThread]: End processing [tetra] error
+[2024-04-10 12:23:39] INFO root fetch - processPackages [sirji-agents]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-10 12:23:39] INFO root fetch - processPackages [pih]: New version: [0.36.1] Old Version: [0.36]
+[2024-04-10 12:23:39] INFO root fetch - processPackages [IntuneCD]: New version: [2.3.2b1] Old Version: [2.3.2]
+[2024-04-10 12:23:39] INFO root fetch - processPackages [sirji-messages]: Downloading https://files.pythonhosted.org/packages/25/0f/ce33b958b10d49658da98af96fe8029289822968952893e499d7373ea186/sirji-messages-0.0.7.tar.gz
+[2024-04-10 12:23:39] INFO root fetch - processPackages [sirji-agents]: Downloading https://files.pythonhosted.org/packages/b3/5f/e94cc45ff6ae73814ab9c995ecb3f23935035430ed12404c6869f3101639/sirji-agents-0.0.8.tar.gz
+[2024-04-10 12:23:39] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/db/52/8bb79f738f84e599c63e47849ff8f71739519c0ee9bad1a6c2ca498a5672/pih-0.36.tar.gz
+[2024-04-10 12:23:40] INFO root fetch - processPackages [IntuneCD]: Downloading https://files.pythonhosted.org/packages/8d/85/58a7fee30f1edaedb6433f08f88bfae00000b509a9429b8b5dfe846dfc54/IntuneCD-2.3.2.tar.gz
+[2024-04-10 12:23:40] INFO root fetch - processPackages [sirji-agents]: Downloading https://files.pythonhosted.org/packages/2d/21/2f8f58a9460b37b13e4747c65a5e850216adf0cab4b50990fb72115eb4dd/sirji-agents-0.0.9.tar.gz
+[2024-04-10 12:23:40] INFO root fetch - processPackages [sirji-messages]: Downloading https://files.pythonhosted.org/packages/a5/c6/4ac7d143f28208fd31dc3a617bb8d957ddd00f4c7eb41fe7fe62b3590af7/sirji-messages-0.0.9.tar.gz
+[2024-04-10 12:23:40] INFO root fetch - processPackages [sirji-agents]: executing diffoscope
+[2024-04-10 12:23:40] INFO root fetch - processPackages [sirji-agents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sirji-agents-0.0.8.tar.gz tmp/sirji-agents-0.0.9.tar.gz --markdown 20240410/s/sirji-agents/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-10 12:23:40] INFO root fetch - processPackages [sirji-messages]: executing diffoscope
+[2024-04-10 12:23:40] INFO root fetch - processPackages [sirji-messages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sirji-messages-0.0.7.tar.gz tmp/sirji-messages-0.0.9.tar.gz --markdown 20240410/s/sirji-messages/0.0.7-0.0.9/README.md --exclude *.pyd
+[2024-04-10 12:23:40] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/2a/00/a0fa8541119e8809993a02e151429859d6cbcadf1e00d552884a4c0aa73d/pih-0.36.1.tar.gz
+[2024-04-10 12:23:40] INFO root fetch - processPackages [IntuneCD]: Downloading https://files.pythonhosted.org/packages/bc/89/762d014ff743c4a2acda162cd378bdcfcb9cb481fd37e238b8771d96d7fd/IntuneCD-2.3.2b1.tar.gz
+[2024-04-10 12:23:40] INFO root fetch - processPackages [pih]: executing diffoscope
+[2024-04-10 12:23:40] INFO root fetch - processPackages [pih]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-0.36.tar.gz tmp/pih-0.36.1.tar.gz --markdown 20240410/p/pih/0.36-0.36.1/README.md --exclude *.pyd
+[2024-04-10 12:23:40] INFO root fetch - processPackages [IntuneCD]: executing diffoscope
+[2024-04-10 12:23:40] INFO root fetch - processPackages [IntuneCD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IntuneCD-2.3.2.tar.gz tmp/IntuneCD-2.3.2b1.tar.gz --markdown 20240410/I/IntuneCD/2.3.2-2.3.2b1/README.md --exclude *.pyd
+[2024-04-10 12:23:41] INFO root fetch - processPackages [sirji-messages]: Remove: archive file [/home/abi/fetcher/tmp/sirji-messages-0.0.7.tar.gz]
+[2024-04-10 12:23:41] INFO root fetch - processPackages [sirji-messages]: Remove: archive file [/home/abi/fetcher/tmp/sirji-messages-0.0.9.tar.gz]
+[2024-04-10 12:23:41] INFO root fetch - main [MainThread]: End processing [sirji-messages]: success
+[2024-04-10 12:23:41] INFO root fetch - processPackages [sirji-agents]: Remove: archive file [/home/abi/fetcher/tmp/sirji-agents-0.0.8.tar.gz]
+[2024-04-10 12:23:41] INFO root fetch - processPackages [sirji-agents]: Remove: archive file [/home/abi/fetcher/tmp/sirji-agents-0.0.9.tar.gz]
+[2024-04-10 12:23:41] INFO root fetch - main [MainThread]: End processing [sirji-agents]: success
+[2024-04-10 12:23:41] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.36.tar.gz]
+[2024-04-10 12:23:41] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.36.1.tar.gz]
+[2024-04-10 12:23:41] INFO root fetch - main [MainThread]: End processing [pih]: success
+[2024-04-10 12:23:41] INFO root fetch - processPackages [IntuneCD]: Remove: archive file [/home/abi/fetcher/tmp/IntuneCD-2.3.2.tar.gz]
+[2024-04-10 12:23:41] INFO root fetch - processPackages [IntuneCD]: Remove: archive file [/home/abi/fetcher/tmp/IntuneCD-2.3.2b1.tar.gz]
+[2024-04-10 12:23:41] INFO root fetch - main [MainThread]: End processing [IntuneCD]: success
+[2024-04-10 12:23:41] INFO root fetch - main [MainThread]: Store serial: [22698907]

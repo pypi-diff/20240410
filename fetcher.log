@@ -17376,3 +17376,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 10:31:34] INFO root fetch - processPackages [golem-core]: Remove: archive file [/home/abi/fetcher/tmp/golem_core-0.7.0.tar.gz]
 [2024-04-10 10:31:34] INFO root fetch - main [MainThread]: End processing [golem-core]: success
 [2024-04-10 10:31:34] INFO root fetch - main [MainThread]: Store serial: [22697720]
+[2024-04-10 10:33:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22697720]
+[2024-04-10 10:33:47] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-10 10:33:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyserilog
+[2024-04-10 10:33:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: servizio-anon
+[2024-04-10 10:33:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: talos-python
+[2024-04-10 10:33:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: characterai
+[2024-04-10 10:33:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: streamlit-google-auth
+[2024-04-10 10:33:47] INFO root fetch - processPackages [servizio-anon]: New version: [0.5.0] Old Version: [0.2.1]
+[2024-04-10 10:33:48] INFO root fetch - processPackages [streamlit-google-auth]: New version: [1.1.5] Old Version: [1.1.4]
+[2024-04-10 10:33:48] INFO root fetch - processPackages [servizio-anon]: Downloading https://files.pythonhosted.org/packages/32/d2/0e8c93ab719a2028b06baca60f3747a7e0cfbe73da7a33aa9a3b97c83123/servizio_anon-0.2.1.tar.gz
+[2024-04-10 10:33:48] INFO root fetch - processPackages [pyserilog]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-04-10 10:33:48] INFO root fetch - processPackages [characterai]: New version: [1.0.4a1] Old Version: [1.0.2a1]
+[2024-04-10 10:33:48] INFO root fetch - processPackages [talos-python]: New version: [3.0.9] Old Version: [3.0.8.0]
+[2024-04-10 10:33:48] INFO root fetch - processPackages [streamlit-google-auth]: Downloading https://files.pythonhosted.org/packages/17/9f/20c2a563b05146f7c4190ec3f2ed935dfc210421809229dbcdfecb237095/streamlit-google-auth-1.1.4.tar.gz
+[2024-04-10 10:33:48] INFO root fetch - processPackages [characterai]: Downloading https://files.pythonhosted.org/packages/c8/85/088aa2153dd00a9d7c56da8836bd9424931e7ffc4949885b41bd67a905ca/characterai-1.0.2a1.tar.gz
+[2024-04-10 10:33:48] INFO root fetch - processPackages [pyserilog]: Downloading https://files.pythonhosted.org/packages/71/f9/e21640ef35ee3dd0964c583b8fe59cfd01b95cca437d3eb9bc0e89147863/pyserilog-0.3.2-py3-none-any.whl
+[2024-04-10 10:33:48] INFO root fetch - processPackages [servizio-anon]: Downloading https://files.pythonhosted.org/packages/ea/0b/cfc598cd19213662c4c37b665c187e3cfa7feddf8d61777ca27a676a5981/servizio_anon-0.5.0.tar.gz
+[2024-04-10 10:33:48] INFO root fetch - processPackages [talos-python]: Downloading https://files.pythonhosted.org/packages/10/79/383ead2510d8409f9d5e025fd806634fa23ed2e6ef2b62b5a2d16a664359/talos-python-3.0.8.0.tar.gz
+[2024-04-10 10:33:48] INFO root fetch - processPackages [servizio-anon]: executing diffoscope
+[2024-04-10 10:33:48] INFO root fetch - processPackages [servizio-anon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/servizio_anon-0.2.1.tar.gz tmp/servizio_anon-0.5.0.tar.gz --markdown 20240410/s/servizio-anon/0.2.1-0.5.0/README.md --exclude *.pyd
+[2024-04-10 10:33:48] INFO root fetch - processPackages [streamlit-google-auth]: Downloading https://files.pythonhosted.org/packages/a5/82/64a685cbae4808df61cd69809ae02b15e5a6603b9f1644a375d0e1065cc6/streamlit-google-auth-1.1.5.tar.gz
+[2024-04-10 10:33:48] INFO root fetch - processPackages [characterai]: Downloading https://files.pythonhosted.org/packages/0f/0f/5969c46c745287b4cea1cfacbc4cfccec39af1ba9c5906ddb6cd4e6f7448/characterai-1.0.4a1.tar.gz
+[2024-04-10 10:33:48] INFO root fetch - processPackages [streamlit-google-auth]: executing diffoscope
+[2024-04-10 10:33:48] INFO root fetch - processPackages [streamlit-google-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-google-auth-1.1.4.tar.gz tmp/streamlit-google-auth-1.1.5.tar.gz --markdown 20240410/s/streamlit-google-auth/1.1.4-1.1.5/README.md --exclude *.pyd
+[2024-04-10 10:33:48] INFO root fetch - processPackages [pyserilog]: Downloading https://files.pythonhosted.org/packages/02/d5/b4716da9cdf30b3a96078fed0b874c5f82f760cac998631e4e63253de756/pyserilog-0.3.3-py3-none-any.whl
+[2024-04-10 10:33:48] INFO root fetch - processPackages [talos-python]: Downloading https://files.pythonhosted.org/packages/4e/82/49b95caf6d95548ba64532a680699c14e35a3ba900361b8fc3dcfaa6121c/talos-python-3.0.9.tar.gz
+[2024-04-10 10:33:48] INFO root fetch - processPackages [characterai]: executing diffoscope
+[2024-04-10 10:33:48] INFO root fetch - processPackages [characterai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/characterai-1.0.2a1.tar.gz tmp/characterai-1.0.4a1.tar.gz --markdown 20240410/c/characterai/1.0.2a1-1.0.4a1/README.md --exclude *.pyd
+[2024-04-10 10:33:48] INFO root fetch - processPackages [pyserilog]: executing diffoscope
+[2024-04-10 10:33:48] INFO root fetch - processPackages [pyserilog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyserilog-0.3.2-py3-none-any.whl.zip tmp/pyserilog-0.3.3-py3-none-any.whl.zip --markdown 20240410/p/pyserilog/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-04-10 10:33:48] INFO root fetch - processPackages [talos-python]: executing diffoscope
+[2024-04-10 10:33:48] INFO root fetch - processPackages [talos-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talos-python-3.0.8.0.tar.gz tmp/talos-python-3.0.9.tar.gz --markdown 20240410/t/talos-python/3.0.8.0-3.0.9/README.md --exclude *.pyd
+[2024-04-10 10:33:49] INFO root fetch - processPackages [servizio-anon]: Remove: archive file [/home/abi/fetcher/tmp/servizio_anon-0.2.1.tar.gz]
+[2024-04-10 10:33:49] INFO root fetch - processPackages [servizio-anon]: Remove: archive file [/home/abi/fetcher/tmp/servizio_anon-0.5.0.tar.gz]
+[2024-04-10 10:33:49] INFO root fetch - main [MainThread]: End processing [servizio-anon]: success
+[2024-04-10 10:33:49] INFO root fetch - processPackages [streamlit-google-auth]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-google-auth-1.1.4.tar.gz]
+[2024-04-10 10:33:49] INFO root fetch - processPackages [streamlit-google-auth]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-google-auth-1.1.5.tar.gz]
+[2024-04-10 10:33:49] INFO root fetch - main [MainThread]: End processing [streamlit-google-auth]: success
+[2024-04-10 10:33:49] INFO root fetch - processPackages [characterai]: Remove: archive file [/home/abi/fetcher/tmp/characterai-1.0.2a1.tar.gz]
+[2024-04-10 10:33:49] INFO root fetch - processPackages [characterai]: Remove: archive file [/home/abi/fetcher/tmp/characterai-1.0.4a1.tar.gz]
+[2024-04-10 10:33:49] INFO root fetch - main [MainThread]: End processing [characterai]: success
+[2024-04-10 10:33:49] INFO root fetch - processPackages [pyserilog]: Remove: archive file [/home/abi/fetcher/tmp/pyserilog-0.3.2-py3-none-any.whl.zip]
+[2024-04-10 10:33:49] INFO root fetch - processPackages [pyserilog]: Remove: archive file [/home/abi/fetcher/tmp/pyserilog-0.3.3-py3-none-any.whl.zip]
+[2024-04-10 10:33:49] INFO root fetch - main [MainThread]: End processing [pyserilog]: success
+[2024-04-10 10:33:49] INFO root fetch - processPackages [talos-python]: Remove: archive file [/home/abi/fetcher/tmp/talos-python-3.0.8.0.tar.gz]
+[2024-04-10 10:33:49] INFO root fetch - processPackages [talos-python]: Remove: archive file [/home/abi/fetcher/tmp/talos-python-3.0.9.tar.gz]
+[2024-04-10 10:33:49] INFO root fetch - main [MainThread]: End processing [talos-python]: success
+[2024-04-10 10:33:49] INFO root fetch - main [MainThread]: Store serial: [22697729]

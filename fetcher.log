@@ -3111,3 +3111,69 @@
 [2024-04-10 02:24:09] INFO root fetch - processPackages [Quanthon]: Remove: archive file [/home/abi/fetcher/tmp/Quanthon-0.3.5.tar.gz]
 [2024-04-10 02:24:09] INFO root fetch - main [MainThread]: End processing [Quanthon]: success
 [2024-04-10 02:24:09] INFO root fetch - main [MainThread]: Store serial: [22692361]
+[2024-04-10 02:26:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22692361]
+[2024-04-10 02:26:19] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-10 02:26:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vuer
+[2024-04-10 02:26:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-serverless-clamscan
+[2024-04-10 02:26:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: not1mm
+[2024-04-10 02:26:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: azure-appconfiguration
+[2024-04-10 02:26:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-tweet-queue
+[2024-04-10 02:26:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-ecs-service-extensions
+[2024-04-10 02:26:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-secret-manager-wrapper-layer
+[2024-04-10 02:26:19] INFO root fetch - processPackages [not1mm]: New version: [24.4.9.1] Old Version: [24.4.9]
+[2024-04-10 02:26:19] INFO root fetch - processPackages [cdk-tweet-queue]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-10 02:26:19] INFO root fetch - processPackages [cdk-serverless-clamscan]: New version: [2.6.99] Old Version: [2.6.98]
+[2024-04-10 02:26:19] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-10 02:26:19] INFO root fetch - processPackages [vuer]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-10 02:26:19] INFO root fetch - processPackages [cdk-ecs-service-extensions]: New version: [2.0.1a99] Old Version: [2.0.1a98]
+[2024-04-10 02:26:19] INFO root fetch - processPackages [not1mm]: Downloading https://files.pythonhosted.org/packages/e6/8d/0ab4f1244353a10e1754893514787b73656c2c5b17f2c5c32fcc730ca8b5/not1mm-24.4.9.tar.gz
+[2024-04-10 02:26:19] INFO root fetch - processPackages [cdk-tweet-queue]: Downloading https://files.pythonhosted.org/packages/f2/a9/33fbe548cea174e015412108a563be3bbbdacbb6982d1ef6bf71d4abb509/cdk-tweet-queue-2.0.98.tar.gz
+[2024-04-10 02:26:19] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/04/67/6fb0e00ee65986b766391e4327a7370cec35f8458c0c80507e3b56a79e57/cdk-serverless-clamscan-2.6.98.tar.gz
+[2024-04-10 02:26:19] INFO root fetch - processPackages [azure-appconfiguration]: New version: [1.6.0b2] Old Version: [1.6.0b1]
+[2024-04-10 02:26:19] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/00/91/545869a3cc999dbc9750aad345d775087610ebf834517c928a0d0e289c4e/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz
+[2024-04-10 02:26:19] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Downloading https://files.pythonhosted.org/packages/c9/ad/d7965da0f34d52de670def31464963b3971de03ac20cddf5eac577722b31/cdk-ecs-service-extensions-2.0.1a98.tar.gz
+[2024-04-10 02:26:19] INFO root fetch - processPackages [vuer]: Downloading https://files.pythonhosted.org/packages/14/ea/4ed23f119eafd70cda97b4911e041767f825880f34f1770da786691d361c/vuer-0.0.8-py3-none-any.whl
+[2024-04-10 02:26:20] INFO root fetch - processPackages [azure-appconfiguration]: Downloading https://files.pythonhosted.org/packages/66/b4/1bab4e23b2916f1def37a6ef705b8c438a68d6e2f922d9675cb79c6d4b42/azure-appconfiguration-1.6.0b1.tar.gz
+[2024-04-10 02:26:20] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/c2/c5/a8a13bb72ea375e2ce99dd389e945478ce7d95d8628acf6db64f14f674f5/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz
+[2024-04-10 02:26:20] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/53/8f/ea40546b0f696761a1aaeee533ca8a5f53147131c3aa1f0aa1316112f44f/cdk-serverless-clamscan-2.6.99.tar.gz
+[2024-04-10 02:26:20] INFO root fetch - processPackages [cdk-tweet-queue]: Downloading https://files.pythonhosted.org/packages/b9/df/ffba41b66fc7796cb2c763da82c2012cc28d0708e1dcb7775c98d3d9e491/cdk-tweet-queue-2.0.99.tar.gz
+[2024-04-10 02:26:20] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: executing diffoscope
+[2024-04-10 02:26:20] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz --markdown 20240410/c/cdk-secret-manager-wrapper-layer/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-04-10 02:26:20] INFO root fetch - processPackages [cdk-serverless-clamscan]: executing diffoscope
+[2024-04-10 02:26:20] INFO root fetch - processPackages [cdk-serverless-clamscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-serverless-clamscan-2.6.98.tar.gz tmp/cdk-serverless-clamscan-2.6.99.tar.gz --markdown 20240410/c/cdk-serverless-clamscan/2.6.98-2.6.99/README.md --exclude *.pyd
+[2024-04-10 02:26:20] INFO root fetch - processPackages [not1mm]: Downloading https://files.pythonhosted.org/packages/08/98/22b5ce1824b6498de9ac0a1accd2e940a8ceac873f98d948b8a65ab82d47/not1mm-24.4.9.1.tar.gz
+[2024-04-10 02:26:20] INFO root fetch - processPackages [cdk-tweet-queue]: executing diffoscope
+[2024-04-10 02:26:20] INFO root fetch - processPackages [cdk-tweet-queue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-tweet-queue-2.0.98.tar.gz tmp/cdk-tweet-queue-2.0.99.tar.gz --markdown 20240410/c/cdk-tweet-queue/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-04-10 02:26:20] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Downloading https://files.pythonhosted.org/packages/9c/f7/1a593c4ae0d3c80332cec251caad8f13a27842299475718ad186eea220ba/cdk-ecs-service-extensions-2.0.1a99.tar.gz
+[2024-04-10 02:26:20] INFO root fetch - processPackages [azure-appconfiguration]: Downloading https://files.pythonhosted.org/packages/55/60/d7fdd1d4ed08ab268a4b55aef51ff1154879de48e856cace41b52c3d0a29/azure-appconfiguration-1.6.0b2.tar.gz
+[2024-04-10 02:26:20] INFO root fetch - processPackages [vuer]: Downloading https://files.pythonhosted.org/packages/25/f1/9174198521ef27b8c45231bf0d7003073ba3ae6fb4be3b18c0a18c4ce749/vuer-0.0.9-py3-none-any.whl
+[2024-04-10 02:26:20] INFO root fetch - processPackages [not1mm]: executing diffoscope
+[2024-04-10 02:26:20] INFO root fetch - processPackages [not1mm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/not1mm-24.4.9.tar.gz tmp/not1mm-24.4.9.1.tar.gz --markdown 20240410/n/not1mm/24.4.9-24.4.9.1/README.md --exclude *.pyd
+[2024-04-10 02:26:20] INFO root fetch - processPackages [cdk-ecs-service-extensions]: executing diffoscope
+[2024-04-10 02:26:20] INFO root fetch - processPackages [cdk-ecs-service-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-ecs-service-extensions-2.0.1a98.tar.gz tmp/cdk-ecs-service-extensions-2.0.1a99.tar.gz --markdown 20240410/c/cdk-ecs-service-extensions/2.0.1a98-2.0.1a99/README.md --exclude *.pyd
+[2024-04-10 02:26:20] INFO root fetch - processPackages [azure-appconfiguration]: executing diffoscope
+[2024-04-10 02:26:20] INFO root fetch - processPackages [azure-appconfiguration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-appconfiguration-1.6.0b1.tar.gz tmp/azure-appconfiguration-1.6.0b2.tar.gz --markdown 20240410/a/azure-appconfiguration/1.6.0b1-1.6.0b2/README.md --exclude *.pyd
+[2024-04-10 02:26:20] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz]
+[2024-04-10 02:26:20] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz]
+[2024-04-10 02:26:20] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
+[2024-04-10 02:26:20] INFO root fetch - processPackages [vuer]: executing diffoscope
+[2024-04-10 02:26:20] INFO root fetch - processPackages [vuer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vuer-0.0.8-py3-none-any.whl.zip tmp/vuer-0.0.9-py3-none-any.whl.zip --markdown 20240410/v/vuer/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-10 02:26:20] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.6.98.tar.gz]
+[2024-04-10 02:26:20] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.6.99.tar.gz]
+[2024-04-10 02:26:20] INFO root fetch - main [MainThread]: End processing [cdk-serverless-clamscan]: success
+[2024-04-10 02:26:21] INFO root fetch - processPackages [cdk-tweet-queue]: Remove: archive file [/home/abi/fetcher/tmp/cdk-tweet-queue-2.0.98.tar.gz]
+[2024-04-10 02:26:21] INFO root fetch - processPackages [cdk-tweet-queue]: Remove: archive file [/home/abi/fetcher/tmp/cdk-tweet-queue-2.0.99.tar.gz]
+[2024-04-10 02:26:21] INFO root fetch - main [MainThread]: End processing [cdk-tweet-queue]: success
+[2024-04-10 02:26:21] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecs-service-extensions-2.0.1a98.tar.gz]
+[2024-04-10 02:26:21] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecs-service-extensions-2.0.1a99.tar.gz]
+[2024-04-10 02:26:21] INFO root fetch - main [MainThread]: End processing [cdk-ecs-service-extensions]: success
+[2024-04-10 02:26:21] INFO root fetch - processPackages [vuer]: Remove: archive file [/home/abi/fetcher/tmp/vuer-0.0.8-py3-none-any.whl.zip]
+[2024-04-10 02:26:21] INFO root fetch - processPackages [vuer]: Remove: archive file [/home/abi/fetcher/tmp/vuer-0.0.9-py3-none-any.whl.zip]
+[2024-04-10 02:26:21] INFO root fetch - main [MainThread]: End processing [vuer]: success
+[2024-04-10 02:26:21] INFO root fetch - processPackages [azure-appconfiguration]: Remove: archive file [/home/abi/fetcher/tmp/azure-appconfiguration-1.6.0b1.tar.gz]
+[2024-04-10 02:26:21] INFO root fetch - processPackages [azure-appconfiguration]: Remove: archive file [/home/abi/fetcher/tmp/azure-appconfiguration-1.6.0b2.tar.gz]
+[2024-04-10 02:26:21] INFO root fetch - main [MainThread]: End processing [azure-appconfiguration]: success
+[2024-04-10 02:26:22] INFO root fetch - processPackages [not1mm]: Remove: archive file [/home/abi/fetcher/tmp/not1mm-24.4.9.tar.gz]
+[2024-04-10 02:26:22] INFO root fetch - processPackages [not1mm]: Remove: archive file [/home/abi/fetcher/tmp/not1mm-24.4.9.1.tar.gz]
+[2024-04-10 02:26:22] INFO root fetch - main [MainThread]: End processing [not1mm]: success
+[2024-04-10 02:26:22] INFO root fetch - main [MainThread]: Store serial: [22692389]

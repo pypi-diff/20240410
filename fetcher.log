@@ -18141,3 +18141,39 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 11:01:00] INFO root fetch - processPackages [gemsembler]: Remove: archive file [/home/abi/fetcher/tmp/gemsembler-0.6.3.tar.gz]
 [2024-04-10 11:01:00] INFO root fetch - main [MainThread]: End processing [gemsembler]: success
 [2024-04-10 11:01:00] INFO root fetch - main [MainThread]: Store serial: [22698100]
+[2024-04-10 11:03:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22698100]
+[2024-04-10 11:03:09] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-10 11:03:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: headline-gen
+[2024-04-10 11:03:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xfem
+[2024-04-10 11:03:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pika-pika-smart
+[2024-04-10 11:03:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stackr
+[2024-04-10 11:03:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-azuredevops
+[2024-04-10 11:03:09] INFO root fetch - processPackages [headline-gen]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-10 11:03:09] WARNING root fetch - processPackages [stackr]: Skipping, unable to determine old version
+[2024-04-10 11:03:09] INFO root fetch - main [MainThread]: End processing [stackr] error
+[2024-04-10 11:03:09] WARNING root fetch - processPackages [pika-pika-smart]: Skipping, unable to determine old version
+[2024-04-10 11:03:09] INFO root fetch - main [MainThread]: End processing [pika-pika-smart] error
+[2024-04-10 11:03:09] INFO root fetch - processPackages [xfem]: New version: [2.1.2303.post8.dev0] Old Version: [2.1.2303.post71.dev0]
+[2024-04-10 11:03:09] INFO root fetch - processPackages [pulumi-azuredevops]: New version: [3.1.0a1712738665] Old Version: [3.1.0a1712467168]
+[2024-04-10 11:03:09] INFO root fetch - processPackages [headline-gen]: Downloading https://files.pythonhosted.org/packages/f6/07/7cd4c04ad28db2d2ce7e589ca03981b09335ed9869a5e8edb8a0f7c8fc61/headline-gen-0.0.1.tar.gz
+[2024-04-10 11:03:09] INFO root fetch - processPackages [xfem]: Downloading https://files.pythonhosted.org/packages/76/b0/a70a491f1b870dae8ced489aecc30d60816b678117c133430361bf8c2880/xfem-2.1.2303.post71.dev0.tar.gz
+[2024-04-10 11:03:09] INFO root fetch - processPackages [pulumi-azuredevops]: Downloading https://files.pythonhosted.org/packages/b1/63/6d99bbfa86b4ce36046515ca62a2422190bbca9d9ceea44776e202f8e866/pulumi_azuredevops-3.1.0a1712467168.tar.gz
+[2024-04-10 11:03:09] INFO root fetch - processPackages [xfem]: Downloading https://files.pythonhosted.org/packages/35/d6/4c8b24e6e5c0e58e9ab2aa154bfc41c03f619fe51b491df644350bf3ffae/xfem-2.1.2303.post8.dev0.tar.gz
+[2024-04-10 11:03:09] INFO root fetch - processPackages [headline-gen]: Downloading https://files.pythonhosted.org/packages/e8/e6/52dc297a9304b368947fe99aa4b56cbec047a72980cad79c7e970126fdc4/headline-gen-0.0.2.tar.gz
+[2024-04-10 11:03:10] INFO root fetch - processPackages [xfem]: executing diffoscope
+[2024-04-10 11:03:10] INFO root fetch - processPackages [xfem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xfem-2.1.2303.post71.dev0.tar.gz tmp/xfem-2.1.2303.post8.dev0.tar.gz --markdown 20240410/x/xfem/2.1.2303.post71.dev0-2.1.2303.post8.dev0/README.md --exclude *.pyd
+[2024-04-10 11:03:10] INFO root fetch - processPackages [headline-gen]: executing diffoscope
+[2024-04-10 11:03:10] INFO root fetch - processPackages [pulumi-azuredevops]: Downloading https://files.pythonhosted.org/packages/fe/a9/b69279d721250be634dc19b09e9a43ba8ab130593b31892b6a2407e1a13d/pulumi_azuredevops-3.1.0a1712738665.tar.gz
+[2024-04-10 11:03:10] INFO root fetch - processPackages [headline-gen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/headline-gen-0.0.1.tar.gz tmp/headline-gen-0.0.2.tar.gz --markdown 20240410/h/headline-gen/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-10 11:03:10] INFO root fetch - processPackages [pulumi-azuredevops]: executing diffoscope
+[2024-04-10 11:03:10] INFO root fetch - processPackages [pulumi-azuredevops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azuredevops-3.1.0a1712467168.tar.gz tmp/pulumi_azuredevops-3.1.0a1712738665.tar.gz --markdown 20240410/p/pulumi-azuredevops/3.1.0a1712467168-3.1.0a1712738665/README.md --exclude *.pyd
+[2024-04-10 11:03:10] INFO root fetch - processPackages [headline-gen]: Remove: archive file [/home/abi/fetcher/tmp/headline-gen-0.0.1.tar.gz]
+[2024-04-10 11:03:10] INFO root fetch - processPackages [headline-gen]: Remove: archive file [/home/abi/fetcher/tmp/headline-gen-0.0.2.tar.gz]
+[2024-04-10 11:03:10] INFO root fetch - main [MainThread]: End processing [headline-gen]: success
+[2024-04-10 11:03:11] INFO root fetch - processPackages [xfem]: Remove: archive file [/home/abi/fetcher/tmp/xfem-2.1.2303.post71.dev0.tar.gz]
+[2024-04-10 11:03:11] INFO root fetch - processPackages [xfem]: Remove: archive file [/home/abi/fetcher/tmp/xfem-2.1.2303.post8.dev0.tar.gz]
+[2024-04-10 11:03:11] INFO root fetch - main [MainThread]: End processing [xfem]: success
+[2024-04-10 11:03:11] INFO root fetch - processPackages [pulumi-azuredevops]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuredevops-3.1.0a1712467168.tar.gz]
+[2024-04-10 11:03:11] INFO root fetch - processPackages [pulumi-azuredevops]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuredevops-3.1.0a1712738665.tar.gz]
+[2024-04-10 11:03:11] INFO root fetch - main [MainThread]: End processing [pulumi-azuredevops]: success
+[2024-04-10 11:03:11] INFO root fetch - main [MainThread]: Store serial: [22698125]

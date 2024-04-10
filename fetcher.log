@@ -22178,3 +22178,61 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-10 13:29:51] INFO root fetch - processPackages [LangSegment]: Remove: archive file [/home/abi/fetcher/tmp/LangSegment-0.3.2-py3-none-any.whl.zip]
 [2024-04-10 13:29:51] INFO root fetch - main [MainThread]: End processing [LangSegment]: success
 [2024-04-10 13:29:51] INFO root fetch - main [MainThread]: Store serial: [22700056]
+[2024-04-10 13:31:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22700056]
+[2024-04-10 13:32:00] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-10 13:34:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22700069]
+[2024-04-10 13:34:07] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-10 13:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyPCR
+[2024-04-10 13:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-oscarbot
+[2024-04-10 13:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: smaht-submitr
+[2024-04-10 13:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: celitech-sdk
+[2024-04-10 13:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: uiScrypt
+[2024-04-10 13:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigdl-core-xe
+[2024-04-10 13:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: minder.research-data-snapshots
+[2024-04-10 13:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: thonny-etboard-micropython-firmware-v2
+[2024-04-10 13:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dstack
+[2024-04-10 13:34:07] WARNING root fetch - processPackages [pyPCR]: Skipping, unable to determine old version
+[2024-04-10 13:34:07] INFO root fetch - main [MainThread]: End processing [pyPCR] error
+[2024-04-10 13:34:07] WARNING root fetch - processPackages [celitech-sdk]: Skipping, unable to determine old version
+[2024-04-10 13:34:07] INFO root fetch - main [MainThread]: End processing [celitech-sdk] error
+[2024-04-10 13:34:07] INFO root fetch - processPackages [smaht-submitr]: New version: [0.8.0.1b9] Old Version: [0.8.0.1b8]
+[2024-04-10 13:34:07] INFO root fetch - processPackages [dstack]: New version: [0.9rc2] Old Version: [0.9.post1]
+[2024-04-10 13:34:07] WARNING root fetch - processPackages [uiScrypt]: Skipping, unable to determine old version
+[2024-04-10 13:34:07] INFO root fetch - main [MainThread]: End processing [uiScrypt] error
+[2024-04-10 13:34:07] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/79/ad/69a49972361f3dd7698be4e52572630203c3c66d2562b3864e2814efd485/smaht_submitr-0.8.0.1b8.tar.gz
+[2024-04-10 13:34:07] WARNING root fetch - processPackages [thonny-etboard-micropython-firmware-v2]: Skipping, unable to determine old version
+[2024-04-10 13:34:07] INFO root fetch - main [MainThread]: End processing [thonny-etboard-micropython-firmware-v2] error
+[2024-04-10 13:34:07] INFO root fetch - processPackages [minder.research-data-snapshots]: New version: [0.9] Old Version: [0.8]
+[2024-04-10 13:34:07] INFO root fetch - processPackages [bigdl-core-xe]: New version: [2.5.0b20240410] Old Version: [2.5.0b20240409]
+[2024-04-10 13:34:07] INFO root fetch - processPackages [dstack]: Downloading https://files.pythonhosted.org/packages/8f/33/51159a0ccb0f3afa597b1288d1b6c5457782cc77d5b6ad328af94c001e8e/dstack-0.9.post1.tar.gz
+[2024-04-10 13:34:07] INFO root fetch - processPackages [django-oscarbot]: New version: [0.9] Old Version: [0.8]
+[2024-04-10 13:34:07] INFO root fetch - processPackages [minder.research-data-snapshots]: Downloading https://files.pythonhosted.org/packages/c6/38/3fa44b6c1901ce0ba70d393c6908e0d45fa3827f2ad9a003de4c8ca966e1/minder.research_data_snapshots-0.8-py3-none-any.whl
+[2024-04-10 13:34:07] INFO root fetch - processPackages [bigdl-core-xe]: Downloading https://files.pythonhosted.org/packages/19/11/82093b6e9ab87596a2ce35be41444625a64dd3dfa0775431a82af8c36147/bigdl_core_xe-2.5.0b20240409-cp39-cp39-manylinux2010_x86_64.whl
+[2024-04-10 13:34:07] INFO root fetch - processPackages [django-oscarbot]: Downloading https://files.pythonhosted.org/packages/66/60/55dca842d844f992f166b6041a9e2bcf01cdb4ec256aa0a184f2d88b7dc4/django-oscarbot-0.8.tar.gz
+[2024-04-10 13:34:07] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/a9/b9/54c39138072c920a1d8d5107253bf98513c92a68aae12fec8962cedc0dd9/smaht_submitr-0.8.0.1b9.tar.gz
+[2024-04-10 13:34:07] INFO root fetch - processPackages [dstack]: Downloading https://files.pythonhosted.org/packages/0c/71/fa2b8b831003b2f30398328af884d3a70b5bda19450f6119233da4ce9edc/dstack-0.9rc2.tar.gz
+[2024-04-10 13:34:07] WARNING root fetch - processPackages [bigdl-core-xe]: Skipping package: exceeds size limit 95050170>=10485760
+[2024-04-10 13:34:07] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe] error
+[2024-04-10 13:34:08] INFO root fetch - processPackages [smaht-submitr]: executing diffoscope
+[2024-04-10 13:34:08] INFO root fetch - processPackages [smaht-submitr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smaht_submitr-0.8.0.1b8.tar.gz tmp/smaht_submitr-0.8.0.1b9.tar.gz --markdown 20240410/s/smaht-submitr/0.8.0.1b8-0.8.0.1b9/README.md --exclude *.pyd
+[2024-04-10 13:34:08] INFO root fetch - processPackages [dstack]: executing diffoscope
+[2024-04-10 13:34:08] INFO root fetch - processPackages [dstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dstack-0.9.post1.tar.gz tmp/dstack-0.9rc2.tar.gz --markdown 20240410/d/dstack/0.9.post1-0.9rc2/README.md --exclude *.pyd
+[2024-04-10 13:34:08] INFO root fetch - processPackages [minder.research-data-snapshots]: Downloading https://files.pythonhosted.org/packages/dc/c6/079395b01c2b1d7255c758bfb0dc554b6b5ce44b80725b38c54f42f90407/minder.research_data_snapshots-0.9-py3-none-any.whl
+[2024-04-10 13:34:08] INFO root fetch - processPackages [minder.research-data-snapshots]: executing diffoscope
+[2024-04-10 13:34:08] INFO root fetch - processPackages [minder.research-data-snapshots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minder.research_data_snapshots-0.8-py3-none-any.whl.zip tmp/minder.research_data_snapshots-0.9-py3-none-any.whl.zip --markdown 20240410/m/minder.research-data-snapshots/0.8-0.9/README.md --exclude *.pyd
+[2024-04-10 13:34:08] INFO root fetch - processPackages [django-oscarbot]: Downloading https://files.pythonhosted.org/packages/27/0e/11bce9aad03924b01f6cbdcd1ec3d9d21ce62ce8f3d3ed63bf039ef1e454/django-oscarbot-0.9.tar.gz
+[2024-04-10 13:34:08] INFO root fetch - processPackages [django-oscarbot]: executing diffoscope
+[2024-04-10 13:34:08] INFO root fetch - processPackages [django-oscarbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-oscarbot-0.8.tar.gz tmp/django-oscarbot-0.9.tar.gz --markdown 20240410/d/django-oscarbot/0.8-0.9/README.md --exclude *.pyd
+[2024-04-10 13:34:08] INFO root fetch - processPackages [minder.research-data-snapshots]: Remove: archive file [/home/abi/fetcher/tmp/minder.research_data_snapshots-0.8-py3-none-any.whl.zip]
+[2024-04-10 13:34:08] INFO root fetch - processPackages [minder.research-data-snapshots]: Remove: archive file [/home/abi/fetcher/tmp/minder.research_data_snapshots-0.9-py3-none-any.whl.zip]
+[2024-04-10 13:34:08] INFO root fetch - main [MainThread]: End processing [minder.research-data-snapshots]: success
+[2024-04-10 13:34:08] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.0.1b8.tar.gz]
+[2024-04-10 13:34:08] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.0.1b9.tar.gz]
+[2024-04-10 13:34:08] INFO root fetch - main [MainThread]: End processing [smaht-submitr]: success
+[2024-04-10 13:34:09] INFO root fetch - processPackages [dstack]: Remove: archive file [/home/abi/fetcher/tmp/dstack-0.9.post1.tar.gz]
+[2024-04-10 13:34:09] INFO root fetch - processPackages [dstack]: Remove: archive file [/home/abi/fetcher/tmp/dstack-0.9rc2.tar.gz]
+[2024-04-10 13:34:09] INFO root fetch - main [MainThread]: End processing [dstack]: success
+[2024-04-10 13:34:09] INFO root fetch - processPackages [django-oscarbot]: Remove: archive file [/home/abi/fetcher/tmp/django-oscarbot-0.8.tar.gz]
+[2024-04-10 13:34:09] INFO root fetch - processPackages [django-oscarbot]: Remove: archive file [/home/abi/fetcher/tmp/django-oscarbot-0.9.tar.gz]
+[2024-04-10 13:34:09] INFO root fetch - main [MainThread]: End processing [django-oscarbot]: success
+[2024-04-10 13:34:09] INFO root fetch - main [MainThread]: Store serial: [22700128]

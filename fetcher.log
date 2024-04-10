@@ -14323,3 +14323,38 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 08:33:59] INFO root fetch - processPackages [pulumi-linode]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_linode-4.9.1.tar.gz]
 [2024-04-10 08:33:59] INFO root fetch - main [MainThread]: End processing [pulumi-linode]: success
 [2024-04-10 08:33:59] INFO root fetch - main [MainThread]: Store serial: [22696507]
+[2024-04-10 08:36:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22696507]
+[2024-04-10 08:36:08] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-10 08:36:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-iArt
+[2024-04-10 08:36:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rp
+[2024-04-10 08:36:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-null
+[2024-04-10 08:36:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: csvbase-client
+[2024-04-10 08:36:08] INFO root fetch - processPackages [csvbase-client]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-04-10 08:36:08] INFO root fetch - processPackages [csvbase-client]: Downloading https://files.pythonhosted.org/packages/35/45/ab1d5be86f26c93beca835132556878c8bc3936ad671ea2f4aea31276e44/csvbase-client-0.0.1.tar.gz
+[2024-04-10 08:36:08] INFO root fetch - processPackages [python-iArt]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-10 08:36:08] INFO root fetch - processPackages [pulumi-null]: New version: [0.0.4a1712728853] Old Version: [0.0.4a1712400287]
+[2024-04-10 08:36:08] INFO root fetch - processPackages [rp]: New version: [0.1.999] Old Version: [0.1.998]
+[2024-04-10 08:36:09] INFO root fetch - processPackages [csvbase-client]: Downloading https://files.pythonhosted.org/packages/25/d1/b01dba58294e9b1eb7b7ba9421915741e1d2727156d1b21bbe937f979729/csvbase-client-0.1.0.tar.gz
+[2024-04-10 08:36:09] INFO root fetch - processPackages [python-iArt]: Downloading https://files.pythonhosted.org/packages/89/f8/5f22ee60004ccdf349bb3a2297d580cc8f6002b48269d98d02ddea1a7160/python-iArt-1.0.0.tar.gz
+[2024-04-10 08:36:09] INFO root fetch - processPackages [rp]: Downloading https://files.pythonhosted.org/packages/97/b0/bbb87ca94637473610e58828e8e7e0307bbbbd99a7ad7b0ce8abf94b5e15/rp-0.1.998.tar.gz
+[2024-04-10 08:36:09] INFO root fetch - processPackages [csvbase-client]: executing diffoscope
+[2024-04-10 08:36:09] INFO root fetch - processPackages [csvbase-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csvbase-client-0.0.1.tar.gz tmp/csvbase-client-0.1.0.tar.gz --markdown 20240410/c/csvbase-client/0.0.1-0.1.0/README.md --exclude *.pyd
+[2024-04-10 08:36:09] INFO root fetch - processPackages [pulumi-null]: Downloading https://files.pythonhosted.org/packages/21/4e/fa21fcbb6d395cfd841e3112f10fd0151635916f709cad35a585962ae840/pulumi_null-0.0.4a1712400287.tar.gz
+[2024-04-10 08:36:09] WARNING root fetch - processPackages [rp]: Skipping package: exceeds size limit 16581479>=10485760
+[2024-04-10 08:36:09] INFO root fetch - main [MainThread]: End processing [rp] error
+[2024-04-10 08:36:09] INFO root fetch - processPackages [python-iArt]: Downloading https://files.pythonhosted.org/packages/51/59/a74075c0f716a42c723886dfc2d2c7ca3cdc7307f174bb5457d7b32d7dcc/python-iArt-1.0.1.tar.gz
+[2024-04-10 08:36:09] INFO root fetch - processPackages [pulumi-null]: Downloading https://files.pythonhosted.org/packages/53/df/4236b69c232db25660eaf15171a68f8f659f137bfa40e76ef007e2610131/pulumi_null-0.0.4a1712728853.tar.gz
+[2024-04-10 08:36:09] INFO root fetch - processPackages [python-iArt]: executing diffoscope
+[2024-04-10 08:36:09] INFO root fetch - processPackages [python-iArt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-iArt-1.0.0.tar.gz tmp/python-iArt-1.0.1.tar.gz --markdown 20240410/p/python-iArt/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-10 08:36:09] INFO root fetch - processPackages [pulumi-null]: executing diffoscope
+[2024-04-10 08:36:09] INFO root fetch - processPackages [pulumi-null]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_null-0.0.4a1712400287.tar.gz tmp/pulumi_null-0.0.4a1712728853.tar.gz --markdown 20240410/p/pulumi-null/0.0.4a1712400287-0.0.4a1712728853/README.md --exclude *.pyd
+[2024-04-10 08:36:09] INFO root fetch - processPackages [csvbase-client]: Remove: archive file [/home/abi/fetcher/tmp/csvbase-client-0.0.1.tar.gz]
+[2024-04-10 08:36:09] INFO root fetch - processPackages [csvbase-client]: Remove: archive file [/home/abi/fetcher/tmp/csvbase-client-0.1.0.tar.gz]
+[2024-04-10 08:36:09] INFO root fetch - main [MainThread]: End processing [csvbase-client]: success
+[2024-04-10 08:36:10] INFO root fetch - processPackages [python-iArt]: Remove: archive file [/home/abi/fetcher/tmp/python-iArt-1.0.0.tar.gz]
+[2024-04-10 08:36:10] INFO root fetch - processPackages [python-iArt]: Remove: archive file [/home/abi/fetcher/tmp/python-iArt-1.0.1.tar.gz]
+[2024-04-10 08:36:10] INFO root fetch - main [MainThread]: End processing [python-iArt]: success
+[2024-04-10 08:36:10] INFO root fetch - processPackages [pulumi-null]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_null-0.0.4a1712400287.tar.gz]
+[2024-04-10 08:36:10] INFO root fetch - processPackages [pulumi-null]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_null-0.0.4a1712728853.tar.gz]
+[2024-04-10 08:36:10] INFO root fetch - main [MainThread]: End processing [pulumi-null]: success
+[2024-04-10 08:36:10] INFO root fetch - main [MainThread]: Store serial: [22696517]

@@ -18584,3 +18584,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 11:16:34] INFO root fetch - processPackages [clara-viz-widgets]: Remove: archive file [/home/abi/fetcher/tmp/clara_viz_widgets-0.4.0-py2.py3-none-any.whl.zip]
 [2024-04-10 11:16:34] INFO root fetch - main [MainThread]: End processing [clara-viz-widgets]: success
 [2024-04-10 11:16:34] INFO root fetch - main [MainThread]: Store serial: [22698314]
+[2024-04-10 11:18:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22698314]
+[2024-04-10 11:18:45] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-10 11:18:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nestpython
+[2024-04-10 11:18:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pami
+[2024-04-10 11:18:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scinumtools
+[2024-04-10 11:18:46] INFO root fetch - processPackages [scinumtools]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-04-10 11:18:46] INFO root fetch - processPackages [nestpython]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-10 11:18:46] INFO root fetch - processPackages [scinumtools]: Downloading https://files.pythonhosted.org/packages/91/f2/6b088986084193107864be513b3113a0f34800f67fde6d1459573ea40f8e/scinumtools-2.8.0.tar.gz
+[2024-04-10 11:18:46] INFO root fetch - processPackages [pami]: New version: [2024.4.9.1] Old Version: [2024.4.10.1]
+[2024-04-10 11:18:46] INFO root fetch - processPackages [pami]: Downloading https://files.pythonhosted.org/packages/d2/c1/0e305e2868c8eba54b2a53debfb95fb9ad3fa9f47ee206f8a6a373ce839d/pami-2024.4.10.1.tar.gz
+[2024-04-10 11:18:46] INFO root fetch - processPackages [scinumtools]: Downloading https://files.pythonhosted.org/packages/84/1e/b3c5f44e326bfc50a2f87de28d5cd99d62b01328d3efaf3993a0b51f9d02/scinumtools-2.9.0.tar.gz
+[2024-04-10 11:18:46] INFO root fetch - processPackages [nestpython]: Downloading https://files.pythonhosted.org/packages/b1/f8/51fda9d49660653ca99e1f6cbbdc504df279a6fe7b43809054713131e974/nestpython-0.3.8.tar.gz
+[2024-04-10 11:18:46] INFO root fetch - processPackages [scinumtools]: executing diffoscope
+[2024-04-10 11:18:46] INFO root fetch - processPackages [scinumtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scinumtools-2.8.0.tar.gz tmp/scinumtools-2.9.0.tar.gz --markdown 20240410/s/scinumtools/2.8.0-2.9.0/README.md --exclude *.pyd
+[2024-04-10 11:18:46] INFO root fetch - processPackages [pami]: Downloading https://files.pythonhosted.org/packages/46/a7/dca599df03b4e779f939be80a4ba017d370fa9a4133a445e50509d5c337a/pami-2024.4.9.1.tar.gz
+[2024-04-10 11:18:46] INFO root fetch - processPackages [nestpython]: Downloading https://files.pythonhosted.org/packages/0a/1d/0219f8d2d8aad0bb1e8a24049457f39884694bab6e94b94b73620f8cb155/nestpython-0.3.9.tar.gz
+[2024-04-10 11:18:46] INFO root fetch - processPackages [pami]: executing diffoscope
+[2024-04-10 11:18:46] INFO root fetch - processPackages [pami]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pami-2024.4.10.1.tar.gz tmp/pami-2024.4.9.1.tar.gz --markdown 20240410/p/pami/2024.4.10.1-2024.4.9.1/README.md --exclude *.pyd
+[2024-04-10 11:18:46] INFO root fetch - processPackages [nestpython]: executing diffoscope
+[2024-04-10 11:18:46] INFO root fetch - processPackages [nestpython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nestpython-0.3.8.tar.gz tmp/nestpython-0.3.9.tar.gz --markdown 20240410/n/nestpython/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-10 11:18:47] INFO root fetch - processPackages [nestpython]: Remove: archive file [/home/abi/fetcher/tmp/nestpython-0.3.8.tar.gz]
+[2024-04-10 11:18:47] INFO root fetch - processPackages [nestpython]: Remove: archive file [/home/abi/fetcher/tmp/nestpython-0.3.9.tar.gz]
+[2024-04-10 11:18:47] INFO root fetch - main [MainThread]: End processing [nestpython]: success
+[2024-04-10 11:18:47] INFO root fetch - processPackages [scinumtools]: Remove: archive file [/home/abi/fetcher/tmp/scinumtools-2.8.0.tar.gz]
+[2024-04-10 11:18:47] INFO root fetch - processPackages [scinumtools]: Remove: archive file [/home/abi/fetcher/tmp/scinumtools-2.9.0.tar.gz]
+[2024-04-10 11:18:47] INFO root fetch - main [MainThread]: End processing [scinumtools]: success
+[2024-04-10 11:18:48] INFO root fetch - processPackages [pami]: Remove: archive file [/home/abi/fetcher/tmp/pami-2024.4.10.1.tar.gz]
+[2024-04-10 11:18:48] INFO root fetch - processPackages [pami]: Remove: archive file [/home/abi/fetcher/tmp/pami-2024.4.9.1.tar.gz]
+[2024-04-10 11:18:48] INFO root fetch - main [MainThread]: End processing [pami]: success
+[2024-04-10 11:18:48] INFO root fetch - main [MainThread]: Store serial: [22698330]

@@ -15764,3 +15764,78 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 09:28:57] INFO root fetch - processPackages [pydbase]: Remove: archive file [/home/abi/fetcher/tmp/pydbase-1.5.2.tar.gz]
 [2024-04-10 09:28:57] INFO root fetch - main [MainThread]: End processing [pydbase]: success
 [2024-04-10 09:28:57] INFO root fetch - main [MainThread]: Store serial: [22697016]
+[2024-04-10 09:31:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22697016]
+[2024-04-10 09:31:07] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-10 09:31:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pycityagent
+[2024-04-10 09:31:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mazegroup
+[2024-04-10 09:31:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: approx-umap
+[2024-04-10 09:31:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-ws-analytics
+[2024-04-10 09:31:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: modelw-project-maker
+[2024-04-10 09:31:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: prem-utils
+[2024-04-10 09:31:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lollms-client
+[2024-04-10 09:31:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ecodev-front
+[2024-04-10 09:31:07] INFO root fetch - processPackages [mazegroup]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-10 09:31:07] INFO root fetch - processPackages [prem-utils]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-10 09:31:07] INFO root fetch - processPackages [modelw-project-maker]: New version: [2024.4.0b1] Old Version: [2023.7.1]
+[2024-04-10 09:31:07] INFO root fetch - processPackages [prem-utils]: Downloading https://files.pythonhosted.org/packages/0b/c2/ef6412c36b4879b14a69ad4cafc10a7cc7f017db696d2d8e7e978238aaa9/prem-utils-0.0.7.tar.gz
+[2024-04-10 09:31:07] INFO root fetch - processPackages [pycityagent]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-10 09:31:07] INFO root fetch - processPackages [django-ws-analytics]: New version: [1.0.9] Old Version: [1.0.7]
+[2024-04-10 09:31:07] INFO root fetch - processPackages [mazegroup]: Downloading https://files.pythonhosted.org/packages/ca/10/26e5e6065ff7c13057312bc29d68d9b5cb3d1ea03485e12195151eceb3e0/mazegroup-0.1.1.tar.gz
+[2024-04-10 09:31:07] INFO root fetch - processPackages [approx-umap]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-10 09:31:07] INFO root fetch - processPackages [lollms-client]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-10 09:31:07] INFO root fetch - processPackages [ecodev-front]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-10 09:31:07] INFO root fetch - processPackages [django-ws-analytics]: Downloading https://files.pythonhosted.org/packages/6d/f9/1a5b5f917fd0beff2816e07e84872585fe96fc02754df2555428e369c9e9/django-ws-analytics-1.0.7.tar.gz
+[2024-04-10 09:31:07] INFO root fetch - processPackages [pycityagent]: Downloading https://files.pythonhosted.org/packages/6d/ea/6830f3fcb635189673e105d3a78d271080b62fa8350327fcccdb639a9b1f/pycityagent-1.1.0.tar.gz
+[2024-04-10 09:31:08] INFO root fetch - processPackages [prem-utils]: Downloading https://files.pythonhosted.org/packages/33/0f/fc806fe5db50f59926c6cd92925e6ccc6665f01f20e6ba25faabe2d2211d/prem-utils-0.0.8.tar.gz
+[2024-04-10 09:31:08] INFO root fetch - processPackages [approx-umap]: Downloading https://files.pythonhosted.org/packages/53/73/a104029da1dc64e611727a5a468f40378b8b8ed4d1a03eb7f5908fc0bf5d/approx_umap-0.1.0.tar.gz
+[2024-04-10 09:31:08] INFO root fetch - processPackages [lollms-client]: Downloading https://files.pythonhosted.org/packages/e2/4f/cff86f000139feb23002f9898691e89ce210e43ecd2a7366599ad2e7a625/lollms_client-0.1.0.tar.gz
+[2024-04-10 09:31:08] INFO root fetch - processPackages [ecodev-front]: Downloading https://files.pythonhosted.org/packages/e1/8e/5abd72f94e7281a7ac942b93dfceeb7cf72944b8636048ea4e2a431e97cb/ecodev_front-0.0.8.tar.gz
+[2024-04-10 09:31:08] INFO root fetch - processPackages [modelw-project-maker]: Downloading https://files.pythonhosted.org/packages/70/40/cbb507f6ef2db70ca387eaf21030f548536f09c86bf19d55324df6b468c8/modelw_project_maker-2023.7.1.tar.gz
+[2024-04-10 09:31:08] INFO root fetch - processPackages [mazegroup]: Downloading https://files.pythonhosted.org/packages/0d/3c/9616f39472fcdbadf2657e80117d3deb82eca492e9009ab15cf2dbc66368/mazegroup-0.1.2.tar.gz
+[2024-04-10 09:31:08] INFO root fetch - processPackages [prem-utils]: executing diffoscope
+[2024-04-10 09:31:08] INFO root fetch - processPackages [prem-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prem-utils-0.0.7.tar.gz tmp/prem-utils-0.0.8.tar.gz --markdown 20240410/p/prem-utils/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-10 09:31:08] INFO root fetch - processPackages [mazegroup]: executing diffoscope
+[2024-04-10 09:31:08] INFO root fetch - processPackages [mazegroup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mazegroup-0.1.1.tar.gz tmp/mazegroup-0.1.2.tar.gz --markdown 20240410/m/mazegroup/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-10 09:31:08] INFO root fetch - processPackages [django-ws-analytics]: Downloading https://files.pythonhosted.org/packages/60/4e/e84fd37a53687d65c63d95a5b49973cb5cee8905941f82fe705955fcd5f6/django-ws-analytics-1.0.9.tar.gz
+[2024-04-10 09:31:08] INFO root fetch - processPackages [pycityagent]: Downloading https://files.pythonhosted.org/packages/2b/b3/8d1c8fc10f198dc946d680a8b53fcf377c457b0d0f5c03bf346254bf3cfb/pycityagent-1.1.1.tar.gz
+[2024-04-10 09:31:08] INFO root fetch - processPackages [approx-umap]: Downloading https://files.pythonhosted.org/packages/cf/78/7fe5b4183d4b6de1d1851a75473a3ead29b49f35aa9d0f6ca545f391c667/approx_umap-0.1.1.tar.gz
+[2024-04-10 09:31:08] INFO root fetch - processPackages [django-ws-analytics]: executing diffoscope
+[2024-04-10 09:31:08] INFO root fetch - processPackages [django-ws-analytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-ws-analytics-1.0.7.tar.gz tmp/django-ws-analytics-1.0.9.tar.gz --markdown 20240410/d/django-ws-analytics/1.0.7-1.0.9/README.md --exclude *.pyd
+[2024-04-10 09:31:08] INFO root fetch - processPackages [lollms-client]: Downloading https://files.pythonhosted.org/packages/39/60/af53e7908c3737ba34e67c07e51f550c59633af497c113e7daf7d2712e95/lollms_client-0.2.0.tar.gz
+[2024-04-10 09:31:08] INFO root fetch - processPackages [ecodev-front]: Downloading https://files.pythonhosted.org/packages/ef/3b/29d539e8b5eb474efa8d86ebcb55b4f77cea8ce23c96510b93d36095f666/ecodev_front-0.0.9.tar.gz
+[2024-04-10 09:31:08] INFO root fetch - processPackages [pycityagent]: executing diffoscope
+[2024-04-10 09:31:08] INFO root fetch - processPackages [pycityagent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycityagent-1.1.0.tar.gz tmp/pycityagent-1.1.1.tar.gz --markdown 20240410/p/pycityagent/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-04-10 09:31:08] INFO root fetch - processPackages [modelw-project-maker]: Downloading https://files.pythonhosted.org/packages/eb/04/0418236e7b4b92421428e4ebcc4584b2d78171e8cbd5f47774ea6fff2c99/modelw_project_maker-2024.4.0b1.tar.gz
+[2024-04-10 09:31:08] INFO root fetch - processPackages [approx-umap]: executing diffoscope
+[2024-04-10 09:31:08] INFO root fetch - processPackages [approx-umap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/approx_umap-0.1.0.tar.gz tmp/approx_umap-0.1.1.tar.gz --markdown 20240410/a/approx-umap/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-10 09:31:08] INFO root fetch - processPackages [ecodev-front]: executing diffoscope
+[2024-04-10 09:31:08] INFO root fetch - processPackages [ecodev-front]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecodev_front-0.0.8.tar.gz tmp/ecodev_front-0.0.9.tar.gz --markdown 20240410/e/ecodev-front/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-10 09:31:08] INFO root fetch - processPackages [lollms-client]: executing diffoscope
+[2024-04-10 09:31:08] INFO root fetch - processPackages [lollms-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lollms_client-0.1.0.tar.gz tmp/lollms_client-0.2.0.tar.gz --markdown 20240410/l/lollms-client/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-04-10 09:31:08] INFO root fetch - processPackages [modelw-project-maker]: executing diffoscope
+[2024-04-10 09:31:08] INFO root fetch - processPackages [modelw-project-maker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelw_project_maker-2023.7.1.tar.gz tmp/modelw_project_maker-2024.4.0b1.tar.gz --markdown 20240410/m/modelw-project-maker/2023.7.1-2024.4.0b1/README.md --exclude *.pyd
+[2024-04-10 09:31:08] INFO root fetch - processPackages [mazegroup]: Remove: archive file [/home/abi/fetcher/tmp/mazegroup-0.1.1.tar.gz]
+[2024-04-10 09:31:08] INFO root fetch - processPackages [mazegroup]: Remove: archive file [/home/abi/fetcher/tmp/mazegroup-0.1.2.tar.gz]
+[2024-04-10 09:31:08] INFO root fetch - main [MainThread]: End processing [mazegroup]: success
+[2024-04-10 09:31:09] INFO root fetch - processPackages [django-ws-analytics]: Remove: archive file [/home/abi/fetcher/tmp/django-ws-analytics-1.0.7.tar.gz]
+[2024-04-10 09:31:09] INFO root fetch - processPackages [django-ws-analytics]: Remove: archive file [/home/abi/fetcher/tmp/django-ws-analytics-1.0.9.tar.gz]
+[2024-04-10 09:31:09] INFO root fetch - main [MainThread]: End processing [django-ws-analytics]: success
+[2024-04-10 09:31:09] INFO root fetch - processPackages [prem-utils]: Remove: archive file [/home/abi/fetcher/tmp/prem-utils-0.0.7.tar.gz]
+[2024-04-10 09:31:09] INFO root fetch - processPackages [prem-utils]: Remove: archive file [/home/abi/fetcher/tmp/prem-utils-0.0.8.tar.gz]
+[2024-04-10 09:31:09] INFO root fetch - main [MainThread]: End processing [prem-utils]: success
+[2024-04-10 09:31:09] INFO root fetch - processPackages [approx-umap]: Remove: archive file [/home/abi/fetcher/tmp/approx_umap-0.1.0.tar.gz]
+[2024-04-10 09:31:09] INFO root fetch - processPackages [approx-umap]: Remove: archive file [/home/abi/fetcher/tmp/approx_umap-0.1.1.tar.gz]
+[2024-04-10 09:31:09] INFO root fetch - main [MainThread]: End processing [approx-umap]: success
+[2024-04-10 09:31:09] INFO root fetch - processPackages [ecodev-front]: Remove: archive file [/home/abi/fetcher/tmp/ecodev_front-0.0.8.tar.gz]
+[2024-04-10 09:31:09] INFO root fetch - processPackages [ecodev-front]: Remove: archive file [/home/abi/fetcher/tmp/ecodev_front-0.0.9.tar.gz]
+[2024-04-10 09:31:09] INFO root fetch - main [MainThread]: End processing [ecodev-front]: success
+[2024-04-10 09:31:09] INFO root fetch - processPackages [pycityagent]: Remove: archive file [/home/abi/fetcher/tmp/pycityagent-1.1.0.tar.gz]
+[2024-04-10 09:31:09] INFO root fetch - processPackages [pycityagent]: Remove: archive file [/home/abi/fetcher/tmp/pycityagent-1.1.1.tar.gz]
+[2024-04-10 09:31:09] INFO root fetch - main [MainThread]: End processing [pycityagent]: success
+[2024-04-10 09:31:09] INFO root fetch - processPackages [lollms-client]: Remove: archive file [/home/abi/fetcher/tmp/lollms_client-0.1.0.tar.gz]
+[2024-04-10 09:31:09] INFO root fetch - processPackages [lollms-client]: Remove: archive file [/home/abi/fetcher/tmp/lollms_client-0.2.0.tar.gz]
+[2024-04-10 09:31:09] INFO root fetch - main [MainThread]: End processing [lollms-client]: success
+[2024-04-10 09:31:09] INFO root fetch - processPackages [modelw-project-maker]: Remove: archive file [/home/abi/fetcher/tmp/modelw_project_maker-2023.7.1.tar.gz]
+[2024-04-10 09:31:09] INFO root fetch - processPackages [modelw-project-maker]: Remove: archive file [/home/abi/fetcher/tmp/modelw_project_maker-2024.4.0b1.tar.gz]
+[2024-04-10 09:31:09] INFO root fetch - main [MainThread]: End processing [modelw-project-maker]: success
+[2024-04-10 09:31:09] INFO root fetch - main [MainThread]: Store serial: [22697039]

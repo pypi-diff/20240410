@@ -23549,3 +23549,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-10 14:22:57] INFO root fetch - processPackages [financial-datasets]: Remove: archive file [/home/abi/fetcher/tmp/financial_datasets-0.1.6.tar.gz]
 [2024-04-10 14:22:57] INFO root fetch - main [MainThread]: End processing [financial-datasets]: success
 [2024-04-10 14:22:57] INFO root fetch - main [MainThread]: Store serial: [22700917]
+[2024-04-10 14:25:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22700917]
+[2024-04-10 14:25:06] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-10 14:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: music-kraken
+[2024-04-10 14:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: testsolar-testtool-sdk
+[2024-04-10 14:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qtlink
+[2024-04-10 14:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: imio.events.core
+[2024-04-10 14:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: clean-html-for-llm
+[2024-04-10 14:25:06] INFO root fetch - processPackages [clean-html-for-llm]: New version: [1.3.0] Old Version: [1.2.0]
+[2024-04-10 14:25:06] INFO root fetch - processPackages [music-kraken]: New version: [1.9.0] Old Version: [1.2.0]
+[2024-04-10 14:25:06] INFO root fetch - processPackages [qtlink]: New version: [1.1.0] Old Version: [1.0.8]
+[2024-04-10 14:25:06] INFO root fetch - processPackages [clean-html-for-llm]: Downloading https://files.pythonhosted.org/packages/d7/f8/1304a1f31f570ca6b1bb8c90fb6c964fa8e0eaca26b7a09499b4043ffb09/clean_html_for_llm-1.2.0.tar.gz
+[2024-04-10 14:25:06] INFO root fetch - processPackages [testsolar-testtool-sdk]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-10 14:25:06] INFO root fetch - processPackages [imio.events.core]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-04-10 14:25:06] INFO root fetch - processPackages [qtlink]: Downloading https://files.pythonhosted.org/packages/10/fb/e2bea54a33aebeebc0ee9b084aa3d1338f89c5589789d78f11442da47dbc/qtlink-1.0.8.tar.gz
+[2024-04-10 14:25:06] INFO root fetch - processPackages [music-kraken]: Downloading https://files.pythonhosted.org/packages/b5/11/af6a2af22042e3643add72a31ff2e3ed9b24d5c3b2a5847d36b386dd478c/music_kraken-1.2.0.tar.gz
+[2024-04-10 14:25:06] INFO root fetch - processPackages [testsolar-testtool-sdk]: Downloading https://files.pythonhosted.org/packages/ba/60/fea3e2c25b762a59953c2016a4b5572141e3dadb4a2cdd987435107a3e94/testsolar-testtool-sdk-0.1.6.tar.gz
+[2024-04-10 14:25:06] INFO root fetch - processPackages [qtlink]: Downloading https://files.pythonhosted.org/packages/37/9b/7408bde17ecae8202a8fe5b24d979e1903a14fcd83c2324b49856f2d7431/qtlink-1.1.0.tar.gz
+[2024-04-10 14:25:06] INFO root fetch - processPackages [imio.events.core]: Downloading https://files.pythonhosted.org/packages/a7/63/c59272dfd7c1a5658df92ebe74fa3e45a0ddfa45d287e0eed6b094c32588/imio.events.core-1.2.8.tar.gz
+[2024-04-10 14:25:06] INFO root fetch - processPackages [music-kraken]: Downloading https://files.pythonhosted.org/packages/f6/bf/5cddc4d49d5389dbb323168d462c1ecc653460365394780a774f82856f43/music_kraken-1.9.0.tar.gz
+[2024-04-10 14:25:06] INFO root fetch - processPackages [clean-html-for-llm]: Downloading https://files.pythonhosted.org/packages/7f/91/70afdef8d5378e77bb5c39c837f9d16458718915494e11c6015e96cd07fe/clean_html_for_llm-1.3.0.tar.gz
+[2024-04-10 14:25:06] INFO root fetch - processPackages [qtlink]: executing diffoscope
+[2024-04-10 14:25:06] INFO root fetch - processPackages [qtlink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtlink-1.0.8.tar.gz tmp/qtlink-1.1.0.tar.gz --markdown 20240410/q/qtlink/1.0.8-1.1.0/README.md --exclude *.pyd
+[2024-04-10 14:25:06] INFO root fetch - processPackages [music-kraken]: executing diffoscope
+[2024-04-10 14:25:06] INFO root fetch - processPackages [music-kraken]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/music_kraken-1.2.0.tar.gz tmp/music_kraken-1.9.0.tar.gz --markdown 20240410/m/music-kraken/1.2.0-1.9.0/README.md --exclude *.pyd
+[2024-04-10 14:25:06] INFO root fetch - processPackages [testsolar-testtool-sdk]: Downloading https://files.pythonhosted.org/packages/ce/d3/ef0ed692e44d133f9f5599473056d0b01665726ac0b9ab1a70a45c2bb27c/testsolar-testtool-sdk-0.1.7.tar.gz
+[2024-04-10 14:25:06] INFO root fetch - processPackages [clean-html-for-llm]: executing diffoscope
+[2024-04-10 14:25:06] INFO root fetch - processPackages [clean-html-for-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clean_html_for_llm-1.2.0.tar.gz tmp/clean_html_for_llm-1.3.0.tar.gz --markdown 20240410/c/clean-html-for-llm/1.2.0-1.3.0/README.md --exclude *.pyd
+[2024-04-10 14:25:07] INFO root fetch - processPackages [imio.events.core]: Downloading https://files.pythonhosted.org/packages/33/1c/6948ace023880b067772f3bccefa1ccfec9a502c04b9597dbb3042c14d2f/imio.events.core-1.2.9.tar.gz
+[2024-04-10 14:25:07] INFO root fetch - processPackages [testsolar-testtool-sdk]: executing diffoscope
+[2024-04-10 14:25:07] INFO root fetch - processPackages [testsolar-testtool-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testsolar-testtool-sdk-0.1.6.tar.gz tmp/testsolar-testtool-sdk-0.1.7.tar.gz --markdown 20240410/t/testsolar-testtool-sdk/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-10 14:25:07] INFO root fetch - processPackages [imio.events.core]: executing diffoscope
+[2024-04-10 14:25:07] INFO root fetch - processPackages [imio.events.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imio.events.core-1.2.8.tar.gz tmp/imio.events.core-1.2.9.tar.gz --markdown 20240410/i/imio.events.core/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-04-10 14:25:07] INFO root fetch - processPackages [music-kraken]: Remove: archive file [/home/abi/fetcher/tmp/music_kraken-1.2.0.tar.gz]
+[2024-04-10 14:25:07] INFO root fetch - processPackages [music-kraken]: Remove: archive file [/home/abi/fetcher/tmp/music_kraken-1.9.0.tar.gz]
+[2024-04-10 14:25:07] INFO root fetch - main [MainThread]: End processing [music-kraken]: success
+[2024-04-10 14:25:07] INFO root fetch - processPackages [qtlink]: Remove: archive file [/home/abi/fetcher/tmp/qtlink-1.0.8.tar.gz]
+[2024-04-10 14:25:07] INFO root fetch - processPackages [qtlink]: Remove: archive file [/home/abi/fetcher/tmp/qtlink-1.1.0.tar.gz]
+[2024-04-10 14:25:07] INFO root fetch - main [MainThread]: End processing [qtlink]: success
+[2024-04-10 14:25:07] INFO root fetch - processPackages [clean-html-for-llm]: Remove: archive file [/home/abi/fetcher/tmp/clean_html_for_llm-1.2.0.tar.gz]
+[2024-04-10 14:25:07] INFO root fetch - processPackages [clean-html-for-llm]: Remove: archive file [/home/abi/fetcher/tmp/clean_html_for_llm-1.3.0.tar.gz]
+[2024-04-10 14:25:07] INFO root fetch - main [MainThread]: End processing [clean-html-for-llm]: success
+[2024-04-10 14:25:07] INFO root fetch - processPackages [testsolar-testtool-sdk]: Remove: archive file [/home/abi/fetcher/tmp/testsolar-testtool-sdk-0.1.6.tar.gz]
+[2024-04-10 14:25:07] INFO root fetch - processPackages [testsolar-testtool-sdk]: Remove: archive file [/home/abi/fetcher/tmp/testsolar-testtool-sdk-0.1.7.tar.gz]
+[2024-04-10 14:25:07] INFO root fetch - main [MainThread]: End processing [testsolar-testtool-sdk]: success
+[2024-04-10 14:25:08] INFO root fetch - processPackages [imio.events.core]: Remove: archive file [/home/abi/fetcher/tmp/imio.events.core-1.2.8.tar.gz]
+[2024-04-10 14:25:08] INFO root fetch - processPackages [imio.events.core]: Remove: archive file [/home/abi/fetcher/tmp/imio.events.core-1.2.9.tar.gz]
+[2024-04-10 14:25:08] INFO root fetch - main [MainThread]: End processing [imio.events.core]: success
+[2024-04-10 14:25:08] INFO root fetch - main [MainThread]: Store serial: [22700980]

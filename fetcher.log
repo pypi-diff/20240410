@@ -17211,3 +17211,50 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 10:24:54] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654522381.tar.gz]
 [2024-04-10 10:24:54] INFO root fetch - main [MainThread]: End processing [pulumi-azure]: success
 [2024-04-10 10:24:54] INFO root fetch - main [MainThread]: Store serial: [22697645]
+[2024-04-10 10:27:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22697645]
+[2024-04-10 10:27:05] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-10 10:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flask-variable-manager
+[2024-04-10 10:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: afas-connector
+[2024-04-10 10:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: graphsense-lib
+[2024-04-10 10:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: item-matching
+[2024-04-10 10:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bibiflags
+[2024-04-10 10:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: compute-horde-facilitator-sdk
+[2024-04-10 10:27:05] INFO root fetch - processPackages [bibiflags]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-10 10:27:05] INFO root fetch - processPackages [afas-connector]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-10 10:27:05] INFO root fetch - processPackages [item-matching]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-10 10:27:05] WARNING root fetch - processPackages [compute-horde-facilitator-sdk]: Skipping, unable to determine old version
+[2024-04-10 10:27:05] INFO root fetch - main [MainThread]: End processing [compute-horde-facilitator-sdk] error
+[2024-04-10 10:27:05] INFO root fetch - processPackages [flask-variable-manager]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-10 10:27:05] INFO root fetch - processPackages [graphsense-lib]: New version: [2.2.6] Old Version: [2.2.5]
+[2024-04-10 10:27:05] INFO root fetch - processPackages [afas-connector]: Downloading https://files.pythonhosted.org/packages/ee/55/363d25d233d3c2121104fbeeb8a256d75da057dc7621e0570c7a4047da5f/afas_connector-0.1.1.tar.gz
+[2024-04-10 10:27:05] INFO root fetch - processPackages [bibiflags]: Downloading https://files.pythonhosted.org/packages/7f/c5/7245af46972e806aa60b8030cf48032d6bf032f2067f081939ccddc6bf1f/bibiflags-0.1.0.tar.gz
+[2024-04-10 10:27:05] INFO root fetch - processPackages [graphsense-lib]: Downloading https://files.pythonhosted.org/packages/7b/8d/98603c99c1ab020f56caa4e4a74f50d0ccbe168a72ea2e26fb570735666a/graphsense-lib-2.2.5.tar.gz
+[2024-04-10 10:27:05] INFO root fetch - processPackages [flask-variable-manager]: Downloading https://files.pythonhosted.org/packages/8c/b0/54316ff132a837db6b37d2c1369be67db871b3ded0a7accd04abdee26ed0/flask-variable-manager-0.2.0.tar.gz
+[2024-04-10 10:27:05] INFO root fetch - processPackages [item-matching]: Downloading https://files.pythonhosted.org/packages/c1/eb/6af9341e91340108c6bd813fdbaf99df20b024ef720ba95fd98f5f9b1e67/item_matching-0.0.8.tar.gz
+[2024-04-10 10:27:05] WARNING root fetch - processPackages [graphsense-lib]: Skipping package: exceeds size limit 11246244>=10485760
+[2024-04-10 10:27:05] INFO root fetch - main [MainThread]: End processing [graphsense-lib] error
+[2024-04-10 10:27:05] INFO root fetch - processPackages [item-matching]: Downloading https://files.pythonhosted.org/packages/d6/27/06995957de9e3e2dc832d765e63268da03fc82c05f5e99df1fad645a8853/item_matching-0.0.9.tar.gz
+[2024-04-10 10:27:06] INFO root fetch - processPackages [bibiflags]: Downloading https://files.pythonhosted.org/packages/e4/bc/83a02eceacd109d58c5dee309109230b2759aea11c8db5e91089fee78f4f/bibiflags-0.1.1.tar.gz
+[2024-04-10 10:27:06] INFO root fetch - processPackages [afas-connector]: Downloading https://files.pythonhosted.org/packages/fe/f3/60e57a897c3a43494b5db7ade2c4e583714b78813f72543f8ee68a4cbf3a/afas_connector-0.1.2.tar.gz
+[2024-04-10 10:27:06] INFO root fetch - processPackages [item-matching]: executing diffoscope
+[2024-04-10 10:27:06] INFO root fetch - processPackages [item-matching]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/item_matching-0.0.8.tar.gz tmp/item_matching-0.0.9.tar.gz --markdown 20240410/i/item-matching/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-10 10:27:06] INFO root fetch - processPackages [flask-variable-manager]: Downloading https://files.pythonhosted.org/packages/a0/69/b903b0c403b5178ee4a45fb56267327e218dffb800d1d98e4a0c793ae491/flask-variable-manager-0.3.0.tar.gz
+[2024-04-10 10:27:06] INFO root fetch - processPackages [afas-connector]: executing diffoscope
+[2024-04-10 10:27:06] INFO root fetch - processPackages [afas-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afas_connector-0.1.1.tar.gz tmp/afas_connector-0.1.2.tar.gz --markdown 20240410/a/afas-connector/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-10 10:27:06] INFO root fetch - processPackages [bibiflags]: executing diffoscope
+[2024-04-10 10:27:06] INFO root fetch - processPackages [bibiflags]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bibiflags-0.1.0.tar.gz tmp/bibiflags-0.1.1.tar.gz --markdown 20240410/b/bibiflags/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-10 10:27:06] INFO root fetch - processPackages [flask-variable-manager]: executing diffoscope
+[2024-04-10 10:27:06] INFO root fetch - processPackages [flask-variable-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask-variable-manager-0.2.0.tar.gz tmp/flask-variable-manager-0.3.0.tar.gz --markdown 20240410/f/flask-variable-manager/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-04-10 10:27:06] INFO root fetch - processPackages [item-matching]: Remove: archive file [/home/abi/fetcher/tmp/item_matching-0.0.8.tar.gz]
+[2024-04-10 10:27:06] INFO root fetch - processPackages [item-matching]: Remove: archive file [/home/abi/fetcher/tmp/item_matching-0.0.9.tar.gz]
+[2024-04-10 10:27:06] INFO root fetch - main [MainThread]: End processing [item-matching]: success
+[2024-04-10 10:27:06] INFO root fetch - processPackages [afas-connector]: Remove: archive file [/home/abi/fetcher/tmp/afas_connector-0.1.1.tar.gz]
+[2024-04-10 10:27:06] INFO root fetch - processPackages [afas-connector]: Remove: archive file [/home/abi/fetcher/tmp/afas_connector-0.1.2.tar.gz]
+[2024-04-10 10:27:06] INFO root fetch - main [MainThread]: End processing [afas-connector]: success
+[2024-04-10 10:27:06] INFO root fetch - processPackages [bibiflags]: Remove: archive file [/home/abi/fetcher/tmp/bibiflags-0.1.0.tar.gz]
+[2024-04-10 10:27:06] INFO root fetch - processPackages [bibiflags]: Remove: archive file [/home/abi/fetcher/tmp/bibiflags-0.1.1.tar.gz]
+[2024-04-10 10:27:06] INFO root fetch - main [MainThread]: End processing [bibiflags]: success
+[2024-04-10 10:27:06] INFO root fetch - processPackages [flask-variable-manager]: Remove: archive file [/home/abi/fetcher/tmp/flask-variable-manager-0.2.0.tar.gz]
+[2024-04-10 10:27:06] INFO root fetch - processPackages [flask-variable-manager]: Remove: archive file [/home/abi/fetcher/tmp/flask-variable-manager-0.3.0.tar.gz]
+[2024-04-10 10:27:06] INFO root fetch - main [MainThread]: End processing [flask-variable-manager]: success
+[2024-04-10 10:27:06] INFO root fetch - main [MainThread]: Store serial: [22697666]

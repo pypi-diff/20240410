@@ -3368,3 +3368,18 @@
 [2024-04-10 02:39:29] INFO root fetch - processPackages [not1mm]: Remove: archive file [/home/abi/fetcher/tmp/not1mm-24.4.9.2.tar.gz]
 [2024-04-10 02:39:29] INFO root fetch - main [MainThread]: End processing [not1mm]: success
 [2024-04-10 02:39:29] INFO root fetch - main [MainThread]: Store serial: [22692467]
+[2024-04-10 02:41:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22692467]
+[2024-04-10 02:41:37] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-10 02:41:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qbraid
+[2024-04-10 02:41:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FlutterwaveDjango
+[2024-04-10 02:41:38] WARNING root fetch - processPackages [FlutterwaveDjango]: Skipping, unable to determine old version
+[2024-04-10 02:41:38] INFO root fetch - main [MainThread]: End processing [FlutterwaveDjango] error
+[2024-04-10 02:41:38] INFO root fetch - processPackages [qbraid]: New version: [0.6.1] Old Version: [0.6.0.dev20240405150331]
+[2024-04-10 02:41:38] INFO root fetch - processPackages [qbraid]: Downloading https://files.pythonhosted.org/packages/52/58/fcf32ac6a7b17e8ebea91132443cff945dd7892f7420f0fbfcf2b38babac/qbraid-0.6.0.dev20240405150331.tar.gz
+[2024-04-10 02:41:38] INFO root fetch - processPackages [qbraid]: Downloading https://files.pythonhosted.org/packages/cd/35/a95c4c7e8fef0066e83a7eff2cef5f4126957bed90c980558d0887b7d18f/qbraid-0.6.1.tar.gz
+[2024-04-10 02:41:39] INFO root fetch - processPackages [qbraid]: executing diffoscope
+[2024-04-10 02:41:39] INFO root fetch - processPackages [qbraid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qbraid-0.6.0.dev20240405150331.tar.gz tmp/qbraid-0.6.1.tar.gz --markdown 20240410/q/qbraid/0.6.0.dev20240405150331-0.6.1/README.md --exclude *.pyd
+[2024-04-10 02:41:40] INFO root fetch - processPackages [qbraid]: Remove: archive file [/home/abi/fetcher/tmp/qbraid-0.6.0.dev20240405150331.tar.gz]
+[2024-04-10 02:41:40] INFO root fetch - processPackages [qbraid]: Remove: archive file [/home/abi/fetcher/tmp/qbraid-0.6.1.tar.gz]
+[2024-04-10 02:41:40] INFO root fetch - main [MainThread]: End processing [qbraid]: success
+[2024-04-10 02:41:40] INFO root fetch - main [MainThread]: Store serial: [22692473]

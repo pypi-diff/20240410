@@ -7629,3 +7629,26 @@
 [2024-04-10 03:25:05] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-0.9.0-py3-none-any.whl.zip]
 [2024-04-10 03:25:05] INFO root fetch - main [MainThread]: End processing [onediff]: success
 [2024-04-10 03:25:05] INFO root fetch - main [MainThread]: Store serial: [22693867]
+[2024-04-10 03:27:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22693867]
+[2024-04-10 03:27:16] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-10 03:29:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22693931]
+[2024-04-10 03:29:23] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-10 03:29:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: panos-upgrade-assurance
+[2024-04-10 03:29:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: enigma-machine-german
+[2024-04-10 03:29:23] INFO root fetch - processPackages [enigma-machine-german]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-10 03:29:23] INFO root fetch - processPackages [panos-upgrade-assurance]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-04-10 03:29:23] INFO root fetch - processPackages [enigma-machine-german]: Downloading https://files.pythonhosted.org/packages/bf/3e/eb84b81e651569a16c5caca3297ff1c935d80bbbd27a98736f24bf9c41a9/enigma_machine_german-0.2.0.tar.gz
+[2024-04-10 03:29:23] INFO root fetch - processPackages [panos-upgrade-assurance]: Downloading https://files.pythonhosted.org/packages/8a/ba/a1374c0e692910df6dbaa891c5067e6fb9930925ce65216cb11c2e7114e5/panos_upgrade_assurance-0.3.4.tar.gz
+[2024-04-10 03:29:23] INFO root fetch - processPackages [panos-upgrade-assurance]: Downloading https://files.pythonhosted.org/packages/59/74/add51757615e34b6a39c53a8444dc82427c88297080fb68055962aec2f4b/panos_upgrade_assurance-0.3.5.tar.gz
+[2024-04-10 03:29:23] INFO root fetch - processPackages [enigma-machine-german]: Downloading https://files.pythonhosted.org/packages/dc/c7/7d7e5f01fe7549a00b259b2dac34be0876943535dcef62fbc78ee2ce5c8f/enigma_machine_german-0.3.0.tar.gz
+[2024-04-10 03:29:24] INFO root fetch - processPackages [panos-upgrade-assurance]: executing diffoscope
+[2024-04-10 03:29:24] INFO root fetch - processPackages [panos-upgrade-assurance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panos_upgrade_assurance-0.3.4.tar.gz tmp/panos_upgrade_assurance-0.3.5.tar.gz --markdown 20240410/p/panos-upgrade-assurance/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-04-10 03:29:24] INFO root fetch - processPackages [enigma-machine-german]: executing diffoscope
+[2024-04-10 03:29:24] INFO root fetch - processPackages [enigma-machine-german]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enigma_machine_german-0.2.0.tar.gz tmp/enigma_machine_german-0.3.0.tar.gz --markdown 20240410/e/enigma-machine-german/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-04-10 03:29:24] INFO root fetch - processPackages [panos-upgrade-assurance]: Remove: archive file [/home/abi/fetcher/tmp/panos_upgrade_assurance-0.3.4.tar.gz]
+[2024-04-10 03:29:24] INFO root fetch - processPackages [panos-upgrade-assurance]: Remove: archive file [/home/abi/fetcher/tmp/panos_upgrade_assurance-0.3.5.tar.gz]
+[2024-04-10 03:29:24] INFO root fetch - main [MainThread]: End processing [panos-upgrade-assurance]: success
+[2024-04-10 03:29:24] INFO root fetch - processPackages [enigma-machine-german]: Remove: archive file [/home/abi/fetcher/tmp/enigma_machine_german-0.2.0.tar.gz]
+[2024-04-10 03:29:24] INFO root fetch - processPackages [enigma-machine-german]: Remove: archive file [/home/abi/fetcher/tmp/enigma_machine_german-0.3.0.tar.gz]
+[2024-04-10 03:29:24] INFO root fetch - main [MainThread]: End processing [enigma-machine-german]: success
+[2024-04-10 03:29:24] INFO root fetch - main [MainThread]: Store serial: [22694003]

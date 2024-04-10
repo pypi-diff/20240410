@@ -21501,3 +21501,132 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 13:12:07] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-59.9.1.tar.gz]
 [2024-04-10 13:12:07] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-04-10 13:12:07] INFO root fetch - main [MainThread]: Store serial: [22699747]
+[2024-04-10 13:14:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22699747]
+[2024-04-10 13:14:16] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-04-10 13:14:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: finbourne-access-sdk
+[2024-04-10 13:14:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: protod
+[2024-04-10 13:14:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dataos-cookiecutter
+[2024-04-10 13:14:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: valmi-connector-lib
+[2024-04-10 13:14:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fmake
+[2024-04-10 13:14:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: code-loader
+[2024-04-10 13:14:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wagtail-fedit
+[2024-04-10 13:14:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tb-nightly
+[2024-04-10 13:14:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hotsos
+[2024-04-10 13:14:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: adnexus
+[2024-04-10 13:14:16] INFO root fetch - processPackages [adnexus]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-10 13:14:16] INFO root fetch - processPackages [fmake]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-10 13:14:16] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [2.1.2] Old Version: [2.1.1]
+[2024-04-10 13:14:16] INFO root fetch - processPackages [valmi-connector-lib]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-10 13:14:16] INFO root fetch - processPackages [hotsos]: New version: [1.17.0.post9] Old Version: [1.17.0.post8]
+[2024-04-10 13:14:16] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2024-04-10 13:14:16] INFO root fetch - processPackages [wagtail-fedit]: New version: [1.4.3] Old Version: [1.4.2]
+[2024-04-10 13:14:16] INFO root fetch - processPackages [protod]: New version: [24.4.10] Old Version: [24.2.1]
+[2024-04-10 13:14:16] INFO root fetch - processPackages [dataos-cookiecutter]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-10 13:14:16] INFO root fetch - processPackages [code-loader]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-10 13:14:16] INFO root fetch - processPackages [fmake]: Downloading https://files.pythonhosted.org/packages/e4/74/22db48b25d650dcc1651169b33676e6212950c2c81da40bc2ed1b0a33788/fmake-0.1.4.tar.gz
+[2024-04-10 13:14:16] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/5c/cc/205f3dd1b9ee795d111c605047d91e9ed7b633c80367c76b481141f26b9a/finbourne_access_sdk-2.1.1.tar.gz
+[2024-04-10 13:14:16] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/68/54/062a20f75076aa53427ddf933f64d2177adabaa9c1f4507ee0d9d30b8b03/valmi_connector_lib-0.1.98.tar.gz
+[2024-04-10 13:14:16] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/a7/57/15e4fe4e4dbc4381d9bf00a81267a7c13df4ca3f2dc3b2afa7db65518860/hotsos-1.17.0.post8.tar.gz
+[2024-04-10 13:14:16] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2024-04-10 13:14:16] INFO root fetch - processPackages [adnexus]: Downloading https://files.pythonhosted.org/packages/0a/e4/8cc16a51d4fa894154756cbc783abbfcc0cf0ccec71015dee6923267ec7e/adnexus-0.1.0.tar.gz
+[2024-04-10 13:14:17] INFO root fetch - processPackages [protod]: Downloading https://files.pythonhosted.org/packages/d0/34/601fd5751fdc879c69f96408c999032b5125573f2faa96051cb7495e1974/protod-24.2.1.tar.gz
+[2024-04-10 13:14:17] INFO root fetch - processPackages [dataos-cookiecutter]: Downloading https://files.pythonhosted.org/packages/92/19/db004d25130881ba1ed5047f83b94456304d9f484238ca9b7ba982ecef41/dataos_cookiecutter-0.0.2-py3-none-any.whl
+[2024-04-10 13:14:17] INFO root fetch - processPackages [wagtail-fedit]: Downloading https://files.pythonhosted.org/packages/60/8a/aec17e719015cb90a64fcec1f98183e7a02bfdfa2a6bda332eec37f79f2f/wagtail_fedit-1.4.2.tar.gz
+[2024-04-10 13:14:17] INFO root fetch - processPackages [code-loader]: Downloading https://files.pythonhosted.org/packages/b7/8a/075ebf528f8ec4e3bc82a0550f3371cafd167276eae8eefef1a3b01ccb66/code_loader-1.0.8.tar.gz
+[2024-04-10 13:14:17] INFO root fetch - processPackages [fmake]: Downloading https://files.pythonhosted.org/packages/cd/fc/077e0b716d634bc1542b58a0433b5cf6a4dcd2174d58065f6775d82abf51/fmake-0.1.5.tar.gz
+[2024-04-10 13:14:17] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/2f/47/8fb8bac8016bd8f46ec3d29fa7fc0e2cdc40845d8dce82ba52e668672ab8/valmi_connector_lib-0.1.99.tar.gz
+[2024-04-10 13:14:17] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/7f/57/f6a4fc3900f977e567bcf108bd2787ce8624445d42b84c26b710b18c7c3d/hotsos-1.17.0.post9.tar.gz
+[2024-04-10 13:14:17] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/85/c5/3aabf588c3d0a471c362fe60540abcc1dce732b50a3d51c0c60e6cf04cdd/finbourne_access_sdk-2.1.2.tar.gz
+[2024-04-10 13:14:17] INFO root fetch - processPackages [fmake]: executing diffoscope
+[2024-04-10 13:14:17] INFO root fetch - processPackages [fmake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fmake-0.1.4.tar.gz tmp/fmake-0.1.5.tar.gz --markdown 20240410/f/fmake/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-10 13:14:17] INFO root fetch - processPackages [valmi-connector-lib]: executing diffoscope
+[2024-04-10 13:14:17] INFO root fetch - processPackages [valmi-connector-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valmi_connector_lib-0.1.98.tar.gz tmp/valmi_connector_lib-0.1.99.tar.gz --markdown 20240410/v/valmi-connector-lib/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-10 13:14:17] INFO root fetch - processPackages [adnexus]: Downloading https://files.pythonhosted.org/packages/b8/f8/5f789c42e1113b0feabaef17bdf8dc905ee927d0fce220222e1690efc70d/adnexus-0.1.1.tar.gz
+[2024-04-10 13:14:17] INFO root fetch - processPackages [hotsos]: executing diffoscope
+[2024-04-10 13:14:17] INFO root fetch - processPackages [hotsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotsos-1.17.0.post8.tar.gz tmp/hotsos-1.17.0.post9.tar.gz --markdown 20240410/h/hotsos/1.17.0.post8-1.17.0.post9/README.md --exclude *.pyd
+[2024-04-10 13:14:17] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2024-04-10 13:14:17] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_access_sdk-2.1.1.tar.gz tmp/finbourne_access_sdk-2.1.2.tar.gz --markdown 20240410/f/finbourne-access-sdk/2.1.1-2.1.2/README.md --exclude *.pyd
+[2024-04-10 13:14:17] INFO root fetch - processPackages [wagtail-fedit]: Downloading https://files.pythonhosted.org/packages/e5/34/539a2e43b1e8e487e4e2d06622232fb0fb642b22b7a2812c5c504b9112a1/wagtail_fedit-1.4.3.tar.gz
+[2024-04-10 13:14:17] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2024-04-10 13:14:17] INFO root fetch - processPackages [dataos-cookiecutter]: Downloading https://files.pythonhosted.org/packages/f5/38/01cce88ff304b4fa2949160ab796e130b62aff67eace9d4ecd0ec14eca5f/dataos-cookiecutter-0.0.3.tar.gz
+[2024-04-10 13:14:17] INFO root fetch - processPackages [adnexus]: executing diffoscope
+[2024-04-10 13:14:17] INFO root fetch - processPackages [adnexus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adnexus-0.1.0.tar.gz tmp/adnexus-0.1.1.tar.gz --markdown 20240410/a/adnexus/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-10 13:14:17] INFO root fetch - processPackages [code-loader]: Downloading https://files.pythonhosted.org/packages/98/62/895d1cff95b1b883e8fd50a2bbbce647e3a28635beb0fd3061cea2b51ddf/code_loader-1.0.9.tar.gz
+[2024-04-10 13:14:17] INFO root fetch - processPackages [protod]: Downloading https://files.pythonhosted.org/packages/4c/4d/036718c1e643bcc5593b739f8f653fff36490e870fd001da3d0c790f5bb6/protod-24.4.10.tar.gz
+[2024-04-10 13:14:17] INFO root fetch - processPackages [dataos-cookiecutter]: executing diffoscope
+[2024-04-10 13:14:17] INFO root fetch - processPackages [dataos-cookiecutter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataos_cookiecutter-0.0.2-py3-none-any.whl.zip tmp/dataos-cookiecutter-0.0.3.tar.gz --markdown 20240410/d/dataos-cookiecutter/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-10 13:14:17] INFO root fetch - processPackages [wagtail-fedit]: executing diffoscope
+[2024-04-10 13:14:17] INFO root fetch - processPackages [wagtail-fedit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail_fedit-1.4.2.tar.gz tmp/wagtail_fedit-1.4.3.tar.gz --markdown 20240410/w/wagtail-fedit/1.4.2-1.4.3/README.md --exclude *.pyd
+[2024-04-10 13:14:17] INFO root fetch - processPackages [protod]: executing diffoscope
+[2024-04-10 13:14:17] INFO root fetch - processPackages [protod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protod-24.2.1.tar.gz tmp/protod-24.4.10.tar.gz --markdown 20240410/p/protod/24.2.1-24.4.10/README.md --exclude *.pyd
+[2024-04-10 13:14:17] INFO root fetch - processPackages [code-loader]: executing diffoscope
+[2024-04-10 13:14:17] INFO root fetch - processPackages [code-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/code_loader-1.0.8.tar.gz tmp/code_loader-1.0.9.tar.gz --markdown 20240410/c/code-loader/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-10 13:14:18] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2024-04-10 13:14:18] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20240410/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/README.md --exclude *.pyd
+[2024-04-10 13:14:18] INFO root fetch - processPackages [valmi-connector-lib]: Remove: archive file [/home/abi/fetcher/tmp/valmi_connector_lib-0.1.98.tar.gz]
+[2024-04-10 13:14:18] INFO root fetch - processPackages [valmi-connector-lib]: Remove: archive file [/home/abi/fetcher/tmp/valmi_connector_lib-0.1.99.tar.gz]
+[2024-04-10 13:14:18] INFO root fetch - processPackages [valmi-connector-lib]: Start processing: python-thingsdb
+[2024-04-10 13:14:18] INFO root fetch - main [MainThread]: End processing [valmi-connector-lib]: success
+[2024-04-10 13:14:18] INFO root fetch - processPackages [fmake]: Remove: archive file [/home/abi/fetcher/tmp/fmake-0.1.4.tar.gz]
+[2024-04-10 13:14:18] INFO root fetch - processPackages [fmake]: Remove: archive file [/home/abi/fetcher/tmp/fmake-0.1.5.tar.gz]
+[2024-04-10 13:14:18] INFO root fetch - processPackages [fmake]: Start processing: pyCEPS
+[2024-04-10 13:14:18] INFO root fetch - main [MainThread]: End processing [fmake]: success
+[2024-04-10 13:14:18] INFO root fetch - processPackages [python-thingsdb]: New version: [1.1.0] Old Version: [1.0.7]
+[2024-04-10 13:14:18] INFO root fetch - processPackages [adnexus]: Remove: archive file [/home/abi/fetcher/tmp/adnexus-0.1.0.tar.gz]
+[2024-04-10 13:14:18] INFO root fetch - processPackages [adnexus]: Remove: archive file [/home/abi/fetcher/tmp/adnexus-0.1.1.tar.gz]
+[2024-04-10 13:14:18] INFO root fetch - processPackages [adnexus]: Start processing: plotlyshare
+[2024-04-10 13:14:18] INFO root fetch - main [MainThread]: End processing [adnexus]: success
+[2024-04-10 13:14:18] INFO root fetch - processPackages [pyCEPS]: New version: [1.0.0] Old Version: [0.1.1]
+[2024-04-10 13:14:18] INFO root fetch - processPackages [dataos-cookiecutter]: Remove: archive file [/home/abi/fetcher/tmp/dataos_cookiecutter-0.0.2-py3-none-any.whl.zip]
+[2024-04-10 13:14:18] INFO root fetch - processPackages [dataos-cookiecutter]: Remove: archive file [/home/abi/fetcher/tmp/dataos-cookiecutter-0.0.3.tar.gz]
+[2024-04-10 13:14:18] INFO root fetch - processPackages [dataos-cookiecutter]: Start processing: aws-packages
+[2024-04-10 13:14:18] INFO root fetch - main [MainThread]: End processing [dataos-cookiecutter]: success
+[2024-04-10 13:14:18] INFO root fetch - processPackages [plotlyshare]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-04-10 13:14:18] INFO root fetch - processPackages [aws-packages]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-10 13:14:18] INFO root fetch - processPackages [python-thingsdb]: Downloading https://files.pythonhosted.org/packages/43/df/886f1801ae8164382bdc28e462cd5c424d80508d5f477e027db56782a698/python-thingsdb-1.0.7.tar.gz
+[2024-04-10 13:14:18] INFO root fetch - processPackages [protod]: Remove: archive file [/home/abi/fetcher/tmp/protod-24.2.1.tar.gz]
+[2024-04-10 13:14:18] INFO root fetch - processPackages [protod]: Remove: archive file [/home/abi/fetcher/tmp/protod-24.4.10.tar.gz]
+[2024-04-10 13:14:18] INFO root fetch - main [MainThread]: End processing [protod]: success
+[2024-04-10 13:14:18] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.1.tar.gz]
+[2024-04-10 13:14:18] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.2.tar.gz]
+[2024-04-10 13:14:18] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2024-04-10 13:14:18] INFO root fetch - processPackages [pyCEPS]: Downloading https://files.pythonhosted.org/packages/b5/7c/b9dc8e964da1213bca8e519fd6c83a05723a7debf7b9d10c34a1be6b11c4/pyCEPS-0.1.1.tar.gz
+[2024-04-10 13:14:18] INFO root fetch - processPackages [aws-packages]: Downloading https://files.pythonhosted.org/packages/df/79/dc9dd4f48288c36fa85b903a442b0590b5f087cf3de6feac6a2c7361bd03/aws_packages-0.0.8.tar.gz
+[2024-04-10 13:14:18] INFO root fetch - processPackages [code-loader]: Remove: archive file [/home/abi/fetcher/tmp/code_loader-1.0.8.tar.gz]
+[2024-04-10 13:14:18] INFO root fetch - processPackages [code-loader]: Remove: archive file [/home/abi/fetcher/tmp/code_loader-1.0.9.tar.gz]
+[2024-04-10 13:14:18] INFO root fetch - main [MainThread]: End processing [code-loader]: success
+[2024-04-10 13:14:18] INFO root fetch - processPackages [plotlyshare]: Downloading https://files.pythonhosted.org/packages/6f/33/766531efb494a30a5c6a41d33609a7e0edd250fb790544b48f56478b38bf/plotlyshare-1.0.7.tar.gz
+[2024-04-10 13:14:18] INFO root fetch - processPackages [wagtail-fedit]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_fedit-1.4.2.tar.gz]
+[2024-04-10 13:14:18] INFO root fetch - processPackages [wagtail-fedit]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_fedit-1.4.3.tar.gz]
+[2024-04-10 13:14:18] INFO root fetch - main [MainThread]: End processing [wagtail-fedit]: success
+[2024-04-10 13:14:19] INFO root fetch - processPackages [aws-packages]: Downloading https://files.pythonhosted.org/packages/f9/70/6dad25f5681631041b67fc5bad90c0828becfec9e1569cd148b0c104a41d/aws_packages-0.0.9.tar.gz
+[2024-04-10 13:14:19] INFO root fetch - processPackages [python-thingsdb]: Downloading https://files.pythonhosted.org/packages/47/bb/0de2b0d715e1150aefb1ec2e1505c1ff5642e0ba18cf43d35b5309063e80/python-thingsdb-1.1.0.tar.gz
+[2024-04-10 13:14:19] INFO root fetch - processPackages [pyCEPS]: Downloading https://files.pythonhosted.org/packages/5f/21/f7636118e2cf40cb1e349858de7c203e99b3cdb11b03d97a9e80aa06de41/pyCEPS-1.0.0.tar.gz
+[2024-04-10 13:14:19] INFO root fetch - processPackages [aws-packages]: executing diffoscope
+[2024-04-10 13:14:19] INFO root fetch - processPackages [aws-packages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_packages-0.0.8.tar.gz tmp/aws_packages-0.0.9.tar.gz --markdown 20240410/a/aws-packages/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-10 13:14:19] INFO root fetch - processPackages [plotlyshare]: Downloading https://files.pythonhosted.org/packages/7c/39/839cd32f27300714c8ed293508358b7a60a1eb102df6e7fddf7426c37652/plotlyshare-1.0.8.tar.gz
+[2024-04-10 13:14:19] INFO root fetch - processPackages [python-thingsdb]: executing diffoscope
+[2024-04-10 13:14:19] INFO root fetch - processPackages [python-thingsdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-thingsdb-1.0.7.tar.gz tmp/python-thingsdb-1.1.0.tar.gz --markdown 20240410/p/python-thingsdb/1.0.7-1.1.0/README.md --exclude *.pyd
+[2024-04-10 13:14:19] INFO root fetch - processPackages [pyCEPS]: executing diffoscope
+[2024-04-10 13:14:19] INFO root fetch - processPackages [pyCEPS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyCEPS-0.1.1.tar.gz tmp/pyCEPS-1.0.0.tar.gz --markdown 20240410/p/pyCEPS/0.1.1-1.0.0/README.md --exclude *.pyd
+[2024-04-10 13:14:19] INFO root fetch - processPackages [plotlyshare]: executing diffoscope
+[2024-04-10 13:14:19] INFO root fetch - processPackages [plotlyshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plotlyshare-1.0.7.tar.gz tmp/plotlyshare-1.0.8.tar.gz --markdown 20240410/p/plotlyshare/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-04-10 13:14:19] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.17.0.post8.tar.gz]
+[2024-04-10 13:14:19] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.17.0.post9.tar.gz]
+[2024-04-10 13:14:19] INFO root fetch - main [MainThread]: End processing [hotsos]: success
+[2024-04-10 13:14:19] INFO root fetch - processPackages [aws-packages]: Remove: archive file [/home/abi/fetcher/tmp/aws_packages-0.0.8.tar.gz]
+[2024-04-10 13:14:19] INFO root fetch - processPackages [aws-packages]: Remove: archive file [/home/abi/fetcher/tmp/aws_packages-0.0.9.tar.gz]
+[2024-04-10 13:14:19] INFO root fetch - main [MainThread]: End processing [aws-packages]: success
+[2024-04-10 13:14:20] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip]
+[2024-04-10 13:14:20] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
+[2024-04-10 13:14:20] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2024-04-10 13:14:20] INFO root fetch - processPackages [plotlyshare]: Remove: archive file [/home/abi/fetcher/tmp/plotlyshare-1.0.7.tar.gz]
+[2024-04-10 13:14:20] INFO root fetch - processPackages [plotlyshare]: Remove: archive file [/home/abi/fetcher/tmp/plotlyshare-1.0.8.tar.gz]
+[2024-04-10 13:14:20] INFO root fetch - main [MainThread]: End processing [plotlyshare]: success
+[2024-04-10 13:14:20] INFO root fetch - processPackages [python-thingsdb]: Remove: archive file [/home/abi/fetcher/tmp/python-thingsdb-1.0.7.tar.gz]
+[2024-04-10 13:14:20] INFO root fetch - processPackages [python-thingsdb]: Remove: archive file [/home/abi/fetcher/tmp/python-thingsdb-1.1.0.tar.gz]
+[2024-04-10 13:14:20] INFO root fetch - main [MainThread]: End processing [python-thingsdb]: success
+[2024-04-10 13:14:20] INFO root fetch - processPackages [pyCEPS]: Remove: archive file [/home/abi/fetcher/tmp/pyCEPS-0.1.1.tar.gz]
+[2024-04-10 13:14:20] INFO root fetch - processPackages [pyCEPS]: Remove: archive file [/home/abi/fetcher/tmp/pyCEPS-1.0.0.tar.gz]
+[2024-04-10 13:14:20] INFO root fetch - main [MainThread]: End processing [pyCEPS]: success
+[2024-04-10 13:14:20] INFO root fetch - main [MainThread]: Store serial: [22699797]

@@ -16349,3 +16349,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 09:51:18] INFO root fetch - processPackages [pyams-app-msc]: Remove: archive file [/home/abi/fetcher/tmp/pyams_app_msc-1.99.1.tar.gz]
 [2024-04-10 09:51:18] INFO root fetch - main [MainThread]: End processing [pyams-app-msc]: success
 [2024-04-10 09:51:18] INFO root fetch - main [MainThread]: Store serial: [22697305]
+[2024-04-10 09:53:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22697305]
+[2024-04-10 09:53:27] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-10 09:53:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llama-cpp-python
+[2024-04-10 09:53:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adaptive
+[2024-04-10 09:53:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: suite-py
+[2024-04-10 09:53:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bttc
+[2024-04-10 09:53:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pycityagent
+[2024-04-10 09:53:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: streamlit-google-auth
+[2024-04-10 09:53:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: clean-html-for-llm
+[2024-04-10 09:53:27] INFO root fetch - processPackages [bttc]: New version: [0.0.73.8] Old Version: [0.0.73.7]
+[2024-04-10 09:53:27] INFO root fetch - processPackages [adaptive]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-10 09:53:27] INFO root fetch - processPackages [llama-cpp-python]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-10 09:53:27] WARNING root fetch - processPackages [clean-html-for-llm]: Skipping, unable to determine old version
+[2024-04-10 09:53:27] INFO root fetch - main [MainThread]: End processing [clean-html-for-llm] error
+[2024-04-10 09:53:27] INFO root fetch - processPackages [pycityagent]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-10 09:53:27] INFO root fetch - processPackages [streamlit-google-auth]: New version: [1.1.1] Old Version: [1.1]
+[2024-04-10 09:53:27] INFO root fetch - processPackages [adaptive]: Downloading https://files.pythonhosted.org/packages/e3/f8/8240a0e05d4da3871ddf5e7c3aa4f732c19b6c824536e95fa19f941a4c8b/adaptive-1.1.0.tar.gz
+[2024-04-10 09:53:27] INFO root fetch - processPackages [bttc]: Downloading https://files.pythonhosted.org/packages/c8/e1/13e5b5c4c5cd4d9ef5c6315e025a9de4f8d72c89b1a125d8bfe64d4665e6/bttc-0.0.73.7.tar.gz
+[2024-04-10 09:53:27] INFO root fetch - processPackages [suite-py]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-04-10 09:53:27] INFO root fetch - processPackages [llama-cpp-python]: Downloading https://files.pythonhosted.org/packages/6d/60/edbd982673a71c6c27fa6818914ad61c6171d165de4e777d489539f1d959/llama_cpp_python-0.2.8.tar.gz
+[2024-04-10 09:53:27] INFO root fetch - processPackages [streamlit-google-auth]: Downloading https://files.pythonhosted.org/packages/73/35/35f8ec72c668a6f1aa9c8ab065664893006e256fa432c89bff29444f08db/streamlit-google-auth-1.1.tar.gz
+[2024-04-10 09:53:27] INFO root fetch - processPackages [pycityagent]: Downloading https://files.pythonhosted.org/packages/6d/ea/6830f3fcb635189673e105d3a78d271080b62fa8350327fcccdb639a9b1f/pycityagent-1.1.0.tar.gz
+[2024-04-10 09:53:27] INFO root fetch - processPackages [suite-py]: Downloading https://files.pythonhosted.org/packages/ef/37/0c075d9d9338f06c9a311c241ff663a244c16f5e0477cf304edfecb07606/suite-py-1.9.8.tar.gz
+[2024-04-10 09:53:27] INFO root fetch - processPackages [adaptive]: Downloading https://files.pythonhosted.org/packages/0d/7f/d73cf313033c0d1f5d6d79849e4c51a57853b89aa4bdd5af0482a908a44f/adaptive-1.2.0.tar.gz
+[2024-04-10 09:53:27] INFO root fetch - processPackages [pycityagent]: Downloading https://files.pythonhosted.org/packages/2b/b3/8d1c8fc10f198dc946d680a8b53fcf377c457b0d0f5c03bf346254bf3cfb/pycityagent-1.1.1.tar.gz
+[2024-04-10 09:53:27] INFO root fetch - processPackages [bttc]: Downloading https://files.pythonhosted.org/packages/80/a6/d190e751187f05a579dc150f81153aff3c44744dcdb5278403d98cf365b6/bttc-0.0.73.8.tar.gz
+[2024-04-10 09:53:27] INFO root fetch - processPackages [streamlit-google-auth]: Downloading https://files.pythonhosted.org/packages/20/d8/2b316de8b85854a7d43e73f9fbd2847e23b6d03a831ec36ceb2483abc57c/streamlit-google-auth-1.1.1.tar.gz
+[2024-04-10 09:53:27] INFO root fetch - processPackages [llama-cpp-python]: Downloading https://files.pythonhosted.org/packages/98/2e/357d936ff7418591c56a27b9472e2b3581bd9eeb90c4221580fae5e00588/llama_cpp_python-0.2.9.tar.gz
+[2024-04-10 09:53:27] INFO root fetch - processPackages [adaptive]: executing diffoscope
+[2024-04-10 09:53:27] INFO root fetch - processPackages [adaptive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adaptive-1.1.0.tar.gz tmp/adaptive-1.2.0.tar.gz --markdown 20240410/a/adaptive/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-04-10 09:53:27] INFO root fetch - processPackages [pycityagent]: executing diffoscope
+[2024-04-10 09:53:27] INFO root fetch - processPackages [pycityagent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycityagent-1.1.0.tar.gz tmp/pycityagent-1.1.1.tar.gz --markdown 20240410/p/pycityagent/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-04-10 09:53:27] INFO root fetch - processPackages [streamlit-google-auth]: executing diffoscope
+[2024-04-10 09:53:27] INFO root fetch - processPackages [streamlit-google-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-google-auth-1.1.tar.gz tmp/streamlit-google-auth-1.1.1.tar.gz --markdown 20240410/s/streamlit-google-auth/1.1-1.1.1/README.md --exclude *.pyd
+[2024-04-10 09:53:27] INFO root fetch - processPackages [suite-py]: Downloading https://files.pythonhosted.org/packages/75/8d/e56fa1005c2ea6072c7f7f32d256169642eb4f4ae134d1fb3a0e1294d0d2/suite-py-1.9.9.tar.gz
+[2024-04-10 09:53:27] INFO root fetch - processPackages [bttc]: executing diffoscope
+[2024-04-10 09:53:27] INFO root fetch - processPackages [bttc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bttc-0.0.73.7.tar.gz tmp/bttc-0.0.73.8.tar.gz --markdown 20240410/b/bttc/0.0.73.7-0.0.73.8/README.md --exclude *.pyd
+[2024-04-10 09:53:28] INFO root fetch - processPackages [suite-py]: executing diffoscope
+[2024-04-10 09:53:28] INFO root fetch - processPackages [suite-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suite-py-1.9.8.tar.gz tmp/suite-py-1.9.9.tar.gz --markdown 20240410/s/suite-py/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-04-10 09:53:28] INFO root fetch - processPackages [llama-cpp-python]: executing diffoscope
+[2024-04-10 09:53:28] INFO root fetch - processPackages [llama-cpp-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_cpp_python-0.2.8.tar.gz tmp/llama_cpp_python-0.2.9.tar.gz --markdown 20240410/l/llama-cpp-python/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-10 09:53:29] INFO root fetch - processPackages [streamlit-google-auth]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-google-auth-1.1.tar.gz]
+[2024-04-10 09:53:29] INFO root fetch - processPackages [streamlit-google-auth]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-google-auth-1.1.1.tar.gz]
+[2024-04-10 09:53:29] INFO root fetch - main [MainThread]: End processing [streamlit-google-auth]: success
+[2024-04-10 09:53:29] INFO root fetch - processPackages [pycityagent]: Remove: archive file [/home/abi/fetcher/tmp/pycityagent-1.1.0.tar.gz]
+[2024-04-10 09:53:29] INFO root fetch - processPackages [pycityagent]: Remove: archive file [/home/abi/fetcher/tmp/pycityagent-1.1.1.tar.gz]
+[2024-04-10 09:53:29] INFO root fetch - main [MainThread]: End processing [pycityagent]: success
+[2024-04-10 09:53:29] INFO root fetch - processPackages [adaptive]: Remove: archive file [/home/abi/fetcher/tmp/adaptive-1.1.0.tar.gz]
+[2024-04-10 09:53:29] INFO root fetch - processPackages [adaptive]: Remove: archive file [/home/abi/fetcher/tmp/adaptive-1.2.0.tar.gz]
+[2024-04-10 09:53:29] INFO root fetch - main [MainThread]: End processing [adaptive]: success
+[2024-04-10 09:53:29] INFO root fetch - processPackages [suite-py]: Remove: archive file [/home/abi/fetcher/tmp/suite-py-1.9.8.tar.gz]
+[2024-04-10 09:53:29] INFO root fetch - processPackages [suite-py]: Remove: archive file [/home/abi/fetcher/tmp/suite-py-1.9.9.tar.gz]
+[2024-04-10 09:53:29] INFO root fetch - main [MainThread]: End processing [suite-py]: success
+[2024-04-10 09:53:29] INFO root fetch - processPackages [bttc]: Remove: archive file [/home/abi/fetcher/tmp/bttc-0.0.73.7.tar.gz]
+[2024-04-10 09:53:29] INFO root fetch - processPackages [bttc]: Remove: archive file [/home/abi/fetcher/tmp/bttc-0.0.73.8.tar.gz]
+[2024-04-10 09:53:29] INFO root fetch - main [MainThread]: End processing [bttc]: success
+[2024-04-10 09:53:30] INFO root fetch - processPackages [llama-cpp-python]: Remove: archive file [/home/abi/fetcher/tmp/llama_cpp_python-0.2.8.tar.gz]
+[2024-04-10 09:53:30] INFO root fetch - processPackages [llama-cpp-python]: Remove: archive file [/home/abi/fetcher/tmp/llama_cpp_python-0.2.9.tar.gz]
+[2024-04-10 09:53:30] INFO root fetch - main [MainThread]: End processing [llama-cpp-python]: success
+[2024-04-10 09:53:30] INFO root fetch - main [MainThread]: Store serial: [22697327]

@@ -8490,3 +8490,69 @@
 [2024-04-10 03:55:21] INFO root fetch - processPackages [muko]: Remove: archive file [/home/abi/fetcher/tmp/muko-2.16-py3-none-any.whl.zip]
 [2024-04-10 03:55:21] INFO root fetch - main [MainThread]: End processing [muko]: success
 [2024-04-10 03:55:21] INFO root fetch - main [MainThread]: Store serial: [22694328]
+[2024-04-10 03:57:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22694328]
+[2024-04-10 03:57:30] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-10 03:57:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pih-msg-q
+[2024-04-10 03:57:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-ssi-transaction-mixin
+[2024-04-10 03:57:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: auto-test-common
+[2024-04-10 03:57:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: axion
+[2024-04-10 03:57:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: np_codeocean
+[2024-04-10 03:57:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bttc
+[2024-04-10 03:57:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: m-abac-test
+[2024-04-10 03:57:30] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-mixin]: New version: [14.0.4.8.0] Old Version: [14.0.4.7.0]
+[2024-04-10 03:57:30] INFO root fetch - processPackages [auto-test-common]: New version: [1.1.92] Old Version: [1.1.91]
+[2024-04-10 03:57:30] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-mixin]: Downloading https://files.pythonhosted.org/packages/aa/01/62ad6c0ccc890c1b31ceeee1d37efb2469544d8c603ad4a1cfdddcb2afe4/odoo14_addon_ssi_transaction_mixin-14.0.4.7.0-py3-none-any.whl
+[2024-04-10 03:57:30] INFO root fetch - processPackages [pih-msg-q]: New version: [0.11] Old Version: [0.1]
+[2024-04-10 03:57:30] INFO root fetch - processPackages [auto-test-common]: Downloading https://files.pythonhosted.org/packages/ef/fe/3b140b586553e48dfac11e51910a010a67fc05f83ff970ce6f02056b36bd/auto-test-common-1.1.91.tar.gz
+[2024-04-10 03:57:30] INFO root fetch - processPackages [axion]: New version: [4.2.0] Old Version: [4.1.6]
+[2024-04-10 03:57:30] INFO root fetch - processPackages [np_codeocean]: New version: [0.2.0] Old Version: [0.1.8]
+[2024-04-10 03:57:30] INFO root fetch - processPackages [bttc]: New version: [0.0.73.3] Old Version: [0.0.73.1]
+[2024-04-10 03:57:30] INFO root fetch - processPackages [m-abac-test]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-10 03:57:30] INFO root fetch - processPackages [bttc]: Downloading https://files.pythonhosted.org/packages/bf/79/c031813292268a929128aee8b9c8cdf3063224f70872813b1940e04da758/bttc-0.0.73.1.tar.gz
+[2024-04-10 03:57:30] INFO root fetch - processPackages [np_codeocean]: Downloading https://files.pythonhosted.org/packages/a3/98/54ac534b4f9567e527d660ed39b48fe089c716f9e345f3adb85b67832093/np_codeocean-0.1.8.tar.gz
+[2024-04-10 03:57:30] INFO root fetch - processPackages [m-abac-test]: Downloading https://files.pythonhosted.org/packages/09/9a/5bf7c99a4b14d4ee9166517fc845f8ac1538097fb087c74e2055722d9a66/m-abac-test-1.0.8.tar.gz
+[2024-04-10 03:57:31] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-mixin]: Downloading https://files.pythonhosted.org/packages/35/16/45e72d7305922418af5571fd3a6dbf099ac752fd8c6fa602384f3b403ae6/odoo14_addon_ssi_transaction_mixin-14.0.4.8.0-py3-none-any.whl
+[2024-04-10 03:57:31] INFO root fetch - processPackages [axion]: Downloading https://files.pythonhosted.org/packages/5c/0d/720e83ea5dae5453fe64c74420b2b9d89bb5e58ec75376afc79679ce85c1/axion-4.1.6-cp312-none-win_amd64.whl
+[2024-04-10 03:57:31] INFO root fetch - processPackages [pih-msg-q]: Downloading https://files.pythonhosted.org/packages/c8/1b/f98f516bd941f996ebb590ed6a67e8556ca5e0edec4d7812efe35591dfb5/pih-msg_q-0.1.tar.gz
+[2024-04-10 03:57:31] INFO root fetch - processPackages [auto-test-common]: Downloading https://files.pythonhosted.org/packages/8f/19/99bd89e205a72d7588f4e46a74c757b4cad83c38c3e86e0d181a48a0e0e5/auto-test-common-1.1.92.tar.gz
+[2024-04-10 03:57:31] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-mixin]: executing diffoscope
+[2024-04-10 03:57:31] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-mixin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ssi_transaction_mixin-14.0.4.7.0-py3-none-any.whl.zip tmp/odoo14_addon_ssi_transaction_mixin-14.0.4.8.0-py3-none-any.whl.zip --markdown 20240410/o/odoo14-addon-ssi-transaction-mixin/14.0.4.7.0-14.0.4.8.0/README.md --exclude *.pyd
+[2024-04-10 03:57:31] INFO root fetch - processPackages [auto-test-common]: executing diffoscope
+[2024-04-10 03:57:31] INFO root fetch - processPackages [auto-test-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-test-common-1.1.91.tar.gz tmp/auto-test-common-1.1.92.tar.gz --markdown 20240410/a/auto-test-common/1.1.91-1.1.92/README.md --exclude *.pyd
+[2024-04-10 03:57:31] INFO root fetch - processPackages [bttc]: Downloading https://files.pythonhosted.org/packages/b6/26/b9f6e142e7a2d2b48c4ba9deb4b210dcd3aca731fad5e622aab5f58e7f41/bttc-0.0.73.3.tar.gz
+[2024-04-10 03:57:31] INFO root fetch - processPackages [pih-msg-q]: Downloading https://files.pythonhosted.org/packages/5c/f2/8fc128284653445c67eb014483482042740199f9167331f17634bd869e26/pih-msg_q-0.11.tar.gz
+[2024-04-10 03:57:31] INFO root fetch - processPackages [np_codeocean]: Downloading https://files.pythonhosted.org/packages/a1/b3/b58a680227f1d2904830462920f24e48f289e716165746afd7acc5c1c3ff/np_codeocean-0.2.0.tar.gz
+[2024-04-10 03:57:31] INFO root fetch - processPackages [m-abac-test]: Downloading https://files.pythonhosted.org/packages/a9/d3/8329e6fc7756f703d2c923a04aa565e40a644e0fc7782f2737812aa123a6/m-abac-test-1.0.9.tar.gz
+[2024-04-10 03:57:31] INFO root fetch - processPackages [bttc]: executing diffoscope
+[2024-04-10 03:57:31] INFO root fetch - processPackages [bttc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bttc-0.0.73.1.tar.gz tmp/bttc-0.0.73.3.tar.gz --markdown 20240410/b/bttc/0.0.73.1-0.0.73.3/README.md --exclude *.pyd
+[2024-04-10 03:57:31] INFO root fetch - processPackages [np_codeocean]: executing diffoscope
+[2024-04-10 03:57:31] INFO root fetch - processPackages [np_codeocean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_codeocean-0.1.8.tar.gz tmp/np_codeocean-0.2.0.tar.gz --markdown 20240410/n/np_codeocean/0.1.8-0.2.0/README.md --exclude *.pyd
+[2024-04-10 03:57:31] INFO root fetch - processPackages [axion]: Downloading https://files.pythonhosted.org/packages/19/a1/e4b2709148063c0df8e42bad7d181d9881ee8971150926b04c23873c0ed1/axion-4.2.0-cp312-none-win_amd64.whl
+[2024-04-10 03:57:31] INFO root fetch - processPackages [pih-msg-q]: executing diffoscope
+[2024-04-10 03:57:31] INFO root fetch - processPackages [pih-msg-q]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-msg_q-0.1.tar.gz tmp/pih-msg_q-0.11.tar.gz --markdown 20240410/p/pih-msg-q/0.1-0.11/README.md --exclude *.pyd
+[2024-04-10 03:57:31] INFO root fetch - processPackages [m-abac-test]: executing diffoscope
+[2024-04-10 03:57:31] INFO root fetch - processPackages [m-abac-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m-abac-test-1.0.8.tar.gz tmp/m-abac-test-1.0.9.tar.gz --markdown 20240410/m/m-abac-test/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-10 03:57:31] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-mixin]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_transaction_mixin-14.0.4.7.0-py3-none-any.whl.zip]
+[2024-04-10 03:57:31] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-mixin]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_transaction_mixin-14.0.4.8.0-py3-none-any.whl.zip]
+[2024-04-10 03:57:31] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-transaction-mixin]: success
+[2024-04-10 03:57:31] INFO root fetch - processPackages [auto-test-common]: Remove: archive file [/home/abi/fetcher/tmp/auto-test-common-1.1.91.tar.gz]
+[2024-04-10 03:57:31] INFO root fetch - processPackages [auto-test-common]: Remove: archive file [/home/abi/fetcher/tmp/auto-test-common-1.1.92.tar.gz]
+[2024-04-10 03:57:31] INFO root fetch - main [MainThread]: End processing [auto-test-common]: success
+[2024-04-10 03:57:31] INFO root fetch - processPackages [axion]: executing diffoscope
+[2024-04-10 03:57:31] INFO root fetch - processPackages [axion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axion-4.1.6-cp312-none-win_amd64.whl.zip tmp/axion-4.2.0-cp312-none-win_amd64.whl.zip --markdown 20240410/a/axion/4.1.6-4.2.0/README.md --exclude *.pyd
+[2024-04-10 03:57:32] INFO root fetch - processPackages [np_codeocean]: Remove: archive file [/home/abi/fetcher/tmp/np_codeocean-0.1.8.tar.gz]
+[2024-04-10 03:57:32] INFO root fetch - processPackages [np_codeocean]: Remove: archive file [/home/abi/fetcher/tmp/np_codeocean-0.2.0.tar.gz]
+[2024-04-10 03:57:32] INFO root fetch - main [MainThread]: End processing [np_codeocean]: success
+[2024-04-10 03:57:32] INFO root fetch - processPackages [pih-msg-q]: Remove: archive file [/home/abi/fetcher/tmp/pih-msg_q-0.1.tar.gz]
+[2024-04-10 03:57:32] INFO root fetch - processPackages [pih-msg-q]: Remove: archive file [/home/abi/fetcher/tmp/pih-msg_q-0.11.tar.gz]
+[2024-04-10 03:57:32] INFO root fetch - main [MainThread]: End processing [pih-msg-q]: success
+[2024-04-10 03:57:32] INFO root fetch - processPackages [bttc]: Remove: archive file [/home/abi/fetcher/tmp/bttc-0.0.73.1.tar.gz]
+[2024-04-10 03:57:32] INFO root fetch - processPackages [bttc]: Remove: archive file [/home/abi/fetcher/tmp/bttc-0.0.73.3.tar.gz]
+[2024-04-10 03:57:32] INFO root fetch - main [MainThread]: End processing [bttc]: success
+[2024-04-10 03:57:32] INFO root fetch - processPackages [m-abac-test]: Remove: archive file [/home/abi/fetcher/tmp/m-abac-test-1.0.8.tar.gz]
+[2024-04-10 03:57:32] INFO root fetch - processPackages [m-abac-test]: Remove: archive file [/home/abi/fetcher/tmp/m-abac-test-1.0.9.tar.gz]
+[2024-04-10 03:57:32] INFO root fetch - main [MainThread]: End processing [m-abac-test]: success
+[2024-04-10 03:57:32] INFO root fetch - processPackages [axion]: Remove: archive file [/home/abi/fetcher/tmp/axion-4.1.6-cp312-none-win_amd64.whl.zip]
+[2024-04-10 03:57:32] INFO root fetch - processPackages [axion]: Remove: archive file [/home/abi/fetcher/tmp/axion-4.2.0-cp312-none-win_amd64.whl.zip]
+[2024-04-10 03:57:32] INFO root fetch - main [MainThread]: End processing [axion]: success
+[2024-04-10 03:57:32] INFO root fetch - main [MainThread]: Store serial: [22694350]

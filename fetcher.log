@@ -12843,3 +12843,18 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 07:06:11] INFO root fetch - main [MainThread]: End processing [odoo-addon-openupgrade-scripts]: success
 [2024-04-10 07:06:11] INFO root fetch - main [MainThread]: End processing [odoo-addon-openupgrade-scripts]: success
 [2024-04-10 07:06:11] INFO root fetch - main [MainThread]: Store serial: [22695938]
+[2024-04-10 07:08:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22695938]
+[2024-04-10 07:08:20] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-10 07:08:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: email-auth-remote-admin-override
+[2024-04-10 07:08:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ylftir
+[2024-04-10 07:08:20] WARNING root fetch - processPackages [email-auth-remote-admin-override]: Skipping, unable to determine old version
+[2024-04-10 07:08:20] INFO root fetch - main [MainThread]: End processing [email-auth-remote-admin-override] error
+[2024-04-10 07:08:20] INFO root fetch - processPackages [ylftir]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-10 07:08:20] INFO root fetch - processPackages [ylftir]: Downloading https://files.pythonhosted.org/packages/91/6f/a618cc4c83ed6eef754b1d36d97b8c59e520d3489442a770c4f75d607227/ylftir-0.1.8.tar.gz
+[2024-04-10 07:08:21] INFO root fetch - processPackages [ylftir]: Downloading https://files.pythonhosted.org/packages/41/6b/6b49b38ea9375b36bd135824bfb83a55ccbecb406657df762d793432a756/ylftir-0.1.9.tar.gz
+[2024-04-10 07:08:21] INFO root fetch - processPackages [ylftir]: executing diffoscope
+[2024-04-10 07:08:21] INFO root fetch - processPackages [ylftir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ylftir-0.1.8.tar.gz tmp/ylftir-0.1.9.tar.gz --markdown 20240410/y/ylftir/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-10 07:08:22] INFO root fetch - processPackages [ylftir]: Remove: archive file [/home/abi/fetcher/tmp/ylftir-0.1.8.tar.gz]
+[2024-04-10 07:08:22] INFO root fetch - processPackages [ylftir]: Remove: archive file [/home/abi/fetcher/tmp/ylftir-0.1.9.tar.gz]
+[2024-04-10 07:08:22] INFO root fetch - main [MainThread]: End processing [ylftir]: success
+[2024-04-10 07:08:22] INFO root fetch - main [MainThread]: Store serial: [22695945]

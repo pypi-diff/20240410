@@ -12879,3 +12879,18 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 07:10:32] INFO root fetch - processPackages [xarg-python]: Remove: archive file [/home/abi/fetcher/tmp/xarg-python-1.4.5.tar.gz]
 [2024-04-10 07:10:32] INFO root fetch - main [MainThread]: End processing [xarg-python]: success
 [2024-04-10 07:10:32] INFO root fetch - main [MainThread]: Store serial: [22695951]
+[2024-04-10 07:12:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22695951]
+[2024-04-10 07:12:41] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-10 07:12:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: haskellian-asyn-iter
+[2024-04-10 07:12:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: haskellian-asyn
+[2024-04-10 07:12:41] INFO root fetch - processPackages [haskellian-asyn]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-10 07:12:41] INFO root fetch - processPackages [haskellian-asyn]: Downloading https://files.pythonhosted.org/packages/4a/3e/51fb3678da81f692c05d946370fbdc9d0b5bb9f30f278df81a36816a19ff/haskellian-asyn-0.2.1.tar.gz
+[2024-04-10 07:12:41] WARNING root fetch - processPackages [haskellian-asyn-iter]: Skipping, unable to determine old version
+[2024-04-10 07:12:41] INFO root fetch - main [MainThread]: End processing [haskellian-asyn-iter] error
+[2024-04-10 07:12:41] INFO root fetch - processPackages [haskellian-asyn]: Downloading https://files.pythonhosted.org/packages/f0/09/2eb326f8acff0c5584b2213571cd4dfa33df8b5156f8290e1ff4ed3083e1/haskellian-asyn-0.2.2.tar.gz
+[2024-04-10 07:12:41] INFO root fetch - processPackages [haskellian-asyn]: executing diffoscope
+[2024-04-10 07:12:41] INFO root fetch - processPackages [haskellian-asyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haskellian-asyn-0.2.1.tar.gz tmp/haskellian-asyn-0.2.2.tar.gz --markdown 20240410/h/haskellian-asyn/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-10 07:12:42] INFO root fetch - processPackages [haskellian-asyn]: Remove: archive file [/home/abi/fetcher/tmp/haskellian-asyn-0.2.1.tar.gz]
+[2024-04-10 07:12:42] INFO root fetch - processPackages [haskellian-asyn]: Remove: archive file [/home/abi/fetcher/tmp/haskellian-asyn-0.2.2.tar.gz]
+[2024-04-10 07:12:42] INFO root fetch - main [MainThread]: End processing [haskellian-asyn]: success
+[2024-04-10 07:12:42] INFO root fetch - main [MainThread]: Store serial: [22695959]

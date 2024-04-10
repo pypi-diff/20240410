@@ -16553,3 +16553,45 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 10:00:05] INFO root fetch - processPackages [hexagon]: Remove: archive file [/home/abi/fetcher/tmp/hexagon-0.59.0.tar.gz]
 [2024-04-10 10:00:05] INFO root fetch - main [MainThread]: End processing [hexagon]: success
 [2024-04-10 10:00:05] INFO root fetch - main [MainThread]: Store serial: [22697396]
+[2024-04-10 10:02:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22697396]
+[2024-04-10 10:02:13] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-10 10:02:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: auto-walrus
+[2024-04-10 10:02:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: HTLMLarge
+[2024-04-10 10:02:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gentccode
+[2024-04-10 10:02:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: catalystwan
+[2024-04-10 10:02:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: prusek-spheroid
+[2024-04-10 10:02:14] INFO root fetch - processPackages [auto-walrus]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-10 10:02:14] INFO root fetch - processPackages [prusek-spheroid]: New version: [4.4] Old Version: [4.3]
+[2024-04-10 10:02:14] WARNING root fetch - processPackages [HTLMLarge]: Skipping, unable to determine old version
+[2024-04-10 10:02:14] INFO root fetch - main [MainThread]: End processing [HTLMLarge] error
+[2024-04-10 10:02:14] INFO root fetch - processPackages [catalystwan]: New version: [0.33.0] Old Version: [0.32.0]
+[2024-04-10 10:02:14] INFO root fetch - processPackages [gentccode]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-10 10:02:14] INFO root fetch - processPackages [auto-walrus]: Downloading https://files.pythonhosted.org/packages/1b/1b/7f9943be043b4d9731669710a65f2d367ceb23f2c8f1921500398e7936d2/auto_walrus-0.3.0.tar.gz
+[2024-04-10 10:02:14] INFO root fetch - processPackages [prusek-spheroid]: Downloading https://files.pythonhosted.org/packages/8a/b0/c10f3a4b1d7f9fa0cec26ea99ce4fb52499e7ad1d46a76076f3851d9266c/prusek_spheroid-4.3.tar.gz
+[2024-04-10 10:02:14] INFO root fetch - processPackages [gentccode]: Downloading https://files.pythonhosted.org/packages/c2/f4/4e9698e8d05f85df23ee065b6115eedf5a14d3340a5f5b06a3b2c7c70410/gentccode-0.2.4.tar.gz
+[2024-04-10 10:02:14] INFO root fetch - processPackages [catalystwan]: Downloading https://files.pythonhosted.org/packages/f6/90/925d4f6d5031295aa889c73b1ea17691ce49828f00c9f9a4d9724a3c985f/catalystwan-0.32.0.tar.gz
+[2024-04-10 10:02:14] INFO root fetch - processPackages [prusek-spheroid]: Downloading https://files.pythonhosted.org/packages/fc/90/536ed4024aa3ab455fb293bc38f0fe20e1f555bbf762f3f2b8b557cb4068/prusek_spheroid-4.4.tar.gz
+[2024-04-10 10:02:14] INFO root fetch - processPackages [auto-walrus]: Downloading https://files.pythonhosted.org/packages/7f/3c/b9034469ac83ec4c9423c7598773d5d708e7174202745a137767a6d1a7ce/auto_walrus-0.3.1.tar.gz
+[2024-04-10 10:02:14] INFO root fetch - processPackages [prusek-spheroid]: executing diffoscope
+[2024-04-10 10:02:14] INFO root fetch - processPackages [prusek-spheroid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prusek_spheroid-4.3.tar.gz tmp/prusek_spheroid-4.4.tar.gz --markdown 20240410/p/prusek-spheroid/4.3-4.4/README.md --exclude *.pyd
+[2024-04-10 10:02:14] INFO root fetch - processPackages [auto-walrus]: executing diffoscope
+[2024-04-10 10:02:14] INFO root fetch - processPackages [auto-walrus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto_walrus-0.3.0.tar.gz tmp/auto_walrus-0.3.1.tar.gz --markdown 20240410/a/auto-walrus/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-10 10:02:14] INFO root fetch - processPackages [gentccode]: Downloading https://files.pythonhosted.org/packages/a7/ef/af18a4c05ef42c0c080d47c18ab541e14bb5c26c943e6ba7ca3b9bdf3f0c/gentccode-0.2.5.tar.gz
+[2024-04-10 10:02:14] INFO root fetch - processPackages [catalystwan]: Downloading https://files.pythonhosted.org/packages/9d/7f/f1a138feca73b42422b89a319da48cc1695d112e9af0a28672b552b6fc9c/catalystwan-0.33.0.tar.gz
+[2024-04-10 10:02:14] INFO root fetch - processPackages [gentccode]: executing diffoscope
+[2024-04-10 10:02:14] INFO root fetch - processPackages [gentccode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gentccode-0.2.4.tar.gz tmp/gentccode-0.2.5.tar.gz --markdown 20240410/g/gentccode/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-04-10 10:02:14] INFO root fetch - processPackages [catalystwan]: executing diffoscope
+[2024-04-10 10:02:14] INFO root fetch - processPackages [catalystwan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catalystwan-0.32.0.tar.gz tmp/catalystwan-0.33.0.tar.gz --markdown 20240410/c/catalystwan/0.32.0-0.33.0/README.md --exclude *.pyd
+[2024-04-10 10:02:15] INFO root fetch - processPackages [auto-walrus]: Remove: archive file [/home/abi/fetcher/tmp/auto_walrus-0.3.0.tar.gz]
+[2024-04-10 10:02:15] INFO root fetch - processPackages [auto-walrus]: Remove: archive file [/home/abi/fetcher/tmp/auto_walrus-0.3.1.tar.gz]
+[2024-04-10 10:02:15] INFO root fetch - main [MainThread]: End processing [auto-walrus]: success
+[2024-04-10 10:02:15] INFO root fetch - processPackages [prusek-spheroid]: Remove: archive file [/home/abi/fetcher/tmp/prusek_spheroid-4.3.tar.gz]
+[2024-04-10 10:02:15] INFO root fetch - processPackages [prusek-spheroid]: Remove: archive file [/home/abi/fetcher/tmp/prusek_spheroid-4.4.tar.gz]
+[2024-04-10 10:02:15] INFO root fetch - main [MainThread]: End processing [prusek-spheroid]: success
+[2024-04-10 10:02:15] INFO root fetch - processPackages [gentccode]: Remove: archive file [/home/abi/fetcher/tmp/gentccode-0.2.4.tar.gz]
+[2024-04-10 10:02:15] INFO root fetch - processPackages [gentccode]: Remove: archive file [/home/abi/fetcher/tmp/gentccode-0.2.5.tar.gz]
+[2024-04-10 10:02:15] INFO root fetch - main [MainThread]: End processing [gentccode]: success
+[2024-04-10 10:02:16] INFO root fetch - processPackages [catalystwan]: Remove: archive file [/home/abi/fetcher/tmp/catalystwan-0.32.0.tar.gz]
+[2024-04-10 10:02:16] INFO root fetch - processPackages [catalystwan]: Remove: archive file [/home/abi/fetcher/tmp/catalystwan-0.33.0.tar.gz]
+[2024-04-10 10:02:16] INFO root fetch - main [MainThread]: End processing [catalystwan]: success
+[2024-04-10 10:02:16] INFO root fetch - main [MainThread]: Store serial: [22697414]

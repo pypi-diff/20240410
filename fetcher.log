@@ -15208,3 +15208,81 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 09:09:13] INFO root fetch - processPackages [imio.pm.locales]: Remove: archive file [/home/abi/fetcher/tmp/imio.pm.locales-4.2b9.tar.gz]
 [2024-04-10 09:09:13] INFO root fetch - main [MainThread]: End processing [imio.pm.locales]: success
 [2024-04-10 09:09:13] INFO root fetch - main [MainThread]: Store serial: [22696815]
+[2024-04-10 09:11:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22696815]
+[2024-04-10 09:11:23] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-10 09:11:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: outerop
+[2024-04-10 09:11:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: robusta-cli
+[2024-04-10 09:11:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nitric
+[2024-04-10 09:11:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: auto-test-common
+[2024-04-10 09:11:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: streamlit-google-auth
+[2024-04-10 09:11:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: plonetheme.imioapps
+[2024-04-10 09:11:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hippogryph
+[2024-04-10 09:11:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: CTK-Desert
+[2024-04-10 09:11:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Products.CPUtils
+[2024-04-10 09:11:23] INFO root fetch - processPackages [outerop]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-04-10 09:11:23] INFO root fetch - processPackages [CTK-Desert]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-10 09:11:23] INFO root fetch - processPackages [auto-test-common]: New version: [1.1.95] Old Version: [1.1.93]
+[2024-04-10 09:11:23] INFO root fetch - processPackages [nitric]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-10 09:11:23] INFO root fetch - processPackages [auto-test-common]: Downloading https://files.pythonhosted.org/packages/7e/f1/835670009a4003da93c38ecae85e8b32126bbeb58eb2fe528085d68b68d6/auto-test-common-1.1.93.tar.gz
+[2024-04-10 09:11:23] INFO root fetch - processPackages [outerop]: Downloading https://files.pythonhosted.org/packages/e6/d2/29756224e633a6480fa743f16bd7722fdae1b454756e7ddcc8b80b6922da/outerop-0.1.9.tar.gz
+[2024-04-10 09:11:23] WARNING root fetch - processPackages [hippogryph]: Skipping, unable to determine old version
+[2024-04-10 09:11:23] INFO root fetch - main [MainThread]: End processing [hippogryph] error
+[2024-04-10 09:11:23] INFO root fetch - processPackages [Products.CPUtils]: New version: [1.25] Old Version: [1.24]
+[2024-04-10 09:11:23] INFO root fetch - processPackages [streamlit-google-auth]: New version: [1.1] Old Version: [1.0.4]
+[2024-04-10 09:11:23] INFO root fetch - processPackages [plonetheme.imioapps]: New version: [2.47] Old Version: [2.46]
+[2024-04-10 09:11:23] INFO root fetch - processPackages [CTK-Desert]: Downloading https://files.pythonhosted.org/packages/9a/73/c7239044a3b6edf571c3f5feded6aab241cff792f7acd98dd42652e44c95/CTK_Desert-0.0.8.tar.gz
+[2024-04-10 09:11:23] INFO root fetch - processPackages [robusta-cli]: New version: [0.9.9] Old Version: [0.9.7]
+[2024-04-10 09:11:23] INFO root fetch - processPackages [streamlit-google-auth]: Downloading https://files.pythonhosted.org/packages/8a/b3/2f595fc13afce1dfe3d0b3714f3dad97162dbfc3c47941b28943eb1dafc0/streamlit-google-auth-1.0.4.tar.gz
+[2024-04-10 09:11:23] INFO root fetch - processPackages [outerop]: Downloading https://files.pythonhosted.org/packages/bb/cb/43a331757eed2dda9c41f8578d377e8503ce7b230a0e66805487c9fa6a87/outerop-0.2.0.tar.gz
+[2024-04-10 09:11:23] INFO root fetch - processPackages [nitric]: Downloading https://files.pythonhosted.org/packages/50/8f/0542656cd1b18ddb74bdd7070d350c6a609edfdf8231d2907f72d3383f0f/nitric-1.0.2.tar.gz
+[2024-04-10 09:11:23] INFO root fetch - processPackages [robusta-cli]: Downloading https://files.pythonhosted.org/packages/39/60/df780a4cd33fb6c25e7e6b0c86022d93aaa4490b1a758140e3d98a02996e/robusta-cli-0.9.7.tar.gz
+[2024-04-10 09:11:23] INFO root fetch - processPackages [plonetheme.imioapps]: Downloading https://files.pythonhosted.org/packages/49/e9/565b821669adf0e240eceb9220c79b5fc2e6aab39f8fb9a164c0175b5a49/plonetheme.imioapps-2.46.tar.gz
+[2024-04-10 09:11:23] INFO root fetch - processPackages [Products.CPUtils]: Downloading https://files.pythonhosted.org/packages/20/85/0b357b3b456f68e6ee84232aa7f6186f0682b086872aa161a7a9b4301c46/Products.CPUtils-1.24.tar.gz
+[2024-04-10 09:11:23] INFO root fetch - processPackages [auto-test-common]: Downloading https://files.pythonhosted.org/packages/73/31/a7eb41ad1c1ec0fa3a4297a46f11206cade942e922ec6c86f840fb039111/auto-test-common-1.1.95.tar.gz
+[2024-04-10 09:11:23] INFO root fetch - processPackages [outerop]: executing diffoscope
+[2024-04-10 09:11:23] INFO root fetch - processPackages [CTK-Desert]: Downloading https://files.pythonhosted.org/packages/6d/b4/d3af97e7bf9ae492dceb1aad8191e260b603096af0a9755ffd707156f69f/CTK_Desert-0.0.9.tar.gz
+[2024-04-10 09:11:23] INFO root fetch - processPackages [outerop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/outerop-0.1.9.tar.gz tmp/outerop-0.2.0.tar.gz --markdown 20240410/o/outerop/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-04-10 09:11:24] INFO root fetch - processPackages [auto-test-common]: executing diffoscope
+[2024-04-10 09:11:24] INFO root fetch - processPackages [auto-test-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-test-common-1.1.93.tar.gz tmp/auto-test-common-1.1.95.tar.gz --markdown 20240410/a/auto-test-common/1.1.93-1.1.95/README.md --exclude *.pyd
+[2024-04-10 09:11:24] INFO root fetch - processPackages [CTK-Desert]: executing diffoscope
+[2024-04-10 09:11:24] INFO root fetch - processPackages [CTK-Desert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CTK_Desert-0.0.8.tar.gz tmp/CTK_Desert-0.0.9.tar.gz --markdown 20240410/C/CTK-Desert/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-10 09:11:24] INFO root fetch - processPackages [nitric]: Downloading https://files.pythonhosted.org/packages/42/3a/a46497ee90843009e805a41e8c415c0132a20a8c34ad602fc4fb81127408/nitric-1.0.3.tar.gz
+[2024-04-10 09:11:24] INFO root fetch - processPackages [streamlit-google-auth]: Downloading https://files.pythonhosted.org/packages/73/35/35f8ec72c668a6f1aa9c8ab065664893006e256fa432c89bff29444f08db/streamlit-google-auth-1.1.tar.gz
+[2024-04-10 09:11:24] INFO root fetch - processPackages [robusta-cli]: Downloading https://files.pythonhosted.org/packages/9f/ff/a70074935ded21551e9900241be83e06dcddd697498c8fa3eeab30d0105c/robusta-cli-0.9.9.tar.gz
+[2024-04-10 09:11:24] INFO root fetch - processPackages [Products.CPUtils]: Downloading https://files.pythonhosted.org/packages/f0/24/980dac98f7cf4f012c5a5f0f0bd31dcc6b21bff7ef29e04a3e907c982744/Products.CPUtils-1.25.tar.gz
+[2024-04-10 09:11:24] INFO root fetch - processPackages [plonetheme.imioapps]: Downloading https://files.pythonhosted.org/packages/fe/04/07db3d52b39cf294b827faab0e9193ecbbb7e352a2e80015bed64cb0d6fd/plonetheme.imioapps-2.47.tar.gz
+[2024-04-10 09:11:24] INFO root fetch - processPackages [robusta-cli]: executing diffoscope
+[2024-04-10 09:11:24] INFO root fetch - processPackages [robusta-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robusta-cli-0.9.7.tar.gz tmp/robusta-cli-0.9.9.tar.gz --markdown 20240410/r/robusta-cli/0.9.7-0.9.9/README.md --exclude *.pyd
+[2024-04-10 09:11:24] INFO root fetch - processPackages [nitric]: executing diffoscope
+[2024-04-10 09:11:24] INFO root fetch - processPackages [nitric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nitric-1.0.2.tar.gz tmp/nitric-1.0.3.tar.gz --markdown 20240410/n/nitric/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-10 09:11:24] INFO root fetch - processPackages [streamlit-google-auth]: executing diffoscope
+[2024-04-10 09:11:24] INFO root fetch - processPackages [streamlit-google-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-google-auth-1.0.4.tar.gz tmp/streamlit-google-auth-1.1.tar.gz --markdown 20240410/s/streamlit-google-auth/1.0.4-1.1/README.md --exclude *.pyd
+[2024-04-10 09:11:24] INFO root fetch - processPackages [Products.CPUtils]: executing diffoscope
+[2024-04-10 09:11:24] INFO root fetch - processPackages [Products.CPUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Products.CPUtils-1.24.tar.gz tmp/Products.CPUtils-1.25.tar.gz --markdown 20240410/P/Products.CPUtils/1.24-1.25/README.md --exclude *.pyd
+[2024-04-10 09:11:24] INFO root fetch - processPackages [plonetheme.imioapps]: executing diffoscope
+[2024-04-10 09:11:24] INFO root fetch - processPackages [plonetheme.imioapps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plonetheme.imioapps-2.46.tar.gz tmp/plonetheme.imioapps-2.47.tar.gz --markdown 20240410/p/plonetheme.imioapps/2.46-2.47/README.md --exclude *.pyd
+[2024-04-10 09:11:24] INFO root fetch - processPackages [outerop]: Remove: archive file [/home/abi/fetcher/tmp/outerop-0.1.9.tar.gz]
+[2024-04-10 09:11:24] INFO root fetch - processPackages [outerop]: Remove: archive file [/home/abi/fetcher/tmp/outerop-0.2.0.tar.gz]
+[2024-04-10 09:11:24] INFO root fetch - main [MainThread]: End processing [outerop]: success
+[2024-04-10 09:11:24] INFO root fetch - processPackages [CTK-Desert]: Remove: archive file [/home/abi/fetcher/tmp/CTK_Desert-0.0.8.tar.gz]
+[2024-04-10 09:11:24] INFO root fetch - processPackages [CTK-Desert]: Remove: archive file [/home/abi/fetcher/tmp/CTK_Desert-0.0.9.tar.gz]
+[2024-04-10 09:11:24] INFO root fetch - main [MainThread]: End processing [CTK-Desert]: success
+[2024-04-10 09:11:25] INFO root fetch - processPackages [auto-test-common]: Remove: archive file [/home/abi/fetcher/tmp/auto-test-common-1.1.93.tar.gz]
+[2024-04-10 09:11:25] INFO root fetch - processPackages [auto-test-common]: Remove: archive file [/home/abi/fetcher/tmp/auto-test-common-1.1.95.tar.gz]
+[2024-04-10 09:11:25] INFO root fetch - main [MainThread]: End processing [auto-test-common]: success
+[2024-04-10 09:11:25] INFO root fetch - processPackages [streamlit-google-auth]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-google-auth-1.0.4.tar.gz]
+[2024-04-10 09:11:25] INFO root fetch - processPackages [streamlit-google-auth]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-google-auth-1.1.tar.gz]
+[2024-04-10 09:11:25] INFO root fetch - main [MainThread]: End processing [streamlit-google-auth]: success
+[2024-04-10 09:11:25] INFO root fetch - processPackages [nitric]: Remove: archive file [/home/abi/fetcher/tmp/nitric-1.0.2.tar.gz]
+[2024-04-10 09:11:25] INFO root fetch - processPackages [nitric]: Remove: archive file [/home/abi/fetcher/tmp/nitric-1.0.3.tar.gz]
+[2024-04-10 09:11:25] INFO root fetch - main [MainThread]: End processing [nitric]: success
+[2024-04-10 09:11:25] INFO root fetch - processPackages [Products.CPUtils]: Remove: archive file [/home/abi/fetcher/tmp/Products.CPUtils-1.24.tar.gz]
+[2024-04-10 09:11:25] INFO root fetch - processPackages [Products.CPUtils]: Remove: archive file [/home/abi/fetcher/tmp/Products.CPUtils-1.25.tar.gz]
+[2024-04-10 09:11:25] INFO root fetch - main [MainThread]: End processing [Products.CPUtils]: success
+[2024-04-10 09:11:25] INFO root fetch - processPackages [robusta-cli]: Remove: archive file [/home/abi/fetcher/tmp/robusta-cli-0.9.7.tar.gz]
+[2024-04-10 09:11:25] INFO root fetch - processPackages [robusta-cli]: Remove: archive file [/home/abi/fetcher/tmp/robusta-cli-0.9.9.tar.gz]
+[2024-04-10 09:11:25] INFO root fetch - main [MainThread]: End processing [robusta-cli]: success
+[2024-04-10 09:11:25] INFO root fetch - processPackages [plonetheme.imioapps]: Remove: archive file [/home/abi/fetcher/tmp/plonetheme.imioapps-2.46.tar.gz]
+[2024-04-10 09:11:25] INFO root fetch - processPackages [plonetheme.imioapps]: Remove: archive file [/home/abi/fetcher/tmp/plonetheme.imioapps-2.47.tar.gz]
+[2024-04-10 09:11:25] INFO root fetch - main [MainThread]: End processing [plonetheme.imioapps]: success
+[2024-04-10 09:11:25] INFO root fetch - main [MainThread]: Store serial: [22696841]

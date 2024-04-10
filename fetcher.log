@@ -9008,3 +9008,39 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 04:13:17] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.4.0.dev20240410004400-py3-none-any.whl.zip]
 [2024-04-10 04:13:17] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
 [2024-04-10 04:13:17] INFO root fetch - main [MainThread]: Store serial: [22694472]
+[2024-04-10 04:15:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22694472]
+[2024-04-10 04:15:26] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-10 04:15:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-bridge
+[2024-04-10 04:15:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pih-plb-app
+[2024-04-10 04:15:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: types-protobuf
+[2024-04-10 04:15:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cedarkit-maps
+[2024-04-10 04:15:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: smarter-client
+[2024-04-10 04:15:26] INFO root fetch - processPackages [python-bridge]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-10 04:15:26] INFO root fetch - processPackages [types-protobuf]: New version: [4.24.0.4] Old Version: [4.24.0.3]
+[2024-04-10 04:15:26] INFO root fetch - processPackages [python-bridge]: Downloading https://files.pythonhosted.org/packages/c5/c9/b5b1d62afac8d93d29018f85100d08bc884a1dccba33a02d555fbf8fc920/python-bridge-0.0.8.tar.gz
+[2024-04-10 04:15:26] INFO root fetch - processPackages [pih-plb-app]: New version: [0.11] Old Version: [0.1]
+[2024-04-10 04:15:26] WARNING root fetch - processPackages [smarter-client]: Skipping, unable to determine old version
+[2024-04-10 04:15:26] INFO root fetch - main [MainThread]: End processing [smarter-client] error
+[2024-04-10 04:15:26] WARNING root fetch - processPackages [cedarkit-maps]: Skipping, unable to determine old version
+[2024-04-10 04:15:26] INFO root fetch - main [MainThread]: End processing [cedarkit-maps] error
+[2024-04-10 04:15:26] INFO root fetch - processPackages [types-protobuf]: Downloading https://files.pythonhosted.org/packages/54/78/4f9dc5fa8884d7c31bd06824609e7af80bf24397f979b9a2d27e4298f8ef/types-protobuf-4.24.0.3.tar.gz
+[2024-04-10 04:15:26] INFO root fetch - processPackages [python-bridge]: Downloading https://files.pythonhosted.org/packages/1f/52/c4e5d94983ea8a5b67c53cc5dfeb6455843ec969b9cefd97071318edcff6/python-bridge-0.0.9.tar.gz
+[2024-04-10 04:15:27] INFO root fetch - processPackages [pih-plb-app]: Downloading https://files.pythonhosted.org/packages/89/2d/3187bad51428ca7fd1bc1cf6874458bb429efe818b43f2d395b0956d4452/pih-plb_app-0.1.tar.gz
+[2024-04-10 04:15:27] INFO root fetch - processPackages [python-bridge]: executing diffoscope
+[2024-04-10 04:15:27] INFO root fetch - processPackages [python-bridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-bridge-0.0.8.tar.gz tmp/python-bridge-0.0.9.tar.gz --markdown 20240410/p/python-bridge/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-10 04:15:27] INFO root fetch - processPackages [types-protobuf]: Downloading https://files.pythonhosted.org/packages/99/a4/ab97dff4a76e30d33ccb42cb37912bf5ba63121466f579f5c7146a5e8eb0/types-protobuf-4.24.0.4.tar.gz
+[2024-04-10 04:15:27] INFO root fetch - processPackages [pih-plb-app]: Downloading https://files.pythonhosted.org/packages/1c/93/9b55aea438e41782e14eb8fba573aa8dc709d88ed7b2973bbcc1f4115600/pih-plb_app-0.11.tar.gz
+[2024-04-10 04:15:27] INFO root fetch - processPackages [types-protobuf]: executing diffoscope
+[2024-04-10 04:15:27] INFO root fetch - processPackages [types-protobuf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-protobuf-4.24.0.3.tar.gz tmp/types-protobuf-4.24.0.4.tar.gz --markdown 20240410/t/types-protobuf/4.24.0.3-4.24.0.4/README.md --exclude *.pyd
+[2024-04-10 04:15:27] INFO root fetch - processPackages [pih-plb-app]: executing diffoscope
+[2024-04-10 04:15:27] INFO root fetch - processPackages [pih-plb-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-plb_app-0.1.tar.gz tmp/pih-plb_app-0.11.tar.gz --markdown 20240410/p/pih-plb-app/0.1-0.11/README.md --exclude *.pyd
+[2024-04-10 04:15:27] INFO root fetch - processPackages [python-bridge]: Remove: archive file [/home/abi/fetcher/tmp/python-bridge-0.0.8.tar.gz]
+[2024-04-10 04:15:27] INFO root fetch - processPackages [python-bridge]: Remove: archive file [/home/abi/fetcher/tmp/python-bridge-0.0.9.tar.gz]
+[2024-04-10 04:15:27] INFO root fetch - main [MainThread]: End processing [python-bridge]: success
+[2024-04-10 04:15:27] INFO root fetch - processPackages [pih-plb-app]: Remove: archive file [/home/abi/fetcher/tmp/pih-plb_app-0.1.tar.gz]
+[2024-04-10 04:15:27] INFO root fetch - processPackages [pih-plb-app]: Remove: archive file [/home/abi/fetcher/tmp/pih-plb_app-0.11.tar.gz]
+[2024-04-10 04:15:27] INFO root fetch - main [MainThread]: End processing [pih-plb-app]: success
+[2024-04-10 04:15:28] INFO root fetch - processPackages [types-protobuf]: Remove: archive file [/home/abi/fetcher/tmp/types-protobuf-4.24.0.3.tar.gz]
+[2024-04-10 04:15:28] INFO root fetch - processPackages [types-protobuf]: Remove: archive file [/home/abi/fetcher/tmp/types-protobuf-4.24.0.4.tar.gz]
+[2024-04-10 04:15:28] INFO root fetch - main [MainThread]: End processing [types-protobuf]: success
+[2024-04-10 04:15:28] INFO root fetch - main [MainThread]: Store serial: [22694489]

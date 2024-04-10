@@ -14171,3 +14171,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 08:25:12] INFO root fetch - processPackages [r2r]: Remove: archive file [/home/abi/fetcher/tmp/r2r-0.1.33.tar.gz]
 [2024-04-10 08:25:12] INFO root fetch - main [MainThread]: End processing [r2r]: success
 [2024-04-10 08:25:12] INFO root fetch - main [MainThread]: Store serial: [22696457]
+[2024-04-10 08:27:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22696457]
+[2024-04-10 08:27:20] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-10 08:27:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cloud-governance
+[2024-04-10 08:27:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: icon-uxarray
+[2024-04-10 08:27:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-nomad
+[2024-04-10 08:27:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: optioner
+[2024-04-10 08:27:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-newrelic
+[2024-04-10 08:27:21] INFO root fetch - processPackages [icon-uxarray]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-10 08:27:21] INFO root fetch - processPackages [cloud-governance]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-04-10 08:27:21] INFO root fetch - processPackages [optioner]: New version: [1.4.7] Old Version: [1.4.6]
+[2024-04-10 08:27:21] INFO root fetch - processPackages [icon-uxarray]: Downloading https://files.pythonhosted.org/packages/81/39/8344a34b37482167b6855a280ed9e42de8974804d9f5900778fc763f48d2/icon_uxarray-0.1.5.tar.gz
+[2024-04-10 08:27:21] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/af/f8/db9bacb41ff13a7d3ae59369ae36809c3202232c910b932a09e42257b676/cloud-governance-1.1.98.tar.gz
+[2024-04-10 08:27:21] INFO root fetch - processPackages [pulumi-nomad]: New version: [2.3.0a1712728695] Old Version: [2.3.0a1712469188]
+[2024-04-10 08:27:21] INFO root fetch - processPackages [pulumi-newrelic]: New version: [5.9.1] Old Version: [5.9.0a1680282898]
+[2024-04-10 08:27:21] INFO root fetch - processPackages [optioner]: Downloading https://files.pythonhosted.org/packages/20/cf/7b052dabdc88e0723261bf69fb4f659089995179222c42e7af4fd05d55e9/optioner-1.4.6.tar.gz
+[2024-04-10 08:27:21] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/ec/3e/06dc6e6844d3033717858064a494efaaf4cdae01a0c58d2b2a38273075e2/cloud-governance-1.1.99.tar.gz
+[2024-04-10 08:27:21] INFO root fetch - processPackages [pulumi-nomad]: Downloading https://files.pythonhosted.org/packages/9b/88/adfe082703fa820e2830da30cc49260a2773742213c2dd5233ab158fbf9a/pulumi_nomad-2.3.0a1712469188.tar.gz
+[2024-04-10 08:27:21] INFO root fetch - processPackages [pulumi-newrelic]: Downloading https://files.pythonhosted.org/packages/1e/4c/b1f7f311d7b241db6b87ee89c05acfcff95b654eae42e5bda9788a66707c/pulumi_newrelic-5.9.0a1680282898.tar.gz
+[2024-04-10 08:27:21] INFO root fetch - processPackages [icon-uxarray]: Downloading https://files.pythonhosted.org/packages/5a/9d/08eff2f8d9403285cdc420f97ff70e06bbf1104939b7cf9a375d1a8a11f7/icon_uxarray-0.1.6.tar.gz
+[2024-04-10 08:27:21] INFO root fetch - processPackages [cloud-governance]: executing diffoscope
+[2024-04-10 08:27:21] INFO root fetch - processPackages [cloud-governance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-governance-1.1.98.tar.gz tmp/cloud-governance-1.1.99.tar.gz --markdown 20240410/c/cloud-governance/1.1.98-1.1.99/README.md --exclude *.pyd
+[2024-04-10 08:27:21] INFO root fetch - processPackages [icon-uxarray]: executing diffoscope
+[2024-04-10 08:27:21] INFO root fetch - processPackages [icon-uxarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icon_uxarray-0.1.5.tar.gz tmp/icon_uxarray-0.1.6.tar.gz --markdown 20240410/i/icon-uxarray/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-10 08:27:21] INFO root fetch - processPackages [optioner]: Downloading https://files.pythonhosted.org/packages/60/99/fe70cbb4ed95dacc99ee3bb0c0baeb1c6ecbbeaf03cc9bd792094682d683/optioner-1.4.7.tar.gz
+[2024-04-10 08:27:21] INFO root fetch - processPackages [optioner]: executing diffoscope
+[2024-04-10 08:27:21] INFO root fetch - processPackages [optioner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optioner-1.4.6.tar.gz tmp/optioner-1.4.7.tar.gz --markdown 20240410/o/optioner/1.4.6-1.4.7/README.md --exclude *.pyd
+[2024-04-10 08:27:21] INFO root fetch - processPackages [pulumi-nomad]: Downloading https://files.pythonhosted.org/packages/a5/e1/2fe0f7d21da1d1e2b510498d3f06ac9998abf2cc4779288996bb8db85716/pulumi_nomad-2.3.0a1712728695.tar.gz
+[2024-04-10 08:27:21] INFO root fetch - processPackages [pulumi-newrelic]: Downloading https://files.pythonhosted.org/packages/43/ba/b3c2500610b8b3fabfc1479cb763f9657e73613a00e1e2f96ee26cec9a63/pulumi_newrelic-5.9.1.tar.gz
+[2024-04-10 08:27:22] INFO root fetch - processPackages [pulumi-nomad]: executing diffoscope
+[2024-04-10 08:27:22] INFO root fetch - processPackages [pulumi-nomad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_nomad-2.3.0a1712469188.tar.gz tmp/pulumi_nomad-2.3.0a1712728695.tar.gz --markdown 20240410/p/pulumi-nomad/2.3.0a1712469188-2.3.0a1712728695/README.md --exclude *.pyd
+[2024-04-10 08:27:22] INFO root fetch - processPackages [pulumi-newrelic]: executing diffoscope
+[2024-04-10 08:27:22] INFO root fetch - processPackages [pulumi-newrelic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_newrelic-5.9.0a1680282898.tar.gz tmp/pulumi_newrelic-5.9.1.tar.gz --markdown 20240410/p/pulumi-newrelic/5.9.0a1680282898-5.9.1/README.md --exclude *.pyd
+[2024-04-10 08:27:22] INFO root fetch - processPackages [icon-uxarray]: Remove: archive file [/home/abi/fetcher/tmp/icon_uxarray-0.1.5.tar.gz]
+[2024-04-10 08:27:22] INFO root fetch - processPackages [icon-uxarray]: Remove: archive file [/home/abi/fetcher/tmp/icon_uxarray-0.1.6.tar.gz]
+[2024-04-10 08:27:22] INFO root fetch - main [MainThread]: End processing [icon-uxarray]: success
+[2024-04-10 08:27:22] INFO root fetch - processPackages [optioner]: Remove: archive file [/home/abi/fetcher/tmp/optioner-1.4.6.tar.gz]
+[2024-04-10 08:27:22] INFO root fetch - processPackages [optioner]: Remove: archive file [/home/abi/fetcher/tmp/optioner-1.4.7.tar.gz]
+[2024-04-10 08:27:22] INFO root fetch - main [MainThread]: End processing [optioner]: success
+[2024-04-10 08:27:23] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.98.tar.gz]
+[2024-04-10 08:27:23] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.99.tar.gz]
+[2024-04-10 08:27:23] INFO root fetch - main [MainThread]: End processing [cloud-governance]: success
+[2024-04-10 08:27:23] INFO root fetch - processPackages [pulumi-nomad]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_nomad-2.3.0a1712469188.tar.gz]
+[2024-04-10 08:27:23] INFO root fetch - processPackages [pulumi-nomad]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_nomad-2.3.0a1712728695.tar.gz]
+[2024-04-10 08:27:23] INFO root fetch - main [MainThread]: End processing [pulumi-nomad]: success
+[2024-04-10 08:27:23] INFO root fetch - processPackages [pulumi-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_newrelic-5.9.0a1680282898.tar.gz]
+[2024-04-10 08:27:23] INFO root fetch - processPackages [pulumi-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_newrelic-5.9.1.tar.gz]
+[2024-04-10 08:27:23] INFO root fetch - main [MainThread]: End processing [pulumi-newrelic]: success
+[2024-04-10 08:27:23] INFO root fetch - main [MainThread]: Store serial: [22696472]

@@ -16529,3 +16529,27 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 09:57:54] INFO root fetch - processPackages [ggml-python]: Remove: archive file [/home/abi/fetcher/tmp/ggml-python-0.0.9.tar.gz]
 [2024-04-10 09:57:54] INFO root fetch - main [MainThread]: End processing [ggml-python]: success
 [2024-04-10 09:57:54] INFO root fetch - main [MainThread]: Store serial: [22697384]
+[2024-04-10 09:59:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22697384]
+[2024-04-10 10:00:03] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-10 10:00:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: characterai
+[2024-04-10 10:00:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hexagon
+[2024-04-10 10:00:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scattnlay
+[2024-04-10 10:00:03] INFO root fetch - processPackages [hexagon]: New version: [0.59.0] Old Version: [0.58.1]
+[2024-04-10 10:00:03] WARNING root fetch - processPackages [scattnlay]: Skipping, unable to determine old version
+[2024-04-10 10:00:03] INFO root fetch - main [MainThread]: End processing [scattnlay] error
+[2024-04-10 10:00:03] INFO root fetch - processPackages [characterai]: New version: [1.0.1a1] Old Version: [0.8.0]
+[2024-04-10 10:00:03] INFO root fetch - processPackages [hexagon]: Downloading https://files.pythonhosted.org/packages/47/08/fe77493b87ec6cd3ec9a6eccb75c228ce6e7154180217f4c2352f36e69f5/hexagon-0.58.1.tar.gz
+[2024-04-10 10:00:03] INFO root fetch - processPackages [characterai]: Downloading https://files.pythonhosted.org/packages/8d/3c/daf01659ba68f7089e5f3e48f34b85e4be7bf330889c3ed56523af2dd59f/characterai-0.8.0.tar.gz
+[2024-04-10 10:00:04] INFO root fetch - processPackages [characterai]: Downloading https://files.pythonhosted.org/packages/0a/8a/c7202c283279a07e2e2fa7a1a5cca5852115b9b68cf18b6bf33ebe3989b9/characterai-1.0.1a1.tar.gz
+[2024-04-10 10:00:04] INFO root fetch - processPackages [hexagon]: Downloading https://files.pythonhosted.org/packages/7a/bb/84c505f651825bc713811d6d27051dc7ba7abc451c1b96c4d5b4e9bf6666/hexagon-0.59.0.tar.gz
+[2024-04-10 10:00:04] INFO root fetch - processPackages [characterai]: executing diffoscope
+[2024-04-10 10:00:04] INFO root fetch - processPackages [characterai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/characterai-0.8.0.tar.gz tmp/characterai-1.0.1a1.tar.gz --markdown 20240410/c/characterai/0.8.0-1.0.1a1/README.md --exclude *.pyd
+[2024-04-10 10:00:04] INFO root fetch - processPackages [hexagon]: executing diffoscope
+[2024-04-10 10:00:04] INFO root fetch - processPackages [hexagon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hexagon-0.58.1.tar.gz tmp/hexagon-0.59.0.tar.gz --markdown 20240410/h/hexagon/0.58.1-0.59.0/README.md --exclude *.pyd
+[2024-04-10 10:00:05] INFO root fetch - processPackages [characterai]: Remove: archive file [/home/abi/fetcher/tmp/characterai-0.8.0.tar.gz]
+[2024-04-10 10:00:05] INFO root fetch - processPackages [characterai]: Remove: archive file [/home/abi/fetcher/tmp/characterai-1.0.1a1.tar.gz]
+[2024-04-10 10:00:05] INFO root fetch - main [MainThread]: End processing [characterai]: success
+[2024-04-10 10:00:05] INFO root fetch - processPackages [hexagon]: Remove: archive file [/home/abi/fetcher/tmp/hexagon-0.58.1.tar.gz]
+[2024-04-10 10:00:05] INFO root fetch - processPackages [hexagon]: Remove: archive file [/home/abi/fetcher/tmp/hexagon-0.59.0.tar.gz]
+[2024-04-10 10:00:05] INFO root fetch - main [MainThread]: End processing [hexagon]: success
+[2024-04-10 10:00:05] INFO root fetch - main [MainThread]: Store serial: [22697396]

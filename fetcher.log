@@ -22466,3 +22466,83 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-10 13:45:22] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-1.9.0a1693981063.tar.gz]
 [2024-04-10 13:45:22] INFO root fetch - main [MainThread]: End processing [pulumi-oci]: success
 [2024-04-10 13:45:22] INFO root fetch - main [MainThread]: Store serial: [22700240]
+[2024-04-10 13:47:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22700240]
+[2024-04-10 13:47:32] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-10 13:47:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: document-ingestor
+[2024-04-10 13:47:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: exspy
+[2024-04-10 13:47:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lemon-explainer
+[2024-04-10 13:47:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ycls
+[2024-04-10 13:47:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sqlfactory
+[2024-04-10 13:47:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyriemann
+[2024-04-10 13:47:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: easyaddition-quicklyfix
+[2024-04-10 13:47:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: obsinthe
+[2024-04-10 13:47:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: libsegmenter
+[2024-04-10 13:47:32] INFO root fetch - processPackages [easyaddition-quicklyfix]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-10 13:47:32] INFO root fetch - processPackages [document-ingestor]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-10 13:47:32] INFO root fetch - processPackages [ycls]: New version: [1.0.2] Old Version: [1.0.0]
+[2024-04-10 13:47:32] INFO root fetch - processPackages [easyaddition-quicklyfix]: Downloading https://files.pythonhosted.org/packages/26/24/1f40d73d169c054567482a108271ad067f95f26c633a54a1f9e437665d2b/easyaddition_quicklyfix-0.0.6.tar.gz
+[2024-04-10 13:47:32] INFO root fetch - processPackages [pyriemann]: New version: [0.6] Old Version: [0.5]
+[2024-04-10 13:47:32] INFO root fetch - processPackages [lemon-explainer]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-10 13:47:32] INFO root fetch - processPackages [obsinthe]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-10 13:47:32] INFO root fetch - processPackages [sqlfactory]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-10 13:47:32] INFO root fetch - processPackages [libsegmenter]: New version: [0.2] Old Version: [0.1]
+[2024-04-10 13:47:32] INFO root fetch - processPackages [exspy]: New version: [0.2] Old Version: [0.1]
+[2024-04-10 13:47:32] INFO root fetch - processPackages [document-ingestor]: Downloading https://files.pythonhosted.org/packages/25/d7/58992dfa43b0c0b61881367d86ef1fc8a1ff417a27d8cd81928b9e1a2eef/document_ingestor-0.0.5.tar.gz
+[2024-04-10 13:47:32] INFO root fetch - processPackages [ycls]: Downloading https://files.pythonhosted.org/packages/1c/8e/fe54c72d4d5fb0dfb26c60b91c091684b9826693905a284548c23840778e/ycls-1.0.0.tar.gz
+[2024-04-10 13:47:32] INFO root fetch - processPackages [pyriemann]: Downloading https://files.pythonhosted.org/packages/45/50/9db91ccb209f5c8020e51186a96dc61f97cd0b7f6e83fbace1e038f303f9/pyriemann-0.5.tar.gz
+[2024-04-10 13:47:32] INFO root fetch - processPackages [obsinthe]: Downloading https://files.pythonhosted.org/packages/94/61/fadd652f8f4349b72b77514634a5a229cca9cc744031f020d443e8936b44/obsinthe-0.0.2.tar.gz
+[2024-04-10 13:47:32] INFO root fetch - processPackages [lemon-explainer]: Downloading https://files.pythonhosted.org/packages/f1/64/32ffa609b33461a445bca173f65609ed72346ffbea26ec940b20eac59747/lemon_explainer-0.0.2.tar.gz
+[2024-04-10 13:47:32] INFO root fetch - processPackages [sqlfactory]: Downloading https://files.pythonhosted.org/packages/7e/d0/1cccbc3c60b0e110ba4945fd5effa7a4cc588887d36bc23af2968b6c06c1/sqlfactory-1.0.1.tar.gz
+[2024-04-10 13:47:32] INFO root fetch - processPackages [exspy]: Downloading https://files.pythonhosted.org/packages/ff/e7/27c372bc3ea8dcd43a4026aa8075b81757d5121abe13b8b7b328a452a0a2/exspy-0.1.tar.gz
+[2024-04-10 13:47:32] INFO root fetch - processPackages [libsegmenter]: Downloading https://files.pythonhosted.org/packages/c3/f5/f828ed935c81719b27d80b4a4d1772d2b9fda36d58c4b1f423f6b1a1eb22/libsegmenter-0.1.tar.gz
+[2024-04-10 13:47:32] INFO root fetch - processPackages [easyaddition-quicklyfix]: Downloading https://files.pythonhosted.org/packages/90/6c/8009a3160ad40d089a86bea6ab215ef7f5374d84bfb2816d54d773b08974/easyaddition_quicklyfix-0.0.7.tar.gz
+[2024-04-10 13:47:32] ERROR root fetch - processPackages [ycls]: Unable to fetch info: No such project/version 'ycls' 1.0.2
+[2024-04-10 13:47:32] INFO root fetch - main [MainThread]: End processing [ycls] error
+[2024-04-10 13:47:32] INFO root fetch - processPackages [document-ingestor]: Downloading https://files.pythonhosted.org/packages/58/9f/64ef1908bf563f4195c601bcf6ca142a86bc44bd5eee82b6ad72b28b470a/document_ingestor-0.0.6-py3-none-any.whl
+[2024-04-10 13:47:32] INFO root fetch - processPackages [easyaddition-quicklyfix]: executing diffoscope
+[2024-04-10 13:47:32] INFO root fetch - processPackages [easyaddition-quicklyfix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyaddition_quicklyfix-0.0.6.tar.gz tmp/easyaddition_quicklyfix-0.0.7.tar.gz --markdown 20240410/e/easyaddition-quicklyfix/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-10 13:47:33] INFO root fetch - processPackages [document-ingestor]: executing diffoscope
+[2024-04-10 13:47:33] INFO root fetch - processPackages [document-ingestor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/document_ingestor-0.0.5.tar.gz tmp/document_ingestor-0.0.6-py3-none-any.whl.zip --markdown 20240410/d/document-ingestor/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-10 13:47:33] INFO root fetch - processPackages [pyriemann]: Downloading https://files.pythonhosted.org/packages/02/68/d20f564c781d3269f662e79fe9bbb9a33f0f6b9efb1a0cc31421be21a5d3/pyriemann-0.6.tar.gz
+[2024-04-10 13:47:33] INFO root fetch - processPackages [obsinthe]: Downloading https://files.pythonhosted.org/packages/f2/78/bcf42915d25b609ccf56c5ad9b426058df4857cda5e9a5c9615e87639bca/obsinthe-0.0.3.tar.gz
+[2024-04-10 13:47:33] INFO root fetch - processPackages [sqlfactory]: Downloading https://files.pythonhosted.org/packages/f4/01/e64bf3627a65bd6f3e5f83233341342a5d5518418ce1295f08eefa5c98dc/sqlfactory-1.0.2.tar.gz
+[2024-04-10 13:47:33] INFO root fetch - processPackages [lemon-explainer]: Downloading https://files.pythonhosted.org/packages/22/52/bb7c5c4c8a8d449dc9f330a6c7d36e1c7f38ced8930ff6ead9c34e1ed799/lemon_explainer-0.0.3.tar.gz
+[2024-04-10 13:47:33] INFO root fetch - processPackages [libsegmenter]: Downloading https://files.pythonhosted.org/packages/87/64/ab3a30a6ec284c5008120c57fd1a53648793353bfaa9c3daa14df0622fbc/libsegmenter-0.2-pp39-pypy39_pp73-macosx_11_0_arm64.whl
+[2024-04-10 13:47:33] INFO root fetch - processPackages [obsinthe]: executing diffoscope
+[2024-04-10 13:47:33] INFO root fetch - processPackages [obsinthe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/obsinthe-0.0.2.tar.gz tmp/obsinthe-0.0.3.tar.gz --markdown 20240410/o/obsinthe/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-10 13:47:33] INFO root fetch - processPackages [pyriemann]: executing diffoscope
+[2024-04-10 13:47:33] INFO root fetch - processPackages [pyriemann]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyriemann-0.5.tar.gz tmp/pyriemann-0.6.tar.gz --markdown 20240410/p/pyriemann/0.5-0.6/README.md --exclude *.pyd
+[2024-04-10 13:47:33] INFO root fetch - processPackages [sqlfactory]: executing diffoscope
+[2024-04-10 13:47:33] INFO root fetch - processPackages [sqlfactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlfactory-1.0.1.tar.gz tmp/sqlfactory-1.0.2.tar.gz --markdown 20240410/s/sqlfactory/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-10 13:47:33] INFO root fetch - processPackages [lemon-explainer]: executing diffoscope
+[2024-04-10 13:47:33] INFO root fetch - processPackages [lemon-explainer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lemon_explainer-0.0.2.tar.gz tmp/lemon_explainer-0.0.3.tar.gz --markdown 20240410/l/lemon-explainer/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-10 13:47:33] INFO root fetch - processPackages [libsegmenter]: executing diffoscope
+[2024-04-10 13:47:33] INFO root fetch - processPackages [libsegmenter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libsegmenter-0.1.tar.gz tmp/libsegmenter-0.2-pp39-pypy39_pp73-macosx_11_0_arm64.whl.zip --markdown 20240410/l/libsegmenter/0.1-0.2/README.md --exclude *.pyd
+[2024-04-10 13:47:33] INFO root fetch - processPackages [exspy]: Downloading https://files.pythonhosted.org/packages/0f/15/b2d610fc40e4cdbab530bb32f4f09ad41d82b1778c4fa0c6f5a7975edf19/exspy-0.2.tar.gz
+[2024-04-10 13:47:33] INFO root fetch - processPackages [exspy]: executing diffoscope
+[2024-04-10 13:47:33] INFO root fetch - processPackages [exspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exspy-0.1.tar.gz tmp/exspy-0.2.tar.gz --markdown 20240410/e/exspy/0.1-0.2/README.md --exclude *.pyd
+[2024-04-10 13:47:34] INFO root fetch - processPackages [document-ingestor]: Remove: archive file [/home/abi/fetcher/tmp/document_ingestor-0.0.5.tar.gz]
+[2024-04-10 13:47:34] INFO root fetch - processPackages [document-ingestor]: Remove: archive file [/home/abi/fetcher/tmp/document_ingestor-0.0.6-py3-none-any.whl.zip]
+[2024-04-10 13:47:34] INFO root fetch - main [MainThread]: End processing [document-ingestor]: success
+[2024-04-10 13:47:34] INFO root fetch - processPackages [easyaddition-quicklyfix]: Remove: archive file [/home/abi/fetcher/tmp/easyaddition_quicklyfix-0.0.6.tar.gz]
+[2024-04-10 13:47:34] INFO root fetch - processPackages [easyaddition-quicklyfix]: Remove: archive file [/home/abi/fetcher/tmp/easyaddition_quicklyfix-0.0.7.tar.gz]
+[2024-04-10 13:47:34] INFO root fetch - main [MainThread]: End processing [easyaddition-quicklyfix]: success
+[2024-04-10 13:47:34] INFO root fetch - processPackages [libsegmenter]: Remove: archive file [/home/abi/fetcher/tmp/libsegmenter-0.1.tar.gz]
+[2024-04-10 13:47:34] INFO root fetch - processPackages [libsegmenter]: Remove: archive file [/home/abi/fetcher/tmp/libsegmenter-0.2-pp39-pypy39_pp73-macosx_11_0_arm64.whl.zip]
+[2024-04-10 13:47:34] INFO root fetch - main [MainThread]: End processing [libsegmenter]: success
+[2024-04-10 13:47:34] INFO root fetch - processPackages [obsinthe]: Remove: archive file [/home/abi/fetcher/tmp/obsinthe-0.0.2.tar.gz]
+[2024-04-10 13:47:34] INFO root fetch - processPackages [obsinthe]: Remove: archive file [/home/abi/fetcher/tmp/obsinthe-0.0.3.tar.gz]
+[2024-04-10 13:47:34] INFO root fetch - main [MainThread]: End processing [obsinthe]: success
+[2024-04-10 13:47:34] INFO root fetch - processPackages [lemon-explainer]: Remove: archive file [/home/abi/fetcher/tmp/lemon_explainer-0.0.2.tar.gz]
+[2024-04-10 13:47:34] INFO root fetch - processPackages [lemon-explainer]: Remove: archive file [/home/abi/fetcher/tmp/lemon_explainer-0.0.3.tar.gz]
+[2024-04-10 13:47:34] INFO root fetch - main [MainThread]: End processing [lemon-explainer]: success
+[2024-04-10 13:47:34] INFO root fetch - processPackages [sqlfactory]: Remove: archive file [/home/abi/fetcher/tmp/sqlfactory-1.0.1.tar.gz]
+[2024-04-10 13:47:34] INFO root fetch - processPackages [sqlfactory]: Remove: archive file [/home/abi/fetcher/tmp/sqlfactory-1.0.2.tar.gz]
+[2024-04-10 13:47:34] INFO root fetch - main [MainThread]: End processing [sqlfactory]: success
+[2024-04-10 13:47:35] INFO root fetch - processPackages [pyriemann]: Remove: archive file [/home/abi/fetcher/tmp/pyriemann-0.5.tar.gz]
+[2024-04-10 13:47:35] INFO root fetch - processPackages [pyriemann]: Remove: archive file [/home/abi/fetcher/tmp/pyriemann-0.6.tar.gz]
+[2024-04-10 13:47:35] INFO root fetch - main [MainThread]: End processing [pyriemann]: success
+[2024-04-10 13:47:35] INFO root fetch - processPackages [exspy]: Remove: archive file [/home/abi/fetcher/tmp/exspy-0.1.tar.gz]
+[2024-04-10 13:47:35] INFO root fetch - processPackages [exspy]: Remove: archive file [/home/abi/fetcher/tmp/exspy-0.2.tar.gz]
+[2024-04-10 13:47:35] INFO root fetch - main [MainThread]: End processing [exspy]: success
+[2024-04-10 13:47:35] INFO root fetch - main [MainThread]: Store serial: [22700278]

@@ -13587,3 +13587,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 07:56:25] INFO root fetch - processPackages [bttc]: Remove: archive file [/home/abi/fetcher/tmp/bttc-0.0.73.6.tar.gz]
 [2024-04-10 07:56:25] INFO root fetch - main [MainThread]: End processing [bttc]: success
 [2024-04-10 07:56:25] INFO root fetch - main [MainThread]: Store serial: [22696257]
+[2024-04-10 07:58:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22696257]
+[2024-04-10 07:58:35] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-10 07:58:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-external
+[2024-04-10 07:58:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pter
+[2024-04-10 07:58:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: layernext-beta
+[2024-04-10 07:58:35] INFO root fetch - processPackages [layernext-beta]: New version: [3.3.0b0] Old Version: [3.2.0b0]
+[2024-04-10 07:58:35] INFO root fetch - processPackages [pulumi-external]: New version: [0.0.4a1712727133] Old Version: [0.0.4a1712399414]
+[2024-04-10 07:58:35] INFO root fetch - processPackages [pter]: New version: [3.9.0] Old Version: [3.8.0]
+[2024-04-10 07:58:35] INFO root fetch - processPackages [layernext-beta]: Downloading https://files.pythonhosted.org/packages/a1/4d/bed0020d7b9471e02855268810972714b5782aa6ecc4f5e37937fd3b5d17/layernext-beta-3.2.0b0.tar.gz
+[2024-04-10 07:58:35] INFO root fetch - processPackages [pulumi-external]: Downloading https://files.pythonhosted.org/packages/e2/03/55cd4d9d237995f048656a2b9ce229a82bf02c155dc3eef80705bbc2a4de/pulumi_external-0.0.4a1712399414.tar.gz
+[2024-04-10 07:58:35] INFO root fetch - processPackages [pter]: Downloading https://files.pythonhosted.org/packages/cc/3d/6fc7f754cc7f76b4392a781dabc3029bff9cc43efbe59e7a1cd534f51fbb/pter-3.8.0.tar.gz
+[2024-04-10 07:58:35] INFO root fetch - processPackages [pulumi-external]: Downloading https://files.pythonhosted.org/packages/de/11/b0fc937b276e7b17f3181c890f261c6af61703eb6ac5d7b2361012b8bfb3/pulumi_external-0.0.4a1712727133.tar.gz
+[2024-04-10 07:58:36] INFO root fetch - processPackages [pulumi-external]: executing diffoscope
+[2024-04-10 07:58:36] INFO root fetch - processPackages [pulumi-external]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_external-0.0.4a1712399414.tar.gz tmp/pulumi_external-0.0.4a1712727133.tar.gz --markdown 20240410/p/pulumi-external/0.0.4a1712399414-0.0.4a1712727133/README.md --exclude *.pyd
+[2024-04-10 07:58:36] INFO root fetch - processPackages [layernext-beta]: Downloading https://files.pythonhosted.org/packages/6a/8a/6a2b053be003cf842de8a3151ab915017e141914f80a9dc0da4ec0042dd9/layernext-beta-3.3.0b0.tar.gz
+[2024-04-10 07:58:36] INFO root fetch - processPackages [pter]: Downloading https://files.pythonhosted.org/packages/1f/43/955ca5bbcfb19599f7f1f3f1fab8d67fc2afd17d8233bfa5f081a5b1407c/pter-3.9.0.tar.gz
+[2024-04-10 07:58:36] INFO root fetch - processPackages [layernext-beta]: executing diffoscope
+[2024-04-10 07:58:36] INFO root fetch - processPackages [layernext-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/layernext-beta-3.2.0b0.tar.gz tmp/layernext-beta-3.3.0b0.tar.gz --markdown 20240410/l/layernext-beta/3.2.0b0-3.3.0b0/README.md --exclude *.pyd
+[2024-04-10 07:58:36] INFO root fetch - processPackages [pter]: executing diffoscope
+[2024-04-10 07:58:36] INFO root fetch - processPackages [pter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pter-3.8.0.tar.gz tmp/pter-3.9.0.tar.gz --markdown 20240410/p/pter/3.8.0-3.9.0/README.md --exclude *.pyd
+[2024-04-10 07:58:36] INFO root fetch - processPackages [pulumi-external]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_external-0.0.4a1712399414.tar.gz]
+[2024-04-10 07:58:36] INFO root fetch - processPackages [pulumi-external]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_external-0.0.4a1712727133.tar.gz]
+[2024-04-10 07:58:36] INFO root fetch - main [MainThread]: End processing [pulumi-external]: success
+[2024-04-10 07:58:36] INFO root fetch - processPackages [layernext-beta]: Remove: archive file [/home/abi/fetcher/tmp/layernext-beta-3.2.0b0.tar.gz]
+[2024-04-10 07:58:36] INFO root fetch - processPackages [layernext-beta]: Remove: archive file [/home/abi/fetcher/tmp/layernext-beta-3.3.0b0.tar.gz]
+[2024-04-10 07:58:36] INFO root fetch - main [MainThread]: End processing [layernext-beta]: success
+[2024-04-10 07:58:37] INFO root fetch - processPackages [pter]: Remove: archive file [/home/abi/fetcher/tmp/pter-3.8.0.tar.gz]
+[2024-04-10 07:58:37] INFO root fetch - processPackages [pter]: Remove: archive file [/home/abi/fetcher/tmp/pter-3.9.0.tar.gz]
+[2024-04-10 07:58:37] INFO root fetch - main [MainThread]: End processing [pter]: success
+[2024-04-10 07:58:37] INFO root fetch - main [MainThread]: Store serial: [22696266]

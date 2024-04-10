@@ -7777,3 +7777,57 @@
 [2024-04-10 03:36:00] INFO root fetch - processPackages [dflow-galaxy]: Remove: archive file [/home/abi/fetcher/tmp/dflow_galaxy-0.1.5.tar.gz]
 [2024-04-10 03:36:00] INFO root fetch - main [MainThread]: End processing [dflow-galaxy]: success
 [2024-04-10 03:36:00] INFO root fetch - main [MainThread]: Store serial: [22694050]
+[2024-04-10 03:38:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22694050]
+[2024-04-10 03:38:09] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-10 03:38:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: luntaiDs
+[2024-04-10 03:38:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pih-bonus
+[2024-04-10 03:38:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: agricore_sp_models
+[2024-04-10 03:38:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: enigma-machine-german
+[2024-04-10 03:38:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyAgrum-nightly
+[2024-04-10 03:38:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pih-check
+[2024-04-10 03:38:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jemma
+[2024-04-10 03:38:09] INFO root fetch - processPackages [enigma-machine-german]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-10 03:38:09] INFO root fetch - processPackages [luntaiDs]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-10 03:38:09] INFO root fetch - processPackages [jemma]: New version: [0.1.1289] Old Version: [0.1.1287]
+[2024-04-10 03:38:09] INFO root fetch - processPackages [agricore_sp_models]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-04-10 03:38:09] INFO root fetch - processPackages [enigma-machine-german]: Downloading https://files.pythonhosted.org/packages/bf/3e/eb84b81e651569a16c5caca3297ff1c935d80bbbd27a98736f24bf9c41a9/enigma_machine_german-0.2.0.tar.gz
+[2024-04-10 03:38:09] INFO root fetch - processPackages [luntaiDs]: Downloading https://files.pythonhosted.org/packages/96/9c/8f474f0025793acec510f264abd6be36d97ae50f7578575de409206457b1/luntaiDs-1.0.8.tar.gz
+[2024-04-10 03:38:09] WARNING root fetch - processPackages [pih-bonus]: Skipping, unable to determine old version
+[2024-04-10 03:38:09] INFO root fetch - main [MainThread]: End processing [pih-bonus] error
+[2024-04-10 03:38:09] INFO root fetch - processPackages [jemma]: Downloading https://files.pythonhosted.org/packages/0d/51/7249f17f16b54c379eee568b71de6485acf1f127f4804d717f68f46f52fa/jemma-0.1.1287.tar.gz
+[2024-04-10 03:38:09] INFO root fetch - processPackages [agricore_sp_models]: Downloading https://files.pythonhosted.org/packages/99/3b/b1847ba262596ccdb2f2745d722aa75dade6d77edde9077aa24e0867d5f0/agricore_sp_models-0.5.8.tar.gz
+[2024-04-10 03:38:09] WARNING root fetch - processPackages [pih-check]: Skipping, unable to determine old version
+[2024-04-10 03:38:09] INFO root fetch - main [MainThread]: End processing [pih-check] error
+[2024-04-10 03:38:09] INFO root fetch - processPackages [enigma-machine-german]: Downloading https://files.pythonhosted.org/packages/dc/c7/7d7e5f01fe7549a00b259b2dac34be0876943535dcef62fbc78ee2ce5c8f/enigma_machine_german-0.3.0.tar.gz
+[2024-04-10 03:38:09] INFO root fetch - processPackages [agricore_sp_models]: Downloading https://files.pythonhosted.org/packages/4f/c3/15dc30bfa86b2dc97f35cb28d8ef45f99d8a64f480013f5b15c7b47dde11/agricore_sp_models-0.5.9.tar.gz
+[2024-04-10 03:38:09] INFO root fetch - processPackages [luntaiDs]: Downloading https://files.pythonhosted.org/packages/91/ae/dabc2b9fa86d4f393b80d702e362106b4cd31b90fc9b9e288028c7a15020/luntaiDs-1.0.9.tar.gz
+[2024-04-10 03:38:09] INFO root fetch - processPackages [enigma-machine-german]: executing diffoscope
+[2024-04-10 03:38:09] INFO root fetch - processPackages [enigma-machine-german]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enigma_machine_german-0.2.0.tar.gz tmp/enigma_machine_german-0.3.0.tar.gz --markdown 20240410/e/enigma-machine-german/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-04-10 03:38:09] INFO root fetch - processPackages [agricore_sp_models]: executing diffoscope
+[2024-04-10 03:38:09] INFO root fetch - processPackages [agricore_sp_models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agricore_sp_models-0.5.8.tar.gz tmp/agricore_sp_models-0.5.9.tar.gz --markdown 20240410/a/agricore_sp_models/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-04-10 03:38:09] INFO root fetch - processPackages [luntaiDs]: executing diffoscope
+[2024-04-10 03:38:09] INFO root fetch - processPackages [luntaiDs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luntaiDs-1.0.8.tar.gz tmp/luntaiDs-1.0.9.tar.gz --markdown 20240410/l/luntaiDs/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-10 03:38:10] INFO root fetch - processPackages [jemma]: Downloading https://files.pythonhosted.org/packages/3e/d0/ef483b892c4a72f21ed315513e5a5ab0795ba9bee87978f4df57d3e9e7dd/jemma-0.1.1289.tar.gz
+[2024-04-10 03:38:10] INFO root fetch - processPackages [jemma]: executing diffoscope
+[2024-04-10 03:38:10] INFO root fetch - processPackages [jemma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jemma-0.1.1287.tar.gz tmp/jemma-0.1.1289.tar.gz --markdown 20240410/j/jemma/0.1.1287-0.1.1289/README.md --exclude *.pyd
+[2024-04-10 03:38:10] INFO root fetch - processPackages [enigma-machine-german]: Remove: archive file [/home/abi/fetcher/tmp/enigma_machine_german-0.2.0.tar.gz]
+[2024-04-10 03:38:10] INFO root fetch - processPackages [enigma-machine-german]: Remove: archive file [/home/abi/fetcher/tmp/enigma_machine_german-0.3.0.tar.gz]
+[2024-04-10 03:38:10] INFO root fetch - main [MainThread]: End processing [enigma-machine-german]: success
+[2024-04-10 03:38:10] INFO root fetch - processPackages [agricore_sp_models]: Remove: archive file [/home/abi/fetcher/tmp/agricore_sp_models-0.5.8.tar.gz]
+[2024-04-10 03:38:10] INFO root fetch - processPackages [agricore_sp_models]: Remove: archive file [/home/abi/fetcher/tmp/agricore_sp_models-0.5.9.tar.gz]
+[2024-04-10 03:38:10] INFO root fetch - main [MainThread]: End processing [agricore_sp_models]: success
+[2024-04-10 03:38:10] INFO root fetch - processPackages [luntaiDs]: Remove: archive file [/home/abi/fetcher/tmp/luntaiDs-1.0.8.tar.gz]
+[2024-04-10 03:38:10] INFO root fetch - processPackages [luntaiDs]: Remove: archive file [/home/abi/fetcher/tmp/luntaiDs-1.0.9.tar.gz]
+[2024-04-10 03:38:10] INFO root fetch - main [MainThread]: End processing [luntaiDs]: success
+[2024-04-10 03:38:10] INFO root fetch - processPackages [jemma]: Remove: archive file [/home/abi/fetcher/tmp/jemma-0.1.1287.tar.gz]
+[2024-04-10 03:38:10] INFO root fetch - processPackages [jemma]: Remove: archive file [/home/abi/fetcher/tmp/jemma-0.1.1289.tar.gz]
+[2024-04-10 03:38:10] INFO root fetch - main [MainThread]: End processing [jemma]: success
+[2024-04-10 03:38:10] INFO root fetch - processPackages [pyAgrum-nightly]: New version: [1.9.0.9.dev202310191697564854] Old Version: [1.9.0.9.dev202310181697564854]
+[2024-04-10 03:38:11] INFO root fetch - processPackages [pyAgrum-nightly]: Downloading https://files.pythonhosted.org/packages/64/23/4308469c4be3abcfc53ec2ccbd7dcca1618077035522cae4b364a9c6cc56/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl
+[2024-04-10 03:38:11] INFO root fetch - processPackages [pyAgrum-nightly]: Downloading https://files.pythonhosted.org/packages/84/cc/6d2d3b13a2080cfbfa9792321774075d119b4fa37902c5a9d93d8eccf13d/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl
+[2024-04-10 03:38:12] INFO root fetch - processPackages [pyAgrum-nightly]: executing diffoscope
+[2024-04-10 03:38:12] INFO root fetch - processPackages [pyAgrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip --markdown 20240410/p/pyAgrum-nightly/1.9.0.9.dev202310181697564854-1.9.0.9.dev202310191697564854/README.md --exclude *.pyd
+[2024-04-10 03:38:12] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl.zip]
+[2024-04-10 03:38:12] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip]
+[2024-04-10 03:38:12] INFO root fetch - main [MainThread]: End processing [pyAgrum-nightly]: success
+[2024-04-10 03:38:12] INFO root fetch - main [MainThread]: Store serial: [22694083]

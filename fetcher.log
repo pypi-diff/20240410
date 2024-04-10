@@ -13369,3 +13369,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 07:43:21] INFO root fetch - processPackages [pulumi-azuread]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuread-5.9.0a1637590268.tar.gz]
 [2024-04-10 07:43:21] INFO root fetch - main [MainThread]: End processing [pulumi-azuread]: success
 [2024-04-10 07:43:21] INFO root fetch - main [MainThread]: Store serial: [22696186]
+[2024-04-10 07:45:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22696186]
+[2024-04-10 07:45:30] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-10 07:45:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tahrir-messages
+[2024-04-10 07:45:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-aiven
+[2024-04-10 07:45:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quickstart-vdk
+[2024-04-10 07:45:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-cloudamqp
+[2024-04-10 07:45:30] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.999091100.dev13356] Old Version: [0.2.998635022.dev13355]
+[2024-04-10 07:45:30] INFO root fetch - processPackages [tahrir-messages]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-10 07:45:30] INFO root fetch - processPackages [pulumi-cloudamqp]: New version: [3.9.2] Old Version: [3.9.1]
+[2024-04-10 07:45:30] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/e3/a6/b7424a3be777980068df32f41ef9085422b79289fef725cba5cabf2b502e/quickstart-vdk-0.2.998635022.dev13355.tar.gz
+[2024-04-10 07:45:30] INFO root fetch - processPackages [pulumi-aiven]: New version: [6.9.0a1704274395] Old Version: [6.9.0a1704258951]
+[2024-04-10 07:45:31] INFO root fetch - processPackages [tahrir-messages]: Downloading https://files.pythonhosted.org/packages/64/a0/52a080ee05ca767b85f7baa85478eadeab32ec871649afab746c78adc662/tahrir_messages-1.0.0.tar.gz
+[2024-04-10 07:45:31] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/fa/72/2a48eb94b876fa0c01eda0450a3e80c80101dd5fdfe10124d5474b64f5fd/quickstart-vdk-0.2.999091100.dev13356.tar.gz
+[2024-04-10 07:45:31] INFO root fetch - processPackages [pulumi-aiven]: Downloading https://files.pythonhosted.org/packages/89/fb/adacc179c277b4328f00f1483cac3f1c2227c33318802c8f88e0ee8e93c3/pulumi_aiven-6.9.0a1704258951.tar.gz
+[2024-04-10 07:45:31] INFO root fetch - processPackages [pulumi-cloudamqp]: Downloading https://files.pythonhosted.org/packages/11/e9/21f7b016e33dfe37759f872bc35e5859819c933ab5e3b90a1a659ab49314/pulumi_cloudamqp-3.9.1.tar.gz
+[2024-04-10 07:45:31] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2024-04-10 07:45:31] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz --markdown 20240410/q/quickstart-vdk/0.2.998635022.dev13355-0.2.999091100.dev13356/README.md --exclude *.pyd
+[2024-04-10 07:45:31] INFO root fetch - processPackages [tahrir-messages]: Downloading https://files.pythonhosted.org/packages/74/7f/c8100ab9795842458c26f3a8a9b3421f92548cf335a66eba0bff86ab4411/tahrir_messages-1.0.1.tar.gz
+[2024-04-10 07:45:31] INFO root fetch - processPackages [tahrir-messages]: executing diffoscope
+[2024-04-10 07:45:31] INFO root fetch - processPackages [tahrir-messages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tahrir_messages-1.0.0.tar.gz tmp/tahrir_messages-1.0.1.tar.gz --markdown 20240410/t/tahrir-messages/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-10 07:45:31] INFO root fetch - processPackages [pulumi-aiven]: Downloading https://files.pythonhosted.org/packages/58/4d/df63cee14469cb3bb5ff7e2a4af56d19adf0cd17ce9192b84188dc240736/pulumi_aiven-6.9.0a1704274395.tar.gz
+[2024-04-10 07:45:31] INFO root fetch - processPackages [pulumi-cloudamqp]: Downloading https://files.pythonhosted.org/packages/af/5a/e693fc66be78e5b911198861afba3393be3d0c49d5f64c45c63abd861205/pulumi_cloudamqp-3.9.2.tar.gz
+[2024-04-10 07:45:31] INFO root fetch - processPackages [pulumi-cloudamqp]: executing diffoscope
+[2024-04-10 07:45:31] INFO root fetch - processPackages [pulumi-cloudamqp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudamqp-3.9.1.tar.gz tmp/pulumi_cloudamqp-3.9.2.tar.gz --markdown 20240410/p/pulumi-cloudamqp/3.9.1-3.9.2/README.md --exclude *.pyd
+[2024-04-10 07:45:31] INFO root fetch - processPackages [pulumi-aiven]: executing diffoscope
+[2024-04-10 07:45:31] INFO root fetch - processPackages [pulumi-aiven]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aiven-6.9.0a1704258951.tar.gz tmp/pulumi_aiven-6.9.0a1704274395.tar.gz --markdown 20240410/p/pulumi-aiven/6.9.0a1704258951-6.9.0a1704274395/README.md --exclude *.pyd
+[2024-04-10 07:45:31] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz]
+[2024-04-10 07:45:31] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz]
+[2024-04-10 07:45:31] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2024-04-10 07:45:31] INFO root fetch - processPackages [tahrir-messages]: Remove: archive file [/home/abi/fetcher/tmp/tahrir_messages-1.0.0.tar.gz]
+[2024-04-10 07:45:31] INFO root fetch - processPackages [tahrir-messages]: Remove: archive file [/home/abi/fetcher/tmp/tahrir_messages-1.0.1.tar.gz]
+[2024-04-10 07:45:31] INFO root fetch - main [MainThread]: End processing [tahrir-messages]: success
+[2024-04-10 07:45:32] INFO root fetch - processPackages [pulumi-cloudamqp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudamqp-3.9.1.tar.gz]
+[2024-04-10 07:45:32] INFO root fetch - processPackages [pulumi-cloudamqp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudamqp-3.9.2.tar.gz]
+[2024-04-10 07:45:32] INFO root fetch - main [MainThread]: End processing [pulumi-cloudamqp]: success
+[2024-04-10 07:45:32] INFO root fetch - processPackages [pulumi-aiven]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aiven-6.9.0a1704258951.tar.gz]
+[2024-04-10 07:45:32] INFO root fetch - processPackages [pulumi-aiven]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aiven-6.9.0a1704274395.tar.gz]
+[2024-04-10 07:45:32] INFO root fetch - main [MainThread]: End processing [pulumi-aiven]: success
+[2024-04-10 07:45:32] INFO root fetch - main [MainThread]: Store serial: [22696197]

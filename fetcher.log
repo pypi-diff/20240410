@@ -17341,3 +17341,38 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 10:29:22] INFO root fetch - processPackages [digitalhub-core]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub-core-0.3.1.tar.gz]
 [2024-04-10 10:29:22] INFO root fetch - main [MainThread]: End processing [digitalhub-core]: success
 [2024-04-10 10:29:22] INFO root fetch - main [MainThread]: Store serial: [22697698]
+[2024-04-10 10:31:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22697698]
+[2024-04-10 10:31:33] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-10 10:31:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ta-assignment-automation
+[2024-04-10 10:31:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: celery-sqlmodel-beat
+[2024-04-10 10:31:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: golem-core
+[2024-04-10 10:31:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mriqc
+[2024-04-10 10:31:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yunasim2024
+[2024-04-10 10:31:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: talos-python3
+[2024-04-10 10:31:33] INFO root fetch - processPackages [mriqc]: New version: [24.0.0rc3] Old Version: [24.0.0rc2]
+[2024-04-10 10:31:33] INFO root fetch - processPackages [mriqc]: Downloading https://files.pythonhosted.org/packages/ca/33/68b89bb3582f3ff10121d3deaafc140b50617af253f4cdcfb768d6fa20b7/mriqc-24.0.0rc2.tar.gz
+[2024-04-10 10:31:33] INFO root fetch - processPackages [talos-python3]: New version: [3.0.9] Old Version: [3.0.8]
+[2024-04-10 10:31:33] WARNING root fetch - processPackages [yunasim2024]: Skipping, unable to determine old version
+[2024-04-10 10:31:33] INFO root fetch - main [MainThread]: End processing [yunasim2024] error
+[2024-04-10 10:31:33] WARNING root fetch - processPackages [celery-sqlmodel-beat]: Skipping, unable to determine old version
+[2024-04-10 10:31:33] INFO root fetch - main [MainThread]: End processing [celery-sqlmodel-beat] error
+[2024-04-10 10:31:33] WARNING root fetch - processPackages [ta-assignment-automation]: Skipping, unable to determine old version
+[2024-04-10 10:31:33] INFO root fetch - main [MainThread]: End processing [ta-assignment-automation] error
+[2024-04-10 10:31:33] INFO root fetch - processPackages [golem-core]: New version: [0.7.0] Old Version: [0.6.3]
+[2024-04-10 10:31:33] WARNING root fetch - processPackages [mriqc]: Skipping package: exceeds size limit 45826032>=10485760
+[2024-04-10 10:31:33] INFO root fetch - main [MainThread]: End processing [mriqc] error
+[2024-04-10 10:31:33] INFO root fetch - processPackages [golem-core]: Downloading https://files.pythonhosted.org/packages/5b/8e/28973edac60fcc0b7561761b7c363099d8538de3b5f27f1eadd96ac60b87/golem_core-0.6.3.tar.gz
+[2024-04-10 10:31:33] INFO root fetch - processPackages [talos-python3]: Downloading https://files.pythonhosted.org/packages/c4/a1/650f78d44b524acafed20beeb1195116a47c00fee04665715d45c92e0517/talos-python3-3.0.8.tar.gz
+[2024-04-10 10:31:33] INFO root fetch - processPackages [talos-python3]: Downloading https://files.pythonhosted.org/packages/7f/b5/dcf3cc227595a96849126307d051132ac40e2846fee79b3811ff94885a8f/talos-python3-3.0.9.tar.gz
+[2024-04-10 10:31:33] INFO root fetch - processPackages [golem-core]: Downloading https://files.pythonhosted.org/packages/74/33/c3b94905ccbc556d2df1399d77592a61430165f0e1735561166b8563399d/golem_core-0.7.0.tar.gz
+[2024-04-10 10:31:33] INFO root fetch - processPackages [talos-python3]: executing diffoscope
+[2024-04-10 10:31:33] INFO root fetch - processPackages [talos-python3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talos-python3-3.0.8.tar.gz tmp/talos-python3-3.0.9.tar.gz --markdown 20240410/t/talos-python3/3.0.8-3.0.9/README.md --exclude *.pyd
+[2024-04-10 10:31:34] INFO root fetch - processPackages [golem-core]: executing diffoscope
+[2024-04-10 10:31:34] INFO root fetch - processPackages [golem-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/golem_core-0.6.3.tar.gz tmp/golem_core-0.7.0.tar.gz --markdown 20240410/g/golem-core/0.6.3-0.7.0/README.md --exclude *.pyd
+[2024-04-10 10:31:34] INFO root fetch - processPackages [talos-python3]: Remove: archive file [/home/abi/fetcher/tmp/talos-python3-3.0.8.tar.gz]
+[2024-04-10 10:31:34] INFO root fetch - processPackages [talos-python3]: Remove: archive file [/home/abi/fetcher/tmp/talos-python3-3.0.9.tar.gz]
+[2024-04-10 10:31:34] INFO root fetch - main [MainThread]: End processing [talos-python3]: success
+[2024-04-10 10:31:34] INFO root fetch - processPackages [golem-core]: Remove: archive file [/home/abi/fetcher/tmp/golem_core-0.6.3.tar.gz]
+[2024-04-10 10:31:34] INFO root fetch - processPackages [golem-core]: Remove: archive file [/home/abi/fetcher/tmp/golem_core-0.7.0.tar.gz]
+[2024-04-10 10:31:34] INFO root fetch - main [MainThread]: End processing [golem-core]: success
+[2024-04-10 10:31:34] INFO root fetch - main [MainThread]: Store serial: [22697720]

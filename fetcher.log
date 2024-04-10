@@ -20982,3 +20982,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 12:53:13] INFO root fetch - processPackages [streamlit-browser-session-storage]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-browser-session-storage-0.0.7.tar.gz]
 [2024-04-10 12:53:13] INFO root fetch - main [MainThread]: End processing [streamlit-browser-session-storage]: success
 [2024-04-10 12:53:13] INFO root fetch - main [MainThread]: Store serial: [22699433]
+[2024-04-10 12:55:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22699433]
+[2024-04-10 12:55:22] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-10 12:55:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: easyaddition-quicklyfix
+[2024-04-10 12:55:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shipdataprocess
+[2024-04-10 12:55:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: music-kraken
+[2024-04-10 12:55:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: unicms-template-unical
+[2024-04-10 12:55:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: imio.schedule
+[2024-04-10 12:55:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: smartmeter-datacollector
+[2024-04-10 12:55:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: socktalk
+[2024-04-10 12:55:23] INFO root fetch - processPackages [music-kraken]: New version: [1.9.0] Old Version: [1.2.0]
+[2024-04-10 12:55:23] WARNING root fetch - processPackages [easyaddition-quicklyfix]: Skipping, unable to determine old version
+[2024-04-10 12:55:23] INFO root fetch - main [MainThread]: End processing [easyaddition-quicklyfix] error
+[2024-04-10 12:55:23] INFO root fetch - processPackages [shipdataprocess]: New version: [0.8.4] Old Version: [0.8.3]
+[2024-04-10 12:55:23] INFO root fetch - processPackages [unicms-template-unical]: New version: [1.6.9] Old Version: [1.6.8]
+[2024-04-10 12:55:23] INFO root fetch - processPackages [socktalk]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-10 12:55:23] INFO root fetch - processPackages [music-kraken]: Downloading https://files.pythonhosted.org/packages/b5/11/af6a2af22042e3643add72a31ff2e3ed9b24d5c3b2a5847d36b386dd478c/music_kraken-1.2.0.tar.gz
+[2024-04-10 12:55:23] INFO root fetch - processPackages [smartmeter-datacollector]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-04-10 12:55:23] INFO root fetch - processPackages [imio.schedule]: New version: [2.2.1] Old Version: [2.2.0]
+[2024-04-10 12:55:23] INFO root fetch - processPackages [shipdataprocess]: Downloading https://files.pythonhosted.org/packages/90/20/d04b8735b5b5dc1b7f85bc54f707027078613e576ef68c9f664095b63489/shipdataprocess-0.8.3.tar.gz
+[2024-04-10 12:55:23] INFO root fetch - processPackages [unicms-template-unical]: Downloading https://files.pythonhosted.org/packages/56/58/04d0920a422e58b4ec7d52fbc6ad54a4fcbcda90e3bd0b3826a31b6767fd/unicms_template_unical-1.6.8.tar.gz
+[2024-04-10 12:55:23] INFO root fetch - processPackages [socktalk]: Downloading https://files.pythonhosted.org/packages/67/b0/926a0963b186057cd30bab78275c6d714838e1f83a1c058ef79a1854b6a3/socktalk-0.1.0.tar.gz
+[2024-04-10 12:55:23] INFO root fetch - processPackages [smartmeter-datacollector]: Downloading https://files.pythonhosted.org/packages/aa/d4/0131ea17f9d5e06ddf50bacb22e598d5007f4aede57d83558498e134547a/smartmeter-datacollector-1.2.0.tar.gz
+[2024-04-10 12:55:23] INFO root fetch - processPackages [imio.schedule]: Downloading https://files.pythonhosted.org/packages/41/c7/68e0c4b41fd561fecfdfa39779d09f55b0df34a3c8ff81d8fd5d1df3001d/imio.schedule-2.2.0.tar.gz
+[2024-04-10 12:55:23] INFO root fetch - processPackages [music-kraken]: Downloading https://files.pythonhosted.org/packages/f6/bf/5cddc4d49d5389dbb323168d462c1ecc653460365394780a774f82856f43/music_kraken-1.9.0.tar.gz
+[2024-04-10 12:55:23] INFO root fetch - processPackages [shipdataprocess]: Downloading https://files.pythonhosted.org/packages/ff/5c/862623e0d0dd1e527976779f141ae7398f75fc4091848fb7946d46991127/shipdataprocess-0.8.4.tar.gz
+[2024-04-10 12:55:23] INFO root fetch - processPackages [unicms-template-unical]: Downloading https://files.pythonhosted.org/packages/dd/90/37bd48a23f4825fc35d67750b27dbe3a8a0f706e6bd0c37cef33bebcfd1e/unicms_template_unical-1.6.9.tar.gz
+[2024-04-10 12:55:23] INFO root fetch - processPackages [shipdataprocess]: executing diffoscope
+[2024-04-10 12:55:23] INFO root fetch - processPackages [shipdataprocess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipdataprocess-0.8.3.tar.gz tmp/shipdataprocess-0.8.4.tar.gz --markdown 20240410/s/shipdataprocess/0.8.3-0.8.4/README.md --exclude *.pyd
+[2024-04-10 12:55:23] INFO root fetch - processPackages [music-kraken]: executing diffoscope
+[2024-04-10 12:55:23] INFO root fetch - processPackages [music-kraken]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/music_kraken-1.2.0.tar.gz tmp/music_kraken-1.9.0.tar.gz --markdown 20240410/m/music-kraken/1.2.0-1.9.0/README.md --exclude *.pyd
+[2024-04-10 12:55:23] INFO root fetch - processPackages [socktalk]: Downloading https://files.pythonhosted.org/packages/ce/47/1ce892258340de822a08184a89aed156d6461dcf789180de46f61fa28228/socktalk-0.1.1.tar.gz
+[2024-04-10 12:55:23] INFO root fetch - processPackages [smartmeter-datacollector]: Downloading https://files.pythonhosted.org/packages/99/2e/6da7ff5afc5937aa142216cd89603370d7996877eea2cd2ef7ae5f7a930c/smartmeter-datacollector-1.2.1.tar.gz
+[2024-04-10 12:55:23] INFO root fetch - processPackages [unicms-template-unical]: executing diffoscope
+[2024-04-10 12:55:23] INFO root fetch - processPackages [unicms-template-unical]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unicms_template_unical-1.6.8.tar.gz tmp/unicms_template_unical-1.6.9.tar.gz --markdown 20240410/u/unicms-template-unical/1.6.8-1.6.9/README.md --exclude *.pyd
+[2024-04-10 12:55:23] INFO root fetch - processPackages [imio.schedule]: Downloading https://files.pythonhosted.org/packages/f2/5d/48dbed1baf3c240d90ea9f7e883df3109833b789c7a1402578729a724427/imio.schedule-2.2.1.tar.gz
+[2024-04-10 12:55:23] INFO root fetch - processPackages [socktalk]: executing diffoscope
+[2024-04-10 12:55:23] INFO root fetch - processPackages [socktalk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socktalk-0.1.0.tar.gz tmp/socktalk-0.1.1.tar.gz --markdown 20240410/s/socktalk/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-10 12:55:23] INFO root fetch - processPackages [smartmeter-datacollector]: executing diffoscope
+[2024-04-10 12:55:23] INFO root fetch - processPackages [smartmeter-datacollector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartmeter-datacollector-1.2.0.tar.gz tmp/smartmeter-datacollector-1.2.1.tar.gz --markdown 20240410/s/smartmeter-datacollector/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-04-10 12:55:23] INFO root fetch - processPackages [imio.schedule]: executing diffoscope
+[2024-04-10 12:55:23] INFO root fetch - processPackages [imio.schedule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imio.schedule-2.2.0.tar.gz tmp/imio.schedule-2.2.1.tar.gz --markdown 20240410/i/imio.schedule/2.2.0-2.2.1/README.md --exclude *.pyd
+[2024-04-10 12:55:24] INFO root fetch - processPackages [music-kraken]: Remove: archive file [/home/abi/fetcher/tmp/music_kraken-1.2.0.tar.gz]
+[2024-04-10 12:55:24] INFO root fetch - processPackages [music-kraken]: Remove: archive file [/home/abi/fetcher/tmp/music_kraken-1.9.0.tar.gz]
+[2024-04-10 12:55:24] INFO root fetch - main [MainThread]: End processing [music-kraken]: success
+[2024-04-10 12:55:24] INFO root fetch - processPackages [shipdataprocess]: Remove: archive file [/home/abi/fetcher/tmp/shipdataprocess-0.8.3.tar.gz]
+[2024-04-10 12:55:24] INFO root fetch - processPackages [shipdataprocess]: Remove: archive file [/home/abi/fetcher/tmp/shipdataprocess-0.8.4.tar.gz]
+[2024-04-10 12:55:24] INFO root fetch - main [MainThread]: End processing [shipdataprocess]: success
+[2024-04-10 12:55:24] INFO root fetch - processPackages [socktalk]: Remove: archive file [/home/abi/fetcher/tmp/socktalk-0.1.0.tar.gz]
+[2024-04-10 12:55:24] INFO root fetch - processPackages [socktalk]: Remove: archive file [/home/abi/fetcher/tmp/socktalk-0.1.1.tar.gz]
+[2024-04-10 12:55:24] INFO root fetch - main [MainThread]: End processing [socktalk]: success
+[2024-04-10 12:55:24] INFO root fetch - processPackages [smartmeter-datacollector]: Remove: archive file [/home/abi/fetcher/tmp/smartmeter-datacollector-1.2.0.tar.gz]
+[2024-04-10 12:55:24] INFO root fetch - processPackages [smartmeter-datacollector]: Remove: archive file [/home/abi/fetcher/tmp/smartmeter-datacollector-1.2.1.tar.gz]
+[2024-04-10 12:55:24] INFO root fetch - main [MainThread]: End processing [smartmeter-datacollector]: success
+[2024-04-10 12:55:25] INFO root fetch - processPackages [imio.schedule]: Remove: archive file [/home/abi/fetcher/tmp/imio.schedule-2.2.0.tar.gz]
+[2024-04-10 12:55:25] INFO root fetch - processPackages [imio.schedule]: Remove: archive file [/home/abi/fetcher/tmp/imio.schedule-2.2.1.tar.gz]
+[2024-04-10 12:55:25] INFO root fetch - main [MainThread]: End processing [imio.schedule]: success
+[2024-04-10 12:55:25] INFO root fetch - processPackages [unicms-template-unical]: Remove: archive file [/home/abi/fetcher/tmp/unicms_template_unical-1.6.8.tar.gz]
+[2024-04-10 12:55:25] INFO root fetch - processPackages [unicms-template-unical]: Remove: archive file [/home/abi/fetcher/tmp/unicms_template_unical-1.6.9.tar.gz]
+[2024-04-10 12:55:25] INFO root fetch - main [MainThread]: End processing [unicms-template-unical]: success
+[2024-04-10 12:55:25] INFO root fetch - main [MainThread]: Store serial: [22699459]

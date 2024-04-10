@@ -14015,3 +14015,72 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 08:18:33] INFO root fetch - processPackages [muko]: Remove: archive file [/home/abi/fetcher/tmp/muko-2.16-py3-none-any.whl.zip]
 [2024-04-10 08:18:33] INFO root fetch - main [MainThread]: End processing [muko]: success
 [2024-04-10 08:18:33] INFO root fetch - main [MainThread]: Store serial: [22696409]
+[2024-04-10 08:20:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22696409]
+[2024-04-10 08:20:42] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-10 08:20:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mystring
+[2024-04-10 08:20:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-kong
+[2024-04-10 08:20:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: intrinio-sdk
+[2024-04-10 08:20:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: g4f
+[2024-04-10 08:20:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aurora-tr
+[2024-04-10 08:20:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-f5bigip
+[2024-04-10 08:20:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rtraflow
+[2024-04-10 08:20:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: icemedia
+[2024-04-10 08:20:42] INFO root fetch - processPackages [mystring]: New version: [0.2.99] Old Version: [0.2.98]
+[2024-04-10 08:20:42] INFO root fetch - processPackages [intrinio-sdk]: New version: [6.27.1] Old Version: [6.27.0]
+[2024-04-10 08:20:42] INFO root fetch - processPackages [g4f]: New version: [0.2.9.1] Old Version: [0.2.9.0]
+[2024-04-10 08:20:42] INFO root fetch - processPackages [mystring]: Downloading https://files.pythonhosted.org/packages/88/05/d0d140db04c0b270b7380359ce66dc3b26477e6b13a36cd8ced2e0442041/mystring-0.2.98-py3-none-any.whl
+[2024-04-10 08:20:42] WARNING root fetch - processPackages [rtraflow]: Skipping, unable to determine old version
+[2024-04-10 08:20:42] INFO root fetch - main [MainThread]: End processing [rtraflow] error
+[2024-04-10 08:20:42] INFO root fetch - processPackages [intrinio-sdk]: Downloading https://files.pythonhosted.org/packages/fe/08/22daed8a390e4317083210d2dc0a1ec539b6ce12e75339b84302923a93e7/intrinio-sdk-6.27.0.tar.gz
+[2024-04-10 08:20:42] INFO root fetch - processPackages [aurora-tr]: New version: [0.1.2a0] Old Version: [0.1.1]
+[2024-04-10 08:20:42] INFO root fetch - processPackages [pulumi-kong]: New version: [4.6.0a1712728140] Old Version: [4.6.0a1712399900]
+[2024-04-10 08:20:42] INFO root fetch - processPackages [g4f]: Downloading https://files.pythonhosted.org/packages/de/19/195d9214e3df60b9c646b9c25d5a9fdfb4468a1a6a80c13eac693a8da0ca/g4f-0.2.9.0.tar.gz
+[2024-04-10 08:20:42] INFO root fetch - processPackages [icemedia]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-10 08:20:42] INFO root fetch - processPackages [pulumi-f5bigip]: New version: [3.9.0a1661535806] Old Version: [3.9.0a1654086391]
+[2024-04-10 08:20:42] INFO root fetch - processPackages [pulumi-kong]: Downloading https://files.pythonhosted.org/packages/9b/37/4ab830236f7911379e3c29e1a8bf7836fc3e709408bd754c9393b0b9b1cd/pulumi_kong-4.6.0a1712399900.tar.gz
+[2024-04-10 08:20:42] INFO root fetch - processPackages [aurora-tr]: Downloading https://files.pythonhosted.org/packages/76/2c/806dacb24d7fb7a813da68e2c22b4c4e197adf2358ef319254d95d793de3/aurora_tr-0.1.1.tar.gz
+[2024-04-10 08:20:42] INFO root fetch - processPackages [mystring]: Downloading https://files.pythonhosted.org/packages/fa/f7/968c4dde1769f6b1b7f54bedafe67abf4ae2c5ff261eaed5f05032e85e87/mystring-0.2.99-py3-none-any.whl
+[2024-04-10 08:20:42] INFO root fetch - processPackages [icemedia]: Downloading https://files.pythonhosted.org/packages/18/88/841298b3caca090e8055c8cd0f91a7c7e9bde2c82604b5fced030c4dd814/icemedia-0.1.1.tar.gz
+[2024-04-10 08:20:42] INFO root fetch - processPackages [pulumi-f5bigip]: Downloading https://files.pythonhosted.org/packages/80/30/a8f0c17436ad6bc5580473fb6cbaf5a135b8828a6bdaacc76510bfd52499/pulumi_f5bigip-3.9.0a1654086391.tar.gz
+[2024-04-10 08:20:42] INFO root fetch - processPackages [intrinio-sdk]: Downloading https://files.pythonhosted.org/packages/1d/e6/7a4ce9dfb55e56b47eb76f5652200b1fd94a2d992bf1eca89d18d2af54ba/intrinio-sdk-6.27.1.tar.gz
+[2024-04-10 08:20:42] INFO root fetch - processPackages [mystring]: executing diffoscope
+[2024-04-10 08:20:42] INFO root fetch - processPackages [mystring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mystring-0.2.98-py3-none-any.whl.zip tmp/mystring-0.2.99-py3-none-any.whl.zip --markdown 20240410/m/mystring/0.2.98-0.2.99/README.md --exclude *.pyd
+[2024-04-10 08:20:42] INFO root fetch - processPackages [g4f]: Downloading https://files.pythonhosted.org/packages/77/98/ba642fc388a9d4181eb7c41ff84df315936c2aeab95f82ced6961c4fab11/g4f-0.2.9.1.tar.gz
+[2024-04-10 08:20:42] INFO root fetch - processPackages [intrinio-sdk]: executing diffoscope
+[2024-04-10 08:20:42] INFO root fetch - processPackages [intrinio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intrinio-sdk-6.27.0.tar.gz tmp/intrinio-sdk-6.27.1.tar.gz --markdown 20240410/i/intrinio-sdk/6.27.0-6.27.1/README.md --exclude *.pyd
+[2024-04-10 08:20:42] INFO root fetch - processPackages [pulumi-kong]: Downloading https://files.pythonhosted.org/packages/8f/9a/4a5217ab27ae07cd303af1e971e01c99c68d8a212bde0d53f345c1ca8188/pulumi_kong-4.6.0a1712728140.tar.gz
+[2024-04-10 08:20:42] INFO root fetch - processPackages [aurora-tr]: Downloading https://files.pythonhosted.org/packages/cb/12/c2ced0dbce62c0c9a9439c8ce9e02865a92f1a0f144af67062b565bd23e3/aurora_tr-0.1.2a0-py3-none-any.whl
+[2024-04-10 08:20:43] INFO root fetch - processPackages [g4f]: executing diffoscope
+[2024-04-10 08:20:43] INFO root fetch - processPackages [g4f]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/g4f-0.2.9.0.tar.gz tmp/g4f-0.2.9.1.tar.gz --markdown 20240410/g/g4f/0.2.9.0-0.2.9.1/README.md --exclude *.pyd
+[2024-04-10 08:20:43] INFO root fetch - processPackages [pulumi-kong]: executing diffoscope
+[2024-04-10 08:20:43] INFO root fetch - processPackages [pulumi-kong]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kong-4.6.0a1712399900.tar.gz tmp/pulumi_kong-4.6.0a1712728140.tar.gz --markdown 20240410/p/pulumi-kong/4.6.0a1712399900-4.6.0a1712728140/README.md --exclude *.pyd
+[2024-04-10 08:20:43] INFO root fetch - processPackages [icemedia]: Downloading https://files.pythonhosted.org/packages/f2/00/d2a80b5f97973d8afc83fbb683b3ef92bb0ec241be7c06b603a2695b46c4/icemedia-0.1.2.tar.gz
+[2024-04-10 08:20:43] INFO root fetch - processPackages [aurora-tr]: executing diffoscope
+[2024-04-10 08:20:43] INFO root fetch - processPackages [aurora-tr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aurora_tr-0.1.1.tar.gz tmp/aurora_tr-0.1.2a0-py3-none-any.whl.zip --markdown 20240410/a/aurora-tr/0.1.1-0.1.2a0/README.md --exclude *.pyd
+[2024-04-10 08:20:43] INFO root fetch - processPackages [pulumi-f5bigip]: Downloading https://files.pythonhosted.org/packages/d9/48/9b104ca1340b985069c84fa75b1acc149cc375561d0e98bee7b09b74cb7f/pulumi_f5bigip-3.9.0a1661535806.tar.gz
+[2024-04-10 08:20:43] INFO root fetch - processPackages [icemedia]: executing diffoscope
+[2024-04-10 08:20:43] INFO root fetch - processPackages [icemedia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icemedia-0.1.1.tar.gz tmp/icemedia-0.1.2.tar.gz --markdown 20240410/i/icemedia/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-10 08:20:43] INFO root fetch - processPackages [pulumi-f5bigip]: executing diffoscope
+[2024-04-10 08:20:43] INFO root fetch - processPackages [pulumi-f5bigip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_f5bigip-3.9.0a1654086391.tar.gz tmp/pulumi_f5bigip-3.9.0a1661535806.tar.gz --markdown 20240410/p/pulumi-f5bigip/3.9.0a1654086391-3.9.0a1661535806/README.md --exclude *.pyd
+[2024-04-10 08:20:43] INFO root fetch - processPackages [mystring]: Remove: archive file [/home/abi/fetcher/tmp/mystring-0.2.98-py3-none-any.whl.zip]
+[2024-04-10 08:20:43] INFO root fetch - processPackages [mystring]: Remove: archive file [/home/abi/fetcher/tmp/mystring-0.2.99-py3-none-any.whl.zip]
+[2024-04-10 08:20:43] INFO root fetch - main [MainThread]: End processing [mystring]: success
+[2024-04-10 08:20:43] INFO root fetch - processPackages [aurora-tr]: Remove: archive file [/home/abi/fetcher/tmp/aurora_tr-0.1.1.tar.gz]
+[2024-04-10 08:20:43] INFO root fetch - processPackages [aurora-tr]: Remove: archive file [/home/abi/fetcher/tmp/aurora_tr-0.1.2a0-py3-none-any.whl.zip]
+[2024-04-10 08:20:43] INFO root fetch - main [MainThread]: End processing [aurora-tr]: success
+[2024-04-10 08:20:43] INFO root fetch - processPackages [pulumi-kong]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kong-4.6.0a1712399900.tar.gz]
+[2024-04-10 08:20:43] INFO root fetch - processPackages [pulumi-kong]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kong-4.6.0a1712728140.tar.gz]
+[2024-04-10 08:20:43] INFO root fetch - main [MainThread]: End processing [pulumi-kong]: success
+[2024-04-10 08:20:44] INFO root fetch - processPackages [icemedia]: Remove: archive file [/home/abi/fetcher/tmp/icemedia-0.1.1.tar.gz]
+[2024-04-10 08:20:44] INFO root fetch - processPackages [icemedia]: Remove: archive file [/home/abi/fetcher/tmp/icemedia-0.1.2.tar.gz]
+[2024-04-10 08:20:44] INFO root fetch - main [MainThread]: End processing [icemedia]: success
+[2024-04-10 08:20:44] INFO root fetch - processPackages [g4f]: Remove: archive file [/home/abi/fetcher/tmp/g4f-0.2.9.0.tar.gz]
+[2024-04-10 08:20:44] INFO root fetch - processPackages [g4f]: Remove: archive file [/home/abi/fetcher/tmp/g4f-0.2.9.1.tar.gz]
+[2024-04-10 08:20:44] INFO root fetch - main [MainThread]: End processing [g4f]: success
+[2024-04-10 08:20:45] INFO root fetch - processPackages [pulumi-f5bigip]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_f5bigip-3.9.0a1654086391.tar.gz]
+[2024-04-10 08:20:45] INFO root fetch - processPackages [pulumi-f5bigip]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_f5bigip-3.9.0a1661535806.tar.gz]
+[2024-04-10 08:20:45] INFO root fetch - main [MainThread]: End processing [pulumi-f5bigip]: success
+[2024-04-10 08:20:50] INFO root fetch - processPackages [intrinio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/intrinio-sdk-6.27.0.tar.gz]
+[2024-04-10 08:20:50] INFO root fetch - processPackages [intrinio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/intrinio-sdk-6.27.1.tar.gz]
+[2024-04-10 08:20:50] INFO root fetch - main [MainThread]: End processing [intrinio-sdk]: success
+[2024-04-10 08:20:50] INFO root fetch - main [MainThread]: Store serial: [22696433]

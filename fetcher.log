@@ -15839,3 +15839,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 09:31:09] INFO root fetch - processPackages [modelw-project-maker]: Remove: archive file [/home/abi/fetcher/tmp/modelw_project_maker-2024.4.0b1.tar.gz]
 [2024-04-10 09:31:09] INFO root fetch - main [MainThread]: End processing [modelw-project-maker]: success
 [2024-04-10 09:31:09] INFO root fetch - main [MainThread]: Store serial: [22697039]
+[2024-04-10 09:33:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22697039]
+[2024-04-10 09:33:18] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-10 09:33:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ft-drift
+[2024-04-10 09:33:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hestia-earth-models
+[2024-04-10 09:33:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-rke
+[2024-04-10 09:33:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: antsi
+[2024-04-10 09:33:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-venafi
+[2024-04-10 09:33:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hexkit
+[2024-04-10 09:33:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: llm-benchmark
+[2024-04-10 09:33:18] INFO root fetch - processPackages [ft-drift]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-10 09:33:18] INFO root fetch - processPackages [hexkit]: New version: [2.1.1] Old Version: [2.1.0]
+[2024-04-10 09:33:18] INFO root fetch - processPackages [antsi]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-10 09:33:18] INFO root fetch - processPackages [pulumi-rke]: New version: [3.4.0a1712653573] Old Version: [3.4.0a1712470927]
+[2024-04-10 09:33:19] INFO root fetch - processPackages [pulumi-venafi]: New version: [1.8.0a1712653977] Old Version: [1.8.0a1712403151]
+[2024-04-10 09:33:19] INFO root fetch - processPackages [ft-drift]: Downloading https://files.pythonhosted.org/packages/2b/73/baf95747b18e1cdedd818cd59fb96834f6362a8effff1327fc8d78634dde/ft-drift-0.0.2.tar.gz
+[2024-04-10 09:33:19] INFO root fetch - processPackages [antsi]: Downloading https://files.pythonhosted.org/packages/bb/58/9c84a41942f3936a107b3bf5b307f17048d942770973f9a2cb5de1cfd822/antsi-0.1.0.tar.gz
+[2024-04-10 09:33:19] INFO root fetch - processPackages [hestia-earth-models]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-10 09:33:19] INFO root fetch - processPackages [llm-benchmark]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-10 09:33:19] INFO root fetch - processPackages [pulumi-venafi]: Downloading https://files.pythonhosted.org/packages/59/67/6599bedf0fe1fce2924989c3990234f15373b1a9ea01a45322f0e8095f5d/pulumi_venafi-1.8.0a1712403151.tar.gz
+[2024-04-10 09:33:19] INFO root fetch - processPackages [pulumi-rke]: Downloading https://files.pythonhosted.org/packages/c7/fb/b31b8c033eace87c233c1f9a5a002d78d606cc1561c92c62b9272304f7a2/pulumi_rke-3.4.0a1712470927.tar.gz
+[2024-04-10 09:33:19] INFO root fetch - processPackages [hexkit]: Downloading https://files.pythonhosted.org/packages/30/db/d2e739cee752caf63e3edb706d91675f6cd63dfeacec39f22aaafc5d9482/hexkit-2.1.0.tar.gz
+[2024-04-10 09:33:19] INFO root fetch - processPackages [hestia-earth-models]: Downloading https://files.pythonhosted.org/packages/a2/61/d19a2d7e01e8a5e0035eea49d6f5bdd2e224d17d89fe9ef0012f7ff05723/hestia-earth-models-0.9.0.tar.gz
+[2024-04-10 09:33:19] INFO root fetch - processPackages [llm-benchmark]: Downloading https://files.pythonhosted.org/packages/52/95/1bf674bf31370821f79bca95e73545a37a8b265b9449461c69806c1fb7d0/llm_benchmark-0.3.8.tar.gz
+[2024-04-10 09:33:19] INFO root fetch - processPackages [antsi]: Downloading https://files.pythonhosted.org/packages/ba/81/2789c35f2f03e3ce190fab51c67a1396f8104d5bdee23827c3bb571bed5b/antsi-0.1.1.tar.gz
+[2024-04-10 09:33:19] INFO root fetch - processPackages [ft-drift]: Downloading https://files.pythonhosted.org/packages/79/55/76db0b6d25678dc3a282ccb227bfc445cef7b7b9a35f73497e566b3b48fa/ft-drift-0.0.3.tar.gz
+[2024-04-10 09:33:19] INFO root fetch - processPackages [pulumi-venafi]: Downloading https://files.pythonhosted.org/packages/b1/a6/69c619f4e5e9c342d04807bb7ea6546d490919a756c42fdf69ad17a588c8/pulumi_venafi-1.8.0a1712653977.tar.gz
+[2024-04-10 09:33:19] INFO root fetch - processPackages [pulumi-rke]: Downloading https://files.pythonhosted.org/packages/f1/97/890f3c6898b600a0038a480a0f0c2869e4fe87cf5c9fc38cc2e971532ef1/pulumi_rke-3.4.0a1712653573.tar.gz
+[2024-04-10 09:33:19] INFO root fetch - processPackages [antsi]: executing diffoscope
+[2024-04-10 09:33:19] INFO root fetch - processPackages [antsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antsi-0.1.0.tar.gz tmp/antsi-0.1.1.tar.gz --markdown 20240410/a/antsi/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-10 09:33:19] INFO root fetch - processPackages [ft-drift]: executing diffoscope
+[2024-04-10 09:33:19] INFO root fetch - processPackages [ft-drift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ft-drift-0.0.2.tar.gz tmp/ft-drift-0.0.3.tar.gz --markdown 20240410/f/ft-drift/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-10 09:33:19] INFO root fetch - processPackages [hexkit]: Downloading https://files.pythonhosted.org/packages/ef/80/1cc70c43adfd6d456be7f311213a620a72be37b6cf2e39a45944c1f9b1e1/hexkit-2.1.1.tar.gz
+[2024-04-10 09:33:19] INFO root fetch - processPackages [pulumi-venafi]: executing diffoscope
+[2024-04-10 09:33:19] INFO root fetch - processPackages [pulumi-venafi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_venafi-1.8.0a1712403151.tar.gz tmp/pulumi_venafi-1.8.0a1712653977.tar.gz --markdown 20240410/p/pulumi-venafi/1.8.0a1712403151-1.8.0a1712653977/README.md --exclude *.pyd
+[2024-04-10 09:33:19] INFO root fetch - processPackages [pulumi-rke]: executing diffoscope
+[2024-04-10 09:33:19] INFO root fetch - processPackages [pulumi-rke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rke-3.4.0a1712470927.tar.gz tmp/pulumi_rke-3.4.0a1712653573.tar.gz --markdown 20240410/p/pulumi-rke/3.4.0a1712470927-3.4.0a1712653573/README.md --exclude *.pyd
+[2024-04-10 09:33:19] INFO root fetch - processPackages [hestia-earth-models]: Downloading https://files.pythonhosted.org/packages/59/94/5b9b4317f8ae747ccffceb5debddd5d4f68a8aac6d6d53afb2ade6dbdfdb/hestia-earth-models-0.9.1.tar.gz
+[2024-04-10 09:33:19] INFO root fetch - processPackages [hexkit]: executing diffoscope
+[2024-04-10 09:33:19] INFO root fetch - processPackages [hexkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hexkit-2.1.0.tar.gz tmp/hexkit-2.1.1.tar.gz --markdown 20240410/h/hexkit/2.1.0-2.1.1/README.md --exclude *.pyd
+[2024-04-10 09:33:19] INFO root fetch - processPackages [hestia-earth-models]: executing diffoscope
+[2024-04-10 09:33:19] INFO root fetch - processPackages [hestia-earth-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hestia-earth-models-0.9.0.tar.gz tmp/hestia-earth-models-0.9.1.tar.gz --markdown 20240410/h/hestia-earth-models/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-10 09:33:20] INFO root fetch - processPackages [ft-drift]: Remove: archive file [/home/abi/fetcher/tmp/ft-drift-0.0.2.tar.gz]
+[2024-04-10 09:33:20] INFO root fetch - processPackages [ft-drift]: Remove: archive file [/home/abi/fetcher/tmp/ft-drift-0.0.3.tar.gz]
+[2024-04-10 09:33:20] INFO root fetch - main [MainThread]: End processing [ft-drift]: success
+[2024-04-10 09:33:20] INFO root fetch - processPackages [pulumi-venafi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_venafi-1.8.0a1712403151.tar.gz]
+[2024-04-10 09:33:20] INFO root fetch - processPackages [pulumi-venafi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_venafi-1.8.0a1712653977.tar.gz]
+[2024-04-10 09:33:20] INFO root fetch - main [MainThread]: End processing [pulumi-venafi]: success
+[2024-04-10 09:33:20] INFO root fetch - processPackages [pulumi-rke]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rke-3.4.0a1712470927.tar.gz]
+[2024-04-10 09:33:20] INFO root fetch - processPackages [pulumi-rke]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rke-3.4.0a1712653573.tar.gz]
+[2024-04-10 09:33:20] INFO root fetch - main [MainThread]: End processing [pulumi-rke]: success
+[2024-04-10 09:33:20] INFO root fetch - processPackages [antsi]: Remove: archive file [/home/abi/fetcher/tmp/antsi-0.1.0.tar.gz]
+[2024-04-10 09:33:20] INFO root fetch - processPackages [antsi]: Remove: archive file [/home/abi/fetcher/tmp/antsi-0.1.1.tar.gz]
+[2024-04-10 09:33:20] INFO root fetch - main [MainThread]: End processing [antsi]: success
+[2024-04-10 09:33:21] INFO root fetch - processPackages [hexkit]: Remove: archive file [/home/abi/fetcher/tmp/hexkit-2.1.0.tar.gz]
+[2024-04-10 09:33:21] INFO root fetch - processPackages [hexkit]: Remove: archive file [/home/abi/fetcher/tmp/hexkit-2.1.1.tar.gz]
+[2024-04-10 09:33:21] INFO root fetch - main [MainThread]: End processing [hexkit]: success
+[2024-04-10 09:33:21] INFO root fetch - processPackages [llm-benchmark]: Downloading https://files.pythonhosted.org/packages/d6/2b/16a568848f2ad6bc55b9f86128de716349ca568d85c995ddaeeaec1c8886/llm_benchmark-0.3.9.tar.gz
+[2024-04-10 09:33:21] INFO root fetch - processPackages [hestia-earth-models]: Remove: archive file [/home/abi/fetcher/tmp/hestia-earth-models-0.9.0.tar.gz]
+[2024-04-10 09:33:21] INFO root fetch - processPackages [hestia-earth-models]: Remove: archive file [/home/abi/fetcher/tmp/hestia-earth-models-0.9.1.tar.gz]
+[2024-04-10 09:33:21] INFO root fetch - main [MainThread]: End processing [hestia-earth-models]: success
+[2024-04-10 09:33:22] INFO root fetch - processPackages [llm-benchmark]: executing diffoscope
+[2024-04-10 09:33:22] INFO root fetch - processPackages [llm-benchmark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_benchmark-0.3.8.tar.gz tmp/llm_benchmark-0.3.9.tar.gz --markdown 20240410/l/llm-benchmark/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-10 09:33:23] INFO root fetch - processPackages [llm-benchmark]: Remove: archive file [/home/abi/fetcher/tmp/llm_benchmark-0.3.8.tar.gz]
+[2024-04-10 09:33:23] INFO root fetch - processPackages [llm-benchmark]: Remove: archive file [/home/abi/fetcher/tmp/llm_benchmark-0.3.9.tar.gz]
+[2024-04-10 09:33:23] INFO root fetch - main [MainThread]: End processing [llm-benchmark]: success
+[2024-04-10 09:33:23] INFO root fetch - main [MainThread]: Store serial: [22697068]

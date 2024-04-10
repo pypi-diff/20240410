@@ -11219,3 +11219,55 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 05:48:09] INFO root fetch - processPackages [bibiso4]: Remove: archive file [/home/abi/fetcher/tmp/bibiso4-0.1.1.tar.gz]
 [2024-04-10 05:48:09] INFO root fetch - main [MainThread]: End processing [bibiso4]: success
 [2024-04-10 05:48:09] INFO root fetch - main [MainThread]: Store serial: [22695362]
+[2024-04-10 05:50:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22695362]
+[2024-04-10 05:50:19] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-10 05:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: musicAlgLib
+[2024-04-10 05:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ros-cdk-mse
+[2024-04-10 05:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ros-cdk-cloudsso
+[2024-04-10 05:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tilearn-llm
+[2024-04-10 05:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytest-fly
+[2024-04-10 05:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: robotframework-xlibrary
+[2024-04-10 05:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: headline-gen
+[2024-04-10 05:50:19] INFO root fetch - processPackages [robotframework-xlibrary]: New version: [3.0.1] Old Version: [3.0.0]
+[2024-04-10 05:50:19] INFO root fetch - processPackages [musicAlgLib]: New version: [1.1.8] Old Version: [1.1.6]
+[2024-04-10 05:50:19] WARNING root fetch - processPackages [headline-gen]: Skipping, unable to determine old version
+[2024-04-10 05:50:19] INFO root fetch - main [MainThread]: End processing [headline-gen] error
+[2024-04-10 05:50:19] INFO root fetch - processPackages [pytest-fly]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-10 05:50:19] INFO root fetch - processPackages [tilearn-llm]: New version: [0.8.5] Old Version: [0.8.4]
+[2024-04-10 05:50:19] INFO root fetch - processPackages [robotframework-xlibrary]: Downloading https://files.pythonhosted.org/packages/9d/e5/a840ced9d3966ff78b265454cf13ce1ac19004b51087bc242c5103ccd60d/robotframework-xlibrary-3.0.0.tar.gz
+[2024-04-10 05:50:19] INFO root fetch - processPackages [ros-cdk-mse]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-10 05:50:19] INFO root fetch - processPackages [ros-cdk-cloudsso]: New version: [1.0.24] Old Version: [1.0.23]
+[2024-04-10 05:50:19] INFO root fetch - processPackages [musicAlgLib]: Downloading https://files.pythonhosted.org/packages/4b/4d/f7c854cca02d14aac9b61b9ec5c85189b1fdb28347e3d789e3247df7e9c3/musicAlgLib-1.1.6.tar.gz
+[2024-04-10 05:50:19] INFO root fetch - processPackages [pytest-fly]: Downloading https://files.pythonhosted.org/packages/91/43/263c8df546bd75473f5d627ad7d5888c7e8f16276f0c5352639fe27da31e/pytest_fly-0.0.1.tar.gz
+[2024-04-10 05:50:19] INFO root fetch - processPackages [tilearn-llm]: Downloading https://files.pythonhosted.org/packages/b1/9d/2a857e261684af8d36b634c745bb0ce7346da53183790c11e0d1889d698b/tilearn_llm-0.8.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-10 05:50:19] INFO root fetch - processPackages [ros-cdk-mse]: Downloading https://files.pythonhosted.org/packages/c1/4b/cf360e06ea5005610e3acf9f90d7a80be731b73a5ae284b4ff8c66890a1a/ros-cdk-mse-1.0.8.tar.gz
+[2024-04-10 05:50:19] INFO root fetch - processPackages [ros-cdk-cloudsso]: Downloading https://files.pythonhosted.org/packages/b0/a5/165277a605ada51b18a3af88b4ef9b68b6b7baa9950af0b1872ffdf19d03/ros-cdk-cloudsso-1.0.23.tar.gz
+[2024-04-10 05:50:19] WARNING root fetch - processPackages [tilearn-llm]: Skipping package: exceeds size limit 14560517>=10485760
+[2024-04-10 05:50:19] INFO root fetch - main [MainThread]: End processing [tilearn-llm] error
+[2024-04-10 05:50:19] WARNING root fetch - processPackages [pytest-fly]: Skipping package: exceeds size limit 35696754>=10485760
+[2024-04-10 05:50:19] INFO root fetch - main [MainThread]: End processing [pytest-fly] error
+[2024-04-10 05:50:19] INFO root fetch - processPackages [robotframework-xlibrary]: Downloading https://files.pythonhosted.org/packages/df/96/99353cd2a9c886c0a4019823432fffb454d7fb2768f5cd79bb4c3b1eb098/robotframework-xlibrary-3.0.1.tar.gz
+[2024-04-10 05:50:20] INFO root fetch - processPackages [musicAlgLib]: Downloading https://files.pythonhosted.org/packages/f6/f0/3192ce57bc266d6a27bfee2ea79421353e9b014c4c11e65e29c9fa692da1/musicAlgLib-1.1.8.tar.gz
+[2024-04-10 05:50:20] INFO root fetch - processPackages [robotframework-xlibrary]: executing diffoscope
+[2024-04-10 05:50:20] INFO root fetch - processPackages [robotframework-xlibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-xlibrary-3.0.0.tar.gz tmp/robotframework-xlibrary-3.0.1.tar.gz --markdown 20240410/r/robotframework-xlibrary/3.0.0-3.0.1/README.md --exclude *.pyd
+[2024-04-10 05:50:20] INFO root fetch - processPackages [ros-cdk-cloudsso]: Downloading https://files.pythonhosted.org/packages/2c/07/77c79da1c80006ef2b4b63921fe9ff9cb0b5d0900e615bc9aeb8b5b723e7/ros-cdk-cloudsso-1.0.24.tar.gz
+[2024-04-10 05:50:20] INFO root fetch - processPackages [ros-cdk-mse]: Downloading https://files.pythonhosted.org/packages/3a/c6/36a24d60fc5dbe8785e2a4dcce4836c50848e388727933b88edf3aba4014/ros-cdk-mse-1.0.9.tar.gz
+[2024-04-10 05:50:20] INFO root fetch - processPackages [musicAlgLib]: executing diffoscope
+[2024-04-10 05:50:20] INFO root fetch - processPackages [musicAlgLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/musicAlgLib-1.1.6.tar.gz tmp/musicAlgLib-1.1.8.tar.gz --markdown 20240410/m/musicAlgLib/1.1.6-1.1.8/README.md --exclude *.pyd
+[2024-04-10 05:50:20] INFO root fetch - processPackages [ros-cdk-cloudsso]: executing diffoscope
+[2024-04-10 05:50:20] INFO root fetch - processPackages [ros-cdk-cloudsso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-cloudsso-1.0.23.tar.gz tmp/ros-cdk-cloudsso-1.0.24.tar.gz --markdown 20240410/r/ros-cdk-cloudsso/1.0.23-1.0.24/README.md --exclude *.pyd
+[2024-04-10 05:50:20] INFO root fetch - processPackages [ros-cdk-mse]: executing diffoscope
+[2024-04-10 05:50:20] INFO root fetch - processPackages [ros-cdk-mse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-mse-1.0.8.tar.gz tmp/ros-cdk-mse-1.0.9.tar.gz --markdown 20240410/r/ros-cdk-mse/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-10 05:50:20] INFO root fetch - processPackages [robotframework-xlibrary]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-xlibrary-3.0.0.tar.gz]
+[2024-04-10 05:50:20] INFO root fetch - processPackages [robotframework-xlibrary]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-xlibrary-3.0.1.tar.gz]
+[2024-04-10 05:50:20] INFO root fetch - main [MainThread]: End processing [robotframework-xlibrary]: success
+[2024-04-10 05:50:20] INFO root fetch - processPackages [ros-cdk-cloudsso]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cloudsso-1.0.23.tar.gz]
+[2024-04-10 05:50:20] INFO root fetch - processPackages [ros-cdk-cloudsso]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cloudsso-1.0.24.tar.gz]
+[2024-04-10 05:50:20] INFO root fetch - main [MainThread]: End processing [ros-cdk-cloudsso]: success
+[2024-04-10 05:50:20] INFO root fetch - processPackages [ros-cdk-mse]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-mse-1.0.8.tar.gz]
+[2024-04-10 05:50:20] INFO root fetch - processPackages [ros-cdk-mse]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-mse-1.0.9.tar.gz]
+[2024-04-10 05:50:20] INFO root fetch - main [MainThread]: End processing [ros-cdk-mse]: success
+[2024-04-10 05:50:21] INFO root fetch - processPackages [musicAlgLib]: Remove: archive file [/home/abi/fetcher/tmp/musicAlgLib-1.1.6.tar.gz]
+[2024-04-10 05:50:21] INFO root fetch - processPackages [musicAlgLib]: Remove: archive file [/home/abi/fetcher/tmp/musicAlgLib-1.1.8.tar.gz]
+[2024-04-10 05:50:21] INFO root fetch - main [MainThread]: End processing [musicAlgLib]: success
+[2024-04-10 05:50:21] INFO root fetch - main [MainThread]: Store serial: [22695382]

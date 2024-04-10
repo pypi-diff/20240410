@@ -9044,3 +9044,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 04:15:28] INFO root fetch - processPackages [types-protobuf]: Remove: archive file [/home/abi/fetcher/tmp/types-protobuf-4.24.0.4.tar.gz]
 [2024-04-10 04:15:28] INFO root fetch - main [MainThread]: End processing [types-protobuf]: success
 [2024-04-10 04:15:28] INFO root fetch - main [MainThread]: Store serial: [22694489]
+[2024-04-10 04:17:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22694489]
+[2024-04-10 04:17:36] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-10 04:17:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pih-plb-db
+[2024-04-10 04:17:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: agentdesk
+[2024-04-10 04:17:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jemma
+[2024-04-10 04:17:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pih-plb-ntf
+[2024-04-10 04:17:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bttc
+[2024-04-10 04:17:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: iam-actions
+[2024-04-10 04:17:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pih-plb-ntf-answ
+[2024-04-10 04:17:36] INFO root fetch - processPackages [bttc]: New version: [0.0.73.4] Old Version: [0.0.73.3]
+[2024-04-10 04:17:36] INFO root fetch - processPackages [jemma]: New version: [0.1.1292] Old Version: [0.1.1291]
+[2024-04-10 04:17:36] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20240409] Old Version: [1.2.20240408]
+[2024-04-10 04:17:36] INFO root fetch - processPackages [bttc]: Downloading https://files.pythonhosted.org/packages/b6/26/b9f6e142e7a2d2b48c4ba9deb4b210dcd3aca731fad5e622aab5f58e7f41/bttc-0.0.73.3.tar.gz
+[2024-04-10 04:17:36] INFO root fetch - processPackages [jemma]: Downloading https://files.pythonhosted.org/packages/92/b6/6364e276de2f8efeccf38b4ef9b4cdea8eba568082d93bfef7f1d3b4951c/jemma-0.1.1291.tar.gz
+[2024-04-10 04:17:36] INFO root fetch - processPackages [pih-plb-db]: New version: [0.15] Old Version: [0.14]
+[2024-04-10 04:17:36] INFO root fetch - processPackages [pih-plb-ntf]: New version: [0.14] Old Version: [0.13]
+[2024-04-10 04:17:36] INFO root fetch - processPackages [agentdesk]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-10 04:17:36] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/dd/d0/989045d16ecb2f750a32f5245c3a28c14c682a2bf9f624c243c9c2d4eca0/iam_actions-1.2.20240408.tar.gz
+[2024-04-10 04:17:36] WARNING root fetch - processPackages [pih-plb-ntf-answ]: Skipping, unable to determine old version
+[2024-04-10 04:17:36] INFO root fetch - main [MainThread]: End processing [pih-plb-ntf-answ] error
+[2024-04-10 04:17:37] INFO root fetch - processPackages [pih-plb-ntf]: Downloading https://files.pythonhosted.org/packages/f5/45/cf37bae9e46a04ee56359d8d41fa73516acece770bf5c14b0ad548059dcb/pih-plb_ntf-0.13.tar.gz
+[2024-04-10 04:17:37] INFO root fetch - processPackages [agentdesk]: Downloading https://files.pythonhosted.org/packages/cf/ca/cd5dfbf2d07fb86e168858977c8668fdff291aaf19cf93c8ae884b0959b1/agentdesk-0.2.8.tar.gz
+[2024-04-10 04:17:37] INFO root fetch - processPackages [pih-plb-db]: Downloading https://files.pythonhosted.org/packages/10/d3/3df3a628ccd21de8203c6f898bd87279c36f32efad5ea76114f371b42cc9/pih-plb_db-0.14.tar.gz
+[2024-04-10 04:17:37] INFO root fetch - processPackages [bttc]: Downloading https://files.pythonhosted.org/packages/05/e4/d844eb1e6f1a9eec8441e3858e6f55cf160172b4e9f8c7adf53c71cc80d1/bttc-0.0.73.4.tar.gz
+[2024-04-10 04:17:37] INFO root fetch - processPackages [jemma]: Downloading https://files.pythonhosted.org/packages/7a/4b/64df0859d7ef3adba63a24cfb60f2dfc2c820b32b2642c8a324c325e9f6b/jemma-0.1.1292.tar.gz
+[2024-04-10 04:17:37] INFO root fetch - processPackages [bttc]: executing diffoscope
+[2024-04-10 04:17:37] INFO root fetch - processPackages [bttc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bttc-0.0.73.3.tar.gz tmp/bttc-0.0.73.4.tar.gz --markdown 20240410/b/bttc/0.0.73.3-0.0.73.4/README.md --exclude *.pyd
+[2024-04-10 04:17:37] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/93/c0/dbb8909b217d3d63ba58ed4a90f278f108967b8eb95ae3c7968cb100291b/iam_actions-1.2.20240409.tar.gz
+[2024-04-10 04:17:37] INFO root fetch - processPackages [jemma]: executing diffoscope
+[2024-04-10 04:17:37] INFO root fetch - processPackages [jemma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jemma-0.1.1291.tar.gz tmp/jemma-0.1.1292.tar.gz --markdown 20240410/j/jemma/0.1.1291-0.1.1292/README.md --exclude *.pyd
+[2024-04-10 04:17:37] INFO root fetch - processPackages [agentdesk]: Downloading https://files.pythonhosted.org/packages/24/26/ad035fd9f7aedb4d5a78e0198ca36d0599d9ed6d9f5cfeeb84e922907596/agentdesk-0.2.9.tar.gz
+[2024-04-10 04:17:37] INFO root fetch - processPackages [pih-plb-ntf]: Downloading https://files.pythonhosted.org/packages/06/b2/9a6b8f8869663c9dca6d0d6fe4b99df0537b05c9f8b002fa1926e4b3dffa/pih-plb_ntf-0.14.tar.gz
+[2024-04-10 04:17:37] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2024-04-10 04:17:37] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20240408.tar.gz tmp/iam_actions-1.2.20240409.tar.gz --markdown 20240410/i/iam-actions/1.2.20240408-1.2.20240409/README.md --exclude *.pyd
+[2024-04-10 04:17:37] INFO root fetch - processPackages [pih-plb-db]: Downloading https://files.pythonhosted.org/packages/01/a7/96f0d50462da20907121e3904e7be5b10ba332f1fbe4ab11f218ce426664/pih-plb_db-0.15.tar.gz
+[2024-04-10 04:17:37] INFO root fetch - processPackages [agentdesk]: executing diffoscope
+[2024-04-10 04:17:37] INFO root fetch - processPackages [agentdesk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentdesk-0.2.8.tar.gz tmp/agentdesk-0.2.9.tar.gz --markdown 20240410/a/agentdesk/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-10 04:17:37] INFO root fetch - processPackages [pih-plb-ntf]: executing diffoscope
+[2024-04-10 04:17:37] INFO root fetch - processPackages [pih-plb-ntf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-plb_ntf-0.13.tar.gz tmp/pih-plb_ntf-0.14.tar.gz --markdown 20240410/p/pih-plb-ntf/0.13-0.14/README.md --exclude *.pyd
+[2024-04-10 04:17:37] INFO root fetch - processPackages [pih-plb-db]: executing diffoscope
+[2024-04-10 04:17:37] INFO root fetch - processPackages [pih-plb-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-plb_db-0.14.tar.gz tmp/pih-plb_db-0.15.tar.gz --markdown 20240410/p/pih-plb-db/0.14-0.15/README.md --exclude *.pyd
+[2024-04-10 04:17:38] INFO root fetch - processPackages [jemma]: Remove: archive file [/home/abi/fetcher/tmp/jemma-0.1.1291.tar.gz]
+[2024-04-10 04:17:38] INFO root fetch - processPackages [jemma]: Remove: archive file [/home/abi/fetcher/tmp/jemma-0.1.1292.tar.gz]
+[2024-04-10 04:17:38] INFO root fetch - main [MainThread]: End processing [jemma]: success
+[2024-04-10 04:17:38] INFO root fetch - processPackages [bttc]: Remove: archive file [/home/abi/fetcher/tmp/bttc-0.0.73.3.tar.gz]
+[2024-04-10 04:17:38] INFO root fetch - processPackages [bttc]: Remove: archive file [/home/abi/fetcher/tmp/bttc-0.0.73.4.tar.gz]
+[2024-04-10 04:17:38] INFO root fetch - main [MainThread]: End processing [bttc]: success
+[2024-04-10 04:17:38] INFO root fetch - processPackages [pih-plb-db]: Remove: archive file [/home/abi/fetcher/tmp/pih-plb_db-0.14.tar.gz]
+[2024-04-10 04:17:38] INFO root fetch - processPackages [pih-plb-db]: Remove: archive file [/home/abi/fetcher/tmp/pih-plb_db-0.15.tar.gz]
+[2024-04-10 04:17:38] INFO root fetch - main [MainThread]: End processing [pih-plb-db]: success
+[2024-04-10 04:17:38] INFO root fetch - processPackages [pih-plb-ntf]: Remove: archive file [/home/abi/fetcher/tmp/pih-plb_ntf-0.13.tar.gz]
+[2024-04-10 04:17:38] INFO root fetch - processPackages [pih-plb-ntf]: Remove: archive file [/home/abi/fetcher/tmp/pih-plb_ntf-0.14.tar.gz]
+[2024-04-10 04:17:38] INFO root fetch - main [MainThread]: End processing [pih-plb-ntf]: success
+[2024-04-10 04:17:38] INFO root fetch - processPackages [agentdesk]: Remove: archive file [/home/abi/fetcher/tmp/agentdesk-0.2.8.tar.gz]
+[2024-04-10 04:17:38] INFO root fetch - processPackages [agentdesk]: Remove: archive file [/home/abi/fetcher/tmp/agentdesk-0.2.9.tar.gz]
+[2024-04-10 04:17:38] INFO root fetch - main [MainThread]: End processing [agentdesk]: success
+[2024-04-10 04:17:42] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240408.tar.gz]
+[2024-04-10 04:17:42] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240409.tar.gz]
+[2024-04-10 04:17:42] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2024-04-10 04:17:42] INFO root fetch - main [MainThread]: Store serial: [22694514]

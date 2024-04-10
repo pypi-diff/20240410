@@ -11733,3 +11733,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 06:10:04] INFO root fetch - processPackages [ros-cdk-ecs]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ecs-1.0.9.tar.gz]
 [2024-04-10 06:10:04] INFO root fetch - main [MainThread]: End processing [ros-cdk-ecs]: success
 [2024-04-10 06:10:04] INFO root fetch - main [MainThread]: Store serial: [22695572]
+[2024-04-10 06:12:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22695572]
+[2024-04-10 06:12:13] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-10 06:12:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ros-cdk-cloudfw
+[2024-04-10 06:12:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ros-cdk-vod
+[2024-04-10 06:12:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-l10n-br-contract
+[2024-04-10 06:12:13] INFO root fetch - processPackages [ros-cdk-vod]: New version: [1.0.24] Old Version: [1.0.23]
+[2024-04-10 06:12:13] INFO root fetch - processPackages [ros-cdk-cloudfw]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-10 06:12:13] INFO root fetch - processPackages [odoo14-addon-l10n-br-contract]: New version: [14.0.2.3.4.dev5] Old Version: [14.0.2.3.4.dev3]
+[2024-04-10 06:12:13] INFO root fetch - processPackages [ros-cdk-cloudfw]: Downloading https://files.pythonhosted.org/packages/9f/2e/90746b9aac214f468e9137704d8d47af9c91c4cf5eaf11145c42fe705baf/ros-cdk-cloudfw-1.0.8.tar.gz
+[2024-04-10 06:12:13] INFO root fetch - processPackages [ros-cdk-vod]: Downloading https://files.pythonhosted.org/packages/2d/5d/e033b9961931b2d160012c5e155993dd8b68e9ca84c6c140f6c026b13df5/ros-cdk-vod-1.0.23.tar.gz
+[2024-04-10 06:12:13] INFO root fetch - processPackages [odoo14-addon-l10n-br-contract]: Downloading https://files.pythonhosted.org/packages/90/1e/571e6ce1a5e9f9fdc5ac36de608af42e3cf76cda1152c1a779ede411cc4d/odoo14_addon_l10n_br_contract-14.0.2.3.4.dev3-py3-none-any.whl
+[2024-04-10 06:12:14] INFO root fetch - processPackages [ros-cdk-vod]: Downloading https://files.pythonhosted.org/packages/8a/1f/4cd0256220595d15b3fa18f9b1499d0c9f9bacf27da3f461dc1e3a987b7e/ros-cdk-vod-1.0.24.tar.gz
+[2024-04-10 06:12:14] INFO root fetch - processPackages [odoo14-addon-l10n-br-contract]: Downloading https://files.pythonhosted.org/packages/cf/28/1c8499f7a7a20b7d5164a69c7c11449e7c8c05027b33e4ece43abb1903fb/odoo14_addon_l10n_br_contract-14.0.2.3.4.dev5-py3-none-any.whl
+[2024-04-10 06:12:14] INFO root fetch - processPackages [ros-cdk-cloudfw]: Downloading https://files.pythonhosted.org/packages/28/cf/919a32e2a5fab8e5399647618cd1316ddbd5451996c8a30cf2cdd81a2bcd/ros-cdk-cloudfw-1.0.9.tar.gz
+[2024-04-10 06:12:14] INFO root fetch - processPackages [ros-cdk-vod]: executing diffoscope
+[2024-04-10 06:12:14] INFO root fetch - processPackages [ros-cdk-vod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-vod-1.0.23.tar.gz tmp/ros-cdk-vod-1.0.24.tar.gz --markdown 20240410/r/ros-cdk-vod/1.0.23-1.0.24/README.md --exclude *.pyd
+[2024-04-10 06:12:14] INFO root fetch - processPackages [ros-cdk-cloudfw]: executing diffoscope
+[2024-04-10 06:12:14] INFO root fetch - processPackages [ros-cdk-cloudfw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-cloudfw-1.0.8.tar.gz tmp/ros-cdk-cloudfw-1.0.9.tar.gz --markdown 20240410/r/ros-cdk-cloudfw/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-10 06:12:14] INFO root fetch - processPackages [odoo14-addon-l10n-br-contract]: executing diffoscope
+[2024-04-10 06:12:14] INFO root fetch - processPackages [odoo14-addon-l10n-br-contract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_contract-14.0.2.3.4.dev3-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_contract-14.0.2.3.4.dev5-py3-none-any.whl.zip --markdown 20240410/o/odoo14-addon-l10n-br-contract/14.0.2.3.4.dev3-14.0.2.3.4.dev5/README.md --exclude *.pyd
+[2024-04-10 06:12:14] INFO root fetch - processPackages [ros-cdk-vod]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-vod-1.0.23.tar.gz]
+[2024-04-10 06:12:14] INFO root fetch - processPackages [ros-cdk-vod]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-vod-1.0.24.tar.gz]
+[2024-04-10 06:12:14] INFO root fetch - main [MainThread]: End processing [ros-cdk-vod]: success
+[2024-04-10 06:12:14] INFO root fetch - processPackages [ros-cdk-cloudfw]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cloudfw-1.0.8.tar.gz]
+[2024-04-10 06:12:14] INFO root fetch - processPackages [ros-cdk-cloudfw]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cloudfw-1.0.9.tar.gz]
+[2024-04-10 06:12:14] INFO root fetch - main [MainThread]: End processing [ros-cdk-cloudfw]: success
+[2024-04-10 06:12:14] INFO root fetch - processPackages [odoo14-addon-l10n-br-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_contract-14.0.2.3.4.dev3-py3-none-any.whl.zip]
+[2024-04-10 06:12:14] INFO root fetch - processPackages [odoo14-addon-l10n-br-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_contract-14.0.2.3.4.dev5-py3-none-any.whl.zip]
+[2024-04-10 06:12:14] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-contract]: success
+[2024-04-10 06:12:14] INFO root fetch - main [MainThread]: Store serial: [22695578]

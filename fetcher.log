@@ -10766,3 +10766,81 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 05:30:35] INFO root fetch - processPackages [abses]: Remove: archive file [/home/abi/fetcher/tmp/abses-0.5.7.tar.gz]
 [2024-04-10 05:30:35] INFO root fetch - main [MainThread]: End processing [abses]: success
 [2024-04-10 05:30:35] INFO root fetch - main [MainThread]: Store serial: [22695211]
+[2024-04-10 05:32:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22695211]
+[2024-04-10 05:32:44] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-10 05:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: abses
+[2024-04-10 05:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: keras-nlp-nightly
+[2024-04-10 05:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: payload-api
+[2024-04-10 05:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kucoin-futures-lib
+[2024-04-10 05:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ros-cdk-maxcompute
+[2024-04-10 05:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: intrinio-sdk
+[2024-04-10 05:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: notification-py
+[2024-04-10 05:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: JianYingDraft.PY
+[2024-04-10 05:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: RTRAConnect
+[2024-04-10 05:32:44] INFO root fetch - processPackages [abses]: New version: [0.5.7] Old Version: [0.5.6]
+[2024-04-10 05:32:44] INFO root fetch - processPackages [payload-api]: New version: [0.4.8] Old Version: [0.4.7]
+[2024-04-10 05:32:44] INFO root fetch - processPackages [kucoin-futures-lib]: New version: [0.3.0] Old Version: [0.2.3]
+[2024-04-10 05:32:44] INFO root fetch - processPackages [notification-py]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-10 05:32:44] INFO root fetch - processPackages [abses]: Downloading https://files.pythonhosted.org/packages/e3/e3/e33f0778c22a0476ba341971cef8c1d76355a0bdff142a5c2f8a3c21e2d6/abses-0.5.6.tar.gz
+[2024-04-10 05:32:44] INFO root fetch - processPackages [ros-cdk-maxcompute]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-10 05:32:44] INFO root fetch - processPackages [payload-api]: Downloading https://files.pythonhosted.org/packages/40/f9/cc6bc950851cc1f58e32ae74247b266639bb9f6f86bc8126b9bf85b3d303/payload-api-0.4.7.tar.gz
+[2024-04-10 05:32:44] INFO root fetch - processPackages [intrinio-sdk]: New version: [6.27.1] Old Version: [6.27.0]
+[2024-04-10 05:32:44] INFO root fetch - processPackages [keras-nlp-nightly]: New version: [0.9.0.dev2024041003] Old Version: [0.9.0.dev2024040803]
+[2024-04-10 05:32:44] INFO root fetch - processPackages [kucoin-futures-lib]: Downloading https://files.pythonhosted.org/packages/c8/42/d07a8410edd9485f84ba412255b8d31835c40c84b6c7969273c02377df37/kucoin_futures_lib-0.2.3.tar.gz
+[2024-04-10 05:32:44] INFO root fetch - processPackages [JianYingDraft.PY]: New version: [1.0.1] Old Version: [0.1.9]
+[2024-04-10 05:32:44] INFO root fetch - processPackages [notification-py]: Downloading https://files.pythonhosted.org/packages/be/a3/c4534ceb28b8cde176a1761a9f6a35a342796bee2fd2157f39ecb400cf78/notification_py-0.0.8.tar.gz
+[2024-04-10 05:32:44] WARNING root fetch - processPackages [RTRAConnect]: Skipping, unable to determine old version
+[2024-04-10 05:32:44] INFO root fetch - main [MainThread]: End processing [RTRAConnect] error
+[2024-04-10 05:32:44] INFO root fetch - processPackages [ros-cdk-maxcompute]: Downloading https://files.pythonhosted.org/packages/b2/bc/4a7b7fc2a1b0e702023e28c4af25ff30d9a517221ca40daca96f5ddb2582/ros-cdk-maxcompute-1.0.8.tar.gz
+[2024-04-10 05:32:44] INFO root fetch - processPackages [intrinio-sdk]: Downloading https://files.pythonhosted.org/packages/fe/08/22daed8a390e4317083210d2dc0a1ec539b6ce12e75339b84302923a93e7/intrinio-sdk-6.27.0.tar.gz
+[2024-04-10 05:32:44] INFO root fetch - processPackages [keras-nlp-nightly]: Downloading https://files.pythonhosted.org/packages/e9/c8/7f581d2ae825faa0b7973bcc73c15e31c01c7e1f5c085a746ded34473011/keras-nlp-nightly-0.9.0.dev2024040803.tar.gz
+[2024-04-10 05:32:44] INFO root fetch - processPackages [JianYingDraft.PY]: Downloading https://files.pythonhosted.org/packages/82/17/d75d15b1e5a9f8ae5a8c092cf3f509b2248982711162f532189d65fbef50/jianyingdraft_py-0.1.9.tar.gz
+[2024-04-10 05:32:44] INFO root fetch - processPackages [payload-api]: Downloading https://files.pythonhosted.org/packages/84/fd/568d9b3e25dd8227697eb6308d46a3af5b7080cf74ffb3712a6483a82d6b/payload-api-0.4.8.tar.gz
+[2024-04-10 05:32:44] INFO root fetch - processPackages [abses]: Downloading https://files.pythonhosted.org/packages/94/20/416dad98ff45b618689a3a3ba9cd58b210d62be915c776151b5645804d4b/abses-0.5.7.tar.gz
+[2024-04-10 05:32:45] INFO root fetch - processPackages [abses]: executing diffoscope
+[2024-04-10 05:32:45] INFO root fetch - processPackages [abses]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abses-0.5.6.tar.gz tmp/abses-0.5.7.tar.gz --markdown 20240410/a/abses/0.5.6-0.5.7/README.md --exclude *.pyd
+[2024-04-10 05:32:45] INFO root fetch - processPackages [notification-py]: Downloading https://files.pythonhosted.org/packages/7b/b9/db93173f86455aca87420afcdfbc3116912eeb355772f86954f6f0c58c2a/notification_py-0.0.9.tar.gz
+[2024-04-10 05:32:45] INFO root fetch - processPackages [payload-api]: executing diffoscope
+[2024-04-10 05:32:45] INFO root fetch - processPackages [payload-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/payload-api-0.4.7.tar.gz tmp/payload-api-0.4.8.tar.gz --markdown 20240410/p/payload-api/0.4.7-0.4.8/README.md --exclude *.pyd
+[2024-04-10 05:32:45] INFO root fetch - processPackages [kucoin-futures-lib]: Downloading https://files.pythonhosted.org/packages/f4/29/92c9598d15a0bfefbda8d8e981b370bf6bd504234f7cb33a9c2687ca722f/kucoin_futures_lib-0.3.0.tar.gz
+[2024-04-10 05:32:45] INFO root fetch - processPackages [notification-py]: executing diffoscope
+[2024-04-10 05:32:45] INFO root fetch - processPackages [notification-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notification_py-0.0.8.tar.gz tmp/notification_py-0.0.9.tar.gz --markdown 20240410/n/notification-py/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-10 05:32:45] INFO root fetch - processPackages [kucoin-futures-lib]: executing diffoscope
+[2024-04-10 05:32:45] INFO root fetch - processPackages [kucoin-futures-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kucoin_futures_lib-0.2.3.tar.gz tmp/kucoin_futures_lib-0.3.0.tar.gz --markdown 20240410/k/kucoin-futures-lib/0.2.3-0.3.0/README.md --exclude *.pyd
+[2024-04-10 05:32:45] INFO root fetch - processPackages [keras-nlp-nightly]: Downloading https://files.pythonhosted.org/packages/74/95/bdeb12dec2c7c5b69ee11a239dcb09345f2e4180ca0e26e6f12bef8f5013/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz
+[2024-04-10 05:32:45] INFO root fetch - processPackages [intrinio-sdk]: Downloading https://files.pythonhosted.org/packages/1d/e6/7a4ce9dfb55e56b47eb76f5652200b1fd94a2d992bf1eca89d18d2af54ba/intrinio-sdk-6.27.1.tar.gz
+[2024-04-10 05:32:45] INFO root fetch - processPackages [JianYingDraft.PY]: Downloading https://files.pythonhosted.org/packages/82/b8/cdb310b0c9a9f52618cd1476cda2795b72b4d3db1838e9d84d9e0ce536cf/jianyingdraft_py-1.0.1.tar.gz
+[2024-04-10 05:32:45] INFO root fetch - processPackages [keras-nlp-nightly]: executing diffoscope
+[2024-04-10 05:32:45] INFO root fetch - processPackages [keras-nlp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras-nlp-nightly-0.9.0.dev2024040803.tar.gz tmp/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz --markdown 20240410/k/keras-nlp-nightly/0.9.0.dev2024040803-0.9.0.dev2024041003/README.md --exclude *.pyd
+[2024-04-10 05:32:45] INFO root fetch - processPackages [ros-cdk-maxcompute]: Downloading https://files.pythonhosted.org/packages/cc/2c/bf8279ef66988d3e374281ed6efe68f210443379e9c02aaa15b0f74951ad/ros-cdk-maxcompute-1.0.9.tar.gz
+[2024-04-10 05:32:45] INFO root fetch - processPackages [intrinio-sdk]: executing diffoscope
+[2024-04-10 05:32:45] INFO root fetch - processPackages [intrinio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intrinio-sdk-6.27.0.tar.gz tmp/intrinio-sdk-6.27.1.tar.gz --markdown 20240410/i/intrinio-sdk/6.27.0-6.27.1/README.md --exclude *.pyd
+[2024-04-10 05:32:45] INFO root fetch - processPackages [JianYingDraft.PY]: executing diffoscope
+[2024-04-10 05:32:45] INFO root fetch - processPackages [JianYingDraft.PY]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jianyingdraft_py-0.1.9.tar.gz tmp/jianyingdraft_py-1.0.1.tar.gz --markdown 20240410/J/JianYingDraft.PY/0.1.9-1.0.1/README.md --exclude *.pyd
+[2024-04-10 05:32:45] INFO root fetch - processPackages [ros-cdk-maxcompute]: executing diffoscope
+[2024-04-10 05:32:45] INFO root fetch - processPackages [ros-cdk-maxcompute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-maxcompute-1.0.8.tar.gz tmp/ros-cdk-maxcompute-1.0.9.tar.gz --markdown 20240410/r/ros-cdk-maxcompute/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-10 05:32:45] INFO root fetch - processPackages [abses]: Remove: archive file [/home/abi/fetcher/tmp/abses-0.5.6.tar.gz]
+[2024-04-10 05:32:45] INFO root fetch - processPackages [abses]: Remove: archive file [/home/abi/fetcher/tmp/abses-0.5.7.tar.gz]
+[2024-04-10 05:32:45] INFO root fetch - main [MainThread]: End processing [abses]: success
+[2024-04-10 05:32:46] INFO root fetch - processPackages [payload-api]: Remove: archive file [/home/abi/fetcher/tmp/payload-api-0.4.7.tar.gz]
+[2024-04-10 05:32:46] INFO root fetch - processPackages [payload-api]: Remove: archive file [/home/abi/fetcher/tmp/payload-api-0.4.8.tar.gz]
+[2024-04-10 05:32:46] INFO root fetch - main [MainThread]: End processing [payload-api]: success
+[2024-04-10 05:32:46] INFO root fetch - processPackages [notification-py]: Remove: archive file [/home/abi/fetcher/tmp/notification_py-0.0.8.tar.gz]
+[2024-04-10 05:32:46] INFO root fetch - processPackages [notification-py]: Remove: archive file [/home/abi/fetcher/tmp/notification_py-0.0.9.tar.gz]
+[2024-04-10 05:32:46] INFO root fetch - main [MainThread]: End processing [notification-py]: success
+[2024-04-10 05:32:46] INFO root fetch - processPackages [kucoin-futures-lib]: Remove: archive file [/home/abi/fetcher/tmp/kucoin_futures_lib-0.2.3.tar.gz]
+[2024-04-10 05:32:46] INFO root fetch - processPackages [kucoin-futures-lib]: Remove: archive file [/home/abi/fetcher/tmp/kucoin_futures_lib-0.3.0.tar.gz]
+[2024-04-10 05:32:46] INFO root fetch - main [MainThread]: End processing [kucoin-futures-lib]: success
+[2024-04-10 05:32:46] INFO root fetch - processPackages [JianYingDraft.PY]: Remove: archive file [/home/abi/fetcher/tmp/jianyingdraft_py-0.1.9.tar.gz]
+[2024-04-10 05:32:46] INFO root fetch - processPackages [JianYingDraft.PY]: Remove: archive file [/home/abi/fetcher/tmp/jianyingdraft_py-1.0.1.tar.gz]
+[2024-04-10 05:32:46] INFO root fetch - main [MainThread]: End processing [JianYingDraft.PY]: success
+[2024-04-10 05:32:46] INFO root fetch - processPackages [ros-cdk-maxcompute]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-maxcompute-1.0.8.tar.gz]
+[2024-04-10 05:32:46] INFO root fetch - processPackages [ros-cdk-maxcompute]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-maxcompute-1.0.9.tar.gz]
+[2024-04-10 05:32:46] INFO root fetch - main [MainThread]: End processing [ros-cdk-maxcompute]: success
+[2024-04-10 05:32:46] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024040803.tar.gz]
+[2024-04-10 05:32:46] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz]
+[2024-04-10 05:32:46] INFO root fetch - main [MainThread]: End processing [keras-nlp-nightly]: success
+[2024-04-10 05:32:52] INFO root fetch - processPackages [intrinio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/intrinio-sdk-6.27.0.tar.gz]
+[2024-04-10 05:32:52] INFO root fetch - processPackages [intrinio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/intrinio-sdk-6.27.1.tar.gz]
+[2024-04-10 05:32:52] INFO root fetch - main [MainThread]: End processing [intrinio-sdk]: success
+[2024-04-10 05:32:52] INFO root fetch - main [MainThread]: Store serial: [22695239]

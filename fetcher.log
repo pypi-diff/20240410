@@ -18683,3 +18683,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 11:21:00] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.7.9.tar.gz]
 [2024-04-10 11:21:00] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
 [2024-04-10 11:21:00] INFO root fetch - main [MainThread]: Store serial: [22698370]
+[2024-04-10 11:23:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22698370]
+[2024-04-10 11:23:10] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-10 11:23:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ms-salesforce-api
+[2024-04-10 11:23:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tbp-nightly
+[2024-04-10 11:23:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: webwithpy
+[2024-04-10 11:23:10] INFO root fetch - processPackages [webwithpy]: New version: [0.7.4.5] Old Version: [0.7.4.4]
+[2024-04-10 11:23:10] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2024-04-10 11:23:10] INFO root fetch - processPackages [webwithpy]: Downloading https://files.pythonhosted.org/packages/a7/9c/2d6a827801d8f0a83c7850e60f844cd733e5d59a88594da6806e77a3341b/webwithpy-0.7.4.4.tar.gz
+[2024-04-10 11:23:10] INFO root fetch - processPackages [ms-salesforce-api]: New version: [2.2.1] Old Version: [2.2.0]
+[2024-04-10 11:23:10] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/b9/6c/43a589e5ab1d1b961e5780e41057576c7abd5bf16d3f871d8ef4ebdaf461/tbp-nightly-2.9.0a20221129.tar.gz
+[2024-04-10 11:23:11] INFO root fetch - processPackages [ms-salesforce-api]: Downloading https://files.pythonhosted.org/packages/6f/5a/9842bcdfcc8fc97d3f525afb5abff7c125d29b70d2aa45cccd2cb31e8629/ms_salesforce_api-2.2.0.tar.gz
+[2024-04-10 11:23:11] INFO root fetch - processPackages [webwithpy]: Downloading https://files.pythonhosted.org/packages/ff/28/c54f9a44dd4ae17bbec183c88a40d926064d9dc31206b1bc18241b4bf333/webwithpy-0.7.4.5.tar.gz
+[2024-04-10 11:23:11] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/2e/31/c611af28c0d42c7cbb86781523f94e57796654fd8b7a7049e8a6db2eecf3/tbp-nightly-2.9.0a20221130.tar.gz
+[2024-04-10 11:23:11] INFO root fetch - processPackages [webwithpy]: executing diffoscope
+[2024-04-10 11:23:11] INFO root fetch - processPackages [webwithpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webwithpy-0.7.4.4.tar.gz tmp/webwithpy-0.7.4.5.tar.gz --markdown 20240410/w/webwithpy/0.7.4.4-0.7.4.5/README.md --exclude *.pyd
+[2024-04-10 11:23:11] INFO root fetch - processPackages [ms-salesforce-api]: Downloading https://files.pythonhosted.org/packages/1d/0b/94b5b5521997898b28580a273215bbd034d43ed85bdd0125316d691c5630/ms_salesforce_api-2.2.1.tar.gz
+[2024-04-10 11:23:11] INFO root fetch - processPackages [ms-salesforce-api]: executing diffoscope
+[2024-04-10 11:23:11] INFO root fetch - processPackages [ms-salesforce-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms_salesforce_api-2.2.0.tar.gz tmp/ms_salesforce_api-2.2.1.tar.gz --markdown 20240410/m/ms-salesforce-api/2.2.0-2.2.1/README.md --exclude *.pyd
+[2024-04-10 11:23:11] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2024-04-10 11:23:11] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20240410/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/README.md --exclude *.pyd
+[2024-04-10 11:23:12] INFO root fetch - processPackages [webwithpy]: Remove: archive file [/home/abi/fetcher/tmp/webwithpy-0.7.4.4.tar.gz]
+[2024-04-10 11:23:12] INFO root fetch - processPackages [webwithpy]: Remove: archive file [/home/abi/fetcher/tmp/webwithpy-0.7.4.5.tar.gz]
+[2024-04-10 11:23:12] INFO root fetch - main [MainThread]: End processing [webwithpy]: success
+[2024-04-10 11:23:12] INFO root fetch - processPackages [ms-salesforce-api]: Remove: archive file [/home/abi/fetcher/tmp/ms_salesforce_api-2.2.0.tar.gz]
+[2024-04-10 11:23:12] INFO root fetch - processPackages [ms-salesforce-api]: Remove: archive file [/home/abi/fetcher/tmp/ms_salesforce_api-2.2.1.tar.gz]
+[2024-04-10 11:23:12] INFO root fetch - main [MainThread]: End processing [ms-salesforce-api]: success
+[2024-04-10 11:23:13] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221129.tar.gz]
+[2024-04-10 11:23:13] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
+[2024-04-10 11:23:13] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2024-04-10 11:23:13] INFO root fetch - main [MainThread]: Store serial: [22698380]

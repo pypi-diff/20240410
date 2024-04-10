@@ -22148,3 +22148,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-10 13:27:39] INFO root fetch - processPackages [audiometry-trainer]: Remove: archive file [/home/abi/fetcher/tmp/audiometry_trainer-0.1.4.tar.gz]
 [2024-04-10 13:27:39] INFO root fetch - main [MainThread]: End processing [audiometry-trainer]: success
 [2024-04-10 13:27:39] INFO root fetch - main [MainThread]: Store serial: [22700041]
+[2024-04-10 13:29:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22700041]
+[2024-04-10 13:29:50] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-10 13:29:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: document-ingestor
+[2024-04-10 13:29:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dragons96-tools
+[2024-04-10 13:29:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: LangSegment
+[2024-04-10 13:29:50] INFO root fetch - processPackages [dragons96-tools]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-10 13:29:50] INFO root fetch - processPackages [dragons96-tools]: Downloading https://files.pythonhosted.org/packages/a3/35/4f02f0f12780bf7b791989ab642ec21f06b9fd66e4025906bb9c6a5af6a4/dragons96_tools-0.0.8.tar.gz
+[2024-04-10 13:29:50] INFO root fetch - processPackages [document-ingestor]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-10 13:29:50] INFO root fetch - processPackages [LangSegment]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-10 13:29:50] INFO root fetch - processPackages [document-ingestor]: Downloading https://files.pythonhosted.org/packages/33/aa/f81f65bc53b1c8c706b84fc074dce72ea1d3d4ed1eb4c5e4314a69f588cc/document_ingestor-0.0.4.tar.gz
+[2024-04-10 13:29:50] INFO root fetch - processPackages [dragons96-tools]: Downloading https://files.pythonhosted.org/packages/ac/7c/813105da4cb1a3a4e0403b37ea632347837dd95f4dabad1c6224360f1284/dragons96_tools-0.0.9.tar.gz
+[2024-04-10 13:29:50] INFO root fetch - processPackages [LangSegment]: Downloading https://files.pythonhosted.org/packages/aa/d2/999d7aa92c9160c121be8dcbbebf1cbcf33c9b5f3e841277e4291ae28310/LangSegment-0.3.1-py3-none-any.whl
+[2024-04-10 13:29:50] INFO root fetch - processPackages [dragons96-tools]: executing diffoscope
+[2024-04-10 13:29:50] INFO root fetch - processPackages [dragons96-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragons96_tools-0.0.8.tar.gz tmp/dragons96_tools-0.0.9.tar.gz --markdown 20240410/d/dragons96-tools/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-10 13:29:51] INFO root fetch - processPackages [LangSegment]: Downloading https://files.pythonhosted.org/packages/86/18/4cbb7377d9f734942209c46dca0c39a268c1ce694af818f8f28cf6b86a04/LangSegment-0.3.2-py3-none-any.whl
+[2024-04-10 13:29:51] INFO root fetch - processPackages [document-ingestor]: Downloading https://files.pythonhosted.org/packages/25/d7/58992dfa43b0c0b61881367d86ef1fc8a1ff417a27d8cd81928b9e1a2eef/document_ingestor-0.0.5.tar.gz
+[2024-04-10 13:29:51] INFO root fetch - processPackages [document-ingestor]: executing diffoscope
+[2024-04-10 13:29:51] INFO root fetch - processPackages [document-ingestor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/document_ingestor-0.0.4.tar.gz tmp/document_ingestor-0.0.5.tar.gz --markdown 20240410/d/document-ingestor/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-10 13:29:51] INFO root fetch - processPackages [LangSegment]: executing diffoscope
+[2024-04-10 13:29:51] INFO root fetch - processPackages [LangSegment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LangSegment-0.3.1-py3-none-any.whl.zip tmp/LangSegment-0.3.2-py3-none-any.whl.zip --markdown 20240410/L/LangSegment/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-04-10 13:29:51] INFO root fetch - processPackages [dragons96-tools]: Remove: archive file [/home/abi/fetcher/tmp/dragons96_tools-0.0.8.tar.gz]
+[2024-04-10 13:29:51] INFO root fetch - processPackages [dragons96-tools]: Remove: archive file [/home/abi/fetcher/tmp/dragons96_tools-0.0.9.tar.gz]
+[2024-04-10 13:29:51] INFO root fetch - main [MainThread]: End processing [dragons96-tools]: success
+[2024-04-10 13:29:51] INFO root fetch - processPackages [document-ingestor]: Remove: archive file [/home/abi/fetcher/tmp/document_ingestor-0.0.4.tar.gz]
+[2024-04-10 13:29:51] INFO root fetch - processPackages [document-ingestor]: Remove: archive file [/home/abi/fetcher/tmp/document_ingestor-0.0.5.tar.gz]
+[2024-04-10 13:29:51] INFO root fetch - main [MainThread]: End processing [document-ingestor]: success
+[2024-04-10 13:29:51] INFO root fetch - processPackages [LangSegment]: Remove: archive file [/home/abi/fetcher/tmp/LangSegment-0.3.1-py3-none-any.whl.zip]
+[2024-04-10 13:29:51] INFO root fetch - processPackages [LangSegment]: Remove: archive file [/home/abi/fetcher/tmp/LangSegment-0.3.2-py3-none-any.whl.zip]
+[2024-04-10 13:29:51] INFO root fetch - main [MainThread]: End processing [LangSegment]: success
+[2024-04-10 13:29:51] INFO root fetch - main [MainThread]: Store serial: [22700056]

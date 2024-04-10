@@ -14953,3 +14953,27 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 08:58:12] INFO root fetch - processPackages [odoo-addon-fs-storage]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fs_storage-17.0.1.0.0.5-py3-none-any.whl.zip]
 [2024-04-10 08:58:12] INFO root fetch - main [MainThread]: End processing [odoo-addon-fs-storage]: success
 [2024-04-10 08:58:12] INFO root fetch - main [MainThread]: Store serial: [22696738]
+[2024-04-10 09:00:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22696738]
+[2024-04-10 09:00:21] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-10 09:00:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: streamlit-nightly
+[2024-04-10 09:00:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: keras-univ
+[2024-04-10 09:00:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zscaler-pulumi-zia
+[2024-04-10 09:00:21] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.33.1.dev20240408] Old Version: [1.33.1.dev20240407]
+[2024-04-10 09:00:21] WARNING root fetch - processPackages [keras-univ]: Skipping, unable to determine old version
+[2024-04-10 09:00:21] INFO root fetch - main [MainThread]: End processing [keras-univ] error
+[2024-04-10 09:00:21] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/2e/59/3bb08bfc427a0f0f7eb45f289a99f4086bc467ae8547a8e6981eee00c6a6/streamlit-nightly-1.33.1.dev20240407.tar.gz
+[2024-04-10 09:00:21] INFO root fetch - processPackages [zscaler-pulumi-zia]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-10 09:00:21] INFO root fetch - processPackages [zscaler-pulumi-zia]: Downloading https://files.pythonhosted.org/packages/eb/8f/31ed5fd49479fd3195cab16ac8bb0c12b28a38dc05d397a97e2f13fe4f4b/zscaler_pulumi_zia-0.0.5.tar.gz
+[2024-04-10 09:00:21] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/a8/9e/6a20d78183dc0a338075306f2aa901a3271641dd6c9c9d937aa3412ec925/streamlit-nightly-1.33.1.dev20240408.tar.gz
+[2024-04-10 09:00:21] INFO root fetch - processPackages [zscaler-pulumi-zia]: Downloading https://files.pythonhosted.org/packages/ca/fb/c108645f4e5a4db8c0c3e0afe3c303d2735af83615e4ef9af018ff85e92e/zscaler_pulumi_zia-0.0.6.tar.gz
+[2024-04-10 09:00:22] INFO root fetch - processPackages [zscaler-pulumi-zia]: executing diffoscope
+[2024-04-10 09:00:22] INFO root fetch - processPackages [zscaler-pulumi-zia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zscaler_pulumi_zia-0.0.5.tar.gz tmp/zscaler_pulumi_zia-0.0.6.tar.gz --markdown 20240410/z/zscaler-pulumi-zia/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-10 09:00:22] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2024-04-10 09:00:22] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-nightly-1.33.1.dev20240407.tar.gz tmp/streamlit-nightly-1.33.1.dev20240408.tar.gz --markdown 20240410/s/streamlit-nightly/1.33.1.dev20240407-1.33.1.dev20240408/README.md --exclude *.pyd
+[2024-04-10 09:00:23] INFO root fetch - processPackages [zscaler-pulumi-zia]: Remove: archive file [/home/abi/fetcher/tmp/zscaler_pulumi_zia-0.0.5.tar.gz]
+[2024-04-10 09:00:23] INFO root fetch - processPackages [zscaler-pulumi-zia]: Remove: archive file [/home/abi/fetcher/tmp/zscaler_pulumi_zia-0.0.6.tar.gz]
+[2024-04-10 09:00:23] INFO root fetch - main [MainThread]: End processing [zscaler-pulumi-zia]: success
+[2024-04-10 09:00:25] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.33.1.dev20240407.tar.gz]
+[2024-04-10 09:00:25] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.33.1.dev20240408.tar.gz]
+[2024-04-10 09:00:25] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2024-04-10 09:00:25] INFO root fetch - main [MainThread]: Store serial: [22696747]

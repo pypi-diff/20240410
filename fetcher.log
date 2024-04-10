@@ -3679,3 +3679,36 @@
 [2024-04-10 02:53:25] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
 [2024-04-10 02:53:25] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
 [2024-04-10 02:53:25] INFO root fetch - main [MainThread]: Store serial: [22692646]
+[2024-04-10 02:55:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22692646]
+[2024-04-10 02:55:35] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-10 02:55:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mlrun-pipelines-kfp-v1-8-experiment
+[2024-04-10 02:55:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: systembridgecli
+[2024-04-10 02:55:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytorch-ignite
+[2024-04-10 02:55:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: notification-py
+[2024-04-10 02:55:35] INFO root fetch - processPackages [notification-py]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-10 02:55:35] WARNING root fetch - processPackages [mlrun-pipelines-kfp-v1-8-experiment]: Skipping, unable to determine old version
+[2024-04-10 02:55:35] INFO root fetch - main [MainThread]: End processing [mlrun-pipelines-kfp-v1-8-experiment] error
+[2024-04-10 02:55:35] INFO root fetch - processPackages [systembridgecli]: New version: [4.0.5] Old Version: [4.0.4]
+[2024-04-10 02:55:35] INFO root fetch - processPackages [notification-py]: Downloading https://files.pythonhosted.org/packages/84/cf/0b32d99f5452ef8b4e66889ad9354a410803c44ff2bbf602ccb8fefec051/notification_py-0.0.2.tar.gz
+[2024-04-10 02:55:35] INFO root fetch - processPackages [pytorch-ignite]: New version: [0.6.0.dev20240410] Old Version: [0.6.0.dev20240409]
+[2024-04-10 02:55:35] INFO root fetch - processPackages [systembridgecli]: Downloading https://files.pythonhosted.org/packages/8b/8f/376743d2bf9a8a7759c261c3edeffd9b50efb32c63b5a0a23dd262704a0e/systembridgecli-4.0.4.tar.gz
+[2024-04-10 02:55:35] INFO root fetch - processPackages [pytorch-ignite]: Downloading https://files.pythonhosted.org/packages/f9/4a/5b659f71d6c4d455913b45fdcf2f0501428eb85336efcfd4355da7b05ba8/pytorch-ignite-0.6.0.dev20240409.tar.gz
+[2024-04-10 02:55:35] INFO root fetch - processPackages [notification-py]: Downloading https://files.pythonhosted.org/packages/1c/7a/d0826e99ea346f23db5f3f279ec2bb82e415cd034a9634e908de53b65c14/notification_py-0.0.3.tar.gz
+[2024-04-10 02:55:35] INFO root fetch - processPackages [systembridgecli]: Downloading https://files.pythonhosted.org/packages/4b/7c/d146e69de4bf4d580f410b7f48246d133d586eac49324757833a42698c73/systembridgecli-4.0.5.tar.gz
+[2024-04-10 02:55:35] INFO root fetch - processPackages [notification-py]: executing diffoscope
+[2024-04-10 02:55:35] INFO root fetch - processPackages [notification-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notification_py-0.0.2.tar.gz tmp/notification_py-0.0.3.tar.gz --markdown 20240410/n/notification-py/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-10 02:55:35] INFO root fetch - processPackages [systembridgecli]: executing diffoscope
+[2024-04-10 02:55:35] INFO root fetch - processPackages [systembridgecli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgecli-4.0.4.tar.gz tmp/systembridgecli-4.0.5.tar.gz --markdown 20240410/s/systembridgecli/4.0.4-4.0.5/README.md --exclude *.pyd
+[2024-04-10 02:55:36] INFO root fetch - processPackages [pytorch-ignite]: Downloading https://files.pythonhosted.org/packages/19/7b/92436ac4bb57998cdc370f3c3ef34d34c0fdb4f5907084e52741849f0241/pytorch-ignite-0.6.0.dev20240410.tar.gz
+[2024-04-10 02:55:36] INFO root fetch - processPackages [pytorch-ignite]: executing diffoscope
+[2024-04-10 02:55:36] INFO root fetch - processPackages [pytorch-ignite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch-ignite-0.6.0.dev20240409.tar.gz tmp/pytorch-ignite-0.6.0.dev20240410.tar.gz --markdown 20240410/p/pytorch-ignite/0.6.0.dev20240409-0.6.0.dev20240410/README.md --exclude *.pyd
+[2024-04-10 02:55:36] INFO root fetch - processPackages [notification-py]: Remove: archive file [/home/abi/fetcher/tmp/notification_py-0.0.2.tar.gz]
+[2024-04-10 02:55:36] INFO root fetch - processPackages [notification-py]: Remove: archive file [/home/abi/fetcher/tmp/notification_py-0.0.3.tar.gz]
+[2024-04-10 02:55:36] INFO root fetch - main [MainThread]: End processing [notification-py]: success
+[2024-04-10 02:55:36] INFO root fetch - processPackages [systembridgecli]: Remove: archive file [/home/abi/fetcher/tmp/systembridgecli-4.0.4.tar.gz]
+[2024-04-10 02:55:36] INFO root fetch - processPackages [systembridgecli]: Remove: archive file [/home/abi/fetcher/tmp/systembridgecli-4.0.5.tar.gz]
+[2024-04-10 02:55:36] INFO root fetch - main [MainThread]: End processing [systembridgecli]: success
+[2024-04-10 02:55:37] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-ignite-0.6.0.dev20240409.tar.gz]
+[2024-04-10 02:55:37] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-ignite-0.6.0.dev20240410.tar.gz]
+[2024-04-10 02:55:37] INFO root fetch - main [MainThread]: End processing [pytorch-ignite]: success
+[2024-04-10 02:55:37] INFO root fetch - main [MainThread]: Store serial: [22692668]

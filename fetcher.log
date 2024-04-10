@@ -7572,3 +7572,27 @@
 [2024-04-10 03:20:43] INFO root fetch - processPackages [pygpt-net]: Remove: archive file [/home/abi/fetcher/tmp/pygpt_net-2.1.9.tar.gz]
 [2024-04-10 03:20:43] INFO root fetch - main [MainThread]: End processing [pygpt-net]: success
 [2024-04-10 03:20:43] INFO root fetch - main [MainThread]: Store serial: [22693704]
+[2024-04-10 03:22:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22693704]
+[2024-04-10 03:22:53] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-10 03:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tree-sitter-odin
+[2024-04-10 03:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: notification-py
+[2024-04-10 03:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spectrum-image
+[2024-04-10 03:22:53] INFO root fetch - processPackages [notification-py]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-10 03:22:53] INFO root fetch - processPackages [notification-py]: Downloading https://files.pythonhosted.org/packages/3d/ad/00a3b71e429110ee31b52db80617e1965c613a85bb684ab4538104be53dd/notification_py-0.0.4.tar.gz
+[2024-04-10 03:22:53] INFO root fetch - processPackages [spectrum-image]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-10 03:22:53] WARNING root fetch - processPackages [tree-sitter-odin]: Skipping, unable to determine old version
+[2024-04-10 03:22:53] INFO root fetch - main [MainThread]: End processing [tree-sitter-odin] error
+[2024-04-10 03:22:53] INFO root fetch - processPackages [notification-py]: Downloading https://files.pythonhosted.org/packages/98/aa/96334b921d81420539020dea7ffe4cf04f49dbea72db07143808acd27fe1/notification_py-0.0.5.tar.gz
+[2024-04-10 03:22:53] INFO root fetch - processPackages [spectrum-image]: Downloading https://files.pythonhosted.org/packages/c3/19/cba26073f7a81662ae34b43f311b3e0ac3ebf1a5d3a2089f22c841adeff0/spectrum_image-0.2.4.tar.gz
+[2024-04-10 03:22:53] INFO root fetch - processPackages [notification-py]: executing diffoscope
+[2024-04-10 03:22:53] INFO root fetch - processPackages [notification-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notification_py-0.0.4.tar.gz tmp/notification_py-0.0.5.tar.gz --markdown 20240410/n/notification-py/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-10 03:22:54] INFO root fetch - processPackages [spectrum-image]: Downloading https://files.pythonhosted.org/packages/5b/5b/a4bd43da3b2dbab1e13e9ae752c7c8f4947f4a99295e6ee9786c8fd3de13/spectrum_image-0.2.5.tar.gz
+[2024-04-10 03:22:54] INFO root fetch - processPackages [spectrum-image]: executing diffoscope
+[2024-04-10 03:22:54] INFO root fetch - processPackages [spectrum-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spectrum_image-0.2.4.tar.gz tmp/spectrum_image-0.2.5.tar.gz --markdown 20240410/s/spectrum-image/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-04-10 03:22:54] INFO root fetch - processPackages [notification-py]: Remove: archive file [/home/abi/fetcher/tmp/notification_py-0.0.4.tar.gz]
+[2024-04-10 03:22:54] INFO root fetch - processPackages [notification-py]: Remove: archive file [/home/abi/fetcher/tmp/notification_py-0.0.5.tar.gz]
+[2024-04-10 03:22:54] INFO root fetch - main [MainThread]: End processing [notification-py]: success
+[2024-04-10 03:22:54] INFO root fetch - processPackages [spectrum-image]: Remove: archive file [/home/abi/fetcher/tmp/spectrum_image-0.2.4.tar.gz]
+[2024-04-10 03:22:54] INFO root fetch - processPackages [spectrum-image]: Remove: archive file [/home/abi/fetcher/tmp/spectrum_image-0.2.5.tar.gz]
+[2024-04-10 03:22:54] INFO root fetch - main [MainThread]: End processing [spectrum-image]: success
+[2024-04-10 03:22:54] INFO root fetch - main [MainThread]: Store serial: [22693788]

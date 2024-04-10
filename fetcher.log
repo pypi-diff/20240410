@@ -9754,3 +9754,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 04:44:03] INFO root fetch - processPackages [lumibot]: Remove: archive file [/home/abi/fetcher/tmp/lumibot-3.3.3.tar.gz]
 [2024-04-10 04:44:03] INFO root fetch - main [MainThread]: End processing [lumibot]: success
 [2024-04-10 04:44:03] INFO root fetch - main [MainThread]: Store serial: [22694742]
+[2024-04-10 04:46:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22694742]
+[2024-04-10 04:46:12] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-10 04:46:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ros-cdk-redis
+[2024-04-10 04:46:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aioxdl
+[2024-04-10 04:46:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: idc-index
+[2024-04-10 04:46:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ros-cdk-mns
+[2024-04-10 04:46:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: setuptools-pybind11
+[2024-04-10 04:46:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: clip2imgur
+[2024-04-10 04:46:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: clip-util
+[2024-04-10 04:46:12] INFO root fetch - processPackages [clip-util]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-10 04:46:12] WARNING root fetch - processPackages [aioxdl]: Skipping, unable to determine old version
+[2024-04-10 04:46:12] INFO root fetch - main [MainThread]: End processing [aioxdl] error
+[2024-04-10 04:46:12] INFO root fetch - processPackages [clip2imgur]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-04-10 04:46:12] INFO root fetch - processPackages [setuptools-pybind11]: New version: [0.4.0] Old Version: [0.3.2]
+[2024-04-10 04:46:12] INFO root fetch - processPackages [ros-cdk-redis]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-10 04:46:12] INFO root fetch - processPackages [clip-util]: Downloading https://files.pythonhosted.org/packages/62/b3/1dadedcd87d131bf2409d1b99b98cfe912a716ec0c14a1de749fc90c6d1c/clip-util-0.1.8.tar.gz
+[2024-04-10 04:46:12] INFO root fetch - processPackages [ros-cdk-mns]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-10 04:46:12] INFO root fetch - processPackages [idc-index]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-10 04:46:13] INFO root fetch - processPackages [clip-util]: Downloading https://files.pythonhosted.org/packages/41/bb/9082a814e9fb8fa4545c7852a27a82fbfb2c177a9cb11dcca70a065c5bd8/clip-util-0.1.9.tar.gz
+[2024-04-10 04:46:13] INFO root fetch - processPackages [ros-cdk-mns]: Downloading https://files.pythonhosted.org/packages/38/f2/be11cad7338dc4cb326f6dfc85145c5d975783a07a94859ad8bbb7dc2350/ros-cdk-mns-1.0.8.tar.gz
+[2024-04-10 04:46:13] INFO root fetch - processPackages [setuptools-pybind11]: Downloading https://files.pythonhosted.org/packages/4d/c1/4509745cf016048e254b3384ac5c0e61b38feb5f31ea685b95273feab9a3/setuptools_pybind11-0.3.2-py3-none-any.whl
+[2024-04-10 04:46:13] INFO root fetch - processPackages [clip2imgur]: Downloading https://files.pythonhosted.org/packages/68/37/f77662f86d7b70b707bdc3e5980f2948fa724ce1fcbfec83b2a6b68b864c/clip2imgur-0.9.1.tar.gz
+[2024-04-10 04:46:13] INFO root fetch - processPackages [ros-cdk-redis]: Downloading https://files.pythonhosted.org/packages/f9/37/c2f9452820ea9aab67f2a26c2746578c4eaaf5843fe0960caa257ea0861d/ros-cdk-redis-1.0.8.tar.gz
+[2024-04-10 04:46:13] INFO root fetch - processPackages [idc-index]: Downloading https://files.pythonhosted.org/packages/f5/f0/7650827014503381d0bfcab42998f61dfad5f1276aa9f0f90368781b3b87/idc_index-0.4.1.tar.gz
+[2024-04-10 04:46:13] INFO root fetch - processPackages [clip-util]: executing diffoscope
+[2024-04-10 04:46:13] INFO root fetch - processPackages [clip-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clip-util-0.1.8.tar.gz tmp/clip-util-0.1.9.tar.gz --markdown 20240410/c/clip-util/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-10 04:46:13] INFO root fetch - processPackages [clip2imgur]: Downloading https://files.pythonhosted.org/packages/42/51/63fa1882d2d1ed4e4ce6cf0ddca1aa2ba0c8010cec6f8a94ac81423df7c1/clip2imgur-0.9.2.tar.gz
+[2024-04-10 04:46:13] INFO root fetch - processPackages [setuptools-pybind11]: Downloading https://files.pythonhosted.org/packages/6d/04/ffd4af7b6a5552936adff04e03905477947659a5172410fd071b6ed67b56/setuptools_pybind11-0.4.0-py3-none-any.whl
+[2024-04-10 04:46:13] INFO root fetch - processPackages [ros-cdk-mns]: Downloading https://files.pythonhosted.org/packages/f1/89/ed3994e879a5ece35a169f8c88de185d989c2b09116444296b5701f6c571/ros-cdk-mns-1.0.9.tar.gz
+[2024-04-10 04:46:13] INFO root fetch - processPackages [idc-index]: Downloading https://files.pythonhosted.org/packages/52/55/beef70622a9262f5881d8c4fd00e1d7e6aa50c6e2f2a82663ff0f2609768/idc_index-0.4.2.tar.gz
+[2024-04-10 04:46:13] INFO root fetch - processPackages [ros-cdk-redis]: Downloading https://files.pythonhosted.org/packages/07/d9/77b4deeeee6a1c77a1424293bb0d34996cb37198c52ac49b073910e25642/ros-cdk-redis-1.0.9.tar.gz
+[2024-04-10 04:46:13] INFO root fetch - processPackages [setuptools-pybind11]: executing diffoscope
+[2024-04-10 04:46:13] INFO root fetch - processPackages [setuptools-pybind11]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/setuptools_pybind11-0.3.2-py3-none-any.whl.zip tmp/setuptools_pybind11-0.4.0-py3-none-any.whl.zip --markdown 20240410/s/setuptools-pybind11/0.3.2-0.4.0/README.md --exclude *.pyd
+[2024-04-10 04:46:13] INFO root fetch - processPackages [clip2imgur]: executing diffoscope
+[2024-04-10 04:46:13] INFO root fetch - processPackages [clip2imgur]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clip2imgur-0.9.1.tar.gz tmp/clip2imgur-0.9.2.tar.gz --markdown 20240410/c/clip2imgur/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-04-10 04:46:13] INFO root fetch - processPackages [ros-cdk-mns]: executing diffoscope
+[2024-04-10 04:46:13] INFO root fetch - processPackages [idc-index]: executing diffoscope
+[2024-04-10 04:46:13] INFO root fetch - processPackages [ros-cdk-mns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-mns-1.0.8.tar.gz tmp/ros-cdk-mns-1.0.9.tar.gz --markdown 20240410/r/ros-cdk-mns/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-10 04:46:13] INFO root fetch - processPackages [idc-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idc_index-0.4.1.tar.gz tmp/idc_index-0.4.2.tar.gz --markdown 20240410/i/idc-index/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-04-10 04:46:13] INFO root fetch - processPackages [ros-cdk-redis]: executing diffoscope
+[2024-04-10 04:46:13] INFO root fetch - processPackages [ros-cdk-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-redis-1.0.8.tar.gz tmp/ros-cdk-redis-1.0.9.tar.gz --markdown 20240410/r/ros-cdk-redis/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-10 04:46:13] INFO root fetch - processPackages [clip-util]: Remove: archive file [/home/abi/fetcher/tmp/clip-util-0.1.8.tar.gz]
+[2024-04-10 04:46:13] INFO root fetch - processPackages [clip-util]: Remove: archive file [/home/abi/fetcher/tmp/clip-util-0.1.9.tar.gz]
+[2024-04-10 04:46:13] INFO root fetch - main [MainThread]: End processing [clip-util]: success
+[2024-04-10 04:46:14] INFO root fetch - processPackages [setuptools-pybind11]: Remove: archive file [/home/abi/fetcher/tmp/setuptools_pybind11-0.3.2-py3-none-any.whl.zip]
+[2024-04-10 04:46:14] INFO root fetch - processPackages [setuptools-pybind11]: Remove: archive file [/home/abi/fetcher/tmp/setuptools_pybind11-0.4.0-py3-none-any.whl.zip]
+[2024-04-10 04:46:14] INFO root fetch - main [MainThread]: End processing [setuptools-pybind11]: success
+[2024-04-10 04:46:14] INFO root fetch - processPackages [idc-index]: Remove: archive file [/home/abi/fetcher/tmp/idc_index-0.4.1.tar.gz]
+[2024-04-10 04:46:14] INFO root fetch - processPackages [idc-index]: Remove: archive file [/home/abi/fetcher/tmp/idc_index-0.4.2.tar.gz]
+[2024-04-10 04:46:14] INFO root fetch - main [MainThread]: End processing [idc-index]: success
+[2024-04-10 04:46:14] INFO root fetch - processPackages [ros-cdk-redis]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-redis-1.0.8.tar.gz]
+[2024-04-10 04:46:14] INFO root fetch - processPackages [ros-cdk-redis]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-redis-1.0.9.tar.gz]
+[2024-04-10 04:46:14] INFO root fetch - main [MainThread]: End processing [ros-cdk-redis]: success
+[2024-04-10 04:46:14] INFO root fetch - processPackages [ros-cdk-mns]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-mns-1.0.8.tar.gz]
+[2024-04-10 04:46:14] INFO root fetch - processPackages [ros-cdk-mns]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-mns-1.0.9.tar.gz]
+[2024-04-10 04:46:14] INFO root fetch - main [MainThread]: End processing [ros-cdk-mns]: success
+[2024-04-10 04:46:14] INFO root fetch - processPackages [clip2imgur]: Remove: archive file [/home/abi/fetcher/tmp/clip2imgur-0.9.1.tar.gz]
+[2024-04-10 04:46:14] INFO root fetch - processPackages [clip2imgur]: Remove: archive file [/home/abi/fetcher/tmp/clip2imgur-0.9.2.tar.gz]
+[2024-04-10 04:46:14] INFO root fetch - main [MainThread]: End processing [clip2imgur]: success
+[2024-04-10 04:46:14] INFO root fetch - main [MainThread]: Store serial: [22694762]

@@ -23006,3 +23006,72 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-10 14:03:01] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
 [2024-04-10 14:03:01] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
 [2024-04-10 14:03:01] INFO root fetch - main [MainThread]: Store serial: [22700609]
+[2024-04-10 14:05:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22700609]
+[2024-04-10 14:05:09] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-10 14:05:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: checkatlas
+[2024-04-10 14:05:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aritrends
+[2024-04-10 14:05:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: music-kraken
+[2024-04-10 14:05:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: timetree-exporter
+[2024-04-10 14:05:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: few-shot-priming
+[2024-04-10 14:05:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: changeguard
+[2024-04-10 14:05:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nrewebservices
+[2024-04-10 14:05:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: osm-login-python
+[2024-04-10 14:05:10] INFO root fetch - processPackages [timetree-exporter]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-10 14:05:10] INFO root fetch - processPackages [music-kraken]: New version: [1.9.0] Old Version: [1.2.0]
+[2024-04-10 14:05:10] INFO root fetch - processPackages [checkatlas]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-10 14:05:10] INFO root fetch - processPackages [few-shot-priming]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-04-10 14:05:10] INFO root fetch - processPackages [changeguard]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-10 14:05:10] INFO root fetch - processPackages [timetree-exporter]: Downloading https://files.pythonhosted.org/packages/96/26/fdddb3b51c1798be460f75fb3e7185710d99009c2ada162445ef3e40bf18/timetree-exporter-0.2.1.tar.gz
+[2024-04-10 14:05:10] INFO root fetch - processPackages [music-kraken]: Downloading https://files.pythonhosted.org/packages/b5/11/af6a2af22042e3643add72a31ff2e3ed9b24d5c3b2a5847d36b386dd478c/music_kraken-1.2.0.tar.gz
+[2024-04-10 14:05:10] INFO root fetch - processPackages [nrewebservices]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-10 14:05:10] WARNING root fetch - processPackages [aritrends]: Skipping, unable to determine old version
+[2024-04-10 14:05:10] INFO root fetch - main [MainThread]: End processing [aritrends] error
+[2024-04-10 14:05:10] INFO root fetch - processPackages [osm-login-python]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-10 14:05:10] INFO root fetch - processPackages [checkatlas]: Downloading https://files.pythonhosted.org/packages/2e/9e/c0b8396e14cb544486c93e79d175a8201f666ee3de9dc3fc5b5f0b1e2b96/checkatlas-0.4.8.tar.gz
+[2024-04-10 14:05:10] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/eb/67/d15b11d0bfb57369fa16ba7f8c97cd3ddec8f771e6da8f11a3d819004b69/few_shot_priming-0.3.98-py3-none-any.whl
+[2024-04-10 14:05:10] INFO root fetch - processPackages [changeguard]: Downloading https://files.pythonhosted.org/packages/b8/9c/5eac37ff28f2ae23778589a447f838815ae66c8bb4a5d123bfc078c4949b/changeguard-0.2.0.tar.gz
+[2024-04-10 14:05:10] INFO root fetch - processPackages [osm-login-python]: Downloading https://files.pythonhosted.org/packages/46/b4/d49da63d95ffa821fa74a5ebf2545245ffcd253b721c9fd89ef7370f129b/osm-login-python-1.0.2.tar.gz
+[2024-04-10 14:05:10] INFO root fetch - processPackages [nrewebservices]: Downloading https://files.pythonhosted.org/packages/f6/ec/192424b101787bd120244b93c7f5bc6736d0329a83b201cbd77b32ac47a5/nrewebservices-0.2.0.tar.gz
+[2024-04-10 14:05:10] INFO root fetch - processPackages [music-kraken]: Downloading https://files.pythonhosted.org/packages/f6/bf/5cddc4d49d5389dbb323168d462c1ecc653460365394780a774f82856f43/music_kraken-1.9.0.tar.gz
+[2024-04-10 14:05:10] INFO root fetch - processPackages [checkatlas]: Downloading https://files.pythonhosted.org/packages/95/86/db47dd80d9490f53e7d6fe159556c9ff5dcfdce31bce68e0f19e3a775b65/checkatlas-0.4.9.tar.gz
+[2024-04-10 14:05:10] INFO root fetch - processPackages [music-kraken]: executing diffoscope
+[2024-04-10 14:05:10] INFO root fetch - processPackages [music-kraken]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/music_kraken-1.2.0.tar.gz tmp/music_kraken-1.9.0.tar.gz --markdown 20240410/m/music-kraken/1.2.0-1.9.0/README.md --exclude *.pyd
+[2024-04-10 14:05:10] INFO root fetch - processPackages [checkatlas]: executing diffoscope
+[2024-04-10 14:05:10] INFO root fetch - processPackages [checkatlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkatlas-0.4.8.tar.gz tmp/checkatlas-0.4.9.tar.gz --markdown 20240410/c/checkatlas/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-04-10 14:05:10] INFO root fetch - processPackages [timetree-exporter]: Downloading https://files.pythonhosted.org/packages/fe/60/2567b02dd82f4cc3a5b14fc1f0e65a4dc29c745e0890509984e4e0b9b5d2/timetree-exporter-0.2.2.tar.gz
+[2024-04-10 14:05:10] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/ff/11/548f6e96803602e6431dc610d736d401b20fde986f85c35c8ad19a6d0958/few_shot_priming-0.3.99-py3-none-any.whl
+[2024-04-10 14:05:10] INFO root fetch - processPackages [timetree-exporter]: executing diffoscope
+[2024-04-10 14:05:10] INFO root fetch - processPackages [timetree-exporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timetree-exporter-0.2.1.tar.gz tmp/timetree-exporter-0.2.2.tar.gz --markdown 20240410/t/timetree-exporter/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-10 14:05:10] INFO root fetch - processPackages [nrewebservices]: Downloading https://files.pythonhosted.org/packages/ba/b7/37e347899ede5f36d3693bfbae528521a8f81a7e925f3ce1bb3a06cf81d7/nrewebservices-0.2.1.tar.gz
+[2024-04-10 14:05:10] INFO root fetch - processPackages [changeguard]: Downloading https://files.pythonhosted.org/packages/e1/0a/e3c2e1d165bd2ef998284e54b7c2bdb94ab29ce84ebb30a3aae34686b18b/changeguard-0.3.0.tar.gz
+[2024-04-10 14:05:11] INFO root fetch - processPackages [osm-login-python]: Downloading https://files.pythonhosted.org/packages/ee/8c/681dfaaa74d7c3a30db8f2b7e741083daae5c1cba68be7d5aeb1d4f4880b/osm-login-python-1.0.3.tar.gz
+[2024-04-10 14:05:11] INFO root fetch - processPackages [changeguard]: executing diffoscope
+[2024-04-10 14:05:11] INFO root fetch - processPackages [changeguard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/changeguard-0.2.0.tar.gz tmp/changeguard-0.3.0.tar.gz --markdown 20240410/c/changeguard/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-04-10 14:05:11] INFO root fetch - processPackages [nrewebservices]: executing diffoscope
+[2024-04-10 14:05:11] INFO root fetch - processPackages [nrewebservices]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nrewebservices-0.2.0.tar.gz tmp/nrewebservices-0.2.1.tar.gz --markdown 20240410/n/nrewebservices/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-10 14:05:11] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2024-04-10 14:05:11] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip --markdown 20240410/f/few-shot-priming/0.3.98-0.3.99/README.md --exclude *.pyd
+[2024-04-10 14:05:11] INFO root fetch - processPackages [osm-login-python]: executing diffoscope
+[2024-04-10 14:05:11] INFO root fetch - processPackages [osm-login-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osm-login-python-1.0.2.tar.gz tmp/osm-login-python-1.0.3.tar.gz --markdown 20240410/o/osm-login-python/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-10 14:05:11] INFO root fetch - processPackages [music-kraken]: Remove: archive file [/home/abi/fetcher/tmp/music_kraken-1.2.0.tar.gz]
+[2024-04-10 14:05:11] INFO root fetch - processPackages [music-kraken]: Remove: archive file [/home/abi/fetcher/tmp/music_kraken-1.9.0.tar.gz]
+[2024-04-10 14:05:11] INFO root fetch - main [MainThread]: End processing [music-kraken]: success
+[2024-04-10 14:05:12] INFO root fetch - processPackages [checkatlas]: Remove: archive file [/home/abi/fetcher/tmp/checkatlas-0.4.8.tar.gz]
+[2024-04-10 14:05:12] INFO root fetch - processPackages [checkatlas]: Remove: archive file [/home/abi/fetcher/tmp/checkatlas-0.4.9.tar.gz]
+[2024-04-10 14:05:12] INFO root fetch - main [MainThread]: End processing [checkatlas]: success
+[2024-04-10 14:05:12] INFO root fetch - processPackages [timetree-exporter]: Remove: archive file [/home/abi/fetcher/tmp/timetree-exporter-0.2.1.tar.gz]
+[2024-04-10 14:05:12] INFO root fetch - processPackages [timetree-exporter]: Remove: archive file [/home/abi/fetcher/tmp/timetree-exporter-0.2.2.tar.gz]
+[2024-04-10 14:05:12] INFO root fetch - main [MainThread]: End processing [timetree-exporter]: success
+[2024-04-10 14:05:12] INFO root fetch - processPackages [changeguard]: Remove: archive file [/home/abi/fetcher/tmp/changeguard-0.2.0.tar.gz]
+[2024-04-10 14:05:12] INFO root fetch - processPackages [changeguard]: Remove: archive file [/home/abi/fetcher/tmp/changeguard-0.3.0.tar.gz]
+[2024-04-10 14:05:12] INFO root fetch - main [MainThread]: End processing [changeguard]: success
+[2024-04-10 14:05:12] INFO root fetch - processPackages [osm-login-python]: Remove: archive file [/home/abi/fetcher/tmp/osm-login-python-1.0.2.tar.gz]
+[2024-04-10 14:05:12] INFO root fetch - processPackages [osm-login-python]: Remove: archive file [/home/abi/fetcher/tmp/osm-login-python-1.0.3.tar.gz]
+[2024-04-10 14:05:12] INFO root fetch - main [MainThread]: End processing [osm-login-python]: success
+[2024-04-10 14:05:12] INFO root fetch - processPackages [nrewebservices]: Remove: archive file [/home/abi/fetcher/tmp/nrewebservices-0.2.0.tar.gz]
+[2024-04-10 14:05:12] INFO root fetch - processPackages [nrewebservices]: Remove: archive file [/home/abi/fetcher/tmp/nrewebservices-0.2.1.tar.gz]
+[2024-04-10 14:05:12] INFO root fetch - main [MainThread]: End processing [nrewebservices]: success
+[2024-04-10 14:05:12] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip]
+[2024-04-10 14:05:12] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
+[2024-04-10 14:05:12] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2024-04-10 14:05:12] INFO root fetch - main [MainThread]: Store serial: [22700636]

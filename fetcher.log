@@ -9955,3 +9955,45 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 04:50:44] INFO root fetch - processPackages [antsi]: Remove: archive file [/home/abi/fetcher/tmp/antsi-0.1.1.tar.gz]
 [2024-04-10 04:50:44] INFO root fetch - main [MainThread]: End processing [antsi]: success
 [2024-04-10 04:50:44] INFO root fetch - main [MainThread]: Store serial: [22694810]
+[2024-04-10 04:52:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22694810]
+[2024-04-10 04:52:53] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-10 04:52:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ros-cdk-drds
+[2024-04-10 04:52:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cleverslice
+[2024-04-10 04:52:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: suno-songs
+[2024-04-10 04:52:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ros-cdk-brainindustrial
+[2024-04-10 04:52:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bestnlp
+[2024-04-10 04:52:53] INFO root fetch - processPackages [bestnlp]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-04-10 04:52:53] INFO root fetch - processPackages [bestnlp]: Downloading https://files.pythonhosted.org/packages/d3/10/173b89bbdc8f8b03264c000367ce079b47cf14a7623b7044701f06015ed6/bestnlp-1.0.6-py3-none-any.whl
+[2024-04-10 04:52:53] INFO root fetch - processPackages [ros-cdk-brainindustrial]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-10 04:52:53] INFO root fetch - processPackages [ros-cdk-drds]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-10 04:52:53] WARNING root fetch - processPackages [cleverslice]: Skipping, unable to determine old version
+[2024-04-10 04:52:53] INFO root fetch - processPackages [suno-songs]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-10 04:52:53] INFO root fetch - main [MainThread]: End processing [cleverslice] error
+[2024-04-10 04:52:53] INFO root fetch - processPackages [ros-cdk-drds]: Downloading https://files.pythonhosted.org/packages/23/6e/ed67b64df4ca7a6891fede37e0f5100d59803fcc7d698418c57383af3d91/ros-cdk-drds-1.0.8.tar.gz
+[2024-04-10 04:52:53] INFO root fetch - processPackages [suno-songs]: Downloading https://files.pythonhosted.org/packages/be/e3/2aa67a810a6ab8bfc110ac133a9e88a805c3993f7a29d8f2a454226acbce/suno_songs-0.4.0.tar.gz
+[2024-04-10 04:52:54] INFO root fetch - processPackages [ros-cdk-brainindustrial]: Downloading https://files.pythonhosted.org/packages/e5/ac/6bdcb1299b742100ab745573c20a22517f4ec6e3faecf7af95ae3b0da54b/ros-cdk-brainindustrial-1.0.8.tar.gz
+[2024-04-10 04:52:54] INFO root fetch - processPackages [bestnlp]: Downloading https://files.pythonhosted.org/packages/6b/02/df989465dd4740a74959c1a4f40140d35bc78638b86ebabbc9c92464252d/bestnlp-1.0.7-py3-none-any.whl
+[2024-04-10 04:52:54] INFO root fetch - processPackages [bestnlp]: executing diffoscope
+[2024-04-10 04:52:54] INFO root fetch - processPackages [bestnlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bestnlp-1.0.6-py3-none-any.whl.zip tmp/bestnlp-1.0.7-py3-none-any.whl.zip --markdown 20240410/b/bestnlp/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-04-10 04:52:54] INFO root fetch - processPackages [ros-cdk-drds]: Downloading https://files.pythonhosted.org/packages/28/e2/343c88e4f6b060ae47d8ac931da86831bfc4a3c25775bb84212a962ab2fe/ros-cdk-drds-1.0.9.tar.gz
+[2024-04-10 04:52:54] INFO root fetch - processPackages [suno-songs]: Downloading https://files.pythonhosted.org/packages/b0/bb/01884e6cb148f06fd431a1f2e9f5783609b4a25680223fc5a453133cb65f/suno_songs-0.4.1.tar.gz
+[2024-04-10 04:52:54] INFO root fetch - processPackages [ros-cdk-brainindustrial]: Downloading https://files.pythonhosted.org/packages/95/21/460091449d5b6bada34e96a3c1f8544e133d38716ff9491e715842c08448/ros-cdk-brainindustrial-1.0.9.tar.gz
+[2024-04-10 04:52:54] INFO root fetch - processPackages [suno-songs]: executing diffoscope
+[2024-04-10 04:52:54] INFO root fetch - processPackages [suno-songs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suno_songs-0.4.0.tar.gz tmp/suno_songs-0.4.1.tar.gz --markdown 20240410/s/suno-songs/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-04-10 04:52:54] INFO root fetch - processPackages [ros-cdk-drds]: executing diffoscope
+[2024-04-10 04:52:54] INFO root fetch - processPackages [ros-cdk-drds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-drds-1.0.8.tar.gz tmp/ros-cdk-drds-1.0.9.tar.gz --markdown 20240410/r/ros-cdk-drds/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-10 04:52:54] INFO root fetch - processPackages [ros-cdk-brainindustrial]: executing diffoscope
+[2024-04-10 04:52:54] INFO root fetch - processPackages [ros-cdk-brainindustrial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-brainindustrial-1.0.8.tar.gz tmp/ros-cdk-brainindustrial-1.0.9.tar.gz --markdown 20240410/r/ros-cdk-brainindustrial/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-10 04:52:54] INFO root fetch - processPackages [bestnlp]: Remove: archive file [/home/abi/fetcher/tmp/bestnlp-1.0.6-py3-none-any.whl.zip]
+[2024-04-10 04:52:54] INFO root fetch - processPackages [bestnlp]: Remove: archive file [/home/abi/fetcher/tmp/bestnlp-1.0.7-py3-none-any.whl.zip]
+[2024-04-10 04:52:54] INFO root fetch - main [MainThread]: End processing [bestnlp]: success
+[2024-04-10 04:52:55] INFO root fetch - processPackages [suno-songs]: Remove: archive file [/home/abi/fetcher/tmp/suno_songs-0.4.0.tar.gz]
+[2024-04-10 04:52:55] INFO root fetch - processPackages [suno-songs]: Remove: archive file [/home/abi/fetcher/tmp/suno_songs-0.4.1.tar.gz]
+[2024-04-10 04:52:55] INFO root fetch - main [MainThread]: End processing [suno-songs]: success
+[2024-04-10 04:52:55] INFO root fetch - processPackages [ros-cdk-brainindustrial]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-brainindustrial-1.0.8.tar.gz]
+[2024-04-10 04:52:55] INFO root fetch - processPackages [ros-cdk-brainindustrial]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-brainindustrial-1.0.9.tar.gz]
+[2024-04-10 04:52:55] INFO root fetch - main [MainThread]: End processing [ros-cdk-brainindustrial]: success
+[2024-04-10 04:52:55] INFO root fetch - processPackages [ros-cdk-drds]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-drds-1.0.8.tar.gz]
+[2024-04-10 04:52:55] INFO root fetch - processPackages [ros-cdk-drds]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-drds-1.0.9.tar.gz]
+[2024-04-10 04:52:55] INFO root fetch - main [MainThread]: End processing [ros-cdk-drds]: success
+[2024-04-10 04:52:55] INFO root fetch - main [MainThread]: Store serial: [22694825]

@@ -8556,3 +8556,51 @@
 [2024-04-10 03:57:32] INFO root fetch - processPackages [axion]: Remove: archive file [/home/abi/fetcher/tmp/axion-4.2.0-cp312-none-win_amd64.whl.zip]
 [2024-04-10 03:57:32] INFO root fetch - main [MainThread]: End processing [axion]: success
 [2024-04-10 03:57:32] INFO root fetch - main [MainThread]: Store serial: [22694350]
+[2024-04-10 03:59:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22694350]
+[2024-04-10 03:59:42] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-10 03:59:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pih
+[2024-04-10 03:59:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Geode-Explicit
+[2024-04-10 03:59:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cratedb-toolkit
+[2024-04-10 03:59:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sparkproxy
+[2024-04-10 03:59:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: go-vendor-tools
+[2024-04-10 03:59:42] INFO root fetch - processPackages [sparkproxy]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-10 03:59:42] INFO root fetch - processPackages [sparkproxy]: Downloading https://files.pythonhosted.org/packages/29/da/8b846311149e15788eabe7d620f14b3cca975c1216bae3b0eef905193bea/sparkproxy-0.2.0.tar.gz
+[2024-04-10 03:59:42] INFO root fetch - processPackages [cratedb-toolkit]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-10 03:59:42] INFO root fetch - processPackages [go-vendor-tools]: New version: [0.4.0b1] Old Version: [0.3.0]
+[2024-04-10 03:59:42] INFO root fetch - processPackages [pih]: New version: [0.34] Old Version: [0.33]
+[2024-04-10 03:59:42] INFO root fetch - processPackages [Geode-Explicit]: New version: [4.7.1rc1] Old Version: [4.7.1]
+[2024-04-10 03:59:42] INFO root fetch - processPackages [go-vendor-tools]: Downloading https://files.pythonhosted.org/packages/f7/6b/2b8d32d8f84dfa75b0a11d3ab16d14cead78d35fd5f63345c2e49203a2aa/go_vendor_tools-0.3.0.tar.gz
+[2024-04-10 03:59:42] INFO root fetch - processPackages [cratedb-toolkit]: Downloading https://files.pythonhosted.org/packages/e5/bb/bc7db43a8298fa5bf8a75758aa7752ebcd9c04886ffde29754054ee4f5bd/cratedb-toolkit-0.0.7.tar.gz
+[2024-04-10 03:59:42] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/02/69/ee0d9e4a2b88e0979ef900b2d12c1d7e7e3591b17255ca1ed4aaf3101681/pih-0.33.tar.gz
+[2024-04-10 03:59:42] INFO root fetch - processPackages [Geode-Explicit]: Downloading https://files.pythonhosted.org/packages/7a/39/e39fd07f1b2216dacf8c5d932470237ab63fac328dc20fcc391aad4890b1/Geode_Explicit-4.7.1-cp39-cp39-manylinux2014_x86_64.whl
+[2024-04-10 03:59:42] INFO root fetch - processPackages [sparkproxy]: Downloading https://files.pythonhosted.org/packages/9f/46/139570418c204a613217d05e6658af972ad57b2e36b090fec6462233523a/sparkproxy-0.2.1.tar.gz
+[2024-04-10 03:59:42] INFO root fetch - processPackages [sparkproxy]: executing diffoscope
+[2024-04-10 03:59:42] INFO root fetch - processPackages [sparkproxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparkproxy-0.2.0.tar.gz tmp/sparkproxy-0.2.1.tar.gz --markdown 20240410/s/sparkproxy/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-10 03:59:43] INFO root fetch - processPackages [go-vendor-tools]: Downloading https://files.pythonhosted.org/packages/03/77/b23f33d4d5535965d56aef1de947b5aa2e71e7b4949e94435c7fd3ff90ca/go_vendor_tools-0.4.0b1.tar.gz
+[2024-04-10 03:59:43] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/dd/da/af67a9b8da8f47d3e375d31f63cf6a9321d8493c1ff412c12bed039664ca/pih-0.34.tar.gz
+[2024-04-10 03:59:43] INFO root fetch - processPackages [cratedb-toolkit]: Downloading https://files.pythonhosted.org/packages/07/eb/e919b358f2847172f2129f7c3cb5212228848fd92c28c0f8a52c8efbcaa1/cratedb-toolkit-0.0.8.tar.gz
+[2024-04-10 03:59:43] INFO root fetch - processPackages [pih]: executing diffoscope
+[2024-04-10 03:59:43] INFO root fetch - processPackages [pih]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-0.33.tar.gz tmp/pih-0.34.tar.gz --markdown 20240410/p/pih/0.33-0.34/README.md --exclude *.pyd
+[2024-04-10 03:59:43] INFO root fetch - processPackages [go-vendor-tools]: executing diffoscope
+[2024-04-10 03:59:43] INFO root fetch - processPackages [go-vendor-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/go_vendor_tools-0.3.0.tar.gz tmp/go_vendor_tools-0.4.0b1.tar.gz --markdown 20240410/g/go-vendor-tools/0.3.0-0.4.0b1/README.md --exclude *.pyd
+[2024-04-10 03:59:43] INFO root fetch - processPackages [Geode-Explicit]: Downloading https://files.pythonhosted.org/packages/44/c9/df95edb023ca3147eed77cf843f7f1d64eafa70ede0c551611e103d44291/Geode_Explicit-4.7.1rc1-cp39-cp39-win_amd64.whl
+[2024-04-10 03:59:43] INFO root fetch - processPackages [cratedb-toolkit]: executing diffoscope
+[2024-04-10 03:59:43] INFO root fetch - processPackages [cratedb-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cratedb-toolkit-0.0.7.tar.gz tmp/cratedb-toolkit-0.0.8.tar.gz --markdown 20240410/c/cratedb-toolkit/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-10 03:59:43] INFO root fetch - processPackages [sparkproxy]: Remove: archive file [/home/abi/fetcher/tmp/sparkproxy-0.2.0.tar.gz]
+[2024-04-10 03:59:43] INFO root fetch - processPackages [sparkproxy]: Remove: archive file [/home/abi/fetcher/tmp/sparkproxy-0.2.1.tar.gz]
+[2024-04-10 03:59:43] INFO root fetch - main [MainThread]: End processing [sparkproxy]: success
+[2024-04-10 03:59:43] INFO root fetch - processPackages [Geode-Explicit]: executing diffoscope
+[2024-04-10 03:59:43] INFO root fetch - processPackages [Geode-Explicit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Explicit-4.7.1-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/Geode_Explicit-4.7.1rc1-cp39-cp39-win_amd64.whl.zip --markdown 20240410/G/Geode-Explicit/4.7.1-4.7.1rc1/README.md --exclude *.pyd
+[2024-04-10 03:59:44] INFO root fetch - processPackages [go-vendor-tools]: Remove: archive file [/home/abi/fetcher/tmp/go_vendor_tools-0.3.0.tar.gz]
+[2024-04-10 03:59:44] INFO root fetch - processPackages [go-vendor-tools]: Remove: archive file [/home/abi/fetcher/tmp/go_vendor_tools-0.4.0b1.tar.gz]
+[2024-04-10 03:59:44] INFO root fetch - main [MainThread]: End processing [go-vendor-tools]: success
+[2024-04-10 03:59:44] INFO root fetch - processPackages [cratedb-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/cratedb-toolkit-0.0.7.tar.gz]
+[2024-04-10 03:59:44] INFO root fetch - processPackages [cratedb-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/cratedb-toolkit-0.0.8.tar.gz]
+[2024-04-10 03:59:44] INFO root fetch - main [MainThread]: End processing [cratedb-toolkit]: success
+[2024-04-10 03:59:44] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.33.tar.gz]
+[2024-04-10 03:59:44] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.34.tar.gz]
+[2024-04-10 03:59:44] INFO root fetch - main [MainThread]: End processing [pih]: success
+[2024-04-10 03:59:44] INFO root fetch - processPackages [Geode-Explicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Explicit-4.7.1-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-04-10 03:59:44] INFO root fetch - processPackages [Geode-Explicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Explicit-4.7.1rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-10 03:59:44] INFO root fetch - main [MainThread]: End processing [Geode-Explicit]: success
+[2024-04-10 03:59:44] INFO root fetch - main [MainThread]: Store serial: [22694367]

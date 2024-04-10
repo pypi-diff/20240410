@@ -22639,3 +22639,78 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-10 13:51:59] INFO root fetch - processPackages [zlib-ng]: Remove: archive file [/home/abi/fetcher/tmp/zlib-ng-0.4.2.tar.gz]
 [2024-04-10 13:51:59] INFO root fetch - main [MainThread]: End processing [zlib-ng]: success
 [2024-04-10 13:51:59] INFO root fetch - main [MainThread]: Store serial: [22700331]
+[2024-04-10 13:54:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22700331]
+[2024-04-10 13:54:08] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-10 13:54:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coppice
+[2024-04-10 13:54:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: c2cciutils
+[2024-04-10 13:54:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bionty
+[2024-04-10 13:54:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-markov
+[2024-04-10 13:54:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dapla-toolbelt-pseudo
+[2024-04-10 13:54:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: igz-mgmt
+[2024-04-10 13:54:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: SciQLop
+[2024-04-10 13:54:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: adnexus
+[2024-04-10 13:54:08] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: New version: [1.7.0] Old Version: [1.6.0]
+[2024-04-10 13:54:08] INFO root fetch - processPackages [django-markov]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-10 13:54:08] INFO root fetch - processPackages [coppice]: New version: [0.2.0] Old Version: [0.1]
+[2024-04-10 13:54:08] INFO root fetch - processPackages [adnexus]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-10 13:54:08] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: Downloading https://files.pythonhosted.org/packages/6f/8f/8b9ce578f73f7ee29e384564d82924f1ba4d09edf68409ca61b0d604975c/dapla_toolbelt_pseudo-1.6.0.tar.gz
+[2024-04-10 13:54:08] INFO root fetch - processPackages [SciQLop]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-04-10 13:54:08] INFO root fetch - processPackages [bionty]: New version: [0.9.0rc1] Old Version: [0.9.0]
+[2024-04-10 13:54:08] INFO root fetch - processPackages [igz-mgmt]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-10 13:54:08] INFO root fetch - processPackages [c2cciutils]: New version: [1.7.0.dev99] Old Version: [1.7.0.dev98]
+[2024-04-10 13:54:08] INFO root fetch - processPackages [adnexus]: Downloading https://files.pythonhosted.org/packages/6b/29/2e1c4db6b39e1a60da31fa86138ab1eb38e614cd1d2a7392726253c46cb5/adnexus-0.1.3.tar.gz
+[2024-04-10 13:54:08] INFO root fetch - processPackages [django-markov]: Downloading https://files.pythonhosted.org/packages/56/ba/2c5fa25fdc77602548723e5ed02f37c7d3bcf77b758fbb1e33918e81749c/django_markov-0.2.2.tar.gz
+[2024-04-10 13:54:08] INFO root fetch - processPackages [coppice]: Downloading https://files.pythonhosted.org/packages/ef/0b/18f68ff413547c4ccc47b6e7358f462358989687faac1d72cb87957d787b/coppice-0.1.tar.gz
+[2024-04-10 13:54:08] INFO root fetch - processPackages [bionty]: Downloading https://files.pythonhosted.org/packages/99/96/56b5f6e7d406917b173d9b761f4b2ff41b68d375105fe40b9b23131b295d/bionty-0.9.0.tar.gz
+[2024-04-10 13:54:08] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: Downloading https://files.pythonhosted.org/packages/56/3d/f0660c83b9def848d6ac88d8c786e277ea2ffb5225d9d5231324db747eb1/dapla_toolbelt_pseudo-1.7.0.tar.gz
+[2024-04-10 13:54:08] INFO root fetch - processPackages [SciQLop]: Downloading https://files.pythonhosted.org/packages/9d/02/e110476217cecf7cde0ac9e27342274a2612930443894500a846bba66bc9/sciqlop-0.6.0.tar.gz
+[2024-04-10 13:54:08] INFO root fetch - processPackages [igz-mgmt]: Downloading https://files.pythonhosted.org/packages/18/2e/2c92ecdf706a5eb580552f9251a2ea53f191aa4b8cba584fc86ac7226e78/igz_mgmt-0.1.2.tar.gz
+[2024-04-10 13:54:08] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/62/aa/080c37692bc6af730809e32f5cb82932c00c5513d164349ff96537069e82/c2cciutils-1.7.0.dev98.tar.gz
+[2024-04-10 13:54:09] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: executing diffoscope
+[2024-04-10 13:54:09] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dapla_toolbelt_pseudo-1.6.0.tar.gz tmp/dapla_toolbelt_pseudo-1.7.0.tar.gz --markdown 20240410/d/dapla-toolbelt-pseudo/1.6.0-1.7.0/README.md --exclude *.pyd
+[2024-04-10 13:54:09] INFO root fetch - processPackages [adnexus]: Downloading https://files.pythonhosted.org/packages/19/f9/68911d86029129647446cc65ebd04af11b926e28ffe9c1802162e076150c/adnexus-0.1.4.tar.gz
+[2024-04-10 13:54:09] INFO root fetch - processPackages [django-markov]: Downloading https://files.pythonhosted.org/packages/39/bf/65241e029bf1fdd08edb7477819e6604b0f1138cc4b653c08feb0757e35e/django_markov-0.2.3.tar.gz
+[2024-04-10 13:54:09] INFO root fetch - processPackages [coppice]: Downloading https://files.pythonhosted.org/packages/95/9c/3b51977ebd2aaf0d0ca0f2a25196b9887ec157d1dd826c8b806f7419d68e/coppice-0.2.0.tar.gz
+[2024-04-10 13:54:09] INFO root fetch - processPackages [bionty]: Downloading https://files.pythonhosted.org/packages/f4/01/3a99104d9a37cf7fbdae5c733cec97f252f8eb35f5553cd253a05edf8420/bionty-0.9.0rc1.tar.gz
+[2024-04-10 13:54:09] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/0b/33/b4f2b2d1c9a7ae924ddcc8b7cbf69f1ed37a1a5f0faa155ac94becd05a90/c2cciutils-1.7.0.dev99.tar.gz
+[2024-04-10 13:54:09] INFO root fetch - processPackages [igz-mgmt]: Downloading https://files.pythonhosted.org/packages/e6/58/50fdcc0d56be8d34ce33206d4a6f7c57c7c81599aeeee16eda70733b647c/igz_mgmt-0.1.3.tar.gz
+[2024-04-10 13:54:09] INFO root fetch - processPackages [adnexus]: executing diffoscope
+[2024-04-10 13:54:09] INFO root fetch - processPackages [adnexus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adnexus-0.1.3.tar.gz tmp/adnexus-0.1.4.tar.gz --markdown 20240410/a/adnexus/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-10 13:54:09] INFO root fetch - processPackages [coppice]: executing diffoscope
+[2024-04-10 13:54:09] INFO root fetch - processPackages [coppice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coppice-0.1.tar.gz tmp/coppice-0.2.0.tar.gz --markdown 20240410/c/coppice/0.1-0.2.0/README.md --exclude *.pyd
+[2024-04-10 13:54:09] INFO root fetch - processPackages [django-markov]: executing diffoscope
+[2024-04-10 13:54:09] INFO root fetch - processPackages [django-markov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_markov-0.2.2.tar.gz tmp/django_markov-0.2.3.tar.gz --markdown 20240410/d/django-markov/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-10 13:54:09] INFO root fetch - processPackages [bionty]: executing diffoscope
+[2024-04-10 13:54:09] INFO root fetch - processPackages [bionty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bionty-0.9.0.tar.gz tmp/bionty-0.9.0rc1.tar.gz --markdown 20240410/b/bionty/0.9.0-0.9.0rc1/README.md --exclude *.pyd
+[2024-04-10 13:54:09] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2024-04-10 13:54:09] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.7.0.dev98.tar.gz tmp/c2cciutils-1.7.0.dev99.tar.gz --markdown 20240410/c/c2cciutils/1.7.0.dev98-1.7.0.dev99/README.md --exclude *.pyd
+[2024-04-10 13:54:09] INFO root fetch - processPackages [igz-mgmt]: executing diffoscope
+[2024-04-10 13:54:09] INFO root fetch - processPackages [SciQLop]: Downloading https://files.pythonhosted.org/packages/21/40/2949a2bccb5033fc89bc002d92d52876c1c95b62fbacdc58f1c1cef523eb/sciqlop-0.7.0.tar.gz
+[2024-04-10 13:54:09] INFO root fetch - processPackages [igz-mgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/igz_mgmt-0.1.2.tar.gz tmp/igz_mgmt-0.1.3.tar.gz --markdown 20240410/i/igz-mgmt/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-10 13:54:09] INFO root fetch - processPackages [SciQLop]: executing diffoscope
+[2024-04-10 13:54:09] INFO root fetch - processPackages [SciQLop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sciqlop-0.6.0.tar.gz tmp/sciqlop-0.7.0.tar.gz --markdown 20240410/S/SciQLop/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-04-10 13:54:09] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: Remove: archive file [/home/abi/fetcher/tmp/dapla_toolbelt_pseudo-1.6.0.tar.gz]
+[2024-04-10 13:54:09] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: Remove: archive file [/home/abi/fetcher/tmp/dapla_toolbelt_pseudo-1.7.0.tar.gz]
+[2024-04-10 13:54:09] INFO root fetch - main [MainThread]: End processing [dapla-toolbelt-pseudo]: success
+[2024-04-10 13:54:10] INFO root fetch - processPackages [coppice]: Remove: archive file [/home/abi/fetcher/tmp/coppice-0.1.tar.gz]
+[2024-04-10 13:54:10] INFO root fetch - processPackages [coppice]: Remove: archive file [/home/abi/fetcher/tmp/coppice-0.2.0.tar.gz]
+[2024-04-10 13:54:10] INFO root fetch - main [MainThread]: End processing [coppice]: success
+[2024-04-10 13:54:10] INFO root fetch - processPackages [django-markov]: Remove: archive file [/home/abi/fetcher/tmp/django_markov-0.2.2.tar.gz]
+[2024-04-10 13:54:10] INFO root fetch - processPackages [django-markov]: Remove: archive file [/home/abi/fetcher/tmp/django_markov-0.2.3.tar.gz]
+[2024-04-10 13:54:10] INFO root fetch - main [MainThread]: End processing [django-markov]: success
+[2024-04-10 13:54:10] INFO root fetch - processPackages [adnexus]: Remove: archive file [/home/abi/fetcher/tmp/adnexus-0.1.3.tar.gz]
+[2024-04-10 13:54:10] INFO root fetch - processPackages [adnexus]: Remove: archive file [/home/abi/fetcher/tmp/adnexus-0.1.4.tar.gz]
+[2024-04-10 13:54:10] INFO root fetch - main [MainThread]: End processing [adnexus]: success
+[2024-04-10 13:54:10] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.7.0.dev98.tar.gz]
+[2024-04-10 13:54:10] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.7.0.dev99.tar.gz]
+[2024-04-10 13:54:10] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2024-04-10 13:54:10] INFO root fetch - processPackages [igz-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/igz_mgmt-0.1.2.tar.gz]
+[2024-04-10 13:54:10] INFO root fetch - processPackages [igz-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/igz_mgmt-0.1.3.tar.gz]
+[2024-04-10 13:54:10] INFO root fetch - main [MainThread]: End processing [igz-mgmt]: success
+[2024-04-10 13:54:10] INFO root fetch - processPackages [bionty]: Remove: archive file [/home/abi/fetcher/tmp/bionty-0.9.0.tar.gz]
+[2024-04-10 13:54:10] INFO root fetch - processPackages [bionty]: Remove: archive file [/home/abi/fetcher/tmp/bionty-0.9.0rc1.tar.gz]
+[2024-04-10 13:54:10] INFO root fetch - main [MainThread]: End processing [bionty]: success
+[2024-04-10 13:54:12] INFO root fetch - processPackages [SciQLop]: Remove: archive file [/home/abi/fetcher/tmp/sciqlop-0.6.0.tar.gz]
+[2024-04-10 13:54:12] INFO root fetch - processPackages [SciQLop]: Remove: archive file [/home/abi/fetcher/tmp/sciqlop-0.7.0.tar.gz]
+[2024-04-10 13:54:12] INFO root fetch - main [MainThread]: End processing [SciQLop]: success
+[2024-04-10 13:54:12] INFO root fetch - main [MainThread]: Store serial: [22700394]

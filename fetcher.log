@@ -13110,3 +13110,59 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 07:25:48] INFO root fetch - processPackages [sundash]: Remove: archive file [/home/abi/fetcher/tmp/sundash-0.0.7.tar.gz]
 [2024-04-10 07:25:48] INFO root fetch - main [MainThread]: End processing [sundash]: success
 [2024-04-10 07:25:48] INFO root fetch - main [MainThread]: Store serial: [22696098]
+[2024-04-10 07:27:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22696098]
+[2024-04-10 07:27:58] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-10 07:27:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: atap-corpus-loader
+[2024-04-10 07:27:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gwastic-desktop
+[2024-04-10 07:27:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bacpypes3
+[2024-04-10 07:27:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-archive
+[2024-04-10 07:27:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: r2r
+[2024-04-10 07:27:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aioxdl
+[2024-04-10 07:27:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cybertensor
+[2024-04-10 07:27:58] WARNING root fetch - processPackages [aioxdl]: Skipping, unable to determine old version
+[2024-04-10 07:27:58] INFO root fetch - main [MainThread]: End processing [aioxdl] error
+[2024-04-10 07:27:58] INFO root fetch - processPackages [atap-corpus-loader]: New version: [1.3.4] Old Version: [1.3.3]
+[2024-04-10 07:27:58] INFO root fetch - processPackages [bacpypes3]: New version: [0.0.92] Old Version: [0.0.91]
+[2024-04-10 07:27:58] INFO root fetch - processPackages [atap-corpus-loader]: Downloading https://files.pythonhosted.org/packages/81/43/4b4dd6b8f6398d7babd09898f54b08c62267edcde67d6b436ad20d3d0684/atap_corpus_loader-1.3.3.tar.gz
+[2024-04-10 07:27:58] INFO root fetch - processPackages [cybertensor]: New version: [0.2.0] Old Version: [0.1.6]
+[2024-04-10 07:27:58] INFO root fetch - processPackages [gwastic-desktop]: New version: [0.4.9] Old Version: [0.4.7]
+[2024-04-10 07:27:58] INFO root fetch - processPackages [r2r]: New version: [0.1.32] Old Version: [0.1.31]
+[2024-04-10 07:27:58] INFO root fetch - processPackages [pulumi-archive]: New version: [0.0.6a1712725906] Old Version: [0.0.6a1712466571]
+[2024-04-10 07:27:58] INFO root fetch - processPackages [bacpypes3]: Downloading https://files.pythonhosted.org/packages/e3/6c/096edfb8472ad0353ad8b89622889f2e22147ce9e1c9b655a9c6b457f88e/bacpypes3-0.0.91.tar.gz
+[2024-04-10 07:27:58] INFO root fetch - processPackages [gwastic-desktop]: Downloading https://files.pythonhosted.org/packages/b5/f6/a6cf1d63d684c27aa7b82eb8d71ddbbe4b88969ec10e2f53b4d260dc9f0b/gwastic_desktop-0.4.7.tar.gz
+[2024-04-10 07:27:58] INFO root fetch - processPackages [pulumi-archive]: Downloading https://files.pythonhosted.org/packages/f3/85/9327a169db3b87a73e647a046f737c0c7cef645373ca08f0bd854040e692/pulumi_archive-0.0.6a1712466571.tar.gz
+[2024-04-10 07:27:58] INFO root fetch - processPackages [r2r]: Downloading https://files.pythonhosted.org/packages/fb/7a/5a091a1b0123465a16732df9794c82c165d82681998d2f62f7602b5e9e9e/r2r-0.1.31.tar.gz
+[2024-04-10 07:27:58] INFO root fetch - processPackages [atap-corpus-loader]: Downloading https://files.pythonhosted.org/packages/28/9d/9109a0abb990d60baa800c7b86ae362622f5040356bbd1bd277e4b5dfaaa/atap_corpus_loader-1.3.4.tar.gz
+[2024-04-10 07:27:59] INFO root fetch - processPackages [cybertensor]: Downloading https://files.pythonhosted.org/packages/84/db/1dcfbcb5dde885564d8befb605cd41c603cbee6817651f547e9f43b83dc9/cybertensor-0.1.6.tar.gz
+[2024-04-10 07:27:59] WARNING root fetch - processPackages [gwastic-desktop]: Skipping package: exceeds size limit 18575692>=10485760
+[2024-04-10 07:27:59] INFO root fetch - main [MainThread]: End processing [gwastic-desktop] error
+[2024-04-10 07:27:59] INFO root fetch - processPackages [atap-corpus-loader]: executing diffoscope
+[2024-04-10 07:27:59] INFO root fetch - processPackages [atap-corpus-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atap_corpus_loader-1.3.3.tar.gz tmp/atap_corpus_loader-1.3.4.tar.gz --markdown 20240410/a/atap-corpus-loader/1.3.3-1.3.4/README.md --exclude *.pyd
+[2024-04-10 07:27:59] INFO root fetch - processPackages [pulumi-archive]: Downloading https://files.pythonhosted.org/packages/b0/3b/bc95d85a7cc722b066f068ca9f5848f8944a79cfa3df3921a187c6b6b17e/pulumi_archive-0.0.6a1712725906.tar.gz
+[2024-04-10 07:27:59] INFO root fetch - processPackages [bacpypes3]: Downloading https://files.pythonhosted.org/packages/04/23/6d0abc95f5f3030694d2b3c5819cc0990e01440492e41723f951871016e8/bacpypes3-0.0.92.tar.gz
+[2024-04-10 07:27:59] INFO root fetch - processPackages [pulumi-archive]: executing diffoscope
+[2024-04-10 07:27:59] INFO root fetch - processPackages [pulumi-archive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_archive-0.0.6a1712466571.tar.gz tmp/pulumi_archive-0.0.6a1712725906.tar.gz --markdown 20240410/p/pulumi-archive/0.0.6a1712466571-0.0.6a1712725906/README.md --exclude *.pyd
+[2024-04-10 07:27:59] INFO root fetch - processPackages [cybertensor]: Downloading https://files.pythonhosted.org/packages/04/4e/81fcbaa80454c3ef8d8f8ddb5d0b8d1045bcfa39cf423f032905f65884fa/cybertensor-0.2.0.tar.gz
+[2024-04-10 07:27:59] INFO root fetch - processPackages [r2r]: Downloading https://files.pythonhosted.org/packages/7d/bf/65bd4c5f4cdb5e07535d73e64ef23b9e44ea2d1b00706d4a4f94d2ed38d0/r2r-0.1.32.tar.gz
+[2024-04-10 07:27:59] INFO root fetch - processPackages [bacpypes3]: executing diffoscope
+[2024-04-10 07:27:59] INFO root fetch - processPackages [bacpypes3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bacpypes3-0.0.91.tar.gz tmp/bacpypes3-0.0.92.tar.gz --markdown 20240410/b/bacpypes3/0.0.91-0.0.92/README.md --exclude *.pyd
+[2024-04-10 07:27:59] INFO root fetch - processPackages [cybertensor]: executing diffoscope
+[2024-04-10 07:27:59] INFO root fetch - processPackages [cybertensor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybertensor-0.1.6.tar.gz tmp/cybertensor-0.2.0.tar.gz --markdown 20240410/c/cybertensor/0.1.6-0.2.0/README.md --exclude *.pyd
+[2024-04-10 07:27:59] INFO root fetch - processPackages [r2r]: executing diffoscope
+[2024-04-10 07:27:59] INFO root fetch - processPackages [r2r]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/r2r-0.1.31.tar.gz tmp/r2r-0.1.32.tar.gz --markdown 20240410/r/r2r/0.1.31-0.1.32/README.md --exclude *.pyd
+[2024-04-10 07:27:59] INFO root fetch - processPackages [atap-corpus-loader]: Remove: archive file [/home/abi/fetcher/tmp/atap_corpus_loader-1.3.3.tar.gz]
+[2024-04-10 07:27:59] INFO root fetch - processPackages [atap-corpus-loader]: Remove: archive file [/home/abi/fetcher/tmp/atap_corpus_loader-1.3.4.tar.gz]
+[2024-04-10 07:27:59] INFO root fetch - main [MainThread]: End processing [atap-corpus-loader]: success
+[2024-04-10 07:28:00] INFO root fetch - processPackages [pulumi-archive]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_archive-0.0.6a1712466571.tar.gz]
+[2024-04-10 07:28:00] INFO root fetch - processPackages [pulumi-archive]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_archive-0.0.6a1712725906.tar.gz]
+[2024-04-10 07:28:00] INFO root fetch - main [MainThread]: End processing [pulumi-archive]: success
+[2024-04-10 07:28:00] INFO root fetch - processPackages [bacpypes3]: Remove: archive file [/home/abi/fetcher/tmp/bacpypes3-0.0.91.tar.gz]
+[2024-04-10 07:28:00] INFO root fetch - processPackages [bacpypes3]: Remove: archive file [/home/abi/fetcher/tmp/bacpypes3-0.0.92.tar.gz]
+[2024-04-10 07:28:00] INFO root fetch - main [MainThread]: End processing [bacpypes3]: success
+[2024-04-10 07:28:00] INFO root fetch - processPackages [cybertensor]: Remove: archive file [/home/abi/fetcher/tmp/cybertensor-0.1.6.tar.gz]
+[2024-04-10 07:28:00] INFO root fetch - processPackages [cybertensor]: Remove: archive file [/home/abi/fetcher/tmp/cybertensor-0.2.0.tar.gz]
+[2024-04-10 07:28:00] INFO root fetch - main [MainThread]: End processing [cybertensor]: success
+[2024-04-10 07:28:00] INFO root fetch - processPackages [r2r]: Remove: archive file [/home/abi/fetcher/tmp/r2r-0.1.31.tar.gz]
+[2024-04-10 07:28:00] INFO root fetch - processPackages [r2r]: Remove: archive file [/home/abi/fetcher/tmp/r2r-0.1.32.tar.gz]
+[2024-04-10 07:28:00] INFO root fetch - main [MainThread]: End processing [r2r]: success
+[2024-04-10 07:28:00] INFO root fetch - main [MainThread]: Store serial: [22696119]

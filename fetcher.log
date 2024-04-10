@@ -19557,3 +19557,96 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 11:58:26] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.9.tar.gz]
 [2024-04-10 11:58:26] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
 [2024-04-10 11:58:26] INFO root fetch - main [MainThread]: Store serial: [22698684]
+[2024-04-10 12:00:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22698684]
+[2024-04-10 12:00:35] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-10 12:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: galitime
+[2024-04-10 12:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: waylay-sdk-registry
+[2024-04-10 12:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: waylay-sdk-registry-types
+[2024-04-10 12:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: antchain-bot
+[2024-04-10 12:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: polars-qt
+[2024-04-10 12:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: icon-uxarray
+[2024-04-10 12:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: twopilabs-sense-x1000
+[2024-04-10 12:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lightworks
+[2024-04-10 12:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyserilog-sinks-elasticsearch
+[2024-04-10 12:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: work
+[2024-04-10 12:00:35] WARNING root fetch - processPackages [galitime]: Skipping, unable to determine old version
+[2024-04-10 12:00:35] INFO root fetch - processPackages [galitime]: Start processing: adnexus
+[2024-04-10 12:00:35] INFO root fetch - main [MainThread]: End processing [galitime] error
+[2024-04-10 12:00:35] INFO root fetch - processPackages [polars-qt]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-10 12:00:35] INFO root fetch - processPackages [icon-uxarray]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-10 12:00:35] INFO root fetch - processPackages [work]: New version: [1.1.0a0] Old Version: [1.0.3]
+[2024-04-10 12:00:35] WARNING root fetch - processPackages [adnexus]: Skipping, unable to determine old version
+[2024-04-10 12:00:35] INFO root fetch - processPackages [adnexus]: Start processing: testsolar-testtool-sdk
+[2024-04-10 12:00:35] INFO root fetch - main [MainThread]: End processing [adnexus] error
+[2024-04-10 12:00:35] INFO root fetch - processPackages [waylay-sdk-registry-types]: New version: [2.13.0rc0] Old Version: [2.13.0b0.post0]
+[2024-04-10 12:00:35] INFO root fetch - processPackages [waylay-sdk-registry]: New version: [2.13.0rc0] Old Version: [2.13.0b0.post0]
+[2024-04-10 12:00:35] INFO root fetch - processPackages [polars-qt]: Downloading https://files.pythonhosted.org/packages/50/0a/d27f0e9b5258083f852ab431320386c2fdcdbf573ceb88071dd114995089/polars_qt-0.1.3.tar.gz
+[2024-04-10 12:00:35] WARNING root fetch - processPackages [pyserilog-sinks-elasticsearch]: Skipping, unable to determine old version
+[2024-04-10 12:00:35] INFO root fetch - main [MainThread]: End processing [pyserilog-sinks-elasticsearch] error
+[2024-04-10 12:00:35] INFO root fetch - processPackages [antchain-bot]: New version: [1.9.8] Old Version: [1.9.7]
+[2024-04-10 12:00:35] INFO root fetch - processPackages [lightworks]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-10 12:00:35] INFO root fetch - processPackages [testsolar-testtool-sdk]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-10 12:00:35] INFO root fetch - processPackages [twopilabs-sense-x1000]: New version: [0.7.5] Old Version: [0.7.4]
+[2024-04-10 12:00:35] INFO root fetch - processPackages [icon-uxarray]: Downloading https://files.pythonhosted.org/packages/5a/9d/08eff2f8d9403285cdc420f97ff70e06bbf1104939b7cf9a375d1a8a11f7/icon_uxarray-0.1.6.tar.gz
+[2024-04-10 12:00:35] INFO root fetch - processPackages [work]: Downloading https://files.pythonhosted.org/packages/1a/b8/567b4f005f45dde88d12ae0133067b41e5b1c337ee57f24f2052fc752ae2/work-1.0.3.tar.gz
+[2024-04-10 12:00:36] INFO root fetch - processPackages [testsolar-testtool-sdk]: Downloading https://files.pythonhosted.org/packages/17/a9/1c42b7117ff35b98358888d729f9a3289025c1f19896b3120f8f265c672a/testsolar-testtool-sdk-0.1.4.tar.gz
+[2024-04-10 12:00:36] INFO root fetch - processPackages [waylay-sdk-registry]: Downloading https://files.pythonhosted.org/packages/d7/82/fa18331de33c6062b1b72c3ff9a4928761c8eafc23628968e62c5066af44/waylay-sdk-registry-2.13.0b0.post0.tar.gz
+[2024-04-10 12:00:36] INFO root fetch - processPackages [waylay-sdk-registry-types]: Downloading https://files.pythonhosted.org/packages/0d/e6/635cfd41c20ff6472c403cc8adf9b83972908ac980ffd38126e0b7411832/waylay-sdk-registry-types-2.13.0b0.post0.tar.gz
+[2024-04-10 12:00:36] INFO root fetch - processPackages [antchain-bot]: Downloading https://files.pythonhosted.org/packages/0d/86/cbf1b955dbc338cc6302fd0ed42f2ae42c1245a00c6439e1fba6cae53d92/antchain_bot-1.9.7.tar.gz
+[2024-04-10 12:00:36] INFO root fetch - processPackages [twopilabs-sense-x1000]: Downloading https://files.pythonhosted.org/packages/c1/f0/b01dcdfe23397dcfa578063787266c54cb15a5beb83ddd1ace699e04349d/twopilabs-sense-x1000-0.7.4.tar.gz
+[2024-04-10 12:00:36] INFO root fetch - processPackages [lightworks]: Downloading https://files.pythonhosted.org/packages/57/7c/a8c604622c7853fd8f8d6c893a5ceefb5142bf844ba998cce0621e0b5868/lightworks-1.1.0.tar.gz
+[2024-04-10 12:00:36] INFO root fetch - processPackages [work]: Downloading https://files.pythonhosted.org/packages/0b/5a/5940bcd8a6b253ab66b3e12b8052a88a4886c7cfd49302ccbf6113f901cd/work-1.1.0a0.tar.gz
+[2024-04-10 12:00:36] INFO root fetch - processPackages [polars-qt]: Downloading https://files.pythonhosted.org/packages/1a/71/c4d704030e5b8efa9ffaf5d64785c3653f8c5895faee2347f3ea66e87f1b/polars_qt-0.1.4.tar.gz
+[2024-04-10 12:00:36] INFO root fetch - processPackages [icon-uxarray]: Downloading https://files.pythonhosted.org/packages/65/ee/fded8b857499690d41eed7da5db370dc06f7929e360a542f83592645bd6f/icon_uxarray-0.1.7.tar.gz
+[2024-04-10 12:00:36] INFO root fetch - processPackages [work]: executing diffoscope
+[2024-04-10 12:00:36] INFO root fetch - processPackages [work]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/work-1.0.3.tar.gz tmp/work-1.1.0a0.tar.gz --markdown 20240410/w/work/1.0.3-1.1.0a0/README.md --exclude *.pyd
+[2024-04-10 12:00:36] INFO root fetch - processPackages [testsolar-testtool-sdk]: Downloading https://files.pythonhosted.org/packages/bd/f5/573bb5b0679dff01867baf8273cfd5c03c11c5bd9336924f966f24658c48/testsolar-testtool-sdk-0.1.5.tar.gz
+[2024-04-10 12:00:36] INFO root fetch - processPackages [polars-qt]: executing diffoscope
+[2024-04-10 12:00:36] INFO root fetch - processPackages [polars-qt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars_qt-0.1.3.tar.gz tmp/polars_qt-0.1.4.tar.gz --markdown 20240410/p/polars-qt/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-10 12:00:36] INFO root fetch - processPackages [icon-uxarray]: executing diffoscope
+[2024-04-10 12:00:36] INFO root fetch - processPackages [icon-uxarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icon_uxarray-0.1.6.tar.gz tmp/icon_uxarray-0.1.7.tar.gz --markdown 20240410/i/icon-uxarray/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-10 12:00:36] INFO root fetch - processPackages [waylay-sdk-registry]: Downloading https://files.pythonhosted.org/packages/a4/6b/65a7c73cb0f5fa23b1f3df3bff39199688ed0345df034b7e0cbcff8c76d5/waylay-sdk-registry-2.13.0rc0.tar.gz
+[2024-04-10 12:00:36] INFO root fetch - processPackages [twopilabs-sense-x1000]: Downloading https://files.pythonhosted.org/packages/5c/49/0e3b69e9a2442cb2c11d2ff95d237d738c9cefd948947d62e51f43dd083f/twopilabs-sense-x1000-0.7.5.tar.gz
+[2024-04-10 12:00:36] INFO root fetch - processPackages [waylay-sdk-registry-types]: Downloading https://files.pythonhosted.org/packages/8c/06/b1a4d3c4d75d8af05bcf634494d8eebbf4a58f581cb10b21b21d9e4ded76/waylay-sdk-registry-types-2.13.0rc0.tar.gz
+[2024-04-10 12:00:36] INFO root fetch - processPackages [testsolar-testtool-sdk]: executing diffoscope
+[2024-04-10 12:00:36] INFO root fetch - processPackages [testsolar-testtool-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testsolar-testtool-sdk-0.1.4.tar.gz tmp/testsolar-testtool-sdk-0.1.5.tar.gz --markdown 20240410/t/testsolar-testtool-sdk/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-10 12:00:36] INFO root fetch - processPackages [antchain-bot]: Downloading https://files.pythonhosted.org/packages/fa/96/2ef07a099db771e78580bcb8a6f9269b6404019fd3aefd68b80738181db3/antchain_bot-1.9.8.tar.gz
+[2024-04-10 12:00:36] INFO root fetch - processPackages [lightworks]: Downloading https://files.pythonhosted.org/packages/75/ed/e9e4b0452e7296d6c439a4ad445b760c69cab27ed8daeaa59bc98a0be270/lightworks-1.2.0.tar.gz
+[2024-04-10 12:00:36] INFO root fetch - processPackages [waylay-sdk-registry]: executing diffoscope
+[2024-04-10 12:00:36] INFO root fetch - processPackages [waylay-sdk-registry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waylay-sdk-registry-2.13.0b0.post0.tar.gz tmp/waylay-sdk-registry-2.13.0rc0.tar.gz --markdown 20240410/w/waylay-sdk-registry/2.13.0b0.post0-2.13.0rc0/README.md --exclude *.pyd
+[2024-04-10 12:00:36] INFO root fetch - processPackages [waylay-sdk-registry-types]: executing diffoscope
+[2024-04-10 12:00:36] INFO root fetch - processPackages [waylay-sdk-registry-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waylay-sdk-registry-types-2.13.0b0.post0.tar.gz tmp/waylay-sdk-registry-types-2.13.0rc0.tar.gz --markdown 20240410/w/waylay-sdk-registry-types/2.13.0b0.post0-2.13.0rc0/README.md --exclude *.pyd
+[2024-04-10 12:00:36] INFO root fetch - processPackages [lightworks]: executing diffoscope
+[2024-04-10 12:00:36] INFO root fetch - processPackages [lightworks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightworks-1.1.0.tar.gz tmp/lightworks-1.2.0.tar.gz --markdown 20240410/l/lightworks/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-04-10 12:00:36] INFO root fetch - processPackages [antchain-bot]: executing diffoscope
+[2024-04-10 12:00:36] INFO root fetch - processPackages [antchain-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_bot-1.9.7.tar.gz tmp/antchain_bot-1.9.8.tar.gz --markdown 20240410/a/antchain-bot/1.9.7-1.9.8/README.md --exclude *.pyd
+[2024-04-10 12:00:37] INFO root fetch - processPackages [twopilabs-sense-x1000]: executing diffoscope
+[2024-04-10 12:00:37] INFO root fetch - processPackages [twopilabs-sense-x1000]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twopilabs-sense-x1000-0.7.4.tar.gz tmp/twopilabs-sense-x1000-0.7.5.tar.gz --markdown 20240410/t/twopilabs-sense-x1000/0.7.4-0.7.5/README.md --exclude *.pyd
+[2024-04-10 12:00:37] INFO root fetch - processPackages [polars-qt]: Remove: archive file [/home/abi/fetcher/tmp/polars_qt-0.1.3.tar.gz]
+[2024-04-10 12:00:37] INFO root fetch - processPackages [polars-qt]: Remove: archive file [/home/abi/fetcher/tmp/polars_qt-0.1.4.tar.gz]
+[2024-04-10 12:00:37] INFO root fetch - main [MainThread]: End processing [polars-qt]: success
+[2024-04-10 12:00:37] INFO root fetch - processPackages [work]: Remove: archive file [/home/abi/fetcher/tmp/work-1.0.3.tar.gz]
+[2024-04-10 12:00:37] INFO root fetch - processPackages [work]: Remove: archive file [/home/abi/fetcher/tmp/work-1.1.0a0.tar.gz]
+[2024-04-10 12:00:37] INFO root fetch - main [MainThread]: End processing [work]: success
+[2024-04-10 12:00:37] INFO root fetch - processPackages [icon-uxarray]: Remove: archive file [/home/abi/fetcher/tmp/icon_uxarray-0.1.6.tar.gz]
+[2024-04-10 12:00:37] INFO root fetch - processPackages [icon-uxarray]: Remove: archive file [/home/abi/fetcher/tmp/icon_uxarray-0.1.7.tar.gz]
+[2024-04-10 12:00:37] INFO root fetch - main [MainThread]: End processing [icon-uxarray]: success
+[2024-04-10 12:00:37] INFO root fetch - processPackages [testsolar-testtool-sdk]: Remove: archive file [/home/abi/fetcher/tmp/testsolar-testtool-sdk-0.1.4.tar.gz]
+[2024-04-10 12:00:37] INFO root fetch - processPackages [testsolar-testtool-sdk]: Remove: archive file [/home/abi/fetcher/tmp/testsolar-testtool-sdk-0.1.5.tar.gz]
+[2024-04-10 12:00:37] INFO root fetch - main [MainThread]: End processing [testsolar-testtool-sdk]: success
+[2024-04-10 12:00:37] INFO root fetch - processPackages [waylay-sdk-registry]: Remove: archive file [/home/abi/fetcher/tmp/waylay-sdk-registry-2.13.0b0.post0.tar.gz]
+[2024-04-10 12:00:37] INFO root fetch - processPackages [waylay-sdk-registry]: Remove: archive file [/home/abi/fetcher/tmp/waylay-sdk-registry-2.13.0rc0.tar.gz]
+[2024-04-10 12:00:37] INFO root fetch - main [MainThread]: End processing [waylay-sdk-registry]: success
+[2024-04-10 12:00:38] INFO root fetch - processPackages [twopilabs-sense-x1000]: Remove: archive file [/home/abi/fetcher/tmp/twopilabs-sense-x1000-0.7.4.tar.gz]
+[2024-04-10 12:00:38] INFO root fetch - processPackages [twopilabs-sense-x1000]: Remove: archive file [/home/abi/fetcher/tmp/twopilabs-sense-x1000-0.7.5.tar.gz]
+[2024-04-10 12:00:38] INFO root fetch - main [MainThread]: End processing [twopilabs-sense-x1000]: success
+[2024-04-10 12:00:38] INFO root fetch - processPackages [lightworks]: Remove: archive file [/home/abi/fetcher/tmp/lightworks-1.1.0.tar.gz]
+[2024-04-10 12:00:38] INFO root fetch - processPackages [lightworks]: Remove: archive file [/home/abi/fetcher/tmp/lightworks-1.2.0.tar.gz]
+[2024-04-10 12:00:38] INFO root fetch - main [MainThread]: End processing [lightworks]: success
+[2024-04-10 12:00:38] INFO root fetch - processPackages [antchain-bot]: Remove: archive file [/home/abi/fetcher/tmp/antchain_bot-1.9.7.tar.gz]
+[2024-04-10 12:00:38] INFO root fetch - processPackages [antchain-bot]: Remove: archive file [/home/abi/fetcher/tmp/antchain_bot-1.9.8.tar.gz]
+[2024-04-10 12:00:38] INFO root fetch - main [MainThread]: End processing [antchain-bot]: success
+[2024-04-10 12:00:38] INFO root fetch - processPackages [waylay-sdk-registry-types]: Remove: archive file [/home/abi/fetcher/tmp/waylay-sdk-registry-types-2.13.0b0.post0.tar.gz]
+[2024-04-10 12:00:38] INFO root fetch - processPackages [waylay-sdk-registry-types]: Remove: archive file [/home/abi/fetcher/tmp/waylay-sdk-registry-types-2.13.0rc0.tar.gz]
+[2024-04-10 12:00:38] INFO root fetch - main [MainThread]: End processing [waylay-sdk-registry-types]: success
+[2024-04-10 12:00:38] INFO root fetch - main [MainThread]: Store serial: [22698723]

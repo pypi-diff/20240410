@@ -10178,3 +10178,27 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 05:03:48] INFO root fetch - processPackages [llm-gemini]: Remove: archive file [/home/abi/fetcher/tmp/llm-gemini-0.1a2.tar.gz]
 [2024-04-10 05:03:48] INFO root fetch - main [MainThread]: End processing [llm-gemini]: success
 [2024-04-10 05:03:48] INFO root fetch - main [MainThread]: Store serial: [22694889]
+[2024-04-10 05:05:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22694889]
+[2024-04-10 05:05:57] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-10 05:05:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: OZI
+[2024-04-10 05:05:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: huojiweiguoba
+[2024-04-10 05:05:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: accumul8
+[2024-04-10 05:05:58] INFO root fetch - processPackages [huojiweiguoba]: New version: [9.0] Old Version: [8.0]
+[2024-04-10 05:05:58] INFO root fetch - processPackages [huojiweiguoba]: Downloading https://files.pythonhosted.org/packages/9b/6f/b64a46e83d6bfc0f46bb336114ec9f43e3939f86a70108c310351b4f02b4/huojiweiguoba-8.0.tar.gz
+[2024-04-10 05:05:58] WARNING root fetch - processPackages [accumul8]: Skipping, unable to determine old version
+[2024-04-10 05:05:58] INFO root fetch - main [MainThread]: End processing [accumul8] error
+[2024-04-10 05:05:58] INFO root fetch - processPackages [OZI]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-10 05:05:58] INFO root fetch - processPackages [huojiweiguoba]: Downloading https://files.pythonhosted.org/packages/3a/79/586f36e886e9e8dcfc4129b51554721e3019a3b5fc5ca074d349a5747db3/huojiweiguoba-9.0.tar.gz
+[2024-04-10 05:05:58] INFO root fetch - processPackages [OZI]: Downloading https://files.pythonhosted.org/packages/38/2b/d8f8ce2f774ca66b1e32e65068783b15ac56715cbfa1ab1faef6d2c91a13/OZI-0.0.98-py39-none-any.whl
+[2024-04-10 05:05:58] INFO root fetch - processPackages [huojiweiguoba]: executing diffoscope
+[2024-04-10 05:05:58] INFO root fetch - processPackages [huojiweiguoba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huojiweiguoba-8.0.tar.gz tmp/huojiweiguoba-9.0.tar.gz --markdown 20240410/h/huojiweiguoba/8.0-9.0/README.md --exclude *.pyd
+[2024-04-10 05:05:58] INFO root fetch - processPackages [OZI]: Downloading https://files.pythonhosted.org/packages/4c/bb/b5eaa9984b59532639030a4989b508e0252f662844d9a3e3f9a3d9aeef2c/OZI-0.0.99-py39-none-any.whl
+[2024-04-10 05:05:58] INFO root fetch - processPackages [OZI]: executing diffoscope
+[2024-04-10 05:05:58] INFO root fetch - processPackages [OZI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OZI-0.0.98-py39-none-any.whl.zip tmp/OZI-0.0.99-py39-none-any.whl.zip --markdown 20240410/O/OZI/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-10 05:05:58] INFO root fetch - processPackages [huojiweiguoba]: Remove: archive file [/home/abi/fetcher/tmp/huojiweiguoba-8.0.tar.gz]
+[2024-04-10 05:05:58] INFO root fetch - processPackages [huojiweiguoba]: Remove: archive file [/home/abi/fetcher/tmp/huojiweiguoba-9.0.tar.gz]
+[2024-04-10 05:05:58] INFO root fetch - main [MainThread]: End processing [huojiweiguoba]: success
+[2024-04-10 05:06:00] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-0.0.98-py39-none-any.whl.zip]
+[2024-04-10 05:06:00] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-0.0.99-py39-none-any.whl.zip]
+[2024-04-10 05:06:00] INFO root fetch - main [MainThread]: End processing [OZI]: success
+[2024-04-10 05:06:00] INFO root fetch - main [MainThread]: Store serial: [22694902]

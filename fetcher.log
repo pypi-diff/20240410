@@ -11271,3 +11271,78 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 05:50:21] INFO root fetch - processPackages [musicAlgLib]: Remove: archive file [/home/abi/fetcher/tmp/musicAlgLib-1.1.8.tar.gz]
 [2024-04-10 05:50:21] INFO root fetch - main [MainThread]: End processing [musicAlgLib]: success
 [2024-04-10 05:50:21] INFO root fetch - main [MainThread]: Store serial: [22695382]
+[2024-04-10 05:52:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22695382]
+[2024-04-10 05:52:29] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-10 05:52:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: RabbitSpider
+[2024-04-10 05:52:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ros-cdk-actiontrail
+[2024-04-10 05:52:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: streamlit-cookies-controller
+[2024-04-10 05:52:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ros-cdk-arms
+[2024-04-10 05:52:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: NNEngine
+[2024-04-10 05:52:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: usearch
+[2024-04-10 05:52:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ros-cdk-ots
+[2024-04-10 05:52:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: czsc
+[2024-04-10 05:52:29] INFO root fetch - processPackages [streamlit-cookies-controller]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-10 05:52:29] INFO root fetch - processPackages [ros-cdk-arms]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-10 05:52:29] INFO root fetch - processPackages [NNEngine]: New version: [0.0.9] Old Version: [0.0.7]
+[2024-04-10 05:52:29] INFO root fetch - processPackages [RabbitSpider]: New version: [1.2.0] Old Version: [1.0.0]
+[2024-04-10 05:52:29] INFO root fetch - processPackages [ros-cdk-ots]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-10 05:52:29] INFO root fetch - processPackages [ros-cdk-actiontrail]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-10 05:52:30] INFO root fetch - processPackages [czsc]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-10 05:52:30] INFO root fetch - processPackages [streamlit-cookies-controller]: Downloading https://files.pythonhosted.org/packages/85/7b/f6a2f21d26bcd872176d37cc61370e80b50dfa2b376d9f66563ca4d3833f/streamlit-cookies-controller-0.0.3.tar.gz
+[2024-04-10 05:52:30] INFO root fetch - processPackages [ros-cdk-actiontrail]: Downloading https://files.pythonhosted.org/packages/30/82/7724d3535d7d25e8b39331ab68b4e484209347d6ac664637a045b1391b1e/ros-cdk-actiontrail-1.0.8.tar.gz
+[2024-04-10 05:52:30] INFO root fetch - processPackages [NNEngine]: Downloading https://files.pythonhosted.org/packages/5f/32/561095fc276d974a1e588302ab48a2ba1e095571cf791416bfd30e8994de/NNEngine-0.0.7.tar.gz
+[2024-04-10 05:52:30] INFO root fetch - processPackages [ros-cdk-arms]: Downloading https://files.pythonhosted.org/packages/05/d5/556a94dd81b599d712e14c8e5e30cf5e570e55be55da1fed52df879727b2/ros-cdk-arms-1.0.8.tar.gz
+[2024-04-10 05:52:30] INFO root fetch - processPackages [RabbitSpider]: Downloading https://files.pythonhosted.org/packages/60/50/d458339af3b94418956b8ca28790596d4c12450d7041b8e51aac5a8a6a53/RabbitSpider-1.0.0.tar.gz
+[2024-04-10 05:52:30] INFO root fetch - processPackages [ros-cdk-ots]: Downloading https://files.pythonhosted.org/packages/3b/93/ae1fb3cf7a5549ee4bc3b3b2230d7ce48976c5fde905db888ea3776314dc/ros-cdk-ots-1.0.8.tar.gz
+[2024-04-10 05:52:30] INFO root fetch - processPackages [czsc]: Downloading https://files.pythonhosted.org/packages/ff/64/49e6809b474049632717e96f3a51bcdab728d63517d8ec0eb228e09ad52d/czsc-0.9.8.tar.gz
+[2024-04-10 05:52:30] INFO root fetch - processPackages [usearch]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-04-10 05:52:30] INFO root fetch - processPackages [NNEngine]: Downloading https://files.pythonhosted.org/packages/15/a6/a10bd71b1fc4989b22e3b7dc97a777243f9bf7401671c4559e01f917101c/NNEngine-0.0.9.tar.gz
+[2024-04-10 05:52:30] INFO root fetch - processPackages [streamlit-cookies-controller]: Downloading https://files.pythonhosted.org/packages/b0/c8/7caf505d62faeb8c0f6e6b74b554e1c2b0c3ca46c0a39250445c574a5a18/streamlit-cookies-controller-0.0.4.tar.gz
+[2024-04-10 05:52:30] INFO root fetch - processPackages [ros-cdk-arms]: Downloading https://files.pythonhosted.org/packages/0e/8f/eb220bbdd4df3638ff8d5656ad26a2eb3f90a94248ab44058eade9b49c78/ros-cdk-arms-1.0.9.tar.gz
+[2024-04-10 05:52:30] INFO root fetch - processPackages [ros-cdk-actiontrail]: Downloading https://files.pythonhosted.org/packages/7e/65/286642c9eca0d5b22011c7c250c23dbc6a507221717c0f7d80bc4081ce37/ros-cdk-actiontrail-1.0.9.tar.gz
+[2024-04-10 05:52:30] INFO root fetch - processPackages [RabbitSpider]: Downloading https://files.pythonhosted.org/packages/e3/52/5baa01fa6594fae1794bd8fde64aecb3be8f1e37e30a228be663173d8d1a/RabbitSpider-1.2.0.tar.gz
+[2024-04-10 05:52:30] INFO root fetch - processPackages [usearch]: Downloading https://files.pythonhosted.org/packages/8b/43/c2558bc9415bc56b51c565ab35e885b8daff8ba0b8e920a001aa71f9fa44/usearch-2.9.1-cp39-cp39-win_amd64.whl
+[2024-04-10 05:52:30] INFO root fetch - processPackages [NNEngine]: executing diffoscope
+[2024-04-10 05:52:30] INFO root fetch - processPackages [NNEngine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NNEngine-0.0.7.tar.gz tmp/NNEngine-0.0.9.tar.gz --markdown 20240410/N/NNEngine/0.0.7-0.0.9/README.md --exclude *.pyd
+[2024-04-10 05:52:30] INFO root fetch - processPackages [ros-cdk-ots]: Downloading https://files.pythonhosted.org/packages/0c/41/781713882f6cd0475dfbd98ad1cea7e3afc83cbf15cae9582ca15ae23988/ros-cdk-ots-1.0.9.tar.gz
+[2024-04-10 05:52:30] INFO root fetch - processPackages [ros-cdk-arms]: executing diffoscope
+[2024-04-10 05:52:30] INFO root fetch - processPackages [ros-cdk-arms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-arms-1.0.8.tar.gz tmp/ros-cdk-arms-1.0.9.tar.gz --markdown 20240410/r/ros-cdk-arms/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-10 05:52:30] INFO root fetch - processPackages [ros-cdk-actiontrail]: executing diffoscope
+[2024-04-10 05:52:30] INFO root fetch - processPackages [ros-cdk-actiontrail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-actiontrail-1.0.8.tar.gz tmp/ros-cdk-actiontrail-1.0.9.tar.gz --markdown 20240410/r/ros-cdk-actiontrail/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-10 05:52:30] INFO root fetch - processPackages [RabbitSpider]: executing diffoscope
+[2024-04-10 05:52:30] INFO root fetch - processPackages [RabbitSpider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RabbitSpider-1.0.0.tar.gz tmp/RabbitSpider-1.2.0.tar.gz --markdown 20240410/R/RabbitSpider/1.0.0-1.2.0/README.md --exclude *.pyd
+[2024-04-10 05:52:30] INFO root fetch - processPackages [streamlit-cookies-controller]: executing diffoscope
+[2024-04-10 05:52:30] INFO root fetch - processPackages [streamlit-cookies-controller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-cookies-controller-0.0.3.tar.gz tmp/streamlit-cookies-controller-0.0.4.tar.gz --markdown 20240410/s/streamlit-cookies-controller/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-10 05:52:30] INFO root fetch - processPackages [czsc]: Downloading https://files.pythonhosted.org/packages/65/2a/c6b0017939d88546e65732fc499326433b075adecda347c5aca412e4fe77/czsc-0.9.9.tar.gz
+[2024-04-10 05:52:30] INFO root fetch - processPackages [ros-cdk-ots]: executing diffoscope
+[2024-04-10 05:52:30] INFO root fetch - processPackages [ros-cdk-ots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-ots-1.0.8.tar.gz tmp/ros-cdk-ots-1.0.9.tar.gz --markdown 20240410/r/ros-cdk-ots/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-10 05:52:31] INFO root fetch - processPackages [czsc]: executing diffoscope
+[2024-04-10 05:52:31] INFO root fetch - processPackages [czsc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/czsc-0.9.8.tar.gz tmp/czsc-0.9.9.tar.gz --markdown 20240410/c/czsc/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-10 05:52:31] INFO root fetch - processPackages [usearch]: Downloading https://files.pythonhosted.org/packages/d6/35/835356907691f8adc22f60e729aeeaeaef9b81bf07a96079c9ed33a94b4b/usearch-2.9.2-cp39-cp39-win_amd64.whl
+[2024-04-10 05:52:31] INFO root fetch - processPackages [usearch]: executing diffoscope
+[2024-04-10 05:52:31] INFO root fetch - processPackages [usearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usearch-2.9.1-cp39-cp39-win_amd64.whl.zip tmp/usearch-2.9.2-cp39-cp39-win_amd64.whl.zip --markdown 20240410/u/usearch/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-04-10 05:52:31] INFO root fetch - processPackages [NNEngine]: Remove: archive file [/home/abi/fetcher/tmp/NNEngine-0.0.7.tar.gz]
+[2024-04-10 05:52:31] INFO root fetch - processPackages [NNEngine]: Remove: archive file [/home/abi/fetcher/tmp/NNEngine-0.0.9.tar.gz]
+[2024-04-10 05:52:31] INFO root fetch - main [MainThread]: End processing [NNEngine]: success
+[2024-04-10 05:52:31] INFO root fetch - processPackages [ros-cdk-arms]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-arms-1.0.8.tar.gz]
+[2024-04-10 05:52:31] INFO root fetch - processPackages [ros-cdk-arms]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-arms-1.0.9.tar.gz]
+[2024-04-10 05:52:31] INFO root fetch - main [MainThread]: End processing [ros-cdk-arms]: success
+[2024-04-10 05:52:31] INFO root fetch - processPackages [ros-cdk-ots]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ots-1.0.8.tar.gz]
+[2024-04-10 05:52:31] INFO root fetch - processPackages [ros-cdk-ots]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ots-1.0.9.tar.gz]
+[2024-04-10 05:52:31] INFO root fetch - main [MainThread]: End processing [ros-cdk-ots]: success
+[2024-04-10 05:52:31] INFO root fetch - processPackages [RabbitSpider]: Remove: archive file [/home/abi/fetcher/tmp/RabbitSpider-1.0.0.tar.gz]
+[2024-04-10 05:52:31] INFO root fetch - processPackages [RabbitSpider]: Remove: archive file [/home/abi/fetcher/tmp/RabbitSpider-1.2.0.tar.gz]
+[2024-04-10 05:52:31] INFO root fetch - main [MainThread]: End processing [RabbitSpider]: success
+[2024-04-10 05:52:31] INFO root fetch - processPackages [ros-cdk-actiontrail]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-actiontrail-1.0.8.tar.gz]
+[2024-04-10 05:52:31] INFO root fetch - processPackages [ros-cdk-actiontrail]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-actiontrail-1.0.9.tar.gz]
+[2024-04-10 05:52:31] INFO root fetch - main [MainThread]: End processing [ros-cdk-actiontrail]: success
+[2024-04-10 05:52:31] INFO root fetch - processPackages [streamlit-cookies-controller]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-cookies-controller-0.0.3.tar.gz]
+[2024-04-10 05:52:31] INFO root fetch - processPackages [streamlit-cookies-controller]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-cookies-controller-0.0.4.tar.gz]
+[2024-04-10 05:52:31] INFO root fetch - main [MainThread]: End processing [streamlit-cookies-controller]: success
+[2024-04-10 05:52:32] INFO root fetch - processPackages [czsc]: Remove: archive file [/home/abi/fetcher/tmp/czsc-0.9.8.tar.gz]
+[2024-04-10 05:52:32] INFO root fetch - processPackages [czsc]: Remove: archive file [/home/abi/fetcher/tmp/czsc-0.9.9.tar.gz]
+[2024-04-10 05:52:32] INFO root fetch - main [MainThread]: End processing [czsc]: success
+[2024-04-10 05:52:32] INFO root fetch - processPackages [usearch]: Remove: archive file [/home/abi/fetcher/tmp/usearch-2.9.1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-10 05:52:32] INFO root fetch - processPackages [usearch]: Remove: archive file [/home/abi/fetcher/tmp/usearch-2.9.2-cp39-cp39-win_amd64.whl.zip]
+[2024-04-10 05:52:32] INFO root fetch - main [MainThread]: End processing [usearch]: success
+[2024-04-10 05:52:32] INFO root fetch - main [MainThread]: Store serial: [22695422]

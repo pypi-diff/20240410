@@ -8663,3 +8663,162 @@
 [2024-04-10 04:06:24] INFO root fetch - processPackages [ocptv-pci-lmt]: Remove: archive file [/home/abi/fetcher/tmp/ocptv-pci_lmt-1.3.1.tar.gz]
 [2024-04-10 04:06:24] INFO root fetch - main [MainThread]: End processing [ocptv-pci-lmt]: success
 [2024-04-10 04:06:24] INFO root fetch - main [MainThread]: Store serial: [22694389]
+[2024-04-10 04:08:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22694389]
+[2024-04-10 04:08:34] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-10 04:08:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sleipnirgroup-jormungandr
+[2024-04-10 04:08:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coastseg
+[2024-04-10 04:08:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-esi
+[2024-04-10 04:08:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyLLSM5DTools
+[2024-04-10 04:08:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ecosystem-notebooks
+[2024-04-10 04:08:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: DynamicRoutingTask
+[2024-04-10 04:08:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: text-det-metric
+[2024-04-10 04:08:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: linkml-store
+[2024-04-10 04:08:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: icetcore
+[2024-04-10 04:08:34] INFO root fetch - processPackages [ecosystem-notebooks]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-10 04:08:34] INFO root fetch - processPackages [ecosystem-notebooks]: Downloading https://files.pythonhosted.org/packages/b1/4f/98bf4d5ea4724fe58afc3b18b09c86cf02110eaf056e5f621709ae9e404d/ecosystem-notebooks-0.1.5.tar.gz
+[2024-04-10 04:08:34] INFO root fetch - processPackages [PyLLSM5DTools]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-10 04:08:34] INFO root fetch - processPackages [coastseg]: New version: [1.2.2] Old Version: [1.2.1.dev0]
+[2024-04-10 04:08:34] ERROR root fetch - processPackages [linkml-store]: Unable to get metadata: No such project 'linkml-store'
+[2024-04-10 04:08:34] INFO root fetch - main [MainThread]: End processing [linkml-store] error
+[2024-04-10 04:08:34] INFO root fetch - processPackages [django-esi]: New version: [5.3.0b1] Old Version: [5.2.0]
+[2024-04-10 04:08:34] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: New version: [0.0.1.dev99] Old Version: [0.0.1.dev98]
+[2024-04-10 04:08:34] INFO root fetch - processPackages [DynamicRoutingTask]: New version: [0.1.96] Old Version: [0.1.95]
+[2024-04-10 04:08:34] INFO root fetch - processPackages [ecosystem-notebooks]: Downloading https://files.pythonhosted.org/packages/70/4f/c9cce32d8c4fcefe0be111b84d1cbf9dc0fedb50f523f93d6453326f5738/ecosystem-notebooks-0.1.6.tar.gz
+[2024-04-10 04:08:34] INFO root fetch - processPackages [icetcore]: New version: [6.6.38] Old Version: [6.6.36]
+[2024-04-10 04:08:34] INFO root fetch - processPackages [coastseg]: Downloading https://files.pythonhosted.org/packages/c1/8c/6d6410cc9232804fe80e055699929b57f24ed7af7bdd986a69f24449eda0/coastseg-1.2.1.dev0.tar.gz
+[2024-04-10 04:08:34] INFO root fetch - processPackages [PyLLSM5DTools]: Downloading https://files.pythonhosted.org/packages/fa/4d/417d5a6142843a715176d6189db3e7d141d7d5b87384d0528ba13ded9876/PyLLSM5DTools-1.0.2.tar.gz
+[2024-04-10 04:08:34] INFO root fetch - processPackages [ecosystem-notebooks]: executing diffoscope
+[2024-04-10 04:08:34] INFO root fetch - processPackages [ecosystem-notebooks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecosystem-notebooks-0.1.5.tar.gz tmp/ecosystem-notebooks-0.1.6.tar.gz --markdown 20240410/e/ecosystem-notebooks/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-10 04:08:35] WARNING root fetch - processPackages [coastseg]: Skipping package: exceeds size limit 24406887>=10485760
+[2024-04-10 04:08:35] INFO root fetch - main [MainThread]: End processing [coastseg] error
+[2024-04-10 04:08:35] INFO root fetch - processPackages [django-esi]: Downloading https://files.pythonhosted.org/packages/55/eb/6d7b6b68398a33d53fd489910f34555e95916992396fe849fe77864201f0/django_esi-5.2.0.tar.gz
+[2024-04-10 04:08:35] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Downloading https://files.pythonhosted.org/packages/cc/12/913e734462cf5d457ad69ec174744b76c771c8b63ebfb55efeb3cf02373e/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz
+[2024-04-10 04:08:35] INFO root fetch - processPackages [DynamicRoutingTask]: Downloading https://files.pythonhosted.org/packages/80/0f/a3069c7c257a87ca8c0582081bdbd6a4bca1b35e2f2bf25f7ec71c110520/DynamicRoutingTask-0.1.95.tar.gz
+[2024-04-10 04:08:35] INFO root fetch - processPackages [icetcore]: Downloading https://files.pythonhosted.org/packages/9a/6c/1644598392f02649dba4bf2c1793c61e23d62daa12aed760437e2b9fd3dc/icetcore-6.6.36-py3-none-any.whl
+[2024-04-10 04:08:35] INFO root fetch - processPackages [text-det-metric]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-10 04:08:35] INFO root fetch - processPackages [PyLLSM5DTools]: Downloading https://files.pythonhosted.org/packages/7a/cb/05f6f2370c0d8cf13342890b7d1aa0dcc34f799bb29fe8855e01346695d9/PyLLSM5DTools-1.0.3.tar.gz
+[2024-04-10 04:08:35] INFO root fetch - processPackages [PyLLSM5DTools]: executing diffoscope
+[2024-04-10 04:08:35] INFO root fetch - processPackages [PyLLSM5DTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyLLSM5DTools-1.0.2.tar.gz tmp/PyLLSM5DTools-1.0.3.tar.gz --markdown 20240410/P/PyLLSM5DTools/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-10 04:08:35] INFO root fetch - processPackages [django-esi]: Downloading https://files.pythonhosted.org/packages/b1/87/e50522cc9687da37c8f99a042fb4ff30cfae930ed8e0211c991f2ecf8fbf/django_esi-5.3.0b1.tar.gz
+[2024-04-10 04:08:35] INFO root fetch - processPackages [text-det-metric]: Downloading https://files.pythonhosted.org/packages/ee/7a/4ed373a15738e213306ee82e80114d5ee8d50ede357447737f98ae22cbf2/text_det_metric-0.0.6-py3-none-any.whl
+[2024-04-10 04:08:35] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Downloading https://files.pythonhosted.org/packages/c4/65/9e9a4eafe0a550c5be12a69cf1665a71a4b5c434089722b18386b65569f5/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz
+[2024-04-10 04:08:35] INFO root fetch - processPackages [DynamicRoutingTask]: Downloading https://files.pythonhosted.org/packages/0c/b6/349f4c43ff630f048e92eff6015e5111b821859270950a2e4b12440bd299/DynamicRoutingTask-0.1.96.tar.gz
+[2024-04-10 04:08:35] INFO root fetch - processPackages [django-esi]: executing diffoscope
+[2024-04-10 04:08:35] INFO root fetch - processPackages [django-esi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_esi-5.2.0.tar.gz tmp/django_esi-5.3.0b1.tar.gz --markdown 20240410/d/django-esi/5.2.0-5.3.0b1/README.md --exclude *.pyd
+[2024-04-10 04:08:35] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: executing diffoscope
+[2024-04-10 04:08:35] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz tmp/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz --markdown 20240410/s/sleipnirgroup-jormungandr/0.0.1.dev98-0.0.1.dev99/README.md --exclude *.pyd
+[2024-04-10 04:08:35] INFO root fetch - processPackages [DynamicRoutingTask]: executing diffoscope
+[2024-04-10 04:08:35] INFO root fetch - processPackages [DynamicRoutingTask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DynamicRoutingTask-0.1.95.tar.gz tmp/DynamicRoutingTask-0.1.96.tar.gz --markdown 20240410/D/DynamicRoutingTask/0.1.95-0.1.96/README.md --exclude *.pyd
+[2024-04-10 04:08:35] INFO root fetch - processPackages [ecosystem-notebooks]: Remove: archive file [/home/abi/fetcher/tmp/ecosystem-notebooks-0.1.5.tar.gz]
+[2024-04-10 04:08:35] INFO root fetch - processPackages [ecosystem-notebooks]: Remove: archive file [/home/abi/fetcher/tmp/ecosystem-notebooks-0.1.6.tar.gz]
+[2024-04-10 04:08:35] INFO root fetch - main [MainThread]: End processing [ecosystem-notebooks]: success
+[2024-04-10 04:08:36] INFO root fetch - processPackages [text-det-metric]: Downloading https://files.pythonhosted.org/packages/e5/af/f0f4cf99e6b6afa83db0bb431b60fdb281ba18f6015e46b99af4f183baa9/text_det_metric-0.0.7-py3-none-any.whl
+[2024-04-10 04:08:36] INFO root fetch - processPackages [PyLLSM5DTools]: Remove: archive file [/home/abi/fetcher/tmp/PyLLSM5DTools-1.0.2.tar.gz]
+[2024-04-10 04:08:36] INFO root fetch - processPackages [PyLLSM5DTools]: Remove: archive file [/home/abi/fetcher/tmp/PyLLSM5DTools-1.0.3.tar.gz]
+[2024-04-10 04:08:36] INFO root fetch - main [MainThread]: End processing [PyLLSM5DTools]: success
+[2024-04-10 04:08:36] INFO root fetch - processPackages [text-det-metric]: executing diffoscope
+[2024-04-10 04:08:36] INFO root fetch - processPackages [text-det-metric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text_det_metric-0.0.6-py3-none-any.whl.zip tmp/text_det_metric-0.0.7-py3-none-any.whl.zip --markdown 20240410/t/text-det-metric/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-10 04:08:36] INFO root fetch - processPackages [icetcore]: Downloading https://files.pythonhosted.org/packages/cc/55/17456525f7ff389ecf46f2b7e1ff093930b3a252855e962c828d1c6d88cd/icetcore-6.6.38-py3-none-any.whl
+[2024-04-10 04:08:36] INFO root fetch - processPackages [icetcore]: executing diffoscope
+[2024-04-10 04:08:36] INFO root fetch - processPackages [icetcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icetcore-6.6.36-py3-none-any.whl.zip tmp/icetcore-6.6.38-py3-none-any.whl.zip --markdown 20240410/i/icetcore/6.6.36-6.6.38/README.md --exclude *.pyd
+[2024-04-10 04:08:36] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz]
+[2024-04-10 04:08:36] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz]
+[2024-04-10 04:08:36] INFO root fetch - main [MainThread]: End processing [sleipnirgroup-jormungandr]: success
+[2024-04-10 04:08:36] INFO root fetch - processPackages [DynamicRoutingTask]: Remove: archive file [/home/abi/fetcher/tmp/DynamicRoutingTask-0.1.95.tar.gz]
+[2024-04-10 04:08:36] INFO root fetch - processPackages [DynamicRoutingTask]: Remove: archive file [/home/abi/fetcher/tmp/DynamicRoutingTask-0.1.96.tar.gz]
+[2024-04-10 04:08:36] INFO root fetch - main [MainThread]: End processing [DynamicRoutingTask]: success
+[2024-04-10 04:08:36] INFO root fetch - processPackages [django-esi]: Remove: archive file [/home/abi/fetcher/tmp/django_esi-5.2.0.tar.gz]
+[2024-04-10 04:08:36] INFO root fetch - processPackages [django-esi]: Remove: archive file [/home/abi/fetcher/tmp/django_esi-5.3.0b1.tar.gz]
+[2024-04-10 04:08:36] INFO root fetch - main [MainThread]: End processing [django-esi]: success
+[2024-04-10 04:08:36] INFO root fetch - processPackages [text-det-metric]: Remove: archive file [/home/abi/fetcher/tmp/text_det_metric-0.0.6-py3-none-any.whl.zip]
+[2024-04-10 04:08:36] INFO root fetch - processPackages [text-det-metric]: Remove: archive file [/home/abi/fetcher/tmp/text_det_metric-0.0.7-py3-none-any.whl.zip]
+[2024-04-10 04:08:36] INFO root fetch - main [MainThread]: End processing [text-det-metric]: success
+[2024-04-10 04:08:37] ERROR root fetch - processPackages [icetcore]: Diffoscope failed: time="2024-04-10T04:08:36+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid start byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 433, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid start byte
+
+[2024-04-10 04:08:37] INFO root fetch - main [MainThread]: End processing [icetcore] error
+[2024-04-10 04:08:37] INFO root fetch - main [MainThread]: Store serial: [22694426]

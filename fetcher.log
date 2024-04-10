@@ -22936,3 +22936,73 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-10 14:00:48] INFO root fetch - processPackages [rose-pine-jupyterlab]: Remove: archive file [/home/abi/fetcher/tmp/rose_pine_jupyterlab-0.1.5.tar.gz]
 [2024-04-10 14:00:48] INFO root fetch - main [MainThread]: End processing [rose-pine-jupyterlab]: success
 [2024-04-10 14:00:48] INFO root fetch - main [MainThread]: Store serial: [22700505]
+[2024-04-10 14:02:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22700505]
+[2024-04-10 14:02:57] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-10 14:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: few-shot-priming
+[2024-04-10 14:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: erlab
+[2024-04-10 14:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: libsegmenter
+[2024-04-10 14:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: napalm
+[2024-04-10 14:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: m9s-account-deposit
+[2024-04-10 14:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: IPYNBrenderer033
+[2024-04-10 14:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: navigate-micro
+[2024-04-10 14:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: few-shot-priming
+[2024-04-10 14:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: emx
+[2024-04-10 14:02:57] WARNING root fetch - processPackages [emx]: Skipping, unable to determine old version
+[2024-04-10 14:02:57] INFO root fetch - processPackages [libsegmenter]: New version: [0.2] Old Version: [0.1]
+[2024-04-10 14:02:57] INFO root fetch - main [MainThread]: End processing [emx] error
+[2024-04-10 14:02:57] INFO root fetch - processPackages [erlab]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-04-10 14:02:57] WARNING root fetch - processPackages [IPYNBrenderer033]: Skipping, unable to determine old version
+[2024-04-10 14:02:57] INFO root fetch - main [MainThread]: End processing [IPYNBrenderer033] error
+[2024-04-10 14:02:57] INFO root fetch - processPackages [libsegmenter]: Downloading https://files.pythonhosted.org/packages/c3/f5/f828ed935c81719b27d80b4a4d1772d2b9fda36d58c4b1f423f6b1a1eb22/libsegmenter-0.1.tar.gz
+[2024-04-10 14:02:57] INFO root fetch - processPackages [napalm]: New version: [5.0.0] Old Version: [4.1.0]
+[2024-04-10 14:02:57] INFO root fetch - processPackages [m9s-account-deposit]: New version: [7.0.2.3] Old Version: [7.0.2.2]
+[2024-04-10 14:02:57] INFO root fetch - processPackages [navigate-micro]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-10 14:02:57] INFO root fetch - processPackages [few-shot-priming]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-04-10 14:02:57] INFO root fetch - processPackages [few-shot-priming]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-04-10 14:02:57] INFO root fetch - processPackages [erlab]: Downloading https://files.pythonhosted.org/packages/83/16/0295f27b85914f332ed9b1104afbcbbb449222e8a4d32a6c52e3a11e06fb/erlab-2.0.0.tar.gz
+[2024-04-10 14:02:57] INFO root fetch - processPackages [m9s-account-deposit]: Downloading https://files.pythonhosted.org/packages/85/41/b7a1202d1f49131a335396bf4e0fb3ed93621bb97331dd6a6586cf3d6584/m9s_account_deposit-7.0.2.2.tar.gz
+[2024-04-10 14:02:57] INFO root fetch - processPackages [napalm]: Downloading https://files.pythonhosted.org/packages/f4/38/79a895bb0d1e326081da1d5eb8ddec3e8c85f853052e35965e49b1e14dd1/napalm-4.1.0.tar.gz
+[2024-04-10 14:02:57] INFO root fetch - processPackages [libsegmenter]: Downloading https://files.pythonhosted.org/packages/87/64/ab3a30a6ec284c5008120c57fd1a53648793353bfaa9c3daa14df0622fbc/libsegmenter-0.2-pp39-pypy39_pp73-macosx_11_0_arm64.whl
+[2024-04-10 14:02:57] INFO root fetch - processPackages [navigate-micro]: Downloading https://files.pythonhosted.org/packages/81/06/f83437c28aa953652801659a9007c3a7c47bc60a151030384dc686838bd1/navigate-micro-0.0.4.tar.gz
+[2024-04-10 14:02:57] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/eb/67/d15b11d0bfb57369fa16ba7f8c97cd3ddec8f771e6da8f11a3d819004b69/few_shot_priming-0.3.98-py3-none-any.whl
+[2024-04-10 14:02:57] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/eb/67/d15b11d0bfb57369fa16ba7f8c97cd3ddec8f771e6da8f11a3d819004b69/few_shot_priming-0.3.98-py3-none-any.whl
+[2024-04-10 14:02:57] INFO root fetch - processPackages [libsegmenter]: executing diffoscope
+[2024-04-10 14:02:57] INFO root fetch - processPackages [libsegmenter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libsegmenter-0.1.tar.gz tmp/libsegmenter-0.2-pp39-pypy39_pp73-macosx_11_0_arm64.whl.zip --markdown 20240410/l/libsegmenter/0.1-0.2/README.md --exclude *.pyd
+[2024-04-10 14:02:57] INFO root fetch - processPackages [m9s-account-deposit]: Downloading https://files.pythonhosted.org/packages/1d/29/f10b77cf75db711fb1bd3e2f8f9b25f0ba4426f162b61be5391898b1cd73/m9s_account_deposit-7.0.2.3.tar.gz
+[2024-04-10 14:02:58] INFO root fetch - processPackages [napalm]: Downloading https://files.pythonhosted.org/packages/a9/68/e0de16b384eb70bb4cb87d157c1a6907e34c33e8b85effce156032a82139/napalm-5.0.0.tar.gz
+[2024-04-10 14:02:58] INFO root fetch - processPackages [erlab]: Downloading https://files.pythonhosted.org/packages/76/29/e2ff57fb2caf7af0c90a69938e15c9f327d2e1d893bb4aa7ea89d23d1cfd/erlab-2.1.0.tar.gz
+[2024-04-10 14:02:58] INFO root fetch - processPackages [m9s-account-deposit]: executing diffoscope
+[2024-04-10 14:02:58] INFO root fetch - processPackages [m9s-account-deposit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m9s_account_deposit-7.0.2.2.tar.gz tmp/m9s_account_deposit-7.0.2.3.tar.gz --markdown 20240410/m/m9s-account-deposit/7.0.2.2-7.0.2.3/README.md --exclude *.pyd
+[2024-04-10 14:02:58] INFO root fetch - processPackages [navigate-micro]: Downloading https://files.pythonhosted.org/packages/eb/bb/240745baf98bbe7f6f93564080a35f51281d1a98ca63b4bd39579e6c43e8/navigate-micro-0.0.5.tar.gz
+[2024-04-10 14:02:58] INFO root fetch - processPackages [napalm]: executing diffoscope
+[2024-04-10 14:02:58] INFO root fetch - processPackages [napalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napalm-4.1.0.tar.gz tmp/napalm-5.0.0.tar.gz --markdown 20240410/n/napalm/4.1.0-5.0.0/README.md --exclude *.pyd
+[2024-04-10 14:02:58] INFO root fetch - processPackages [navigate-micro]: executing diffoscope
+[2024-04-10 14:02:58] INFO root fetch - processPackages [navigate-micro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/navigate-micro-0.0.4.tar.gz tmp/navigate-micro-0.0.5.tar.gz --markdown 20240410/n/navigate-micro/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-10 14:02:58] INFO root fetch - processPackages [libsegmenter]: Remove: archive file [/home/abi/fetcher/tmp/libsegmenter-0.1.tar.gz]
+[2024-04-10 14:02:58] INFO root fetch - processPackages [libsegmenter]: Remove: archive file [/home/abi/fetcher/tmp/libsegmenter-0.2-pp39-pypy39_pp73-macosx_11_0_arm64.whl.zip]
+[2024-04-10 14:02:58] INFO root fetch - main [MainThread]: End processing [libsegmenter]: success
+[2024-04-10 14:02:58] INFO root fetch - processPackages [erlab]: executing diffoscope
+[2024-04-10 14:02:58] INFO root fetch - processPackages [erlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erlab-2.0.0.tar.gz tmp/erlab-2.1.0.tar.gz --markdown 20240410/e/erlab/2.0.0-2.1.0/README.md --exclude *.pyd
+[2024-04-10 14:02:58] INFO root fetch - processPackages [m9s-account-deposit]: Remove: archive file [/home/abi/fetcher/tmp/m9s_account_deposit-7.0.2.2.tar.gz]
+[2024-04-10 14:02:58] INFO root fetch - processPackages [m9s-account-deposit]: Remove: archive file [/home/abi/fetcher/tmp/m9s_account_deposit-7.0.2.3.tar.gz]
+[2024-04-10 14:02:58] INFO root fetch - main [MainThread]: End processing [m9s-account-deposit]: success
+[2024-04-10 14:02:59] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/ff/11/548f6e96803602e6431dc610d736d401b20fde986f85c35c8ad19a6d0958/few_shot_priming-0.3.99-py3-none-any.whl
+[2024-04-10 14:02:59] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/ff/11/548f6e96803602e6431dc610d736d401b20fde986f85c35c8ad19a6d0958/few_shot_priming-0.3.99-py3-none-any.whl
+[2024-04-10 14:02:59] INFO root fetch - processPackages [napalm]: Remove: archive file [/home/abi/fetcher/tmp/napalm-4.1.0.tar.gz]
+[2024-04-10 14:02:59] INFO root fetch - processPackages [napalm]: Remove: archive file [/home/abi/fetcher/tmp/napalm-5.0.0.tar.gz]
+[2024-04-10 14:02:59] INFO root fetch - main [MainThread]: End processing [napalm]: success
+[2024-04-10 14:02:59] INFO root fetch - processPackages [erlab]: Remove: archive file [/home/abi/fetcher/tmp/erlab-2.0.0.tar.gz]
+[2024-04-10 14:02:59] INFO root fetch - processPackages [erlab]: Remove: archive file [/home/abi/fetcher/tmp/erlab-2.1.0.tar.gz]
+[2024-04-10 14:02:59] INFO root fetch - main [MainThread]: End processing [erlab]: success
+[2024-04-10 14:03:00] INFO root fetch - processPackages [navigate-micro]: Remove: archive file [/home/abi/fetcher/tmp/navigate-micro-0.0.4.tar.gz]
+[2024-04-10 14:03:00] INFO root fetch - processPackages [navigate-micro]: Remove: archive file [/home/abi/fetcher/tmp/navigate-micro-0.0.5.tar.gz]
+[2024-04-10 14:03:00] INFO root fetch - main [MainThread]: End processing [navigate-micro]: success
+[2024-04-10 14:03:00] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2024-04-10 14:03:00] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip --markdown 20240410/f/few-shot-priming/0.3.98-0.3.99/README.md --exclude *.pyd
+[2024-04-10 14:03:00] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2024-04-10 14:03:00] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip --markdown 20240410/f/few-shot-priming/0.3.98-0.3.99/README.md --exclude *.pyd
+[2024-04-10 14:03:01] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip]
+[2024-04-10 14:03:01] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
+[2024-04-10 14:03:01] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2024-04-10 14:03:01] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2024-04-10 14:03:01] INFO root fetch - main [MainThread]: Store serial: [22700609]

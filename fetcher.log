@@ -10313,3 +10313,71 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 05:12:32] INFO root fetch - processPackages [ros-cdk-ddospro]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ddospro-1.0.24.tar.gz]
 [2024-04-10 05:12:32] INFO root fetch - main [MainThread]: End processing [ros-cdk-ddospro]: success
 [2024-04-10 05:12:32] INFO root fetch - main [MainThread]: Store serial: [22694944]
+[2024-04-10 05:14:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22694944]
+[2024-04-10 05:14:41] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-10 05:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mlflow-cratedb
+[2024-04-10 05:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ros-cdk-marketplace
+[2024-04-10 05:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytruncreg
+[2024-04-10 05:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pydbsmgr
+[2024-04-10 05:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: accumul8
+[2024-04-10 05:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aistudio-sdk
+[2024-04-10 05:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rti.connext
+[2024-04-10 05:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ros-cdk-rds
+[2024-04-10 05:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-gcp
+[2024-04-10 05:14:41] WARNING root fetch - processPackages [pytruncreg]: Skipping, unable to determine old version
+[2024-04-10 05:14:41] INFO root fetch - main [MainThread]: End processing [pytruncreg] error
+[2024-04-10 05:14:41] INFO root fetch - processPackages [pydbsmgr]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-04-10 05:14:41] WARNING root fetch - processPackages [accumul8]: Skipping, unable to determine old version
+[2024-04-10 05:14:41] INFO root fetch - main [MainThread]: End processing [accumul8] error
+[2024-04-10 05:14:41] INFO root fetch - processPackages [pulumi-gcp]: New version: [7.9.0a1707934510] Old Version: [7.9.0a1707891532]
+[2024-04-10 05:14:41] INFO root fetch - processPackages [rti.connext]: New version: [7.3.0] Old Version: [7.2.0.dev0]
+[2024-04-10 05:14:41] INFO root fetch - processPackages [pydbsmgr]: Downloading https://files.pythonhosted.org/packages/d0/ee/ad630e89ba91edbc81b40a10548ad78ecb3f2847c9da8e9f6458fd9dfa2d/pydbsmgr-0.9.1.tar.gz
+[2024-04-10 05:14:41] INFO root fetch - processPackages [mlflow-cratedb]: New version: [2.9.2] Old Version: [2.8.1]
+[2024-04-10 05:14:41] INFO root fetch - processPackages [ros-cdk-marketplace]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-10 05:14:41] INFO root fetch - processPackages [aistudio-sdk]: New version: [0.2.0] Old Version: [0.1.7]
+[2024-04-10 05:14:41] INFO root fetch - processPackages [ros-cdk-rds]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-10 05:14:41] INFO root fetch - processPackages [pulumi-gcp]: Downloading https://files.pythonhosted.org/packages/f0/b4/677e3618cc42a30dd41030c6dee1b6b9d52e956632b9a1eeb84c0c2d8e3c/pulumi_gcp-7.9.0a1707891532.tar.gz
+[2024-04-10 05:14:41] INFO root fetch - processPackages [rti.connext]: Downloading https://files.pythonhosted.org/packages/27/d5/f48399329eb3f5fe8904b7bd8556c415ee7be6f6d98c0c4dc464ca39e694/rti.connext-7.2.0.dev0-cp38-cp38-macosx_13_0_arm64.whl
+[2024-04-10 05:14:41] INFO root fetch - processPackages [pydbsmgr]: Downloading https://files.pythonhosted.org/packages/b7/fe/bb1187b86424a9204120f4fb9e7e2bbeb270db7b9b855f7d0a649838d9f8/pydbsmgr-0.9.2.tar.gz
+[2024-04-10 05:14:41] INFO root fetch - processPackages [mlflow-cratedb]: Downloading https://files.pythonhosted.org/packages/67/37/2b2fe5939cfe18fc8d05fb6ea6781c7aaf90e7be044b1ba6690350bc3aaf/mlflow-cratedb-2.8.1.tar.gz
+[2024-04-10 05:14:41] WARNING root fetch - processPackages [rti.connext]: Skipping package: exceeds size limit 22602107>=10485760
+[2024-04-10 05:14:41] INFO root fetch - main [MainThread]: End processing [rti.connext] error
+[2024-04-10 05:14:41] INFO root fetch - processPackages [ros-cdk-marketplace]: Downloading https://files.pythonhosted.org/packages/8e/e1/b7232d178ee8b428ac6efa94d4197cdbf172033d640aa754c65f1cbac85a/ros-cdk-marketplace-1.0.8.tar.gz
+[2024-04-10 05:14:41] INFO root fetch - processPackages [aistudio-sdk]: Downloading https://files.pythonhosted.org/packages/25/19/37d51f3194e9c6acf81aa0fb9aab5954f93e8c12e2f97be2c26527c8af58/aistudio_sdk-0.1.7-py3-none-any.whl
+[2024-04-10 05:14:41] INFO root fetch - processPackages [ros-cdk-rds]: Downloading https://files.pythonhosted.org/packages/4d/b9/54939a4be8c7f3fc90857a78705be2ea6ff1efdc2577ae9c348c1fc306fa/ros-cdk-rds-1.0.8.tar.gz
+[2024-04-10 05:14:41] INFO root fetch - processPackages [pydbsmgr]: executing diffoscope
+[2024-04-10 05:14:41] INFO root fetch - processPackages [pydbsmgr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydbsmgr-0.9.1.tar.gz tmp/pydbsmgr-0.9.2.tar.gz --markdown 20240410/p/pydbsmgr/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-04-10 05:14:42] INFO root fetch - processPackages [pulumi-gcp]: Downloading https://files.pythonhosted.org/packages/e8/4f/d6c8ded38a6c81689a5fb00b6aea9daeef82f4686f3ad6c74eba94b37d8b/pulumi_gcp-7.9.0a1707934510.tar.gz
+[2024-04-10 05:14:42] INFO root fetch - processPackages [aistudio-sdk]: Downloading https://files.pythonhosted.org/packages/4c/1c/8570f15fa70f529e6039d874db416bca99f73e63fa2b4afd4e3bbd811b1c/aistudio_sdk-0.2.0-py3-none-any.whl
+[2024-04-10 05:14:42] INFO root fetch - processPackages [mlflow-cratedb]: Downloading https://files.pythonhosted.org/packages/57/7c/d0d535bd1c3912b17b807ca0b5f83f2504d7862b0ab2bda5b261b7a9e9b5/mlflow-cratedb-2.9.2.tar.gz
+[2024-04-10 05:14:42] INFO root fetch - processPackages [ros-cdk-rds]: Downloading https://files.pythonhosted.org/packages/a7/73/941d30ecd6a2e656e2bbafa58831a40dd39d1fad6b10b9a3c25f6c6dda65/ros-cdk-rds-1.0.9.tar.gz
+[2024-04-10 05:14:42] INFO root fetch - processPackages [ros-cdk-marketplace]: Downloading https://files.pythonhosted.org/packages/cb/80/66e8ec6950fc3869e6a34747a60b7a1487015a9207a39c99c8b2a0a34449/ros-cdk-marketplace-1.0.9.tar.gz
+[2024-04-10 05:14:42] INFO root fetch - processPackages [aistudio-sdk]: executing diffoscope
+[2024-04-10 05:14:42] INFO root fetch - processPackages [aistudio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aistudio_sdk-0.1.7-py3-none-any.whl.zip tmp/aistudio_sdk-0.2.0-py3-none-any.whl.zip --markdown 20240410/a/aistudio-sdk/0.1.7-0.2.0/README.md --exclude *.pyd
+[2024-04-10 05:14:42] INFO root fetch - processPackages [mlflow-cratedb]: executing diffoscope
+[2024-04-10 05:14:42] INFO root fetch - processPackages [mlflow-cratedb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlflow-cratedb-2.8.1.tar.gz tmp/mlflow-cratedb-2.9.2.tar.gz --markdown 20240410/m/mlflow-cratedb/2.8.1-2.9.2/README.md --exclude *.pyd
+[2024-04-10 05:14:42] INFO root fetch - processPackages [ros-cdk-rds]: executing diffoscope
+[2024-04-10 05:14:42] INFO root fetch - processPackages [ros-cdk-rds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-rds-1.0.8.tar.gz tmp/ros-cdk-rds-1.0.9.tar.gz --markdown 20240410/r/ros-cdk-rds/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-10 05:14:42] INFO root fetch - processPackages [ros-cdk-marketplace]: executing diffoscope
+[2024-04-10 05:14:42] INFO root fetch - processPackages [ros-cdk-marketplace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-marketplace-1.0.8.tar.gz tmp/ros-cdk-marketplace-1.0.9.tar.gz --markdown 20240410/r/ros-cdk-marketplace/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-10 05:14:42] INFO root fetch - processPackages [pulumi-gcp]: executing diffoscope
+[2024-04-10 05:14:42] INFO root fetch - processPackages [pulumi-gcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_gcp-7.9.0a1707891532.tar.gz tmp/pulumi_gcp-7.9.0a1707934510.tar.gz --markdown 20240410/p/pulumi-gcp/7.9.0a1707891532-7.9.0a1707934510/README.md --exclude *.pyd
+[2024-04-10 05:14:42] INFO root fetch - processPackages [pydbsmgr]: Remove: archive file [/home/abi/fetcher/tmp/pydbsmgr-0.9.1.tar.gz]
+[2024-04-10 05:14:42] INFO root fetch - processPackages [pydbsmgr]: Remove: archive file [/home/abi/fetcher/tmp/pydbsmgr-0.9.2.tar.gz]
+[2024-04-10 05:14:42] INFO root fetch - main [MainThread]: End processing [pydbsmgr]: success
+[2024-04-10 05:14:43] INFO root fetch - processPackages [aistudio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/aistudio_sdk-0.1.7-py3-none-any.whl.zip]
+[2024-04-10 05:14:43] INFO root fetch - processPackages [aistudio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/aistudio_sdk-0.2.0-py3-none-any.whl.zip]
+[2024-04-10 05:14:43] INFO root fetch - main [MainThread]: End processing [aistudio-sdk]: success
+[2024-04-10 05:14:43] INFO root fetch - processPackages [mlflow-cratedb]: Remove: archive file [/home/abi/fetcher/tmp/mlflow-cratedb-2.8.1.tar.gz]
+[2024-04-10 05:14:43] INFO root fetch - processPackages [mlflow-cratedb]: Remove: archive file [/home/abi/fetcher/tmp/mlflow-cratedb-2.9.2.tar.gz]
+[2024-04-10 05:14:43] INFO root fetch - main [MainThread]: End processing [mlflow-cratedb]: success
+[2024-04-10 05:14:43] INFO root fetch - processPackages [ros-cdk-marketplace]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-marketplace-1.0.8.tar.gz]
+[2024-04-10 05:14:43] INFO root fetch - processPackages [ros-cdk-marketplace]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-marketplace-1.0.9.tar.gz]
+[2024-04-10 05:14:43] INFO root fetch - main [MainThread]: End processing [ros-cdk-marketplace]: success
+[2024-04-10 05:14:43] INFO root fetch - processPackages [ros-cdk-rds]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-rds-1.0.8.tar.gz]
+[2024-04-10 05:14:43] INFO root fetch - processPackages [ros-cdk-rds]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-rds-1.0.9.tar.gz]
+[2024-04-10 05:14:43] INFO root fetch - main [MainThread]: End processing [ros-cdk-rds]: success
+[2024-04-10 05:14:52] INFO root fetch - processPackages [pulumi-gcp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gcp-7.9.0a1707891532.tar.gz]
+[2024-04-10 05:14:52] INFO root fetch - processPackages [pulumi-gcp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gcp-7.9.0a1707934510.tar.gz]
+[2024-04-10 05:14:52] INFO root fetch - main [MainThread]: End processing [pulumi-gcp]: success
+[2024-04-10 05:14:52] INFO root fetch - main [MainThread]: Store serial: [22694969]

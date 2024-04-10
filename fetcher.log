@@ -3610,3 +3610,72 @@
 [2024-04-10 02:51:07] INFO root fetch - processPackages [raydp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/raydp_nightly-2024.4.10.dev0-py3-none-any.whl.zip]
 [2024-04-10 02:51:07] INFO root fetch - main [MainThread]: End processing [raydp-nightly]: success
 [2024-04-10 02:51:07] INFO root fetch - main [MainThread]: Store serial: [22692604]
+[2024-04-10 02:53:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22692604]
+[2024-04-10 02:53:23] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-10 02:53:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: systembridgeconnector
+[2024-04-10 02:53:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mlrun-pipelines-kfp-common-experiment
+[2024-04-10 02:53:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-lambda-layer-curl
+[2024-04-10 02:53:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyfilebrowser
+[2024-04-10 02:53:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mov-cli-films
+[2024-04-10 02:53:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wolta
+[2024-04-10 02:53:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Quanthon
+[2024-04-10 02:53:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hidebound
+[2024-04-10 02:53:23] INFO root fetch - processPackages [mov-cli-films]: New version: [1.3.5] Old Version: [1.3.4]
+[2024-04-10 02:53:23] INFO root fetch - processPackages [Quanthon]: New version: [0.3.5.1] Old Version: [0.3.5]
+[2024-04-10 02:53:23] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-10 02:53:23] INFO root fetch - processPackages [mov-cli-films]: Downloading https://files.pythonhosted.org/packages/8f/01/0ad2d913c5f29fd0282e812ad678c68cf4cf267d417c4b4208dcfc426a6c/mov-cli-films-1.3.4.tar.gz
+[2024-04-10 02:53:23] INFO root fetch - processPackages [systembridgeconnector]: New version: [5.0.0.dev2] Old Version: [5.0.0.dev1]
+[2024-04-10 02:53:23] INFO root fetch - processPackages [Quanthon]: Downloading https://files.pythonhosted.org/packages/3d/00/bf0e1d61a2be444439121e6932e4259c1f36587064a26cba340813f4c7d9/Quanthon-0.3.5.tar.gz
+[2024-04-10 02:53:23] WARNING root fetch - processPackages [mlrun-pipelines-kfp-common-experiment]: Skipping, unable to determine old version
+[2024-04-10 02:53:23] INFO root fetch - main [MainThread]: End processing [mlrun-pipelines-kfp-common-experiment] error
+[2024-04-10 02:53:23] INFO root fetch - processPackages [pyfilebrowser]: New version: [0.0.9b0] Old Version: [0.0.9a0]
+[2024-04-10 02:53:23] INFO root fetch - processPackages [wolta]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-10 02:53:23] INFO root fetch - processPackages [hidebound]: New version: [0.9.7] Old Version: [0.9.2]
+[2024-04-10 02:53:23] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2024-04-10 02:53:23] INFO root fetch - processPackages [systembridgeconnector]: Downloading https://files.pythonhosted.org/packages/d7/7d/883418504a70235a27ef8526ca75ae6edafe0d04d7b1c3434656e245befa/systembridgeconnector-5.0.0.dev1.tar.gz
+[2024-04-10 02:53:23] INFO root fetch - processPackages [pyfilebrowser]: Downloading https://files.pythonhosted.org/packages/2f/eb/10b988a7590f89409d807e02c017d767dd502674e53d5bdba3ea5a365981/pyfilebrowser-0.0.9a0-py3-none-any.whl
+[2024-04-10 02:53:23] INFO root fetch - processPackages [wolta]: Downloading https://files.pythonhosted.org/packages/8f/22/84dc1bb64809fe500201778f0a72316886f5f07716afd634d417789b837f/wolta-0.1.7.tar.gz
+[2024-04-10 02:53:23] INFO root fetch - processPackages [hidebound]: Downloading https://files.pythonhosted.org/packages/e3/82/d240824016e19ffc99cd02a004c156d01d6d29f8cdb8de9bd8c3e1bfba9e/hidebound-0.9.2.tar.gz
+[2024-04-10 02:53:23] INFO root fetch - processPackages [mov-cli-films]: Downloading https://files.pythonhosted.org/packages/4d/c3/6ec180410d47faa989c8ba4653d4d182f9e79ebb0d3764424ea3f6549fcb/mov-cli-films-1.3.5.tar.gz
+[2024-04-10 02:53:23] INFO root fetch - processPackages [Quanthon]: Downloading https://files.pythonhosted.org/packages/64/9a/7faa7fb1e443d9898ffbb722f357a6b8e4200bdc909531d62219ae606c90/Quanthon-0.3.5.1.tar.gz
+[2024-04-10 02:53:24] INFO root fetch - processPackages [mov-cli-films]: executing diffoscope
+[2024-04-10 02:53:24] INFO root fetch - processPackages [mov-cli-films]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mov-cli-films-1.3.4.tar.gz tmp/mov-cli-films-1.3.5.tar.gz --markdown 20240410/m/mov-cli-films/1.3.4-1.3.5/README.md --exclude *.pyd
+[2024-04-10 02:53:24] INFO root fetch - processPackages [Quanthon]: executing diffoscope
+[2024-04-10 02:53:24] INFO root fetch - processPackages [Quanthon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Quanthon-0.3.5.tar.gz tmp/Quanthon-0.3.5.1.tar.gz --markdown 20240410/Q/Quanthon/0.3.5-0.3.5.1/README.md --exclude *.pyd
+[2024-04-10 02:53:24] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2024-04-10 02:53:24] INFO root fetch - processPackages [wolta]: Downloading https://files.pythonhosted.org/packages/25/b0/a6ddaae2537e6109bf18d6f4c89a2ea03c1b21cfebdabdbdcaad8280dae4/wolta-0.1.8.tar.gz
+[2024-04-10 02:53:24] INFO root fetch - processPackages [systembridgeconnector]: Downloading https://files.pythonhosted.org/packages/68/a4/a86b7b6ff24a3b54bf13ac8cb02c0a4ad55c91339840060ea7e67267eb9c/systembridgeconnector-5.0.0.dev2.tar.gz
+[2024-04-10 02:53:24] INFO root fetch - processPackages [pyfilebrowser]: Downloading https://files.pythonhosted.org/packages/57/a9/7d7bcb29de7ad354a2f7bfdf7ed9105991a9ba058bba47bb85aa4020554e/pyfilebrowser-0.0.9b0-py3-none-any.whl
+[2024-04-10 02:53:24] INFO root fetch - processPackages [wolta]: executing diffoscope
+[2024-04-10 02:53:24] INFO root fetch - processPackages [wolta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wolta-0.1.7.tar.gz tmp/wolta-0.1.8.tar.gz --markdown 20240410/w/wolta/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-10 02:53:24] INFO root fetch - processPackages [systembridgeconnector]: executing diffoscope
+[2024-04-10 02:53:24] INFO root fetch - processPackages [systembridgeconnector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgeconnector-5.0.0.dev1.tar.gz tmp/systembridgeconnector-5.0.0.dev2.tar.gz --markdown 20240410/s/systembridgeconnector/5.0.0.dev1-5.0.0.dev2/README.md --exclude *.pyd
+[2024-04-10 02:53:24] INFO root fetch - processPackages [hidebound]: Downloading https://files.pythonhosted.org/packages/b5/1c/690f949fb65091e7d7aa80db117303ea172f1a7d194c9f8d4fbb5d0ff73d/hidebound-0.9.7.tar.gz
+[2024-04-10 02:53:24] INFO root fetch - processPackages [pyfilebrowser]: executing diffoscope
+[2024-04-10 02:53:24] INFO root fetch - processPackages [pyfilebrowser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfilebrowser-0.0.9a0-py3-none-any.whl.zip tmp/pyfilebrowser-0.0.9b0-py3-none-any.whl.zip --markdown 20240410/p/pyfilebrowser/0.0.9a0-0.0.9b0/README.md --exclude *.pyd
+[2024-04-10 02:53:24] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2024-04-10 02:53:24] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20240410/c/cdk-lambda-layer-curl/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-04-10 02:53:24] INFO root fetch - processPackages [hidebound]: executing diffoscope
+[2024-04-10 02:53:24] INFO root fetch - processPackages [hidebound]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hidebound-0.9.2.tar.gz tmp/hidebound-0.9.7.tar.gz --markdown 20240410/h/hidebound/0.9.2-0.9.7/README.md --exclude *.pyd
+[2024-04-10 02:53:24] INFO root fetch - processPackages [mov-cli-films]: Remove: archive file [/home/abi/fetcher/tmp/mov-cli-films-1.3.4.tar.gz]
+[2024-04-10 02:53:24] INFO root fetch - processPackages [mov-cli-films]: Remove: archive file [/home/abi/fetcher/tmp/mov-cli-films-1.3.5.tar.gz]
+[2024-04-10 02:53:24] INFO root fetch - main [MainThread]: End processing [mov-cli-films]: success
+[2024-04-10 02:53:24] INFO root fetch - processPackages [Quanthon]: Remove: archive file [/home/abi/fetcher/tmp/Quanthon-0.3.5.tar.gz]
+[2024-04-10 02:53:24] INFO root fetch - processPackages [Quanthon]: Remove: archive file [/home/abi/fetcher/tmp/Quanthon-0.3.5.1.tar.gz]
+[2024-04-10 02:53:24] INFO root fetch - main [MainThread]: End processing [Quanthon]: success
+[2024-04-10 02:53:25] INFO root fetch - processPackages [wolta]: Remove: archive file [/home/abi/fetcher/tmp/wolta-0.1.7.tar.gz]
+[2024-04-10 02:53:25] INFO root fetch - processPackages [wolta]: Remove: archive file [/home/abi/fetcher/tmp/wolta-0.1.8.tar.gz]
+[2024-04-10 02:53:25] INFO root fetch - main [MainThread]: End processing [wolta]: success
+[2024-04-10 02:53:25] INFO root fetch - processPackages [systembridgeconnector]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeconnector-5.0.0.dev1.tar.gz]
+[2024-04-10 02:53:25] INFO root fetch - processPackages [systembridgeconnector]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeconnector-5.0.0.dev2.tar.gz]
+[2024-04-10 02:53:25] INFO root fetch - main [MainThread]: End processing [systembridgeconnector]: success
+[2024-04-10 02:53:25] INFO root fetch - processPackages [pyfilebrowser]: Remove: archive file [/home/abi/fetcher/tmp/pyfilebrowser-0.0.9a0-py3-none-any.whl.zip]
+[2024-04-10 02:53:25] INFO root fetch - processPackages [pyfilebrowser]: Remove: archive file [/home/abi/fetcher/tmp/pyfilebrowser-0.0.9b0-py3-none-any.whl.zip]
+[2024-04-10 02:53:25] INFO root fetch - main [MainThread]: End processing [pyfilebrowser]: success
+[2024-04-10 02:53:25] INFO root fetch - processPackages [hidebound]: Remove: archive file [/home/abi/fetcher/tmp/hidebound-0.9.2.tar.gz]
+[2024-04-10 02:53:25] INFO root fetch - processPackages [hidebound]: Remove: archive file [/home/abi/fetcher/tmp/hidebound-0.9.7.tar.gz]
+[2024-04-10 02:53:25] INFO root fetch - main [MainThread]: End processing [hidebound]: success
+[2024-04-10 02:53:25] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2024-04-10 02:53:25] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2024-04-10 02:53:25] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2024-04-10 02:53:25] INFO root fetch - main [MainThread]: Store serial: [22692646]

@@ -19350,3 +19350,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 11:47:27] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.4.3.18.28.17.tar.gz]
 [2024-04-10 11:47:27] INFO root fetch - main [MainThread]: End processing [chatllm]: success
 [2024-04-10 11:47:27] INFO root fetch - main [MainThread]: Store serial: [22698570]
+[2024-04-10 11:49:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22698570]
+[2024-04-10 11:49:35] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-10 11:49:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nafcodec
+[2024-04-10 11:49:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo13-addon-mrp-multi-level
+[2024-04-10 11:49:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unicms-template-unical
+[2024-04-10 11:49:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ipaacar-python
+[2024-04-10 11:49:35] INFO root fetch - processPackages [nafcodec]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-04-10 11:49:35] INFO root fetch - processPackages [unicms-template-unical]: New version: [1.6.9] Old Version: [1.6.8]
+[2024-04-10 11:49:35] INFO root fetch - processPackages [odoo13-addon-mrp-multi-level]: New version: [13.0.1.9.0] Old Version: [13.0.1.8.4.dev1]
+[2024-04-10 11:49:35] WARNING root fetch - processPackages [ipaacar-python]: Skipping, unable to determine old version
+[2024-04-10 11:49:35] INFO root fetch - main [MainThread]: End processing [ipaacar-python] error
+[2024-04-10 11:49:36] INFO root fetch - processPackages [nafcodec]: Downloading https://files.pythonhosted.org/packages/f5/38/8e145b6d101bf8038d90d31650fa29b8abbfd26a28c2257f6a0283c80dab/nafcodec-0.1.1.tar.gz
+[2024-04-10 11:49:36] INFO root fetch - processPackages [odoo13-addon-mrp-multi-level]: Downloading https://files.pythonhosted.org/packages/35/f8/e462fdad5e63aa086fadee3b812248651b5d07607a33a3f305f6829e9e8e/odoo13_addon_mrp_multi_level-13.0.1.8.4.dev1-py3-none-any.whl
+[2024-04-10 11:49:36] INFO root fetch - processPackages [unicms-template-unical]: Downloading https://files.pythonhosted.org/packages/56/58/04d0920a422e58b4ec7d52fbc6ad54a4fcbcda90e3bd0b3826a31b6767fd/unicms_template_unical-1.6.8.tar.gz
+[2024-04-10 11:49:36] INFO root fetch - processPackages [odoo13-addon-mrp-multi-level]: Downloading https://files.pythonhosted.org/packages/d2/f7/a360bfb9fe4a2408e779d47fa013cd4b2def0c1085c115f2c9b7433fc592/odoo13_addon_mrp_multi_level-13.0.1.9.0-py3-none-any.whl
+[2024-04-10 11:49:36] INFO root fetch - processPackages [nafcodec]: Downloading https://files.pythonhosted.org/packages/51/b4/ffa1ed40c6a69d4393438e15e1e4eb69875339c587800a996190474f9536/nafcodec-0.2.0.tar.gz
+[2024-04-10 11:49:36] INFO root fetch - processPackages [odoo13-addon-mrp-multi-level]: executing diffoscope
+[2024-04-10 11:49:36] INFO root fetch - processPackages [odoo13-addon-mrp-multi-level]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_mrp_multi_level-13.0.1.8.4.dev1-py3-none-any.whl.zip tmp/odoo13_addon_mrp_multi_level-13.0.1.9.0-py3-none-any.whl.zip --markdown 20240410/o/odoo13-addon-mrp-multi-level/13.0.1.8.4.dev1-13.0.1.9.0/README.md --exclude *.pyd
+[2024-04-10 11:49:36] INFO root fetch - processPackages [nafcodec]: executing diffoscope
+[2024-04-10 11:49:36] INFO root fetch - processPackages [nafcodec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nafcodec-0.1.1.tar.gz tmp/nafcodec-0.2.0.tar.gz --markdown 20240410/n/nafcodec/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-04-10 11:49:37] INFO root fetch - processPackages [odoo13-addon-mrp-multi-level]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_mrp_multi_level-13.0.1.8.4.dev1-py3-none-any.whl.zip]
+[2024-04-10 11:49:37] INFO root fetch - processPackages [odoo13-addon-mrp-multi-level]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_mrp_multi_level-13.0.1.9.0-py3-none-any.whl.zip]
+[2024-04-10 11:49:37] INFO root fetch - main [MainThread]: End processing [odoo13-addon-mrp-multi-level]: success
+[2024-04-10 11:49:37] INFO root fetch - processPackages [nafcodec]: Remove: archive file [/home/abi/fetcher/tmp/nafcodec-0.1.1.tar.gz]
+[2024-04-10 11:49:37] INFO root fetch - processPackages [nafcodec]: Remove: archive file [/home/abi/fetcher/tmp/nafcodec-0.2.0.tar.gz]
+[2024-04-10 11:49:37] INFO root fetch - main [MainThread]: End processing [nafcodec]: success
+[2024-04-10 11:49:39] INFO root fetch - processPackages [unicms-template-unical]: Downloading https://files.pythonhosted.org/packages/dd/90/37bd48a23f4825fc35d67750b27dbe3a8a0f706e6bd0c37cef33bebcfd1e/unicms_template_unical-1.6.9.tar.gz
+[2024-04-10 11:49:40] INFO root fetch - processPackages [unicms-template-unical]: executing diffoscope
+[2024-04-10 11:49:40] INFO root fetch - processPackages [unicms-template-unical]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unicms_template_unical-1.6.8.tar.gz tmp/unicms_template_unical-1.6.9.tar.gz --markdown 20240410/u/unicms-template-unical/1.6.8-1.6.9/README.md --exclude *.pyd
+[2024-04-10 11:49:42] INFO root fetch - processPackages [unicms-template-unical]: Remove: archive file [/home/abi/fetcher/tmp/unicms_template_unical-1.6.8.tar.gz]
+[2024-04-10 11:49:42] INFO root fetch - processPackages [unicms-template-unical]: Remove: archive file [/home/abi/fetcher/tmp/unicms_template_unical-1.6.9.tar.gz]
+[2024-04-10 11:49:42] INFO root fetch - main [MainThread]: End processing [unicms-template-unical]: success
+[2024-04-10 11:49:42] INFO root fetch - main [MainThread]: Store serial: [22698612]

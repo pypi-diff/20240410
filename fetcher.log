@@ -21359,3 +21359,93 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 13:07:25] INFO root fetch - processPackages [promptflow]: Remove: archive file [/home/abi/fetcher/tmp/promptflow-1.7.0-py3-none-any.whl.zip]
 [2024-04-10 13:07:25] INFO root fetch - main [MainThread]: End processing [promptflow]: success
 [2024-04-10 13:07:25] INFO root fetch - main [MainThread]: Store serial: [22699576]
+[2024-04-10 13:09:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22699576]
+[2024-04-10 13:09:50] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-10 13:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dissect.evidence
+[2024-04-10 13:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: djrender
+[2024-04-10 13:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mainframe-paxo
+[2024-04-10 13:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rpaframework-core
+[2024-04-10 13:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qontract-reconcile
+[2024-04-10 13:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tfc-cli
+[2024-04-10 13:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aws-packages
+[2024-04-10 13:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fmake
+[2024-04-10 13:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: falcon-challenge
+[2024-04-10 13:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: library-management-system
+[2024-04-10 13:09:50] INFO root fetch - processPackages [djrender]: New version: [0.1b1] Old Version: [0.1a11]
+[2024-04-10 13:09:50] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-04-10 13:09:50] INFO root fetch - processPackages [mainframe-paxo]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-10 13:09:50] INFO root fetch - processPackages [djrender]: Downloading https://files.pythonhosted.org/packages/7a/5c/6fb89e48675303632cbadb01f1e655fe3476faa0df0d20f736e22949a4ae/djrender-0.1a11.tar.gz
+[2024-04-10 13:09:50] INFO root fetch - processPackages [dissect.evidence]: New version: [3.9.dev4] Old Version: [3.9.dev3]
+[2024-04-10 13:09:50] INFO root fetch - processPackages [falcon-challenge]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-04-10 13:09:50] WARNING root fetch - processPackages [library-management-system]: Skipping, unable to determine old version
+[2024-04-10 13:09:50] INFO root fetch - processPackages [library-management-system]: Start processing: egobox
+[2024-04-10 13:09:50] INFO root fetch - main [MainThread]: End processing [library-management-system] error
+[2024-04-10 13:09:50] WARNING root fetch - processPackages [tfc-cli]: Skipping, unable to determine old version
+[2024-04-10 13:09:50] INFO root fetch - processPackages [fmake]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-10 13:09:50] INFO root fetch - main [MainThread]: End processing [tfc-cli] error
+[2024-04-10 13:09:50] INFO root fetch - processPackages [aws-packages]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-10 13:09:50] INFO root fetch - processPackages [rpaframework-core]: New version: [9.1.0] Old Version: [9.0.1]
+[2024-04-10 13:09:50] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-04-10 13:09:50] INFO root fetch - processPackages [mainframe-paxo]: Downloading https://files.pythonhosted.org/packages/00/a8/5f11fcc1d836369657fd09367b4d57552016ce75819794660ec3eb12c74e/mainframe_paxo-0.1.8.tar.gz
+[2024-04-10 13:09:50] INFO root fetch - processPackages [djrender]: Downloading https://files.pythonhosted.org/packages/27/eb/705e8866176ecdae41d0bc51a2afdc91ffacf13b75f7d6d33bee81560f70/djrender-0.1b1.tar.gz
+[2024-04-10 13:09:50] INFO root fetch - processPackages [dissect.evidence]: Downloading https://files.pythonhosted.org/packages/b2/87/998a2f4b9cef49498623a0ac8411f32f9478be5396f2a88a05820e926112/dissect.evidence-3.9.dev3.tar.gz
+[2024-04-10 13:09:50] INFO root fetch - processPackages [fmake]: Downloading https://files.pythonhosted.org/packages/e4/74/22db48b25d650dcc1651169b33676e6212950c2c81da40bc2ed1b0a33788/fmake-0.1.4.tar.gz
+[2024-04-10 13:09:50] INFO root fetch - processPackages [rpaframework-core]: Downloading https://files.pythonhosted.org/packages/d1/6b/7063a1d50253d828f841e99a9dde42c7217a9a076107c00148b478bcdfe8/rpaframework-core-9.0.1.tar.gz
+[2024-04-10 13:09:51] INFO root fetch - processPackages [aws-packages]: Downloading https://files.pythonhosted.org/packages/df/79/dc9dd4f48288c36fa85b903a442b0590b5f087cf3de6feac6a2c7361bd03/aws_packages-0.0.8.tar.gz
+[2024-04-10 13:09:51] INFO root fetch - processPackages [falcon-challenge]: Downloading https://files.pythonhosted.org/packages/bf/90/a93da2e975d2e8b086044c1a467ac5f9d89f58a4139e5b785ab321b04cd7/falcon_challenge-0.2.7.tar.gz
+[2024-04-10 13:09:51] INFO root fetch - processPackages [egobox]: New version: [0.9.0] Old Version: [0.8.2]
+[2024-04-10 13:09:51] INFO root fetch - processPackages [djrender]: executing diffoscope
+[2024-04-10 13:09:51] INFO root fetch - processPackages [djrender]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djrender-0.1a11.tar.gz tmp/djrender-0.1b1.tar.gz --markdown 20240410/d/djrender/0.1a11-0.1b1/README.md --exclude *.pyd
+[2024-04-10 13:09:51] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-04-10 13:09:51] INFO root fetch - processPackages [egobox]: Downloading https://files.pythonhosted.org/packages/2c/27/daa7243ef27f4af7c33674635637e96c93553aafa2302c086619afd81830/egobox-0.8.2.tar.gz
+[2024-04-10 13:09:51] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-04-10 13:09:51] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240410/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-04-10 13:09:51] INFO root fetch - processPackages [rpaframework-core]: Downloading https://files.pythonhosted.org/packages/cd/32/4dd499e5800281a6aea4cbcac95ccdb13c3e97c0aa59d49319475a6493d0/rpaframework-core-9.1.0.tar.gz
+[2024-04-10 13:09:51] INFO root fetch - processPackages [mainframe-paxo]: Downloading https://files.pythonhosted.org/packages/cb/f0/b1008f386111da6f6261adc8baaa465182da46e204e3cd426c5528699981/mainframe_paxo-0.1.9.tar.gz
+[2024-04-10 13:09:51] INFO root fetch - processPackages [dissect.evidence]: Downloading https://files.pythonhosted.org/packages/4d/66/2eee6e589d732edb39e8c668ebc149cbef4064f3756b331ba68746193a53/dissect.evidence-3.9.dev4.tar.gz
+[2024-04-10 13:09:51] INFO root fetch - processPackages [falcon-challenge]: Downloading https://files.pythonhosted.org/packages/53/e3/9d185f6149b6448ca117dee55c56063077688509664269f20fd5f66f0e8a/falcon_challenge-0.2.8.tar.gz
+[2024-04-10 13:09:51] INFO root fetch - processPackages [fmake]: Downloading https://files.pythonhosted.org/packages/cd/fc/077e0b716d634bc1542b58a0433b5cf6a4dcd2174d58065f6775d82abf51/fmake-0.1.5.tar.gz
+[2024-04-10 13:09:51] INFO root fetch - processPackages [aws-packages]: Downloading https://files.pythonhosted.org/packages/f9/70/6dad25f5681631041b67fc5bad90c0828becfec9e1569cd148b0c104a41d/aws_packages-0.0.9.tar.gz
+[2024-04-10 13:09:51] INFO root fetch - processPackages [rpaframework-core]: executing diffoscope
+[2024-04-10 13:09:51] INFO root fetch - processPackages [rpaframework-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpaframework-core-9.0.1.tar.gz tmp/rpaframework-core-9.1.0.tar.gz --markdown 20240410/r/rpaframework-core/9.0.1-9.1.0/README.md --exclude *.pyd
+[2024-04-10 13:09:51] INFO root fetch - processPackages [falcon-challenge]: executing diffoscope
+[2024-04-10 13:09:51] INFO root fetch - processPackages [falcon-challenge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/falcon_challenge-0.2.7.tar.gz tmp/falcon_challenge-0.2.8.tar.gz --markdown 20240410/f/falcon-challenge/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-04-10 13:09:51] INFO root fetch - processPackages [dissect.evidence]: executing diffoscope
+[2024-04-10 13:09:51] INFO root fetch - processPackages [dissect.evidence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.evidence-3.9.dev3.tar.gz tmp/dissect.evidence-3.9.dev4.tar.gz --markdown 20240410/d/dissect.evidence/3.9.dev3-3.9.dev4/README.md --exclude *.pyd
+[2024-04-10 13:09:51] INFO root fetch - processPackages [mainframe-paxo]: executing diffoscope
+[2024-04-10 13:09:51] INFO root fetch - processPackages [mainframe-paxo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mainframe_paxo-0.1.8.tar.gz tmp/mainframe_paxo-0.1.9.tar.gz --markdown 20240410/m/mainframe-paxo/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-10 13:09:51] INFO root fetch - processPackages [aws-packages]: executing diffoscope
+[2024-04-10 13:09:51] INFO root fetch - processPackages [aws-packages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_packages-0.0.8.tar.gz tmp/aws_packages-0.0.9.tar.gz --markdown 20240410/a/aws-packages/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-10 13:09:51] INFO root fetch - processPackages [fmake]: executing diffoscope
+[2024-04-10 13:09:51] INFO root fetch - processPackages [fmake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fmake-0.1.4.tar.gz tmp/fmake-0.1.5.tar.gz --markdown 20240410/f/fmake/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-10 13:09:51] INFO root fetch - processPackages [egobox]: Downloading https://files.pythonhosted.org/packages/34/88/c69edd89856a25d17290a69e24e4ac9cda0269e04e953058d7bcf9d2c32a/egobox-0.9.0.tar.gz
+[2024-04-10 13:09:51] INFO root fetch - processPackages [djrender]: Remove: archive file [/home/abi/fetcher/tmp/djrender-0.1a11.tar.gz]
+[2024-04-10 13:09:51] INFO root fetch - processPackages [djrender]: Remove: archive file [/home/abi/fetcher/tmp/djrender-0.1b1.tar.gz]
+[2024-04-10 13:09:51] INFO root fetch - main [MainThread]: End processing [djrender]: success
+[2024-04-10 13:09:51] INFO root fetch - processPackages [egobox]: executing diffoscope
+[2024-04-10 13:09:51] INFO root fetch - processPackages [egobox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/egobox-0.8.2.tar.gz tmp/egobox-0.9.0.tar.gz --markdown 20240410/e/egobox/0.8.2-0.9.0/README.md --exclude *.pyd
+[2024-04-10 13:09:52] INFO root fetch - processPackages [rpaframework-core]: Remove: archive file [/home/abi/fetcher/tmp/rpaframework-core-9.0.1.tar.gz]
+[2024-04-10 13:09:52] INFO root fetch - processPackages [rpaframework-core]: Remove: archive file [/home/abi/fetcher/tmp/rpaframework-core-9.1.0.tar.gz]
+[2024-04-10 13:09:52] INFO root fetch - main [MainThread]: End processing [rpaframework-core]: success
+[2024-04-10 13:09:52] INFO root fetch - processPackages [falcon-challenge]: Remove: archive file [/home/abi/fetcher/tmp/falcon_challenge-0.2.7.tar.gz]
+[2024-04-10 13:09:52] INFO root fetch - processPackages [falcon-challenge]: Remove: archive file [/home/abi/fetcher/tmp/falcon_challenge-0.2.8.tar.gz]
+[2024-04-10 13:09:52] INFO root fetch - main [MainThread]: End processing [falcon-challenge]: success
+[2024-04-10 13:09:52] INFO root fetch - processPackages [aws-packages]: Remove: archive file [/home/abi/fetcher/tmp/aws_packages-0.0.8.tar.gz]
+[2024-04-10 13:09:52] INFO root fetch - processPackages [aws-packages]: Remove: archive file [/home/abi/fetcher/tmp/aws_packages-0.0.9.tar.gz]
+[2024-04-10 13:09:52] INFO root fetch - main [MainThread]: End processing [aws-packages]: success
+[2024-04-10 13:09:52] INFO root fetch - processPackages [mainframe-paxo]: Remove: archive file [/home/abi/fetcher/tmp/mainframe_paxo-0.1.8.tar.gz]
+[2024-04-10 13:09:52] INFO root fetch - processPackages [mainframe-paxo]: Remove: archive file [/home/abi/fetcher/tmp/mainframe_paxo-0.1.9.tar.gz]
+[2024-04-10 13:09:52] INFO root fetch - main [MainThread]: End processing [mainframe-paxo]: success
+[2024-04-10 13:09:52] INFO root fetch - processPackages [dissect.evidence]: Remove: archive file [/home/abi/fetcher/tmp/dissect.evidence-3.9.dev3.tar.gz]
+[2024-04-10 13:09:52] INFO root fetch - processPackages [dissect.evidence]: Remove: archive file [/home/abi/fetcher/tmp/dissect.evidence-3.9.dev4.tar.gz]
+[2024-04-10 13:09:52] INFO root fetch - main [MainThread]: End processing [dissect.evidence]: success
+[2024-04-10 13:09:52] INFO root fetch - processPackages [fmake]: Remove: archive file [/home/abi/fetcher/tmp/fmake-0.1.4.tar.gz]
+[2024-04-10 13:09:52] INFO root fetch - processPackages [fmake]: Remove: archive file [/home/abi/fetcher/tmp/fmake-0.1.5.tar.gz]
+[2024-04-10 13:09:52] INFO root fetch - main [MainThread]: End processing [fmake]: success
+[2024-04-10 13:09:53] INFO root fetch - processPackages [egobox]: Remove: archive file [/home/abi/fetcher/tmp/egobox-0.8.2.tar.gz]
+[2024-04-10 13:09:53] INFO root fetch - processPackages [egobox]: Remove: archive file [/home/abi/fetcher/tmp/egobox-0.9.0.tar.gz]
+[2024-04-10 13:09:53] INFO root fetch - main [MainThread]: End processing [egobox]: success
+[2024-04-10 13:09:53] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-04-10 13:09:53] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-04-10 13:09:53] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-04-10 13:09:53] INFO root fetch - main [MainThread]: Store serial: [22699668]

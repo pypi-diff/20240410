@@ -12719,3 +12719,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 06:59:36] INFO root fetch - processPackages [odoo-addon-sale-product-company]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_product_company-16.0.1.0.0.3-py3-none-any.whl.zip]
 [2024-04-10 06:59:36] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-product-company]: success
 [2024-04-10 06:59:36] INFO root fetch - main [MainThread]: Store serial: [22695898]
+[2024-04-10 07:01:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22695898]
+[2024-04-10 07:01:45] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-10 07:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pykrotik
+[2024-04-10 07:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mystring
+[2024-04-10 07:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: robocorp
+[2024-04-10 07:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sdkms
+[2024-04-10 07:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flatjsondict
+[2024-04-10 07:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyramid-marshmallow
+[2024-04-10 07:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: interminal
+[2024-04-10 07:01:45] INFO root fetch - processPackages [flatjsondict]: New version: [1.1.0] Old Version: [1.0.5]
+[2024-04-10 07:01:45] INFO root fetch - processPackages [mystring]: New version: [0.2.99] Old Version: [0.2.98]
+[2024-04-10 07:01:45] INFO root fetch - processPackages [interminal]: New version: [0.4.0] Old Version: [0.3.7]
+[2024-04-10 07:01:45] INFO root fetch - processPackages [sdkms]: New version: [4.9.2084] Old Version: [4.8.2070]
+[2024-04-10 07:01:45] INFO root fetch - processPackages [flatjsondict]: Downloading https://files.pythonhosted.org/packages/99/83/9e75a232a4b6072e5982b3c2275d5128a8d6207af1e74da63c4b5fcf929f/flatjsondict-1.0.5.tar.gz
+[2024-04-10 07:01:45] WARNING root fetch - processPackages [pykrotik]: Skipping, unable to determine old version
+[2024-04-10 07:01:45] INFO root fetch - main [MainThread]: End processing [pykrotik] error
+[2024-04-10 07:01:45] INFO root fetch - processPackages [robocorp]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-04-10 07:01:45] INFO root fetch - processPackages [pyramid-marshmallow]: New version: [0.7.0a3] Old Version: [0.7.0a2]
+[2024-04-10 07:01:45] INFO root fetch - processPackages [interminal]: Downloading https://files.pythonhosted.org/packages/b8/2c/d573df8367cd8f33f59a975ea652baaf913a63fc3253ede0b35569d783b4/interminal-0.3.7.tar.gz
+[2024-04-10 07:01:45] INFO root fetch - processPackages [mystring]: Downloading https://files.pythonhosted.org/packages/88/05/d0d140db04c0b270b7380359ce66dc3b26477e6b13a36cd8ced2e0442041/mystring-0.2.98-py3-none-any.whl
+[2024-04-10 07:01:45] INFO root fetch - processPackages [flatjsondict]: Downloading https://files.pythonhosted.org/packages/fb/17/10e298017c8ceadb9a7189d5e8a094227d5ac92412d49d8b55f17538aa6e/flatjsondict-1.1.0.tar.gz
+[2024-04-10 07:01:45] INFO root fetch - processPackages [pyramid-marshmallow]: Downloading https://files.pythonhosted.org/packages/84/b7/f2319c620fc85829b2b10e5054f78390f0709c0060309a104fb1cff7661a/pyramid-marshmallow-0.7.0a2.tar.gz
+[2024-04-10 07:01:45] INFO root fetch - processPackages [robocorp]: Downloading https://files.pythonhosted.org/packages/6d/1d/a793c19dc52f2bc6d34cbfbcf680088588242450466b03e4bd82d4ba0e76/robocorp-2.0.1.tar.gz
+[2024-04-10 07:01:45] INFO root fetch - processPackages [sdkms]: Downloading https://files.pythonhosted.org/packages/0b/12/f154bd6392853b2df37d767d669bc0fd1e1bfe3716307c8f01e9bde82431/sdkms-4.8.2070-py2.py3-none-any.whl
+[2024-04-10 07:01:45] INFO root fetch - processPackages [flatjsondict]: executing diffoscope
+[2024-04-10 07:01:45] INFO root fetch - processPackages [flatjsondict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatjsondict-1.0.5.tar.gz tmp/flatjsondict-1.1.0.tar.gz --markdown 20240410/f/flatjsondict/1.0.5-1.1.0/README.md --exclude *.pyd
+[2024-04-10 07:01:46] INFO root fetch - processPackages [interminal]: Downloading https://files.pythonhosted.org/packages/15/22/acf5cfbac574df2038a48de2ded13cea51d9b5ad896ff3124cb2d0772cbe/interminal-0.4.0-py3-none-any.whl
+[2024-04-10 07:01:46] INFO root fetch - processPackages [robocorp]: Downloading https://files.pythonhosted.org/packages/9d/3b/fe221ab6351ecdad26ee5f777c224e3e82717b796cbc8c00ae45046317de/robocorp-2.0.2.tar.gz
+[2024-04-10 07:01:46] INFO root fetch - processPackages [mystring]: Downloading https://files.pythonhosted.org/packages/fa/f7/968c4dde1769f6b1b7f54bedafe67abf4ae2c5ff261eaed5f05032e85e87/mystring-0.2.99-py3-none-any.whl
+[2024-04-10 07:01:46] INFO root fetch - processPackages [pyramid-marshmallow]: Downloading https://files.pythonhosted.org/packages/74/a3/37e7ca369d3883c6f0ae696bc7aff7793f6d5c540c92d25d97aa8d1414d6/pyramid-marshmallow-0.7.0a3.tar.gz
+[2024-04-10 07:01:46] INFO root fetch - processPackages [robocorp]: executing diffoscope
+[2024-04-10 07:01:46] INFO root fetch - processPackages [robocorp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robocorp-2.0.1.tar.gz tmp/robocorp-2.0.2.tar.gz --markdown 20240410/r/robocorp/2.0.1-2.0.2/README.md --exclude *.pyd
+[2024-04-10 07:01:46] INFO root fetch - processPackages [sdkms]: Downloading https://files.pythonhosted.org/packages/b4/9b/5511388b0b85a13b4c1ca019c5e0d1ea2278e821fb326de8067eded7eb98/sdkms-4.9.2084-py2.py3-none-any.whl
+[2024-04-10 07:01:46] INFO root fetch - processPackages [mystring]: executing diffoscope
+[2024-04-10 07:01:46] INFO root fetch - processPackages [mystring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mystring-0.2.98-py3-none-any.whl.zip tmp/mystring-0.2.99-py3-none-any.whl.zip --markdown 20240410/m/mystring/0.2.98-0.2.99/README.md --exclude *.pyd
+[2024-04-10 07:01:46] INFO root fetch - processPackages [interminal]: executing diffoscope
+[2024-04-10 07:01:46] INFO root fetch - processPackages [interminal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/interminal-0.3.7.tar.gz tmp/interminal-0.4.0-py3-none-any.whl.zip --markdown 20240410/i/interminal/0.3.7-0.4.0/README.md --exclude *.pyd
+[2024-04-10 07:01:46] INFO root fetch - processPackages [pyramid-marshmallow]: executing diffoscope
+[2024-04-10 07:01:46] INFO root fetch - processPackages [pyramid-marshmallow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyramid-marshmallow-0.7.0a2.tar.gz tmp/pyramid-marshmallow-0.7.0a3.tar.gz --markdown 20240410/p/pyramid-marshmallow/0.7.0a2-0.7.0a3/README.md --exclude *.pyd
+[2024-04-10 07:01:46] INFO root fetch - processPackages [sdkms]: executing diffoscope
+[2024-04-10 07:01:46] INFO root fetch - processPackages [sdkms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkms-4.8.2070-py2.py3-none-any.whl.zip tmp/sdkms-4.9.2084-py2.py3-none-any.whl.zip --markdown 20240410/s/sdkms/4.8.2070-4.9.2084/README.md --exclude *.pyd
+[2024-04-10 07:01:46] INFO root fetch - processPackages [flatjsondict]: Remove: archive file [/home/abi/fetcher/tmp/flatjsondict-1.0.5.tar.gz]
+[2024-04-10 07:01:46] INFO root fetch - processPackages [flatjsondict]: Remove: archive file [/home/abi/fetcher/tmp/flatjsondict-1.1.0.tar.gz]
+[2024-04-10 07:01:46] INFO root fetch - main [MainThread]: End processing [flatjsondict]: success
+[2024-04-10 07:01:46] INFO root fetch - processPackages [interminal]: Remove: archive file [/home/abi/fetcher/tmp/interminal-0.3.7.tar.gz]
+[2024-04-10 07:01:46] INFO root fetch - processPackages [interminal]: Remove: archive file [/home/abi/fetcher/tmp/interminal-0.4.0-py3-none-any.whl.zip]
+[2024-04-10 07:01:46] INFO root fetch - main [MainThread]: End processing [interminal]: success
+[2024-04-10 07:01:47] INFO root fetch - processPackages [robocorp]: Remove: archive file [/home/abi/fetcher/tmp/robocorp-2.0.1.tar.gz]
+[2024-04-10 07:01:47] INFO root fetch - processPackages [robocorp]: Remove: archive file [/home/abi/fetcher/tmp/robocorp-2.0.2.tar.gz]
+[2024-04-10 07:01:47] INFO root fetch - processPackages [mystring]: Remove: archive file [/home/abi/fetcher/tmp/mystring-0.2.98-py3-none-any.whl.zip]
+[2024-04-10 07:01:47] INFO root fetch - main [MainThread]: End processing [robocorp]: success
+[2024-04-10 07:01:47] INFO root fetch - processPackages [mystring]: Remove: archive file [/home/abi/fetcher/tmp/mystring-0.2.99-py3-none-any.whl.zip]
+[2024-04-10 07:01:47] INFO root fetch - main [MainThread]: End processing [mystring]: success
+[2024-04-10 07:01:47] INFO root fetch - processPackages [pyramid-marshmallow]: Remove: archive file [/home/abi/fetcher/tmp/pyramid-marshmallow-0.7.0a2.tar.gz]
+[2024-04-10 07:01:47] INFO root fetch - processPackages [pyramid-marshmallow]: Remove: archive file [/home/abi/fetcher/tmp/pyramid-marshmallow-0.7.0a3.tar.gz]
+[2024-04-10 07:01:47] INFO root fetch - main [MainThread]: End processing [pyramid-marshmallow]: success
+[2024-04-10 07:01:48] INFO root fetch - processPackages [sdkms]: Remove: archive file [/home/abi/fetcher/tmp/sdkms-4.8.2070-py2.py3-none-any.whl.zip]
+[2024-04-10 07:01:48] INFO root fetch - processPackages [sdkms]: Remove: archive file [/home/abi/fetcher/tmp/sdkms-4.9.2084-py2.py3-none-any.whl.zip]
+[2024-04-10 07:01:48] INFO root fetch - main [MainThread]: End processing [sdkms]: success
+[2024-04-10 07:01:48] INFO root fetch - main [MainThread]: Store serial: [22695917]

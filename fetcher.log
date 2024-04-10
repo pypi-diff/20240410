@@ -8822,3 +8822,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 
 [2024-04-10 04:08:37] INFO root fetch - main [MainThread]: End processing [icetcore] error
 [2024-04-10 04:08:37] INFO root fetch - main [MainThread]: Store serial: [22694426]
+[2024-04-10 04:10:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22694426]
+[2024-04-10 04:10:47] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-10 04:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: esphome
+[2024-04-10 04:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: clip-util
+[2024-04-10 04:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alibabacloud-umeng-apm20220214-py2
+[2024-04-10 04:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cirq
+[2024-04-10 04:10:47] INFO root fetch - processPackages [clip-util]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-10 04:10:47] INFO root fetch - processPackages [alibabacloud-umeng-apm20220214-py2]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-10 04:10:47] INFO root fetch - processPackages [cirq]: New version: [1.4.0.dev20240410004400] Old Version: [1.4.0.dev20240409221218]
+[2024-04-10 04:10:47] INFO root fetch - processPackages [clip-util]: Downloading https://files.pythonhosted.org/packages/62/b3/1dadedcd87d131bf2409d1b99b98cfe912a716ec0c14a1de749fc90c6d1c/clip-util-0.1.8.tar.gz
+[2024-04-10 04:10:47] INFO root fetch - processPackages [alibabacloud-umeng-apm20220214-py2]: Downloading https://files.pythonhosted.org/packages/0a/61/b860caf5c7b7d6c2eda7435d29a89ba30d7465fbe68a27677255e1406a62/alibabacloud_umeng-apm20220214_py2-1.1.0.tar.gz
+[2024-04-10 04:10:47] INFO root fetch - processPackages [cirq]: Downloading https://files.pythonhosted.org/packages/30/41/656c4d54804303396d51476e4dee731b7ecf83cdb24216f69b46672057cb/cirq-1.4.0.dev20240409221218-py3-none-any.whl
+[2024-04-10 04:10:47] INFO root fetch - processPackages [esphome]: New version: [2024.4.0b1] Old Version: [2024.3.2]
+[2024-04-10 04:10:47] INFO root fetch - processPackages [esphome]: Downloading https://files.pythonhosted.org/packages/9b/e5/c09237cf6f2da94181102324fc255dff654414bc3c18e54145bb60d28697/esphome-2024.3.2.tar.gz
+[2024-04-10 04:10:48] INFO root fetch - processPackages [clip-util]: Downloading https://files.pythonhosted.org/packages/41/bb/9082a814e9fb8fa4545c7852a27a82fbfb2c177a9cb11dcca70a065c5bd8/clip-util-0.1.9.tar.gz
+[2024-04-10 04:10:48] INFO root fetch - processPackages [clip-util]: executing diffoscope
+[2024-04-10 04:10:48] INFO root fetch - processPackages [clip-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clip-util-0.1.8.tar.gz tmp/clip-util-0.1.9.tar.gz --markdown 20240410/c/clip-util/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-10 04:10:48] INFO root fetch - processPackages [alibabacloud-umeng-apm20220214-py2]: Downloading https://files.pythonhosted.org/packages/e5/39/cd9854e1762e712fccfba0b767d20ddb3957fd614a373fa6e56fecd36ab1/alibabacloud_umeng-apm20220214_py2-1.1.1.tar.gz
+[2024-04-10 04:10:48] INFO root fetch - processPackages [cirq]: Downloading https://files.pythonhosted.org/packages/f5/6e/e42a64e80060038d8687cd63c37f3656bfa243c454ddc8c5e7cccc38a32e/cirq-1.4.0.dev20240410004400-py3-none-any.whl
+[2024-04-10 04:10:48] INFO root fetch - processPackages [alibabacloud-umeng-apm20220214-py2]: executing diffoscope
+[2024-04-10 04:10:48] INFO root fetch - processPackages [alibabacloud-umeng-apm20220214-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_umeng-apm20220214_py2-1.1.0.tar.gz tmp/alibabacloud_umeng-apm20220214_py2-1.1.1.tar.gz --markdown 20240410/a/alibabacloud-umeng-apm20220214-py2/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-04-10 04:10:48] INFO root fetch - processPackages [cirq]: executing diffoscope
+[2024-04-10 04:10:48] INFO root fetch - processPackages [cirq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq-1.4.0.dev20240409221218-py3-none-any.whl.zip tmp/cirq-1.4.0.dev20240410004400-py3-none-any.whl.zip --markdown 20240410/c/cirq/1.4.0.dev20240409221218-1.4.0.dev20240410004400/README.md --exclude *.pyd
+[2024-04-10 04:10:48] INFO root fetch - processPackages [esphome]: Downloading https://files.pythonhosted.org/packages/7e/69/eb0fcd93f5c3643ae1e6db440fd9978ae9e6432fce0d1dd696567fbd5230/esphome-2024.4.0b1.tar.gz
+[2024-04-10 04:10:48] INFO root fetch - processPackages [clip-util]: Remove: archive file [/home/abi/fetcher/tmp/clip-util-0.1.8.tar.gz]
+[2024-04-10 04:10:48] INFO root fetch - processPackages [clip-util]: Remove: archive file [/home/abi/fetcher/tmp/clip-util-0.1.9.tar.gz]
+[2024-04-10 04:10:48] INFO root fetch - main [MainThread]: End processing [clip-util]: success
+[2024-04-10 04:10:48] INFO root fetch - processPackages [cirq]: Remove: archive file [/home/abi/fetcher/tmp/cirq-1.4.0.dev20240409221218-py3-none-any.whl.zip]
+[2024-04-10 04:10:48] INFO root fetch - processPackages [cirq]: Remove: archive file [/home/abi/fetcher/tmp/cirq-1.4.0.dev20240410004400-py3-none-any.whl.zip]
+[2024-04-10 04:10:48] INFO root fetch - main [MainThread]: End processing [cirq]: success
+[2024-04-10 04:10:48] INFO root fetch - processPackages [esphome]: executing diffoscope
+[2024-04-10 04:10:48] INFO root fetch - processPackages [esphome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esphome-2024.3.2.tar.gz tmp/esphome-2024.4.0b1.tar.gz --markdown 20240410/e/esphome/2024.3.2-2024.4.0b1/README.md --exclude *.pyd
+[2024-04-10 04:10:48] INFO root fetch - processPackages [alibabacloud-umeng-apm20220214-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_umeng-apm20220214_py2-1.1.0.tar.gz]
+[2024-04-10 04:10:48] INFO root fetch - processPackages [alibabacloud-umeng-apm20220214-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_umeng-apm20220214_py2-1.1.1.tar.gz]
+[2024-04-10 04:10:48] INFO root fetch - main [MainThread]: End processing [alibabacloud-umeng-apm20220214-py2]: success
+[2024-04-10 04:11:01] INFO root fetch - processPackages [esphome]: Remove: archive file [/home/abi/fetcher/tmp/esphome-2024.3.2.tar.gz]
+[2024-04-10 04:11:01] INFO root fetch - processPackages [esphome]: Remove: archive file [/home/abi/fetcher/tmp/esphome-2024.4.0b1.tar.gz]
+[2024-04-10 04:11:01] INFO root fetch - main [MainThread]: End processing [esphome]: success
+[2024-04-10 04:11:01] INFO root fetch - main [MainThread]: Store serial: [22694436]

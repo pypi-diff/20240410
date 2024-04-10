@@ -13991,3 +13991,27 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 08:16:16] INFO root fetch - processPackages [pulumi-alicloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_alicloud-3.9.0a1637592974.tar.gz]
 [2024-04-10 08:16:16] INFO root fetch - main [MainThread]: End processing [pulumi-alicloud]: success
 [2024-04-10 08:16:16] INFO root fetch - main [MainThread]: Store serial: [22696401]
+[2024-04-10 08:18:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22696401]
+[2024-04-10 08:18:31] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-10 08:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-libvirt
+[2024-04-10 08:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: muko
+[2024-04-10 08:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: loops-diff
+[2024-04-10 08:18:32] WARNING root fetch - processPackages [loops-diff]: Skipping, unable to determine old version
+[2024-04-10 08:18:32] INFO root fetch - main [MainThread]: End processing [loops-diff] error
+[2024-04-10 08:18:32] INFO root fetch - processPackages [muko]: New version: [2.16] Old Version: [2.15]
+[2024-04-10 08:18:32] INFO root fetch - processPackages [pulumi-libvirt]: New version: [0.4.6a1712728276] Old Version: [0.4.6a1712468977]
+[2024-04-10 08:18:32] INFO root fetch - processPackages [muko]: Downloading https://files.pythonhosted.org/packages/5c/c6/ffe8a7d233ae3236ba55a06986f2d509b1acb74b64590ba01790e248e49e/muko-2.15-py3-none-any.whl
+[2024-04-10 08:18:32] INFO root fetch - processPackages [pulumi-libvirt]: Downloading https://files.pythonhosted.org/packages/4a/46/ef3bb74d104e4f0ea5b78377777f14dc751d5f121bb4c3abccc7da3f34c4/pulumi_libvirt-0.4.6a1712468977.tar.gz
+[2024-04-10 08:18:32] INFO root fetch - processPackages [pulumi-libvirt]: Downloading https://files.pythonhosted.org/packages/0c/1d/0f76807569df6639a95342064d6bca94c97aff5cf2a8615b25f822266275/pulumi_libvirt-0.4.6a1712728276-py3-none-any.whl
+[2024-04-10 08:18:32] INFO root fetch - processPackages [muko]: Downloading https://files.pythonhosted.org/packages/15/71/1b1c13f0e5bede2fcf370db5d8c63a70d5946530ae416a27156581c82f1b/muko-2.16-py3-none-any.whl
+[2024-04-10 08:18:32] INFO root fetch - processPackages [pulumi-libvirt]: executing diffoscope
+[2024-04-10 08:18:32] INFO root fetch - processPackages [pulumi-libvirt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_libvirt-0.4.6a1712468977.tar.gz tmp/pulumi_libvirt-0.4.6a1712728276-py3-none-any.whl.zip --markdown 20240410/p/pulumi-libvirt/0.4.6a1712468977-0.4.6a1712728276/README.md --exclude *.pyd
+[2024-04-10 08:18:32] INFO root fetch - processPackages [muko]: executing diffoscope
+[2024-04-10 08:18:32] INFO root fetch - processPackages [muko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muko-2.15-py3-none-any.whl.zip tmp/muko-2.16-py3-none-any.whl.zip --markdown 20240410/m/muko/2.15-2.16/README.md --exclude *.pyd
+[2024-04-10 08:18:33] INFO root fetch - processPackages [pulumi-libvirt]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_libvirt-0.4.6a1712468977.tar.gz]
+[2024-04-10 08:18:33] INFO root fetch - processPackages [pulumi-libvirt]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_libvirt-0.4.6a1712728276-py3-none-any.whl.zip]
+[2024-04-10 08:18:33] INFO root fetch - main [MainThread]: End processing [pulumi-libvirt]: success
+[2024-04-10 08:18:33] INFO root fetch - processPackages [muko]: Remove: archive file [/home/abi/fetcher/tmp/muko-2.15-py3-none-any.whl.zip]
+[2024-04-10 08:18:33] INFO root fetch - processPackages [muko]: Remove: archive file [/home/abi/fetcher/tmp/muko-2.16-py3-none-any.whl.zip]
+[2024-04-10 08:18:33] INFO root fetch - main [MainThread]: End processing [muko]: success
+[2024-04-10 08:18:33] INFO root fetch - main [MainThread]: Store serial: [22696409]

@@ -12665,3 +12665,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 06:55:11] INFO root fetch - processPackages [alibabacloud-ecs20140526]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ecs20140526-4.0.4.tar.gz]
 [2024-04-10 06:55:11] INFO root fetch - main [MainThread]: End processing [alibabacloud-ecs20140526]: success
 [2024-04-10 06:55:11] INFO root fetch - main [MainThread]: Store serial: [22695881]
+[2024-04-10 06:57:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22695881]
+[2024-04-10 06:57:24] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-10 06:57:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lamini
+[2024-04-10 06:57:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: email-auth-remote
+[2024-04-10 06:57:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dali-rp2
+[2024-04-10 06:57:24] INFO root fetch - processPackages [email-auth-remote]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-04-10 06:57:24] INFO root fetch - processPackages [lamini]: New version: [2.1.5a3] Old Version: [2.1.5a2]
+[2024-04-10 06:57:24] INFO root fetch - processPackages [email-auth-remote]: Downloading https://files.pythonhosted.org/packages/cc/be/4ea35b5a84fff787c9a82f4576dd9f16036e29b0c109d2174fe25ecd2dab/email-auth-remote-1.1.1.tar.gz
+[2024-04-10 06:57:24] INFO root fetch - processPackages [dali-rp2]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-04-10 06:57:24] INFO root fetch - processPackages [lamini]: Downloading https://files.pythonhosted.org/packages/90/51/93d03338778fbddb992f3866d094a8eee5a6ba6b72448d778ee72498140b/lamini-2.1.5a2-119-py3-none-any.whl
+[2024-04-10 06:57:24] INFO root fetch - processPackages [dali-rp2]: Downloading https://files.pythonhosted.org/packages/ca/4f/42f41cbf5a09198dc057b4b58f09ca87c0ae151a20ff5ecde0cca70cc78c/dali-rp2-0.6.8.tar.gz
+[2024-04-10 06:57:24] INFO root fetch - processPackages [email-auth-remote]: Downloading https://files.pythonhosted.org/packages/09/63/aa53d01c5d9ad1549eb6ca28f9d0fc2f5574d585853d5b8df169890d27cb/email-auth-remote-1.1.2.tar.gz
+[2024-04-10 06:57:24] INFO root fetch - processPackages [lamini]: Downloading https://files.pythonhosted.org/packages/05/85/6b37cab595e3921fd758e6186a6119fd2c44e9d41467779d8bc1ade0e72e/lamini-2.1.5a3-119-py3-none-any.whl
+[2024-04-10 06:57:24] INFO root fetch - processPackages [email-auth-remote]: executing diffoscope
+[2024-04-10 06:57:24] INFO root fetch - processPackages [email-auth-remote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/email-auth-remote-1.1.1.tar.gz tmp/email-auth-remote-1.1.2.tar.gz --markdown 20240410/e/email-auth-remote/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-04-10 06:57:24] INFO root fetch - processPackages [lamini]: executing diffoscope
+[2024-04-10 06:57:24] INFO root fetch - processPackages [lamini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamini-2.1.5a2-119-py3-none-any.whl.zip tmp/lamini-2.1.5a3-119-py3-none-any.whl.zip --markdown 20240410/l/lamini/2.1.5a2-2.1.5a3/README.md --exclude *.pyd
+[2024-04-10 06:57:25] INFO root fetch - processPackages [dali-rp2]: Downloading https://files.pythonhosted.org/packages/06/cf/303553772d8b5f2bbfbf9967c28d38035dcdf34f70c6fc980d5403ef0ea5/dali-rp2-0.6.9.tar.gz
+[2024-04-10 06:57:25] INFO root fetch - processPackages [dali-rp2]: executing diffoscope
+[2024-04-10 06:57:25] INFO root fetch - processPackages [dali-rp2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dali-rp2-0.6.8.tar.gz tmp/dali-rp2-0.6.9.tar.gz --markdown 20240410/d/dali-rp2/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-04-10 06:57:25] INFO root fetch - processPackages [email-auth-remote]: Remove: archive file [/home/abi/fetcher/tmp/email-auth-remote-1.1.1.tar.gz]
+[2024-04-10 06:57:25] INFO root fetch - processPackages [email-auth-remote]: Remove: archive file [/home/abi/fetcher/tmp/email-auth-remote-1.1.2.tar.gz]
+[2024-04-10 06:57:25] INFO root fetch - main [MainThread]: End processing [email-auth-remote]: success
+[2024-04-10 06:57:25] INFO root fetch - processPackages [lamini]: Remove: archive file [/home/abi/fetcher/tmp/lamini-2.1.5a2-119-py3-none-any.whl.zip]
+[2024-04-10 06:57:25] INFO root fetch - processPackages [lamini]: Remove: archive file [/home/abi/fetcher/tmp/lamini-2.1.5a3-119-py3-none-any.whl.zip]
+[2024-04-10 06:57:25] INFO root fetch - main [MainThread]: End processing [lamini]: success
+[2024-04-10 06:57:26] INFO root fetch - processPackages [dali-rp2]: Remove: archive file [/home/abi/fetcher/tmp/dali-rp2-0.6.8.tar.gz]
+[2024-04-10 06:57:26] INFO root fetch - processPackages [dali-rp2]: Remove: archive file [/home/abi/fetcher/tmp/dali-rp2-0.6.9.tar.gz]
+[2024-04-10 06:57:26] INFO root fetch - main [MainThread]: End processing [dali-rp2]: success
+[2024-04-10 06:57:26] INFO root fetch - main [MainThread]: Store serial: [22695889]

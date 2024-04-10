@@ -15286,3 +15286,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 09:11:25] INFO root fetch - processPackages [plonetheme.imioapps]: Remove: archive file [/home/abi/fetcher/tmp/plonetheme.imioapps-2.47.tar.gz]
 [2024-04-10 09:11:25] INFO root fetch - main [MainThread]: End processing [plonetheme.imioapps]: success
 [2024-04-10 09:11:25] INFO root fetch - main [MainThread]: Store serial: [22696841]
+[2024-04-10 09:13:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22696841]
+[2024-04-10 09:13:34] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-10 09:13:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MyRecursion
+[2024-04-10 09:13:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tree-sitter-yaml
+[2024-04-10 09:13:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quasar-client
+[2024-04-10 09:13:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Products.PloneMeeting
+[2024-04-10 09:13:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cheondiccegamme1
+[2024-04-10 09:13:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dsm-django-socialauth
+[2024-04-10 09:13:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-snowflake
+[2024-04-10 09:13:34] INFO root fetch - processPackages [quasar-client]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-10 09:13:34] WARNING root fetch - processPackages [tree-sitter-yaml]: Skipping, unable to determine old version
+[2024-04-10 09:13:34] INFO root fetch - main [MainThread]: End processing [tree-sitter-yaml] error
+[2024-04-10 09:13:34] WARNING root fetch - processPackages [MyRecursion]: Skipping, unable to determine old version
+[2024-04-10 09:13:34] INFO root fetch - main [MainThread]: End processing [MyRecursion] error
+[2024-04-10 09:13:34] WARNING root fetch - processPackages [cheondiccegamme1]: Skipping, unable to determine old version
+[2024-04-10 09:13:34] INFO root fetch - main [MainThread]: End processing [cheondiccegamme1] error
+[2024-04-10 09:13:34] INFO root fetch - processPackages [dsm-django-socialauth]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-10 09:13:34] INFO root fetch - processPackages [pulumi-snowflake]: New version: [0.9.1a1656367704] Old Version: [0.9.1a1654087017]
+[2024-04-10 09:13:34] INFO root fetch - processPackages [Products.PloneMeeting]: New version: [4.2rc9] Old Version: [4.2rc8]
+[2024-04-10 09:13:35] INFO root fetch - processPackages [quasar-client]: Downloading https://files.pythonhosted.org/packages/8e/2c/89d5465d9e46dce89c68106a93f859bbecaf3312b51f66034e44880d7a3c/quasar_client-0.1.8.tar.gz
+[2024-04-10 09:13:35] INFO root fetch - processPackages [dsm-django-socialauth]: Downloading https://files.pythonhosted.org/packages/5d/f9/9c11ab0849df799e3f45432528010233757706427e1cc81b64e02341dede/dsm-django-socialauth-1.0.8.tar.gz
+[2024-04-10 09:13:35] INFO root fetch - processPackages [pulumi-snowflake]: Downloading https://files.pythonhosted.org/packages/ac/12/8a15836613d8faa0153d0c1b5818bfe83f875f5770e55c406bbc2e2f4297/pulumi_snowflake-0.9.1a1654087017.tar.gz
+[2024-04-10 09:13:35] INFO root fetch - processPackages [Products.PloneMeeting]: Downloading https://files.pythonhosted.org/packages/c5/27/88c328fff8634a5d92b06394de742157768b7eb70f527ab947c7c5a9214b/Products.PloneMeeting-4.2rc8.tar.gz
+[2024-04-10 09:13:35] INFO root fetch - processPackages [quasar-client]: Downloading https://files.pythonhosted.org/packages/66/85/accbddb64d1d221710993bd9d6fa66fdc23d1a882c911ccba0b4845de866/quasar_client-0.1.9.tar.gz
+[2024-04-10 09:13:35] INFO root fetch - processPackages [quasar-client]: executing diffoscope
+[2024-04-10 09:13:35] INFO root fetch - processPackages [quasar-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quasar_client-0.1.8.tar.gz tmp/quasar_client-0.1.9.tar.gz --markdown 20240410/q/quasar-client/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-10 09:13:35] INFO root fetch - processPackages [pulumi-snowflake]: Downloading https://files.pythonhosted.org/packages/12/24/eac91fa678665e057906195a9e93366ecf0bc7997bd228eb1159a41ae631/pulumi_snowflake-0.9.1a1656367704.tar.gz
+[2024-04-10 09:13:35] INFO root fetch - processPackages [dsm-django-socialauth]: Downloading https://files.pythonhosted.org/packages/8c/aa/089c42588b3e9ea87ea30dc296d13aa9df5baa5822d37bbb19fc2731df4f/dsm-django-socialauth-1.0.9.tar.gz
+[2024-04-10 09:13:35] INFO root fetch - processPackages [Products.PloneMeeting]: Downloading https://files.pythonhosted.org/packages/75/9a/768e08c24d0dc476680b9a14f7cbe6721b3eb4e11e322f043eaa7eff6cd7/Products.PloneMeeting-4.2rc9.tar.gz
+[2024-04-10 09:13:35] INFO root fetch - processPackages [pulumi-snowflake]: executing diffoscope
+[2024-04-10 09:13:35] INFO root fetch - processPackages [pulumi-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_snowflake-0.9.1a1654087017.tar.gz tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz --markdown 20240410/p/pulumi-snowflake/0.9.1a1654087017-0.9.1a1656367704/README.md --exclude *.pyd
+[2024-04-10 09:13:35] INFO root fetch - processPackages [dsm-django-socialauth]: executing diffoscope
+[2024-04-10 09:13:35] INFO root fetch - processPackages [dsm-django-socialauth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsm-django-socialauth-1.0.8.tar.gz tmp/dsm-django-socialauth-1.0.9.tar.gz --markdown 20240410/d/dsm-django-socialauth/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-10 09:13:36] INFO root fetch - processPackages [quasar-client]: Remove: archive file [/home/abi/fetcher/tmp/quasar_client-0.1.8.tar.gz]
+[2024-04-10 09:13:36] INFO root fetch - processPackages [quasar-client]: Remove: archive file [/home/abi/fetcher/tmp/quasar_client-0.1.9.tar.gz]
+[2024-04-10 09:13:36] INFO root fetch - main [MainThread]: End processing [quasar-client]: success
+[2024-04-10 09:13:36] INFO root fetch - processPackages [Products.PloneMeeting]: executing diffoscope
+[2024-04-10 09:13:36] INFO root fetch - processPackages [Products.PloneMeeting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Products.PloneMeeting-4.2rc8.tar.gz tmp/Products.PloneMeeting-4.2rc9.tar.gz --markdown 20240410/P/Products.PloneMeeting/4.2rc8-4.2rc9/README.md --exclude *.pyd
+[2024-04-10 09:13:36] INFO root fetch - processPackages [dsm-django-socialauth]: Remove: archive file [/home/abi/fetcher/tmp/dsm-django-socialauth-1.0.8.tar.gz]
+[2024-04-10 09:13:36] INFO root fetch - processPackages [dsm-django-socialauth]: Remove: archive file [/home/abi/fetcher/tmp/dsm-django-socialauth-1.0.9.tar.gz]
+[2024-04-10 09:13:36] INFO root fetch - main [MainThread]: End processing [dsm-django-socialauth]: success
+[2024-04-10 09:13:36] INFO root fetch - processPackages [pulumi-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_snowflake-0.9.1a1654087017.tar.gz]
+[2024-04-10 09:13:36] INFO root fetch - processPackages [pulumi-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz]
+[2024-04-10 09:13:36] INFO root fetch - main [MainThread]: End processing [pulumi-snowflake]: success
+[2024-04-10 09:13:38] INFO root fetch - processPackages [Products.PloneMeeting]: Remove: archive file [/home/abi/fetcher/tmp/Products.PloneMeeting-4.2rc8.tar.gz]
+[2024-04-10 09:13:38] INFO root fetch - processPackages [Products.PloneMeeting]: Remove: archive file [/home/abi/fetcher/tmp/Products.PloneMeeting-4.2rc9.tar.gz]
+[2024-04-10 09:13:38] INFO root fetch - main [MainThread]: End processing [Products.PloneMeeting]: success
+[2024-04-10 09:13:38] INFO root fetch - main [MainThread]: Store serial: [22696869]

@@ -14884,3 +14884,72 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 08:56:01] INFO root fetch - processPackages [pulumi-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_pagerduty-4.9.0a1709566454.tar.gz]
 [2024-04-10 08:56:01] INFO root fetch - main [MainThread]: End processing [pulumi-pagerduty]: success
 [2024-04-10 08:56:01] INFO root fetch - main [MainThread]: Store serial: [22696715]
+[2024-04-10 08:58:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22696715]
+[2024-04-10 08:58:10] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-10 08:58:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ft-drift
+[2024-04-10 08:58:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vloc
+[2024-04-10 08:58:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wiliot-api
+[2024-04-10 08:58:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: grid3
+[2024-04-10 08:58:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: markdown_convert
+[2024-04-10 08:58:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-fs-storage
+[2024-04-10 08:58:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mlscat
+[2024-04-10 08:58:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-edi-backend-partner-oca
+[2024-04-10 08:58:10] INFO root fetch - processPackages [markdown_convert]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-10 08:58:10] INFO root fetch - processPackages [vloc]: New version: [0.1.9] Old Version: [0.1.15]
+[2024-04-10 08:58:10] INFO root fetch - processPackages [grid3]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-10 08:58:10] WARNING root fetch - processPackages [ft-drift]: Skipping, unable to determine old version
+[2024-04-10 08:58:10] INFO root fetch - main [MainThread]: End processing [ft-drift] error
+[2024-04-10 08:58:10] INFO root fetch - processPackages [markdown_convert]: Downloading https://files.pythonhosted.org/packages/0a/25/267d7cfdac2f2b27eb54380b7add695875732d7108095ad14f329458004e/markdown_convert-1.0.3.tar.gz
+[2024-04-10 08:58:10] INFO root fetch - processPackages [grid3]: Downloading https://files.pythonhosted.org/packages/72/aa/542e1480165eb10c41d07d6773c1888cf5e7561bb96f11260f6814c6cfeb/grid3-0.1.5.tar.gz
+[2024-04-10 08:58:10] INFO root fetch - processPackages [mlscat]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-10 08:58:10] INFO root fetch - processPackages [odoo-addon-fs-storage]: New version: [17.0.1.0.0.5] Old Version: [17.0.1.0.0.4]
+[2024-04-10 08:58:10] INFO root fetch - processPackages [wiliot-api]: New version: [4.8.2] Old Version: [4.8.1]
+[2024-04-10 08:58:10] INFO root fetch - processPackages [odoo-addon-edi-backend-partner-oca]: New version: [16.0.1.0.0.1] Old Version: [15.0.1.0.0.5]
+[2024-04-10 08:58:10] INFO root fetch - processPackages [vloc]: Downloading https://files.pythonhosted.org/packages/cd/b8/27ced640f94e347978c29dcc6b5d80cbc828524736648465f66eaae29cc6/vloc-0.1.15.tar.gz
+[2024-04-10 08:58:10] INFO root fetch - processPackages [odoo-addon-fs-storage]: Downloading https://files.pythonhosted.org/packages/5d/38/3f890e0adf31538afc822be31c0ee2055f50e8c4527236dfc4fc34e625d2/odoo_addon_fs_storage-17.0.1.0.0.4-py3-none-any.whl
+[2024-04-10 08:58:10] INFO root fetch - processPackages [mlscat]: Downloading https://files.pythonhosted.org/packages/4f/00/95fdbaa3392b81f3eead10b53f4fe87cd56f969b4105e4e1086db51e625e/mlscat-0.0.3.tar.gz
+[2024-04-10 08:58:10] INFO root fetch - processPackages [wiliot-api]: Downloading https://files.pythonhosted.org/packages/40/b8/ee5ce3a59bc85b4806f450edc89ebbdef33b5aa0bd71340ca12bb193efed/wiliot-api-4.8.1.tar.gz
+[2024-04-10 08:58:10] INFO root fetch - processPackages [odoo-addon-edi-backend-partner-oca]: Downloading https://files.pythonhosted.org/packages/27/cf/efa61eb12c658f95677d83374acf6cdd56d41f740875993d9f7ec6d5a044/odoo_addon_edi_backend_partner_oca-15.0.1.0.0.5-py3-none-any.whl
+[2024-04-10 08:58:11] INFO root fetch - processPackages [grid3]: Downloading https://files.pythonhosted.org/packages/27/89/02edc2ef642ce03b2e1130a15e0b63a5c127288afe687df1380a89cd90bd/grid3-0.1.6.tar.gz
+[2024-04-10 08:58:11] INFO root fetch - processPackages [vloc]: Downloading https://files.pythonhosted.org/packages/75/38/dae0cec666987d786564bf9fb8f8fd73ad932ebeccdf04e63b6a20cb49c8/vloc-0.1.9.tar.gz
+[2024-04-10 08:58:11] INFO root fetch - processPackages [markdown_convert]: Downloading https://files.pythonhosted.org/packages/11/ee/a116e68da31de95ba5a2c42f6ea3437bfc7e57613a838ae445bc11338032/markdown_convert-1.0.4.tar.gz
+[2024-04-10 08:58:11] INFO root fetch - processPackages [grid3]: executing diffoscope
+[2024-04-10 08:58:11] INFO root fetch - processPackages [grid3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grid3-0.1.5.tar.gz tmp/grid3-0.1.6.tar.gz --markdown 20240410/g/grid3/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-10 08:58:11] INFO root fetch - processPackages [vloc]: executing diffoscope
+[2024-04-10 08:58:11] INFO root fetch - processPackages [vloc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vloc-0.1.15.tar.gz tmp/vloc-0.1.9.tar.gz --markdown 20240410/v/vloc/0.1.15-0.1.9/README.md --exclude *.pyd
+[2024-04-10 08:58:11] INFO root fetch - processPackages [odoo-addon-fs-storage]: Downloading https://files.pythonhosted.org/packages/6e/65/2d60113f6a47a55a3f9213b8a0ba3bc09d884210bf27ba7981a95c2f11b1/odoo_addon_fs_storage-17.0.1.0.0.5-py3-none-any.whl
+[2024-04-10 08:58:11] INFO root fetch - processPackages [mlscat]: Downloading https://files.pythonhosted.org/packages/a1/7b/e64f97327c4f7532bee6e7896e55ab4aa856bec31e75176ea38950b1b789/mlscat-0.0.4.tar.gz
+[2024-04-10 08:58:11] INFO root fetch - processPackages [markdown_convert]: executing diffoscope
+[2024-04-10 08:58:11] INFO root fetch - processPackages [markdown_convert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markdown_convert-1.0.3.tar.gz tmp/markdown_convert-1.0.4.tar.gz --markdown 20240410/m/markdown_convert/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-10 08:58:11] INFO root fetch - processPackages [odoo-addon-edi-backend-partner-oca]: Downloading https://files.pythonhosted.org/packages/f1/23/88a85f0e6d0cc25d345d10fb6ea41f9c993e4368e075e6822395d7530480/odoo_addon_edi_backend_partner_oca-16.0.1.0.0.1-py3-none-any.whl
+[2024-04-10 08:58:11] INFO root fetch - processPackages [wiliot-api]: Downloading https://files.pythonhosted.org/packages/46/e4/0cae2d105351054184c282637a1fdf2f7599c96db56ca53c06b6b60a7bf1/wiliot-api-4.8.2.tar.gz
+[2024-04-10 08:58:11] INFO root fetch - processPackages [mlscat]: executing diffoscope
+[2024-04-10 08:58:11] INFO root fetch - processPackages [mlscat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlscat-0.0.3.tar.gz tmp/mlscat-0.0.4.tar.gz --markdown 20240410/m/mlscat/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-10 08:58:11] INFO root fetch - processPackages [odoo-addon-fs-storage]: executing diffoscope
+[2024-04-10 08:58:11] INFO root fetch - processPackages [odoo-addon-fs-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fs_storage-17.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_fs_storage-17.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240410/o/odoo-addon-fs-storage/17.0.1.0.0.4-17.0.1.0.0.5/README.md --exclude *.pyd
+[2024-04-10 08:58:11] INFO root fetch - processPackages [wiliot-api]: executing diffoscope
+[2024-04-10 08:58:11] INFO root fetch - processPackages [wiliot-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiliot-api-4.8.1.tar.gz tmp/wiliot-api-4.8.2.tar.gz --markdown 20240410/w/wiliot-api/4.8.1-4.8.2/README.md --exclude *.pyd
+[2024-04-10 08:58:11] INFO root fetch - processPackages [odoo-addon-edi-backend-partner-oca]: executing diffoscope
+[2024-04-10 08:58:11] INFO root fetch - processPackages [odoo-addon-edi-backend-partner-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_edi_backend_partner_oca-15.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_edi_backend_partner_oca-16.0.1.0.0.1-py3-none-any.whl.zip --markdown 20240410/o/odoo-addon-edi-backend-partner-oca/15.0.1.0.0.5-16.0.1.0.0.1/README.md --exclude *.pyd
+[2024-04-10 08:58:11] INFO root fetch - processPackages [grid3]: Remove: archive file [/home/abi/fetcher/tmp/grid3-0.1.5.tar.gz]
+[2024-04-10 08:58:11] INFO root fetch - processPackages [grid3]: Remove: archive file [/home/abi/fetcher/tmp/grid3-0.1.6.tar.gz]
+[2024-04-10 08:58:11] INFO root fetch - main [MainThread]: End processing [grid3]: success
+[2024-04-10 08:58:11] INFO root fetch - processPackages [markdown_convert]: Remove: archive file [/home/abi/fetcher/tmp/markdown_convert-1.0.3.tar.gz]
+[2024-04-10 08:58:11] INFO root fetch - processPackages [markdown_convert]: Remove: archive file [/home/abi/fetcher/tmp/markdown_convert-1.0.4.tar.gz]
+[2024-04-10 08:58:12] INFO root fetch - main [MainThread]: End processing [markdown_convert]: success
+[2024-04-10 08:58:12] INFO root fetch - processPackages [vloc]: Remove: archive file [/home/abi/fetcher/tmp/vloc-0.1.15.tar.gz]
+[2024-04-10 08:58:12] INFO root fetch - processPackages [vloc]: Remove: archive file [/home/abi/fetcher/tmp/vloc-0.1.9.tar.gz]
+[2024-04-10 08:58:12] INFO root fetch - main [MainThread]: End processing [vloc]: success
+[2024-04-10 08:58:12] INFO root fetch - processPackages [mlscat]: Remove: archive file [/home/abi/fetcher/tmp/mlscat-0.0.3.tar.gz]
+[2024-04-10 08:58:12] INFO root fetch - processPackages [mlscat]: Remove: archive file [/home/abi/fetcher/tmp/mlscat-0.0.4.tar.gz]
+[2024-04-10 08:58:12] INFO root fetch - main [MainThread]: End processing [mlscat]: success
+[2024-04-10 08:58:12] INFO root fetch - processPackages [odoo-addon-edi-backend-partner-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_edi_backend_partner_oca-15.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-04-10 08:58:12] INFO root fetch - processPackages [odoo-addon-edi-backend-partner-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_edi_backend_partner_oca-16.0.1.0.0.1-py3-none-any.whl.zip]
+[2024-04-10 08:58:12] INFO root fetch - main [MainThread]: End processing [odoo-addon-edi-backend-partner-oca]: success
+[2024-04-10 08:58:12] INFO root fetch - processPackages [wiliot-api]: Remove: archive file [/home/abi/fetcher/tmp/wiliot-api-4.8.1.tar.gz]
+[2024-04-10 08:58:12] INFO root fetch - processPackages [wiliot-api]: Remove: archive file [/home/abi/fetcher/tmp/wiliot-api-4.8.2.tar.gz]
+[2024-04-10 08:58:12] INFO root fetch - main [MainThread]: End processing [wiliot-api]: success
+[2024-04-10 08:58:12] INFO root fetch - processPackages [odoo-addon-fs-storage]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fs_storage-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-10 08:58:12] INFO root fetch - processPackages [odoo-addon-fs-storage]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fs_storage-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-04-10 08:58:12] INFO root fetch - main [MainThread]: End processing [odoo-addon-fs-storage]: success
+[2024-04-10 08:58:12] INFO root fetch - main [MainThread]: Store serial: [22696738]

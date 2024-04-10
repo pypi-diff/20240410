@@ -15334,3 +15334,50 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 09:13:38] INFO root fetch - processPackages [Products.PloneMeeting]: Remove: archive file [/home/abi/fetcher/tmp/Products.PloneMeeting-4.2rc9.tar.gz]
 [2024-04-10 09:13:38] INFO root fetch - main [MainThread]: End processing [Products.PloneMeeting]: success
 [2024-04-10 09:13:38] INFO root fetch - main [MainThread]: Store serial: [22696869]
+[2024-04-10 09:15:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22696869]
+[2024-04-10 09:15:47] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-10 09:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scNovel
+[2024-04-10 09:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bibiflags
+[2024-04-10 09:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rtraflow
+[2024-04-10 09:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sqlglot-doris
+[2024-04-10 09:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alibabacloud-umeng-apm20220214
+[2024-04-10 09:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: neptune
+[2024-04-10 09:15:47] WARNING root fetch - processPackages [bibiflags]: Skipping, unable to determine old version
+[2024-04-10 09:15:47] INFO root fetch - main [MainThread]: End processing [bibiflags] error
+[2024-04-10 09:15:47] INFO root fetch - processPackages [rtraflow]: New version: [0.3] Old Version: [0.2]
+[2024-04-10 09:15:47] INFO root fetch - processPackages [rtraflow]: Downloading https://files.pythonhosted.org/packages/58/4e/915a26bb65b95dc879d9a107e2e2abcc397f7e492c1ec6d3923beba84224/rtraflow-0.2.tar.gz
+[2024-04-10 09:15:47] INFO root fetch - processPackages [scNovel]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-10 09:15:47] INFO root fetch - processPackages [alibabacloud-umeng-apm20220214]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-04-10 09:15:47] INFO root fetch - processPackages [sqlglot-doris]: New version: [1.1.6] Old Version: [1.1.5]
+[2024-04-10 09:15:47] INFO root fetch - processPackages [neptune]: New version: [2.0.0a0] Old Version: [1.9.1]
+[2024-04-10 09:15:48] INFO root fetch - processPackages [alibabacloud-umeng-apm20220214]: Downloading https://files.pythonhosted.org/packages/57/19/7fdcca4685afe2279ad7bc12a91e7f9711f7afa680b55372be93bd58e4ae/alibabacloud_umeng-apm20220214-1.1.1.tar.gz
+[2024-04-10 09:15:48] INFO root fetch - processPackages [sqlglot-doris]: Downloading https://files.pythonhosted.org/packages/02/c6/a52fa5c9ae892ab5245c227f19b981d68ad2ef9cc3170accd95955962dac/sqlglot-doris-1.1.5.tar.gz
+[2024-04-10 09:15:48] INFO root fetch - processPackages [scNovel]: Downloading https://files.pythonhosted.org/packages/ec/ec/728451f33bcd48a93724cb31f4f1c9be83cac536198ec6b9b793572b0613/scNovel-1.1.0.tar.gz
+[2024-04-10 09:15:48] INFO root fetch - processPackages [neptune]: Downloading https://files.pythonhosted.org/packages/5e/16/3a4a4bd244e56b8599846759b9ceaaa99d95fa50fe970c2a7eb3d51035a9/neptune-1.9.1.tar.gz
+[2024-04-10 09:15:48] WARNING root fetch - processPackages [sqlglot-doris]: Skipping package: exceeds size limit 12794534>=10485760
+[2024-04-10 09:15:48] INFO root fetch - processPackages [rtraflow]: Downloading https://files.pythonhosted.org/packages/5c/c1/88e089b9504f533d858bf5e416fd8dd5eb2630415fde207eb1210c5208d2/rtraflow-0.3.tar.gz
+[2024-04-10 09:15:48] INFO root fetch - main [MainThread]: End processing [sqlglot-doris] error
+[2024-04-10 09:15:48] INFO root fetch - processPackages [rtraflow]: executing diffoscope
+[2024-04-10 09:15:48] INFO root fetch - processPackages [rtraflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rtraflow-0.2.tar.gz tmp/rtraflow-0.3.tar.gz --markdown 20240410/r/rtraflow/0.2-0.3/README.md --exclude *.pyd
+[2024-04-10 09:15:48] INFO root fetch - processPackages [alibabacloud-umeng-apm20220214]: Downloading https://files.pythonhosted.org/packages/13/c5/0cd644716d9f054ab868bd2320dd7968778e661b5918b2003922e647a22f/alibabacloud_umeng-apm20220214-1.1.2.tar.gz
+[2024-04-10 09:15:48] INFO root fetch - processPackages [scNovel]: Downloading https://files.pythonhosted.org/packages/d0/05/96b82bb3ff8f915a6cf2f87266d19a5c3c2966fcda537e4b33cf74f967d4/scNovel-1.2.0.tar.gz
+[2024-04-10 09:15:48] INFO root fetch - processPackages [neptune]: Downloading https://files.pythonhosted.org/packages/1d/bf/e8bb81e1f837730d8a5fb6e03f63b83bffcc6b5ddd1809562c4b68901eda/neptune-2.0.0a0.tar.gz
+[2024-04-10 09:15:48] INFO root fetch - processPackages [scNovel]: executing diffoscope
+[2024-04-10 09:15:48] INFO root fetch - processPackages [scNovel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scNovel-1.1.0.tar.gz tmp/scNovel-1.2.0.tar.gz --markdown 20240410/s/scNovel/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-04-10 09:15:48] INFO root fetch - processPackages [alibabacloud-umeng-apm20220214]: executing diffoscope
+[2024-04-10 09:15:48] INFO root fetch - processPackages [alibabacloud-umeng-apm20220214]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_umeng-apm20220214-1.1.1.tar.gz tmp/alibabacloud_umeng-apm20220214-1.1.2.tar.gz --markdown 20240410/a/alibabacloud-umeng-apm20220214/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-04-10 09:15:48] INFO root fetch - processPackages [neptune]: executing diffoscope
+[2024-04-10 09:15:48] INFO root fetch - processPackages [neptune]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neptune-1.9.1.tar.gz tmp/neptune-2.0.0a0.tar.gz --markdown 20240410/n/neptune/1.9.1-2.0.0a0/README.md --exclude *.pyd
+[2024-04-10 09:15:48] INFO root fetch - processPackages [rtraflow]: Remove: archive file [/home/abi/fetcher/tmp/rtraflow-0.2.tar.gz]
+[2024-04-10 09:15:48] INFO root fetch - processPackages [rtraflow]: Remove: archive file [/home/abi/fetcher/tmp/rtraflow-0.3.tar.gz]
+[2024-04-10 09:15:48] INFO root fetch - main [MainThread]: End processing [rtraflow]: success
+[2024-04-10 09:15:49] INFO root fetch - processPackages [scNovel]: Remove: archive file [/home/abi/fetcher/tmp/scNovel-1.1.0.tar.gz]
+[2024-04-10 09:15:49] INFO root fetch - processPackages [scNovel]: Remove: archive file [/home/abi/fetcher/tmp/scNovel-1.2.0.tar.gz]
+[2024-04-10 09:15:49] INFO root fetch - main [MainThread]: End processing [scNovel]: success
+[2024-04-10 09:15:49] INFO root fetch - processPackages [alibabacloud-umeng-apm20220214]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_umeng-apm20220214-1.1.1.tar.gz]
+[2024-04-10 09:15:49] INFO root fetch - processPackages [alibabacloud-umeng-apm20220214]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_umeng-apm20220214-1.1.2.tar.gz]
+[2024-04-10 09:15:49] INFO root fetch - main [MainThread]: End processing [alibabacloud-umeng-apm20220214]: success
+[2024-04-10 09:15:50] INFO root fetch - processPackages [neptune]: Remove: archive file [/home/abi/fetcher/tmp/neptune-1.9.1.tar.gz]
+[2024-04-10 09:15:50] INFO root fetch - processPackages [neptune]: Remove: archive file [/home/abi/fetcher/tmp/neptune-2.0.0a0.tar.gz]
+[2024-04-10 09:15:50] INFO root fetch - main [MainThread]: End processing [neptune]: success
+[2024-04-10 09:15:50] INFO root fetch - main [MainThread]: Store serial: [22696885]

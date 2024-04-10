@@ -2647,3 +2647,69 @@
 [2024-04-10 02:08:14] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240409.404.tar.gz]
 [2024-04-10 02:08:14] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
 [2024-04-10 02:08:14] INFO root fetch - main [MainThread]: Store serial: [22692143]
+[2024-04-10 02:10:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22692143]
+[2024-04-10 02:10:23] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-10 02:10:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-common
+[2024-04-10 02:10:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dragonfly-energy
+[2024-04-10 02:10:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hdx-python-api
+[2024-04-10 02:10:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dragonfly-radiance
+[2024-04-10 02:10:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: biorag
+[2024-04-10 02:10:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dragonfly-uwg
+[2024-04-10 02:10:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openbb-nightly
+[2024-04-10 02:10:24] INFO root fetch - processPackages [dragonfly-radiance]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-10 02:10:24] INFO root fetch - processPackages [dragonfly-uwg]: New version: [0.5.99] Old Version: [0.5.98]
+[2024-04-10 02:10:24] INFO root fetch - processPackages [openbb-nightly]: New version: [4.1.6.dev202404090009] Old Version: [4.1.6.dev202404080009]
+[2024-04-10 02:10:24] INFO root fetch - processPackages [dragonfly-energy]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-04-10 02:10:24] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-10 02:10:24] INFO root fetch - processPackages [dragonfly-radiance]: Downloading https://files.pythonhosted.org/packages/a2/41/805cddd3de27bfc114d3b54bbf0a558b1d450bb0bc346c8bbfc9f9e1ca04/dragonfly-radiance-0.3.8.tar.gz
+[2024-04-10 02:10:24] INFO root fetch - processPackages [hdx-python-api]: New version: [6.2.7] Old Version: [6.2.6]
+[2024-04-10 02:10:24] INFO root fetch - processPackages [biorag]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-10 02:10:24] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/98/bd/036c8c91cf7fd958c8f2aec2741e71a95a35de9a874beb6f57be2ab62e2e/openbb_nightly-4.1.6.dev202404080009.tar.gz
+[2024-04-10 02:10:24] INFO root fetch - processPackages [dragonfly-uwg]: Downloading https://files.pythonhosted.org/packages/a6/3c/7afbd082f170d8d51ed57abdf8bb67058ca404ede70f9d982fd95c8bb807/dragonfly-uwg-0.5.98.tar.gz
+[2024-04-10 02:10:24] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/20/4e/115840f938ee254b23bd515351ba786228441464717f8557431f914e75f4/dragonfly-energy-1.9.8.tar.gz
+[2024-04-10 02:10:24] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2024-04-10 02:10:24] INFO root fetch - processPackages [dragonfly-radiance]: Downloading https://files.pythonhosted.org/packages/a9/93/8933c5c67b8d336f624b3e7f9cb128678c38867dac08b6bb30a824b7cb3d/dragonfly-radiance-0.3.9.tar.gz
+[2024-04-10 02:10:24] INFO root fetch - processPackages [hdx-python-api]: Downloading https://files.pythonhosted.org/packages/b9/5f/ba82a89d78432f16b243f2cc585f6fffa373196c4ac5240ac3f6e9a7c5ae/hdx_python_api-6.2.6.tar.gz
+[2024-04-10 02:10:24] INFO root fetch - processPackages [biorag]: Downloading https://files.pythonhosted.org/packages/cf/9f/7faf5d71da404e6874d1fc081090c96fd6e8e03bd6329b33cd53c92c0068/biorag-0.1.5.tar.gz
+[2024-04-10 02:10:24] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/09/b6/c12f13159c5beb3b855a32f792faef162ad37358d2e0d3311cbd68a969db/dragonfly-energy-1.9.9.tar.gz
+[2024-04-10 02:10:24] INFO root fetch - processPackages [dragonfly-uwg]: Downloading https://files.pythonhosted.org/packages/55/b3/3f9a36d82b87f343d4e196e93a8cf3e838b9c80b0849f927d4f3505355af/dragonfly-uwg-0.5.99.tar.gz
+[2024-04-10 02:10:24] INFO root fetch - processPackages [dragonfly-radiance]: executing diffoscope
+[2024-04-10 02:10:24] INFO root fetch - processPackages [dragonfly-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-radiance-0.3.8.tar.gz tmp/dragonfly-radiance-0.3.9.tar.gz --markdown 20240410/d/dragonfly-radiance/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-10 02:10:24] INFO root fetch - processPackages [dragonfly-energy]: executing diffoscope
+[2024-04-10 02:10:24] INFO root fetch - processPackages [dragonfly-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-energy-1.9.8.tar.gz tmp/dragonfly-energy-1.9.9.tar.gz --markdown 20240410/d/dragonfly-energy/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-04-10 02:10:24] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2024-04-10 02:10:24] INFO root fetch - processPackages [dragonfly-uwg]: executing diffoscope
+[2024-04-10 02:10:24] INFO root fetch - processPackages [dragonfly-uwg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-uwg-0.5.98.tar.gz tmp/dragonfly-uwg-0.5.99.tar.gz --markdown 20240410/d/dragonfly-uwg/0.5.98-0.5.99/README.md --exclude *.pyd
+[2024-04-10 02:10:24] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/a4/da/c764c8e1d02f08186aae0095f7d5f450d4309563c80d97e81457bb341ee5/openbb_nightly-4.1.6.dev202404090009.tar.gz
+[2024-04-10 02:10:24] INFO root fetch - processPackages [biorag]: Downloading https://files.pythonhosted.org/packages/d7/43/adaf425bd3f8aaff244941e4be4f3b1e95ab0b9c769c3a82bf1430dc2b36/biorag-0.1.6.tar.gz
+[2024-04-10 02:10:24] INFO root fetch - processPackages [hdx-python-api]: Downloading https://files.pythonhosted.org/packages/f8/cb/fc4fb9179edc57e6d887159553941eff261f592aabf0002b2155caae5a9d/hdx_python_api-6.2.7.tar.gz
+[2024-04-10 02:10:25] INFO root fetch - processPackages [biorag]: executing diffoscope
+[2024-04-10 02:10:25] INFO root fetch - processPackages [biorag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biorag-0.1.5.tar.gz tmp/biorag-0.1.6.tar.gz --markdown 20240410/b/biorag/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-10 02:10:25] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2024-04-10 02:10:25] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20240410/c/cdk-common/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-04-10 02:10:25] INFO root fetch - processPackages [hdx-python-api]: executing diffoscope
+[2024-04-10 02:10:25] INFO root fetch - processPackages [hdx-python-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdx_python_api-6.2.6.tar.gz tmp/hdx_python_api-6.2.7.tar.gz --markdown 20240410/h/hdx-python-api/6.2.6-6.2.7/README.md --exclude *.pyd
+[2024-04-10 02:10:25] INFO root fetch - processPackages [openbb-nightly]: executing diffoscope
+[2024-04-10 02:10:25] INFO root fetch - processPackages [openbb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_nightly-4.1.6.dev202404080009.tar.gz tmp/openbb_nightly-4.1.6.dev202404090009.tar.gz --markdown 20240410/o/openbb-nightly/4.1.6.dev202404080009-4.1.6.dev202404090009/README.md --exclude *.pyd
+[2024-04-10 02:10:25] INFO root fetch - processPackages [dragonfly-radiance]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-radiance-0.3.8.tar.gz]
+[2024-04-10 02:10:25] INFO root fetch - processPackages [dragonfly-radiance]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-radiance-0.3.9.tar.gz]
+[2024-04-10 02:10:25] INFO root fetch - main [MainThread]: End processing [dragonfly-radiance]: success
+[2024-04-10 02:10:25] INFO root fetch - processPackages [dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-energy-1.9.8.tar.gz]
+[2024-04-10 02:10:25] INFO root fetch - processPackages [dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-energy-1.9.9.tar.gz]
+[2024-04-10 02:10:25] INFO root fetch - main [MainThread]: End processing [dragonfly-energy]: success
+[2024-04-10 02:10:25] INFO root fetch - processPackages [biorag]: Remove: archive file [/home/abi/fetcher/tmp/biorag-0.1.5.tar.gz]
+[2024-04-10 02:10:25] INFO root fetch - processPackages [biorag]: Remove: archive file [/home/abi/fetcher/tmp/biorag-0.1.6.tar.gz]
+[2024-04-10 02:10:25] INFO root fetch - main [MainThread]: End processing [biorag]: success
+[2024-04-10 02:10:25] INFO root fetch - processPackages [dragonfly-uwg]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-uwg-0.5.98.tar.gz]
+[2024-04-10 02:10:25] INFO root fetch - processPackages [dragonfly-uwg]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-uwg-0.5.99.tar.gz]
+[2024-04-10 02:10:25] INFO root fetch - main [MainThread]: End processing [dragonfly-uwg]: success
+[2024-04-10 02:10:25] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2024-04-10 02:10:25] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2024-04-10 02:10:25] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2024-04-10 02:10:26] INFO root fetch - processPackages [hdx-python-api]: Remove: archive file [/home/abi/fetcher/tmp/hdx_python_api-6.2.6.tar.gz]
+[2024-04-10 02:10:26] INFO root fetch - processPackages [hdx-python-api]: Remove: archive file [/home/abi/fetcher/tmp/hdx_python_api-6.2.7.tar.gz]
+[2024-04-10 02:10:26] INFO root fetch - main [MainThread]: End processing [hdx-python-api]: success
+[2024-04-10 02:10:28] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.6.dev202404080009.tar.gz]
+[2024-04-10 02:10:28] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.6.dev202404090009.tar.gz]
+[2024-04-10 02:10:28] INFO root fetch - main [MainThread]: End processing [openbb-nightly]: success
+[2024-04-10 02:10:28] INFO root fetch - main [MainThread]: Store serial: [22692169]

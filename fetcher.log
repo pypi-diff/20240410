@@ -20072,3 +20072,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 12:19:14] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.9.tar.gz]
 [2024-04-10 12:19:14] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2024-04-10 12:19:14] INFO root fetch - main [MainThread]: Store serial: [22698876]
+[2024-04-10 12:21:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22698876]
+[2024-04-10 12:21:23] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-10 12:21:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iderare-pheno
+[2024-04-10 12:21:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: twopilabs-sense-x1000
+[2024-04-10 12:21:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: GeneralSQL
+[2024-04-10 12:21:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pricedisplay
+[2024-04-10 12:21:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: VideoOpinionMining
+[2024-04-10 12:21:23] INFO root fetch - processPackages [VideoOpinionMining]: New version: [1.1] Old Version: [1.0]
+[2024-04-10 12:21:23] INFO root fetch - processPackages [twopilabs-sense-x1000]: New version: [0.7.5] Old Version: [0.7.4]
+[2024-04-10 12:21:23] INFO root fetch - processPackages [GeneralSQL]: New version: [1.3.0] Old Version: [1.2.0]
+[2024-04-10 12:21:23] INFO root fetch - processPackages [iderare-pheno]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-04-10 12:21:23] INFO root fetch - processPackages [pricedisplay]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-04-10 12:21:23] INFO root fetch - processPackages [VideoOpinionMining]: Downloading https://files.pythonhosted.org/packages/ce/f4/c5da5463af019590d4434a52f76c732cf5f143930c8c2355956654ee66b5/VideoOpinionMining-1.0.tar.gz
+[2024-04-10 12:21:23] INFO root fetch - processPackages [twopilabs-sense-x1000]: Downloading https://files.pythonhosted.org/packages/c1/f0/b01dcdfe23397dcfa578063787266c54cb15a5beb83ddd1ace699e04349d/twopilabs-sense-x1000-0.7.4.tar.gz
+[2024-04-10 12:21:23] INFO root fetch - processPackages [GeneralSQL]: Downloading https://files.pythonhosted.org/packages/e7/7b/9795512b0c3c5306a363297a32f29f052c3cc7f56e0d62e8b8dbd5d61460/GeneralSQL-1.2.0.tar.gz
+[2024-04-10 12:21:23] INFO root fetch - processPackages [iderare-pheno]: Downloading https://files.pythonhosted.org/packages/ef/b5/589293b2f35f98e4231ca13598b6f56db55822c0727f204a87206a06e333/iderare-pheno-0.4.0.tar.gz
+[2024-04-10 12:21:23] INFO root fetch - processPackages [pricedisplay]: Downloading https://files.pythonhosted.org/packages/ab/d1/ce127d3a6b292a18f69b7cae73049b9c7322ecec7c7d9411ab7bc0ee7b68/pricedisplay-0.5.1.tar.gz
+[2024-04-10 12:21:23] INFO root fetch - processPackages [VideoOpinionMining]: Downloading https://files.pythonhosted.org/packages/43/c0/eaa38fa99e653f0408e1acfc95ae94d7f0fca7ab34f6554c87c3dd86a731/VideoOpinionMining-1.1.tar.gz
+[2024-04-10 12:21:24] INFO root fetch - processPackages [GeneralSQL]: Downloading https://files.pythonhosted.org/packages/08/ab/e84f76fabe67c3ab45cdcb08a3f937217bd347f841ce006856814570ce37/GeneralSQL-1.3.0.tar.gz
+[2024-04-10 12:21:24] INFO root fetch - processPackages [twopilabs-sense-x1000]: Downloading https://files.pythonhosted.org/packages/5c/49/0e3b69e9a2442cb2c11d2ff95d237d738c9cefd948947d62e51f43dd083f/twopilabs-sense-x1000-0.7.5.tar.gz
+[2024-04-10 12:21:24] INFO root fetch - processPackages [VideoOpinionMining]: executing diffoscope
+[2024-04-10 12:21:24] INFO root fetch - processPackages [VideoOpinionMining]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VideoOpinionMining-1.0.tar.gz tmp/VideoOpinionMining-1.1.tar.gz --markdown 20240410/V/VideoOpinionMining/1.0-1.1/README.md --exclude *.pyd
+[2024-04-10 12:21:24] INFO root fetch - processPackages [GeneralSQL]: executing diffoscope
+[2024-04-10 12:21:24] INFO root fetch - processPackages [GeneralSQL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GeneralSQL-1.2.0.tar.gz tmp/GeneralSQL-1.3.0.tar.gz --markdown 20240410/G/GeneralSQL/1.2.0-1.3.0/README.md --exclude *.pyd
+[2024-04-10 12:21:24] INFO root fetch - processPackages [twopilabs-sense-x1000]: executing diffoscope
+[2024-04-10 12:21:24] INFO root fetch - processPackages [twopilabs-sense-x1000]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twopilabs-sense-x1000-0.7.4.tar.gz tmp/twopilabs-sense-x1000-0.7.5.tar.gz --markdown 20240410/t/twopilabs-sense-x1000/0.7.4-0.7.5/README.md --exclude *.pyd
+[2024-04-10 12:21:24] INFO root fetch - processPackages [pricedisplay]: Downloading https://files.pythonhosted.org/packages/2e/ee/9514e3488b60b471b66423559c401bf70dd29c256ec62420ce049faffa85/pricedisplay-0.5.2.tar.gz
+[2024-04-10 12:21:24] INFO root fetch - processPackages [pricedisplay]: executing diffoscope
+[2024-04-10 12:21:24] INFO root fetch - processPackages [pricedisplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pricedisplay-0.5.1.tar.gz tmp/pricedisplay-0.5.2.tar.gz --markdown 20240410/p/pricedisplay/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-04-10 12:21:24] INFO root fetch - processPackages [iderare-pheno]: Downloading https://files.pythonhosted.org/packages/f5/57/5b0e8553117078277f9b3271ab548db9bfcfbdca8697de490d8a9ef8c0e0/iderare-pheno-0.5.0.tar.gz
+[2024-04-10 12:21:24] INFO root fetch - processPackages [VideoOpinionMining]: Remove: archive file [/home/abi/fetcher/tmp/VideoOpinionMining-1.0.tar.gz]
+[2024-04-10 12:21:24] INFO root fetch - processPackages [VideoOpinionMining]: Remove: archive file [/home/abi/fetcher/tmp/VideoOpinionMining-1.1.tar.gz]
+[2024-04-10 12:21:24] INFO root fetch - main [MainThread]: End processing [VideoOpinionMining]: success
+[2024-04-10 12:21:24] INFO root fetch - processPackages [GeneralSQL]: Remove: archive file [/home/abi/fetcher/tmp/GeneralSQL-1.2.0.tar.gz]
+[2024-04-10 12:21:24] INFO root fetch - processPackages [GeneralSQL]: Remove: archive file [/home/abi/fetcher/tmp/GeneralSQL-1.3.0.tar.gz]
+[2024-04-10 12:21:24] INFO root fetch - main [MainThread]: End processing [GeneralSQL]: success
+[2024-04-10 12:21:25] INFO root fetch - processPackages [twopilabs-sense-x1000]: Remove: archive file [/home/abi/fetcher/tmp/twopilabs-sense-x1000-0.7.4.tar.gz]
+[2024-04-10 12:21:25] INFO root fetch - processPackages [twopilabs-sense-x1000]: Remove: archive file [/home/abi/fetcher/tmp/twopilabs-sense-x1000-0.7.5.tar.gz]
+[2024-04-10 12:21:25] INFO root fetch - main [MainThread]: End processing [twopilabs-sense-x1000]: success
+[2024-04-10 12:21:25] INFO root fetch - processPackages [pricedisplay]: Remove: archive file [/home/abi/fetcher/tmp/pricedisplay-0.5.1.tar.gz]
+[2024-04-10 12:21:25] INFO root fetch - processPackages [pricedisplay]: Remove: archive file [/home/abi/fetcher/tmp/pricedisplay-0.5.2.tar.gz]
+[2024-04-10 12:21:25] INFO root fetch - main [MainThread]: End processing [pricedisplay]: success
+[2024-04-10 12:21:26] INFO root fetch - processPackages [iderare-pheno]: executing diffoscope
+[2024-04-10 12:21:26] INFO root fetch - processPackages [iderare-pheno]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iderare-pheno-0.4.0.tar.gz tmp/iderare-pheno-0.5.0.tar.gz --markdown 20240410/i/iderare-pheno/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-04-10 12:21:30] INFO root fetch - processPackages [iderare-pheno]: Remove: archive file [/home/abi/fetcher/tmp/iderare-pheno-0.4.0.tar.gz]
+[2024-04-10 12:21:30] INFO root fetch - processPackages [iderare-pheno]: Remove: archive file [/home/abi/fetcher/tmp/iderare-pheno-0.5.0.tar.gz]
+[2024-04-10 12:21:30] INFO root fetch - main [MainThread]: End processing [iderare-pheno]: success
+[2024-04-10 12:21:30] INFO root fetch - main [MainThread]: Store serial: [22698892]

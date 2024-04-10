@@ -2839,3 +2839,81 @@
 [2024-04-10 02:14:50] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
 [2024-04-10 02:14:50] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
 [2024-04-10 02:14:50] INFO root fetch - main [MainThread]: Store serial: [22692253]
+[2024-04-10 02:16:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22692253]
+[2024-04-10 02:16:58] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-10 02:16:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: execsql
+[2024-04-10 02:16:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: keri
+[2024-04-10 02:16:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qbraid-core
+[2024-04-10 02:16:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: langchain-core
+[2024-04-10 02:16:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: docugami-langchain
+[2024-04-10 02:16:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-formsets-inside-form
+[2024-04-10 02:16:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: crowbar-package-manager
+[2024-04-10 02:16:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdklabs.cdk-hyperledger-fabric-network
+[2024-04-10 02:16:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lbt-dragonfly
+[2024-04-10 02:16:58] INFO root fetch - processPackages [crowbar-package-manager]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-10 02:16:58] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2024-04-10 02:16:58] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: New version: [0.8.99] Old Version: [0.8.98]
+[2024-04-10 02:16:58] INFO root fetch - processPackages [keri]: New version: [1.2.0.dev0] Old Version: [1.1.9]
+[2024-04-10 02:16:58] INFO root fetch - processPackages [qbraid-core]: New version: [0.1.1] Old Version: [0.1.0.dev4]
+[2024-04-10 02:16:58] WARNING root fetch - processPackages [django-formsets-inside-form]: Skipping, unable to determine old version
+[2024-04-10 02:16:58] INFO root fetch - main [MainThread]: End processing [django-formsets-inside-form] error
+[2024-04-10 02:16:58] INFO root fetch - processPackages [langchain-core]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-10 02:16:58] INFO root fetch - processPackages [crowbar-package-manager]: Downloading https://files.pythonhosted.org/packages/6e/07/a874f3e34c53205fde18cc2ca614d16e76da6e4bf94affba37ffa6e2f899/crowbar_package_manager-0.1.5.tar.gz
+[2024-04-10 02:16:58] INFO root fetch - processPackages [execsql]: New version: [1.98.0] Old Version: [1.97.0]
+[2024-04-10 02:16:58] INFO root fetch - processPackages [docugami-langchain]: New version: [0.0.7rc9] Old Version: [0.0.7rc8]
+[2024-04-10 02:16:58] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Downloading https://files.pythonhosted.org/packages/9b/c8/ddb4d2575b42b36bf1ebf5daccec9c3c53a9ac9cadaeffb66bed93dc3bab/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz
+[2024-04-10 02:16:58] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2024-04-10 02:16:58] INFO root fetch - processPackages [keri]: Downloading https://files.pythonhosted.org/packages/a7/2f/60b5294f4098b422cb91093be33f1770bd310d911ae3741f04f0b7d828fb/keri-1.1.9.tar.gz
+[2024-04-10 02:16:58] INFO root fetch - processPackages [qbraid-core]: Downloading https://files.pythonhosted.org/packages/ab/6c/64ba9683d74923bfc86db687d0a858e36a4fd7489379072a0147bc0a6308/qbraid-core-0.1.0.dev4.tar.gz
+[2024-04-10 02:16:58] INFO root fetch - processPackages [langchain-core]: Downloading https://files.pythonhosted.org/packages/cc/69/b95eb186fa3ff696ee719ed57a5e1f839c0cb3c40c82b1160696062f8b66/langchain_core-0.1.8.tar.gz
+[2024-04-10 02:16:58] INFO root fetch - processPackages [docugami-langchain]: Downloading https://files.pythonhosted.org/packages/61/fb/e065e9733519fa7f9c379746d05be5069415a0888c754b8d12a4b7595069/docugami_langchain-0.0.7rc8.tar.gz
+[2024-04-10 02:16:58] INFO root fetch - processPackages [execsql]: Downloading https://files.pythonhosted.org/packages/91/8e/51da00d0618e95a78d658b8ba5ca02e29543fb296784ecffc9c3e13a9aff/execsql-1.97.0.tar.gz
+[2024-04-10 02:16:58] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Downloading https://files.pythonhosted.org/packages/56/40/cbf52f4213018f2d82f0aad0f2fa90e69c2923704c1905bd7e090d3accf2/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz
+[2024-04-10 02:16:58] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2024-04-10 02:16:58] INFO root fetch - processPackages [crowbar-package-manager]: Downloading https://files.pythonhosted.org/packages/e9/78/5e659bca8246d8fdbcaaecefb0b409e8a4228a7d4be00a3164882a8de942/crowbar_package_manager-0.1.6.tar.gz
+[2024-04-10 02:16:59] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2024-04-10 02:16:59] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20240410/l/lbt-dragonfly/0.9.98-0.9.99/README.md --exclude *.pyd
+[2024-04-10 02:16:59] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: executing diffoscope
+[2024-04-10 02:16:59] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz --markdown 20240410/c/cdklabs.cdk-hyperledger-fabric-network/0.8.98-0.8.99/README.md --exclude *.pyd
+[2024-04-10 02:16:59] INFO root fetch - processPackages [crowbar-package-manager]: executing diffoscope
+[2024-04-10 02:16:59] INFO root fetch - processPackages [crowbar-package-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crowbar_package_manager-0.1.5.tar.gz tmp/crowbar_package_manager-0.1.6.tar.gz --markdown 20240410/c/crowbar-package-manager/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-10 02:16:59] INFO root fetch - processPackages [qbraid-core]: Downloading https://files.pythonhosted.org/packages/fc/2b/6133055c8e4f1d8aef013e2b018fa52b4f7d041c988b8c1e8ab7cc2f9fd9/qbraid-core-0.1.1.tar.gz
+[2024-04-10 02:16:59] INFO root fetch - processPackages [langchain-core]: Downloading https://files.pythonhosted.org/packages/1b/97/8c742f024d6a7e8793382452545b4432130e5ac741883e6ebcd92f46fc53/langchain_core-0.1.9.tar.gz
+[2024-04-10 02:16:59] INFO root fetch - processPackages [keri]: Downloading https://files.pythonhosted.org/packages/66/58/d21e55b2e2e7b6a54099ca6fa944e1fc93f4822d919e17e5875f10850153/keri-1.2.0.dev0.tar.gz
+[2024-04-10 02:16:59] INFO root fetch - processPackages [qbraid-core]: executing diffoscope
+[2024-04-10 02:16:59] INFO root fetch - processPackages [qbraid-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qbraid-core-0.1.0.dev4.tar.gz tmp/qbraid-core-0.1.1.tar.gz --markdown 20240410/q/qbraid-core/0.1.0.dev4-0.1.1/README.md --exclude *.pyd
+[2024-04-10 02:16:59] INFO root fetch - processPackages [docugami-langchain]: Downloading https://files.pythonhosted.org/packages/d3/dc/ebfc94d3428173a7827916947f5e84317c665bab439e99dd9fd634dcc60f/docugami_langchain-0.0.7rc9.tar.gz
+[2024-04-10 02:16:59] INFO root fetch - processPackages [langchain-core]: executing diffoscope
+[2024-04-10 02:16:59] INFO root fetch - processPackages [langchain-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_core-0.1.8.tar.gz tmp/langchain_core-0.1.9.tar.gz --markdown 20240410/l/langchain-core/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-10 02:16:59] INFO root fetch - processPackages [execsql]: Downloading https://files.pythonhosted.org/packages/af/c4/14198e9e025b1207415fad1d39bc1e6ebcc8fb846e1ba1b4e22742316993/execsql-1.98.0.tar.gz
+[2024-04-10 02:16:59] INFO root fetch - processPackages [keri]: executing diffoscope
+[2024-04-10 02:16:59] INFO root fetch - processPackages [keri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keri-1.1.9.tar.gz tmp/keri-1.2.0.dev0.tar.gz --markdown 20240410/k/keri/1.1.9-1.2.0.dev0/README.md --exclude *.pyd
+[2024-04-10 02:16:59] INFO root fetch - processPackages [execsql]: executing diffoscope
+[2024-04-10 02:16:59] INFO root fetch - processPackages [execsql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/execsql-1.97.0.tar.gz tmp/execsql-1.98.0.tar.gz --markdown 20240410/e/execsql/1.97.0-1.98.0/README.md --exclude *.pyd
+[2024-04-10 02:16:59] INFO root fetch - processPackages [docugami-langchain]: executing diffoscope
+[2024-04-10 02:16:59] INFO root fetch - processPackages [docugami-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docugami_langchain-0.0.7rc8.tar.gz tmp/docugami_langchain-0.0.7rc9.tar.gz --markdown 20240410/d/docugami-langchain/0.0.7rc8-0.0.7rc9/README.md --exclude *.pyd
+[2024-04-10 02:16:59] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.98.tar.gz]
+[2024-04-10 02:16:59] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
+[2024-04-10 02:16:59] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2024-04-10 02:16:59] INFO root fetch - processPackages [crowbar-package-manager]: Remove: archive file [/home/abi/fetcher/tmp/crowbar_package_manager-0.1.5.tar.gz]
+[2024-04-10 02:16:59] INFO root fetch - processPackages [crowbar-package-manager]: Remove: archive file [/home/abi/fetcher/tmp/crowbar_package_manager-0.1.6.tar.gz]
+[2024-04-10 02:16:59] INFO root fetch - main [MainThread]: End processing [crowbar-package-manager]: success
+[2024-04-10 02:16:59] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz]
+[2024-04-10 02:16:59] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz]
+[2024-04-10 02:16:59] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-hyperledger-fabric-network]: success
+[2024-04-10 02:17:00] INFO root fetch - processPackages [qbraid-core]: Remove: archive file [/home/abi/fetcher/tmp/qbraid-core-0.1.0.dev4.tar.gz]
+[2024-04-10 02:17:00] INFO root fetch - processPackages [qbraid-core]: Remove: archive file [/home/abi/fetcher/tmp/qbraid-core-0.1.1.tar.gz]
+[2024-04-10 02:17:00] INFO root fetch - main [MainThread]: End processing [qbraid-core]: success
+[2024-04-10 02:17:00] INFO root fetch - processPackages [docugami-langchain]: Remove: archive file [/home/abi/fetcher/tmp/docugami_langchain-0.0.7rc8.tar.gz]
+[2024-04-10 02:17:00] INFO root fetch - processPackages [docugami-langchain]: Remove: archive file [/home/abi/fetcher/tmp/docugami_langchain-0.0.7rc9.tar.gz]
+[2024-04-10 02:17:00] INFO root fetch - main [MainThread]: End processing [docugami-langchain]: success
+[2024-04-10 02:17:00] INFO root fetch - processPackages [execsql]: Remove: archive file [/home/abi/fetcher/tmp/execsql-1.97.0.tar.gz]
+[2024-04-10 02:17:00] INFO root fetch - processPackages [execsql]: Remove: archive file [/home/abi/fetcher/tmp/execsql-1.98.0.tar.gz]
+[2024-04-10 02:17:00] INFO root fetch - main [MainThread]: End processing [execsql]: success
+[2024-04-10 02:17:00] INFO root fetch - processPackages [langchain-core]: Remove: archive file [/home/abi/fetcher/tmp/langchain_core-0.1.8.tar.gz]
+[2024-04-10 02:17:00] INFO root fetch - processPackages [langchain-core]: Remove: archive file [/home/abi/fetcher/tmp/langchain_core-0.1.9.tar.gz]
+[2024-04-10 02:17:00] INFO root fetch - main [MainThread]: End processing [langchain-core]: success
+[2024-04-10 02:17:01] INFO root fetch - processPackages [keri]: Remove: archive file [/home/abi/fetcher/tmp/keri-1.1.9.tar.gz]
+[2024-04-10 02:17:01] INFO root fetch - processPackages [keri]: Remove: archive file [/home/abi/fetcher/tmp/keri-1.2.0.dev0.tar.gz]
+[2024-04-10 02:17:01] INFO root fetch - main [MainThread]: End processing [keri]: success
+[2024-04-10 02:17:01] INFO root fetch - main [MainThread]: Store serial: [22692277]

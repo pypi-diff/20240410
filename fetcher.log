@@ -9880,3 +9880,78 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 04:48:32] INFO root fetch - processPackages [mlflow-oidc-auth]: Remove: archive file [/home/abi/fetcher/tmp/mlflow-oidc-auth-1.1.0.tar.gz]
 [2024-04-10 04:48:32] INFO root fetch - main [MainThread]: End processing [mlflow-oidc-auth]: success
 [2024-04-10 04:48:32] INFO root fetch - main [MainThread]: Store serial: [22694779]
+[2024-04-10 04:50:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22694779]
+[2024-04-10 04:50:42] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-10 04:50:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: robotframework-xlibrary
+[2024-04-10 04:50:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: go-vendor-tools
+[2024-04-10 04:50:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vxutils
+[2024-04-10 04:50:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyegeria
+[2024-04-10 04:50:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: antsi
+[2024-04-10 04:50:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: authwa
+[2024-04-10 04:50:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ros-cdk-hologram
+[2024-04-10 04:50:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ros-cdk-cloudphone
+[2024-04-10 04:50:42] INFO root fetch - processPackages [authwa]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-10 04:50:42] INFO root fetch - processPackages [robotframework-xlibrary]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-10 04:50:42] INFO root fetch - processPackages [go-vendor-tools]: New version: [0.4.0b1] Old Version: [0.3.0]
+[2024-04-10 04:50:42] INFO root fetch - processPackages [vxutils]: New version: [20240410] Old Version: [20240406]
+[2024-04-10 04:50:42] INFO root fetch - processPackages [ros-cdk-cloudphone]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-10 04:50:42] INFO root fetch - processPackages [authwa]: Downloading https://files.pythonhosted.org/packages/ef/3f/942a69666f63b9bf850889b7918f5f6711b2c1e109b7a94c44acf9f87f34/authwa-0.3.8.tar.gz
+[2024-04-10 04:50:42] INFO root fetch - processPackages [pyegeria]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-04-10 04:50:42] INFO root fetch - processPackages [robotframework-xlibrary]: Downloading https://files.pythonhosted.org/packages/d6/81/42f9025c96a9a4de66d4883a468eec4be685f1abd4b24f571122ed82dde6/robotframework-xlibrary-1.0.3.tar.gz
+[2024-04-10 04:50:42] INFO root fetch - processPackages [ros-cdk-hologram]: New version: [1.0.24] Old Version: [1.0.23]
+[2024-04-10 04:50:42] INFO root fetch - processPackages [antsi]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-10 04:50:42] INFO root fetch - processPackages [go-vendor-tools]: Downloading https://files.pythonhosted.org/packages/f7/6b/2b8d32d8f84dfa75b0a11d3ab16d14cead78d35fd5f63345c2e49203a2aa/go_vendor_tools-0.3.0.tar.gz
+[2024-04-10 04:50:43] INFO root fetch - processPackages [vxutils]: Downloading https://files.pythonhosted.org/packages/ea/cb/f1594712509497fd05df5dc93fd9a2ac19b4be7433949be5faca2f62931a/vxutils-20240406.tar.gz
+[2024-04-10 04:50:43] INFO root fetch - processPackages [ros-cdk-cloudphone]: Downloading https://files.pythonhosted.org/packages/c3/eb/ab038759d335f534fbc0189536f96ab4fe8467adc14768be58ee1cc27492/ros-cdk-cloudphone-1.0.8.tar.gz
+[2024-04-10 04:50:43] INFO root fetch - processPackages [pyegeria]: Downloading https://files.pythonhosted.org/packages/68/5f/2bab3f7f8415966541c6941b84062d4f3c8980259d0882dd2436ae0bdd4d/pyegeria-0.3.2.tar.gz
+[2024-04-10 04:50:43] INFO root fetch - processPackages [ros-cdk-hologram]: Downloading https://files.pythonhosted.org/packages/ca/6a/a6a0a8c69ad5d086f7b112925d4958ffb9b5c42d7fb7ef6fe1a8f03d4806/ros-cdk-hologram-1.0.23.tar.gz
+[2024-04-10 04:50:43] INFO root fetch - processPackages [authwa]: Downloading https://files.pythonhosted.org/packages/eb/8e/24ba062d1d809b08a8907c7b16cb3bb2a774774312578dfffcf7102874cc/authwa-0.3.9.tar.gz
+[2024-04-10 04:50:43] INFO root fetch - processPackages [antsi]: Downloading https://files.pythonhosted.org/packages/bb/58/9c84a41942f3936a107b3bf5b307f17048d942770973f9a2cb5de1cfd822/antsi-0.1.0.tar.gz
+[2024-04-10 04:50:43] INFO root fetch - processPackages [go-vendor-tools]: Downloading https://files.pythonhosted.org/packages/03/77/b23f33d4d5535965d56aef1de947b5aa2e71e7b4949e94435c7fd3ff90ca/go_vendor_tools-0.4.0b1.tar.gz
+[2024-04-10 04:50:43] INFO root fetch - processPackages [robotframework-xlibrary]: Downloading https://files.pythonhosted.org/packages/c8/9f/242ddb7b28adb9a02e7640cddb94dab243da401539012aa9d62457250485/robotframework-xlibrary-1.0.4.tar.gz
+[2024-04-10 04:50:43] INFO root fetch - processPackages [authwa]: executing diffoscope
+[2024-04-10 04:50:43] INFO root fetch - processPackages [authwa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/authwa-0.3.8.tar.gz tmp/authwa-0.3.9.tar.gz --markdown 20240410/a/authwa/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-10 04:50:43] INFO root fetch - processPackages [go-vendor-tools]: executing diffoscope
+[2024-04-10 04:50:43] INFO root fetch - processPackages [go-vendor-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/go_vendor_tools-0.3.0.tar.gz tmp/go_vendor_tools-0.4.0b1.tar.gz --markdown 20240410/g/go-vendor-tools/0.3.0-0.4.0b1/README.md --exclude *.pyd
+[2024-04-10 04:50:43] INFO root fetch - processPackages [robotframework-xlibrary]: executing diffoscope
+[2024-04-10 04:50:43] INFO root fetch - processPackages [robotframework-xlibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-xlibrary-1.0.3.tar.gz tmp/robotframework-xlibrary-1.0.4.tar.gz --markdown 20240410/r/robotframework-xlibrary/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-10 04:50:43] INFO root fetch - processPackages [vxutils]: Downloading https://files.pythonhosted.org/packages/a9/17/aa0ee51da5b288ebd0f42587862e412b9f69fa7556de621e78d8b6f9371b/vxutils-20240410.tar.gz
+[2024-04-10 04:50:43] INFO root fetch - processPackages [ros-cdk-cloudphone]: Downloading https://files.pythonhosted.org/packages/2f/fd/4604e0a4e603c76b8419f9e5c9c4a06b2d424551cfdcdcde41b01be2da5c/ros-cdk-cloudphone-1.0.9.tar.gz
+[2024-04-10 04:50:43] INFO root fetch - processPackages [pyegeria]: Downloading https://files.pythonhosted.org/packages/ee/b5/2037a2a861a034aa6ab035554b36806690ff7af92701a0629654bc88762a/pyegeria-0.3.3.tar.gz
+[2024-04-10 04:50:43] INFO root fetch - processPackages [antsi]: Downloading https://files.pythonhosted.org/packages/ba/81/2789c35f2f03e3ce190fab51c67a1396f8104d5bdee23827c3bb571bed5b/antsi-0.1.1.tar.gz
+[2024-04-10 04:50:43] INFO root fetch - processPackages [ros-cdk-hologram]: Downloading https://files.pythonhosted.org/packages/dd/a4/80789eb76d1147f24da9fa12c655ae8804cecc11a5a5a5bf6269293904d5/ros-cdk-hologram-1.0.24.tar.gz
+[2024-04-10 04:50:43] INFO root fetch - processPackages [vxutils]: executing diffoscope
+[2024-04-10 04:50:43] INFO root fetch - processPackages [vxutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vxutils-20240406.tar.gz tmp/vxutils-20240410.tar.gz --markdown 20240410/v/vxutils/20240406-20240410/README.md --exclude *.pyd
+[2024-04-10 04:50:43] INFO root fetch - processPackages [ros-cdk-cloudphone]: executing diffoscope
+[2024-04-10 04:50:43] INFO root fetch - processPackages [ros-cdk-cloudphone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-cloudphone-1.0.8.tar.gz tmp/ros-cdk-cloudphone-1.0.9.tar.gz --markdown 20240410/r/ros-cdk-cloudphone/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-10 04:50:43] INFO root fetch - processPackages [pyegeria]: executing diffoscope
+[2024-04-10 04:50:43] INFO root fetch - processPackages [pyegeria]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyegeria-0.3.2.tar.gz tmp/pyegeria-0.3.3.tar.gz --markdown 20240410/p/pyegeria/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-04-10 04:50:43] INFO root fetch - processPackages [antsi]: executing diffoscope
+[2024-04-10 04:50:43] INFO root fetch - processPackages [antsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antsi-0.1.0.tar.gz tmp/antsi-0.1.1.tar.gz --markdown 20240410/a/antsi/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-10 04:50:43] INFO root fetch - processPackages [ros-cdk-hologram]: executing diffoscope
+[2024-04-10 04:50:43] INFO root fetch - processPackages [ros-cdk-hologram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-hologram-1.0.23.tar.gz tmp/ros-cdk-hologram-1.0.24.tar.gz --markdown 20240410/r/ros-cdk-hologram/1.0.23-1.0.24/README.md --exclude *.pyd
+[2024-04-10 04:50:44] INFO root fetch - processPackages [robotframework-xlibrary]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-xlibrary-1.0.3.tar.gz]
+[2024-04-10 04:50:44] INFO root fetch - processPackages [robotframework-xlibrary]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-xlibrary-1.0.4.tar.gz]
+[2024-04-10 04:50:44] INFO root fetch - main [MainThread]: End processing [robotframework-xlibrary]: success
+[2024-04-10 04:50:44] INFO root fetch - processPackages [authwa]: Remove: archive file [/home/abi/fetcher/tmp/authwa-0.3.8.tar.gz]
+[2024-04-10 04:50:44] INFO root fetch - processPackages [authwa]: Remove: archive file [/home/abi/fetcher/tmp/authwa-0.3.9.tar.gz]
+[2024-04-10 04:50:44] INFO root fetch - main [MainThread]: End processing [authwa]: success
+[2024-04-10 04:50:44] INFO root fetch - processPackages [go-vendor-tools]: Remove: archive file [/home/abi/fetcher/tmp/go_vendor_tools-0.3.0.tar.gz]
+[2024-04-10 04:50:44] INFO root fetch - processPackages [go-vendor-tools]: Remove: archive file [/home/abi/fetcher/tmp/go_vendor_tools-0.4.0b1.tar.gz]
+[2024-04-10 04:50:44] INFO root fetch - main [MainThread]: End processing [go-vendor-tools]: success
+[2024-04-10 04:50:44] INFO root fetch - processPackages [ros-cdk-cloudphone]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cloudphone-1.0.8.tar.gz]
+[2024-04-10 04:50:44] INFO root fetch - processPackages [ros-cdk-cloudphone]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cloudphone-1.0.9.tar.gz]
+[2024-04-10 04:50:44] INFO root fetch - main [MainThread]: End processing [ros-cdk-cloudphone]: success
+[2024-04-10 04:50:44] INFO root fetch - processPackages [ros-cdk-hologram]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-hologram-1.0.23.tar.gz]
+[2024-04-10 04:50:44] INFO root fetch - processPackages [ros-cdk-hologram]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-hologram-1.0.24.tar.gz]
+[2024-04-10 04:50:44] INFO root fetch - main [MainThread]: End processing [ros-cdk-hologram]: success
+[2024-04-10 04:50:44] INFO root fetch - processPackages [vxutils]: Remove: archive file [/home/abi/fetcher/tmp/vxutils-20240406.tar.gz]
+[2024-04-10 04:50:44] INFO root fetch - processPackages [vxutils]: Remove: archive file [/home/abi/fetcher/tmp/vxutils-20240410.tar.gz]
+[2024-04-10 04:50:44] INFO root fetch - main [MainThread]: End processing [vxutils]: success
+[2024-04-10 04:50:44] INFO root fetch - processPackages [pyegeria]: Remove: archive file [/home/abi/fetcher/tmp/pyegeria-0.3.2.tar.gz]
+[2024-04-10 04:50:44] INFO root fetch - processPackages [pyegeria]: Remove: archive file [/home/abi/fetcher/tmp/pyegeria-0.3.3.tar.gz]
+[2024-04-10 04:50:44] INFO root fetch - main [MainThread]: End processing [pyegeria]: success
+[2024-04-10 04:50:44] INFO root fetch - processPackages [antsi]: Remove: archive file [/home/abi/fetcher/tmp/antsi-0.1.0.tar.gz]
+[2024-04-10 04:50:44] INFO root fetch - processPackages [antsi]: Remove: archive file [/home/abi/fetcher/tmp/antsi-0.1.1.tar.gz]
+[2024-04-10 04:50:44] INFO root fetch - main [MainThread]: End processing [antsi]: success
+[2024-04-10 04:50:44] INFO root fetch - main [MainThread]: Store serial: [22694810]

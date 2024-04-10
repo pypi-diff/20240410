@@ -14474,3 +14474,78 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 08:42:47] INFO root fetch - processPackages [pulumi-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_postgresql-3.9.0a1689896978.tar.gz]
 [2024-04-10 08:42:47] INFO root fetch - main [MainThread]: End processing [pulumi-postgresql]: success
 [2024-04-10 08:42:47] INFO root fetch - main [MainThread]: Store serial: [22696553]
+[2024-04-10 08:44:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22696553]
+[2024-04-10 08:44:55] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-10 08:44:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-okta
+[2024-04-10 08:44:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: NeoBase
+[2024-04-10 08:44:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-openstack
+[2024-04-10 08:44:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fifids
+[2024-04-10 08:44:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bibiflags
+[2024-04-10 08:44:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: deepeval
+[2024-04-10 08:44:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mazegroup
+[2024-04-10 08:44:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cheonscalculator
+[2024-04-10 08:44:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: resamp
+[2024-04-10 08:44:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyaubo-sdk
+[2024-04-10 08:44:56] WARNING root fetch - processPackages [mazegroup]: Skipping, unable to determine old version
+[2024-04-10 08:44:56] INFO root fetch - main [MainThread]: End processing [mazegroup] error
+[2024-04-10 08:44:56] INFO root fetch - processPackages [resamp]: New version: [1.6.7.2] Old Version: [1.6.7.1]
+[2024-04-10 08:44:56] INFO root fetch - processPackages [deepeval]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-10 08:44:56] INFO root fetch - processPackages [fifids]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-10 08:44:56] INFO root fetch - processPackages [NeoBase]: New version: [0.9] Old Version: [0.8]
+[2024-04-10 08:44:56] WARNING root fetch - processPackages [bibiflags]: Skipping, unable to determine old version
+[2024-04-10 08:44:56] WARNING root fetch - processPackages [cheonscalculator]: Skipping, unable to determine old version
+[2024-04-10 08:44:56] INFO root fetch - main [MainThread]: End processing [bibiflags] error
+[2024-04-10 08:44:56] INFO root fetch - main [MainThread]: End processing [cheonscalculator] error
+[2024-04-10 08:44:56] INFO root fetch - processPackages [resamp]: Downloading https://files.pythonhosted.org/packages/58/7a/1f71c9223d956ba3340bb3ac7f42e8f9c18bc2e68e2abdf9fb7603feb4ab/resamp-1.6.7.1.tar.gz
+[2024-04-10 08:44:56] INFO root fetch - processPackages [pulumi-openstack]: New version: [3.9.0a1659603007] Old Version: [3.9.0a1654086724]
+[2024-04-10 08:44:56] INFO root fetch - processPackages [pulumi-okta]: New version: [4.9.0a1712729202] Old Version: [4.9.0a1712469516]
+[2024-04-10 08:44:56] INFO root fetch - processPackages [pyaubo-sdk]: New version: [0.23.0] Old Version: [0.22.4]
+[2024-04-10 08:44:56] INFO root fetch - processPackages [deepeval]: Downloading https://files.pythonhosted.org/packages/8b/4e/74892f0e4e740898d3d9bbcb8e3e22adc9d2ca430699cb8a78a8b5e2697b/deepeval-0.9.8.tar.gz
+[2024-04-10 08:44:56] INFO root fetch - processPackages [NeoBase]: Downloading https://files.pythonhosted.org/packages/b4/53/4b4f01141b8169f2bc36cbab336187c93b3d7c513e01de94771feafd459d/NeoBase-0.8.tar.gz
+[2024-04-10 08:44:56] INFO root fetch - processPackages [fifids]: Downloading https://files.pythonhosted.org/packages/a5/ac/e7782c13d7a9dad849c939835a211494ec818706de7286f5d6b75f5142d9/fifids-0.1.0.tar.gz
+[2024-04-10 08:44:56] INFO root fetch - processPackages [pulumi-okta]: Downloading https://files.pythonhosted.org/packages/3c/b1/f956eff83d01ac9bb9c865451307d10a9a417c361f03625562c0156a84a9/pulumi_okta-4.9.0a1712469516.tar.gz
+[2024-04-10 08:44:56] INFO root fetch - processPackages [pulumi-openstack]: Downloading https://files.pythonhosted.org/packages/bb/93/e4acd0fd6ccecb8338145c7929b4f11bbbcda13bd5c5523254ce8f946bd2/pulumi_openstack-3.9.0a1654086724.tar.gz
+[2024-04-10 08:44:56] INFO root fetch - processPackages [pyaubo-sdk]: Downloading https://files.pythonhosted.org/packages/7a/0f/274cfbfaba07befccb9cf2aaa8c8bc7a1e8172ba648f5d186dea112f2e29/pyaubo_sdk-0.22.4-cp310-cp310-win_amd64.whl
+[2024-04-10 08:44:56] INFO root fetch - processPackages [resamp]: Downloading https://files.pythonhosted.org/packages/64/38/e3b456c837f6c197f592a98bd8c3f084662724b79e9efc824f5e615e6635/resamp-1.6.7.2.tar.gz
+[2024-04-10 08:44:56] INFO root fetch - processPackages [resamp]: executing diffoscope
+[2024-04-10 08:44:56] INFO root fetch - processPackages [resamp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resamp-1.6.7.1.tar.gz tmp/resamp-1.6.7.2.tar.gz --markdown 20240410/r/resamp/1.6.7.1-1.6.7.2/README.md --exclude *.pyd
+[2024-04-10 08:44:56] INFO root fetch - processPackages [fifids]: Downloading https://files.pythonhosted.org/packages/57/e6/ff1621f73b62f00a2d43a18721a67603c6113451008324b74a073b96487c/fifids-0.1.1.tar.gz
+[2024-04-10 08:44:56] INFO root fetch - processPackages [deepeval]: Downloading https://files.pythonhosted.org/packages/79/cd/f07ea4ba3fa8fae91bc1bdecc3a7fc8882146f65614215058425221ac2e8/deepeval-0.9.9.tar.gz
+[2024-04-10 08:44:56] INFO root fetch - processPackages [pulumi-okta]: Downloading https://files.pythonhosted.org/packages/d6/6b/813fecb3f5891218737bfd96ddcd9d746183108164bd21ff6d259548d9c9/pulumi_okta-4.9.0a1712729202.tar.gz
+[2024-04-10 08:44:56] INFO root fetch - processPackages [fifids]: executing diffoscope
+[2024-04-10 08:44:56] INFO root fetch - processPackages [fifids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fifids-0.1.0.tar.gz tmp/fifids-0.1.1.tar.gz --markdown 20240410/f/fifids/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-10 08:44:56] INFO root fetch - processPackages [deepeval]: executing diffoscope
+[2024-04-10 08:44:56] INFO root fetch - processPackages [deepeval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepeval-0.9.8.tar.gz tmp/deepeval-0.9.9.tar.gz --markdown 20240410/d/deepeval/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-10 08:44:57] INFO root fetch - processPackages [pulumi-okta]: executing diffoscope
+[2024-04-10 08:44:57] INFO root fetch - processPackages [pulumi-okta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_okta-4.9.0a1712469516.tar.gz tmp/pulumi_okta-4.9.0a1712729202.tar.gz --markdown 20240410/p/pulumi-okta/4.9.0a1712469516-4.9.0a1712729202/README.md --exclude *.pyd
+[2024-04-10 08:44:57] INFO root fetch - processPackages [pulumi-openstack]: Downloading https://files.pythonhosted.org/packages/cf/b9/1f6195a962138e9e532ea6da486cd8eab11855d8b0284a83af9bb290e254/pulumi_openstack-3.9.0a1659603007.tar.gz
+[2024-04-10 08:44:57] INFO root fetch - processPackages [pulumi-openstack]: executing diffoscope
+[2024-04-10 08:44:57] INFO root fetch - processPackages [pulumi-openstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_openstack-3.9.0a1654086724.tar.gz tmp/pulumi_openstack-3.9.0a1659603007.tar.gz --markdown 20240410/p/pulumi-openstack/3.9.0a1654086724-3.9.0a1659603007/README.md --exclude *.pyd
+[2024-04-10 08:44:57] INFO root fetch - processPackages [NeoBase]: Downloading https://files.pythonhosted.org/packages/1c/f1/8a7eff769f23a3a8cfc58c10f83fd688a54ca4051adf2fc99487632e3c4b/NeoBase-0.9.tar.gz
+[2024-04-10 08:44:57] INFO root fetch - processPackages [resamp]: Remove: archive file [/home/abi/fetcher/tmp/resamp-1.6.7.1.tar.gz]
+[2024-04-10 08:44:57] INFO root fetch - processPackages [resamp]: Remove: archive file [/home/abi/fetcher/tmp/resamp-1.6.7.2.tar.gz]
+[2024-04-10 08:44:57] INFO root fetch - main [MainThread]: End processing [resamp]: success
+[2024-04-10 08:44:57] INFO root fetch - processPackages [fifids]: Remove: archive file [/home/abi/fetcher/tmp/fifids-0.1.0.tar.gz]
+[2024-04-10 08:44:57] INFO root fetch - processPackages [fifids]: Remove: archive file [/home/abi/fetcher/tmp/fifids-0.1.1.tar.gz]
+[2024-04-10 08:44:57] INFO root fetch - main [MainThread]: End processing [fifids]: success
+[2024-04-10 08:44:57] INFO root fetch - processPackages [deepeval]: Remove: archive file [/home/abi/fetcher/tmp/deepeval-0.9.8.tar.gz]
+[2024-04-10 08:44:57] INFO root fetch - processPackages [deepeval]: Remove: archive file [/home/abi/fetcher/tmp/deepeval-0.9.9.tar.gz]
+[2024-04-10 08:44:57] INFO root fetch - main [MainThread]: End processing [deepeval]: success
+[2024-04-10 08:44:57] INFO root fetch - processPackages [NeoBase]: executing diffoscope
+[2024-04-10 08:44:57] INFO root fetch - processPackages [NeoBase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NeoBase-0.8.tar.gz tmp/NeoBase-0.9.tar.gz --markdown 20240410/N/NeoBase/0.8-0.9/README.md --exclude *.pyd
+[2024-04-10 08:44:57] INFO root fetch - processPackages [pyaubo-sdk]: Downloading https://files.pythonhosted.org/packages/a7/cd/3710ee945afdc87b25f491ae227ce18aaa7ccaf45f6dab95ccb5b3bdd5df/pyaubo_sdk-0.23.0-cp39-cp39-win_amd64.whl
+[2024-04-10 08:44:58] INFO root fetch - processPackages [pyaubo-sdk]: executing diffoscope
+[2024-04-10 08:44:58] INFO root fetch - processPackages [pyaubo-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyaubo_sdk-0.22.4-cp310-cp310-win_amd64.whl.zip tmp/pyaubo_sdk-0.23.0-cp39-cp39-win_amd64.whl.zip --markdown 20240410/p/pyaubo-sdk/0.22.4-0.23.0/README.md --exclude *.pyd
+[2024-04-10 08:44:58] INFO root fetch - processPackages [pulumi-okta]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_okta-4.9.0a1712469516.tar.gz]
+[2024-04-10 08:44:58] INFO root fetch - processPackages [pulumi-okta]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_okta-4.9.0a1712729202.tar.gz]
+[2024-04-10 08:44:58] INFO root fetch - main [MainThread]: End processing [pulumi-okta]: success
+[2024-04-10 08:44:58] INFO root fetch - processPackages [pyaubo-sdk]: Remove: archive file [/home/abi/fetcher/tmp/pyaubo_sdk-0.22.4-cp310-cp310-win_amd64.whl.zip]
+[2024-04-10 08:44:58] INFO root fetch - processPackages [pyaubo-sdk]: Remove: archive file [/home/abi/fetcher/tmp/pyaubo_sdk-0.23.0-cp39-cp39-win_amd64.whl.zip]
+[2024-04-10 08:44:58] INFO root fetch - main [MainThread]: End processing [pyaubo-sdk]: success
+[2024-04-10 08:44:59] INFO root fetch - processPackages [NeoBase]: Remove: archive file [/home/abi/fetcher/tmp/NeoBase-0.8.tar.gz]
+[2024-04-10 08:44:59] INFO root fetch - processPackages [NeoBase]: Remove: archive file [/home/abi/fetcher/tmp/NeoBase-0.9.tar.gz]
+[2024-04-10 08:44:59] INFO root fetch - main [MainThread]: End processing [NeoBase]: success
+[2024-04-10 08:45:00] INFO root fetch - processPackages [pulumi-openstack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_openstack-3.9.0a1654086724.tar.gz]
+[2024-04-10 08:45:00] INFO root fetch - processPackages [pulumi-openstack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_openstack-3.9.0a1659603007.tar.gz]
+[2024-04-10 08:45:00] INFO root fetch - main [MainThread]: End processing [pulumi-openstack]: success
+[2024-04-10 08:45:00] INFO root fetch - main [MainThread]: Store serial: [22696584]

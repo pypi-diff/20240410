@@ -19743,3 +19743,92 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 12:05:36] INFO root fetch - processPackages [limepkg-getaccept]: Remove: archive file [/home/abi/fetcher/tmp/limepkg_getaccept-1.3.7.dev1-py3-none-any.whl.zip]
 [2024-04-10 12:05:36] INFO root fetch - main [MainThread]: End processing [limepkg-getaccept]: success
 [2024-04-10 12:05:36] INFO root fetch - main [MainThread]: Store serial: [22698759]
+[2024-04-10 12:07:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22698759]
+[2024-04-10 12:07:46] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-10 12:07:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: limepkg-getaccept
+[2024-04-10 12:07:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-cams20200606
+[2024-04-10 12:07:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: grooveshop-django-api
+[2024-04-10 12:07:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hdn-research-environment
+[2024-04-10 12:07:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyscreeps-arena
+[2024-04-10 12:07:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: GeneralSQL
+[2024-04-10 12:07:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-snowflake
+[2024-04-10 12:07:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cj-package
+[2024-04-10 12:07:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pytest-container
+[2024-04-10 12:07:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: opentelemetry-instrumentation-kser
+[2024-04-10 12:07:46] INFO root fetch - processPackages [limepkg-getaccept]: New version: [1.3.7.dev1] Old Version: [1.3.6]
+[2024-04-10 12:07:46] INFO root fetch - processPackages [cj-package]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-10 12:07:46] INFO root fetch - processPackages [hdn-research-environment]: New version: [3.0.6] Old Version: [3.0.5]
+[2024-04-10 12:07:46] INFO root fetch - processPackages [grooveshop-django-api]: New version: [0.99.1] Old Version: [0.99.0]
+[2024-04-10 12:07:46] INFO root fetch - processPackages [pulumi-snowflake]: New version: [0.9.1a1656367704] Old Version: [0.9.1a1654087017]
+[2024-04-10 12:07:46] INFO root fetch - processPackages [alibabacloud-cams20200606]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-04-10 12:07:46] INFO root fetch - processPackages [pyscreeps-arena]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-10 12:07:46] INFO root fetch - processPackages [GeneralSQL]: New version: [1.3.0] Old Version: [1.2.0]
+[2024-04-10 12:07:46] INFO root fetch - processPackages [opentelemetry-instrumentation-kser]: New version: [0.45b0] Old Version: [0.42b0]
+[2024-04-10 12:07:46] INFO root fetch - processPackages [pytest-container]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-10 12:07:46] INFO root fetch - processPackages [limepkg-getaccept]: Downloading https://files.pythonhosted.org/packages/3e/f7/c1da53717c09e3c1bc6051c193ba0bec8afa48f75bf1d430409daa4192b1/limepkg_getaccept-1.3.6-py3-none-any.whl
+[2024-04-10 12:07:46] INFO root fetch - processPackages [cj-package]: Downloading https://files.pythonhosted.org/packages/da/f1/7251475617f700917e1ca74400daece46b8dd816a4f7297c30873eac2493/cj_package-1.0.8.tar.gz
+[2024-04-10 12:07:46] INFO root fetch - processPackages [hdn-research-environment]: Downloading https://files.pythonhosted.org/packages/fe/0c/605e14a86453021f4623ec8cb1e2a5727bcbadd26909b3455fc134d51101/hdn-research-environment-3.0.5.tar.gz
+[2024-04-10 12:07:46] INFO root fetch - processPackages [pulumi-snowflake]: Downloading https://files.pythonhosted.org/packages/ac/12/8a15836613d8faa0153d0c1b5818bfe83f875f5770e55c406bbc2e2f4297/pulumi_snowflake-0.9.1a1654087017.tar.gz
+[2024-04-10 12:07:46] INFO root fetch - processPackages [grooveshop-django-api]: Downloading https://files.pythonhosted.org/packages/7f/a7/0d6a615cddf282a20c5473422783b8e46581bf1c77d73c7dfc581210dc37/grooveshop_django_api-0.99.0.tar.gz
+[2024-04-10 12:07:46] WARNING root fetch - processPackages [grooveshop-django-api]: Skipping package: exceeds size limit 33783695>=10485760
+[2024-04-10 12:07:46] INFO root fetch - main [MainThread]: End processing [grooveshop-django-api] error
+[2024-04-10 12:07:46] INFO root fetch - processPackages [alibabacloud-cams20200606]: Downloading https://files.pythonhosted.org/packages/6c/9b/d6641452fee105f25d47eb4175b406ee47c57ad0fca800f57b70fd0472fd/alibabacloud_cams20200606-1.4.0.tar.gz
+[2024-04-10 12:07:46] INFO root fetch - processPackages [pyscreeps-arena]: Downloading https://files.pythonhosted.org/packages/c5/b1/8292299cae71977950db03b9fd25232d4405091d7ed0590a568571f371fe/pyscreeps-arena-0.1.8.tar.gz
+[2024-04-10 12:07:46] INFO root fetch - processPackages [GeneralSQL]: Downloading https://files.pythonhosted.org/packages/e7/7b/9795512b0c3c5306a363297a32f29f052c3cc7f56e0d62e8b8dbd5d61460/GeneralSQL-1.2.0.tar.gz
+[2024-04-10 12:07:46] INFO root fetch - processPackages [pytest-container]: Downloading https://files.pythonhosted.org/packages/23/6f/91d720ea000c80d2ccce683bd53ea4ce98dc6506f47fd3d1deca573f9c11/pytest_container-0.4.1.tar.gz
+[2024-04-10 12:07:46] INFO root fetch - processPackages [opentelemetry-instrumentation-kser]: Downloading https://files.pythonhosted.org/packages/9b/c0/008b8ba1bdd6e8bd9243b273327042e79cba8268de0911729e89cfa2c25d/opentelemetry-instrumentation-kser-0.42b0.tar.gz
+[2024-04-10 12:07:46] INFO root fetch - processPackages [cj-package]: Downloading https://files.pythonhosted.org/packages/e2/64/13a4025b10bed4260a45454f62f555ec27bce0fdb58bf2382ee53a7bd528/cj_package-1.0.9.tar.gz
+[2024-04-10 12:07:46] INFO root fetch - processPackages [hdn-research-environment]: Downloading https://files.pythonhosted.org/packages/3b/19/6c56419365ff3c8eba59b24ccb9ca3e718d40ce225b2e518c7ccd14d210a/hdn-research-environment-3.0.6.tar.gz
+[2024-04-10 12:07:47] INFO root fetch - processPackages [pulumi-snowflake]: Downloading https://files.pythonhosted.org/packages/12/24/eac91fa678665e057906195a9e93366ecf0bc7997bd228eb1159a41ae631/pulumi_snowflake-0.9.1a1656367704.tar.gz
+[2024-04-10 12:07:47] INFO root fetch - processPackages [limepkg-getaccept]: Downloading https://files.pythonhosted.org/packages/f6/dd/83496f2a88bb8f61e3c6868ad091d777a5ec08f64566e10d8a430e010d2e/limepkg_getaccept-1.3.7.dev1-py3-none-any.whl
+[2024-04-10 12:07:47] INFO root fetch - processPackages [cj-package]: executing diffoscope
+[2024-04-10 12:07:47] INFO root fetch - processPackages [cj-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cj_package-1.0.8.tar.gz tmp/cj_package-1.0.9.tar.gz --markdown 20240410/c/cj-package/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-10 12:07:47] INFO root fetch - processPackages [hdn-research-environment]: executing diffoscope
+[2024-04-10 12:07:47] INFO root fetch - processPackages [hdn-research-environment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdn-research-environment-3.0.5.tar.gz tmp/hdn-research-environment-3.0.6.tar.gz --markdown 20240410/h/hdn-research-environment/3.0.5-3.0.6/README.md --exclude *.pyd
+[2024-04-10 12:07:47] INFO root fetch - processPackages [pulumi-snowflake]: executing diffoscope
+[2024-04-10 12:07:47] INFO root fetch - processPackages [pulumi-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_snowflake-0.9.1a1654087017.tar.gz tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz --markdown 20240410/p/pulumi-snowflake/0.9.1a1654087017-0.9.1a1656367704/README.md --exclude *.pyd
+[2024-04-10 12:07:47] INFO root fetch - processPackages [pyscreeps-arena]: Downloading https://files.pythonhosted.org/packages/8d/64/60d19e221d5c72437543c5f504c88d32093797848354c0dd1c4da297ceca/pyscreeps-arena-0.1.9.tar.gz
+[2024-04-10 12:07:47] INFO root fetch - processPackages [GeneralSQL]: Downloading https://files.pythonhosted.org/packages/08/ab/e84f76fabe67c3ab45cdcb08a3f937217bd347f841ce006856814570ce37/GeneralSQL-1.3.0.tar.gz
+[2024-04-10 12:07:47] INFO root fetch - processPackages [pytest-container]: Downloading https://files.pythonhosted.org/packages/2d/05/724019d57ac13ed030bcc2e08a2fce901f1c38046839dc3a2c1aeab9847b/pytest_container-0.4.2.tar.gz
+[2024-04-10 12:07:47] INFO root fetch - processPackages [limepkg-getaccept]: executing diffoscope
+[2024-04-10 12:07:47] INFO root fetch - processPackages [limepkg-getaccept]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/limepkg_getaccept-1.3.6-py3-none-any.whl.zip tmp/limepkg_getaccept-1.3.7.dev1-py3-none-any.whl.zip --markdown 20240410/l/limepkg-getaccept/1.3.6-1.3.7.dev1/README.md --exclude *.pyd
+[2024-04-10 12:07:47] INFO root fetch - processPackages [alibabacloud-cams20200606]: Downloading https://files.pythonhosted.org/packages/62/70/4adf3eec166ad87f8f1c8606efc50812757999522d623e4b1afa13aa6d17/alibabacloud_cams20200606-1.4.1.tar.gz
+[2024-04-10 12:07:47] INFO root fetch - processPackages [opentelemetry-instrumentation-kser]: Downloading https://files.pythonhosted.org/packages/ab/9f/f9d7409c80c1bb32d0788c3060e4434cc95a9a43bdf59bd618393e54d63e/opentelemetry-instrumentation-kser-0.45b0.tar.gz
+[2024-04-10 12:07:47] INFO root fetch - processPackages [pyscreeps-arena]: executing diffoscope
+[2024-04-10 12:07:47] INFO root fetch - processPackages [pyscreeps-arena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyscreeps-arena-0.1.8.tar.gz tmp/pyscreeps-arena-0.1.9.tar.gz --markdown 20240410/p/pyscreeps-arena/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-10 12:07:47] INFO root fetch - processPackages [GeneralSQL]: executing diffoscope
+[2024-04-10 12:07:47] INFO root fetch - processPackages [GeneralSQL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GeneralSQL-1.2.0.tar.gz tmp/GeneralSQL-1.3.0.tar.gz --markdown 20240410/G/GeneralSQL/1.2.0-1.3.0/README.md --exclude *.pyd
+[2024-04-10 12:07:47] INFO root fetch - processPackages [pytest-container]: executing diffoscope
+[2024-04-10 12:07:47] INFO root fetch - processPackages [pytest-container]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_container-0.4.1.tar.gz tmp/pytest_container-0.4.2.tar.gz --markdown 20240410/p/pytest-container/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-04-10 12:07:47] INFO root fetch - processPackages [alibabacloud-cams20200606]: executing diffoscope
+[2024-04-10 12:07:47] INFO root fetch - processPackages [alibabacloud-cams20200606]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cams20200606-1.4.0.tar.gz tmp/alibabacloud_cams20200606-1.4.1.tar.gz --markdown 20240410/a/alibabacloud-cams20200606/1.4.0-1.4.1/README.md --exclude *.pyd
+[2024-04-10 12:07:47] INFO root fetch - processPackages [opentelemetry-instrumentation-kser]: executing diffoscope
+[2024-04-10 12:07:47] INFO root fetch - processPackages [opentelemetry-instrumentation-kser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentelemetry-instrumentation-kser-0.42b0.tar.gz tmp/opentelemetry-instrumentation-kser-0.45b0.tar.gz --markdown 20240410/o/opentelemetry-instrumentation-kser/0.42b0-0.45b0/README.md --exclude *.pyd
+[2024-04-10 12:07:48] INFO root fetch - processPackages [cj-package]: Remove: archive file [/home/abi/fetcher/tmp/cj_package-1.0.8.tar.gz]
+[2024-04-10 12:07:48] INFO root fetch - processPackages [cj-package]: Remove: archive file [/home/abi/fetcher/tmp/cj_package-1.0.9.tar.gz]
+[2024-04-10 12:07:48] INFO root fetch - main [MainThread]: End processing [cj-package]: success
+[2024-04-10 12:07:48] INFO root fetch - processPackages [pyscreeps-arena]: Remove: archive file [/home/abi/fetcher/tmp/pyscreeps-arena-0.1.8.tar.gz]
+[2024-04-10 12:07:48] INFO root fetch - processPackages [pyscreeps-arena]: Remove: archive file [/home/abi/fetcher/tmp/pyscreeps-arena-0.1.9.tar.gz]
+[2024-04-10 12:07:48] INFO root fetch - main [MainThread]: End processing [pyscreeps-arena]: success
+[2024-04-10 12:07:48] INFO root fetch - processPackages [hdn-research-environment]: Remove: archive file [/home/abi/fetcher/tmp/hdn-research-environment-3.0.5.tar.gz]
+[2024-04-10 12:07:48] INFO root fetch - processPackages [hdn-research-environment]: Remove: archive file [/home/abi/fetcher/tmp/hdn-research-environment-3.0.6.tar.gz]
+[2024-04-10 12:07:48] INFO root fetch - main [MainThread]: End processing [hdn-research-environment]: success
+[2024-04-10 12:07:48] INFO root fetch - processPackages [GeneralSQL]: Remove: archive file [/home/abi/fetcher/tmp/GeneralSQL-1.2.0.tar.gz]
+[2024-04-10 12:07:48] INFO root fetch - processPackages [GeneralSQL]: Remove: archive file [/home/abi/fetcher/tmp/GeneralSQL-1.3.0.tar.gz]
+[2024-04-10 12:07:48] INFO root fetch - main [MainThread]: End processing [GeneralSQL]: success
+[2024-04-10 12:07:48] INFO root fetch - processPackages [opentelemetry-instrumentation-kser]: Remove: archive file [/home/abi/fetcher/tmp/opentelemetry-instrumentation-kser-0.42b0.tar.gz]
+[2024-04-10 12:07:48] INFO root fetch - processPackages [opentelemetry-instrumentation-kser]: Remove: archive file [/home/abi/fetcher/tmp/opentelemetry-instrumentation-kser-0.45b0.tar.gz]
+[2024-04-10 12:07:48] INFO root fetch - main [MainThread]: End processing [opentelemetry-instrumentation-kser]: success
+[2024-04-10 12:07:48] INFO root fetch - processPackages [pytest-container]: Remove: archive file [/home/abi/fetcher/tmp/pytest_container-0.4.1.tar.gz]
+[2024-04-10 12:07:48] INFO root fetch - processPackages [pytest-container]: Remove: archive file [/home/abi/fetcher/tmp/pytest_container-0.4.2.tar.gz]
+[2024-04-10 12:07:48] INFO root fetch - main [MainThread]: End processing [pytest-container]: success
+[2024-04-10 12:07:49] INFO root fetch - processPackages [pulumi-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_snowflake-0.9.1a1654087017.tar.gz]
+[2024-04-10 12:07:49] INFO root fetch - processPackages [pulumi-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz]
+[2024-04-10 12:07:49] INFO root fetch - main [MainThread]: End processing [pulumi-snowflake]: success
+[2024-04-10 12:07:49] INFO root fetch - processPackages [alibabacloud-cams20200606]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cams20200606-1.4.0.tar.gz]
+[2024-04-10 12:07:49] INFO root fetch - processPackages [alibabacloud-cams20200606]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cams20200606-1.4.1.tar.gz]
+[2024-04-10 12:07:49] INFO root fetch - main [MainThread]: End processing [alibabacloud-cams20200606]: success
+[2024-04-10 12:07:56] INFO root fetch - processPackages [limepkg-getaccept]: Remove: archive file [/home/abi/fetcher/tmp/limepkg_getaccept-1.3.6-py3-none-any.whl.zip]
+[2024-04-10 12:07:56] INFO root fetch - processPackages [limepkg-getaccept]: Remove: archive file [/home/abi/fetcher/tmp/limepkg_getaccept-1.3.7.dev1-py3-none-any.whl.zip]
+[2024-04-10 12:07:56] INFO root fetch - main [MainThread]: End processing [limepkg-getaccept]: success
+[2024-04-10 12:07:56] INFO root fetch - main [MainThread]: Store serial: [22698788]

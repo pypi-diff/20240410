@@ -11018,3 +11018,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 05:39:25] INFO root fetch - processPackages [req-compile]: Remove: archive file [/home/abi/fetcher/tmp/req-compile-1.0.0rc9.tar.gz]
 [2024-04-10 05:39:25] INFO root fetch - main [MainThread]: End processing [req-compile]: success
 [2024-04-10 05:39:25] INFO root fetch - main [MainThread]: Store serial: [22695289]
+[2024-04-10 05:41:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22695289]
+[2024-04-10 05:41:34] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-10 05:41:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ros-cdk-imm
+[2024-04-10 05:41:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ergo3d
+[2024-04-10 05:41:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sodata
+[2024-04-10 05:41:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-edi-voxel-sale-order-import-oca
+[2024-04-10 05:41:34] INFO root fetch - processPackages [odoo-addon-edi-voxel-sale-order-import-oca]: New version: [15.0.1.0.1] Old Version: [15.0.1.0.0.1]
+[2024-04-10 05:41:34] INFO root fetch - processPackages [odoo-addon-edi-voxel-sale-order-import-oca]: Downloading https://files.pythonhosted.org/packages/00/30/289f4c26c30664d313743204b89b9b96bd17471ded7af44e87b646d62a89/odoo_addon_edi_voxel_sale_order_import_oca-15.0.1.0.0.1-py3-none-any.whl
+[2024-04-10 05:41:34] INFO root fetch - processPackages [ros-cdk-imm]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-10 05:41:34] WARNING root fetch - processPackages [sodata]: Skipping, unable to determine old version
+[2024-04-10 05:41:34] INFO root fetch - main [MainThread]: End processing [sodata] error
+[2024-04-10 05:41:34] INFO root fetch - processPackages [ergo3d]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-10 05:41:34] INFO root fetch - processPackages [odoo-addon-edi-voxel-sale-order-import-oca]: Downloading https://files.pythonhosted.org/packages/8a/ed/122d61b866614049a5c259de38101d90c1b1f885aec247492c8709c39ced/odoo_addon_edi_voxel_sale_order_import_oca-15.0.1.0.1-py3-none-any.whl
+[2024-04-10 05:41:34] INFO root fetch - processPackages [ergo3d]: Downloading https://files.pythonhosted.org/packages/0d/ff/dbb9ced4ed3724812e943200fa09963330d26a7775ed0ffdfce924a85541/ergo3d-0.1.3.tar.gz
+[2024-04-10 05:41:34] INFO root fetch - processPackages [ros-cdk-imm]: Downloading https://files.pythonhosted.org/packages/98/60/bd0908f28ac8a992612b247c30a1c2d9e54e67ea7234f8db1c9c8244eb97/ros-cdk-imm-1.0.8.tar.gz
+[2024-04-10 05:41:35] INFO root fetch - processPackages [odoo-addon-edi-voxel-sale-order-import-oca]: executing diffoscope
+[2024-04-10 05:41:35] INFO root fetch - processPackages [odoo-addon-edi-voxel-sale-order-import-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_edi_voxel_sale_order_import_oca-15.0.1.0.0.1-py3-none-any.whl.zip tmp/odoo_addon_edi_voxel_sale_order_import_oca-15.0.1.0.1-py3-none-any.whl.zip --markdown 20240410/o/odoo-addon-edi-voxel-sale-order-import-oca/15.0.1.0.0.1-15.0.1.0.1/README.md --exclude *.pyd
+[2024-04-10 05:41:35] INFO root fetch - processPackages [ergo3d]: Downloading https://files.pythonhosted.org/packages/2b/7b/0a8a6473b19da4f414fbf1dd7785c473ea1c694ef2c6f99c263115823154/ergo3d-0.1.4.tar.gz
+[2024-04-10 05:41:35] INFO root fetch - processPackages [ros-cdk-imm]: Downloading https://files.pythonhosted.org/packages/d7/2b/6df354dd4b66c05efea9da7b88905dfc8411c362104ce9cdc595148d29d1/ros-cdk-imm-1.0.9.tar.gz
+[2024-04-10 05:41:35] INFO root fetch - processPackages [ergo3d]: executing diffoscope
+[2024-04-10 05:41:35] INFO root fetch - processPackages [ergo3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ergo3d-0.1.3.tar.gz tmp/ergo3d-0.1.4.tar.gz --markdown 20240410/e/ergo3d/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-10 05:41:35] INFO root fetch - processPackages [ros-cdk-imm]: executing diffoscope
+[2024-04-10 05:41:35] INFO root fetch - processPackages [ros-cdk-imm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-imm-1.0.8.tar.gz tmp/ros-cdk-imm-1.0.9.tar.gz --markdown 20240410/r/ros-cdk-imm/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-10 05:41:35] INFO root fetch - processPackages [odoo-addon-edi-voxel-sale-order-import-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_edi_voxel_sale_order_import_oca-15.0.1.0.0.1-py3-none-any.whl.zip]
+[2024-04-10 05:41:35] INFO root fetch - processPackages [odoo-addon-edi-voxel-sale-order-import-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_edi_voxel_sale_order_import_oca-15.0.1.0.1-py3-none-any.whl.zip]
+[2024-04-10 05:41:35] INFO root fetch - main [MainThread]: End processing [odoo-addon-edi-voxel-sale-order-import-oca]: success
+[2024-04-10 05:41:35] INFO root fetch - processPackages [ergo3d]: Remove: archive file [/home/abi/fetcher/tmp/ergo3d-0.1.3.tar.gz]
+[2024-04-10 05:41:35] INFO root fetch - processPackages [ergo3d]: Remove: archive file [/home/abi/fetcher/tmp/ergo3d-0.1.4.tar.gz]
+[2024-04-10 05:41:35] INFO root fetch - main [MainThread]: End processing [ergo3d]: success
+[2024-04-10 05:41:35] INFO root fetch - processPackages [ros-cdk-imm]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-imm-1.0.8.tar.gz]
+[2024-04-10 05:41:35] INFO root fetch - processPackages [ros-cdk-imm]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-imm-1.0.9.tar.gz]
+[2024-04-10 05:41:35] INFO root fetch - main [MainThread]: End processing [ros-cdk-imm]: success
+[2024-04-10 05:41:35] INFO root fetch - main [MainThread]: Store serial: [22695300]

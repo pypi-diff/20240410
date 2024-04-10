@@ -19134,3 +19134,67 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 11:38:40] INFO root fetch - processPackages [webknossos]: Remove: archive file [/home/abi/fetcher/tmp/webknossos-0.9.9.tar.gz]
 [2024-04-10 11:38:40] INFO root fetch - main [MainThread]: End processing [webknossos]: success
 [2024-04-10 11:38:40] INFO root fetch - main [MainThread]: Store serial: [22698498]
+[2024-04-10 11:40:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22698498]
+[2024-04-10 11:40:49] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-10 11:40:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: momodeltool
+[2024-04-10 11:40:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wpodnet-pytorch
+[2024-04-10 11:40:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scipion-em-cryocare
+[2024-04-10 11:40:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: raster2stac
+[2024-04-10 11:40:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: momodeltool
+[2024-04-10 11:40:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tb-wrapper
+[2024-04-10 11:40:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pygments-lexer-petrichorscript
+[2024-04-10 11:40:49] INFO root fetch - processPackages [pygments-lexer-petrichorscript]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-10 11:40:49] INFO root fetch - processPackages [momodeltool]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-10 11:40:49] INFO root fetch - processPackages [momodeltool]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-10 11:40:49] INFO root fetch - processPackages [tb-wrapper]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-10 11:40:50] INFO root fetch - processPackages [wpodnet-pytorch]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-10 11:40:50] INFO root fetch - processPackages [raster2stac]: New version: [0.0.3] Old Version: [0.0.1]
+[2024-04-10 11:40:50] INFO root fetch - processPackages [pygments-lexer-petrichorscript]: Downloading https://files.pythonhosted.org/packages/c2/1b/d5b215304861d11a05ebfe2ea253a65614e60003a1a255c5ae1877ccf2c5/pygments-lexer-petrichorscript-1.0.4.tar.gz
+[2024-04-10 11:40:50] INFO root fetch - processPackages [scipion-em-cryocare]: New version: [4.1.0] Old Version: [4.0.0]
+[2024-04-10 11:40:50] INFO root fetch - processPackages [momodeltool]: Downloading https://files.pythonhosted.org/packages/ea/c5/1cc79b1a63d5f112f560811aa2de54a4d9704db3babb4d16ee2b62081c82/momodeltool-0.0.8.tar.gz
+[2024-04-10 11:40:50] INFO root fetch - processPackages [momodeltool]: Downloading https://files.pythonhosted.org/packages/ea/c5/1cc79b1a63d5f112f560811aa2de54a4d9704db3babb4d16ee2b62081c82/momodeltool-0.0.8.tar.gz
+[2024-04-10 11:40:50] INFO root fetch - processPackages [tb-wrapper]: Downloading https://files.pythonhosted.org/packages/40/a6/17502a0c345e77eead3d278ee18fabddce13d926ffaf78f6831e310b36c8/tb_wrapper-0.1.4.tar.gz
+[2024-04-10 11:40:50] INFO root fetch - processPackages [wpodnet-pytorch]: Downloading https://files.pythonhosted.org/packages/4a/c4/f363c14288ffb88826e157815e35399acb7bbe9343385ae99a506df0f2b3/wpodnet-pytorch-1.0.2.tar.gz
+[2024-04-10 11:40:50] INFO root fetch - processPackages [raster2stac]: Downloading https://files.pythonhosted.org/packages/65/cc/cdd6fd210c12b2f427fe4b73f2bccc711c869f83db082a46057fb18d9ac2/raster2stac-0.0.1.tar.gz
+[2024-04-10 11:40:50] INFO root fetch - processPackages [scipion-em-cryocare]: Downloading https://files.pythonhosted.org/packages/05/9c/29f473dd87aa599cc2dcd1be6bf01ca94734a242209d7c4ee20e49a89b56/scipion-em-cryocare-4.0.0.tar.gz
+[2024-04-10 11:40:50] INFO root fetch - processPackages [momodeltool]: Downloading https://files.pythonhosted.org/packages/53/73/28eccdf93b18bd55dee87208b71c6da98fe28ee06d1d53267ae24ccda52d/momodeltool-0.0.9.tar.gz
+[2024-04-10 11:40:50] INFO root fetch - processPackages [pygments-lexer-petrichorscript]: Downloading https://files.pythonhosted.org/packages/20/6b/b5f09c11f5d328aa852029ae31a08e1156cdd5b1f8aad6a90f1dbf46d618/pygments-lexer-petrichorscript-1.0.5.tar.gz
+[2024-04-10 11:40:50] INFO root fetch - processPackages [momodeltool]: Downloading https://files.pythonhosted.org/packages/53/73/28eccdf93b18bd55dee87208b71c6da98fe28ee06d1d53267ae24ccda52d/momodeltool-0.0.9.tar.gz
+[2024-04-10 11:40:50] INFO root fetch - processPackages [momodeltool]: executing diffoscope
+[2024-04-10 11:40:50] INFO root fetch - processPackages [momodeltool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/momodeltool-0.0.8.tar.gz tmp/momodeltool-0.0.9.tar.gz --markdown 20240410/m/momodeltool/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-10 11:40:50] INFO root fetch - processPackages [pygments-lexer-petrichorscript]: executing diffoscope
+[2024-04-10 11:40:50] INFO root fetch - processPackages [pygments-lexer-petrichorscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygments-lexer-petrichorscript-1.0.4.tar.gz tmp/pygments-lexer-petrichorscript-1.0.5.tar.gz --markdown 20240410/p/pygments-lexer-petrichorscript/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-10 11:40:50] INFO root fetch - processPackages [momodeltool]: executing diffoscope
+[2024-04-10 11:40:50] INFO root fetch - processPackages [momodeltool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/momodeltool-0.0.8.tar.gz tmp/momodeltool-0.0.9.tar.gz --markdown 20240410/m/momodeltool/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-10 11:40:50] INFO root fetch - processPackages [tb-wrapper]: Downloading https://files.pythonhosted.org/packages/6c/08/e55b4416004ae88152a4d3ffe422dac0ff80260fc2e140d37c4114885703/tb_wrapper-0.1.5.tar.gz
+[2024-04-10 11:40:50] INFO root fetch - processPackages [scipion-em-cryocare]: Downloading https://files.pythonhosted.org/packages/ac/dd/e95c7dd79b63685ba85d8deb3ea0d41a53b65f79b939a0dfea97f38a4d12/scipion-em-cryocare-4.1.0.tar.gz
+[2024-04-10 11:40:50] INFO root fetch - processPackages [wpodnet-pytorch]: Downloading https://files.pythonhosted.org/packages/08/36/32a00c5ea160ae46b7bef6b6b90d31dd09615813f87e7f1ca38b53f170d2/wpodnet-pytorch-1.0.3.tar.gz
+[2024-04-10 11:40:50] INFO root fetch - processPackages [raster2stac]: Downloading https://files.pythonhosted.org/packages/62/57/ea4de2db3047ccfea26c68546a7b19724725cc7b3d6d1f114c94bf342754/raster2stac-0.0.3.tar.gz
+[2024-04-10 11:40:50] INFO root fetch - processPackages [tb-wrapper]: executing diffoscope
+[2024-04-10 11:40:50] INFO root fetch - processPackages [tb-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_wrapper-0.1.4.tar.gz tmp/tb_wrapper-0.1.5.tar.gz --markdown 20240410/t/tb-wrapper/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-10 11:40:50] INFO root fetch - processPackages [wpodnet-pytorch]: executing diffoscope
+[2024-04-10 11:40:50] INFO root fetch - processPackages [wpodnet-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wpodnet-pytorch-1.0.2.tar.gz tmp/wpodnet-pytorch-1.0.3.tar.gz --markdown 20240410/w/wpodnet-pytorch/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-10 11:40:50] INFO root fetch - processPackages [scipion-em-cryocare]: executing diffoscope
+[2024-04-10 11:40:50] INFO root fetch - processPackages [scipion-em-cryocare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scipion-em-cryocare-4.0.0.tar.gz tmp/scipion-em-cryocare-4.1.0.tar.gz --markdown 20240410/s/scipion-em-cryocare/4.0.0-4.1.0/README.md --exclude *.pyd
+[2024-04-10 11:40:50] INFO root fetch - processPackages [raster2stac]: executing diffoscope
+[2024-04-10 11:40:50] INFO root fetch - processPackages [raster2stac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raster2stac-0.0.1.tar.gz tmp/raster2stac-0.0.3.tar.gz --markdown 20240410/r/raster2stac/0.0.1-0.0.3/README.md --exclude *.pyd
+[2024-04-10 11:40:51] INFO root fetch - processPackages [pygments-lexer-petrichorscript]: Remove: archive file [/home/abi/fetcher/tmp/pygments-lexer-petrichorscript-1.0.4.tar.gz]
+[2024-04-10 11:40:51] INFO root fetch - processPackages [pygments-lexer-petrichorscript]: Remove: archive file [/home/abi/fetcher/tmp/pygments-lexer-petrichorscript-1.0.5.tar.gz]
+[2024-04-10 11:40:51] INFO root fetch - main [MainThread]: End processing [pygments-lexer-petrichorscript]: success
+[2024-04-10 11:40:51] INFO root fetch - processPackages [momodeltool]: Remove: archive file [/home/abi/fetcher/tmp/momodeltool-0.0.8.tar.gz]
+[2024-04-10 11:40:51] INFO root fetch - processPackages [momodeltool]: Remove: archive file [/home/abi/fetcher/tmp/momodeltool-0.0.9.tar.gz]
+[2024-04-10 11:40:51] INFO root fetch - main [MainThread]: End processing [momodeltool]: success
+[2024-04-10 11:40:51] INFO root fetch - main [MainThread]: End processing [momodeltool]: success
+[2024-04-10 11:40:51] INFO root fetch - processPackages [tb-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/tb_wrapper-0.1.4.tar.gz]
+[2024-04-10 11:40:51] INFO root fetch - processPackages [tb-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/tb_wrapper-0.1.5.tar.gz]
+[2024-04-10 11:40:51] INFO root fetch - main [MainThread]: End processing [tb-wrapper]: success
+[2024-04-10 11:40:51] INFO root fetch - processPackages [wpodnet-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/wpodnet-pytorch-1.0.2.tar.gz]
+[2024-04-10 11:40:51] INFO root fetch - processPackages [wpodnet-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/wpodnet-pytorch-1.0.3.tar.gz]
+[2024-04-10 11:40:51] INFO root fetch - main [MainThread]: End processing [wpodnet-pytorch]: success
+[2024-04-10 11:40:51] INFO root fetch - processPackages [scipion-em-cryocare]: Remove: archive file [/home/abi/fetcher/tmp/scipion-em-cryocare-4.0.0.tar.gz]
+[2024-04-10 11:40:51] INFO root fetch - processPackages [scipion-em-cryocare]: Remove: archive file [/home/abi/fetcher/tmp/scipion-em-cryocare-4.1.0.tar.gz]
+[2024-04-10 11:40:51] INFO root fetch - main [MainThread]: End processing [scipion-em-cryocare]: success
+[2024-04-10 11:40:52] INFO root fetch - processPackages [raster2stac]: Remove: archive file [/home/abi/fetcher/tmp/raster2stac-0.0.1.tar.gz]
+[2024-04-10 11:40:52] INFO root fetch - processPackages [raster2stac]: Remove: archive file [/home/abi/fetcher/tmp/raster2stac-0.0.3.tar.gz]
+[2024-04-10 11:40:52] INFO root fetch - main [MainThread]: End processing [raster2stac]: success
+[2024-04-10 11:40:52] INFO root fetch - main [MainThread]: Store serial: [22698520]

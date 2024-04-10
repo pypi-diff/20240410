@@ -3383,3 +3383,18 @@
 [2024-04-10 02:41:40] INFO root fetch - processPackages [qbraid]: Remove: archive file [/home/abi/fetcher/tmp/qbraid-0.6.1.tar.gz]
 [2024-04-10 02:41:40] INFO root fetch - main [MainThread]: End processing [qbraid]: success
 [2024-04-10 02:41:40] INFO root fetch - main [MainThread]: Store serial: [22692473]
+[2024-04-10 02:43:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22692473]
+[2024-04-10 02:43:48] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-10 02:43:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qcio
+[2024-04-10 02:43:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: notification-py
+[2024-04-10 02:43:49] WARNING root fetch - processPackages [notification-py]: Skipping, unable to determine old version
+[2024-04-10 02:43:49] INFO root fetch - main [MainThread]: End processing [notification-py] error
+[2024-04-10 02:43:49] INFO root fetch - processPackages [qcio]: New version: [0.8.2] Old Version: [0.8.1]
+[2024-04-10 02:43:49] INFO root fetch - processPackages [qcio]: Downloading https://files.pythonhosted.org/packages/df/e5/7a006bf5265874fdaf6983101999486205915fb2bc217599770b782d5560/qcio-0.8.1.tar.gz
+[2024-04-10 02:43:49] INFO root fetch - processPackages [qcio]: Downloading https://files.pythonhosted.org/packages/c2/03/9195022b5c0432bd1c860d8923dde8db2e6450c7fc16ab5f62ea3160bc9d/qcio-0.8.2.tar.gz
+[2024-04-10 02:43:49] INFO root fetch - processPackages [qcio]: executing diffoscope
+[2024-04-10 02:43:49] INFO root fetch - processPackages [qcio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qcio-0.8.1.tar.gz tmp/qcio-0.8.2.tar.gz --markdown 20240410/q/qcio/0.8.1-0.8.2/README.md --exclude *.pyd
+[2024-04-10 02:43:50] INFO root fetch - processPackages [qcio]: Remove: archive file [/home/abi/fetcher/tmp/qcio-0.8.1.tar.gz]
+[2024-04-10 02:43:50] INFO root fetch - processPackages [qcio]: Remove: archive file [/home/abi/fetcher/tmp/qcio-0.8.2.tar.gz]
+[2024-04-10 02:43:50] INFO root fetch - main [MainThread]: End processing [qcio]: success
+[2024-04-10 02:43:50] INFO root fetch - main [MainThread]: Store serial: [22692481]

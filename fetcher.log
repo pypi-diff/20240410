@@ -12193,3 +12193,55 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 06:28:39] INFO root fetch - processPackages [flet]: Remove: archive file [/home/abi/fetcher/tmp/flet-0.9.0.tar.gz]
 [2024-04-10 06:28:39] INFO root fetch - main [MainThread]: End processing [flet]: success
 [2024-04-10 06:28:39] INFO root fetch - main [MainThread]: Store serial: [22695722]
+[2024-04-10 06:30:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22695722]
+[2024-04-10 06:30:53] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-10 06:30:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-gcp
+[2024-04-10 06:30:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: notification-py
+[2024-04-10 06:30:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: FunID
+[2024-04-10 06:30:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ros-cdk-dfs
+[2024-04-10 06:30:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ros-cdk-slb
+[2024-04-10 06:30:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ilovetea
+[2024-04-10 06:30:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: experimentflow
+[2024-04-10 06:30:54] INFO root fetch - processPackages [ilovetea]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-10 06:30:54] INFO root fetch - processPackages [notification-py]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-10 06:30:54] WARNING root fetch - processPackages [experimentflow]: Skipping, unable to determine old version
+[2024-04-10 06:30:54] INFO root fetch - main [MainThread]: End processing [experimentflow] error
+[2024-04-10 06:30:54] INFO root fetch - processPackages [pulumi-gcp]: New version: [7.9.0a1707934510] Old Version: [7.9.0a1707891532]
+[2024-04-10 06:30:54] INFO root fetch - processPackages [ilovetea]: Downloading https://files.pythonhosted.org/packages/e0/d8/c2c72a24c55ddc28874fa2724985d296457c824f326b97c51689e6d9f755/ilovetea-0.1.1.tar.gz
+[2024-04-10 06:30:54] INFO root fetch - processPackages [ros-cdk-dfs]: New version: [1.0.9] Old Version: [1.0.24]
+[2024-04-10 06:30:54] INFO root fetch - processPackages [notification-py]: Downloading https://files.pythonhosted.org/packages/50/5e/deb0c1cea44f493c58f827839306d0330c6fe24bf973687219cdda778b70/notification_py-1.0.1.tar.gz
+[2024-04-10 06:30:54] INFO root fetch - processPackages [ros-cdk-slb]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-10 06:30:54] INFO root fetch - processPackages [FunID]: New version: [0.3.9] Old Version: [0.3.8.2]
+[2024-04-10 06:30:54] INFO root fetch - processPackages [pulumi-gcp]: Downloading https://files.pythonhosted.org/packages/f0/b4/677e3618cc42a30dd41030c6dee1b6b9d52e956632b9a1eeb84c0c2d8e3c/pulumi_gcp-7.9.0a1707891532.tar.gz
+[2024-04-10 06:30:54] INFO root fetch - processPackages [ros-cdk-dfs]: Downloading https://files.pythonhosted.org/packages/1a/58/8c7f09723202ce52aa9b255008a088c9a7bcad60861053656ab33033f794/ros-cdk-dfs-1.0.24.tar.gz
+[2024-04-10 06:30:54] INFO root fetch - processPackages [ros-cdk-slb]: Downloading https://files.pythonhosted.org/packages/74/ad/5c48cd3815ba0fc1048e117d80967eae95cd1842f9ef377522e0fa5e48b4/ros-cdk-slb-1.0.8.tar.gz
+[2024-04-10 06:30:54] INFO root fetch - processPackages [FunID]: Downloading https://files.pythonhosted.org/packages/4a/4a/3bf498c2707726c16177fb6d5e4c1fb6b942aa0f857378f22345cee709b9/FunID-0.3.8.2.tar.gz
+[2024-04-10 06:30:54] ERROR root fetch - processPackages [ilovetea]: Unable to fetch info: No such project/version 'ilovetea' 0.1.2
+[2024-04-10 06:30:54] INFO root fetch - main [MainThread]: End processing [ilovetea] error
+[2024-04-10 06:30:54] INFO root fetch - processPackages [notification-py]: Downloading https://files.pythonhosted.org/packages/09/a4/a88a85eca9318080d1c3d3bac4b1d617cb38e903ec76895a9423cc530bca/notification_py-1.0.2.tar.gz
+[2024-04-10 06:30:54] WARNING root fetch - processPackages [FunID]: Skipping package: exceeds size limit 51450650>=10485760
+[2024-04-10 06:30:54] INFO root fetch - main [MainThread]: End processing [FunID] error
+[2024-04-10 06:30:54] INFO root fetch - processPackages [notification-py]: executing diffoscope
+[2024-04-10 06:30:54] INFO root fetch - processPackages [notification-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notification_py-1.0.1.tar.gz tmp/notification_py-1.0.2.tar.gz --markdown 20240410/n/notification-py/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-10 06:30:54] INFO root fetch - processPackages [pulumi-gcp]: Downloading https://files.pythonhosted.org/packages/e8/4f/d6c8ded38a6c81689a5fb00b6aea9daeef82f4686f3ad6c74eba94b37d8b/pulumi_gcp-7.9.0a1707934510.tar.gz
+[2024-04-10 06:30:54] INFO root fetch - processPackages [ros-cdk-dfs]: Downloading https://files.pythonhosted.org/packages/46/3d/9ce7da7ffa65d1a4e891fb205d146db05f2c729bae5edbbd338def78d151/ros-cdk-dfs-1.0.9.tar.gz
+[2024-04-10 06:30:54] INFO root fetch - processPackages [ros-cdk-slb]: Downloading https://files.pythonhosted.org/packages/40/e3/c5f19aed2f14ba0d2dd20e09b1342b3c4297e73015c12af0b7ac24640289/ros-cdk-slb-1.0.9.tar.gz
+[2024-04-10 06:30:54] INFO root fetch - processPackages [ros-cdk-dfs]: executing diffoscope
+[2024-04-10 06:30:54] INFO root fetch - processPackages [ros-cdk-dfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-dfs-1.0.24.tar.gz tmp/ros-cdk-dfs-1.0.9.tar.gz --markdown 20240410/r/ros-cdk-dfs/1.0.24-1.0.9/README.md --exclude *.pyd
+[2024-04-10 06:30:55] INFO root fetch - processPackages [ros-cdk-slb]: executing diffoscope
+[2024-04-10 06:30:55] INFO root fetch - processPackages [ros-cdk-slb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-slb-1.0.8.tar.gz tmp/ros-cdk-slb-1.0.9.tar.gz --markdown 20240410/r/ros-cdk-slb/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-10 06:30:55] INFO root fetch - processPackages [pulumi-gcp]: executing diffoscope
+[2024-04-10 06:30:55] INFO root fetch - processPackages [pulumi-gcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_gcp-7.9.0a1707891532.tar.gz tmp/pulumi_gcp-7.9.0a1707934510.tar.gz --markdown 20240410/p/pulumi-gcp/7.9.0a1707891532-7.9.0a1707934510/README.md --exclude *.pyd
+[2024-04-10 06:30:55] INFO root fetch - processPackages [notification-py]: Remove: archive file [/home/abi/fetcher/tmp/notification_py-1.0.1.tar.gz]
+[2024-04-10 06:30:55] INFO root fetch - processPackages [notification-py]: Remove: archive file [/home/abi/fetcher/tmp/notification_py-1.0.2.tar.gz]
+[2024-04-10 06:30:55] INFO root fetch - main [MainThread]: End processing [notification-py]: success
+[2024-04-10 06:30:55] INFO root fetch - processPackages [ros-cdk-dfs]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-dfs-1.0.24.tar.gz]
+[2024-04-10 06:30:55] INFO root fetch - processPackages [ros-cdk-dfs]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-dfs-1.0.9.tar.gz]
+[2024-04-10 06:30:55] INFO root fetch - main [MainThread]: End processing [ros-cdk-dfs]: success
+[2024-04-10 06:30:55] INFO root fetch - processPackages [ros-cdk-slb]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-slb-1.0.8.tar.gz]
+[2024-04-10 06:30:55] INFO root fetch - processPackages [ros-cdk-slb]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-slb-1.0.9.tar.gz]
+[2024-04-10 06:30:55] INFO root fetch - main [MainThread]: End processing [ros-cdk-slb]: success
+[2024-04-10 06:31:04] INFO root fetch - processPackages [pulumi-gcp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gcp-7.9.0a1707891532.tar.gz]
+[2024-04-10 06:31:04] INFO root fetch - processPackages [pulumi-gcp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gcp-7.9.0a1707934510.tar.gz]
+[2024-04-10 06:31:04] INFO root fetch - main [MainThread]: End processing [pulumi-gcp]: success
+[2024-04-10 06:31:04] INFO root fetch - main [MainThread]: Store serial: [22695745]

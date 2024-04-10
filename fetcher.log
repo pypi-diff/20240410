@@ -22302,3 +22302,65 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-10 13:38:33] INFO root fetch - processPackages [oakvar]: Remove: archive file [/home/abi/fetcher/tmp/oakvar-2.9.93.tar.gz]
 [2024-04-10 13:38:33] INFO root fetch - main [MainThread]: End processing [oakvar]: success
 [2024-04-10 13:38:33] INFO root fetch - main [MainThread]: Store serial: [22700163]
+[2024-04-10 13:40:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22700163]
+[2024-04-10 13:40:42] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-10 13:40:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bring-api
+[2024-04-10 13:40:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyPCR
+[2024-04-10 13:40:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deepdespeckling
+[2024-04-10 13:40:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cybrid-api-organization-python
+[2024-04-10 13:40:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cybrid-api-id-python
+[2024-04-10 13:40:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cybrid-api-bank-python
+[2024-04-10 13:40:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ycls
+[2024-04-10 13:40:42] INFO root fetch - processPackages [deepdespeckling]: New version: [0.4] Old Version: [0.3]
+[2024-04-10 13:40:42] INFO root fetch - processPackages [pyPCR]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-10 13:40:42] INFO root fetch - processPackages [ycls]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-10 13:40:42] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-04-10 13:40:42] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-04-10 13:40:42] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-04-10 13:40:42] INFO root fetch - processPackages [bring-api]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-04-10 13:40:42] INFO root fetch - processPackages [deepdespeckling]: Downloading https://files.pythonhosted.org/packages/41/b4/5f0a1fb0cb406c306236d619ae7954e31919e13ae50ab4fa41c9f420e522/deepdespeckling-0.3.tar.gz
+[2024-04-10 13:40:42] INFO root fetch - processPackages [ycls]: Downloading https://files.pythonhosted.org/packages/1c/8e/fe54c72d4d5fb0dfb26c60b91c091684b9826693905a284548c23840778e/ycls-1.0.0.tar.gz
+[2024-04-10 13:40:42] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/75/d9/17a583a2d5fccaef7210a11d9f7dc963aab51cd4a5ae5f7983c03291f4bc/cybrid-api-organization-python-0.98.2.tar.gz
+[2024-04-10 13:40:42] WARNING root fetch - processPackages [deepdespeckling]: Skipping package: exceeds size limit 11104332>=10485760
+[2024-04-10 13:40:42] INFO root fetch - main [MainThread]: End processing [deepdespeckling] error
+[2024-04-10 13:40:42] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/2d/66/0d5dc17801b737dd53e021a1548eb784ef8520799bdffbae60e088bf723c/cybrid-api-id-python-0.98.2.tar.gz
+[2024-04-10 13:40:42] INFO root fetch - processPackages [pyPCR]: Downloading https://files.pythonhosted.org/packages/b0/f2/e95d69acda3b889d0c5fd5ce958e07e9430622eadd5195f357cc00a142c9/pyPCR-0.0.1.tar.gz
+[2024-04-10 13:40:42] INFO root fetch - processPackages [bring-api]: Downloading https://files.pythonhosted.org/packages/85/d9/9551b48d4c91c8aeec8572234eaa1673a9250c19681c38b3189d86203b1d/bring-api-0.6.0.tar.gz
+[2024-04-10 13:40:42] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/da/dd/e8ea2fc7e8f671e18adae35333d00fdc692f7637860f9e361fba5fe3b85a/cybrid-api-bank-python-0.98.2.tar.gz
+[2024-04-10 13:40:42] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/93/ab/a857018ac26aeaa884608066dbe6bd482e17a4edf88533d3335a3ed2a25c/cybrid-api-organization-python-0.99.0.tar.gz
+[2024-04-10 13:40:42] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/de/07/de389a95ca98f482f653401dbe8342cf8d4930d1efee86d1f28f3c1afcd1/cybrid-api-id-python-0.99.0.tar.gz
+[2024-04-10 13:40:42] INFO root fetch - processPackages [ycls]: Downloading https://files.pythonhosted.org/packages/5b/73/89d820b7a4bfa7b0cada72f444da70f8ac077769254eb849e480580eebf9/ycls-1.0.1.tar.gz
+[2024-04-10 13:40:43] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2024-04-10 13:40:43] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.98.2.tar.gz tmp/cybrid-api-organization-python-0.99.0.tar.gz --markdown 20240410/c/cybrid-api-organization-python/0.98.2-0.99.0/README.md --exclude *.pyd
+[2024-04-10 13:40:43] INFO root fetch - processPackages [pyPCR]: Downloading https://files.pythonhosted.org/packages/9b/d0/1386c182183cfd42939e7fb80ba0700e171449c82453a49e09ea8b90fa0f/pyPCR-0.0.2.tar.gz
+[2024-04-10 13:40:43] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/a1/e6/1c6a95191a8826ea0636949d5bfdb7d34a65b1f81b3cb27e1863a88a1552/cybrid-api-bank-python-0.99.0.tar.gz
+[2024-04-10 13:40:43] INFO root fetch - processPackages [bring-api]: Downloading https://files.pythonhosted.org/packages/78/ad/dac7d14d53792c2f3dcede4ee2589fc43374942f0fa208faf66737683ca3/bring-api-0.7.0.tar.gz
+[2024-04-10 13:40:43] INFO root fetch - processPackages [ycls]: executing diffoscope
+[2024-04-10 13:40:43] INFO root fetch - processPackages [ycls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ycls-1.0.0.tar.gz tmp/ycls-1.0.1.tar.gz --markdown 20240410/y/ycls/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-10 13:40:43] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2024-04-10 13:40:43] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.98.2.tar.gz tmp/cybrid-api-id-python-0.99.0.tar.gz --markdown 20240410/c/cybrid-api-id-python/0.98.2-0.99.0/README.md --exclude *.pyd
+[2024-04-10 13:40:43] INFO root fetch - processPackages [pyPCR]: executing diffoscope
+[2024-04-10 13:40:43] INFO root fetch - processPackages [pyPCR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyPCR-0.0.1.tar.gz tmp/pyPCR-0.0.2.tar.gz --markdown 20240410/p/pyPCR/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-10 13:40:43] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2024-04-10 13:40:43] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.98.2.tar.gz tmp/cybrid-api-bank-python-0.99.0.tar.gz --markdown 20240410/c/cybrid-api-bank-python/0.98.2-0.99.0/README.md --exclude *.pyd
+[2024-04-10 13:40:43] INFO root fetch - processPackages [bring-api]: executing diffoscope
+[2024-04-10 13:40:43] INFO root fetch - processPackages [bring-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bring-api-0.6.0.tar.gz tmp/bring-api-0.7.0.tar.gz --markdown 20240410/b/bring-api/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-04-10 13:40:44] INFO root fetch - processPackages [ycls]: Remove: archive file [/home/abi/fetcher/tmp/ycls-1.0.0.tar.gz]
+[2024-04-10 13:40:44] INFO root fetch - processPackages [ycls]: Remove: archive file [/home/abi/fetcher/tmp/ycls-1.0.1.tar.gz]
+[2024-04-10 13:40:44] INFO root fetch - main [MainThread]: End processing [ycls]: success
+[2024-04-10 13:40:44] INFO root fetch - processPackages [pyPCR]: Remove: archive file [/home/abi/fetcher/tmp/pyPCR-0.0.1.tar.gz]
+[2024-04-10 13:40:44] INFO root fetch - processPackages [pyPCR]: Remove: archive file [/home/abi/fetcher/tmp/pyPCR-0.0.2.tar.gz]
+[2024-04-10 13:40:44] INFO root fetch - main [MainThread]: End processing [pyPCR]: success
+[2024-04-10 13:40:44] INFO root fetch - processPackages [bring-api]: Remove: archive file [/home/abi/fetcher/tmp/bring-api-0.6.0.tar.gz]
+[2024-04-10 13:40:44] INFO root fetch - processPackages [bring-api]: Remove: archive file [/home/abi/fetcher/tmp/bring-api-0.7.0.tar.gz]
+[2024-04-10 13:40:44] INFO root fetch - main [MainThread]: End processing [bring-api]: success
+[2024-04-10 13:40:44] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.98.2.tar.gz]
+[2024-04-10 13:40:44] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.99.0.tar.gz]
+[2024-04-10 13:40:44] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2024-04-10 13:40:44] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.98.2.tar.gz]
+[2024-04-10 13:40:44] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.99.0.tar.gz]
+[2024-04-10 13:40:44] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2024-04-10 13:40:45] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.98.2.tar.gz]
+[2024-04-10 13:40:45] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.99.0.tar.gz]
+[2024-04-10 13:40:45] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2024-04-10 13:40:45] INFO root fetch - main [MainThread]: Store serial: [22700184]

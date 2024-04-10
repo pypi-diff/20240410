@@ -9814,3 +9814,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 04:46:14] INFO root fetch - processPackages [clip2imgur]: Remove: archive file [/home/abi/fetcher/tmp/clip2imgur-0.9.2.tar.gz]
 [2024-04-10 04:46:14] INFO root fetch - main [MainThread]: End processing [clip2imgur]: success
 [2024-04-10 04:46:14] INFO root fetch - main [MainThread]: Store serial: [22694762]
+[2024-04-10 04:48:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22694762]
+[2024-04-10 04:48:25] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-10 04:48:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ros-cdk-privatelink
+[2024-04-10 04:48:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scAtlasVAE
+[2024-04-10 04:48:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: not1mm
+[2024-04-10 04:48:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pih
+[2024-04-10 04:48:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mlflow-oidc-auth
+[2024-04-10 04:48:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ros-cdk-elasticsearch
+[2024-04-10 04:48:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ros-cdk-ens
+[2024-04-10 04:48:25] INFO root fetch - processPackages [pih]: New version: [0.34] Old Version: [0.33]
+[2024-04-10 04:48:25] INFO root fetch - processPackages [not1mm]: New version: [24.4.9.3] Old Version: [24.4.9.2]
+[2024-04-10 04:48:25] INFO root fetch - processPackages [ros-cdk-privatelink]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-10 04:48:25] INFO root fetch - processPackages [mlflow-oidc-auth]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-10 04:48:25] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/02/69/ee0d9e4a2b88e0979ef900b2d12c1d7e7e3591b17255ca1ed4aaf3101681/pih-0.33.tar.gz
+[2024-04-10 04:48:25] INFO root fetch - processPackages [scAtlasVAE]: New version: [1.0.3a3] Old Version: [1.0.3a2]
+[2024-04-10 04:48:25] INFO root fetch - processPackages [ros-cdk-ens]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-10 04:48:25] INFO root fetch - processPackages [ros-cdk-elasticsearch]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-10 04:48:25] INFO root fetch - processPackages [not1mm]: Downloading https://files.pythonhosted.org/packages/19/16/01d41bbc20d470f22a4c6abf0f81beee50593682bbc9d52d6b2fd02ba661/not1mm-24.4.9.2.tar.gz
+[2024-04-10 04:48:25] INFO root fetch - processPackages [mlflow-oidc-auth]: Downloading https://files.pythonhosted.org/packages/13/89/eec3004aa84751bef24570432246d617b9d9f67060da3fcadb02eac2317c/mlflow-oidc-auth-1.0.0.tar.gz
+[2024-04-10 04:48:25] INFO root fetch - processPackages [scAtlasVAE]: Downloading https://files.pythonhosted.org/packages/58/af/058ff908aa55da7d8cbc210dc53206180bf817c30ba2091af7d99df3e142/scAtlasVAE-1.0.3a2-py3-none-any.whl
+[2024-04-10 04:48:25] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/dd/da/af67a9b8da8f47d3e375d31f63cf6a9321d8493c1ff412c12bed039664ca/pih-0.34.tar.gz
+[2024-04-10 04:48:25] INFO root fetch - processPackages [ros-cdk-elasticsearch]: Downloading https://files.pythonhosted.org/packages/f4/93/d73d5ab7d854f0c866e9d1cdbdebf0be8e476e6d9be9e553db2cbfc83c33/ros-cdk-elasticsearch-1.0.8.tar.gz
+[2024-04-10 04:48:25] INFO root fetch - processPackages [ros-cdk-ens]: Downloading https://files.pythonhosted.org/packages/a9/49/0388e72a92545a76da89ef73fc54bdb328d78c72976eaa4260901b947033/ros-cdk-ens-1.0.8.tar.gz
+[2024-04-10 04:48:26] INFO root fetch - processPackages [ros-cdk-privatelink]: Downloading https://files.pythonhosted.org/packages/f1/cc/2c082bbb93cb9856c65637cbe2361b71bc21a1bceef61319c59c79800795/ros-cdk-privatelink-1.0.8.tar.gz
+[2024-04-10 04:48:26] INFO root fetch - processPackages [pih]: executing diffoscope
+[2024-04-10 04:48:26] INFO root fetch - processPackages [pih]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-0.33.tar.gz tmp/pih-0.34.tar.gz --markdown 20240410/p/pih/0.33-0.34/README.md --exclude *.pyd
+[2024-04-10 04:48:26] INFO root fetch - processPackages [not1mm]: Downloading https://files.pythonhosted.org/packages/b8/00/b03681f5655c45369caddca017889f36126fee3262c35e9da8f3d6f1441a/not1mm-24.4.9.3.tar.gz
+[2024-04-10 04:48:26] INFO root fetch - processPackages [mlflow-oidc-auth]: Downloading https://files.pythonhosted.org/packages/a3/da/db5f18f6b6e8fb6f11b1ace711970dbff59bbac2d724890a4681b6f478d2/mlflow-oidc-auth-1.1.0.tar.gz
+[2024-04-10 04:48:26] INFO root fetch - processPackages [scAtlasVAE]: Downloading https://files.pythonhosted.org/packages/bc/dd/b9c9c5e99bcfb65ade27d56e9a76de1f462179ae6fd7dbf2fcad847d192d/scAtlasVAE-1.0.3a3-py3-none-any.whl
+[2024-04-10 04:48:26] INFO root fetch - processPackages [ros-cdk-ens]: Downloading https://files.pythonhosted.org/packages/43/fc/efd68838d06b21d7a3bc760aa32b8c78e27681eb8f472ebb66139331c44c/ros-cdk-ens-1.0.9.tar.gz
+[2024-04-10 04:48:26] INFO root fetch - processPackages [ros-cdk-elasticsearch]: Downloading https://files.pythonhosted.org/packages/aa/4b/0a94330e95e4428425ca80ae62cc1dba2cf03a07b06c4294a2b410136fd6/ros-cdk-elasticsearch-1.0.9.tar.gz
+[2024-04-10 04:48:26] INFO root fetch - processPackages [mlflow-oidc-auth]: executing diffoscope
+[2024-04-10 04:48:26] INFO root fetch - processPackages [mlflow-oidc-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlflow-oidc-auth-1.0.0.tar.gz tmp/mlflow-oidc-auth-1.1.0.tar.gz --markdown 20240410/m/mlflow-oidc-auth/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-04-10 04:48:26] INFO root fetch - processPackages [ros-cdk-privatelink]: Downloading https://files.pythonhosted.org/packages/d2/74/5f0b9dfdf8f29683f485682ed3cf1414974936e669f394a649d975714e0e/ros-cdk-privatelink-1.0.9.tar.gz
+[2024-04-10 04:48:26] INFO root fetch - processPackages [scAtlasVAE]: executing diffoscope
+[2024-04-10 04:48:26] INFO root fetch - processPackages [scAtlasVAE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scAtlasVAE-1.0.3a2-py3-none-any.whl.zip tmp/scAtlasVAE-1.0.3a3-py3-none-any.whl.zip --markdown 20240410/s/scAtlasVAE/1.0.3a2-1.0.3a3/README.md --exclude *.pyd
+[2024-04-10 04:48:26] INFO root fetch - processPackages [ros-cdk-ens]: executing diffoscope
+[2024-04-10 04:48:26] INFO root fetch - processPackages [ros-cdk-ens]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-ens-1.0.8.tar.gz tmp/ros-cdk-ens-1.0.9.tar.gz --markdown 20240410/r/ros-cdk-ens/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-10 04:48:26] INFO root fetch - processPackages [ros-cdk-elasticsearch]: executing diffoscope
+[2024-04-10 04:48:26] INFO root fetch - processPackages [ros-cdk-elasticsearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-elasticsearch-1.0.8.tar.gz tmp/ros-cdk-elasticsearch-1.0.9.tar.gz --markdown 20240410/r/ros-cdk-elasticsearch/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-10 04:48:26] INFO root fetch - processPackages [not1mm]: executing diffoscope
+[2024-04-10 04:48:26] INFO root fetch - processPackages [not1mm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/not1mm-24.4.9.2.tar.gz tmp/not1mm-24.4.9.3.tar.gz --markdown 20240410/n/not1mm/24.4.9.2-24.4.9.3/README.md --exclude *.pyd
+[2024-04-10 04:48:26] INFO root fetch - processPackages [ros-cdk-privatelink]: executing diffoscope
+[2024-04-10 04:48:26] INFO root fetch - processPackages [ros-cdk-privatelink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-privatelink-1.0.8.tar.gz tmp/ros-cdk-privatelink-1.0.9.tar.gz --markdown 20240410/r/ros-cdk-privatelink/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-10 04:48:27] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.33.tar.gz]
+[2024-04-10 04:48:27] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.34.tar.gz]
+[2024-04-10 04:48:27] INFO root fetch - main [MainThread]: End processing [pih]: success
+[2024-04-10 04:48:27] INFO root fetch - processPackages [ros-cdk-ens]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ens-1.0.8.tar.gz]
+[2024-04-10 04:48:27] INFO root fetch - processPackages [ros-cdk-ens]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ens-1.0.9.tar.gz]
+[2024-04-10 04:48:27] INFO root fetch - main [MainThread]: End processing [ros-cdk-ens]: success
+[2024-04-10 04:48:27] INFO root fetch - processPackages [scAtlasVAE]: Remove: archive file [/home/abi/fetcher/tmp/scAtlasVAE-1.0.3a2-py3-none-any.whl.zip]
+[2024-04-10 04:48:27] INFO root fetch - processPackages [scAtlasVAE]: Remove: archive file [/home/abi/fetcher/tmp/scAtlasVAE-1.0.3a3-py3-none-any.whl.zip]
+[2024-04-10 04:48:27] INFO root fetch - main [MainThread]: End processing [scAtlasVAE]: success
+[2024-04-10 04:48:27] INFO root fetch - processPackages [ros-cdk-elasticsearch]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-elasticsearch-1.0.8.tar.gz]
+[2024-04-10 04:48:27] INFO root fetch - processPackages [ros-cdk-elasticsearch]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-elasticsearch-1.0.9.tar.gz]
+[2024-04-10 04:48:27] INFO root fetch - main [MainThread]: End processing [ros-cdk-elasticsearch]: success
+[2024-04-10 04:48:27] INFO root fetch - processPackages [ros-cdk-privatelink]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-privatelink-1.0.8.tar.gz]
+[2024-04-10 04:48:27] INFO root fetch - processPackages [ros-cdk-privatelink]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-privatelink-1.0.9.tar.gz]
+[2024-04-10 04:48:27] INFO root fetch - main [MainThread]: End processing [ros-cdk-privatelink]: success
+[2024-04-10 04:48:28] INFO root fetch - processPackages [not1mm]: Remove: archive file [/home/abi/fetcher/tmp/not1mm-24.4.9.2.tar.gz]
+[2024-04-10 04:48:28] INFO root fetch - processPackages [not1mm]: Remove: archive file [/home/abi/fetcher/tmp/not1mm-24.4.9.3.tar.gz]
+[2024-04-10 04:48:28] INFO root fetch - main [MainThread]: End processing [not1mm]: success
+[2024-04-10 04:48:32] INFO root fetch - processPackages [mlflow-oidc-auth]: Remove: archive file [/home/abi/fetcher/tmp/mlflow-oidc-auth-1.0.0.tar.gz]
+[2024-04-10 04:48:32] INFO root fetch - processPackages [mlflow-oidc-auth]: Remove: archive file [/home/abi/fetcher/tmp/mlflow-oidc-auth-1.1.0.tar.gz]
+[2024-04-10 04:48:32] INFO root fetch - main [MainThread]: End processing [mlflow-oidc-auth]: success
+[2024-04-10 04:48:32] INFO root fetch - main [MainThread]: Store serial: [22694779]

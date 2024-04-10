@@ -19650,3 +19650,66 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 12:00:38] INFO root fetch - processPackages [waylay-sdk-registry-types]: Remove: archive file [/home/abi/fetcher/tmp/waylay-sdk-registry-types-2.13.0rc0.tar.gz]
 [2024-04-10 12:00:38] INFO root fetch - main [MainThread]: End processing [waylay-sdk-registry-types]: success
 [2024-04-10 12:00:38] INFO root fetch - main [MainThread]: Store serial: [22698723]
+[2024-04-10 12:02:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22698723]
+[2024-04-10 12:02:48] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-10 12:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: testsolar-testtool-sdk
+[2024-04-10 12:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chatllm
+[2024-04-10 12:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deepdataspace
+[2024-04-10 12:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tui-dsmt
+[2024-04-10 12:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tetra
+[2024-04-10 12:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bamboo-pipeline
+[2024-04-10 12:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zivid
+[2024-04-10 12:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aiida-flexpart
+[2024-04-10 12:02:48] INFO root fetch - processPackages [testsolar-testtool-sdk]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-10 12:02:48] INFO root fetch - processPackages [tui-dsmt]: New version: [202404091015] Old Version: [202404071540]
+[2024-04-10 12:02:48] INFO root fetch - processPackages [chatllm]: New version: [2024.4.3.18.28.17] Old Version: [2024.4.10.17.46.48]
+[2024-04-10 12:02:48] INFO root fetch - processPackages [testsolar-testtool-sdk]: Downloading https://files.pythonhosted.org/packages/bd/f5/573bb5b0679dff01867baf8273cfd5c03c11c5bd9336924f966f24658c48/testsolar-testtool-sdk-0.1.5.tar.gz
+[2024-04-10 12:02:48] WARNING root fetch - processPackages [tetra]: Skipping, unable to determine old version
+[2024-04-10 12:02:48] INFO root fetch - main [MainThread]: End processing [tetra] error
+[2024-04-10 12:02:48] INFO root fetch - processPackages [deepdataspace]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-04-10 12:02:48] WARNING root fetch - processPackages [aiida-flexpart]: Skipping, unable to determine old version
+[2024-04-10 12:02:48] INFO root fetch - main [MainThread]: End processing [aiida-flexpart] error
+[2024-04-10 12:02:48] INFO root fetch - processPackages [zivid]: New version: [2.9.0.2.9.0] Old Version: [2.8.0.2.9.0]
+[2024-04-10 12:02:48] INFO root fetch - processPackages [bamboo-pipeline]: New version: [3.9.1] Old Version: [3.9.0]
+[2024-04-10 12:02:48] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/2b/2d/2c92516ba9e7976b477537a9a93faec3a60b283a798630b615b561af22d6/chatllm-2024.4.10.17.46.48.tar.gz
+[2024-04-10 12:02:48] INFO root fetch - processPackages [tui-dsmt]: Downloading https://files.pythonhosted.org/packages/98/b1/234673ab8537cf87a8cbfdf86357445bdf610fe48600511080e874b415ee/tui_dsmt-202404071540-py3-none-any.whl
+[2024-04-10 12:02:48] INFO root fetch - processPackages [deepdataspace]: Downloading https://files.pythonhosted.org/packages/a4/a7/3f7b8b4b8ccc2c036ee40a6a2e94a5f8e807e0c2a329ecbe9a6a37586237/deepdataspace-0.9.4.tar.gz
+[2024-04-10 12:02:48] INFO root fetch - processPackages [zivid]: Downloading https://files.pythonhosted.org/packages/f9/84/609324140d84c400619601b8b611d43e128cedbb9dbfb05e7ef5f9cbde2b/zivid-2.8.0.2.9.0.tar.gz
+[2024-04-10 12:02:48] INFO root fetch - processPackages [bamboo-pipeline]: Downloading https://files.pythonhosted.org/packages/cb/a1/e46878c1a6b435969d65265f995a2459ffb09ce5484f4c21422152bec6f0/bamboo-pipeline-3.9.0.tar.gz
+[2024-04-10 12:02:48] INFO root fetch - processPackages [testsolar-testtool-sdk]: Downloading https://files.pythonhosted.org/packages/ba/60/fea3e2c25b762a59953c2016a4b5572141e3dadb4a2cdd987435107a3e94/testsolar-testtool-sdk-0.1.6.tar.gz
+[2024-04-10 12:02:48] INFO root fetch - processPackages [tui-dsmt]: Downloading https://files.pythonhosted.org/packages/b2/db/fc4f898705b0a24141b8186574f0abb609438ad2604a1052b395f765ca48/tui_dsmt-202404091015.tar.gz
+[2024-04-10 12:02:48] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/c0/66/70e97afa791a99fbb0077079ce0d33cf70c9260e0f42babeedaeba346800/chatllm-2024.4.3.18.28.17.tar.gz
+[2024-04-10 12:02:48] INFO root fetch - processPackages [tui-dsmt]: executing diffoscope
+[2024-04-10 12:02:48] INFO root fetch - processPackages [tui-dsmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tui_dsmt-202404071540-py3-none-any.whl.zip tmp/tui_dsmt-202404091015.tar.gz --markdown 20240410/t/tui-dsmt/202404071540-202404091015/README.md --exclude *.pyd
+[2024-04-10 12:02:48] INFO root fetch - processPackages [testsolar-testtool-sdk]: executing diffoscope
+[2024-04-10 12:02:48] INFO root fetch - processPackages [testsolar-testtool-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testsolar-testtool-sdk-0.1.5.tar.gz tmp/testsolar-testtool-sdk-0.1.6.tar.gz --markdown 20240410/t/testsolar-testtool-sdk/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-10 12:02:49] INFO root fetch - processPackages [zivid]: Downloading https://files.pythonhosted.org/packages/e6/68/5df11f0a680d029d0d90e3c41ed510f1b1d5159fc3dabb5e39e6b2586bf9/zivid-2.9.0.2.9.0.tar.gz
+[2024-04-10 12:02:49] INFO root fetch - processPackages [chatllm]: executing diffoscope
+[2024-04-10 12:02:49] INFO root fetch - processPackages [chatllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatllm-2024.4.10.17.46.48.tar.gz tmp/chatllm-2024.4.3.18.28.17.tar.gz --markdown 20240410/c/chatllm/2024.4.10.17.46.48-2024.4.3.18.28.17/README.md --exclude *.pyd
+[2024-04-10 12:02:49] INFO root fetch - processPackages [deepdataspace]: Downloading https://files.pythonhosted.org/packages/6e/82/6f21cc4d117155b419e4806e90242207c5f51c7a01bd9e7eff94ee94f8a3/deepdataspace-0.9.5.tar.gz
+[2024-04-10 12:02:49] INFO root fetch - processPackages [zivid]: executing diffoscope
+[2024-04-10 12:02:49] INFO root fetch - processPackages [zivid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zivid-2.8.0.2.9.0.tar.gz tmp/zivid-2.9.0.2.9.0.tar.gz --markdown 20240410/z/zivid/2.8.0.2.9.0-2.9.0.2.9.0/README.md --exclude *.pyd
+[2024-04-10 12:02:49] INFO root fetch - processPackages [bamboo-pipeline]: Downloading https://files.pythonhosted.org/packages/b0/27/cdec0ebe98fcd2295d04a6e01415de51666143e8424c3063c27d8f56d3f3/bamboo-pipeline-3.9.1.tar.gz
+[2024-04-10 12:02:49] INFO root fetch - processPackages [bamboo-pipeline]: executing diffoscope
+[2024-04-10 12:02:49] INFO root fetch - processPackages [bamboo-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bamboo-pipeline-3.9.0.tar.gz tmp/bamboo-pipeline-3.9.1.tar.gz --markdown 20240410/b/bamboo-pipeline/3.9.0-3.9.1/README.md --exclude *.pyd
+[2024-04-10 12:02:49] INFO root fetch - processPackages [deepdataspace]: executing diffoscope
+[2024-04-10 12:02:49] INFO root fetch - processPackages [deepdataspace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepdataspace-0.9.4.tar.gz tmp/deepdataspace-0.9.5.tar.gz --markdown 20240410/d/deepdataspace/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-04-10 12:02:49] INFO root fetch - processPackages [testsolar-testtool-sdk]: Remove: archive file [/home/abi/fetcher/tmp/testsolar-testtool-sdk-0.1.5.tar.gz]
+[2024-04-10 12:02:49] INFO root fetch - processPackages [testsolar-testtool-sdk]: Remove: archive file [/home/abi/fetcher/tmp/testsolar-testtool-sdk-0.1.6.tar.gz]
+[2024-04-10 12:02:49] INFO root fetch - main [MainThread]: End processing [testsolar-testtool-sdk]: success
+[2024-04-10 12:02:49] INFO root fetch - processPackages [tui-dsmt]: Remove: archive file [/home/abi/fetcher/tmp/tui_dsmt-202404071540-py3-none-any.whl.zip]
+[2024-04-10 12:02:49] INFO root fetch - processPackages [tui-dsmt]: Remove: archive file [/home/abi/fetcher/tmp/tui_dsmt-202404091015.tar.gz]
+[2024-04-10 12:02:49] INFO root fetch - main [MainThread]: End processing [tui-dsmt]: success
+[2024-04-10 12:02:50] INFO root fetch - processPackages [zivid]: Remove: archive file [/home/abi/fetcher/tmp/zivid-2.8.0.2.9.0.tar.gz]
+[2024-04-10 12:02:50] INFO root fetch - processPackages [zivid]: Remove: archive file [/home/abi/fetcher/tmp/zivid-2.9.0.2.9.0.tar.gz]
+[2024-04-10 12:02:50] INFO root fetch - main [MainThread]: End processing [zivid]: success
+[2024-04-10 12:02:50] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.4.10.17.46.48.tar.gz]
+[2024-04-10 12:02:50] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.4.3.18.28.17.tar.gz]
+[2024-04-10 12:02:50] INFO root fetch - main [MainThread]: End processing [chatllm]: success
+[2024-04-10 12:02:51] INFO root fetch - processPackages [bamboo-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/bamboo-pipeline-3.9.0.tar.gz]
+[2024-04-10 12:02:51] INFO root fetch - processPackages [bamboo-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/bamboo-pipeline-3.9.1.tar.gz]
+[2024-04-10 12:02:51] INFO root fetch - main [MainThread]: End processing [bamboo-pipeline]: success
+[2024-04-10 12:03:16] INFO root fetch - processPackages [deepdataspace]: Remove: archive file [/home/abi/fetcher/tmp/deepdataspace-0.9.4.tar.gz]
+[2024-04-10 12:03:16] INFO root fetch - processPackages [deepdataspace]: Remove: archive file [/home/abi/fetcher/tmp/deepdataspace-0.9.5.tar.gz]
+[2024-04-10 12:03:16] INFO root fetch - main [MainThread]: End processing [deepdataspace]: success
+[2024-04-10 12:03:16] INFO root fetch - main [MainThread]: Store serial: [22698753]

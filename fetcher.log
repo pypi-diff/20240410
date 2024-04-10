@@ -12858,3 +12858,24 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 07:08:22] INFO root fetch - processPackages [ylftir]: Remove: archive file [/home/abi/fetcher/tmp/ylftir-0.1.9.tar.gz]
 [2024-04-10 07:08:22] INFO root fetch - main [MainThread]: End processing [ylftir]: success
 [2024-04-10 07:08:22] INFO root fetch - main [MainThread]: Store serial: [22695945]
+[2024-04-10 07:10:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22695945]
+[2024-04-10 07:10:30] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-10 07:10:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: labelme-parse
+[2024-04-10 07:10:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xarg-python
+[2024-04-10 07:10:30] INFO root fetch - processPackages [labelme-parse]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-10 07:10:30] INFO root fetch - processPackages [xarg-python]: New version: [1.4.5] Old Version: [1.4.4]
+[2024-04-10 07:10:31] INFO root fetch - processPackages [labelme-parse]: Downloading https://files.pythonhosted.org/packages/5e/70/b7bee9c4affa58bbed3671f402e8b854c37f0951da27830f4d29085c4cfe/labelme-parse-1.0.1.tar.gz
+[2024-04-10 07:10:31] INFO root fetch - processPackages [xarg-python]: Downloading https://files.pythonhosted.org/packages/56/8b/64058c23691d24711417cadfc3b3e2c12bd3050dc011a55d9b8e0e0366ff/xarg-python-1.4.4.tar.gz
+[2024-04-10 07:10:31] INFO root fetch - processPackages [xarg-python]: Downloading https://files.pythonhosted.org/packages/61/4f/c04195d978cf18b96353dc7a32b6685b613f6ef04590cb10088ff12df39f/xarg-python-1.4.5.tar.gz
+[2024-04-10 07:10:31] INFO root fetch - processPackages [labelme-parse]: Downloading https://files.pythonhosted.org/packages/f7/b6/7742527dda021c8878ede85178b27d5461cad07c4f566698f421be99726a/labelme-parse-1.0.2.tar.gz
+[2024-04-10 07:10:31] INFO root fetch - processPackages [xarg-python]: executing diffoscope
+[2024-04-10 07:10:31] INFO root fetch - processPackages [xarg-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xarg-python-1.4.4.tar.gz tmp/xarg-python-1.4.5.tar.gz --markdown 20240410/x/xarg-python/1.4.4-1.4.5/README.md --exclude *.pyd
+[2024-04-10 07:10:31] INFO root fetch - processPackages [labelme-parse]: executing diffoscope
+[2024-04-10 07:10:31] INFO root fetch - processPackages [labelme-parse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labelme-parse-1.0.1.tar.gz tmp/labelme-parse-1.0.2.tar.gz --markdown 20240410/l/labelme-parse/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-10 07:10:32] INFO root fetch - processPackages [labelme-parse]: Remove: archive file [/home/abi/fetcher/tmp/labelme-parse-1.0.1.tar.gz]
+[2024-04-10 07:10:32] INFO root fetch - processPackages [labelme-parse]: Remove: archive file [/home/abi/fetcher/tmp/labelme-parse-1.0.2.tar.gz]
+[2024-04-10 07:10:32] INFO root fetch - main [MainThread]: End processing [labelme-parse]: success
+[2024-04-10 07:10:32] INFO root fetch - processPackages [xarg-python]: Remove: archive file [/home/abi/fetcher/tmp/xarg-python-1.4.4.tar.gz]
+[2024-04-10 07:10:32] INFO root fetch - processPackages [xarg-python]: Remove: archive file [/home/abi/fetcher/tmp/xarg-python-1.4.5.tar.gz]
+[2024-04-10 07:10:32] INFO root fetch - main [MainThread]: End processing [xarg-python]: success
+[2024-04-10 07:10:32] INFO root fetch - main [MainThread]: Store serial: [22695951]

@@ -1,0 +1,233 @@
+# Comparing `tmp/labelme-parse-1.0.1.tar.gz` & `tmp/labelme-parse-1.0.2.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "labelme-parse-1.0.1.tar", last modified: Mon Apr  1 22:18:07 2024, max compression
++gzip compressed data, was "labelme-parse-1.0.2.tar", last modified: Wed Apr 10 05:09:31 2024, max compression
+```
+
+## Comparing `labelme-parse-1.0.1.tar` & `labelme-parse-1.0.2.tar`
+
+### file list
+
+```diff
+@@ -1,16 +1,16 @@
+-drwxr-xr-x   0 runner    (1001) docker     (127)        0 2024-04-01 22:18:07.660266 labelme-parse-1.0.1/
+--rw-r--r--   0 runner    (1001) docker     (127)     1074 2024-04-01 22:18:03.000000 labelme-parse-1.0.1/LICENSE
+--rw-r--r--   0 runner    (1001) docker     (127)       34 2024-04-01 22:18:03.000000 labelme-parse-1.0.1/MANIFEST.in
+--rw-r--r--   0 runner    (1001) docker     (127)     2637 2024-04-01 22:18:07.660266 labelme-parse-1.0.1/PKG-INFO
+--rw-r--r--   0 runner    (1001) docker     (127)      939 2024-04-01 22:18:03.000000 labelme-parse-1.0.1/README.md
+-drwxr-xr-x   0 runner    (1001) docker     (127)        0 2024-04-01 22:18:07.656266 labelme-parse-1.0.1/labelme_parse/
+--rw-r--r--   0 runner    (1001) docker     (127)      403 2024-04-01 22:18:03.000000 labelme-parse-1.0.1/labelme_parse/__init__.py
+--rw-r--r--   0 runner    (1001) docker     (127)     2959 2024-04-01 22:18:03.000000 labelme-parse-1.0.1/labelme_parse/labels.py
+--rw-r--r--   0 runner    (1001) docker     (127)        0 2024-04-01 22:18:03.000000 labelme-parse-1.0.1/labelme_parse/py.typed
+-drwxr-xr-x   0 runner    (1001) docker     (127)        0 2024-04-01 22:18:07.660266 labelme-parse-1.0.1/labelme_parse.egg-info/
+--rw-r--r--   0 runner    (1001) docker     (127)     2637 2024-04-01 22:18:07.000000 labelme-parse-1.0.1/labelme_parse.egg-info/PKG-INFO
+--rw-r--r--   0 runner    (1001) docker     (127)      265 2024-04-01 22:18:07.000000 labelme-parse-1.0.1/labelme_parse.egg-info/SOURCES.txt
+--rw-r--r--   0 runner    (1001) docker     (127)        1 2024-04-01 22:18:07.000000 labelme-parse-1.0.1/labelme_parse.egg-info/dependency_links.txt
+--rw-r--r--   0 runner    (1001) docker     (127)       14 2024-04-01 22:18:07.000000 labelme-parse-1.0.1/labelme_parse.egg-info/top_level.txt
+--rw-r--r--   0 runner    (1001) docker     (127)      855 2024-04-01 22:18:03.000000 labelme-parse-1.0.1/pyproject.toml
+--rw-r--r--   0 runner    (1001) docker     (127)       38 2024-04-01 22:18:07.660266 labelme-parse-1.0.1/setup.cfg
++drwxr-xr-x   0 runner    (1001) docker     (127)        0 2024-04-10 05:09:31.712922 labelme-parse-1.0.2/
++-rw-r--r--   0 runner    (1001) docker     (127)     1074 2024-04-10 05:09:27.000000 labelme-parse-1.0.2/LICENSE
++-rw-r--r--   0 runner    (1001) docker     (127)       34 2024-04-10 05:09:27.000000 labelme-parse-1.0.2/MANIFEST.in
++-rw-r--r--   0 runner    (1001) docker     (127)     2637 2024-04-10 05:09:31.712922 labelme-parse-1.0.2/PKG-INFO
++-rw-r--r--   0 runner    (1001) docker     (127)      939 2024-04-10 05:09:27.000000 labelme-parse-1.0.2/README.md
++drwxr-xr-x   0 runner    (1001) docker     (127)        0 2024-04-10 05:09:31.712922 labelme-parse-1.0.2/labelme_parse/
++-rw-r--r--   0 runner    (1001) docker     (127)      403 2024-04-10 05:09:27.000000 labelme-parse-1.0.2/labelme_parse/__init__.py
++-rw-r--r--   0 runner    (1001) docker     (127)     3151 2024-04-10 05:09:27.000000 labelme-parse-1.0.2/labelme_parse/labels.py
++-rw-r--r--   0 runner    (1001) docker     (127)        0 2024-04-10 05:09:27.000000 labelme-parse-1.0.2/labelme_parse/py.typed
++drwxr-xr-x   0 runner    (1001) docker     (127)        0 2024-04-10 05:09:31.712922 labelme-parse-1.0.2/labelme_parse.egg-info/
++-rw-r--r--   0 runner    (1001) docker     (127)     2637 2024-04-10 05:09:31.000000 labelme-parse-1.0.2/labelme_parse.egg-info/PKG-INFO
++-rw-r--r--   0 runner    (1001) docker     (127)      265 2024-04-10 05:09:31.000000 labelme-parse-1.0.2/labelme_parse.egg-info/SOURCES.txt
++-rw-r--r--   0 runner    (1001) docker     (127)        1 2024-04-10 05:09:31.000000 labelme-parse-1.0.2/labelme_parse.egg-info/dependency_links.txt
++-rw-r--r--   0 runner    (1001) docker     (127)       14 2024-04-10 05:09:31.000000 labelme-parse-1.0.2/labelme_parse.egg-info/top_level.txt
++-rw-r--r--   0 runner    (1001) docker     (127)      855 2024-04-10 05:09:27.000000 labelme-parse-1.0.2/pyproject.toml
++-rw-r--r--   0 runner    (1001) docker     (127)       38 2024-04-10 05:09:31.712922 labelme-parse-1.0.2/setup.cfg
+```
+
+### Comparing `labelme-parse-1.0.1/LICENSE` & `labelme-parse-1.0.2/LICENSE`
+
+ * *Files identical despite different names*
+
+### Comparing `labelme-parse-1.0.1/PKG-INFO` & `labelme-parse-1.0.2/PKG-INFO`
+
+ * *Files 1% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: labelme-parse
+-Version: 1.0.1
++Version: 1.0.2
+ Summary: Utility functions to parse json file generated by labelme
+ Author-email: Pradish Bijukchhe <pradish@sandbox.com.np>
+ License: Copyright (c) 2018 The Python Packaging Authority
+         
+         Permission is hereby granted, free of charge, to any person obtaining a copy
+         of this software and associated documentation files (the "Software"), to deal
+         in the Software without restriction, including without limitation the rights
+```
+
+### Comparing `labelme-parse-1.0.1/README.md` & `labelme-parse-1.0.2/README.md`
+
+ * *Files identical despite different names*
+
+### Comparing `labelme-parse-1.0.1/labelme_parse/labels.py` & `labelme-parse-1.0.2/labelme_parse/labels.py`
+
+ * *Files 12% similar despite different names*
+
+```diff
+@@ -12,39 +12,47 @@
+     big_x, big_y = max(x1, x), max(y1, y)
+     small_x, small_y = min(x1, x), min(y1, y)
+     w, h = big_x - small_x, big_y - small_y
+     return int(small_x), int(small_y), int(w + 1), int(h + 1)
+ 
+ 
+ @lru_cache()
+-def get_labels(
++def get_labels_as_list(
+     dir_path: Path, width: Optional[int] = None, height: Optional[int] = None
+ ):
+-    """
+-    :param width: width of the screen
+-    :param height: height of the screen
+-    """
+-    output: dict[Tuple[str, str], Tuple[Path, List[List[float]], str]] = {}
++    output: list[Tuple[str, Path, List[List[float]], str]] = []
+     for file_path in dir_path.glob("*.json"):
+         with open(file_path) as fp:
+             data = json.load(fp)
+             if (not height or data["imageHeight"] == height) and (
+                 not width or data["imageWidth"] == width
+             ):
+                 for shape in data["shapes"]:
+                     points: List[List[float]] = shape["points"]
+                     label: str = shape["label"]
+-                    output[(shape["shape_type"], label)] = (
+-                        file_path,
+-                        points,
+-                        shape["shape_type"],
++                    output.append(
++                        (
++                            label,
++                            file_path,
++                            points,
++                            shape["shape_type"],
++                        )
+                     )
+     return output
+ 
+ 
++@lru_cache()
++def get_labels(
++    dir_path: Path, width: Optional[int] = None, height: Optional[int] = None
++):
++    return {
++        (l[3], l[0]): l for l in get_labels_as_list(dir_path, width, height)
++    }
++
++
+ def get_offset(
+     dir_path: Path,
+     relative_to: str,
+     width: Optional[int] = None,
+     height: Optional[int] = None,
+ ) -> Tuple[int, int]:
+     if relative_to:
+@@ -60,42 +68,42 @@
+     dir_path: Path,
+     label: str,
+     width: Optional[int] = None,
+     height: Optional[int] = None,
+     relative_to: str = "",
+ ) -> Tuple[int, int]:
+     x, y = get_offset(dir_path, relative_to, width, height)
+-    _, p, _ = get_labels(dir_path, width, height)["point", label]
++    _, _, p, _ = get_labels(dir_path, width, height)["point", label]
+     return int(p[0][0]) - x, int(p[0][1]) - y
+ 
+ 
+ def get_rect(
+     dir_path: Path,
+     label: str,
+     width: Optional[int] = None,
+     height: Optional[int] = None,
+     relative_to: str = "",
+ ):
+     x0, y0 = get_offset(dir_path, relative_to, width, height)
+-    _, points, _ = get_labels(dir_path, width, height)["rectangle", label]
++    _, _, points, _ = get_labels(dir_path, width, height)["rectangle", label]
+     x, y, w, h = get_rect_from_points(points)
+     return x - x0, y - y0, w, h
+ 
+ 
+ def get_poly(dir_path: Path, label: str):
+-    _, points, _ = get_labels(dir_path)["polygon", label]
++    _, _, points, _ = get_labels(dir_path)["polygon", label]
+     p = [(int(p[0]), int(p[1])) for p in points]
+     return p
+ 
+ 
+ def get_point_names(dir_path: Path):
+-    return [k[1] for k, v in get_labels(dir_path).items() if v[2] == "point"]
++    return [k[1] for k, v in get_labels(dir_path).items() if v[3] == "point"]
+ 
+ 
+ def get_rect_names(dir_path: Path):
+     return [
+-        k[1] for k, v in get_labels(dir_path).items() if v[2] == "rectangle"
++        k[1] for k, v in get_labels(dir_path).items() if v[3] == "rectangle"
+     ]
+ 
+ 
+ def get_poly_names(dir_path: Path):
+-    return [k[1] for k, v in get_labels(dir_path).items() if v[2] == "polygon"]
++    return [k[1] for k, v in get_labels(dir_path).items() if v[3] == "polygon"]
+```
+
+### Comparing `labelme-parse-1.0.1/labelme_parse.egg-info/PKG-INFO` & `labelme-parse-1.0.2/labelme_parse.egg-info/PKG-INFO`
+
+ * *Files 1% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: labelme-parse
+-Version: 1.0.1
++Version: 1.0.2
+ Summary: Utility functions to parse json file generated by labelme
+ Author-email: Pradish Bijukchhe <pradish@sandbox.com.np>
+ License: Copyright (c) 2018 The Python Packaging Authority
+         
+         Permission is hereby granted, free of charge, to any person obtaining a copy
+         of this software and associated documentation files (the "Software"), to deal
+         in the Software without restriction, including without limitation the rights
+```
+
+### Comparing `labelme-parse-1.0.1/pyproject.toml` & `labelme-parse-1.0.2/pyproject.toml`
+
+ * *Files 0% similar despite different names*
+
+```diff
+@@ -1,14 +1,14 @@
+ [build-system]
+ requires = ["setuptools>=61.2"]
+ build-backend = "setuptools.build_meta"
+ 
+ [project]
+ name = "labelme-parse"
+-version = "1.0.1"
++version = "1.0.2"
+ dependencies = []
+ requires-python = ">=3"
+ authors = [{ name = "Pradish Bijukchhe", email = "pradish@sandbox.com.np" }]
+ description = "Utility functions to parse json file generated by labelme"
+ readme = "README.md"
+ license = { file = "LICENSE" }
+ keywords = []
+```
+

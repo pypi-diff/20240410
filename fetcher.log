@@ -23435,3 +23435,9 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-10 14:18:35] INFO root fetch - processPackages [pyoxynet]: Remove: archive file [/home/abi/fetcher/tmp/pyoxynet-0.0.9.9.tar.gz]
 [2024-04-10 14:18:35] INFO root fetch - main [MainThread]: End processing [pyoxynet]: success
 [2024-04-10 14:18:35] INFO root fetch - main [MainThread]: Store serial: [22700828]
+[2024-04-10 14:20:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22700828]
+[2024-04-10 14:20:44] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-10 14:20:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: clamnibs
+[2024-04-10 14:20:44] WARNING root fetch - processPackages [clamnibs]: Skipping, unable to determine old version
+[2024-04-10 14:20:44] INFO root fetch - main [MainThread]: End processing [clamnibs] error
+[2024-04-10 14:20:44] INFO root fetch - main [MainThread]: Store serial: [22700846]

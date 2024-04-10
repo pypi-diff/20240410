@@ -10494,3 +10494,47 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 05:19:17] INFO root fetch - processPackages [payload-api]: Remove: archive file [/home/abi/fetcher/tmp/payload-api-0.4.8.tar.gz]
 [2024-04-10 05:19:17] INFO root fetch - main [MainThread]: End processing [payload-api]: success
 [2024-04-10 05:19:17] INFO root fetch - main [MainThread]: Store serial: [22695035]
+[2024-04-10 05:21:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22695035]
+[2024-04-10 05:21:25] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-10 05:21:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastid
+[2024-04-10 05:21:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ros-cdk-directmail
+[2024-04-10 05:21:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ros-cdk-rocketmq5
+[2024-04-10 05:21:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aliyun-python-sdk-nis
+[2024-04-10 05:21:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: satcfdi
+[2024-04-10 05:21:26] INFO root fetch - processPackages [ros-cdk-rocketmq5]: New version: [1.0.24] Old Version: [1.0.23]
+[2024-04-10 05:21:26] INFO root fetch - processPackages [ros-cdk-directmail]: New version: [1.0.24] Old Version: [1.0.23]
+[2024-04-10 05:21:26] INFO root fetch - processPackages [aliyun-python-sdk-nis]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-10 05:21:26] INFO root fetch - processPackages [satcfdi]: New version: [4.4.9] Old Version: [4.4.8]
+[2024-04-10 05:21:26] INFO root fetch - processPackages [fastid]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-10 05:21:26] INFO root fetch - processPackages [ros-cdk-rocketmq5]: Downloading https://files.pythonhosted.org/packages/a2/5d/4a73ee41efc8faa319dac90693632a4e46a813a482ca8277ba96d4d0f6fe/ros-cdk-rocketmq5-1.0.23.tar.gz
+[2024-04-10 05:21:26] INFO root fetch - processPackages [aliyun-python-sdk-nis]: Downloading https://files.pythonhosted.org/packages/cf/26/43681e32efc52abf5941a9a39ae416f916e21cbe580fad08d707b9524c45/aliyun-python-sdk-nis-1.0.0.tar.gz
+[2024-04-10 05:21:26] INFO root fetch - processPackages [ros-cdk-directmail]: Downloading https://files.pythonhosted.org/packages/9c/2f/ba589f29dd9a72f47cdb71a3016f549129f74cbc2d4ba9976691f930e2cb/ros-cdk-directmail-1.0.23.tar.gz
+[2024-04-10 05:21:26] INFO root fetch - processPackages [satcfdi]: Downloading https://files.pythonhosted.org/packages/f3/67/e32b7e44d6291baa2ace4643f65dfe80e0450563991ca1b682dbe15fb364/satcfdi-4.4.8.tar.gz
+[2024-04-10 05:21:26] WARNING root fetch - processPackages [satcfdi]: Skipping package: exceeds size limit 10631018>=10485760
+[2024-04-10 05:21:26] INFO root fetch - main [MainThread]: End processing [satcfdi] error
+[2024-04-10 05:21:26] INFO root fetch - processPackages [fastid]: Downloading https://files.pythonhosted.org/packages/61/f5/a6a1b0da1239f54de698446757d9df74508581c8361b922bc818a64355d9/fastid-0.0.4.tar.gz
+[2024-04-10 05:21:26] INFO root fetch - processPackages [aliyun-python-sdk-nis]: Downloading https://files.pythonhosted.org/packages/19/a0/775ecfa3aa004a4b56511b373fbf986dfcd972f224bf061810e49a22d186/aliyun-python-sdk-nis-1.0.1.tar.gz
+[2024-04-10 05:21:26] INFO root fetch - processPackages [ros-cdk-directmail]: Downloading https://files.pythonhosted.org/packages/e1/de/d39624f064f6dbf4f656349546b6754bb1f10b76d0189e8aa4602f1ab838/ros-cdk-directmail-1.0.24.tar.gz
+[2024-04-10 05:21:26] INFO root fetch - processPackages [ros-cdk-rocketmq5]: Downloading https://files.pythonhosted.org/packages/50/71/d97c9d17c4304f08f70a1cb3eb8ab981e026557d2150922f54b5cf5b07b8/ros-cdk-rocketmq5-1.0.24.tar.gz
+[2024-04-10 05:21:26] INFO root fetch - processPackages [aliyun-python-sdk-nis]: executing diffoscope
+[2024-04-10 05:21:26] INFO root fetch - processPackages [aliyun-python-sdk-nis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-nis-1.0.0.tar.gz tmp/aliyun-python-sdk-nis-1.0.1.tar.gz --markdown 20240410/a/aliyun-python-sdk-nis/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-10 05:21:26] INFO root fetch - processPackages [ros-cdk-directmail]: executing diffoscope
+[2024-04-10 05:21:26] INFO root fetch - processPackages [ros-cdk-directmail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-directmail-1.0.23.tar.gz tmp/ros-cdk-directmail-1.0.24.tar.gz --markdown 20240410/r/ros-cdk-directmail/1.0.23-1.0.24/README.md --exclude *.pyd
+[2024-04-10 05:21:26] INFO root fetch - processPackages [ros-cdk-rocketmq5]: executing diffoscope
+[2024-04-10 05:21:26] INFO root fetch - processPackages [ros-cdk-rocketmq5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-rocketmq5-1.0.23.tar.gz tmp/ros-cdk-rocketmq5-1.0.24.tar.gz --markdown 20240410/r/ros-cdk-rocketmq5/1.0.23-1.0.24/README.md --exclude *.pyd
+[2024-04-10 05:21:27] INFO root fetch - processPackages [fastid]: Downloading https://files.pythonhosted.org/packages/00/d8/08fa6b161667a400e45dcca1ed794909f29a713442b70d9a7babbb08a3e5/fastid-0.0.5-pp39-pypy39_pp73-manylinux_2_5_i686.manylinux1_i686.whl
+[2024-04-10 05:21:27] INFO root fetch - processPackages [aliyun-python-sdk-nis]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-nis-1.0.0.tar.gz]
+[2024-04-10 05:21:27] INFO root fetch - processPackages [aliyun-python-sdk-nis]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-nis-1.0.1.tar.gz]
+[2024-04-10 05:21:27] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-nis]: success
+[2024-04-10 05:21:27] INFO root fetch - processPackages [ros-cdk-rocketmq5]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-rocketmq5-1.0.23.tar.gz]
+[2024-04-10 05:21:27] INFO root fetch - processPackages [ros-cdk-rocketmq5]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-rocketmq5-1.0.24.tar.gz]
+[2024-04-10 05:21:27] INFO root fetch - main [MainThread]: End processing [ros-cdk-rocketmq5]: success
+[2024-04-10 05:21:27] INFO root fetch - processPackages [ros-cdk-directmail]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-directmail-1.0.23.tar.gz]
+[2024-04-10 05:21:27] INFO root fetch - processPackages [ros-cdk-directmail]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-directmail-1.0.24.tar.gz]
+[2024-04-10 05:21:27] INFO root fetch - main [MainThread]: End processing [ros-cdk-directmail]: success
+[2024-04-10 05:21:27] INFO root fetch - processPackages [fastid]: executing diffoscope
+[2024-04-10 05:21:27] INFO root fetch - processPackages [fastid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastid-0.0.4.tar.gz tmp/fastid-0.0.5-pp39-pypy39_pp73-manylinux_2_5_i686.manylinux1_i686.whl.zip --markdown 20240410/f/fastid/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-10 05:21:28] INFO root fetch - processPackages [fastid]: Remove: archive file [/home/abi/fetcher/tmp/fastid-0.0.4.tar.gz]
+[2024-04-10 05:21:28] INFO root fetch - processPackages [fastid]: Remove: archive file [/home/abi/fetcher/tmp/fastid-0.0.5-pp39-pypy39_pp73-manylinux_2_5_i686.manylinux1_i686.whl.zip]
+[2024-04-10 05:21:28] INFO root fetch - main [MainThread]: End processing [fastid]: success
+[2024-04-10 05:21:28] INFO root fetch - main [MainThread]: Store serial: [22695117]

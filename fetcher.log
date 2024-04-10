@@ -19063,3 +19063,74 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 11:36:29] INFO root fetch - processPackages [mwings]: Remove: archive file [/home/abi/fetcher/tmp/mwings-1.0.7.tar.gz]
 [2024-04-10 11:36:29] INFO root fetch - main [MainThread]: End processing [mwings]: success
 [2024-04-10 11:36:29] INFO root fetch - main [MainThread]: Store serial: [22698470]
+[2024-04-10 11:38:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22698470]
+[2024-04-10 11:38:38] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-10 11:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: utils2p
+[2024-04-10 11:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scematk
+[2024-04-10 11:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cluster_tools
+[2024-04-10 11:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: webknossos
+[2024-04-10 11:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ibott-mail
+[2024-04-10 11:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lpb-lib
+[2024-04-10 11:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cj-package
+[2024-04-10 11:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: datashader
+[2024-04-10 11:38:38] INFO root fetch - processPackages [datashader]: New version: [1.16.1rc1] Old Version: [1.16.1a2]
+[2024-04-10 11:38:38] INFO root fetch - processPackages [scematk]: New version: [0.0.2rc99.post1] Old Version: [0.0.2rc98.post1]
+[2024-04-10 11:38:38] INFO root fetch - processPackages [cluster_tools]: New version: [1.61] Old Version: [1.60]
+[2024-04-10 11:38:38] INFO root fetch - processPackages [cj-package]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-10 11:38:38] INFO root fetch - processPackages [ibott-mail]: New version: [1.0.6] Old Version: [1.0.0]
+[2024-04-10 11:38:38] INFO root fetch - processPackages [lpb-lib]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-10 11:38:38] INFO root fetch - processPackages [utils2p]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-10 11:38:38] INFO root fetch - processPackages [webknossos]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-10 11:38:38] INFO root fetch - processPackages [scematk]: Downloading https://files.pythonhosted.org/packages/74/b4/2c4bf9a440c6109c1526403bd63a1ad539bac9b025336ad220b4b533e7b7/scematk-0.0.2rc98.post1.tar.gz
+[2024-04-10 11:38:38] INFO root fetch - processPackages [datashader]: Downloading https://files.pythonhosted.org/packages/f5/98/18d841e94e4d7a8395e1d843c102846575851145c400578b877f3e6b0fbb/datashader-1.16.1a2.tar.gz
+[2024-04-10 11:38:38] INFO root fetch - processPackages [cluster_tools]: Downloading https://files.pythonhosted.org/packages/55/95/8e06c87289a9b44d6590288790d348b307858d2b60a00ec30d67e9283c25/cluster_tools-1.60.tar.gz
+[2024-04-10 11:38:38] WARNING root fetch - processPackages [datashader]: Skipping package: exceeds size limit 35711586>=10485760
+[2024-04-10 11:38:38] INFO root fetch - main [MainThread]: End processing [datashader] error
+[2024-04-10 11:38:38] INFO root fetch - processPackages [webknossos]: Downloading https://files.pythonhosted.org/packages/4d/c9/42745013d0db958e84167cf8ba8ddfd89dbae5c1261cbab4f13c519c94d3/webknossos-0.9.8.tar.gz
+[2024-04-10 11:38:38] INFO root fetch - processPackages [utils2p]: Downloading https://files.pythonhosted.org/packages/18/f7/21899fb8f6cce025411f872b991770f2a7cfc468f5cfc172566efc761085/utils2p-1.0.0.tar.gz
+[2024-04-10 11:38:38] INFO root fetch - processPackages [ibott-mail]: Downloading https://files.pythonhosted.org/packages/36/02/a43c78fe6145e7237e1557a0cc465e0281925d376d17e542c04f79bb9450/ibott-mail-1.0.0.tar.gz
+[2024-04-10 11:38:38] INFO root fetch - processPackages [cj-package]: Downloading https://files.pythonhosted.org/packages/da/f1/7251475617f700917e1ca74400daece46b8dd816a4f7297c30873eac2493/cj_package-1.0.8.tar.gz
+[2024-04-10 11:38:38] INFO root fetch - processPackages [scematk]: Downloading https://files.pythonhosted.org/packages/88/05/a551ffce29ada02c3b808f4d3523aefcebb95b513746d269b86d0d75e18b/scematk-0.0.2rc99.post1.tar.gz
+[2024-04-10 11:38:38] INFO root fetch - processPackages [lpb-lib]: Downloading https://files.pythonhosted.org/packages/0d/26/1dd9e1d1a3ce019cafc4f46170666ad5800692eb72cc756bf87723616469/lpb_lib-0.0.8.tar.gz
+[2024-04-10 11:38:39] INFO root fetch - processPackages [scematk]: executing diffoscope
+[2024-04-10 11:38:39] INFO root fetch - processPackages [scematk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scematk-0.0.2rc98.post1.tar.gz tmp/scematk-0.0.2rc99.post1.tar.gz --markdown 20240410/s/scematk/0.0.2rc98.post1-0.0.2rc99.post1/README.md --exclude *.pyd
+[2024-04-10 11:38:39] INFO root fetch - processPackages [cluster_tools]: Downloading https://files.pythonhosted.org/packages/f1/c8/cfa558d3aa9a9e9a7b5d923e1008b8553c75e12df34ecec1666b038ba0d1/cluster_tools-1.61.tar.gz
+[2024-04-10 11:38:39] INFO root fetch - processPackages [utils2p]: Downloading https://files.pythonhosted.org/packages/fc/c0/fb25dd46ac1b5c0dc84e515cfc93dfb75f0b8c433bd4153138932080312f/utils2p-1.0.1.tar.gz
+[2024-04-10 11:38:39] INFO root fetch - processPackages [ibott-mail]: Downloading https://files.pythonhosted.org/packages/dc/9a/bac5bf090c5a6cfbf9b249a0dd08739ffed5f476035af8e102414d3da8bc/ibott-mail-1.0.6.tar.gz
+[2024-04-10 11:38:39] INFO root fetch - processPackages [webknossos]: Downloading https://files.pythonhosted.org/packages/65/2d/254028182afa9bf201aacc282c3cd1026f4b26a37ffc1b5f38836ca32347/webknossos-0.9.9.tar.gz
+[2024-04-10 11:38:39] INFO root fetch - processPackages [lpb-lib]: Downloading https://files.pythonhosted.org/packages/b5/a0/298a14417ab88f356ce41373b4a46c619d3e2e4ea96551c2b8cb1385ec7b/lpb_lib-0.0.9.tar.gz
+[2024-04-10 11:38:39] INFO root fetch - processPackages [cluster_tools]: executing diffoscope
+[2024-04-10 11:38:39] INFO root fetch - processPackages [cluster_tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cluster_tools-1.60.tar.gz tmp/cluster_tools-1.61.tar.gz --markdown 20240410/c/cluster_tools/1.60-1.61/README.md --exclude *.pyd
+[2024-04-10 11:38:39] INFO root fetch - processPackages [cj-package]: Downloading https://files.pythonhosted.org/packages/e2/64/13a4025b10bed4260a45454f62f555ec27bce0fdb58bf2382ee53a7bd528/cj_package-1.0.9.tar.gz
+[2024-04-10 11:38:39] INFO root fetch - processPackages [utils2p]: executing diffoscope
+[2024-04-10 11:38:39] INFO root fetch - processPackages [utils2p]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utils2p-1.0.0.tar.gz tmp/utils2p-1.0.1.tar.gz --markdown 20240410/u/utils2p/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-10 11:38:39] INFO root fetch - processPackages [ibott-mail]: executing diffoscope
+[2024-04-10 11:38:39] INFO root fetch - processPackages [ibott-mail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibott-mail-1.0.0.tar.gz tmp/ibott-mail-1.0.6.tar.gz --markdown 20240410/i/ibott-mail/1.0.0-1.0.6/README.md --exclude *.pyd
+[2024-04-10 11:38:39] INFO root fetch - processPackages [lpb-lib]: executing diffoscope
+[2024-04-10 11:38:39] INFO root fetch - processPackages [lpb-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lpb_lib-0.0.8.tar.gz tmp/lpb_lib-0.0.9.tar.gz --markdown 20240410/l/lpb-lib/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-10 11:38:39] INFO root fetch - processPackages [webknossos]: executing diffoscope
+[2024-04-10 11:38:39] INFO root fetch - processPackages [webknossos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webknossos-0.9.8.tar.gz tmp/webknossos-0.9.9.tar.gz --markdown 20240410/w/webknossos/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-10 11:38:39] INFO root fetch - processPackages [cj-package]: executing diffoscope
+[2024-04-10 11:38:39] INFO root fetch - processPackages [cj-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cj_package-1.0.8.tar.gz tmp/cj_package-1.0.9.tar.gz --markdown 20240410/c/cj-package/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-10 11:38:40] INFO root fetch - processPackages [scematk]: Remove: archive file [/home/abi/fetcher/tmp/scematk-0.0.2rc98.post1.tar.gz]
+[2024-04-10 11:38:40] INFO root fetch - processPackages [scematk]: Remove: archive file [/home/abi/fetcher/tmp/scematk-0.0.2rc99.post1.tar.gz]
+[2024-04-10 11:38:40] INFO root fetch - main [MainThread]: End processing [scematk]: success
+[2024-04-10 11:38:40] INFO root fetch - processPackages [ibott-mail]: Remove: archive file [/home/abi/fetcher/tmp/ibott-mail-1.0.0.tar.gz]
+[2024-04-10 11:38:40] INFO root fetch - processPackages [ibott-mail]: Remove: archive file [/home/abi/fetcher/tmp/ibott-mail-1.0.6.tar.gz]
+[2024-04-10 11:38:40] INFO root fetch - main [MainThread]: End processing [ibott-mail]: success
+[2024-04-10 11:38:40] INFO root fetch - processPackages [cluster_tools]: Remove: archive file [/home/abi/fetcher/tmp/cluster_tools-1.60.tar.gz]
+[2024-04-10 11:38:40] INFO root fetch - processPackages [cluster_tools]: Remove: archive file [/home/abi/fetcher/tmp/cluster_tools-1.61.tar.gz]
+[2024-04-10 11:38:40] INFO root fetch - main [MainThread]: End processing [cluster_tools]: success
+[2024-04-10 11:38:40] INFO root fetch - processPackages [utils2p]: Remove: archive file [/home/abi/fetcher/tmp/utils2p-1.0.0.tar.gz]
+[2024-04-10 11:38:40] INFO root fetch - processPackages [utils2p]: Remove: archive file [/home/abi/fetcher/tmp/utils2p-1.0.1.tar.gz]
+[2024-04-10 11:38:40] INFO root fetch - main [MainThread]: End processing [utils2p]: success
+[2024-04-10 11:38:40] INFO root fetch - processPackages [cj-package]: Remove: archive file [/home/abi/fetcher/tmp/cj_package-1.0.8.tar.gz]
+[2024-04-10 11:38:40] INFO root fetch - processPackages [cj-package]: Remove: archive file [/home/abi/fetcher/tmp/cj_package-1.0.9.tar.gz]
+[2024-04-10 11:38:40] INFO root fetch - main [MainThread]: End processing [cj-package]: success
+[2024-04-10 11:38:40] INFO root fetch - processPackages [lpb-lib]: Remove: archive file [/home/abi/fetcher/tmp/lpb_lib-0.0.8.tar.gz]
+[2024-04-10 11:38:40] INFO root fetch - processPackages [lpb-lib]: Remove: archive file [/home/abi/fetcher/tmp/lpb_lib-0.0.9.tar.gz]
+[2024-04-10 11:38:40] INFO root fetch - main [MainThread]: End processing [lpb-lib]: success
+[2024-04-10 11:38:40] INFO root fetch - processPackages [webknossos]: Remove: archive file [/home/abi/fetcher/tmp/webknossos-0.9.8.tar.gz]
+[2024-04-10 11:38:40] INFO root fetch - processPackages [webknossos]: Remove: archive file [/home/abi/fetcher/tmp/webknossos-0.9.9.tar.gz]
+[2024-04-10 11:38:40] INFO root fetch - main [MainThread]: End processing [webknossos]: success
+[2024-04-10 11:38:40] INFO root fetch - main [MainThread]: Store serial: [22698498]

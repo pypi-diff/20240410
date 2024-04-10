@@ -16595,3 +16595,62 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 10:02:16] INFO root fetch - processPackages [catalystwan]: Remove: archive file [/home/abi/fetcher/tmp/catalystwan-0.33.0.tar.gz]
 [2024-04-10 10:02:16] INFO root fetch - main [MainThread]: End processing [catalystwan]: success
 [2024-04-10 10:02:16] INFO root fetch - main [MainThread]: Store serial: [22697414]
+[2024-04-10 10:04:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22697414]
+[2024-04-10 10:04:25] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-10 10:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyftdi
+[2024-04-10 10:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aTeam-PySparkLibrary
+[2024-04-10 10:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: radical.pilot
+[2024-04-10 10:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: characterai
+[2024-04-10 10:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: langfun
+[2024-04-10 10:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-smartbase-admin
+[2024-04-10 10:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kdc-kubeconnector
+[2024-04-10 10:04:25] INFO root fetch - processPackages [aTeam-PySparkLibrary]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-10 10:04:25] INFO root fetch - processPackages [characterai]: New version: [1.0.1a1] Old Version: [0.8.0]
+[2024-04-10 10:04:25] INFO root fetch - processPackages [langfun]: New version: [0.0.2.dev20240409] Old Version: [0.0.2.dev20240408]
+[2024-04-10 10:04:25] INFO root fetch - processPackages [radical.pilot]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-04-10 10:04:25] INFO root fetch - processPackages [aTeam-PySparkLibrary]: Downloading https://files.pythonhosted.org/packages/a2/2e/1d6481b8487316b5ef587bec1a35494da504ddd8b889542a6a0f2df01410/ateam_pysparklibrary-0.0.8.tar.gz
+[2024-04-10 10:04:25] INFO root fetch - processPackages [pyftdi]: New version: [0.9.6] Old Version: [0.9.4]
+[2024-04-10 10:04:25] INFO root fetch - processPackages [django-smartbase-admin]: New version: [0.2.9] Old Version: [0.2.7]
+[2024-04-10 10:04:25] WARNING root fetch - processPackages [kdc-kubeconnector]: Skipping, unable to determine old version
+[2024-04-10 10:04:25] INFO root fetch - main [MainThread]: End processing [kdc-kubeconnector] error
+[2024-04-10 10:04:25] INFO root fetch - processPackages [characterai]: Downloading https://files.pythonhosted.org/packages/8d/3c/daf01659ba68f7089e5f3e48f34b85e4be7bf330889c3ed56523af2dd59f/characterai-0.8.0.tar.gz
+[2024-04-10 10:04:26] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/f8/0c/e5b7c97bb7071d6e7f9125eecd5efa42e630e1c1a82d8231fc4415d8ca53/langfun-0.0.2.dev20240408.tar.gz
+[2024-04-10 10:04:26] INFO root fetch - processPackages [radical.pilot]: Downloading https://files.pythonhosted.org/packages/c3/7c/d31f91fe541d7d29492a0ea8cfa2445f16b9148c03c1d86fd84515a50a24/radical.pilot-1.9.1.tar.gz
+[2024-04-10 10:04:26] WARNING root fetch - processPackages [pyftdi]: fallback to get urls: [0.9.4]
+[2024-04-10 10:04:26] INFO root fetch - processPackages [aTeam-PySparkLibrary]: Downloading https://files.pythonhosted.org/packages/e9/d2/aeddb456bd2964ac5d6053e8d9bb51e4a330281981e77a00dad7238f2061/ateam_pysparklibrary-0.0.9.tar.gz
+[2024-04-10 10:04:26] INFO root fetch - processPackages [django-smartbase-admin]: Downloading https://files.pythonhosted.org/packages/4c/b9/c32d7019547d76c2c6c1b8ea747b942212105b1c88767762bab1ac62f415/django_smartbase_admin-0.2.7.tar.gz
+[2024-04-10 10:04:26] WARNING root fetch - processPackages [pyftdi]: None
+[2024-04-10 10:04:26] INFO root fetch - processPackages [characterai]: Downloading https://files.pythonhosted.org/packages/0a/8a/c7202c283279a07e2e2fa7a1a5cca5852115b9b68cf18b6bf33ebe3989b9/characterai-1.0.1a1.tar.gz
+[2024-04-10 10:04:26] WARNING root fetch - processPackages [pyftdi]: None
+[2024-04-10 10:04:26] INFO root fetch - processPackages [aTeam-PySparkLibrary]: executing diffoscope
+[2024-04-10 10:04:26] INFO root fetch - processPackages [aTeam-PySparkLibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ateam_pysparklibrary-0.0.8.tar.gz tmp/ateam_pysparklibrary-0.0.9.tar.gz --markdown 20240410/a/aTeam-PySparkLibrary/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-10 10:04:26] WARNING root fetch - processPackages [pyftdi]: unable to get url for both version [0.9.4]
+[2024-04-10 10:04:26] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/a0/42/a94a2ef0a94abdc9a7e5af123e03fbb1de8f40e64fe1d9f738a0ae6b1c22/langfun-0.0.2.dev20240409.tar.gz
+[2024-04-10 10:04:26] INFO root fetch - processPackages [characterai]: executing diffoscope
+[2024-04-10 10:04:26] INFO root fetch - processPackages [characterai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/characterai-0.8.0.tar.gz tmp/characterai-1.0.1a1.tar.gz --markdown 20240410/c/characterai/0.8.0-1.0.1a1/README.md --exclude *.pyd
+[2024-04-10 10:04:26] WARNING root fetch - processPackages [pyftdi]: None
+[2024-04-10 10:04:26] INFO root fetch - main [MainThread]: End processing [pyftdi] error
+[2024-04-10 10:04:26] INFO root fetch - processPackages [langfun]: executing diffoscope
+[2024-04-10 10:04:26] INFO root fetch - processPackages [langfun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langfun-0.0.2.dev20240408.tar.gz tmp/langfun-0.0.2.dev20240409.tar.gz --markdown 20240410/l/langfun/0.0.2.dev20240408-0.0.2.dev20240409/README.md --exclude *.pyd
+[2024-04-10 10:04:26] INFO root fetch - processPackages [radical.pilot]: Downloading https://files.pythonhosted.org/packages/40/26/f7f501f7fba04c9d801b429736b04dcf8fe30e907caf6f1ff0bb543bf31b/radical.pilot-1.9.2.tar.gz
+[2024-04-10 10:04:26] INFO root fetch - processPackages [radical.pilot]: executing diffoscope
+[2024-04-10 10:04:26] INFO root fetch - processPackages [radical.pilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radical.pilot-1.9.1.tar.gz tmp/radical.pilot-1.9.2.tar.gz --markdown 20240410/r/radical.pilot/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-04-10 10:04:26] INFO root fetch - processPackages [django-smartbase-admin]: Downloading https://files.pythonhosted.org/packages/63/1e/301c376a330a21311919a45d9762d7c6c5d2090546a3b0d3b0e36db1c986/django_smartbase_admin-0.2.9.tar.gz
+[2024-04-10 10:04:27] INFO root fetch - processPackages [characterai]: Remove: archive file [/home/abi/fetcher/tmp/characterai-0.8.0.tar.gz]
+[2024-04-10 10:04:27] INFO root fetch - processPackages [characterai]: Remove: archive file [/home/abi/fetcher/tmp/characterai-1.0.1a1.tar.gz]
+[2024-04-10 10:04:27] INFO root fetch - main [MainThread]: End processing [characterai]: success
+[2024-04-10 10:04:27] INFO root fetch - processPackages [aTeam-PySparkLibrary]: Remove: archive file [/home/abi/fetcher/tmp/ateam_pysparklibrary-0.0.8.tar.gz]
+[2024-04-10 10:04:27] INFO root fetch - processPackages [aTeam-PySparkLibrary]: Remove: archive file [/home/abi/fetcher/tmp/ateam_pysparklibrary-0.0.9.tar.gz]
+[2024-04-10 10:04:27] INFO root fetch - main [MainThread]: End processing [aTeam-PySparkLibrary]: success
+[2024-04-10 10:04:27] INFO root fetch - processPackages [django-smartbase-admin]: executing diffoscope
+[2024-04-10 10:04:27] INFO root fetch - processPackages [django-smartbase-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_smartbase_admin-0.2.7.tar.gz tmp/django_smartbase_admin-0.2.9.tar.gz --markdown 20240410/d/django-smartbase-admin/0.2.7-0.2.9/README.md --exclude *.pyd
+[2024-04-10 10:04:27] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240408.tar.gz]
+[2024-04-10 10:04:27] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240409.tar.gz]
+[2024-04-10 10:04:27] INFO root fetch - main [MainThread]: End processing [langfun]: success
+[2024-04-10 10:04:28] INFO root fetch - processPackages [radical.pilot]: Remove: archive file [/home/abi/fetcher/tmp/radical.pilot-1.9.1.tar.gz]
+[2024-04-10 10:04:28] INFO root fetch - processPackages [radical.pilot]: Remove: archive file [/home/abi/fetcher/tmp/radical.pilot-1.9.2.tar.gz]
+[2024-04-10 10:04:28] INFO root fetch - main [MainThread]: End processing [radical.pilot]: success
+[2024-04-10 10:04:33] INFO root fetch - processPackages [django-smartbase-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_smartbase_admin-0.2.7.tar.gz]
+[2024-04-10 10:04:33] INFO root fetch - processPackages [django-smartbase-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_smartbase_admin-0.2.9.tar.gz]
+[2024-04-10 10:04:33] INFO root fetch - main [MainThread]: End processing [django-smartbase-admin]: success
+[2024-04-10 10:04:33] INFO root fetch - main [MainThread]: Store serial: [22697433]

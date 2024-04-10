@@ -21042,3 +21042,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 12:55:25] INFO root fetch - processPackages [unicms-template-unical]: Remove: archive file [/home/abi/fetcher/tmp/unicms_template_unical-1.6.9.tar.gz]
 [2024-04-10 12:55:25] INFO root fetch - main [MainThread]: End processing [unicms-template-unical]: success
 [2024-04-10 12:55:25] INFO root fetch - main [MainThread]: Store serial: [22699459]
+[2024-04-10 12:57:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22699459]
+[2024-04-10 12:57:34] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-10 12:57:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: owlapy
+[2024-04-10 12:57:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-linode
+[2024-04-10 12:57:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ccs-digitalmarketplace-apiclient
+[2024-04-10 12:57:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: thonny-etboard-micropython-firmware
+[2024-04-10 12:57:34] INFO root fetch - processPackages [pulumi-linode]: New version: [4.9.1] Old Version: [4.9.0a1700248892]
+[2024-04-10 12:57:34] INFO root fetch - processPackages [ccs-digitalmarketplace-apiclient]: New version: [25.5.0] Old Version: [25.4.2]
+[2024-04-10 12:57:34] INFO root fetch - processPackages [thonny-etboard-micropython-firmware]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-10 12:57:34] INFO root fetch - processPackages [owlapy]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-10 12:57:34] INFO root fetch - processPackages [pulumi-linode]: Downloading https://files.pythonhosted.org/packages/df/eb/e8d27e31574126cebb3db17960087d6e1cf94c88143b981d26b7b94fef71/pulumi_linode-4.9.0a1700248892.tar.gz
+[2024-04-10 12:57:35] INFO root fetch - processPackages [ccs-digitalmarketplace-apiclient]: Downloading https://files.pythonhosted.org/packages/b9/22/006768e2bb6014f3e1059400ba78facea8a761187fae7623c79055504fa6/ccs-digitalmarketplace-apiclient-25.4.2.tar.gz
+[2024-04-10 12:57:35] INFO root fetch - processPackages [thonny-etboard-micropython-firmware]: Downloading https://files.pythonhosted.org/packages/26/19/d4d9aa4351c2e0b390f440059502f055fc20e2e3e2e0664eaa2efe0c468c/thonny-etboard-micropython-firmware-1.0.1.tar.gz
+[2024-04-10 12:57:35] INFO root fetch - processPackages [owlapy]: Downloading https://files.pythonhosted.org/packages/0c/8b/c95cc0912609c5a288a143d37977f74bd786b4038605569c4b52fd3a3b79/owlapy-0.1.2.tar.gz
+[2024-04-10 12:57:35] INFO root fetch - processPackages [pulumi-linode]: Downloading https://files.pythonhosted.org/packages/1d/8f/908b3d1b357dcb4b00198e9afd3e1c31b7f20023adddd41e8a53a4577ee0/pulumi_linode-4.9.1.tar.gz
+[2024-04-10 12:57:35] INFO root fetch - processPackages [pulumi-linode]: executing diffoscope
+[2024-04-10 12:57:35] INFO root fetch - processPackages [pulumi-linode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_linode-4.9.0a1700248892.tar.gz tmp/pulumi_linode-4.9.1.tar.gz --markdown 20240410/p/pulumi-linode/4.9.0a1700248892-4.9.1/README.md --exclude *.pyd
+[2024-04-10 12:57:35] INFO root fetch - processPackages [owlapy]: Downloading https://files.pythonhosted.org/packages/75/09/bdad2bde25f680cf405cdc0d5d53accf550571d23840e4936f5e0609f75b/owlapy-0.1.3.tar.gz
+[2024-04-10 12:57:35] INFO root fetch - processPackages [ccs-digitalmarketplace-apiclient]: Downloading https://files.pythonhosted.org/packages/00/b5/b9ffd94b41148f19f21be8872ecbf5e41edd84638dbc7c46f90bc66bfbfb/ccs-digitalmarketplace-apiclient-25.5.0.tar.gz
+[2024-04-10 12:57:35] INFO root fetch - processPackages [owlapy]: executing diffoscope
+[2024-04-10 12:57:35] INFO root fetch - processPackages [owlapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owlapy-0.1.2.tar.gz tmp/owlapy-0.1.3.tar.gz --markdown 20240410/o/owlapy/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-10 12:57:35] INFO root fetch - processPackages [ccs-digitalmarketplace-apiclient]: executing diffoscope
+[2024-04-10 12:57:35] INFO root fetch - processPackages [ccs-digitalmarketplace-apiclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccs-digitalmarketplace-apiclient-25.4.2.tar.gz tmp/ccs-digitalmarketplace-apiclient-25.5.0.tar.gz --markdown 20240410/c/ccs-digitalmarketplace-apiclient/25.4.2-25.5.0/README.md --exclude *.pyd
+[2024-04-10 12:57:35] INFO root fetch - processPackages [thonny-etboard-micropython-firmware]: Downloading https://files.pythonhosted.org/packages/ea/09/7689f97f6180fe36c774e0dbbd36186a7dc482e3fba0a63b739e072fed8d/thonny_etboard_micropython_firmware-1.0.2-py3-none-any.whl
+[2024-04-10 12:57:35] INFO root fetch - processPackages [thonny-etboard-micropython-firmware]: executing diffoscope
+[2024-04-10 12:57:35] INFO root fetch - processPackages [thonny-etboard-micropython-firmware]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thonny-etboard-micropython-firmware-1.0.1.tar.gz tmp/thonny_etboard_micropython_firmware-1.0.2-py3-none-any.whl.zip --markdown 20240410/t/thonny-etboard-micropython-firmware/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-10 12:57:36] INFO root fetch - processPackages [ccs-digitalmarketplace-apiclient]: Remove: archive file [/home/abi/fetcher/tmp/ccs-digitalmarketplace-apiclient-25.4.2.tar.gz]
+[2024-04-10 12:57:36] INFO root fetch - processPackages [ccs-digitalmarketplace-apiclient]: Remove: archive file [/home/abi/fetcher/tmp/ccs-digitalmarketplace-apiclient-25.5.0.tar.gz]
+[2024-04-10 12:57:36] INFO root fetch - main [MainThread]: End processing [ccs-digitalmarketplace-apiclient]: success
+[2024-04-10 12:57:36] INFO root fetch - processPackages [pulumi-linode]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_linode-4.9.0a1700248892.tar.gz]
+[2024-04-10 12:57:36] INFO root fetch - processPackages [pulumi-linode]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_linode-4.9.1.tar.gz]
+[2024-04-10 12:57:36] INFO root fetch - main [MainThread]: End processing [pulumi-linode]: success
+[2024-04-10 12:57:36] INFO root fetch - processPackages [owlapy]: Remove: archive file [/home/abi/fetcher/tmp/owlapy-0.1.2.tar.gz]
+[2024-04-10 12:57:36] INFO root fetch - processPackages [owlapy]: Remove: archive file [/home/abi/fetcher/tmp/owlapy-0.1.3.tar.gz]
+[2024-04-10 12:57:36] INFO root fetch - main [MainThread]: End processing [owlapy]: success
+[2024-04-10 12:57:36] INFO root fetch - processPackages [thonny-etboard-micropython-firmware]: Remove: archive file [/home/abi/fetcher/tmp/thonny-etboard-micropython-firmware-1.0.1.tar.gz]
+[2024-04-10 12:57:36] INFO root fetch - processPackages [thonny-etboard-micropython-firmware]: Remove: archive file [/home/abi/fetcher/tmp/thonny_etboard_micropython_firmware-1.0.2-py3-none-any.whl.zip]
+[2024-04-10 12:57:36] INFO root fetch - main [MainThread]: End processing [thonny-etboard-micropython-firmware]: success
+[2024-04-10 12:57:36] INFO root fetch - main [MainThread]: Store serial: [22699468]

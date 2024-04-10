@@ -20548,3 +20548,54 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 12:39:28] INFO root fetch - processPackages [illumio-pylo]: Remove: archive file [/home/abi/fetcher/tmp/illumio_pylo-0.3.3.tar.gz]
 [2024-04-10 12:39:28] INFO root fetch - main [MainThread]: End processing [illumio-pylo]: success
 [2024-04-10 12:39:28] INFO root fetch - main [MainThread]: Store serial: [22699052]
+[2024-04-10 12:41:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22699052]
+[2024-04-10 12:41:38] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-10 12:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: djelm
+[2024-04-10 12:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pymemgpt-nightly
+[2024-04-10 12:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: audiometry-trainer
+[2024-04-10 12:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: FJFormer
+[2024-04-10 12:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: goodsync
+[2024-04-10 12:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: skypilot-nightly
+[2024-04-10 12:41:38] INFO root fetch - processPackages [audiometry-trainer]: New version: [0.1.3] Old Version: [0.1.1]
+[2024-04-10 12:41:38] INFO root fetch - processPackages [skypilot-nightly]: New version: [1.0.0.dev20240409] Old Version: [1.0.0.dev20240408]
+[2024-04-10 12:41:38] INFO root fetch - processPackages [pymemgpt-nightly]: New version: [0.3.8.dev20240409104037] Old Version: [0.3.8.dev20240408103946]
+[2024-04-10 12:41:39] INFO root fetch - processPackages [djelm]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-10 12:41:39] WARNING root fetch - processPackages [goodsync]: Skipping, unable to determine old version
+[2024-04-10 12:41:39] INFO root fetch - main [MainThread]: End processing [goodsync] error
+[2024-04-10 12:41:39] INFO root fetch - processPackages [FJFormer]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-10 12:41:39] INFO root fetch - processPackages [audiometry-trainer]: Downloading https://files.pythonhosted.org/packages/2d/11/b509d1fd512d278be35bd6ab9ad2ae76b0e08394a8ec196999aac21991d0/audiometry_trainer-0.1.1.tar.gz
+[2024-04-10 12:41:39] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/13/f3/abd9a735b13d866c08860d69ef683fc844a4200cef263659504edacdb648/skypilot-nightly-1.0.0.dev20240408.tar.gz
+[2024-04-10 12:41:39] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/95/a4/9fdf656ca0a21756d14da73ecb8c1828d4c2104d564bcff4211bfdec274e/pymemgpt_nightly-0.3.8.dev20240408103946.tar.gz
+[2024-04-10 12:41:39] INFO root fetch - processPackages [djelm]: Downloading https://files.pythonhosted.org/packages/45/62/f2826e16f9aece0c611e1f6126e5dcd5ba2aa36784f7d24c4853a5c2a614/djelm-0.8.0.tar.gz
+[2024-04-10 12:41:39] INFO root fetch - processPackages [FJFormer]: Downloading https://files.pythonhosted.org/packages/0b/43/850472cfcc60a0b17d735c2f45192f54fa27699e51327cc54c462f338d8b/fjformer-0.0.8.tar.gz
+[2024-04-10 12:41:39] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/78/2d/308534684cd7901adcb04329d2deaccc9e71952b4b7fae57f69bc6eee7d9/pymemgpt_nightly-0.3.8.dev20240409104037.tar.gz
+[2024-04-10 12:41:39] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/bd/b5/21ecd0f36e028dce78f8a874a062179a6409d43e4d48e07615046494bc06/skypilot-nightly-1.0.0.dev20240409.tar.gz
+[2024-04-10 12:41:39] INFO root fetch - processPackages [djelm]: Downloading https://files.pythonhosted.org/packages/17/1b/40ac3ade79d1fb679a8d00e5664bff89a4ea220eb704d3ef2f8c0e70782d/djelm-0.9.0.tar.gz
+[2024-04-10 12:41:39] INFO root fetch - processPackages [audiometry-trainer]: Downloading https://files.pythonhosted.org/packages/6b/ca/bc1aff5de238c7e0f60ff155d033770da62ee2843dbb37d9e679fd38d96f/audiometry_trainer-0.1.3.tar.gz
+[2024-04-10 12:41:39] INFO root fetch - processPackages [djelm]: executing diffoscope
+[2024-04-10 12:41:39] INFO root fetch - processPackages [djelm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djelm-0.8.0.tar.gz tmp/djelm-0.9.0.tar.gz --markdown 20240410/d/djelm/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-10 12:41:39] INFO root fetch - processPackages [pymemgpt-nightly]: executing diffoscope
+[2024-04-10 12:41:39] INFO root fetch - processPackages [pymemgpt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymemgpt_nightly-0.3.8.dev20240408103946.tar.gz tmp/pymemgpt_nightly-0.3.8.dev20240409104037.tar.gz --markdown 20240410/p/pymemgpt-nightly/0.3.8.dev20240408103946-0.3.8.dev20240409104037/README.md --exclude *.pyd
+[2024-04-10 12:41:39] INFO root fetch - processPackages [skypilot-nightly]: executing diffoscope
+[2024-04-10 12:41:39] INFO root fetch - processPackages [skypilot-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skypilot-nightly-1.0.0.dev20240408.tar.gz tmp/skypilot-nightly-1.0.0.dev20240409.tar.gz --markdown 20240410/s/skypilot-nightly/1.0.0.dev20240408-1.0.0.dev20240409/README.md --exclude *.pyd
+[2024-04-10 12:41:39] INFO root fetch - processPackages [FJFormer]: Downloading https://files.pythonhosted.org/packages/8f/ec/c16449606954b352deeb85b070a59df2b7f8672cf157269ebbf120b62e62/fjformer-0.0.9.tar.gz
+[2024-04-10 12:41:39] INFO root fetch - processPackages [FJFormer]: executing diffoscope
+[2024-04-10 12:41:39] INFO root fetch - processPackages [FJFormer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fjformer-0.0.8.tar.gz tmp/fjformer-0.0.9.tar.gz --markdown 20240410/F/FJFormer/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-10 12:41:40] INFO root fetch - processPackages [djelm]: Remove: archive file [/home/abi/fetcher/tmp/djelm-0.8.0.tar.gz]
+[2024-04-10 12:41:40] INFO root fetch - processPackages [djelm]: Remove: archive file [/home/abi/fetcher/tmp/djelm-0.9.0.tar.gz]
+[2024-04-10 12:41:40] INFO root fetch - main [MainThread]: End processing [djelm]: success
+[2024-04-10 12:41:40] INFO root fetch - processPackages [FJFormer]: Remove: archive file [/home/abi/fetcher/tmp/fjformer-0.0.8.tar.gz]
+[2024-04-10 12:41:40] INFO root fetch - processPackages [FJFormer]: Remove: archive file [/home/abi/fetcher/tmp/fjformer-0.0.9.tar.gz]
+[2024-04-10 12:41:40] INFO root fetch - main [MainThread]: End processing [FJFormer]: success
+[2024-04-10 12:41:40] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.8.dev20240408103946.tar.gz]
+[2024-04-10 12:41:40] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.8.dev20240409104037.tar.gz]
+[2024-04-10 12:41:40] INFO root fetch - main [MainThread]: End processing [pymemgpt-nightly]: success
+[2024-04-10 12:41:41] INFO root fetch - processPackages [audiometry-trainer]: executing diffoscope
+[2024-04-10 12:41:41] INFO root fetch - processPackages [audiometry-trainer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audiometry_trainer-0.1.1.tar.gz tmp/audiometry_trainer-0.1.3.tar.gz --markdown 20240410/a/audiometry-trainer/0.1.1-0.1.3/README.md --exclude *.pyd
+[2024-04-10 12:41:41] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-nightly-1.0.0.dev20240408.tar.gz]
+[2024-04-10 12:41:41] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-nightly-1.0.0.dev20240409.tar.gz]
+[2024-04-10 12:41:41] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
+[2024-04-10 12:41:44] INFO root fetch - processPackages [audiometry-trainer]: Remove: archive file [/home/abi/fetcher/tmp/audiometry_trainer-0.1.1.tar.gz]
+[2024-04-10 12:41:44] INFO root fetch - processPackages [audiometry-trainer]: Remove: archive file [/home/abi/fetcher/tmp/audiometry_trainer-0.1.3.tar.gz]
+[2024-04-10 12:41:44] INFO root fetch - main [MainThread]: End processing [audiometry-trainer]: success
+[2024-04-10 12:41:44] INFO root fetch - main [MainThread]: Store serial: [22699098]

@@ -10602,3 +10602,57 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 05:24:01] INFO root fetch - processPackages [crossword-puzzle]: Remove: archive file [/home/abi/fetcher/tmp/crossword_puzzle-1.2.48.tar.gz]
 [2024-04-10 05:24:01] INFO root fetch - main [MainThread]: End processing [crossword-puzzle]: success
 [2024-04-10 05:24:01] INFO root fetch - main [MainThread]: Store serial: [22695159]
+[2024-04-10 05:26:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22695159]
+[2024-04-10 05:26:10] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-10 05:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alibabacloud-nis20211216-py2
+[2024-04-10 05:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-formsets-inside-form
+[2024-04-10 05:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ip-check
+[2024-04-10 05:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alibabacloud-nis20211216
+[2024-04-10 05:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ros-cdk-graphdatabase
+[2024-04-10 05:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: agentkit-llm
+[2024-04-10 05:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: amazon-orders
+[2024-04-10 05:26:10] INFO root fetch - processPackages [alibabacloud-nis20211216-py2]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-04-10 05:26:10] INFO root fetch - processPackages [ip-check]: New version: [1.5.4] Old Version: [1.5.3]
+[2024-04-10 05:26:10] WARNING root fetch - processPackages [django-formsets-inside-form]: Skipping, unable to determine old version
+[2024-04-10 05:26:10] INFO root fetch - main [MainThread]: End processing [django-formsets-inside-form] error
+[2024-04-10 05:26:10] INFO root fetch - processPackages [alibabacloud-nis20211216-py2]: Downloading https://files.pythonhosted.org/packages/0e/fa/7a72c626ca5493cc2f60f15ccb52e480a2d8955d1cbc6a0f00513afbf3a5/alibabacloud_nis20211216_py2-2.0.1.tar.gz
+[2024-04-10 05:26:10] INFO root fetch - processPackages [ip-check]: Downloading https://files.pythonhosted.org/packages/3d/c0/791826326fe5e92cd13da1738faa5da1be7847892a72bd636a9e189492db/ip_check-1.5.3-py3-none-any.whl
+[2024-04-10 05:26:10] INFO root fetch - processPackages [alibabacloud-nis20211216]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-04-10 05:26:10] INFO root fetch - processPackages [ros-cdk-graphdatabase]: New version: [1.0.24] Old Version: [1.0.23]
+[2024-04-10 05:26:10] WARNING root fetch - processPackages [agentkit-llm]: Skipping, unable to determine old version
+[2024-04-10 05:26:10] INFO root fetch - main [MainThread]: End processing [agentkit-llm] error
+[2024-04-10 05:26:10] INFO root fetch - processPackages [amazon-orders]: New version: [1.1.0] Old Version: [1.0.9]
+[2024-04-10 05:26:10] INFO root fetch - processPackages [alibabacloud-nis20211216]: Downloading https://files.pythonhosted.org/packages/4d/c5/7ebdd11962c6dd62512b64909d76e82cec52b95817b8becbb55d85499d12/alibabacloud_nis20211216-2.0.1.tar.gz
+[2024-04-10 05:26:10] INFO root fetch - processPackages [alibabacloud-nis20211216-py2]: Downloading https://files.pythonhosted.org/packages/f9/88/2171888ea78a9cf74fed38b1adb78a5bd84ceb20dfe4530841d36d420442/alibabacloud_nis20211216_py2-2.0.2.tar.gz
+[2024-04-10 05:26:10] INFO root fetch - processPackages [ros-cdk-graphdatabase]: Downloading https://files.pythonhosted.org/packages/56/09/ef56c5b89c6cc4ad4f1dd0494683cbbbc851b876501d398ad20ed3ef7e66/ros-cdk-graphdatabase-1.0.23.tar.gz
+[2024-04-10 05:26:10] INFO root fetch - processPackages [amazon-orders]: Downloading https://files.pythonhosted.org/packages/c7/3b/1f6dd04d19acbe75f5c87b150af0192529b6becc1427ddf4932d3b29fa7a/amazon-orders-1.0.9.tar.gz
+[2024-04-10 05:26:11] INFO root fetch - processPackages [alibabacloud-nis20211216-py2]: executing diffoscope
+[2024-04-10 05:26:11] INFO root fetch - processPackages [alibabacloud-nis20211216-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_nis20211216_py2-2.0.1.tar.gz tmp/alibabacloud_nis20211216_py2-2.0.2.tar.gz --markdown 20240410/a/alibabacloud-nis20211216-py2/2.0.1-2.0.2/README.md --exclude *.pyd
+[2024-04-10 05:26:11] INFO root fetch - processPackages [ip-check]: Downloading https://files.pythonhosted.org/packages/e9/1b/e05d1ee9657421f60a0ef207af84e83a72dcfd9799b678f15ad7e21d409b/ip_check-1.5.4-py3-none-any.whl
+[2024-04-10 05:26:11] INFO root fetch - processPackages [ip-check]: executing diffoscope
+[2024-04-10 05:26:11] INFO root fetch - processPackages [ip-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ip_check-1.5.3-py3-none-any.whl.zip tmp/ip_check-1.5.4-py3-none-any.whl.zip --markdown 20240410/i/ip-check/1.5.3-1.5.4/README.md --exclude *.pyd
+[2024-04-10 05:26:11] INFO root fetch - processPackages [ros-cdk-graphdatabase]: Downloading https://files.pythonhosted.org/packages/ef/8b/24cab3fd71a0d40834d744f86f8ffe4703e08813fae94a840f7dd8742baf/ros-cdk-graphdatabase-1.0.24.tar.gz
+[2024-04-10 05:26:11] INFO root fetch - processPackages [alibabacloud-nis20211216]: Downloading https://files.pythonhosted.org/packages/19/71/c06fe5165a1cd1701344369e6b23469608d32580d4a31c3ae51fc96353ce/alibabacloud_nis20211216-2.0.2.tar.gz
+[2024-04-10 05:26:11] INFO root fetch - processPackages [amazon-orders]: Downloading https://files.pythonhosted.org/packages/d5/c5/497184e236ecbce6ce3345f3ec50f903cbe5370ef09e8ae99a003895dcdb/amazon-orders-1.1.0.tar.gz
+[2024-04-10 05:26:11] INFO root fetch - processPackages [ros-cdk-graphdatabase]: executing diffoscope
+[2024-04-10 05:26:11] INFO root fetch - processPackages [ros-cdk-graphdatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-graphdatabase-1.0.23.tar.gz tmp/ros-cdk-graphdatabase-1.0.24.tar.gz --markdown 20240410/r/ros-cdk-graphdatabase/1.0.23-1.0.24/README.md --exclude *.pyd
+[2024-04-10 05:26:11] INFO root fetch - processPackages [alibabacloud-nis20211216]: executing diffoscope
+[2024-04-10 05:26:11] INFO root fetch - processPackages [alibabacloud-nis20211216]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_nis20211216-2.0.1.tar.gz tmp/alibabacloud_nis20211216-2.0.2.tar.gz --markdown 20240410/a/alibabacloud-nis20211216/2.0.1-2.0.2/README.md --exclude *.pyd
+[2024-04-10 05:26:11] INFO root fetch - processPackages [amazon-orders]: executing diffoscope
+[2024-04-10 05:26:11] INFO root fetch - processPackages [amazon-orders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon-orders-1.0.9.tar.gz tmp/amazon-orders-1.1.0.tar.gz --markdown 20240410/a/amazon-orders/1.0.9-1.1.0/README.md --exclude *.pyd
+[2024-04-10 05:26:11] INFO root fetch - processPackages [alibabacloud-nis20211216-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_nis20211216_py2-2.0.1.tar.gz]
+[2024-04-10 05:26:11] INFO root fetch - processPackages [alibabacloud-nis20211216-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_nis20211216_py2-2.0.2.tar.gz]
+[2024-04-10 05:26:11] INFO root fetch - main [MainThread]: End processing [alibabacloud-nis20211216-py2]: success
+[2024-04-10 05:26:11] INFO root fetch - processPackages [ip-check]: Remove: archive file [/home/abi/fetcher/tmp/ip_check-1.5.3-py3-none-any.whl.zip]
+[2024-04-10 05:26:11] INFO root fetch - processPackages [ip-check]: Remove: archive file [/home/abi/fetcher/tmp/ip_check-1.5.4-py3-none-any.whl.zip]
+[2024-04-10 05:26:11] INFO root fetch - main [MainThread]: End processing [ip-check]: success
+[2024-04-10 05:26:12] INFO root fetch - processPackages [alibabacloud-nis20211216]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_nis20211216-2.0.1.tar.gz]
+[2024-04-10 05:26:12] INFO root fetch - processPackages [alibabacloud-nis20211216]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_nis20211216-2.0.2.tar.gz]
+[2024-04-10 05:26:12] INFO root fetch - main [MainThread]: End processing [alibabacloud-nis20211216]: success
+[2024-04-10 05:26:12] INFO root fetch - processPackages [ros-cdk-graphdatabase]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-graphdatabase-1.0.23.tar.gz]
+[2024-04-10 05:26:12] INFO root fetch - processPackages [ros-cdk-graphdatabase]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-graphdatabase-1.0.24.tar.gz]
+[2024-04-10 05:26:12] INFO root fetch - main [MainThread]: End processing [ros-cdk-graphdatabase]: success
+[2024-04-10 05:26:12] INFO root fetch - processPackages [amazon-orders]: Remove: archive file [/home/abi/fetcher/tmp/amazon-orders-1.0.9.tar.gz]
+[2024-04-10 05:26:12] INFO root fetch - processPackages [amazon-orders]: Remove: archive file [/home/abi/fetcher/tmp/amazon-orders-1.1.0.tar.gz]
+[2024-04-10 05:26:12] INFO root fetch - main [MainThread]: End processing [amazon-orders]: success
+[2024-04-10 05:26:12] INFO root fetch - main [MainThread]: Store serial: [22695182]

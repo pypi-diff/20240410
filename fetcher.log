@@ -22364,3 +22364,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-10 13:40:45] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.99.0.tar.gz]
 [2024-04-10 13:40:45] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
 [2024-04-10 13:40:45] INFO root fetch - main [MainThread]: Store serial: [22700184]
+[2024-04-10 13:42:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22700184]
+[2024-04-10 13:42:55] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-10 13:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ycls
+[2024-04-10 13:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pymasmovil
+[2024-04-10 13:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pnnx
+[2024-04-10 13:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wata
+[2024-04-10 13:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: thonny-etboard-micropython-firmware-v2
+[2024-04-10 13:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certora-cli-alpha-master
+[2024-04-10 13:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: document-ingestor
+[2024-04-10 13:42:55] INFO root fetch - processPackages [ycls]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-10 13:42:55] INFO root fetch - processPackages [document-ingestor]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-10 13:42:55] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240410.9.49.501422] Old Version: [20240410.11.14.166559]
+[2024-04-10 13:42:55] INFO root fetch - processPackages [wata]: New version: [0.1.2.16] Old Version: [0.1.2.15.2]
+[2024-04-10 13:42:55] INFO root fetch - processPackages [ycls]: Downloading https://files.pythonhosted.org/packages/1c/8e/fe54c72d4d5fb0dfb26c60b91c091684b9826693905a284548c23840778e/ycls-1.0.0.tar.gz
+[2024-04-10 13:42:55] INFO root fetch - processPackages [pnnx]: New version: [20240410] Old Version: [20240226]
+[2024-04-10 13:42:55] INFO root fetch - processPackages [document-ingestor]: Downloading https://files.pythonhosted.org/packages/33/aa/f81f65bc53b1c8c706b84fc074dce72ea1d3d4ed1eb4c5e4314a69f588cc/document_ingestor-0.0.4.tar.gz
+[2024-04-10 13:42:55] WARNING root fetch - processPackages [thonny-etboard-micropython-firmware-v2]: Skipping, unable to determine old version
+[2024-04-10 13:42:55] INFO root fetch - processPackages [pymasmovil]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-10 13:42:55] INFO root fetch - main [MainThread]: End processing [thonny-etboard-micropython-firmware-v2] error
+[2024-04-10 13:42:55] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/2c/cd/81b601dca32e7f734191e16c820c57a8601839f5e88562db53d7ba0e2b4b/certora-cli-alpha-master-20240410.11.14.166559.tar.gz
+[2024-04-10 13:42:55] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14483447>=10485760
+[2024-04-10 13:42:55] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-04-10 13:42:55] INFO root fetch - processPackages [wata]: Downloading https://files.pythonhosted.org/packages/a7/77/e135e598a704e2b69c996a9e3210823cb3363699445b9e5b01bf8c650b08/wata-0.1.2.15.2-py3-none-any.whl
+[2024-04-10 13:42:55] INFO root fetch - processPackages [document-ingestor]: Downloading https://files.pythonhosted.org/packages/25/d7/58992dfa43b0c0b61881367d86ef1fc8a1ff417a27d8cd81928b9e1a2eef/document_ingestor-0.0.5.tar.gz
+[2024-04-10 13:42:55] INFO root fetch - processPackages [pymasmovil]: Downloading https://files.pythonhosted.org/packages/0d/02/53655f5483ce277110577dff569dfd42ea712e347462adc1fbdb5dac2876/pymasmovil-0.0.8.tar.gz
+[2024-04-10 13:42:55] INFO root fetch - processPackages [pnnx]: Downloading https://files.pythonhosted.org/packages/2e/6e/77025ad004e70883a02fe4aa7fb566086516ded5a2ce693a32881b8dd70c/pnnx-20240226-py3-none-win_amd64.whl
+[2024-04-10 13:42:55] INFO root fetch - processPackages [ycls]: Downloading https://files.pythonhosted.org/packages/5b/73/89d820b7a4bfa7b0cada72f444da70f8ac077769254eb849e480580eebf9/ycls-1.0.1.tar.gz
+[2024-04-10 13:42:55] WARNING root fetch - processPackages [wata]: Skipping package: exceeds size limit 45883489>=10485760
+[2024-04-10 13:42:55] INFO root fetch - main [MainThread]: End processing [wata] error
+[2024-04-10 13:42:55] INFO root fetch - processPackages [document-ingestor]: executing diffoscope
+[2024-04-10 13:42:55] INFO root fetch - processPackages [document-ingestor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/document_ingestor-0.0.4.tar.gz tmp/document_ingestor-0.0.5.tar.gz --markdown 20240410/d/document-ingestor/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-10 13:42:55] INFO root fetch - processPackages [ycls]: executing diffoscope
+[2024-04-10 13:42:55] INFO root fetch - processPackages [ycls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ycls-1.0.0.tar.gz tmp/ycls-1.0.1.tar.gz --markdown 20240410/y/ycls/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-10 13:42:56] INFO root fetch - processPackages [pymasmovil]: Downloading https://files.pythonhosted.org/packages/88/47/23deff68a5c8564e6fd7ac172979cc214067a970f9f22187e04595bbfc04/pymasmovil-0.0.9.tar.gz
+[2024-04-10 13:42:56] INFO root fetch - processPackages [pymasmovil]: executing diffoscope
+[2024-04-10 13:42:56] INFO root fetch - processPackages [pymasmovil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymasmovil-0.0.8.tar.gz tmp/pymasmovil-0.0.9.tar.gz --markdown 20240410/p/pymasmovil/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-10 13:42:56] WARNING root fetch - processPackages [pnnx]: Skipping package: exceeds size limit 13028152>=10485760
+[2024-04-10 13:42:56] INFO root fetch - main [MainThread]: End processing [pnnx] error
+[2024-04-10 13:42:56] INFO root fetch - processPackages [ycls]: Remove: archive file [/home/abi/fetcher/tmp/ycls-1.0.0.tar.gz]
+[2024-04-10 13:42:56] INFO root fetch - processPackages [ycls]: Remove: archive file [/home/abi/fetcher/tmp/ycls-1.0.1.tar.gz]
+[2024-04-10 13:42:56] INFO root fetch - main [MainThread]: End processing [ycls]: success
+[2024-04-10 13:42:56] INFO root fetch - processPackages [document-ingestor]: Remove: archive file [/home/abi/fetcher/tmp/document_ingestor-0.0.4.tar.gz]
+[2024-04-10 13:42:56] INFO root fetch - processPackages [document-ingestor]: Remove: archive file [/home/abi/fetcher/tmp/document_ingestor-0.0.5.tar.gz]
+[2024-04-10 13:42:56] INFO root fetch - main [MainThread]: End processing [document-ingestor]: success
+[2024-04-10 13:42:56] INFO root fetch - processPackages [pymasmovil]: Remove: archive file [/home/abi/fetcher/tmp/pymasmovil-0.0.8.tar.gz]
+[2024-04-10 13:42:56] INFO root fetch - processPackages [pymasmovil]: Remove: archive file [/home/abi/fetcher/tmp/pymasmovil-0.0.9.tar.gz]
+[2024-04-10 13:42:56] INFO root fetch - main [MainThread]: End processing [pymasmovil]: success
+[2024-04-10 13:42:56] INFO root fetch - main [MainThread]: Store serial: [22700212]

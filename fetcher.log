@@ -21152,3 +21152,90 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 13:02:16] INFO root fetch - processPackages [chrontext]: Remove: archive file [/home/abi/fetcher/tmp/chrontext-0.8.6.tar.gz]
 [2024-04-10 13:02:16] INFO root fetch - main [MainThread]: End processing [chrontext]: success
 [2024-04-10 13:02:16] INFO root fetch - main [MainThread]: Store serial: [22699502]
+[2024-04-10 13:04:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22699502]
+[2024-04-10 13:04:25] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-10 13:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: streamlit-browser-session-storage
+[2024-04-10 13:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: grimoirelab
+[2024-04-10 13:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: digital-cortex
+[2024-04-10 13:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ptwrapper
+[2024-04-10 13:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyPCR
+[2024-04-10 13:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sirji-messages
+[2024-04-10 13:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: socktalk
+[2024-04-10 13:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cg
+[2024-04-10 13:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: classla
+[2024-04-10 13:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sirji-agents
+[2024-04-10 13:04:25] INFO root fetch - processPackages [sirji-agents]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-10 13:04:25] INFO root fetch - processPackages [grimoirelab]: New version: [1.0.0rc1] Old Version: [0.9.2]
+[2024-04-10 13:04:25] INFO root fetch - processPackages [socktalk]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-10 13:04:25] INFO root fetch - processPackages [sirji-messages]: New version: [0.0.9] Old Version: [0.0.7]
+[2024-04-10 13:04:25] INFO root fetch - processPackages [streamlit-browser-session-storage]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-10 13:04:25] INFO root fetch - processPackages [cg]: New version: [59.9.1] Old Version: [59.9.0]
+[2024-04-10 13:04:25] INFO root fetch - processPackages [digital-cortex]: New version: [0.0.39] Old Version: [0.0.38]
+[2024-04-10 13:04:25] INFO root fetch - processPackages [ptwrapper]: New version: [2.4.1] Old Version: [2.3.0]
+[2024-04-10 13:04:25] WARNING root fetch - processPackages [PyPCR]: Skipping, unable to determine old version
+[2024-04-10 13:04:25] INFO root fetch - main [MainThread]: End processing [PyPCR] error
+[2024-04-10 13:04:25] INFO root fetch - processPackages [sirji-agents]: Downloading https://files.pythonhosted.org/packages/b3/5f/e94cc45ff6ae73814ab9c995ecb3f23935035430ed12404c6869f3101639/sirji-agents-0.0.8.tar.gz
+[2024-04-10 13:04:25] INFO root fetch - processPackages [classla]: New version: [2.1.1] Old Version: [2.1]
+[2024-04-10 13:04:25] INFO root fetch - processPackages [sirji-messages]: Downloading https://files.pythonhosted.org/packages/25/0f/ce33b958b10d49658da98af96fe8029289822968952893e499d7373ea186/sirji-messages-0.0.7.tar.gz
+[2024-04-10 13:04:25] INFO root fetch - processPackages [socktalk]: Downloading https://files.pythonhosted.org/packages/67/b0/926a0963b186057cd30bab78275c6d714838e1f83a1c058ef79a1854b6a3/socktalk-0.1.0.tar.gz
+[2024-04-10 13:04:25] INFO root fetch - processPackages [grimoirelab]: Downloading https://files.pythonhosted.org/packages/e5/83/4d346602a9ec233e47b3be18f074f5b04f464610341167deb792b4e43545/grimoirelab-0.9.2.tar.gz
+[2024-04-10 13:04:25] INFO root fetch - processPackages [streamlit-browser-session-storage]: Downloading https://files.pythonhosted.org/packages/04/c2/6b8922d8ec7dc9c175bd631f042c386f7729a88f230a6e6c1e2d96838b14/streamlit-browser-session-storage-0.0.8.tar.gz
+[2024-04-10 13:04:25] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/a4/79/664dc1d5b463ee0406caa2e43f4dec36f68ff9a520e4d9d51666e6ea5021/cg-59.9.0.tar.gz
+[2024-04-10 13:04:25] INFO root fetch - processPackages [ptwrapper]: Downloading https://files.pythonhosted.org/packages/43/92/ddbd1a7a0f70dee00bb00c16cb17ae8fe0495484b4030f72383d31c97576/ptwrapper-2.3.0-py3-none-any.whl
+[2024-04-10 13:04:25] INFO root fetch - processPackages [digital-cortex]: Downloading https://files.pythonhosted.org/packages/79/9b/e6df2881ab726b6f96c0d15e554c440baad888a0bb9f4bbf6b92abd51e46/digital_cortex-0.0.38.tar.gz
+[2024-04-10 13:04:26] INFO root fetch - processPackages [sirji-agents]: Downloading https://files.pythonhosted.org/packages/2d/21/2f8f58a9460b37b13e4747c65a5e850216adf0cab4b50990fb72115eb4dd/sirji-agents-0.0.9.tar.gz
+[2024-04-10 13:04:26] INFO root fetch - processPackages [classla]: Downloading https://files.pythonhosted.org/packages/66/31/84d3b08a173fc1dbabd7184d9d5d69ca19ba15485a417dd7a932f6bf23ee/classla-2.1.tar.gz
+[2024-04-10 13:04:26] INFO root fetch - processPackages [sirji-messages]: Downloading https://files.pythonhosted.org/packages/a5/c6/4ac7d143f28208fd31dc3a617bb8d957ddd00f4c7eb41fe7fe62b3590af7/sirji-messages-0.0.9.tar.gz
+[2024-04-10 13:04:26] INFO root fetch - processPackages [socktalk]: Downloading https://files.pythonhosted.org/packages/ce/47/1ce892258340de822a08184a89aed156d6461dcf789180de46f61fa28228/socktalk-0.1.1.tar.gz
+[2024-04-10 13:04:26] INFO root fetch - processPackages [grimoirelab]: Downloading https://files.pythonhosted.org/packages/2c/b2/ed81f76c3e7a3579846a75e484cbdd04e07d6d8cb6c0f4fb7820fc7a1134/grimoirelab-1.0.0rc1.tar.gz
+[2024-04-10 13:04:26] INFO root fetch - processPackages [sirji-agents]: executing diffoscope
+[2024-04-10 13:04:26] INFO root fetch - processPackages [sirji-agents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sirji-agents-0.0.8.tar.gz tmp/sirji-agents-0.0.9.tar.gz --markdown 20240410/s/sirji-agents/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-10 13:04:26] INFO root fetch - processPackages [sirji-messages]: executing diffoscope
+[2024-04-10 13:04:26] INFO root fetch - processPackages [sirji-messages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sirji-messages-0.0.7.tar.gz tmp/sirji-messages-0.0.9.tar.gz --markdown 20240410/s/sirji-messages/0.0.7-0.0.9/README.md --exclude *.pyd
+[2024-04-10 13:04:26] INFO root fetch - processPackages [streamlit-browser-session-storage]: Downloading https://files.pythonhosted.org/packages/60/71/b1c5b88446b1ff36076716cd2ee54fa1022d829f42f23bb6ccfac95bd038/streamlit-browser-session-storage-0.0.9.tar.gz
+[2024-04-10 13:04:26] INFO root fetch - processPackages [grimoirelab]: executing diffoscope
+[2024-04-10 13:04:26] INFO root fetch - processPackages [grimoirelab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grimoirelab-0.9.2.tar.gz tmp/grimoirelab-1.0.0rc1.tar.gz --markdown 20240410/g/grimoirelab/0.9.2-1.0.0rc1/README.md --exclude *.pyd
+[2024-04-10 13:04:26] INFO root fetch - processPackages [socktalk]: executing diffoscope
+[2024-04-10 13:04:26] INFO root fetch - processPackages [socktalk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socktalk-0.1.0.tar.gz tmp/socktalk-0.1.1.tar.gz --markdown 20240410/s/socktalk/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-10 13:04:26] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/da/9f/c4869b003070cd94f090db42e1f076a49bf9c0b1856d209eeb540379d711/cg-59.9.1.tar.gz
+[2024-04-10 13:04:26] INFO root fetch - processPackages [digital-cortex]: Downloading https://files.pythonhosted.org/packages/89/39/90c92276d2f8ddeab43a7e03940022c3b234efb5c68f3701710bf7fed91f/digital_cortex-0.0.39.tar.gz
+[2024-04-10 13:04:26] INFO root fetch - processPackages [ptwrapper]: Downloading https://files.pythonhosted.org/packages/15/73/943be2767b2da9f09e21a1674353053d5e439dc83bcf8eea724fa730ef38/ptwrapper-2.4.1-py3-none-any.whl
+[2024-04-10 13:04:26] INFO root fetch - processPackages [digital-cortex]: executing diffoscope
+[2024-04-10 13:04:26] INFO root fetch - processPackages [digital-cortex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digital_cortex-0.0.38.tar.gz tmp/digital_cortex-0.0.39.tar.gz --markdown 20240410/d/digital-cortex/0.0.38-0.0.39/README.md --exclude *.pyd
+[2024-04-10 13:04:26] INFO root fetch - processPackages [streamlit-browser-session-storage]: executing diffoscope
+[2024-04-10 13:04:26] INFO root fetch - processPackages [streamlit-browser-session-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-browser-session-storage-0.0.8.tar.gz tmp/streamlit-browser-session-storage-0.0.9.tar.gz --markdown 20240410/s/streamlit-browser-session-storage/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-10 13:04:26] INFO root fetch - processPackages [classla]: Downloading https://files.pythonhosted.org/packages/1e/d0/809a13045aea6aa2f3d7a94c6b3c8093c05715de032ec672ff70bc183aea/classla-2.1.1.tar.gz
+[2024-04-10 13:04:26] INFO root fetch - processPackages [ptwrapper]: executing diffoscope
+[2024-04-10 13:04:26] INFO root fetch - processPackages [ptwrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ptwrapper-2.3.0-py3-none-any.whl.zip tmp/ptwrapper-2.4.1-py3-none-any.whl.zip --markdown 20240410/p/ptwrapper/2.3.0-2.4.1/README.md --exclude *.pyd
+[2024-04-10 13:04:26] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-04-10 13:04:26] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-59.9.0.tar.gz tmp/cg-59.9.1.tar.gz --markdown 20240410/c/cg/59.9.0-59.9.1/README.md --exclude *.pyd
+[2024-04-10 13:04:26] INFO root fetch - processPackages [classla]: executing diffoscope
+[2024-04-10 13:04:26] INFO root fetch - processPackages [classla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/classla-2.1.tar.gz tmp/classla-2.1.1.tar.gz --markdown 20240410/c/classla/2.1-2.1.1/README.md --exclude *.pyd
+[2024-04-10 13:04:27] INFO root fetch - processPackages [sirji-agents]: Remove: archive file [/home/abi/fetcher/tmp/sirji-agents-0.0.8.tar.gz]
+[2024-04-10 13:04:27] INFO root fetch - processPackages [sirji-agents]: Remove: archive file [/home/abi/fetcher/tmp/sirji-agents-0.0.9.tar.gz]
+[2024-04-10 13:04:27] INFO root fetch - main [MainThread]: End processing [sirji-agents]: success
+[2024-04-10 13:04:27] INFO root fetch - processPackages [socktalk]: Remove: archive file [/home/abi/fetcher/tmp/socktalk-0.1.0.tar.gz]
+[2024-04-10 13:04:27] INFO root fetch - processPackages [socktalk]: Remove: archive file [/home/abi/fetcher/tmp/socktalk-0.1.1.tar.gz]
+[2024-04-10 13:04:27] INFO root fetch - main [MainThread]: End processing [socktalk]: success
+[2024-04-10 13:04:27] INFO root fetch - processPackages [grimoirelab]: Remove: archive file [/home/abi/fetcher/tmp/grimoirelab-0.9.2.tar.gz]
+[2024-04-10 13:04:27] INFO root fetch - processPackages [grimoirelab]: Remove: archive file [/home/abi/fetcher/tmp/grimoirelab-1.0.0rc1.tar.gz]
+[2024-04-10 13:04:27] INFO root fetch - main [MainThread]: End processing [grimoirelab]: success
+[2024-04-10 13:04:27] INFO root fetch - processPackages [sirji-messages]: Remove: archive file [/home/abi/fetcher/tmp/sirji-messages-0.0.7.tar.gz]
+[2024-04-10 13:04:27] INFO root fetch - processPackages [sirji-messages]: Remove: archive file [/home/abi/fetcher/tmp/sirji-messages-0.0.9.tar.gz]
+[2024-04-10 13:04:27] INFO root fetch - main [MainThread]: End processing [sirji-messages]: success
+[2024-04-10 13:04:27] INFO root fetch - processPackages [digital-cortex]: Remove: archive file [/home/abi/fetcher/tmp/digital_cortex-0.0.38.tar.gz]
+[2024-04-10 13:04:27] INFO root fetch - processPackages [digital-cortex]: Remove: archive file [/home/abi/fetcher/tmp/digital_cortex-0.0.39.tar.gz]
+[2024-04-10 13:04:27] INFO root fetch - main [MainThread]: End processing [digital-cortex]: success
+[2024-04-10 13:04:27] INFO root fetch - processPackages [streamlit-browser-session-storage]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-browser-session-storage-0.0.8.tar.gz]
+[2024-04-10 13:04:27] INFO root fetch - processPackages [streamlit-browser-session-storage]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-browser-session-storage-0.0.9.tar.gz]
+[2024-04-10 13:04:27] INFO root fetch - main [MainThread]: End processing [streamlit-browser-session-storage]: success
+[2024-04-10 13:04:27] INFO root fetch - processPackages [ptwrapper]: Remove: archive file [/home/abi/fetcher/tmp/ptwrapper-2.3.0-py3-none-any.whl.zip]
+[2024-04-10 13:04:27] INFO root fetch - processPackages [ptwrapper]: Remove: archive file [/home/abi/fetcher/tmp/ptwrapper-2.4.1-py3-none-any.whl.zip]
+[2024-04-10 13:04:27] INFO root fetch - main [MainThread]: End processing [ptwrapper]: success
+[2024-04-10 13:04:28] INFO root fetch - processPackages [classla]: Remove: archive file [/home/abi/fetcher/tmp/classla-2.1.tar.gz]
+[2024-04-10 13:04:28] INFO root fetch - processPackages [classla]: Remove: archive file [/home/abi/fetcher/tmp/classla-2.1.1.tar.gz]
+[2024-04-10 13:04:28] INFO root fetch - main [MainThread]: End processing [classla]: success
+[2024-04-10 13:04:30] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-59.9.0.tar.gz]
+[2024-04-10 13:04:30] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-59.9.1.tar.gz]
+[2024-04-10 13:04:30] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-04-10 13:04:30] INFO root fetch - main [MainThread]: Store serial: [22699532]

@@ -16779,3 +16779,81 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 10:08:58] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240409.tar.gz]
 [2024-04-10 10:08:58] INFO root fetch - main [MainThread]: End processing [pyglove]: success
 [2024-04-10 10:08:58] INFO root fetch - main [MainThread]: Store serial: [22697487]
+[2024-04-10 10:11:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22697487]
+[2024-04-10 10:11:09] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-10 10:11:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: khoj-assistant
+[2024-04-10 10:11:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quickfix-py
+[2024-04-10 10:11:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: diverge-flow
+[2024-04-10 10:11:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-scattnlay
+[2024-04-10 10:11:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: checkov
+[2024-04-10 10:11:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: huojiweiguoba
+[2024-04-10 10:11:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rats-pipelines
+[2024-04-10 10:11:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rats-processors
+[2024-04-10 10:11:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: swarmauri
+[2024-04-10 10:11:10] INFO root fetch - processPackages [huojiweiguoba]: New version: [9.0] Old Version: [8.0]
+[2024-04-10 10:11:10] INFO root fetch - processPackages [rats-pipelines]: New version: [0.1.1.dev9] Old Version: [0.1.1.dev4]
+[2024-04-10 10:11:10] INFO root fetch - processPackages [swarmauri]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-10 10:11:10] INFO root fetch - processPackages [rats-processors]: New version: [0.1.1.dev9] Old Version: [0.1.1.dev4]
+[2024-04-10 10:11:10] WARNING root fetch - processPackages [quickfix-py]: Skipping, unable to determine old version
+[2024-04-10 10:11:10] INFO root fetch - main [MainThread]: End processing [quickfix-py] error
+[2024-04-10 10:11:10] INFO root fetch - processPackages [checkov]: New version: [3.2.9] Old Version: [3.2.8]
+[2024-04-10 10:11:10] INFO root fetch - processPackages [huojiweiguoba]: Downloading https://files.pythonhosted.org/packages/9b/6f/b64a46e83d6bfc0f46bb336114ec9f43e3939f86a70108c310351b4f02b4/huojiweiguoba-8.0.tar.gz
+[2024-04-10 10:11:10] INFO root fetch - processPackages [diverge-flow]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-04-10 10:11:10] INFO root fetch - processPackages [python-scattnlay]: New version: [2.4] Old Version: [2.3]
+[2024-04-10 10:11:10] INFO root fetch - processPackages [khoj-assistant]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev5]
+[2024-04-10 10:11:10] INFO root fetch - processPackages [rats-pipelines]: Downloading https://files.pythonhosted.org/packages/3b/c2/b583824029c92f5b0ec4eeb0ed37e4aeb0fd09979d927a311fb7fbbf0baa/rats_pipelines-0.1.1.dev4-py3-none-any.whl
+[2024-04-10 10:11:10] INFO root fetch - processPackages [rats-processors]: Downloading https://files.pythonhosted.org/packages/6a/ed/dc9d5d14b6bab254fbbd5ceae98448f1e46bf325f4948e61c0e9905866a9/rats_processors-0.1.1.dev4-py3-none-any.whl
+[2024-04-10 10:11:10] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/6f/f9/130aeeef865461afb5cc003721ceb7c3ebcd9ef2fe49fd812b8532fb5035/swarmauri-0.1.8.tar.gz
+[2024-04-10 10:11:10] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/88/07/1509be74cf47a29b012a6f7477139e57bee2a7d01634b6bd6a71d095ace8/checkov-3.2.8.tar.gz
+[2024-04-10 10:11:10] INFO root fetch - processPackages [diverge-flow]: Downloading https://files.pythonhosted.org/packages/6a/48/895d38e0ad4ff80b7eb81abcc8fb787b50e4c50b56d853224017ab59cd92/diverge-flow-0.6.0.tar.gz
+[2024-04-10 10:11:10] INFO root fetch - processPackages [python-scattnlay]: Downloading https://files.pythonhosted.org/packages/ff/2e/325b6c5427a052642c641b0a2d21aa26136c8ea96a5a628060c3db33b020/python-scattnlay-2.3.tar.gz
+[2024-04-10 10:11:10] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/b3/96/0129ecf7acd75beb007b215a022e654e837a65f90317a00f400f5b66d677/khoj_assistant-1.9.1.dev5.tar.gz
+[2024-04-10 10:11:10] INFO root fetch - processPackages [huojiweiguoba]: Downloading https://files.pythonhosted.org/packages/3a/79/586f36e886e9e8dcfc4129b51554721e3019a3b5fc5ca074d349a5747db3/huojiweiguoba-9.0.tar.gz
+[2024-04-10 10:11:10] INFO root fetch - processPackages [rats-pipelines]: Downloading https://files.pythonhosted.org/packages/bb/f6/f6533ba0a6c24b27a5f45c17291c0b520d75c290fc5a700094e63e36524b/rats_pipelines-0.1.1.dev9-py3-none-any.whl
+[2024-04-10 10:11:10] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/c7/70/0b55d158ba42355a67cda5d200e3d5817bac0a8e9ce2da2bf294eb6b03ec/swarmauri-0.1.9.tar.gz
+[2024-04-10 10:11:10] INFO root fetch - processPackages [rats-processors]: Downloading https://files.pythonhosted.org/packages/f7/09/1ed10915e1cd437f31fa193f9509a24a234efc7b3cdf90ba44c203d8c986/rats_processors-0.1.1.dev9-py3-none-any.whl
+[2024-04-10 10:11:10] INFO root fetch - processPackages [huojiweiguoba]: executing diffoscope
+[2024-04-10 10:11:10] INFO root fetch - processPackages [huojiweiguoba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huojiweiguoba-8.0.tar.gz tmp/huojiweiguoba-9.0.tar.gz --markdown 20240410/h/huojiweiguoba/8.0-9.0/README.md --exclude *.pyd
+[2024-04-10 10:11:10] INFO root fetch - processPackages [rats-pipelines]: executing diffoscope
+[2024-04-10 10:11:10] INFO root fetch - processPackages [rats-pipelines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_pipelines-0.1.1.dev4-py3-none-any.whl.zip tmp/rats_pipelines-0.1.1.dev9-py3-none-any.whl.zip --markdown 20240410/r/rats-pipelines/0.1.1.dev4-0.1.1.dev9/README.md --exclude *.pyd
+[2024-04-10 10:11:10] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-04-10 10:11:10] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.8.tar.gz tmp/swarmauri-0.1.9.tar.gz --markdown 20240410/s/swarmauri/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-10 10:11:10] INFO root fetch - processPackages [rats-processors]: executing diffoscope
+[2024-04-10 10:11:10] INFO root fetch - processPackages [rats-processors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_processors-0.1.1.dev4-py3-none-any.whl.zip tmp/rats_processors-0.1.1.dev9-py3-none-any.whl.zip --markdown 20240410/r/rats-processors/0.1.1.dev4-0.1.1.dev9/README.md --exclude *.pyd
+[2024-04-10 10:11:10] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/8b/2e/76e1600c8d7d81ec9b7cc207e032f23feed398a5b54e6698055f7c5e0f8f/checkov-3.2.9.tar.gz
+[2024-04-10 10:11:11] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/47/ae/446626ff585bb336b70b59402ea6a46bf52326a51b81fd9ead920cde4c8a/khoj_assistant-1.9.1.dev8.tar.gz
+[2024-04-10 10:11:11] INFO root fetch - processPackages [python-scattnlay]: Downloading https://files.pythonhosted.org/packages/46/3b/4574460f5e22e07dfa4775c5a274b71115a2d36186f6ac4a87d16bfcd224/python-scattnlay-2.4.tar.gz
+[2024-04-10 10:11:11] INFO root fetch - processPackages [diverge-flow]: Downloading https://files.pythonhosted.org/packages/b8/6d/c31b878cf07e4498fdf8610240d0d1e1e7e61d70924c75a6637f08aa8f45/diverge-flow-0.6.1.tar.gz
+[2024-04-10 10:11:11] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2024-04-10 10:11:11] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-3.2.8.tar.gz tmp/checkov-3.2.9.tar.gz --markdown 20240410/c/checkov/3.2.8-3.2.9/README.md --exclude *.pyd
+[2024-04-10 10:11:11] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2024-04-10 10:11:11] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-1.9.1.dev5.tar.gz tmp/khoj_assistant-1.9.1.dev8.tar.gz --markdown 20240410/k/khoj-assistant/1.9.1.dev5-1.9.1.dev8/README.md --exclude *.pyd
+[2024-04-10 10:11:11] INFO root fetch - processPackages [huojiweiguoba]: Remove: archive file [/home/abi/fetcher/tmp/huojiweiguoba-8.0.tar.gz]
+[2024-04-10 10:11:11] INFO root fetch - processPackages [huojiweiguoba]: Remove: archive file [/home/abi/fetcher/tmp/huojiweiguoba-9.0.tar.gz]
+[2024-04-10 10:11:11] INFO root fetch - main [MainThread]: End processing [huojiweiguoba]: success
+[2024-04-10 10:11:11] INFO root fetch - processPackages [rats-processors]: Remove: archive file [/home/abi/fetcher/tmp/rats_processors-0.1.1.dev4-py3-none-any.whl.zip]
+[2024-04-10 10:11:11] INFO root fetch - processPackages [rats-processors]: Remove: archive file [/home/abi/fetcher/tmp/rats_processors-0.1.1.dev9-py3-none-any.whl.zip]
+[2024-04-10 10:11:11] INFO root fetch - main [MainThread]: End processing [rats-processors]: success
+[2024-04-10 10:11:11] INFO root fetch - processPackages [python-scattnlay]: executing diffoscope
+[2024-04-10 10:11:11] INFO root fetch - processPackages [python-scattnlay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-scattnlay-2.3.tar.gz tmp/python-scattnlay-2.4.tar.gz --markdown 20240410/p/python-scattnlay/2.3-2.4/README.md --exclude *.pyd
+[2024-04-10 10:11:11] INFO root fetch - processPackages [diverge-flow]: executing diffoscope
+[2024-04-10 10:11:11] INFO root fetch - processPackages [diverge-flow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diverge-flow-0.6.0.tar.gz tmp/diverge-flow-0.6.1.tar.gz --markdown 20240410/d/diverge-flow/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-04-10 10:11:11] INFO root fetch - processPackages [rats-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/rats_pipelines-0.1.1.dev4-py3-none-any.whl.zip]
+[2024-04-10 10:11:11] INFO root fetch - processPackages [rats-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/rats_pipelines-0.1.1.dev9-py3-none-any.whl.zip]
+[2024-04-10 10:11:11] INFO root fetch - main [MainThread]: End processing [rats-pipelines]: success
+[2024-04-10 10:11:12] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.8.tar.gz]
+[2024-04-10 10:11:12] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.9.tar.gz]
+[2024-04-10 10:11:12] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-04-10 10:11:12] INFO root fetch - processPackages [diverge-flow]: Remove: archive file [/home/abi/fetcher/tmp/diverge-flow-0.6.0.tar.gz]
+[2024-04-10 10:11:12] INFO root fetch - processPackages [diverge-flow]: Remove: archive file [/home/abi/fetcher/tmp/diverge-flow-0.6.1.tar.gz]
+[2024-04-10 10:11:12] INFO root fetch - main [MainThread]: End processing [diverge-flow]: success
+[2024-04-10 10:11:12] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev5.tar.gz]
+[2024-04-10 10:11:12] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
+[2024-04-10 10:11:12] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2024-04-10 10:11:16] INFO root fetch - processPackages [python-scattnlay]: Remove: archive file [/home/abi/fetcher/tmp/python-scattnlay-2.3.tar.gz]
+[2024-04-10 10:11:16] INFO root fetch - processPackages [python-scattnlay]: Remove: archive file [/home/abi/fetcher/tmp/python-scattnlay-2.4.tar.gz]
+[2024-04-10 10:11:16] INFO root fetch - main [MainThread]: End processing [python-scattnlay]: success
+[2024-04-10 10:11:20] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.8.tar.gz]
+[2024-04-10 10:11:20] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.9.tar.gz]
+[2024-04-10 10:11:20] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2024-04-10 10:11:20] INFO root fetch - main [MainThread]: Store serial: [22697513]

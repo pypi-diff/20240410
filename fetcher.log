@@ -18111,3 +18111,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 10:58:45] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1477-py3-none-any.whl.zip]
 [2024-04-10 10:58:45] INFO root fetch - main [MainThread]: End processing [nucliadb-admin-assets]: success
 [2024-04-10 10:58:45] INFO root fetch - main [MainThread]: Store serial: [22698091]
+[2024-04-10 11:00:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22698091]
+[2024-04-10 11:00:57] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-10 11:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: FancySchmancyTestsplit
+[2024-04-10 11:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gemsembler
+[2024-04-10 11:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: headline-gen
+[2024-04-10 11:00:57] INFO root fetch - processPackages [headline-gen]: New version: [0.0.1] Old Version: [0.0.0]
+[2024-04-10 11:00:57] INFO root fetch - processPackages [FancySchmancyTestsplit]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-10 11:00:57] INFO root fetch - processPackages [FancySchmancyTestsplit]: Downloading https://files.pythonhosted.org/packages/ce/79/87ecd32a6ac4a7028aded41695112b5901030bd622e6fce9519c2331643a/FancySchmancyTestsplit-0.1.5.tar.gz
+[2024-04-10 11:00:57] INFO root fetch - processPackages [gemsembler]: New version: [0.6.3] Old Version: [0.6.2]
+[2024-04-10 11:00:58] INFO root fetch - processPackages [headline-gen]: Downloading https://files.pythonhosted.org/packages/7a/d5/ed450036206c3d3062a5bba6805906a6475724ee94f3eaf20d808d872592/headline-gen-0.0.0.tar.gz
+[2024-04-10 11:00:58] INFO root fetch - processPackages [gemsembler]: Downloading https://files.pythonhosted.org/packages/df/a3/40168c2fef4f8f049a6c30915f53164338d3c9ee816ace24a92a5a5795cf/gemsembler-0.6.2.tar.gz
+[2024-04-10 11:00:58] INFO root fetch - processPackages [FancySchmancyTestsplit]: Downloading https://files.pythonhosted.org/packages/38/91/aadd81bb6ebc8abb4b7601cdd42f80789f1c15aabdccbae7cb4b039fe1e3/FancySchmancyTestsplit-0.1.6.tar.gz
+[2024-04-10 11:00:58] INFO root fetch - processPackages [FancySchmancyTestsplit]: executing diffoscope
+[2024-04-10 11:00:58] INFO root fetch - processPackages [FancySchmancyTestsplit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FancySchmancyTestsplit-0.1.5.tar.gz tmp/FancySchmancyTestsplit-0.1.6.tar.gz --markdown 20240410/F/FancySchmancyTestsplit/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-10 11:00:58] INFO root fetch - processPackages [headline-gen]: Downloading https://files.pythonhosted.org/packages/f6/07/7cd4c04ad28db2d2ce7e589ca03981b09335ed9869a5e8edb8a0f7c8fc61/headline-gen-0.0.1.tar.gz
+[2024-04-10 11:00:58] INFO root fetch - processPackages [headline-gen]: executing diffoscope
+[2024-04-10 11:00:58] INFO root fetch - processPackages [headline-gen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/headline-gen-0.0.0.tar.gz tmp/headline-gen-0.0.1.tar.gz --markdown 20240410/h/headline-gen/0.0.0-0.0.1/README.md --exclude *.pyd
+[2024-04-10 11:00:58] INFO root fetch - processPackages [FancySchmancyTestsplit]: Remove: archive file [/home/abi/fetcher/tmp/FancySchmancyTestsplit-0.1.5.tar.gz]
+[2024-04-10 11:00:58] INFO root fetch - processPackages [FancySchmancyTestsplit]: Remove: archive file [/home/abi/fetcher/tmp/FancySchmancyTestsplit-0.1.6.tar.gz]
+[2024-04-10 11:00:58] INFO root fetch - main [MainThread]: End processing [FancySchmancyTestsplit]: success
+[2024-04-10 11:00:58] INFO root fetch - processPackages [headline-gen]: Remove: archive file [/home/abi/fetcher/tmp/headline-gen-0.0.0.tar.gz]
+[2024-04-10 11:00:58] INFO root fetch - processPackages [headline-gen]: Remove: archive file [/home/abi/fetcher/tmp/headline-gen-0.0.1.tar.gz]
+[2024-04-10 11:00:58] INFO root fetch - main [MainThread]: End processing [headline-gen]: success
+[2024-04-10 11:00:59] INFO root fetch - processPackages [gemsembler]: Downloading https://files.pythonhosted.org/packages/22/dc/b718140367d0959dd5a773134e50d122370678b84b96a060995e553a91be/gemsembler-0.6.3.tar.gz
+[2024-04-10 11:00:59] INFO root fetch - processPackages [gemsembler]: executing diffoscope
+[2024-04-10 11:00:59] INFO root fetch - processPackages [gemsembler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gemsembler-0.6.2.tar.gz tmp/gemsembler-0.6.3.tar.gz --markdown 20240410/g/gemsembler/0.6.2-0.6.3/README.md --exclude *.pyd
+[2024-04-10 11:01:00] INFO root fetch - processPackages [gemsembler]: Remove: archive file [/home/abi/fetcher/tmp/gemsembler-0.6.2.tar.gz]
+[2024-04-10 11:01:00] INFO root fetch - processPackages [gemsembler]: Remove: archive file [/home/abi/fetcher/tmp/gemsembler-0.6.3.tar.gz]
+[2024-04-10 11:01:00] INFO root fetch - main [MainThread]: End processing [gemsembler]: success
+[2024-04-10 11:01:00] INFO root fetch - main [MainThread]: Store serial: [22698100]

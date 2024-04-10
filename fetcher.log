@@ -20162,3 +20162,56 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 12:23:41] INFO root fetch - processPackages [IntuneCD]: Remove: archive file [/home/abi/fetcher/tmp/IntuneCD-2.3.2b1.tar.gz]
 [2024-04-10 12:23:41] INFO root fetch - main [MainThread]: End processing [IntuneCD]: success
 [2024-04-10 12:23:41] INFO root fetch - main [MainThread]: Store serial: [22698907]
+[2024-04-10 12:25:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22698907]
+[2024-04-10 12:25:50] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-10 12:25:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-artifactory
+[2024-04-10 12:25:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hagrid
+[2024-04-10 12:25:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: planqk-quantum
+[2024-04-10 12:25:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sts-libs
+[2024-04-10 12:25:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scrapegraphai
+[2024-04-10 12:25:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certora-cli-alpha-master
+[2024-04-10 12:25:50] INFO root fetch - processPackages [scrapegraphai]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-10 12:25:50] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240410.9.49.501422] Old Version: [20240409.20.49.14629]
+[2024-04-10 12:25:50] INFO root fetch - processPackages [pulumi-artifactory]: New version: [6.5.0a1712742347] Old Version: [6.5.0a1712725969]
+[2024-04-10 12:25:50] INFO root fetch - processPackages [planqk-quantum]: New version: [2.1.0] Old Version: [2.0.0rc1]
+[2024-04-10 12:25:50] INFO root fetch - processPackages [scrapegraphai]: Downloading https://files.pythonhosted.org/packages/6d/74/17c81ea5311d150988b6e7542bcb6d50210930fd6bcae73c76dd2cb78b11/scrapegraphai-0.1.2.tar.gz
+[2024-04-10 12:25:50] INFO root fetch - processPackages [sts-libs]: New version: [0.1.7] Old Version: [0.1.6rc0]
+[2024-04-10 12:25:50] INFO root fetch - processPackages [pulumi-artifactory]: Downloading https://files.pythonhosted.org/packages/2a/1a/826c07aaa9696345b12e10806bdd6786ca497a668e03c6e2e31ec559886f/pulumi_artifactory-6.5.0a1712725969.tar.gz
+[2024-04-10 12:25:50] INFO root fetch - processPackages [hagrid]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-04-10 12:25:50] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/ff/23/19af7a19ebeb48c8d99d0dd8511fc8506b70acd2922aebc097af46b65caa/certora-cli-alpha-master-20240409.20.49.14629.tar.gz
+[2024-04-10 12:25:50] INFO root fetch - processPackages [sts-libs]: Downloading https://files.pythonhosted.org/packages/e6/c7/59ebcf8463c6d5e70bcb470af439cc6307e15270e50a81876a72d39cd1a6/sts_libs-0.1.6rc0.tar.gz
+[2024-04-10 12:25:50] INFO root fetch - processPackages [planqk-quantum]: Downloading https://files.pythonhosted.org/packages/24/70/3021e963d18fa449fdee6744a532bd625eef7ee75fbaad1b035dde054970/planqk-quantum-2.0.0rc1.tar.gz
+[2024-04-10 12:25:50] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14482614>=10485760
+[2024-04-10 12:25:50] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-04-10 12:25:50] INFO root fetch - processPackages [hagrid]: Downloading https://files.pythonhosted.org/packages/71/5c/7118f88cf946d0a75ccbfe7faf329364c6aa329c75e795f5321774437057/hagrid-0.3.98.tar.gz
+[2024-04-10 12:25:50] INFO root fetch - processPackages [scrapegraphai]: Downloading https://files.pythonhosted.org/packages/db/a7/d4a67de4f4b6595dcaeae88426901cd4818eefdd2fd2ec46024466a76a93/scrapegraphai-0.1.3.tar.gz
+[2024-04-10 12:25:50] INFO root fetch - processPackages [pulumi-artifactory]: Downloading https://files.pythonhosted.org/packages/bf/8e/e560daf371ebadb8f665df20405d99c147cdf61d9b05c82409a753371750/pulumi_artifactory-6.5.0a1712742347.tar.gz
+[2024-04-10 12:25:50] INFO root fetch - processPackages [sts-libs]: Downloading https://files.pythonhosted.org/packages/0f/c9/7bed227dccd321addee4748876f890bf5dd07e73925dc00aee73b0d2e456/sts_libs-0.1.7.tar.gz
+[2024-04-10 12:25:51] INFO root fetch - processPackages [scrapegraphai]: executing diffoscope
+[2024-04-10 12:25:51] INFO root fetch - processPackages [scrapegraphai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapegraphai-0.1.2.tar.gz tmp/scrapegraphai-0.1.3.tar.gz --markdown 20240410/s/scrapegraphai/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-10 12:25:51] INFO root fetch - processPackages [planqk-quantum]: Downloading https://files.pythonhosted.org/packages/03/23/9189ab509bb8c6b87cea9607ec3ed456b2054fe1552ec0446703bb5d60dd/planqk-quantum-2.1.0.tar.gz
+[2024-04-10 12:25:51] INFO root fetch - processPackages [hagrid]: Downloading https://files.pythonhosted.org/packages/cd/59/f6d437913eeba7d4d9bb51ed14ede91b80dcb983f21bbafb63e54e220055/hagrid-0.3.99.tar.gz
+[2024-04-10 12:25:51] INFO root fetch - processPackages [pulumi-artifactory]: executing diffoscope
+[2024-04-10 12:25:51] INFO root fetch - processPackages [pulumi-artifactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_artifactory-6.5.0a1712725969.tar.gz tmp/pulumi_artifactory-6.5.0a1712742347.tar.gz --markdown 20240410/p/pulumi-artifactory/6.5.0a1712725969-6.5.0a1712742347/README.md --exclude *.pyd
+[2024-04-10 12:25:51] INFO root fetch - processPackages [sts-libs]: executing diffoscope
+[2024-04-10 12:25:51] INFO root fetch - processPackages [sts-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sts_libs-0.1.6rc0.tar.gz tmp/sts_libs-0.1.7.tar.gz --markdown 20240410/s/sts-libs/0.1.6rc0-0.1.7/README.md --exclude *.pyd
+[2024-04-10 12:25:51] INFO root fetch - processPackages [planqk-quantum]: executing diffoscope
+[2024-04-10 12:25:51] INFO root fetch - processPackages [planqk-quantum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planqk-quantum-2.0.0rc1.tar.gz tmp/planqk-quantum-2.1.0.tar.gz --markdown 20240410/p/planqk-quantum/2.0.0rc1-2.1.0/README.md --exclude *.pyd
+[2024-04-10 12:25:51] INFO root fetch - processPackages [hagrid]: executing diffoscope
+[2024-04-10 12:25:51] INFO root fetch - processPackages [hagrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hagrid-0.3.98.tar.gz tmp/hagrid-0.3.99.tar.gz --markdown 20240410/h/hagrid/0.3.98-0.3.99/README.md --exclude *.pyd
+[2024-04-10 12:25:51] INFO root fetch - processPackages [scrapegraphai]: Remove: archive file [/home/abi/fetcher/tmp/scrapegraphai-0.1.2.tar.gz]
+[2024-04-10 12:25:51] INFO root fetch - processPackages [scrapegraphai]: Remove: archive file [/home/abi/fetcher/tmp/scrapegraphai-0.1.3.tar.gz]
+[2024-04-10 12:25:51] INFO root fetch - main [MainThread]: End processing [scrapegraphai]: success
+[2024-04-10 12:25:52] INFO root fetch - processPackages [sts-libs]: Remove: archive file [/home/abi/fetcher/tmp/sts_libs-0.1.6rc0.tar.gz]
+[2024-04-10 12:25:52] INFO root fetch - processPackages [sts-libs]: Remove: archive file [/home/abi/fetcher/tmp/sts_libs-0.1.7.tar.gz]
+[2024-04-10 12:25:52] INFO root fetch - main [MainThread]: End processing [sts-libs]: success
+[2024-04-10 12:25:52] INFO root fetch - processPackages [planqk-quantum]: Remove: archive file [/home/abi/fetcher/tmp/planqk-quantum-2.0.0rc1.tar.gz]
+[2024-04-10 12:25:52] INFO root fetch - processPackages [planqk-quantum]: Remove: archive file [/home/abi/fetcher/tmp/planqk-quantum-2.1.0.tar.gz]
+[2024-04-10 12:25:52] INFO root fetch - main [MainThread]: End processing [planqk-quantum]: success
+[2024-04-10 12:25:52] INFO root fetch - processPackages [hagrid]: Remove: archive file [/home/abi/fetcher/tmp/hagrid-0.3.98.tar.gz]
+[2024-04-10 12:25:52] INFO root fetch - processPackages [hagrid]: Remove: archive file [/home/abi/fetcher/tmp/hagrid-0.3.99.tar.gz]
+[2024-04-10 12:25:52] INFO root fetch - main [MainThread]: End processing [hagrid]: success
+[2024-04-10 12:25:53] INFO root fetch - processPackages [pulumi-artifactory]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_artifactory-6.5.0a1712725969.tar.gz]
+[2024-04-10 12:25:53] INFO root fetch - processPackages [pulumi-artifactory]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_artifactory-6.5.0a1712742347.tar.gz]
+[2024-04-10 12:25:53] INFO root fetch - main [MainThread]: End processing [pulumi-artifactory]: success
+[2024-04-10 12:25:53] INFO root fetch - main [MainThread]: Store serial: [22698927]

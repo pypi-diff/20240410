@@ -17836,3 +17836,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 10:47:42] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2024-04-10 10:47:42] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2024-04-10 10:47:42] INFO root fetch - main [MainThread]: Store serial: [22697961]
+[2024-04-10 10:49:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22697961]
+[2024-04-10 10:49:50] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-10 10:49:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: huojiweiguoba
+[2024-04-10 10:49:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mysqlconnectautomation
+[2024-04-10 10:49:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pdots
+[2024-04-10 10:49:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stock-hexagonal-app
+[2024-04-10 10:49:51] INFO root fetch - processPackages [huojiweiguoba]: New version: [9.0] Old Version: [8.0]
+[2024-04-10 10:49:51] INFO root fetch - processPackages [huojiweiguoba]: Downloading https://files.pythonhosted.org/packages/9b/6f/b64a46e83d6bfc0f46bb336114ec9f43e3939f86a70108c310351b4f02b4/huojiweiguoba-8.0.tar.gz
+[2024-04-10 10:49:51] INFO root fetch - processPackages [mysqlconnectautomation]: New version: [0.0.5] Old Version: [0.0.1]
+[2024-04-10 10:49:51] INFO root fetch - processPackages [pdots]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-04-10 10:49:51] INFO root fetch - processPackages [stock-hexagonal-app]: New version: [0.2.0] Old Version: [0.1.6]
+[2024-04-10 10:49:51] INFO root fetch - processPackages [mysqlconnectautomation]: Downloading https://files.pythonhosted.org/packages/d0/17/1fa087b5590070fc1d0371e307415f39c4056e5ff9e470a87cbe8610b4c9/mysqlconnectautomation-0.0.1.tar.gz
+[2024-04-10 10:49:51] INFO root fetch - processPackages [pdots]: Downloading https://files.pythonhosted.org/packages/d3/9e/e8499af35aaaa878670efd876885e0795657e5c6727fee724116d1ca49c4/pdots-0.2.1.tar.gz
+[2024-04-10 10:49:51] INFO root fetch - processPackages [stock-hexagonal-app]: Downloading https://files.pythonhosted.org/packages/df/df/4ffa628426d709c30f7905aa7b626a3e275ea75a7966ed302b348078cb12/stock-hexagonal-app-0.1.6.tar.gz
+[2024-04-10 10:49:51] INFO root fetch - processPackages [huojiweiguoba]: Downloading https://files.pythonhosted.org/packages/3a/79/586f36e886e9e8dcfc4129b51554721e3019a3b5fc5ca074d349a5747db3/huojiweiguoba-9.0.tar.gz
+[2024-04-10 10:49:51] INFO root fetch - processPackages [huojiweiguoba]: executing diffoscope
+[2024-04-10 10:49:51] INFO root fetch - processPackages [huojiweiguoba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huojiweiguoba-8.0.tar.gz tmp/huojiweiguoba-9.0.tar.gz --markdown 20240410/h/huojiweiguoba/8.0-9.0/README.md --exclude *.pyd
+[2024-04-10 10:49:51] INFO root fetch - processPackages [mysqlconnectautomation]: Downloading https://files.pythonhosted.org/packages/75/11/b58bc8c32497f73c9080f4473d45a8bf80644f90337be5b1e66af612cfeb/mysqlconnectautomation-0.0.5.tar.gz
+[2024-04-10 10:49:51] INFO root fetch - processPackages [stock-hexagonal-app]: Downloading https://files.pythonhosted.org/packages/0a/fe/6c67b1906abfee91682594faafc9f6cd677c67d333031e16df8ec22c80b9/stock-hexagonal-app-0.2.0.tar.gz
+[2024-04-10 10:49:51] INFO root fetch - processPackages [pdots]: Downloading https://files.pythonhosted.org/packages/bd/2e/106e523afa0a318e59a2b6afc571156419628b399161fc77c4532bc4a212/pdots-0.3.0.tar.gz
+[2024-04-10 10:49:51] INFO root fetch - processPackages [mysqlconnectautomation]: executing diffoscope
+[2024-04-10 10:49:51] INFO root fetch - processPackages [mysqlconnectautomation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysqlconnectautomation-0.0.1.tar.gz tmp/mysqlconnectautomation-0.0.5.tar.gz --markdown 20240410/m/mysqlconnectautomation/0.0.1-0.0.5/README.md --exclude *.pyd
+[2024-04-10 10:49:51] INFO root fetch - processPackages [stock-hexagonal-app]: executing diffoscope
+[2024-04-10 10:49:51] INFO root fetch - processPackages [stock-hexagonal-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stock-hexagonal-app-0.1.6.tar.gz tmp/stock-hexagonal-app-0.2.0.tar.gz --markdown 20240410/s/stock-hexagonal-app/0.1.6-0.2.0/README.md --exclude *.pyd
+[2024-04-10 10:49:51] INFO root fetch - processPackages [pdots]: executing diffoscope
+[2024-04-10 10:49:51] INFO root fetch - processPackages [pdots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdots-0.2.1.tar.gz tmp/pdots-0.3.0.tar.gz --markdown 20240410/p/pdots/0.2.1-0.3.0/README.md --exclude *.pyd
+[2024-04-10 10:49:52] INFO root fetch - processPackages [huojiweiguoba]: Remove: archive file [/home/abi/fetcher/tmp/huojiweiguoba-8.0.tar.gz]
+[2024-04-10 10:49:52] INFO root fetch - processPackages [huojiweiguoba]: Remove: archive file [/home/abi/fetcher/tmp/huojiweiguoba-9.0.tar.gz]
+[2024-04-10 10:49:52] INFO root fetch - main [MainThread]: End processing [huojiweiguoba]: success
+[2024-04-10 10:49:52] INFO root fetch - processPackages [pdots]: Remove: archive file [/home/abi/fetcher/tmp/pdots-0.2.1.tar.gz]
+[2024-04-10 10:49:52] INFO root fetch - processPackages [pdots]: Remove: archive file [/home/abi/fetcher/tmp/pdots-0.3.0.tar.gz]
+[2024-04-10 10:49:52] INFO root fetch - main [MainThread]: End processing [pdots]: success
+[2024-04-10 10:49:52] INFO root fetch - processPackages [stock-hexagonal-app]: Remove: archive file [/home/abi/fetcher/tmp/stock-hexagonal-app-0.1.6.tar.gz]
+[2024-04-10 10:49:52] INFO root fetch - processPackages [stock-hexagonal-app]: Remove: archive file [/home/abi/fetcher/tmp/stock-hexagonal-app-0.2.0.tar.gz]
+[2024-04-10 10:49:52] INFO root fetch - main [MainThread]: End processing [stock-hexagonal-app]: success
+[2024-04-10 10:49:52] INFO root fetch - processPackages [mysqlconnectautomation]: Remove: archive file [/home/abi/fetcher/tmp/mysqlconnectautomation-0.0.1.tar.gz]
+[2024-04-10 10:49:52] INFO root fetch - processPackages [mysqlconnectautomation]: Remove: archive file [/home/abi/fetcher/tmp/mysqlconnectautomation-0.0.5.tar.gz]
+[2024-04-10 10:49:52] INFO root fetch - main [MainThread]: End processing [mysqlconnectautomation]: success
+[2024-04-10 10:49:52] INFO root fetch - main [MainThread]: Store serial: [22697976]

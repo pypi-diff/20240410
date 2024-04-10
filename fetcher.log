@@ -13907,3 +13907,87 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 08:13:58] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-2.3.9.dev20240302.tar.gz]
 [2024-04-10 08:13:58] INFO root fetch - main [MainThread]: End processing [pretext]: success
 [2024-04-10 08:13:58] INFO root fetch - main [MainThread]: Store serial: [22696376]
+[2024-04-10 08:16:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22696376]
+[2024-04-10 08:16:06] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-10 08:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk8s-awscdk-resolver
+[2024-04-10 08:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-kafka
+[2024-04-10 08:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-docker
+[2024-04-10 08:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: telepoller
+[2024-04-10 08:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-http
+[2024-04-10 08:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fake-bpy-module-latest
+[2024-04-10 08:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-alicloud
+[2024-04-10 08:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fake-bpy-module
+[2024-04-10 08:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-libvirt
+[2024-04-10 08:16:06] INFO root fetch - processPackages [telepoller]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-10 08:16:07] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20240409] Old Version: [20240408]
+[2024-04-10 08:16:07] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: New version: [0.0.9] Old Version: [0.0.80]
+[2024-04-10 08:16:07] INFO root fetch - processPackages [fake-bpy-module]: New version: [20240409] Old Version: [20240408]
+[2024-04-10 08:16:07] INFO root fetch - processPackages [pulumi-kafka]: New version: [3.8.0a1712728075] Old Version: [3.8.0a1712399632]
+[2024-04-10 08:16:07] INFO root fetch - processPackages [pulumi-http]: New version: [0.0.4a1712727917] Old Version: [0.0.4a1712399582]
+[2024-04-10 08:16:07] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/d5/49/3cfa65ebbad7dd09e7279760bf8f3515a1453085501f9580e7a35f519eb8/fake-bpy-module-latest-20240408.tar.gz
+[2024-04-10 08:16:07] INFO root fetch - processPackages [pulumi-alicloud]: New version: [3.9.0a1637592974] Old Version: [3.9.0a1635778307]
+[2024-04-10 08:16:07] INFO root fetch - processPackages [pulumi-docker]: New version: [4.7.0a1705628423] Old Version: [4.7.0a1705607229]
+[2024-04-10 08:16:07] INFO root fetch - processPackages [fake-bpy-module]: Downloading https://files.pythonhosted.org/packages/28/c4/75175a143b2bfa755319e9f5a499911cf53cd60ca16eb8d4280d9717f2c5/fake-bpy-module-20240408.tar.gz
+[2024-04-10 08:16:07] INFO root fetch - processPackages [telepoller]: Downloading https://files.pythonhosted.org/packages/52/d7/f2f5e107efca419abd02269d61fff9b9c3df96a37bd19560d1871c8361e1/telepoller-0.0.1.tar.gz
+[2024-04-10 08:16:07] INFO root fetch - processPackages [pulumi-libvirt]: New version: [0.4.6a1712728276] Old Version: [0.4.6a1712468977]
+[2024-04-10 08:16:07] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Downloading https://files.pythonhosted.org/packages/19/f2/b2d6871b7eae29791c502487d9518b0d361668e41762e7fda34a1f76492c/cdk8s-awscdk-resolver-0.0.80.tar.gz
+[2024-04-10 08:16:07] INFO root fetch - processPackages [pulumi-kafka]: Downloading https://files.pythonhosted.org/packages/3b/f1/2ae41898d88b8601b981eb37edef896352d62bb846bdb322c70f8823c256/pulumi_kafka-3.8.0a1712399632.tar.gz
+[2024-04-10 08:16:07] INFO root fetch - processPackages [pulumi-http]: Downloading https://files.pythonhosted.org/packages/73/19/26aa981a618e0ad82d1a990c9a3e9f72d41eb5307af2dad2e1c188394f13/pulumi_http-0.0.4a1712399582.tar.gz
+[2024-04-10 08:16:07] INFO root fetch - processPackages [pulumi-docker]: Downloading https://files.pythonhosted.org/packages/60/4d/20db01394ae207e38e34244a087a77010c3163b5176d5ed60b9e938b94df/pulumi_docker-4.7.0a1705607229.tar.gz
+[2024-04-10 08:16:07] INFO root fetch - processPackages [pulumi-alicloud]: Downloading https://files.pythonhosted.org/packages/be/79/da6d86e1953fc7bde0762279ac850d45fe8ad91ff27a3c837009ede717a4/pulumi_alicloud-3.9.0a1635778307.tar.gz
+[2024-04-10 08:16:07] INFO root fetch - processPackages [pulumi-libvirt]: Downloading https://files.pythonhosted.org/packages/4a/46/ef3bb74d104e4f0ea5b78377777f14dc751d5f121bb4c3abccc7da3f34c4/pulumi_libvirt-0.4.6a1712468977.tar.gz
+[2024-04-10 08:16:07] INFO root fetch - processPackages [telepoller]: Downloading https://files.pythonhosted.org/packages/ac/c3/b8e574e37df96fd0a32c20bb128545578bb2eb17233e0bf4e54968d13dcb/telepoller-0.0.2.tar.gz
+[2024-04-10 08:16:07] INFO root fetch - processPackages [fake-bpy-module]: Downloading https://files.pythonhosted.org/packages/71/6c/452c1ec954d6fdbf64933535caede1c54ce47c71d12f3ee5cefdbf22d4e5/fake-bpy-module-20240409.tar.gz
+[2024-04-10 08:16:07] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/e5/13/286df962233fd020f22e3180b125cd79e4ea6321e504d80b0cacf45aa757/fake-bpy-module-latest-20240409.tar.gz
+[2024-04-10 08:16:07] INFO root fetch - processPackages [pulumi-http]: Downloading https://files.pythonhosted.org/packages/36/ad/d5a7a842f453f1fb5ffb1b3fe00abeeb3a638a7a864247b6b682278c86d9/pulumi_http-0.0.4a1712727917.tar.gz
+[2024-04-10 08:16:07] INFO root fetch - processPackages [pulumi-kafka]: Downloading https://files.pythonhosted.org/packages/e7/f0/16aa6b6d739bd2ab1452b2ba00b6d3b5330c3c1944d46d773be16e2fc31c/pulumi_kafka-3.8.0a1712728075.tar.gz
+[2024-04-10 08:16:07] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Downloading https://files.pythonhosted.org/packages/e4/ba/3b1af2b8b411cdb77e57e6b1d4e656a18d1c62c5fddbd831b369378f4fbd/cdk8s-awscdk-resolver-0.0.9.tar.gz
+[2024-04-10 08:16:07] INFO root fetch - processPackages [telepoller]: executing diffoscope
+[2024-04-10 08:16:07] INFO root fetch - processPackages [telepoller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telepoller-0.0.1.tar.gz tmp/telepoller-0.0.2.tar.gz --markdown 20240410/t/telepoller/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-10 08:16:07] INFO root fetch - processPackages [pulumi-docker]: Downloading https://files.pythonhosted.org/packages/3a/93/a866b50173039bae813e131505cf7ed97c33cb79c113926b2b63dfd1caf2/pulumi_docker-4.7.0a1705628423.tar.gz
+[2024-04-10 08:16:07] INFO root fetch - processPackages [pulumi-kafka]: executing diffoscope
+[2024-04-10 08:16:07] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2024-04-10 08:16:07] INFO root fetch - processPackages [pulumi-kafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kafka-3.8.0a1712399632.tar.gz tmp/pulumi_kafka-3.8.0a1712728075.tar.gz --markdown 20240410/p/pulumi-kafka/3.8.0a1712399632-3.8.0a1712728075/README.md --exclude *.pyd
+[2024-04-10 08:16:07] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20240408.tar.gz tmp/fake-bpy-module-latest-20240409.tar.gz --markdown 20240410/f/fake-bpy-module-latest/20240408-20240409/README.md --exclude *.pyd
+[2024-04-10 08:16:07] INFO root fetch - processPackages [fake-bpy-module]: executing diffoscope
+[2024-04-10 08:16:07] INFO root fetch - processPackages [fake-bpy-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-20240408.tar.gz tmp/fake-bpy-module-20240409.tar.gz --markdown 20240410/f/fake-bpy-module/20240408-20240409/README.md --exclude *.pyd
+[2024-04-10 08:16:07] INFO root fetch - processPackages [pulumi-libvirt]: Downloading https://files.pythonhosted.org/packages/0c/1d/0f76807569df6639a95342064d6bca94c97aff5cf2a8615b25f822266275/pulumi_libvirt-0.4.6a1712728276-py3-none-any.whl
+[2024-04-10 08:16:07] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: executing diffoscope
+[2024-04-10 08:16:07] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-awscdk-resolver-0.0.80.tar.gz tmp/cdk8s-awscdk-resolver-0.0.9.tar.gz --markdown 20240410/c/cdk8s-awscdk-resolver/0.0.80-0.0.9/README.md --exclude *.pyd
+[2024-04-10 08:16:07] INFO root fetch - processPackages [pulumi-http]: executing diffoscope
+[2024-04-10 08:16:07] INFO root fetch - processPackages [pulumi-http]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_http-0.0.4a1712399582.tar.gz tmp/pulumi_http-0.0.4a1712727917.tar.gz --markdown 20240410/p/pulumi-http/0.0.4a1712399582-0.0.4a1712727917/README.md --exclude *.pyd
+[2024-04-10 08:16:07] INFO root fetch - processPackages [pulumi-docker]: executing diffoscope
+[2024-04-10 08:16:07] INFO root fetch - processPackages [pulumi-docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_docker-4.7.0a1705607229.tar.gz tmp/pulumi_docker-4.7.0a1705628423.tar.gz --markdown 20240410/p/pulumi-docker/4.7.0a1705607229-4.7.0a1705628423/README.md --exclude *.pyd
+[2024-04-10 08:16:08] INFO root fetch - processPackages [pulumi-alicloud]: Downloading https://files.pythonhosted.org/packages/7a/b5/f47603b555625f7ec29ec6dcdc2cf74fe00dc52cba5fad75ddd65d3bd99e/pulumi_alicloud-3.9.0a1637592974.tar.gz
+[2024-04-10 08:16:08] INFO root fetch - processPackages [pulumi-alicloud]: executing diffoscope
+[2024-04-10 08:16:08] INFO root fetch - processPackages [pulumi-alicloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_alicloud-3.9.0a1635778307.tar.gz tmp/pulumi_alicloud-3.9.0a1637592974.tar.gz --markdown 20240410/p/pulumi-alicloud/3.9.0a1635778307-3.9.0a1637592974/README.md --exclude *.pyd
+[2024-04-10 08:16:08] INFO root fetch - processPackages [pulumi-libvirt]: executing diffoscope
+[2024-04-10 08:16:08] INFO root fetch - processPackages [pulumi-libvirt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_libvirt-0.4.6a1712468977.tar.gz tmp/pulumi_libvirt-0.4.6a1712728276-py3-none-any.whl.zip --markdown 20240410/p/pulumi-libvirt/0.4.6a1712468977-0.4.6a1712728276/README.md --exclude *.pyd
+[2024-04-10 08:16:08] INFO root fetch - processPackages [telepoller]: Remove: archive file [/home/abi/fetcher/tmp/telepoller-0.0.1.tar.gz]
+[2024-04-10 08:16:08] INFO root fetch - processPackages [telepoller]: Remove: archive file [/home/abi/fetcher/tmp/telepoller-0.0.2.tar.gz]
+[2024-04-10 08:16:08] INFO root fetch - main [MainThread]: End processing [telepoller]: success
+[2024-04-10 08:16:08] INFO root fetch - processPackages [pulumi-http]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_http-0.0.4a1712399582.tar.gz]
+[2024-04-10 08:16:08] INFO root fetch - processPackages [pulumi-http]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_http-0.0.4a1712727917.tar.gz]
+[2024-04-10 08:16:08] INFO root fetch - main [MainThread]: End processing [pulumi-http]: success
+[2024-04-10 08:16:08] INFO root fetch - processPackages [pulumi-kafka]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kafka-3.8.0a1712399632.tar.gz]
+[2024-04-10 08:16:08] INFO root fetch - processPackages [pulumi-kafka]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kafka-3.8.0a1712728075.tar.gz]
+[2024-04-10 08:16:08] INFO root fetch - main [MainThread]: End processing [pulumi-kafka]: success
+[2024-04-10 08:16:08] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-awscdk-resolver-0.0.80.tar.gz]
+[2024-04-10 08:16:08] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-awscdk-resolver-0.0.9.tar.gz]
+[2024-04-10 08:16:08] INFO root fetch - main [MainThread]: End processing [cdk8s-awscdk-resolver]: success
+[2024-04-10 08:16:09] INFO root fetch - processPackages [pulumi-docker]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_docker-4.7.0a1705607229.tar.gz]
+[2024-04-10 08:16:09] INFO root fetch - processPackages [pulumi-docker]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_docker-4.7.0a1705628423.tar.gz]
+[2024-04-10 08:16:09] INFO root fetch - main [MainThread]: End processing [pulumi-docker]: success
+[2024-04-10 08:16:09] INFO root fetch - processPackages [pulumi-libvirt]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_libvirt-0.4.6a1712468977.tar.gz]
+[2024-04-10 08:16:09] INFO root fetch - processPackages [pulumi-libvirt]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_libvirt-0.4.6a1712728276-py3-none-any.whl.zip]
+[2024-04-10 08:16:09] INFO root fetch - main [MainThread]: End processing [pulumi-libvirt]: success
+[2024-04-10 08:16:15] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20240408.tar.gz]
+[2024-04-10 08:16:15] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20240409.tar.gz]
+[2024-04-10 08:16:15] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2024-04-10 08:16:15] INFO root fetch - processPackages [fake-bpy-module]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-20240408.tar.gz]
+[2024-04-10 08:16:15] INFO root fetch - processPackages [fake-bpy-module]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-20240409.tar.gz]
+[2024-04-10 08:16:15] INFO root fetch - main [MainThread]: End processing [fake-bpy-module]: success
+[2024-04-10 08:16:16] INFO root fetch - processPackages [pulumi-alicloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_alicloud-3.9.0a1635778307.tar.gz]
+[2024-04-10 08:16:16] INFO root fetch - processPackages [pulumi-alicloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_alicloud-3.9.0a1637592974.tar.gz]
+[2024-04-10 08:16:16] INFO root fetch - main [MainThread]: End processing [pulumi-alicloud]: success
+[2024-04-10 08:16:16] INFO root fetch - main [MainThread]: Store serial: [22696401]

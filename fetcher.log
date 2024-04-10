@@ -23075,3 +23075,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-10 14:05:12] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
 [2024-04-10 14:05:12] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
 [2024-04-10 14:05:12] INFO root fetch - main [MainThread]: Store serial: [22700636]
+[2024-04-10 14:07:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22700636]
+[2024-04-10 14:07:21] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-10 14:07:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: businessmodels
+[2024-04-10 14:07:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: thonny-etboard-micropython-firmware-v2
+[2024-04-10 14:07:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qtlink
+[2024-04-10 14:07:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: emx
+[2024-04-10 14:07:21] INFO root fetch - processPackages [thonny-etboard-micropython-firmware-v2]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-10 14:07:21] INFO root fetch - processPackages [emx]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-10 14:07:21] INFO root fetch - processPackages [thonny-etboard-micropython-firmware-v2]: Downloading https://files.pythonhosted.org/packages/e2/66/445378146c4cd16b7c1d105410cb144e79b54e0d3c96a3bf1fdefa19b7d4/thonny-etboard-micropython-firmware-v2-1.0.4.tar.gz
+[2024-04-10 14:07:21] INFO root fetch - processPackages [qtlink]: New version: [1.1.0] Old Version: [1.0.8]
+[2024-04-10 14:07:21] INFO root fetch - processPackages [businessmodels]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-10 14:07:22] INFO root fetch - processPackages [emx]: Downloading https://files.pythonhosted.org/packages/d2/35/83a47f3a117d816d95717ae3c3ab0c0a8d570ffd311dc9055bf51ef55b81/emx-1.0.0-py3-none-any.whl
+[2024-04-10 14:07:22] INFO root fetch - processPackages [businessmodels]: Downloading https://files.pythonhosted.org/packages/ca/2d/f48ad2316d5d415489a9aaea87a4b7283852fc9116cf043aebcc499d0749/businessmodels-0.1.5-py3-none-any.whl
+[2024-04-10 14:07:22] INFO root fetch - processPackages [qtlink]: Downloading https://files.pythonhosted.org/packages/10/fb/e2bea54a33aebeebc0ee9b084aa3d1338f89c5589789d78f11442da47dbc/qtlink-1.0.8.tar.gz
+[2024-04-10 14:07:22] INFO root fetch - processPackages [emx]: Downloading https://files.pythonhosted.org/packages/f5/f8/47f93d92b97b3274f4217d1b82d0d5ca34cb03437ce5f161b9bc93ac44d9/emx-1.0.1-py3-none-any.whl
+[2024-04-10 14:07:22] INFO root fetch - processPackages [thonny-etboard-micropython-firmware-v2]: Downloading https://files.pythonhosted.org/packages/7a/93/2c83ad56e9211139acaabe8d35e1d481a038c7f39cb8e0408744bb084f03/thonny-etboard-micropython-firmware-v2-1.0.5.tar.gz
+[2024-04-10 14:07:22] INFO root fetch - processPackages [businessmodels]: Downloading https://files.pythonhosted.org/packages/60/60/96b5fb4eac730c2b1d8d0cbdf375e586d732ac4dc5378698c66ad6200b1b/businessmodels-0.1.6.tar.gz
+[2024-04-10 14:07:22] INFO root fetch - processPackages [qtlink]: Downloading https://files.pythonhosted.org/packages/37/9b/7408bde17ecae8202a8fe5b24d979e1903a14fcd83c2324b49856f2d7431/qtlink-1.1.0.tar.gz
+[2024-04-10 14:07:22] INFO root fetch - processPackages [emx]: executing diffoscope
+[2024-04-10 14:07:22] INFO root fetch - processPackages [emx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emx-1.0.0-py3-none-any.whl.zip tmp/emx-1.0.1-py3-none-any.whl.zip --markdown 20240410/e/emx/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-10 14:07:22] INFO root fetch - processPackages [businessmodels]: executing diffoscope
+[2024-04-10 14:07:22] INFO root fetch - processPackages [businessmodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/businessmodels-0.1.5-py3-none-any.whl.zip tmp/businessmodels-0.1.6.tar.gz --markdown 20240410/b/businessmodels/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-10 14:07:22] INFO root fetch - processPackages [qtlink]: executing diffoscope
+[2024-04-10 14:07:22] INFO root fetch - processPackages [qtlink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtlink-1.0.8.tar.gz tmp/qtlink-1.1.0.tar.gz --markdown 20240410/q/qtlink/1.0.8-1.1.0/README.md --exclude *.pyd
+[2024-04-10 14:07:22] INFO root fetch - processPackages [thonny-etboard-micropython-firmware-v2]: executing diffoscope
+[2024-04-10 14:07:22] INFO root fetch - processPackages [thonny-etboard-micropython-firmware-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thonny-etboard-micropython-firmware-v2-1.0.4.tar.gz tmp/thonny-etboard-micropython-firmware-v2-1.0.5.tar.gz --markdown 20240410/t/thonny-etboard-micropython-firmware-v2/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-10 14:07:23] INFO root fetch - processPackages [emx]: Remove: archive file [/home/abi/fetcher/tmp/emx-1.0.0-py3-none-any.whl.zip]
+[2024-04-10 14:07:23] INFO root fetch - processPackages [emx]: Remove: archive file [/home/abi/fetcher/tmp/emx-1.0.1-py3-none-any.whl.zip]
+[2024-04-10 14:07:23] INFO root fetch - main [MainThread]: End processing [emx]: success
+[2024-04-10 14:07:23] INFO root fetch - processPackages [businessmodels]: Remove: archive file [/home/abi/fetcher/tmp/businessmodels-0.1.5-py3-none-any.whl.zip]
+[2024-04-10 14:07:23] INFO root fetch - processPackages [businessmodels]: Remove: archive file [/home/abi/fetcher/tmp/businessmodels-0.1.6.tar.gz]
+[2024-04-10 14:07:23] INFO root fetch - main [MainThread]: End processing [businessmodels]: success
+[2024-04-10 14:07:23] INFO root fetch - processPackages [qtlink]: Remove: archive file [/home/abi/fetcher/tmp/qtlink-1.0.8.tar.gz]
+[2024-04-10 14:07:23] INFO root fetch - processPackages [qtlink]: Remove: archive file [/home/abi/fetcher/tmp/qtlink-1.1.0.tar.gz]
+[2024-04-10 14:07:23] INFO root fetch - main [MainThread]: End processing [qtlink]: success
+[2024-04-10 14:07:23] INFO root fetch - processPackages [thonny-etboard-micropython-firmware-v2]: Remove: archive file [/home/abi/fetcher/tmp/thonny-etboard-micropython-firmware-v2-1.0.4.tar.gz]
+[2024-04-10 14:07:23] INFO root fetch - processPackages [thonny-etboard-micropython-firmware-v2]: Remove: archive file [/home/abi/fetcher/tmp/thonny-etboard-micropython-firmware-v2-1.0.5.tar.gz]
+[2024-04-10 14:07:23] INFO root fetch - main [MainThread]: End processing [thonny-etboard-micropython-firmware-v2]: success
+[2024-04-10 14:07:23] INFO root fetch - main [MainThread]: Store serial: [22700654]

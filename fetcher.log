@@ -3225,3 +3225,75 @@
 [2024-04-10 02:30:25] INFO root fetch - processPackages [NMODL-nightly]: Remove: archive file [/home/abi/fetcher/tmp/NMODL_nightly-0.6.98-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-04-10 02:30:25] INFO root fetch - main [MainThread]: End processing [NMODL-nightly]: success
 [2024-04-10 02:30:25] INFO root fetch - main [MainThread]: Store serial: [22692411]
+[2024-04-10 02:32:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22692411]
+[2024-04-10 02:32:35] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-10 02:32:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyLOOBins
+[2024-04-10 02:32:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aeppl-nightly
+[2024-04-10 02:32:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: model-hub
+[2024-04-10 02:32:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: determined
+[2024-04-10 02:32:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Quanthon
+[2024-04-10 02:32:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: AgentBruno
+[2024-04-10 02:32:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: contest-builder
+[2024-04-10 02:32:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ai-cozmo
+[2024-04-10 02:32:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-aws
+[2024-04-10 02:32:35] INFO root fetch - processPackages [Quanthon]: New version: [0.3.5] Old Version: [0.3.4.2]
+[2024-04-10 02:32:35] INFO root fetch - processPackages [contest-builder]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-10 02:32:35] INFO root fetch - processPackages [aeppl-nightly]: New version: [0.1.5.dev20240409] Old Version: [0.1.5.dev20240408]
+[2024-04-10 02:32:35] INFO root fetch - processPackages [Quanthon]: Downloading https://files.pythonhosted.org/packages/0c/9f/8d8867144d2d4a5a34c09f4809e9d823b57b3594e2f05812743870fc87af/Quanthon-0.3.4.2.tar.gz
+[2024-04-10 02:32:35] INFO root fetch - processPackages [model-hub]: New version: [0.30.1rc0] Old Version: [0.30.0rc5]
+[2024-04-10 02:32:35] INFO root fetch - processPackages [contest-builder]: Downloading https://files.pythonhosted.org/packages/ee/7f/357c955623dfd90aad92ae126ebfa60772d25b2020e30d7a145733510fac/contest-builder-0.0.3.tar.gz
+[2024-04-10 02:32:35] INFO root fetch - processPackages [PyLOOBins]: New version: [1.6.0] Old Version: [1.5.0]
+[2024-04-10 02:32:35] WARNING root fetch - processPackages [ai-cozmo]: Skipping, unable to determine old version
+[2024-04-10 02:32:35] INFO root fetch - main [MainThread]: End processing [ai-cozmo] error
+[2024-04-10 02:32:35] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/b4/68/5336da24665bb66a6f5346b891f589ea4bc9d8abc4f61dac90e2059272c6/aeppl-nightly-0.1.5.dev20240408.tar.gz
+[2024-04-10 02:32:35] WARNING root fetch - processPackages [AgentBruno]: Skipping, unable to determine old version
+[2024-04-10 02:32:35] INFO root fetch - main [MainThread]: End processing [AgentBruno] error
+[2024-04-10 02:32:35] INFO root fetch - processPackages [determined]: New version: [0.30.1rc0] Old Version: [0.30.0rc5]
+[2024-04-10 02:32:35] INFO root fetch - processPackages [pulumi-aws]: New version: [6.9.0a1700084435] Old Version: [6.9.0a1699991594]
+[2024-04-10 02:32:35] INFO root fetch - processPackages [Quanthon]: Downloading https://files.pythonhosted.org/packages/3d/00/bf0e1d61a2be444439121e6932e4259c1f36587064a26cba340813f4c7d9/Quanthon-0.3.5.tar.gz
+[2024-04-10 02:32:35] INFO root fetch - processPackages [model-hub]: Downloading https://files.pythonhosted.org/packages/df/d2/568b17b751fdfbfec735b6232c80f395ec36d62aef7fd7cd0649e330b3ef/model_hub-0.30.0rc5-py3-none-any.whl
+[2024-04-10 02:32:35] INFO root fetch - processPackages [PyLOOBins]: Downloading https://files.pythonhosted.org/packages/2c/d8/0dd447d0ae4b8e4ad62c41fe19650099cbc52898c55a539671360cd746a6/pyloobins-1.5.0.tar.gz
+[2024-04-10 02:32:36] INFO root fetch - processPackages [determined]: Downloading https://files.pythonhosted.org/packages/22/23/eb135834f7ec076a453d4e637fc50852912176888465b08aac809c372a56/determined-0.30.0rc5-py3-none-any.whl
+[2024-04-10 02:32:36] INFO root fetch - processPackages [Quanthon]: executing diffoscope
+[2024-04-10 02:32:36] INFO root fetch - processPackages [Quanthon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Quanthon-0.3.4.2.tar.gz tmp/Quanthon-0.3.5.tar.gz --markdown 20240410/Q/Quanthon/0.3.4.2-0.3.5/README.md --exclude *.pyd
+[2024-04-10 02:32:36] INFO root fetch - processPackages [contest-builder]: Downloading https://files.pythonhosted.org/packages/9f/45/40d90e5745162d4735c93e0b836135e24be649609be602520391b5043365/contest-builder-0.0.4.tar.gz
+[2024-04-10 02:32:36] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/e1/df/14b748e40340692e18bd19ad3631916881c3bfc6ab8cc9db1f79ca1fb86a/pulumi_aws-6.9.0a1699991594.tar.gz
+[2024-04-10 02:32:36] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/43/00/31f0bbdf29113a4d6e01a97418c2aa6be2849e1cad2201c6f970a4c38886/aeppl-nightly-0.1.5.dev20240409.tar.gz
+[2024-04-10 02:32:36] INFO root fetch - processPackages [contest-builder]: executing diffoscope
+[2024-04-10 02:32:36] INFO root fetch - processPackages [contest-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contest-builder-0.0.3.tar.gz tmp/contest-builder-0.0.4.tar.gz --markdown 20240410/c/contest-builder/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-10 02:32:36] INFO root fetch - processPackages [aeppl-nightly]: executing diffoscope
+[2024-04-10 02:32:36] INFO root fetch - processPackages [aeppl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeppl-nightly-0.1.5.dev20240408.tar.gz tmp/aeppl-nightly-0.1.5.dev20240409.tar.gz --markdown 20240410/a/aeppl-nightly/0.1.5.dev20240408-0.1.5.dev20240409/README.md --exclude *.pyd
+[2024-04-10 02:32:36] INFO root fetch - processPackages [model-hub]: Downloading https://files.pythonhosted.org/packages/c4/39/7efdba199373d71a628c0077a8af353030506d95e06e4986445011619001/model_hub-0.30.1rc0-py3-none-any.whl
+[2024-04-10 02:32:36] INFO root fetch - processPackages [PyLOOBins]: Downloading https://files.pythonhosted.org/packages/d1/0d/aac5da39e01144fa109653c03272dcddda7fcd9a17ede948fc12b5d438bb/pyloobins-1.6.0.tar.gz
+[2024-04-10 02:32:36] INFO root fetch - processPackages [model-hub]: executing diffoscope
+[2024-04-10 02:32:36] INFO root fetch - processPackages [model-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_hub-0.30.0rc5-py3-none-any.whl.zip tmp/model_hub-0.30.1rc0-py3-none-any.whl.zip --markdown 20240410/m/model-hub/0.30.0rc5-0.30.1rc0/README.md --exclude *.pyd
+[2024-04-10 02:32:36] INFO root fetch - processPackages [PyLOOBins]: executing diffoscope
+[2024-04-10 02:32:36] INFO root fetch - processPackages [PyLOOBins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyloobins-1.5.0.tar.gz tmp/pyloobins-1.6.0.tar.gz --markdown 20240410/P/PyLOOBins/1.5.0-1.6.0/README.md --exclude *.pyd
+[2024-04-10 02:32:36] INFO root fetch - processPackages [determined]: Downloading https://files.pythonhosted.org/packages/58/02/f064870958b343cfcfd39af14059f8d32edd061d36d4c39cd330d43a4e91/determined-0.30.1rc0-py3-none-any.whl
+[2024-04-10 02:32:36] INFO root fetch - processPackages [determined]: executing diffoscope
+[2024-04-10 02:32:36] INFO root fetch - processPackages [determined]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/determined-0.30.0rc5-py3-none-any.whl.zip tmp/determined-0.30.1rc0-py3-none-any.whl.zip --markdown 20240410/d/determined/0.30.0rc5-0.30.1rc0/README.md --exclude *.pyd
+[2024-04-10 02:32:36] INFO root fetch - processPackages [Quanthon]: Remove: archive file [/home/abi/fetcher/tmp/Quanthon-0.3.4.2.tar.gz]
+[2024-04-10 02:32:36] INFO root fetch - processPackages [Quanthon]: Remove: archive file [/home/abi/fetcher/tmp/Quanthon-0.3.5.tar.gz]
+[2024-04-10 02:32:36] INFO root fetch - main [MainThread]: End processing [Quanthon]: success
+[2024-04-10 02:32:36] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/f3/70/32e3669ea3bb0042d4f4aac12c2584c3217ddc25b9e1646f05b9a9e1a24f/pulumi_aws-6.9.0a1700084435.tar.gz
+[2024-04-10 02:32:37] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.5.dev20240408.tar.gz]
+[2024-04-10 02:32:37] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.5.dev20240409.tar.gz]
+[2024-04-10 02:32:37] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
+[2024-04-10 02:32:37] INFO root fetch - processPackages [model-hub]: Remove: archive file [/home/abi/fetcher/tmp/model_hub-0.30.0rc5-py3-none-any.whl.zip]
+[2024-04-10 02:32:37] INFO root fetch - processPackages [model-hub]: Remove: archive file [/home/abi/fetcher/tmp/model_hub-0.30.1rc0-py3-none-any.whl.zip]
+[2024-04-10 02:32:37] INFO root fetch - main [MainThread]: End processing [model-hub]: success
+[2024-04-10 02:32:37] INFO root fetch - processPackages [contest-builder]: Remove: archive file [/home/abi/fetcher/tmp/contest-builder-0.0.3.tar.gz]
+[2024-04-10 02:32:37] INFO root fetch - processPackages [contest-builder]: Remove: archive file [/home/abi/fetcher/tmp/contest-builder-0.0.4.tar.gz]
+[2024-04-10 02:32:37] INFO root fetch - main [MainThread]: End processing [contest-builder]: success
+[2024-04-10 02:32:37] INFO root fetch - processPackages [PyLOOBins]: Remove: archive file [/home/abi/fetcher/tmp/pyloobins-1.5.0.tar.gz]
+[2024-04-10 02:32:37] INFO root fetch - processPackages [PyLOOBins]: Remove: archive file [/home/abi/fetcher/tmp/pyloobins-1.6.0.tar.gz]
+[2024-04-10 02:32:37] INFO root fetch - main [MainThread]: End processing [PyLOOBins]: success
+[2024-04-10 02:32:37] INFO root fetch - processPackages [pulumi-aws]: executing diffoscope
+[2024-04-10 02:32:37] INFO root fetch - processPackages [pulumi-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws-6.9.0a1699991594.tar.gz tmp/pulumi_aws-6.9.0a1700084435.tar.gz --markdown 20240410/p/pulumi-aws/6.9.0a1699991594-6.9.0a1700084435/README.md --exclude *.pyd
+[2024-04-10 02:32:39] INFO root fetch - processPackages [determined]: Remove: archive file [/home/abi/fetcher/tmp/determined-0.30.0rc5-py3-none-any.whl.zip]
+[2024-04-10 02:32:39] INFO root fetch - processPackages [determined]: Remove: archive file [/home/abi/fetcher/tmp/determined-0.30.1rc0-py3-none-any.whl.zip]
+[2024-04-10 02:32:39] INFO root fetch - main [MainThread]: End processing [determined]: success
+[2024-04-10 02:32:53] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1699991594.tar.gz]
+[2024-04-10 02:32:53] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1700084435.tar.gz]
+[2024-04-10 02:32:53] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
+[2024-04-10 02:32:53] INFO root fetch - main [MainThread]: Store serial: [22692438]

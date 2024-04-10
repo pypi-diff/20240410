@@ -9703,3 +9703,54 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 04:41:51] INFO root fetch - processPackages [ros-cdk-flink]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-flink-1.0.9.tar.gz]
 [2024-04-10 04:41:51] INFO root fetch - main [MainThread]: End processing [ros-cdk-flink]: success
 [2024-04-10 04:41:51] INFO root fetch - main [MainThread]: Store serial: [22694724]
+[2024-04-10 04:43:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22694724]
+[2024-04-10 04:44:01] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-10 04:44:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fave-asr
+[2024-04-10 04:44:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lumibot
+[2024-04-10 04:44:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: supamodel
+[2024-04-10 04:44:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ros-cdk-waf3
+[2024-04-10 04:44:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ros-cdk-polardbx
+[2024-04-10 04:44:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: krabby
+[2024-04-10 04:44:01] INFO root fetch - processPackages [supamodel]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-04-10 04:44:01] INFO root fetch - processPackages [ros-cdk-waf3]: New version: [1.0.24] Old Version: [1.0.23]
+[2024-04-10 04:44:01] INFO root fetch - processPackages [lumibot]: New version: [3.3.3] Old Version: [3.3.2]
+[2024-04-10 04:44:01] WARNING root fetch - processPackages [fave-asr]: Skipping, unable to determine old version
+[2024-04-10 04:44:01] INFO root fetch - main [MainThread]: End processing [fave-asr] error
+[2024-04-10 04:44:01] INFO root fetch - processPackages [supamodel]: Downloading https://files.pythonhosted.org/packages/d4/0f/0935d01c884c429f5fd09c64fc76e33515c35e80f010af8203019739f205/supamodel-0.4.2.tar.gz
+[2024-04-10 04:44:01] INFO root fetch - processPackages [ros-cdk-polardbx]: New version: [1.0.24] Old Version: [1.0.23]
+[2024-04-10 04:44:01] INFO root fetch - processPackages [krabby]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-10 04:44:01] INFO root fetch - processPackages [ros-cdk-waf3]: Downloading https://files.pythonhosted.org/packages/de/17/83c23c757f3ad0c5d265b1b365090f1a7bc8732ea90f7b3d839085359a38/ros-cdk-waf3-1.0.23.tar.gz
+[2024-04-10 04:44:01] INFO root fetch - processPackages [lumibot]: Downloading https://files.pythonhosted.org/packages/0b/79/733fe116c2b5e0b71d0fff977df0dd2301740e94890b584be2105eb0f91b/lumibot-3.3.2.tar.gz
+[2024-04-10 04:44:01] INFO root fetch - processPackages [ros-cdk-polardbx]: Downloading https://files.pythonhosted.org/packages/03/2a/1264191d1d4a5baa597349a181c522b454425714f2a639c952fb5658d40b/ros-cdk-polardbx-1.0.23.tar.gz
+[2024-04-10 04:44:01] INFO root fetch - processPackages [krabby]: Downloading https://files.pythonhosted.org/packages/81/43/322c72eedc21fb3ea17c8e0132cc5362e3d6a6f1b2b94a4f12affb177990/krabby-0.1.8.tar.gz
+[2024-04-10 04:44:01] INFO root fetch - processPackages [supamodel]: Downloading https://files.pythonhosted.org/packages/fe/89/648f7f0e6e964211598af58d2f55206c9b34a8ccd0e94cad962ffbb1ae28/supamodel-0.4.3.tar.gz
+[2024-04-10 04:44:01] INFO root fetch - processPackages [supamodel]: executing diffoscope
+[2024-04-10 04:44:01] INFO root fetch - processPackages [supamodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supamodel-0.4.2.tar.gz tmp/supamodel-0.4.3.tar.gz --markdown 20240410/s/supamodel/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-04-10 04:44:01] INFO root fetch - processPackages [ros-cdk-waf3]: Downloading https://files.pythonhosted.org/packages/f8/8b/6262ce19d5120e84dc1030c3e6c3a249dd48433decd37ccfdb3803f6ed22/ros-cdk-waf3-1.0.24.tar.gz
+[2024-04-10 04:44:02] INFO root fetch - processPackages [ros-cdk-polardbx]: Downloading https://files.pythonhosted.org/packages/a0/01/78d64ef1cf8af5ff845434516288f0728afba9cd626600426e796591d4e2/ros-cdk-polardbx-1.0.24.tar.gz
+[2024-04-10 04:44:02] INFO root fetch - processPackages [lumibot]: Downloading https://files.pythonhosted.org/packages/57/29/7f20f204c8ddfb5f260451bb120766fd5742aeda8251b8560a93479949aa/lumibot-3.3.3.tar.gz
+[2024-04-10 04:44:02] INFO root fetch - processPackages [ros-cdk-waf3]: executing diffoscope
+[2024-04-10 04:44:02] INFO root fetch - processPackages [ros-cdk-waf3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-waf3-1.0.23.tar.gz tmp/ros-cdk-waf3-1.0.24.tar.gz --markdown 20240410/r/ros-cdk-waf3/1.0.23-1.0.24/README.md --exclude *.pyd
+[2024-04-10 04:44:02] INFO root fetch - processPackages [ros-cdk-polardbx]: executing diffoscope
+[2024-04-10 04:44:02] INFO root fetch - processPackages [ros-cdk-polardbx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-polardbx-1.0.23.tar.gz tmp/ros-cdk-polardbx-1.0.24.tar.gz --markdown 20240410/r/ros-cdk-polardbx/1.0.23-1.0.24/README.md --exclude *.pyd
+[2024-04-10 04:44:02] INFO root fetch - processPackages [krabby]: Downloading https://files.pythonhosted.org/packages/14/b2/dde75359c4b87fe1fe26ff24086bc515e612ff9253940b1e509844c4c7c2/krabby-0.1.9.tar.gz
+[2024-04-10 04:44:02] INFO root fetch - processPackages [lumibot]: executing diffoscope
+[2024-04-10 04:44:02] INFO root fetch - processPackages [lumibot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lumibot-3.3.2.tar.gz tmp/lumibot-3.3.3.tar.gz --markdown 20240410/l/lumibot/3.3.2-3.3.3/README.md --exclude *.pyd
+[2024-04-10 04:44:02] INFO root fetch - processPackages [krabby]: executing diffoscope
+[2024-04-10 04:44:02] INFO root fetch - processPackages [krabby]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krabby-0.1.8.tar.gz tmp/krabby-0.1.9.tar.gz --markdown 20240410/k/krabby/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-10 04:44:02] INFO root fetch - processPackages [supamodel]: Remove: archive file [/home/abi/fetcher/tmp/supamodel-0.4.2.tar.gz]
+[2024-04-10 04:44:02] INFO root fetch - processPackages [supamodel]: Remove: archive file [/home/abi/fetcher/tmp/supamodel-0.4.3.tar.gz]
+[2024-04-10 04:44:02] INFO root fetch - main [MainThread]: End processing [supamodel]: success
+[2024-04-10 04:44:02] INFO root fetch - processPackages [ros-cdk-waf3]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-waf3-1.0.23.tar.gz]
+[2024-04-10 04:44:02] INFO root fetch - processPackages [ros-cdk-waf3]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-waf3-1.0.24.tar.gz]
+[2024-04-10 04:44:02] INFO root fetch - main [MainThread]: End processing [ros-cdk-waf3]: success
+[2024-04-10 04:44:02] INFO root fetch - processPackages [ros-cdk-polardbx]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-polardbx-1.0.23.tar.gz]
+[2024-04-10 04:44:02] INFO root fetch - processPackages [ros-cdk-polardbx]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-polardbx-1.0.24.tar.gz]
+[2024-04-10 04:44:02] INFO root fetch - main [MainThread]: End processing [ros-cdk-polardbx]: success
+[2024-04-10 04:44:03] INFO root fetch - processPackages [krabby]: Remove: archive file [/home/abi/fetcher/tmp/krabby-0.1.8.tar.gz]
+[2024-04-10 04:44:03] INFO root fetch - processPackages [krabby]: Remove: archive file [/home/abi/fetcher/tmp/krabby-0.1.9.tar.gz]
+[2024-04-10 04:44:03] INFO root fetch - main [MainThread]: End processing [krabby]: success
+[2024-04-10 04:44:03] INFO root fetch - processPackages [lumibot]: Remove: archive file [/home/abi/fetcher/tmp/lumibot-3.3.2.tar.gz]
+[2024-04-10 04:44:03] INFO root fetch - processPackages [lumibot]: Remove: archive file [/home/abi/fetcher/tmp/lumibot-3.3.3.tar.gz]
+[2024-04-10 04:44:03] INFO root fetch - main [MainThread]: End processing [lumibot]: success
+[2024-04-10 04:44:03] INFO root fetch - main [MainThread]: Store serial: [22694742]

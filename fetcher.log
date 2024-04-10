@@ -13763,3 +13763,84 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 08:07:18] INFO root fetch - processPackages [pulumi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_keycloak-5.4.0a1712727897.tar.gz]
 [2024-04-10 08:07:18] INFO root fetch - main [MainThread]: End processing [pulumi-keycloak]: success
 [2024-04-10 08:07:18] INFO root fetch - main [MainThread]: Store serial: [22696324]
+[2024-04-10 08:09:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22696324]
+[2024-04-10 08:09:27] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-10 08:09:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: telepoller
+[2024-04-10 08:09:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-ec
+[2024-04-10 08:09:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nakamon
+[2024-04-10 08:09:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-github
+[2024-04-10 08:09:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-gitlab
+[2024-04-10 08:09:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-datadog
+[2024-04-10 08:09:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mayat
+[2024-04-10 08:09:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cpg-workflows
+[2024-04-10 08:09:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cloud-volume
+[2024-04-10 08:09:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hoot-api
+[2024-04-10 08:09:27] INFO root fetch - processPackages [nakamon]: New version: [0.1.0a3] Old Version: [0.1.0a2]
+[2024-04-10 08:09:27] INFO root fetch - processPackages [cpg-workflows]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-10 08:09:27] INFO root fetch - processPackages [pulumi-github]: New version: [6.3.0a1712468118] Old Version: [6.3.0a1712399590]
+[2024-04-10 08:09:27] INFO root fetch - processPackages [pulumi-gitlab]: New version: [6.9.0a1708340471] Old Version: [6.9.0a1708063247]
+[2024-04-10 08:09:27] INFO root fetch - processPackages [nakamon]: Downloading https://files.pythonhosted.org/packages/62/85/c1a797b644bd435e12bc3b05e8d99c81240c76a13e030f48fb19a89c906f/nakamon-0.1.0a2.tar.gz
+[2024-04-10 08:09:27] INFO root fetch - processPackages [cpg-workflows]: Downloading https://files.pythonhosted.org/packages/97/85/ebcf50223506f96abcfa077315ab244e192faa632ed400789582dcf565e0/cpg-workflows-1.9.0.tar.gz
+[2024-04-10 08:09:27] INFO root fetch - processPackages [hoot-api]: New version: [0.0.35] Old Version: [0.0.34]
+[2024-04-10 08:09:27] WARNING root fetch - processPackages [mayat]: Skipping, unable to determine old version
+[2024-04-10 08:09:27] INFO root fetch - main [MainThread]: End processing [mayat] error
+[2024-04-10 08:09:27] WARNING root fetch - processPackages [telepoller]: Skipping, unable to determine old version
+[2024-04-10 08:09:27] INFO root fetch - main [MainThread]: End processing [telepoller] error
+[2024-04-10 08:09:27] INFO root fetch - processPackages [pulumi-ec]: New version: [0.8.1a1712727490] Old Version: [0.8.1a1712468034]
+[2024-04-10 08:09:27] INFO root fetch - processPackages [cloud-volume]: New version: [8.9.2] Old Version: [8.9.1]
+[2024-04-10 08:09:27] INFO root fetch - processPackages [pulumi-datadog]: New version: [4.9.0a1653604828] Old Version: [4.9.0a1650908051]
+[2024-04-10 08:09:27] INFO root fetch - processPackages [pulumi-github]: Downloading https://files.pythonhosted.org/packages/99/5e/8ab400b859ab0a7af39e58a4837fdf5344300d24a80268d6679b455f0796/pulumi_github-6.3.0a1712399590.tar.gz
+[2024-04-10 08:09:27] INFO root fetch - processPackages [pulumi-gitlab]: Downloading https://files.pythonhosted.org/packages/58/07/ab2778876b4db96da370ecc6d084f38b132c7d1e47cda0350b3de396d7e4/pulumi_gitlab-6.9.0a1708063247.tar.gz
+[2024-04-10 08:09:27] INFO root fetch - processPackages [pulumi-ec]: Downloading https://files.pythonhosted.org/packages/88/ea/32e5e4786e5b54127b8f89a70c430f7603878ff38a632dde25f33c27e382/pulumi_ec-0.8.1a1712468034.tar.gz
+[2024-04-10 08:09:27] INFO root fetch - processPackages [hoot-api]: Downloading https://files.pythonhosted.org/packages/56/2e/c92a1ce97da201012aaece921db093e73504c6a0e2a0938017278ad163ec/hoot-api-0.0.34.tar.gz
+[2024-04-10 08:09:27] INFO root fetch - processPackages [cpg-workflows]: Downloading https://files.pythonhosted.org/packages/0d/82/bd0cb905c3b340f5cd9b1eb95911c5444e8ba0f6369afc3c60336fed7e14/cpg-workflows-1.9.1.tar.gz
+[2024-04-10 08:09:28] INFO root fetch - processPackages [pulumi-datadog]: Downloading https://files.pythonhosted.org/packages/d8/b5/8991a5e2174de51c32d71e18a0d3eb5ac2f6bb5fe9f15ca8f908cee6e214/pulumi_datadog-4.9.0a1650908051.tar.gz
+[2024-04-10 08:09:28] INFO root fetch - processPackages [cloud-volume]: Downloading https://files.pythonhosted.org/packages/39/3d/cb4e0c72c35d1d378a72f0e333b770568ce202a45f7ce6e4ee88fe508d9d/cloud-volume-8.9.1.tar.gz
+[2024-04-10 08:09:28] INFO root fetch - processPackages [nakamon]: Downloading https://files.pythonhosted.org/packages/0f/96/803691c928905d3017c13ea86d3b12d033e5507f74f238fc9d04eecbb664/nakamon-0.1.0a3.tar.gz
+[2024-04-10 08:09:28] INFO root fetch - processPackages [cpg-workflows]: executing diffoscope
+[2024-04-10 08:09:28] INFO root fetch - processPackages [cpg-workflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpg-workflows-1.9.0.tar.gz tmp/cpg-workflows-1.9.1.tar.gz --markdown 20240410/c/cpg-workflows/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-04-10 08:09:28] INFO root fetch - processPackages [pulumi-github]: Downloading https://files.pythonhosted.org/packages/30/c6/65bdf016c3981dfa66f2d8e2df1ce6b4e019b9b7d47cf82dfd98d41f4a08/pulumi_github-6.3.0a1712468118.tar.gz
+[2024-04-10 08:09:28] INFO root fetch - processPackages [nakamon]: executing diffoscope
+[2024-04-10 08:09:28] INFO root fetch - processPackages [nakamon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nakamon-0.1.0a2.tar.gz tmp/nakamon-0.1.0a3.tar.gz --markdown 20240410/n/nakamon/0.1.0a2-0.1.0a3/README.md --exclude *.pyd
+[2024-04-10 08:09:28] INFO root fetch - processPackages [pulumi-gitlab]: Downloading https://files.pythonhosted.org/packages/ec/de/e27b5fc2f3f3a7a5f878850b1b8d0f82d5624c70b642a39146c756ea3d5c/pulumi_gitlab-6.9.0a1708340471.tar.gz
+[2024-04-10 08:09:28] INFO root fetch - processPackages [pulumi-ec]: Downloading https://files.pythonhosted.org/packages/35/71/26a0067be93cd3b9ec4d59741747b6f6a84422a206e89bc0497dbe3112cf/pulumi_ec-0.8.1a1712727490.tar.gz
+[2024-04-10 08:09:28] INFO root fetch - processPackages [pulumi-github]: executing diffoscope
+[2024-04-10 08:09:28] INFO root fetch - processPackages [pulumi-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_github-6.3.0a1712399590.tar.gz tmp/pulumi_github-6.3.0a1712468118.tar.gz --markdown 20240410/p/pulumi-github/6.3.0a1712399590-6.3.0a1712468118/README.md --exclude *.pyd
+[2024-04-10 08:09:28] INFO root fetch - processPackages [hoot-api]: Downloading https://files.pythonhosted.org/packages/e7/ce/7bb61909b56e9d76e8d542339874af9a8cc7c5dcebc3909b75ff1ee04e2c/hoot-api-0.0.35.tar.gz
+[2024-04-10 08:09:28] INFO root fetch - processPackages [pulumi-gitlab]: executing diffoscope
+[2024-04-10 08:09:28] INFO root fetch - processPackages [pulumi-gitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_gitlab-6.9.0a1708063247.tar.gz tmp/pulumi_gitlab-6.9.0a1708340471.tar.gz --markdown 20240410/p/pulumi-gitlab/6.9.0a1708063247-6.9.0a1708340471/README.md --exclude *.pyd
+[2024-04-10 08:09:28] INFO root fetch - processPackages [pulumi-ec]: executing diffoscope
+[2024-04-10 08:09:28] INFO root fetch - processPackages [pulumi-ec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_ec-0.8.1a1712468034.tar.gz tmp/pulumi_ec-0.8.1a1712727490.tar.gz --markdown 20240410/p/pulumi-ec/0.8.1a1712468034-0.8.1a1712727490/README.md --exclude *.pyd
+[2024-04-10 08:09:28] INFO root fetch - processPackages [pulumi-datadog]: Downloading https://files.pythonhosted.org/packages/de/b3/aee4697d07beb69799f35031c032637a1c998c8ba8a18ace02fb30a3011f/pulumi_datadog-4.9.0a1653604828.tar.gz
+[2024-04-10 08:09:28] INFO root fetch - processPackages [cloud-volume]: Downloading https://files.pythonhosted.org/packages/5c/5c/0be84b9822b3ecf3f89e49556ccdc9715e63ead9772ef037c5f2b8e51145/cloud-volume-8.9.2.tar.gz
+[2024-04-10 08:09:28] INFO root fetch - processPackages [hoot-api]: executing diffoscope
+[2024-04-10 08:09:28] INFO root fetch - processPackages [hoot-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hoot-api-0.0.34.tar.gz tmp/hoot-api-0.0.35.tar.gz --markdown 20240410/h/hoot-api/0.0.34-0.0.35/README.md --exclude *.pyd
+[2024-04-10 08:09:28] INFO root fetch - processPackages [pulumi-datadog]: executing diffoscope
+[2024-04-10 08:09:28] INFO root fetch - processPackages [pulumi-datadog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_datadog-4.9.0a1650908051.tar.gz tmp/pulumi_datadog-4.9.0a1653604828.tar.gz --markdown 20240410/p/pulumi-datadog/4.9.0a1650908051-4.9.0a1653604828/README.md --exclude *.pyd
+[2024-04-10 08:09:28] INFO root fetch - processPackages [cloud-volume]: executing diffoscope
+[2024-04-10 08:09:28] INFO root fetch - processPackages [cloud-volume]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-volume-8.9.1.tar.gz tmp/cloud-volume-8.9.2.tar.gz --markdown 20240410/c/cloud-volume/8.9.1-8.9.2/README.md --exclude *.pyd
+[2024-04-10 08:09:29] INFO root fetch - processPackages [nakamon]: Remove: archive file [/home/abi/fetcher/tmp/nakamon-0.1.0a2.tar.gz]
+[2024-04-10 08:09:29] INFO root fetch - processPackages [nakamon]: Remove: archive file [/home/abi/fetcher/tmp/nakamon-0.1.0a3.tar.gz]
+[2024-04-10 08:09:29] INFO root fetch - main [MainThread]: End processing [nakamon]: success
+[2024-04-10 08:09:29] INFO root fetch - processPackages [cpg-workflows]: Remove: archive file [/home/abi/fetcher/tmp/cpg-workflows-1.9.0.tar.gz]
+[2024-04-10 08:09:29] INFO root fetch - processPackages [cpg-workflows]: Remove: archive file [/home/abi/fetcher/tmp/cpg-workflows-1.9.1.tar.gz]
+[2024-04-10 08:09:29] INFO root fetch - main [MainThread]: End processing [cpg-workflows]: success
+[2024-04-10 08:09:29] INFO root fetch - processPackages [pulumi-ec]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ec-0.8.1a1712468034.tar.gz]
+[2024-04-10 08:09:29] INFO root fetch - processPackages [pulumi-ec]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ec-0.8.1a1712727490.tar.gz]
+[2024-04-10 08:09:29] INFO root fetch - main [MainThread]: End processing [pulumi-ec]: success
+[2024-04-10 08:09:29] INFO root fetch - processPackages [hoot-api]: Remove: archive file [/home/abi/fetcher/tmp/hoot-api-0.0.34.tar.gz]
+[2024-04-10 08:09:29] INFO root fetch - processPackages [hoot-api]: Remove: archive file [/home/abi/fetcher/tmp/hoot-api-0.0.35.tar.gz]
+[2024-04-10 08:09:29] INFO root fetch - main [MainThread]: End processing [hoot-api]: success
+[2024-04-10 08:09:29] INFO root fetch - processPackages [pulumi-github]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_github-6.3.0a1712399590.tar.gz]
+[2024-04-10 08:09:29] INFO root fetch - processPackages [pulumi-github]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_github-6.3.0a1712468118.tar.gz]
+[2024-04-10 08:09:29] INFO root fetch - main [MainThread]: End processing [pulumi-github]: success
+[2024-04-10 08:09:29] INFO root fetch - processPackages [cloud-volume]: Remove: archive file [/home/abi/fetcher/tmp/cloud-volume-8.9.1.tar.gz]
+[2024-04-10 08:09:29] INFO root fetch - processPackages [cloud-volume]: Remove: archive file [/home/abi/fetcher/tmp/cloud-volume-8.9.2.tar.gz]
+[2024-04-10 08:09:29] INFO root fetch - main [MainThread]: End processing [cloud-volume]: success
+[2024-04-10 08:09:30] INFO root fetch - processPackages [pulumi-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gitlab-6.9.0a1708063247.tar.gz]
+[2024-04-10 08:09:30] INFO root fetch - processPackages [pulumi-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gitlab-6.9.0a1708340471.tar.gz]
+[2024-04-10 08:09:30] INFO root fetch - main [MainThread]: End processing [pulumi-gitlab]: success
+[2024-04-10 08:09:31] INFO root fetch - processPackages [pulumi-datadog]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_datadog-4.9.0a1650908051.tar.gz]
+[2024-04-10 08:09:31] INFO root fetch - processPackages [pulumi-datadog]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_datadog-4.9.0a1653604828.tar.gz]
+[2024-04-10 08:09:31] INFO root fetch - main [MainThread]: End processing [pulumi-datadog]: success
+[2024-04-10 08:09:31] INFO root fetch - main [MainThread]: Store serial: [22696357]

@@ -16409,3 +16409,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 09:53:30] INFO root fetch - processPackages [llama-cpp-python]: Remove: archive file [/home/abi/fetcher/tmp/llama_cpp_python-0.2.9.tar.gz]
 [2024-04-10 09:53:30] INFO root fetch - main [MainThread]: End processing [llama-cpp-python]: success
 [2024-04-10 09:53:30] INFO root fetch - main [MainThread]: Store serial: [22697327]
+[2024-04-10 09:55:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22697327]
+[2024-04-10 09:55:39] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-10 09:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SudachiDict-core
+[2024-04-10 09:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SudachiDict-full
+[2024-04-10 09:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SudachiDict-small
+[2024-04-10 09:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyodide-mkdocs-theme
+[2024-04-10 09:55:39] INFO root fetch - processPackages [pyodide-mkdocs-theme]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-04-10 09:55:39] INFO root fetch - processPackages [SudachiDict-core]: New version: [20240409] Old Version: [20240109]
+[2024-04-10 09:55:39] INFO root fetch - processPackages [SudachiDict-small]: New version: [20240409] Old Version: [20240109]
+[2024-04-10 09:55:39] INFO root fetch - processPackages [pyodide-mkdocs-theme]: Downloading https://files.pythonhosted.org/packages/54/f3/e159d1a6780657a0d2becc333306676b6043af69744631223d3b592fbfc2/pyodide_mkdocs_theme-0.1.2.tar.gz
+[2024-04-10 09:55:39] INFO root fetch - processPackages [SudachiDict-full]: New version: [20240409] Old Version: [20240109]
+[2024-04-10 09:55:39] INFO root fetch - processPackages [SudachiDict-small]: Downloading https://files.pythonhosted.org/packages/17/42/6464db4cc0f56fe79cb175965054898e1bf74241da8ac5e5d83506a45fdd/SudachiDict-small-20240109.tar.gz
+[2024-04-10 09:55:39] INFO root fetch - processPackages [SudachiDict-full]: Downloading https://files.pythonhosted.org/packages/a6/aa/948fa5cf17dfcc8793b4fe46b543601a8294545e77d1e32f2763a0fafa93/SudachiDict-full-20240109.tar.gz
+[2024-04-10 09:55:39] INFO root fetch - processPackages [SudachiDict-core]: Downloading https://files.pythonhosted.org/packages/d1/7c/29af42568ed92253308b44b58091eba32768dd31affc8e3df013ffc1e365/SudachiDict-core-20240109.tar.gz
+[2024-04-10 09:55:39] INFO root fetch - processPackages [pyodide-mkdocs-theme]: Downloading https://files.pythonhosted.org/packages/c9/bb/65036abb11c2e26779cb12ffa5640e9b5b8b21d4020c3a7ca78dfa23388c/pyodide_mkdocs_theme-0.2.0.tar.gz
+[2024-04-10 09:55:39] INFO root fetch - processPackages [pyodide-mkdocs-theme]: executing diffoscope
+[2024-04-10 09:55:39] INFO root fetch - processPackages [pyodide-mkdocs-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyodide_mkdocs_theme-0.1.2.tar.gz tmp/pyodide_mkdocs_theme-0.2.0.tar.gz --markdown 20240410/p/pyodide-mkdocs-theme/0.1.2-0.2.0/README.md --exclude *.pyd
+[2024-04-10 09:55:40] INFO root fetch - processPackages [SudachiDict-small]: Downloading https://files.pythonhosted.org/packages/c1/fb/28885889c54e8ff19c4202050ac0932f72b0e64bc1fb63eca24870a1ae98/SudachiDict-small-20240409.tar.gz
+[2024-04-10 09:55:40] INFO root fetch - processPackages [SudachiDict-full]: Downloading https://files.pythonhosted.org/packages/6c/a2/8b0df00a5380ec4a5ac7265ae2ebfedb12987a522950bea93458bd9f9f4a/SudachiDict-full-20240409.tar.gz
+[2024-04-10 09:55:40] INFO root fetch - processPackages [SudachiDict-core]: Downloading https://files.pythonhosted.org/packages/e2/aa/d8f175c3465654871fc5c7a8b5e89aee14fafdacf5bbbfda4b14ae1e7aec/SudachiDict-core-20240409.tar.gz
+[2024-04-10 09:55:40] INFO root fetch - processPackages [SudachiDict-small]: executing diffoscope
+[2024-04-10 09:55:40] INFO root fetch - processPackages [SudachiDict-small]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SudachiDict-small-20240109.tar.gz tmp/SudachiDict-small-20240409.tar.gz --markdown 20240410/S/SudachiDict-small/20240109-20240409/README.md --exclude *.pyd
+[2024-04-10 09:55:40] INFO root fetch - processPackages [SudachiDict-full]: executing diffoscope
+[2024-04-10 09:55:40] INFO root fetch - processPackages [SudachiDict-full]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SudachiDict-full-20240109.tar.gz tmp/SudachiDict-full-20240409.tar.gz --markdown 20240410/S/SudachiDict-full/20240109-20240409/README.md --exclude *.pyd
+[2024-04-10 09:55:40] INFO root fetch - processPackages [SudachiDict-core]: executing diffoscope
+[2024-04-10 09:55:40] INFO root fetch - processPackages [SudachiDict-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SudachiDict-core-20240109.tar.gz tmp/SudachiDict-core-20240409.tar.gz --markdown 20240410/S/SudachiDict-core/20240109-20240409/README.md --exclude *.pyd
+[2024-04-10 09:55:41] INFO root fetch - processPackages [SudachiDict-full]: Remove: archive file [/home/abi/fetcher/tmp/SudachiDict-full-20240109.tar.gz]
+[2024-04-10 09:55:41] INFO root fetch - processPackages [SudachiDict-full]: Remove: archive file [/home/abi/fetcher/tmp/SudachiDict-full-20240409.tar.gz]
+[2024-04-10 09:55:41] INFO root fetch - main [MainThread]: End processing [SudachiDict-full]: success
+[2024-04-10 09:55:41] INFO root fetch - processPackages [SudachiDict-core]: Remove: archive file [/home/abi/fetcher/tmp/SudachiDict-core-20240109.tar.gz]
+[2024-04-10 09:55:41] INFO root fetch - processPackages [SudachiDict-core]: Remove: archive file [/home/abi/fetcher/tmp/SudachiDict-core-20240409.tar.gz]
+[2024-04-10 09:55:41] INFO root fetch - main [MainThread]: End processing [SudachiDict-core]: success
+[2024-04-10 09:55:41] INFO root fetch - processPackages [SudachiDict-small]: Remove: archive file [/home/abi/fetcher/tmp/SudachiDict-small-20240109.tar.gz]
+[2024-04-10 09:55:41] INFO root fetch - processPackages [SudachiDict-small]: Remove: archive file [/home/abi/fetcher/tmp/SudachiDict-small-20240409.tar.gz]
+[2024-04-10 09:55:41] INFO root fetch - main [MainThread]: End processing [SudachiDict-small]: success
+[2024-04-10 09:55:41] INFO root fetch - processPackages [pyodide-mkdocs-theme]: Remove: archive file [/home/abi/fetcher/tmp/pyodide_mkdocs_theme-0.1.2.tar.gz]
+[2024-04-10 09:55:41] INFO root fetch - processPackages [pyodide-mkdocs-theme]: Remove: archive file [/home/abi/fetcher/tmp/pyodide_mkdocs_theme-0.2.0.tar.gz]
+[2024-04-10 09:55:41] INFO root fetch - main [MainThread]: End processing [pyodide-mkdocs-theme]: success
+[2024-04-10 09:55:41] INFO root fetch - main [MainThread]: Store serial: [22697346]

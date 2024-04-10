@@ -13716,3 +13716,9 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 08:02:58] INFO root fetch - processPackages [pulumi-digitalocean]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_digitalocean-4.9.0a1637244514.tar.gz]
 [2024-04-10 08:02:58] INFO root fetch - main [MainThread]: End processing [pulumi-digitalocean]: success
 [2024-04-10 08:02:58] INFO root fetch - main [MainThread]: Store serial: [22696299]
+[2024-04-10 08:05:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22696299]
+[2024-04-10 08:05:08] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-10 08:05:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cbzm
+[2024-04-10 08:05:08] WARNING root fetch - processPackages [cbzm]: Skipping, unable to determine old version
+[2024-04-10 08:05:08] INFO root fetch - main [MainThread]: End processing [cbzm] error
+[2024-04-10 08:05:08] INFO root fetch - main [MainThread]: Store serial: [22696302]

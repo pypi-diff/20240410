@@ -16058,3 +16058,87 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 09:40:16] INFO root fetch - processPackages [pulumi-vault]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vault-6.2.0a1712731873.tar.gz]
 [2024-04-10 09:40:16] INFO root fetch - main [MainThread]: End processing [pulumi-vault]: success
 [2024-04-10 09:40:16] INFO root fetch - main [MainThread]: Store serial: [22697129]
+[2024-04-10 09:42:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22697129]
+[2024-04-10 09:42:26] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-10 09:42:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bagbag
+[2024-04-10 09:42:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tplinkrouterc6u
+[2024-04-10 09:42:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: polars-qt
+[2024-04-10 09:42:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cryptojwt
+[2024-04-10 09:42:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rats-processors
+[2024-04-10 09:42:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: thermolib
+[2024-04-10 09:42:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: NetworkXsimple
+[2024-04-10 09:42:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rats-pipelines
+[2024-04-10 09:42:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dataset-tools
+[2024-04-10 09:42:26] INFO root fetch - processPackages [polars-qt]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-10 09:42:26] INFO root fetch - processPackages [rats-pipelines]: New version: [0.1.1.dev9] Old Version: [0.1.1.dev4]
+[2024-04-10 09:42:26] INFO root fetch - processPackages [rats-processors]: New version: [0.1.1.dev9] Old Version: [0.1.1.dev4]
+[2024-04-10 09:42:26] INFO root fetch - processPackages [NetworkXsimple]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-10 09:42:26] INFO root fetch - processPackages [cryptojwt]: New version: [1.8.3] Old Version: [1.8.2]
+[2024-04-10 09:42:26] INFO root fetch - processPackages [dataset-tools]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-10 09:42:26] INFO root fetch - processPackages [tplinkrouterc6u]: New version: [4.0.0] Old Version: [3.5.0]
+[2024-04-10 09:42:26] INFO root fetch - processPackages [thermolib]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-04-10 09:42:26] INFO root fetch - processPackages [polars-qt]: Downloading https://files.pythonhosted.org/packages/f8/c1/436acafc5944acee9fff5cc1a724e3f41d2b715cf0e52620b2d3dc867626/polars_qt-0.1.2.tar.gz
+[2024-04-10 09:42:26] INFO root fetch - processPackages [bagbag]: New version: [0.66.9] Old Version: [0.66.8]
+[2024-04-10 09:42:26] INFO root fetch - processPackages [rats-processors]: Downloading https://files.pythonhosted.org/packages/6a/ed/dc9d5d14b6bab254fbbd5ceae98448f1e46bf325f4948e61c0e9905866a9/rats_processors-0.1.1.dev4-py3-none-any.whl
+[2024-04-10 09:42:26] INFO root fetch - processPackages [NetworkXsimple]: Downloading https://files.pythonhosted.org/packages/8d/8d/f9f39fd746f6596330445d815cc3dd5949de10d24bfdf9c3b82e9652b7e0/NetworkXsimple-0.1.1-py2.py3-none-any.whl
+[2024-04-10 09:42:26] INFO root fetch - processPackages [rats-pipelines]: Downloading https://files.pythonhosted.org/packages/3b/c2/b583824029c92f5b0ec4eeb0ed37e4aeb0fd09979d927a311fb7fbbf0baa/rats_pipelines-0.1.1.dev4-py3-none-any.whl
+[2024-04-10 09:42:26] INFO root fetch - processPackages [tplinkrouterc6u]: Downloading https://files.pythonhosted.org/packages/40/7d/91a0166c68c721cf6a1e5c20cabb180904e52bb4dac1420c52e819127dd0/tplinkrouterc6u-3.5.0.tar.gz
+[2024-04-10 09:42:26] INFO root fetch - processPackages [cryptojwt]: Downloading https://files.pythonhosted.org/packages/23/a7/2bc92daaef642300a6ef6f96dfb22702d29883d4321e90e194eaf6172cee/cryptojwt-1.8.2.tar.gz
+[2024-04-10 09:42:26] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/0e/fa/409ace3b7fa82c9f017a244fbc09e43e62f71a9e83c54a7946320de1be12/bagbag-0.66.8.tar.gz
+[2024-04-10 09:42:26] INFO root fetch - processPackages [dataset-tools]: Downloading https://files.pythonhosted.org/packages/45/97/f8cfcb2381e26631dc0de064078e7012c0e84fe2bc5eb59bb6846009f169/dataset-tools-0.0.8.tar.gz
+[2024-04-10 09:42:26] INFO root fetch - processPackages [thermolib]: Downloading https://files.pythonhosted.org/packages/90/df/55998c1552db85d7405a898fccb13e97da835d94ff6b18980966a739e675/thermolib-0.2.5-cp38-none-win_amd64.whl
+[2024-04-10 09:42:26] INFO root fetch - processPackages [polars-qt]: Downloading https://files.pythonhosted.org/packages/50/0a/d27f0e9b5258083f852ab431320386c2fdcdbf573ceb88071dd114995089/polars_qt-0.1.3.tar.gz
+[2024-04-10 09:42:26] INFO root fetch - processPackages [NetworkXsimple]: Downloading https://files.pythonhosted.org/packages/3b/e2/29ca3d82bfd8afafd30e9bc83af1d907b84406d75ef5c010ef1df1a9ebbe/NetworkXsimple-0.1.2.tar.gz
+[2024-04-10 09:42:26] INFO root fetch - processPackages [rats-processors]: Downloading https://files.pythonhosted.org/packages/f7/09/1ed10915e1cd437f31fa193f9509a24a234efc7b3cdf90ba44c203d8c986/rats_processors-0.1.1.dev9-py3-none-any.whl
+[2024-04-10 09:42:26] INFO root fetch - processPackages [rats-pipelines]: Downloading https://files.pythonhosted.org/packages/bb/f6/f6533ba0a6c24b27a5f45c17291c0b520d75c290fc5a700094e63e36524b/rats_pipelines-0.1.1.dev9-py3-none-any.whl
+[2024-04-10 09:42:27] INFO root fetch - processPackages [NetworkXsimple]: executing diffoscope
+[2024-04-10 09:42:27] INFO root fetch - processPackages [NetworkXsimple]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NetworkXsimple-0.1.1-py2.py3-none-any.whl.zip tmp/NetworkXsimple-0.1.2.tar.gz --markdown 20240410/N/NetworkXsimple/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-10 09:42:27] INFO root fetch - processPackages [polars-qt]: executing diffoscope
+[2024-04-10 09:42:27] INFO root fetch - processPackages [polars-qt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars_qt-0.1.2.tar.gz tmp/polars_qt-0.1.3.tar.gz --markdown 20240410/p/polars-qt/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-10 09:42:27] INFO root fetch - processPackages [tplinkrouterc6u]: Downloading https://files.pythonhosted.org/packages/a3/c3/8108d30e9c5ce10c52cfb14d16ea809858942327e19d4e478934902ee217/tplinkrouterc6u-4.0.0.tar.gz
+[2024-04-10 09:42:27] INFO root fetch - processPackages [rats-processors]: executing diffoscope
+[2024-04-10 09:42:27] INFO root fetch - processPackages [rats-processors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_processors-0.1.1.dev4-py3-none-any.whl.zip tmp/rats_processors-0.1.1.dev9-py3-none-any.whl.zip --markdown 20240410/r/rats-processors/0.1.1.dev4-0.1.1.dev9/README.md --exclude *.pyd
+[2024-04-10 09:42:27] INFO root fetch - processPackages [rats-pipelines]: executing diffoscope
+[2024-04-10 09:42:27] INFO root fetch - processPackages [rats-pipelines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_pipelines-0.1.1.dev4-py3-none-any.whl.zip tmp/rats_pipelines-0.1.1.dev9-py3-none-any.whl.zip --markdown 20240410/r/rats-pipelines/0.1.1.dev4-0.1.1.dev9/README.md --exclude *.pyd
+[2024-04-10 09:42:27] INFO root fetch - processPackages [thermolib]: Downloading https://files.pythonhosted.org/packages/e3/93/4ea3a89a8b8a70a8692b3a5bf6ee282a5de34f8d3d43b7bfff44f6d2931a/thermolib-0.2.6-cp38-none-win_amd64.whl
+[2024-04-10 09:42:27] INFO root fetch - processPackages [tplinkrouterc6u]: executing diffoscope
+[2024-04-10 09:42:27] INFO root fetch - processPackages [tplinkrouterc6u]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tplinkrouterc6u-3.5.0.tar.gz tmp/tplinkrouterc6u-4.0.0.tar.gz --markdown 20240410/t/tplinkrouterc6u/3.5.0-4.0.0/README.md --exclude *.pyd
+[2024-04-10 09:42:27] INFO root fetch - processPackages [cryptojwt]: Downloading https://files.pythonhosted.org/packages/32/09/ee9d76a9288def0ec7457913a4e66f4b2377f1c29fafa2f89e40e755077d/cryptojwt-1.8.3.tar.gz
+[2024-04-10 09:42:27] INFO root fetch - processPackages [dataset-tools]: Downloading https://files.pythonhosted.org/packages/b8/58/c030ec40cb92d73145fa4f9c8df9dc35360f48d85535390567bd984369b2/dataset-tools-0.0.9.tar.gz
+[2024-04-10 09:42:27] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/30/88/4174562d809cf055fbb96d6fff38c6df8b57994d197c2860eb3ef08fc813/bagbag-0.66.9.tar.gz
+[2024-04-10 09:42:27] INFO root fetch - processPackages [thermolib]: executing diffoscope
+[2024-04-10 09:42:27] INFO root fetch - processPackages [thermolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thermolib-0.2.5-cp38-none-win_amd64.whl.zip tmp/thermolib-0.2.6-cp38-none-win_amd64.whl.zip --markdown 20240410/t/thermolib/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-04-10 09:42:27] INFO root fetch - processPackages [dataset-tools]: executing diffoscope
+[2024-04-10 09:42:27] INFO root fetch - processPackages [dataset-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataset-tools-0.0.8.tar.gz tmp/dataset-tools-0.0.9.tar.gz --markdown 20240410/d/dataset-tools/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-10 09:42:27] INFO root fetch - processPackages [cryptojwt]: executing diffoscope
+[2024-04-10 09:42:27] INFO root fetch - processPackages [cryptojwt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cryptojwt-1.8.2.tar.gz tmp/cryptojwt-1.8.3.tar.gz --markdown 20240410/c/cryptojwt/1.8.2-1.8.3/README.md --exclude *.pyd
+[2024-04-10 09:42:27] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2024-04-10 09:42:27] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.66.8.tar.gz tmp/bagbag-0.66.9.tar.gz --markdown 20240410/b/bagbag/0.66.8-0.66.9/README.md --exclude *.pyd
+[2024-04-10 09:42:28] INFO root fetch - processPackages [NetworkXsimple]: Remove: archive file [/home/abi/fetcher/tmp/NetworkXsimple-0.1.1-py2.py3-none-any.whl.zip]
+[2024-04-10 09:42:28] INFO root fetch - processPackages [NetworkXsimple]: Remove: archive file [/home/abi/fetcher/tmp/NetworkXsimple-0.1.2.tar.gz]
+[2024-04-10 09:42:28] INFO root fetch - main [MainThread]: End processing [NetworkXsimple]: success
+[2024-04-10 09:42:28] INFO root fetch - processPackages [polars-qt]: Remove: archive file [/home/abi/fetcher/tmp/polars_qt-0.1.2.tar.gz]
+[2024-04-10 09:42:28] INFO root fetch - processPackages [polars-qt]: Remove: archive file [/home/abi/fetcher/tmp/polars_qt-0.1.3.tar.gz]
+[2024-04-10 09:42:28] INFO root fetch - main [MainThread]: End processing [polars-qt]: success
+[2024-04-10 09:42:28] INFO root fetch - processPackages [rats-processors]: Remove: archive file [/home/abi/fetcher/tmp/rats_processors-0.1.1.dev4-py3-none-any.whl.zip]
+[2024-04-10 09:42:28] INFO root fetch - processPackages [rats-processors]: Remove: archive file [/home/abi/fetcher/tmp/rats_processors-0.1.1.dev9-py3-none-any.whl.zip]
+[2024-04-10 09:42:28] INFO root fetch - main [MainThread]: End processing [rats-processors]: success
+[2024-04-10 09:42:28] INFO root fetch - processPackages [rats-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/rats_pipelines-0.1.1.dev4-py3-none-any.whl.zip]
+[2024-04-10 09:42:28] INFO root fetch - processPackages [rats-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/rats_pipelines-0.1.1.dev9-py3-none-any.whl.zip]
+[2024-04-10 09:42:28] INFO root fetch - main [MainThread]: End processing [rats-pipelines]: success
+[2024-04-10 09:42:28] INFO root fetch - processPackages [thermolib]: Remove: archive file [/home/abi/fetcher/tmp/thermolib-0.2.5-cp38-none-win_amd64.whl.zip]
+[2024-04-10 09:42:28] INFO root fetch - processPackages [thermolib]: Remove: archive file [/home/abi/fetcher/tmp/thermolib-0.2.6-cp38-none-win_amd64.whl.zip]
+[2024-04-10 09:42:28] INFO root fetch - main [MainThread]: End processing [thermolib]: success
+[2024-04-10 09:42:28] INFO root fetch - processPackages [tplinkrouterc6u]: Remove: archive file [/home/abi/fetcher/tmp/tplinkrouterc6u-3.5.0.tar.gz]
+[2024-04-10 09:42:28] INFO root fetch - processPackages [tplinkrouterc6u]: Remove: archive file [/home/abi/fetcher/tmp/tplinkrouterc6u-4.0.0.tar.gz]
+[2024-04-10 09:42:28] INFO root fetch - main [MainThread]: End processing [tplinkrouterc6u]: success
+[2024-04-10 09:42:29] INFO root fetch - processPackages [dataset-tools]: Remove: archive file [/home/abi/fetcher/tmp/dataset-tools-0.0.8.tar.gz]
+[2024-04-10 09:42:29] INFO root fetch - processPackages [dataset-tools]: Remove: archive file [/home/abi/fetcher/tmp/dataset-tools-0.0.9.tar.gz]
+[2024-04-10 09:42:29] INFO root fetch - main [MainThread]: End processing [dataset-tools]: success
+[2024-04-10 09:42:29] INFO root fetch - processPackages [cryptojwt]: Remove: archive file [/home/abi/fetcher/tmp/cryptojwt-1.8.2.tar.gz]
+[2024-04-10 09:42:29] INFO root fetch - processPackages [cryptojwt]: Remove: archive file [/home/abi/fetcher/tmp/cryptojwt-1.8.3.tar.gz]
+[2024-04-10 09:42:29] INFO root fetch - main [MainThread]: End processing [cryptojwt]: success
+[2024-04-10 09:42:29] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.66.8.tar.gz]
+[2024-04-10 09:42:29] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.66.9.tar.gz]
+[2024-04-10 09:42:29] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2024-04-10 09:42:29] INFO root fetch - main [MainThread]: Store serial: [22697159]

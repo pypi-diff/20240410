@@ -13268,3 +13268,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 07:36:48] INFO root fetch - processPackages [cassiopeia]: Remove: archive file [/home/abi/fetcher/tmp/cassiopeia-5.0.4.tar.gz]
 [2024-04-10 07:36:48] INFO root fetch - main [MainThread]: End processing [cassiopeia]: success
 [2024-04-10 07:36:48] INFO root fetch - main [MainThread]: Store serial: [22696144]
+[2024-04-10 07:38:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22696144]
+[2024-04-10 07:38:57] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-10 07:38:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: auto-test-common
+[2024-04-10 07:38:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: resvg-py
+[2024-04-10 07:38:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prophecy-build-tool
+[2024-04-10 07:38:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: airbyte-source-stripe
+[2024-04-10 07:38:57] INFO root fetch - processPackages [airbyte-source-stripe]: New version: [5.3.0.dev202404092251] Old Version: [5.3.0.dev202404091750]
+[2024-04-10 07:38:57] INFO root fetch - processPackages [auto-test-common]: New version: [1.1.93] Old Version: [1.1.92]
+[2024-04-10 07:38:57] INFO root fetch - processPackages [airbyte-source-stripe]: Downloading https://files.pythonhosted.org/packages/35/6c/98d16f8b196628e8e9b77417c7fe020678de8b601efd3fad7c3697604c90/airbyte_source_stripe-5.3.0.dev202404091750.tar.gz
+[2024-04-10 07:38:57] WARNING root fetch - processPackages [resvg-py]: Skipping, unable to determine old version
+[2024-04-10 07:38:57] INFO root fetch - main [MainThread]: End processing [resvg-py] error
+[2024-04-10 07:38:57] INFO root fetch - processPackages [prophecy-build-tool]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-04-10 07:38:57] INFO root fetch - processPackages [auto-test-common]: Downloading https://files.pythonhosted.org/packages/8f/19/99bd89e205a72d7588f4e46a74c757b4cad83c38c3e86e0d181a48a0e0e5/auto-test-common-1.1.92.tar.gz
+[2024-04-10 07:38:57] INFO root fetch - processPackages [prophecy-build-tool]: Downloading https://files.pythonhosted.org/packages/31/f0/ed4aa0a70a6fd06211faed01254c9ddbfa86f70a2dd8665718c9fde9a3f6/prophecy-build-tool-1.2.8.tar.gz
+[2024-04-10 07:38:57] INFO root fetch - processPackages [auto-test-common]: Downloading https://files.pythonhosted.org/packages/7e/f1/835670009a4003da93c38ecae85e8b32126bbeb58eb2fe528085d68b68d6/auto-test-common-1.1.93.tar.gz
+[2024-04-10 07:38:57] INFO root fetch - processPackages [airbyte-source-stripe]: Downloading https://files.pythonhosted.org/packages/6a/8b/51e05ddd24df5f76001294267160bfe429453848b4de8d9f47a457e12fd3/airbyte_source_stripe-5.3.0.dev202404092251.tar.gz
+[2024-04-10 07:38:57] INFO root fetch - processPackages [auto-test-common]: executing diffoscope
+[2024-04-10 07:38:57] INFO root fetch - processPackages [auto-test-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-test-common-1.1.92.tar.gz tmp/auto-test-common-1.1.93.tar.gz --markdown 20240410/a/auto-test-common/1.1.92-1.1.93/README.md --exclude *.pyd
+[2024-04-10 07:38:57] INFO root fetch - processPackages [prophecy-build-tool]: Downloading https://files.pythonhosted.org/packages/6e/8b/758d03240b291c40dbffda699fd64edadca124a085daf5f71250b010298b/prophecy-build-tool-1.2.9.tar.gz
+[2024-04-10 07:38:58] INFO root fetch - processPackages [airbyte-source-stripe]: executing diffoscope
+[2024-04-10 07:38:58] INFO root fetch - processPackages [airbyte-source-stripe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_stripe-5.3.0.dev202404091750.tar.gz tmp/airbyte_source_stripe-5.3.0.dev202404092251.tar.gz --markdown 20240410/a/airbyte-source-stripe/5.3.0.dev202404091750-5.3.0.dev202404092251/README.md --exclude *.pyd
+[2024-04-10 07:38:58] INFO root fetch - processPackages [prophecy-build-tool]: executing diffoscope
+[2024-04-10 07:38:58] INFO root fetch - processPackages [prophecy-build-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prophecy-build-tool-1.2.8.tar.gz tmp/prophecy-build-tool-1.2.9.tar.gz --markdown 20240410/p/prophecy-build-tool/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-04-10 07:38:58] INFO root fetch - processPackages [auto-test-common]: Remove: archive file [/home/abi/fetcher/tmp/auto-test-common-1.1.92.tar.gz]
+[2024-04-10 07:38:58] INFO root fetch - processPackages [auto-test-common]: Remove: archive file [/home/abi/fetcher/tmp/auto-test-common-1.1.93.tar.gz]
+[2024-04-10 07:38:58] INFO root fetch - main [MainThread]: End processing [auto-test-common]: success
+[2024-04-10 07:38:58] INFO root fetch - processPackages [prophecy-build-tool]: Remove: archive file [/home/abi/fetcher/tmp/prophecy-build-tool-1.2.8.tar.gz]
+[2024-04-10 07:38:58] INFO root fetch - processPackages [prophecy-build-tool]: Remove: archive file [/home/abi/fetcher/tmp/prophecy-build-tool-1.2.9.tar.gz]
+[2024-04-10 07:38:58] INFO root fetch - main [MainThread]: End processing [prophecy-build-tool]: success
+[2024-04-10 07:38:58] INFO root fetch - processPackages [airbyte-source-stripe]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_stripe-5.3.0.dev202404091750.tar.gz]
+[2024-04-10 07:38:58] INFO root fetch - processPackages [airbyte-source-stripe]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_stripe-5.3.0.dev202404092251.tar.gz]
+[2024-04-10 07:38:58] INFO root fetch - main [MainThread]: End processing [airbyte-source-stripe]: success
+[2024-04-10 07:38:58] INFO root fetch - main [MainThread]: Store serial: [22696157]

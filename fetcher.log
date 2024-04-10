@@ -15716,3 +15716,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 09:26:45] INFO root fetch - processPackages [superlinked]: Remove: archive file [/home/abi/fetcher/tmp/superlinked-3.9.1.tar.gz]
 [2024-04-10 09:26:45] INFO root fetch - main [MainThread]: End processing [superlinked]: success
 [2024-04-10 09:26:45] INFO root fetch - main [MainThread]: Store serial: [22697001]
+[2024-04-10 09:28:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22697001]
+[2024-04-10 09:28:55] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-10 09:28:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: miniagents
+[2024-04-10 09:28:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: GeoHD
+[2024-04-10 09:28:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pydbase
+[2024-04-10 09:28:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cpop
+[2024-04-10 09:28:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lineartest
+[2024-04-10 09:28:55] INFO root fetch - processPackages [GeoHD]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-10 09:28:55] INFO root fetch - processPackages [miniagents]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-10 09:28:55] INFO root fetch - processPackages [lineartest]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-04-10 09:28:55] INFO root fetch - processPackages [cpop]: New version: [32.0.3] Old Version: [32.0.2]
+[2024-04-10 09:28:55] INFO root fetch - processPackages [lineartest]: Downloading https://files.pythonhosted.org/packages/23/1e/59d7ebfefb4216145e41193f8b295d9c63ed19a6f1cb4138c7bac8ab8c5b/lineartest-0.1.2.tar.gz
+[2024-04-10 09:28:55] INFO root fetch - processPackages [miniagents]: Downloading https://files.pythonhosted.org/packages/5b/6a/ea8a3f73ed735a67251ac95c162686f5636aed9201e3877706e399ba4bb4/miniagents-0.0.3.tar.gz
+[2024-04-10 09:28:55] INFO root fetch - processPackages [GeoHD]: Downloading https://files.pythonhosted.org/packages/86/94/c6451a852044c18c8f7bfe8e20fa3bc9e8ce4331c6928b4a3b70b50d00dd/GeoHD-0.2.1.tar.gz
+[2024-04-10 09:28:55] INFO root fetch - processPackages [pydbase]: New version: [1.5.2] Old Version: [1.5.0]
+[2024-04-10 09:28:55] INFO root fetch - processPackages [cpop]: Downloading https://files.pythonhosted.org/packages/ff/f6/945d3fc2d55bd800ec7e4dae8295006a931ace679741337ff52540ac60fd/cpop-32.0.2.tar.gz
+[2024-04-10 09:28:55] INFO root fetch - processPackages [pydbase]: Downloading https://files.pythonhosted.org/packages/83/df/0fdab4552bee9332f00bd88f7fafc1fedf8148afbcbc9b27dd198b2a7f7b/pydbase-1.5.0.tar.gz
+[2024-04-10 09:28:55] INFO root fetch - processPackages [miniagents]: Downloading https://files.pythonhosted.org/packages/cf/fe/fadb01c0382ccb6e8bb0e52f8ac427dfe1a1c03adfff608d92eb6789409f/miniagents-0.0.4.tar.gz
+[2024-04-10 09:28:55] INFO root fetch - processPackages [cpop]: Downloading https://files.pythonhosted.org/packages/95/3c/f47a428c8373aef792fcc543914249546a972d5994293ac141bbff995e2c/cpop-32.0.3.tar.gz
+[2024-04-10 09:28:56] INFO root fetch - processPackages [miniagents]: executing diffoscope
+[2024-04-10 09:28:56] INFO root fetch - processPackages [miniagents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miniagents-0.0.3.tar.gz tmp/miniagents-0.0.4.tar.gz --markdown 20240410/m/miniagents/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-10 09:28:56] INFO root fetch - processPackages [lineartest]: Downloading https://files.pythonhosted.org/packages/4c/f9/f768a419ac3d274a7e13751738677b1bd5b7b746e1eedcde82cc502f8d40/lineartest-0.2.0.tar.gz
+[2024-04-10 09:28:56] INFO root fetch - processPackages [GeoHD]: Downloading https://files.pythonhosted.org/packages/b4/a7/46d41eb192fe131498d812b755e9d7f1f23417487ff9b47e54c04415d97c/GeoHD-0.2.2.tar.gz
+[2024-04-10 09:28:56] INFO root fetch - processPackages [cpop]: executing diffoscope
+[2024-04-10 09:28:56] INFO root fetch - processPackages [cpop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpop-32.0.2.tar.gz tmp/cpop-32.0.3.tar.gz --markdown 20240410/c/cpop/32.0.2-32.0.3/README.md --exclude *.pyd
+[2024-04-10 09:28:56] INFO root fetch - processPackages [lineartest]: executing diffoscope
+[2024-04-10 09:28:56] INFO root fetch - processPackages [lineartest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lineartest-0.1.2.tar.gz tmp/lineartest-0.2.0.tar.gz --markdown 20240410/l/lineartest/0.1.2-0.2.0/README.md --exclude *.pyd
+[2024-04-10 09:28:56] INFO root fetch - processPackages [GeoHD]: executing diffoscope
+[2024-04-10 09:28:56] INFO root fetch - processPackages [GeoHD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GeoHD-0.2.1.tar.gz tmp/GeoHD-0.2.2.tar.gz --markdown 20240410/G/GeoHD/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-10 09:28:56] INFO root fetch - processPackages [pydbase]: Downloading https://files.pythonhosted.org/packages/4b/77/d0975c761269ef139d987e49df032205ff87a3cd0a75f68889cbdf93d329/pydbase-1.5.2.tar.gz
+[2024-04-10 09:28:56] INFO root fetch - processPackages [pydbase]: executing diffoscope
+[2024-04-10 09:28:56] INFO root fetch - processPackages [pydbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydbase-1.5.0.tar.gz tmp/pydbase-1.5.2.tar.gz --markdown 20240410/p/pydbase/1.5.0-1.5.2/README.md --exclude *.pyd
+[2024-04-10 09:28:56] INFO root fetch - processPackages [miniagents]: Remove: archive file [/home/abi/fetcher/tmp/miniagents-0.0.3.tar.gz]
+[2024-04-10 09:28:56] INFO root fetch - processPackages [miniagents]: Remove: archive file [/home/abi/fetcher/tmp/miniagents-0.0.4.tar.gz]
+[2024-04-10 09:28:56] INFO root fetch - main [MainThread]: End processing [miniagents]: success
+[2024-04-10 09:28:56] INFO root fetch - processPackages [lineartest]: Remove: archive file [/home/abi/fetcher/tmp/lineartest-0.1.2.tar.gz]
+[2024-04-10 09:28:56] INFO root fetch - processPackages [lineartest]: Remove: archive file [/home/abi/fetcher/tmp/lineartest-0.2.0.tar.gz]
+[2024-04-10 09:28:56] INFO root fetch - main [MainThread]: End processing [lineartest]: success
+[2024-04-10 09:28:56] INFO root fetch - processPackages [GeoHD]: Remove: archive file [/home/abi/fetcher/tmp/GeoHD-0.2.1.tar.gz]
+[2024-04-10 09:28:56] INFO root fetch - processPackages [GeoHD]: Remove: archive file [/home/abi/fetcher/tmp/GeoHD-0.2.2.tar.gz]
+[2024-04-10 09:28:56] INFO root fetch - main [MainThread]: End processing [GeoHD]: success
+[2024-04-10 09:28:56] INFO root fetch - processPackages [cpop]: Remove: archive file [/home/abi/fetcher/tmp/cpop-32.0.2.tar.gz]
+[2024-04-10 09:28:56] INFO root fetch - processPackages [cpop]: Remove: archive file [/home/abi/fetcher/tmp/cpop-32.0.3.tar.gz]
+[2024-04-10 09:28:56] INFO root fetch - main [MainThread]: End processing [cpop]: success
+[2024-04-10 09:28:57] INFO root fetch - processPackages [pydbase]: Remove: archive file [/home/abi/fetcher/tmp/pydbase-1.5.0.tar.gz]
+[2024-04-10 09:28:57] INFO root fetch - processPackages [pydbase]: Remove: archive file [/home/abi/fetcher/tmp/pydbase-1.5.2.tar.gz]
+[2024-04-10 09:28:57] INFO root fetch - main [MainThread]: End processing [pydbase]: success
+[2024-04-10 09:28:57] INFO root fetch - main [MainThread]: Store serial: [22697016]

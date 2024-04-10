@@ -22546,3 +22546,66 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-10 13:47:35] INFO root fetch - processPackages [exspy]: Remove: archive file [/home/abi/fetcher/tmp/exspy-0.2.tar.gz]
 [2024-04-10 13:47:35] INFO root fetch - main [MainThread]: End processing [exspy]: success
 [2024-04-10 13:47:35] INFO root fetch - main [MainThread]: Store serial: [22700278]
+[2024-04-10 13:49:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22700278]
+[2024-04-10 13:49:44] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-10 13:49:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: netcheck
+[2024-04-10 13:49:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: emx
+[2024-04-10 13:49:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PVNet
+[2024-04-10 13:49:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-geo-spaas
+[2024-04-10 13:49:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zrb-ollama
+[2024-04-10 13:49:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lpb-lib
+[2024-04-10 13:49:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: minio_async_client
+[2024-04-10 13:49:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: thonny-etboard-micropython-firmware-v2
+[2024-04-10 13:49:44] INFO root fetch - processPackages [zrb-ollama]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-10 13:49:45] INFO root fetch - processPackages [lpb-lib]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-10 13:49:45] INFO root fetch - processPackages [thonny-etboard-micropython-firmware-v2]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-10 13:49:45] INFO root fetch - processPackages [PVNet]: New version: [3.0.9] Old Version: [3.0.8]
+[2024-04-10 13:49:45] INFO root fetch - processPackages [zrb-ollama]: Downloading https://files.pythonhosted.org/packages/f4/ae/69059b69235236d7f5ee8e73d5ccae36e84fcab054c8f7e2210ea50def53/zrb_ollama-0.0.8.tar.gz
+[2024-04-10 13:49:45] INFO root fetch - processPackages [django-geo-spaas]: New version: [2.5.4] Old Version: [2.5.3]
+[2024-04-10 13:49:45] INFO root fetch - processPackages [lpb-lib]: Downloading https://files.pythonhosted.org/packages/0d/26/1dd9e1d1a3ce019cafc4f46170666ad5800692eb72cc756bf87723616469/lpb_lib-0.0.8.tar.gz
+[2024-04-10 13:49:45] WARNING root fetch - processPackages [emx]: Skipping, unable to determine old version
+[2024-04-10 13:49:45] INFO root fetch - main [MainThread]: End processing [emx] error
+[2024-04-10 13:49:45] INFO root fetch - processPackages [netcheck]: New version: [0.5.3] Old Version: [0.5.2]
+[2024-04-10 13:49:45] WARNING root fetch - processPackages [minio_async_client]: Skipping, unable to determine old version
+[2024-04-10 13:49:45] INFO root fetch - main [MainThread]: End processing [minio_async_client] error
+[2024-04-10 13:49:45] INFO root fetch - processPackages [thonny-etboard-micropython-firmware-v2]: Downloading https://files.pythonhosted.org/packages/52/5a/7a0f12a13311556408999b3ccbc446a928d8431650fe73117595818e6186/thonny-etboard-micropython-firmware-v2-1.0.3.tar.gz
+[2024-04-10 13:49:45] INFO root fetch - processPackages [PVNet]: Downloading https://files.pythonhosted.org/packages/47/d6/3a89799187c251f632672a9aa190b5b93fac0e00f5ec20eb85fe39a56fe2/PVNet-3.0.8.tar.gz
+[2024-04-10 13:49:45] INFO root fetch - processPackages [netcheck]: Downloading https://files.pythonhosted.org/packages/39/3f/3aedc18b88cb84f38a2f621e277c8de9da8653492f2ba07518c4931e01c9/netcheck-0.5.2.tar.gz
+[2024-04-10 13:49:45] INFO root fetch - processPackages [lpb-lib]: Downloading https://files.pythonhosted.org/packages/b5/a0/298a14417ab88f356ce41373b4a46c619d3e2e4ea96551c2b8cb1385ec7b/lpb_lib-0.0.9.tar.gz
+[2024-04-10 13:49:45] INFO root fetch - processPackages [django-geo-spaas]: Downloading https://files.pythonhosted.org/packages/6a/10/b6263821ff4fa954b9693ebf2367ff2e4941f802b4dbd6291151e401cb73/django-geo-spaas-2.5.3.tar.gz
+[2024-04-10 13:49:45] INFO root fetch - processPackages [zrb-ollama]: Downloading https://files.pythonhosted.org/packages/69/23/7a6f9fb793122c69b80ff6088f3dfab05f8782dabcf0f861a1f3e8a98a56/zrb_ollama-0.0.9.tar.gz
+[2024-04-10 13:49:45] INFO root fetch - processPackages [lpb-lib]: executing diffoscope
+[2024-04-10 13:49:45] INFO root fetch - processPackages [lpb-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lpb_lib-0.0.8.tar.gz tmp/lpb_lib-0.0.9.tar.gz --markdown 20240410/l/lpb-lib/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-10 13:49:45] INFO root fetch - processPackages [zrb-ollama]: executing diffoscope
+[2024-04-10 13:49:45] INFO root fetch - processPackages [zrb-ollama]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zrb_ollama-0.0.8.tar.gz tmp/zrb_ollama-0.0.9.tar.gz --markdown 20240410/z/zrb-ollama/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-10 13:49:45] INFO root fetch - processPackages [netcheck]: Downloading https://files.pythonhosted.org/packages/5a/85/9f7cfede36cf0c1208b90a001123df0c4d7a5d40d34d9170cfb0b7d949e2/netcheck-0.5.3.tar.gz
+[2024-04-10 13:49:45] INFO root fetch - processPackages [PVNet]: Downloading https://files.pythonhosted.org/packages/05/79/f3c9a6a17b563f480074d48bf5010f5bd4c77a300c1cbbb5b246ad094c7c/PVNet-3.0.9.tar.gz
+[2024-04-10 13:49:45] INFO root fetch - processPackages [django-geo-spaas]: Downloading https://files.pythonhosted.org/packages/9d/aa/ed3211161e2303b91fb5872966c7bf008d451d8447c8dbde205126ebb259/django-geo-spaas-2.5.4.tar.gz
+[2024-04-10 13:49:45] INFO root fetch - processPackages [netcheck]: executing diffoscope
+[2024-04-10 13:49:45] INFO root fetch - processPackages [netcheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netcheck-0.5.2.tar.gz tmp/netcheck-0.5.3.tar.gz --markdown 20240410/n/netcheck/0.5.2-0.5.3/README.md --exclude *.pyd
+[2024-04-10 13:49:45] INFO root fetch - processPackages [PVNet]: executing diffoscope
+[2024-04-10 13:49:45] INFO root fetch - processPackages [PVNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PVNet-3.0.8.tar.gz tmp/PVNet-3.0.9.tar.gz --markdown 20240410/P/PVNet/3.0.8-3.0.9/README.md --exclude *.pyd
+[2024-04-10 13:49:45] INFO root fetch - processPackages [thonny-etboard-micropython-firmware-v2]: Downloading https://files.pythonhosted.org/packages/e2/66/445378146c4cd16b7c1d105410cb144e79b54e0d3c96a3bf1fdefa19b7d4/thonny-etboard-micropython-firmware-v2-1.0.4.tar.gz
+[2024-04-10 13:49:45] INFO root fetch - processPackages [thonny-etboard-micropython-firmware-v2]: executing diffoscope
+[2024-04-10 13:49:45] INFO root fetch - processPackages [thonny-etboard-micropython-firmware-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thonny-etboard-micropython-firmware-v2-1.0.3.tar.gz tmp/thonny-etboard-micropython-firmware-v2-1.0.4.tar.gz --markdown 20240410/t/thonny-etboard-micropython-firmware-v2/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-10 13:49:46] INFO root fetch - processPackages [django-geo-spaas]: executing diffoscope
+[2024-04-10 13:49:46] INFO root fetch - processPackages [django-geo-spaas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-geo-spaas-2.5.3.tar.gz tmp/django-geo-spaas-2.5.4.tar.gz --markdown 20240410/d/django-geo-spaas/2.5.3-2.5.4/README.md --exclude *.pyd
+[2024-04-10 13:49:46] INFO root fetch - processPackages [lpb-lib]: Remove: archive file [/home/abi/fetcher/tmp/lpb_lib-0.0.8.tar.gz]
+[2024-04-10 13:49:46] INFO root fetch - processPackages [lpb-lib]: Remove: archive file [/home/abi/fetcher/tmp/lpb_lib-0.0.9.tar.gz]
+[2024-04-10 13:49:46] INFO root fetch - main [MainThread]: End processing [lpb-lib]: success
+[2024-04-10 13:49:46] INFO root fetch - processPackages [zrb-ollama]: Remove: archive file [/home/abi/fetcher/tmp/zrb_ollama-0.0.8.tar.gz]
+[2024-04-10 13:49:46] INFO root fetch - processPackages [zrb-ollama]: Remove: archive file [/home/abi/fetcher/tmp/zrb_ollama-0.0.9.tar.gz]
+[2024-04-10 13:49:46] INFO root fetch - main [MainThread]: End processing [zrb-ollama]: success
+[2024-04-10 13:49:46] INFO root fetch - processPackages [netcheck]: Remove: archive file [/home/abi/fetcher/tmp/netcheck-0.5.2.tar.gz]
+[2024-04-10 13:49:46] INFO root fetch - processPackages [netcheck]: Remove: archive file [/home/abi/fetcher/tmp/netcheck-0.5.3.tar.gz]
+[2024-04-10 13:49:46] INFO root fetch - main [MainThread]: End processing [netcheck]: success
+[2024-04-10 13:49:46] INFO root fetch - processPackages [PVNet]: Remove: archive file [/home/abi/fetcher/tmp/PVNet-3.0.8.tar.gz]
+[2024-04-10 13:49:46] INFO root fetch - processPackages [PVNet]: Remove: archive file [/home/abi/fetcher/tmp/PVNet-3.0.9.tar.gz]
+[2024-04-10 13:49:46] INFO root fetch - main [MainThread]: End processing [PVNet]: success
+[2024-04-10 13:49:46] INFO root fetch - processPackages [thonny-etboard-micropython-firmware-v2]: Remove: archive file [/home/abi/fetcher/tmp/thonny-etboard-micropython-firmware-v2-1.0.3.tar.gz]
+[2024-04-10 13:49:46] INFO root fetch - processPackages [thonny-etboard-micropython-firmware-v2]: Remove: archive file [/home/abi/fetcher/tmp/thonny-etboard-micropython-firmware-v2-1.0.4.tar.gz]
+[2024-04-10 13:49:46] INFO root fetch - main [MainThread]: End processing [thonny-etboard-micropython-firmware-v2]: success
+[2024-04-10 13:49:46] INFO root fetch - processPackages [django-geo-spaas]: Remove: archive file [/home/abi/fetcher/tmp/django-geo-spaas-2.5.3.tar.gz]
+[2024-04-10 13:49:46] INFO root fetch - processPackages [django-geo-spaas]: Remove: archive file [/home/abi/fetcher/tmp/django-geo-spaas-2.5.4.tar.gz]
+[2024-04-10 13:49:46] INFO root fetch - main [MainThread]: End processing [django-geo-spaas]: success
+[2024-04-10 13:49:46] INFO root fetch - main [MainThread]: Store serial: [22700308]

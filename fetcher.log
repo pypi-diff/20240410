@@ -12779,3 +12779,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 07:01:48] INFO root fetch - processPackages [sdkms]: Remove: archive file [/home/abi/fetcher/tmp/sdkms-4.9.2084-py2.py3-none-any.whl.zip]
 [2024-04-10 07:01:48] INFO root fetch - main [MainThread]: End processing [sdkms]: success
 [2024-04-10 07:01:48] INFO root fetch - main [MainThread]: Store serial: [22695917]
+[2024-04-10 07:03:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22695917]
+[2024-04-10 07:03:58] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-10 07:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sdkms-cli
+[2024-04-10 07:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: smartkey-cli
+[2024-04-10 07:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: atap-corpus-loader
+[2024-04-10 07:03:58] INFO root fetch - processPackages [sdkms-cli]: New version: [4.9.2084] Old Version: [4.8.2070]
+[2024-04-10 07:03:58] INFO root fetch - processPackages [atap-corpus-loader]: New version: [1.3.4] Old Version: [1.3.3]
+[2024-04-10 07:03:58] INFO root fetch - processPackages [smartkey-cli]: New version: [4.9.2084] Old Version: [4.8.2070]
+[2024-04-10 07:03:59] INFO root fetch - processPackages [sdkms-cli]: Downloading https://files.pythonhosted.org/packages/ce/df/888a73dc14736bafe467cac490c2a231c34270ef4a248dc7e95c23a21cc6/sdkms_cli-4.8.2070-py2.py3-none-any.whl
+[2024-04-10 07:03:59] INFO root fetch - processPackages [smartkey-cli]: Downloading https://files.pythonhosted.org/packages/ce/7f/001d24ce2bc35bcbc60039e7661442bdee657d5407a35f7c20b13c28eedf/smartkey_cli-4.8.2070-py2.py3-none-any.whl
+[2024-04-10 07:03:59] INFO root fetch - processPackages [atap-corpus-loader]: Downloading https://files.pythonhosted.org/packages/81/43/4b4dd6b8f6398d7babd09898f54b08c62267edcde67d6b436ad20d3d0684/atap_corpus_loader-1.3.3.tar.gz
+[2024-04-10 07:03:59] INFO root fetch - processPackages [atap-corpus-loader]: Downloading https://files.pythonhosted.org/packages/28/9d/9109a0abb990d60baa800c7b86ae362622f5040356bbd1bd277e4b5dfaaa/atap_corpus_loader-1.3.4.tar.gz
+[2024-04-10 07:03:59] INFO root fetch - processPackages [smartkey-cli]: Downloading https://files.pythonhosted.org/packages/37/13/b20a475fdb812f59d94fa3522bb4a8625fa1b85c10b0daac1e9eaf549d60/smartkey_cli-4.9.2084-py3-none-any.whl
+[2024-04-10 07:03:59] INFO root fetch - processPackages [sdkms-cli]: Downloading https://files.pythonhosted.org/packages/1d/ab/2ce96f7ea033e0563c2cf90b1912ff4248926a3362c7af09515ba3b6c790/sdkms_cli-4.9.2084-py3-none-any.whl
+[2024-04-10 07:03:59] INFO root fetch - processPackages [atap-corpus-loader]: executing diffoscope
+[2024-04-10 07:03:59] INFO root fetch - processPackages [atap-corpus-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atap_corpus_loader-1.3.3.tar.gz tmp/atap_corpus_loader-1.3.4.tar.gz --markdown 20240410/a/atap-corpus-loader/1.3.3-1.3.4/README.md --exclude *.pyd
+[2024-04-10 07:03:59] INFO root fetch - processPackages [smartkey-cli]: executing diffoscope
+[2024-04-10 07:03:59] INFO root fetch - processPackages [smartkey-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartkey_cli-4.8.2070-py2.py3-none-any.whl.zip tmp/smartkey_cli-4.9.2084-py3-none-any.whl.zip --markdown 20240410/s/smartkey-cli/4.8.2070-4.9.2084/README.md --exclude *.pyd
+[2024-04-10 07:03:59] INFO root fetch - processPackages [sdkms-cli]: executing diffoscope
+[2024-04-10 07:03:59] INFO root fetch - processPackages [sdkms-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkms_cli-4.8.2070-py2.py3-none-any.whl.zip tmp/sdkms_cli-4.9.2084-py3-none-any.whl.zip --markdown 20240410/s/sdkms-cli/4.8.2070-4.9.2084/README.md --exclude *.pyd
+[2024-04-10 07:04:00] INFO root fetch - processPackages [smartkey-cli]: Remove: archive file [/home/abi/fetcher/tmp/smartkey_cli-4.8.2070-py2.py3-none-any.whl.zip]
+[2024-04-10 07:04:00] INFO root fetch - processPackages [smartkey-cli]: Remove: archive file [/home/abi/fetcher/tmp/smartkey_cli-4.9.2084-py3-none-any.whl.zip]
+[2024-04-10 07:04:00] INFO root fetch - main [MainThread]: End processing [smartkey-cli]: success
+[2024-04-10 07:04:00] INFO root fetch - processPackages [sdkms-cli]: Remove: archive file [/home/abi/fetcher/tmp/sdkms_cli-4.8.2070-py2.py3-none-any.whl.zip]
+[2024-04-10 07:04:00] INFO root fetch - processPackages [sdkms-cli]: Remove: archive file [/home/abi/fetcher/tmp/sdkms_cli-4.9.2084-py3-none-any.whl.zip]
+[2024-04-10 07:04:00] INFO root fetch - main [MainThread]: End processing [sdkms-cli]: success
+[2024-04-10 07:04:00] INFO root fetch - processPackages [atap-corpus-loader]: Remove: archive file [/home/abi/fetcher/tmp/atap_corpus_loader-1.3.3.tar.gz]
+[2024-04-10 07:04:00] INFO root fetch - processPackages [atap-corpus-loader]: Remove: archive file [/home/abi/fetcher/tmp/atap_corpus_loader-1.3.4.tar.gz]
+[2024-04-10 07:04:00] INFO root fetch - main [MainThread]: End processing [atap-corpus-loader]: success
+[2024-04-10 07:04:00] INFO root fetch - main [MainThread]: Store serial: [22695924]

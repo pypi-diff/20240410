@@ -10381,3 +10381,65 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 05:14:52] INFO root fetch - processPackages [pulumi-gcp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gcp-7.9.0a1707934510.tar.gz]
 [2024-04-10 05:14:52] INFO root fetch - main [MainThread]: End processing [pulumi-gcp]: success
 [2024-04-10 05:14:52] INFO root fetch - main [MainThread]: Store serial: [22694969]
+[2024-04-10 05:16:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22694969]
+[2024-04-10 05:17:01] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-10 05:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-field-logger
+[2024-04-10 05:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: funasr
+[2024-04-10 05:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ros-cdk-dashvector
+[2024-04-10 05:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cleverslice
+[2024-04-10 05:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dock-cli
+[2024-04-10 05:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdktf-cdktf-provider-snowflake
+[2024-04-10 05:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sorting-vis
+[2024-04-10 05:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nonebot-plugin-osubot
+[2024-04-10 05:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ros-cdk-sas
+[2024-04-10 05:17:01] INFO root fetch - processPackages [dock-cli]: New version: [0.4.0] Old Version: [0.3.1]
+[2024-04-10 05:17:01] WARNING root fetch - processPackages [sorting-vis]: Skipping, unable to determine old version
+[2024-04-10 05:17:01] INFO root fetch - main [MainThread]: End processing [sorting-vis] error
+[2024-04-10 05:17:01] INFO root fetch - processPackages [django-field-logger]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-10 05:17:01] WARNING root fetch - processPackages [cleverslice]: Skipping, unable to determine old version
+[2024-04-10 05:17:01] INFO root fetch - main [MainThread]: End processing [cleverslice] error
+[2024-04-10 05:17:02] INFO root fetch - processPackages [nonebot-plugin-osubot]: New version: [5.5.0] Old Version: [5.4.1]
+[2024-04-10 05:17:02] INFO root fetch - processPackages [django-field-logger]: Downloading https://files.pythonhosted.org/packages/1c/b1/0c28001b1c64dc68f23f04b7ed59dc0c799098d1b32e8eb9504b9754fc22/django-field-logger-0.0.8.tar.gz
+[2024-04-10 05:17:02] INFO root fetch - processPackages [ros-cdk-sas]: New version: [1.0.24] Old Version: [1.0.23]
+[2024-04-10 05:17:02] WARNING root fetch - processPackages [ros-cdk-dashvector]: Skipping, unable to determine old version
+[2024-04-10 05:17:02] INFO root fetch - main [MainThread]: End processing [ros-cdk-dashvector] error
+[2024-04-10 05:17:02] INFO root fetch - processPackages [nonebot-plugin-osubot]: Downloading https://files.pythonhosted.org/packages/86/df/d7f28b2cb6619597128410ebee6d6f7ac3317266e4eb5e921b7f5b0ec4c3/nonebot-plugin-osubot-5.4.1.tar.gz
+[2024-04-10 05:17:02] INFO root fetch - processPackages [cdktf-cdktf-provider-snowflake]: New version: [9.0.4] Old Version: [9.0.3]
+[2024-04-10 05:17:02] INFO root fetch - processPackages [funasr]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-10 05:17:02] WARNING root fetch - processPackages [nonebot-plugin-osubot]: Skipping package: exceeds size limit 29381130>=10485760
+[2024-04-10 05:17:02] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-osubot] error
+[2024-04-10 05:17:02] INFO root fetch - processPackages [dock-cli]: Downloading https://files.pythonhosted.org/packages/f1/b4/caf70f0bf2126f338c51d124c0d221798abd84a2539a7f81e9e59c34fd7f/dock-cli-0.3.1.tar.gz
+[2024-04-10 05:17:02] INFO root fetch - processPackages [django-field-logger]: Downloading https://files.pythonhosted.org/packages/5c/38/5b6cb284e041551a472a53325ce600b28a43088933b8022578ffa40f44de/django-field-logger-0.0.9.tar.gz
+[2024-04-10 05:17:02] INFO root fetch - processPackages [ros-cdk-sas]: Downloading https://files.pythonhosted.org/packages/9c/dd/de7246a3e2144c1d80fb2bc15e6e003893f592e64273962eec53628c9088/ros-cdk-sas-1.0.23.tar.gz
+[2024-04-10 05:17:02] INFO root fetch - processPackages [cdktf-cdktf-provider-snowflake]: Downloading https://files.pythonhosted.org/packages/87/59/1e42265f5a62860e91de7eca69df7a796732140960d944277f15c7834354/cdktf-cdktf-provider-snowflake-9.0.3.tar.gz
+[2024-04-10 05:17:02] INFO root fetch - processPackages [django-field-logger]: executing diffoscope
+[2024-04-10 05:17:02] INFO root fetch - processPackages [django-field-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-field-logger-0.0.8.tar.gz tmp/django-field-logger-0.0.9.tar.gz --markdown 20240410/d/django-field-logger/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-10 05:17:02] INFO root fetch - processPackages [funasr]: Downloading https://files.pythonhosted.org/packages/21/21/731cf3cbf78402270debbdb84df0ea7792894307364fd9d73b168d54311f/funasr-1.0.8.tar.gz
+[2024-04-10 05:17:02] INFO root fetch - processPackages [dock-cli]: Downloading https://files.pythonhosted.org/packages/97/f8/57f2590939f65f177820026e47bf7351c1ca187f631c6a8b97528984af6d/dock-cli-0.4.0.tar.gz
+[2024-04-10 05:17:02] INFO root fetch - processPackages [dock-cli]: executing diffoscope
+[2024-04-10 05:17:02] INFO root fetch - processPackages [dock-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dock-cli-0.3.1.tar.gz tmp/dock-cli-0.4.0.tar.gz --markdown 20240410/d/dock-cli/0.3.1-0.4.0/README.md --exclude *.pyd
+[2024-04-10 05:17:02] INFO root fetch - processPackages [ros-cdk-sas]: Downloading https://files.pythonhosted.org/packages/50/ba/eed1bd57ed5724fe39ed8b999ebf1b8a84c42fd1a4c5b85e4a25a7486d8e/ros-cdk-sas-1.0.24.tar.gz
+[2024-04-10 05:17:02] INFO root fetch - processPackages [ros-cdk-sas]: executing diffoscope
+[2024-04-10 05:17:02] INFO root fetch - processPackages [ros-cdk-sas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-sas-1.0.23.tar.gz tmp/ros-cdk-sas-1.0.24.tar.gz --markdown 20240410/r/ros-cdk-sas/1.0.23-1.0.24/README.md --exclude *.pyd
+[2024-04-10 05:17:02] INFO root fetch - processPackages [funasr]: Downloading https://files.pythonhosted.org/packages/d0/dd/6f3c701795e79dbbbfe61e62b81fabcb3d7a62598476c4197f8156a012ad/funasr-1.0.9.tar.gz
+[2024-04-10 05:17:02] INFO root fetch - processPackages [django-field-logger]: Remove: archive file [/home/abi/fetcher/tmp/django-field-logger-0.0.8.tar.gz]
+[2024-04-10 05:17:02] INFO root fetch - processPackages [django-field-logger]: Remove: archive file [/home/abi/fetcher/tmp/django-field-logger-0.0.9.tar.gz]
+[2024-04-10 05:17:02] INFO root fetch - main [MainThread]: End processing [django-field-logger]: success
+[2024-04-10 05:17:03] INFO root fetch - processPackages [dock-cli]: Remove: archive file [/home/abi/fetcher/tmp/dock-cli-0.3.1.tar.gz]
+[2024-04-10 05:17:03] INFO root fetch - processPackages [dock-cli]: Remove: archive file [/home/abi/fetcher/tmp/dock-cli-0.4.0.tar.gz]
+[2024-04-10 05:17:03] INFO root fetch - main [MainThread]: End processing [dock-cli]: success
+[2024-04-10 05:17:03] INFO root fetch - processPackages [funasr]: executing diffoscope
+[2024-04-10 05:17:03] INFO root fetch - processPackages [funasr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funasr-1.0.8.tar.gz tmp/funasr-1.0.9.tar.gz --markdown 20240410/f/funasr/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-10 05:17:03] INFO root fetch - processPackages [ros-cdk-sas]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-sas-1.0.23.tar.gz]
+[2024-04-10 05:17:03] INFO root fetch - processPackages [ros-cdk-sas]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-sas-1.0.24.tar.gz]
+[2024-04-10 05:17:03] INFO root fetch - main [MainThread]: End processing [ros-cdk-sas]: success
+[2024-04-10 05:17:03] INFO root fetch - processPackages [cdktf-cdktf-provider-snowflake]: Downloading https://files.pythonhosted.org/packages/c0/6f/a1d64f04dbd47c282d0ec29d3a9a1a51346734468ca5477007fcff1598cc/cdktf-cdktf-provider-snowflake-9.0.4.tar.gz
+[2024-04-10 05:17:03] INFO root fetch - processPackages [cdktf-cdktf-provider-snowflake]: executing diffoscope
+[2024-04-10 05:17:03] INFO root fetch - processPackages [cdktf-cdktf-provider-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-snowflake-9.0.3.tar.gz tmp/cdktf-cdktf-provider-snowflake-9.0.4.tar.gz --markdown 20240410/c/cdktf-cdktf-provider-snowflake/9.0.3-9.0.4/README.md --exclude *.pyd
+[2024-04-10 05:17:04] INFO root fetch - processPackages [funasr]: Remove: archive file [/home/abi/fetcher/tmp/funasr-1.0.8.tar.gz]
+[2024-04-10 05:17:04] INFO root fetch - processPackages [funasr]: Remove: archive file [/home/abi/fetcher/tmp/funasr-1.0.9.tar.gz]
+[2024-04-10 05:17:04] INFO root fetch - main [MainThread]: End processing [funasr]: success
+[2024-04-10 05:17:06] INFO root fetch - processPackages [cdktf-cdktf-provider-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-snowflake-9.0.3.tar.gz]
+[2024-04-10 05:17:06] INFO root fetch - processPackages [cdktf-cdktf-provider-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-snowflake-9.0.4.tar.gz]
+[2024-04-10 05:17:06] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-snowflake]: success
+[2024-04-10 05:17:06] INFO root fetch - main [MainThread]: Store serial: [22695006]

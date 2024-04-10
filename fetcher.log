@@ -13617,3 +13617,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 07:58:37] INFO root fetch - processPackages [pter]: Remove: archive file [/home/abi/fetcher/tmp/pter-3.9.0.tar.gz]
 [2024-04-10 07:58:37] INFO root fetch - main [MainThread]: End processing [pter]: success
 [2024-04-10 07:58:37] INFO root fetch - main [MainThread]: Store serial: [22696266]
+[2024-04-10 08:00:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22696266]
+[2024-04-10 08:00:45] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-10 08:00:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nakamon
+[2024-04-10 08:00:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: easytl
+[2024-04-10 08:00:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-fastly
+[2024-04-10 08:00:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: r2r
+[2024-04-10 08:00:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: selenium-network-intercept
+[2024-04-10 08:00:45] INFO root fetch - processPackages [r2r]: New version: [0.1.32] Old Version: [0.1.31]
+[2024-04-10 08:00:45] INFO root fetch - processPackages [nakamon]: New version: [0.1.0a2] Old Version: [0.1.0a1]
+[2024-04-10 08:00:46] INFO root fetch - processPackages [r2r]: Downloading https://files.pythonhosted.org/packages/fb/7a/5a091a1b0123465a16732df9794c82c165d82681998d2f62f7602b5e9e9e/r2r-0.1.31.tar.gz
+[2024-04-10 08:00:46] INFO root fetch - processPackages [nakamon]: Downloading https://files.pythonhosted.org/packages/fc/25/63f68f835411e4315caf68dcaf632e099c10cc60a0d7c20610b4e31d848d/nakamon-0.1.0a1.tar.gz
+[2024-04-10 08:00:46] INFO root fetch - processPackages [easytl]: New version: [0.1.0] Old Version: [0.0.4]
+[2024-04-10 08:00:46] INFO root fetch - processPackages [pulumi-fastly]: New version: [8.6.0a1712727400] Old Version: [8.6.0a1712467963]
+[2024-04-10 08:00:46] INFO root fetch - processPackages [selenium-network-intercept]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-10 08:00:46] INFO root fetch - processPackages [easytl]: Downloading https://files.pythonhosted.org/packages/94/96/cf8ff6593d7cad58bd68a9ae1f1234d4c86c1d836eb3ea66396d684037b6/easytl-0.0.4.tar.gz
+[2024-04-10 08:00:46] INFO root fetch - processPackages [pulumi-fastly]: Downloading https://files.pythonhosted.org/packages/10/cf/2352ecb31da040b27ff30d1a6daf08f2533061b109d41cd1dd2351204f6d/pulumi_fastly-8.6.0a1712467963.tar.gz
+[2024-04-10 08:00:46] INFO root fetch - processPackages [selenium-network-intercept]: Downloading https://files.pythonhosted.org/packages/3b/9f/a5eb4f4aeedcb9bf240d09045291d16c5b42aea94fcc3f118c33bb3957fc/selenium-network-intercept-1.0.0.tar.gz
+[2024-04-10 08:00:46] INFO root fetch - processPackages [nakamon]: Downloading https://files.pythonhosted.org/packages/62/85/c1a797b644bd435e12bc3b05e8d99c81240c76a13e030f48fb19a89c906f/nakamon-0.1.0a2.tar.gz
+[2024-04-10 08:00:46] INFO root fetch - processPackages [r2r]: Downloading https://files.pythonhosted.org/packages/7d/bf/65bd4c5f4cdb5e07535d73e64ef23b9e44ea2d1b00706d4a4f94d2ed38d0/r2r-0.1.32.tar.gz
+[2024-04-10 08:00:46] INFO root fetch - processPackages [easytl]: Downloading https://files.pythonhosted.org/packages/ed/f5/44dec3bdbd9c54fd71b5cc26f829f5cb993bad6c2a388143f4c45b474e0b/easytl-0.1.0.tar.gz
+[2024-04-10 08:00:46] INFO root fetch - processPackages [nakamon]: executing diffoscope
+[2024-04-10 08:00:46] INFO root fetch - processPackages [nakamon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nakamon-0.1.0a1.tar.gz tmp/nakamon-0.1.0a2.tar.gz --markdown 20240410/n/nakamon/0.1.0a1-0.1.0a2/README.md --exclude *.pyd
+[2024-04-10 08:00:46] INFO root fetch - processPackages [pulumi-fastly]: Downloading https://files.pythonhosted.org/packages/02/01/9d32d3271ec2aada2f5eb37d8f9397828164ed77b7aa77b8ce9e6394c3bc/pulumi_fastly-8.6.0a1712727400.tar.gz
+[2024-04-10 08:00:46] INFO root fetch - processPackages [selenium-network-intercept]: Downloading https://files.pythonhosted.org/packages/2e/ef/2e191d0155d1a64df023af7c4a6fad9e0fc9525a13e10d02c0b072a405f3/selenium-network-intercept-1.0.1.tar.gz
+[2024-04-10 08:00:46] INFO root fetch - processPackages [easytl]: executing diffoscope
+[2024-04-10 08:00:46] INFO root fetch - processPackages [easytl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easytl-0.0.4.tar.gz tmp/easytl-0.1.0.tar.gz --markdown 20240410/e/easytl/0.0.4-0.1.0/README.md --exclude *.pyd
+[2024-04-10 08:00:46] INFO root fetch - processPackages [pulumi-fastly]: executing diffoscope
+[2024-04-10 08:00:46] INFO root fetch - processPackages [pulumi-fastly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_fastly-8.6.0a1712467963.tar.gz tmp/pulumi_fastly-8.6.0a1712727400.tar.gz --markdown 20240410/p/pulumi-fastly/8.6.0a1712467963-8.6.0a1712727400/README.md --exclude *.pyd
+[2024-04-10 08:00:46] INFO root fetch - processPackages [r2r]: executing diffoscope
+[2024-04-10 08:00:46] INFO root fetch - processPackages [r2r]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/r2r-0.1.31.tar.gz tmp/r2r-0.1.32.tar.gz --markdown 20240410/r/r2r/0.1.31-0.1.32/README.md --exclude *.pyd
+[2024-04-10 08:00:46] INFO root fetch - processPackages [selenium-network-intercept]: executing diffoscope
+[2024-04-10 08:00:46] INFO root fetch - processPackages [selenium-network-intercept]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium-network-intercept-1.0.0.tar.gz tmp/selenium-network-intercept-1.0.1.tar.gz --markdown 20240410/s/selenium-network-intercept/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-10 08:00:47] INFO root fetch - processPackages [nakamon]: Remove: archive file [/home/abi/fetcher/tmp/nakamon-0.1.0a1.tar.gz]
+[2024-04-10 08:00:47] INFO root fetch - processPackages [nakamon]: Remove: archive file [/home/abi/fetcher/tmp/nakamon-0.1.0a2.tar.gz]
+[2024-04-10 08:00:47] INFO root fetch - main [MainThread]: End processing [nakamon]: success
+[2024-04-10 08:00:47] INFO root fetch - processPackages [easytl]: Remove: archive file [/home/abi/fetcher/tmp/easytl-0.0.4.tar.gz]
+[2024-04-10 08:00:47] INFO root fetch - processPackages [easytl]: Remove: archive file [/home/abi/fetcher/tmp/easytl-0.1.0.tar.gz]
+[2024-04-10 08:00:47] INFO root fetch - main [MainThread]: End processing [easytl]: success
+[2024-04-10 08:00:47] INFO root fetch - processPackages [selenium-network-intercept]: Remove: archive file [/home/abi/fetcher/tmp/selenium-network-intercept-1.0.0.tar.gz]
+[2024-04-10 08:00:47] INFO root fetch - processPackages [selenium-network-intercept]: Remove: archive file [/home/abi/fetcher/tmp/selenium-network-intercept-1.0.1.tar.gz]
+[2024-04-10 08:00:47] INFO root fetch - main [MainThread]: End processing [selenium-network-intercept]: success
+[2024-04-10 08:00:47] INFO root fetch - processPackages [pulumi-fastly]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_fastly-8.6.0a1712467963.tar.gz]
+[2024-04-10 08:00:47] INFO root fetch - processPackages [pulumi-fastly]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_fastly-8.6.0a1712727400.tar.gz]
+[2024-04-10 08:00:47] INFO root fetch - main [MainThread]: End processing [pulumi-fastly]: success
+[2024-04-10 08:00:47] INFO root fetch - processPackages [r2r]: Remove: archive file [/home/abi/fetcher/tmp/r2r-0.1.31.tar.gz]
+[2024-04-10 08:00:47] INFO root fetch - processPackages [r2r]: Remove: archive file [/home/abi/fetcher/tmp/r2r-0.1.32.tar.gz]
+[2024-04-10 08:00:47] INFO root fetch - main [MainThread]: End processing [r2r]: success
+[2024-04-10 08:00:47] INFO root fetch - main [MainThread]: Store serial: [22696278]

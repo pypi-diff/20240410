@@ -8254,3 +8254,92 @@
 [2024-04-10 03:44:18] INFO root fetch - processPackages [aws-cdk.cli-lib-alpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.cli-lib-alpha-2.99.1a0.tar.gz]
 [2024-04-10 03:44:18] INFO root fetch - main [MainThread]: End processing [aws-cdk.cli-lib-alpha]: success
 [2024-04-10 03:44:18] INFO root fetch - main [MainThread]: Store serial: [22694201]
+[2024-04-10 03:46:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22694201]
+[2024-04-10 03:46:27] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-10 03:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aws-cdk-lib
+[2024-04-10 03:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: notification-py
+[2024-04-10 03:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pih-gateway
+[2024-04-10 03:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xhap
+[2024-04-10 03:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: demo-package-tea-redcat-001
+[2024-04-10 03:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bleak-retry-connector
+[2024-04-10 03:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pih-mail
+[2024-04-10 03:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: symbol-sdk-python
+[2024-04-10 03:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: taskara
+[2024-04-10 03:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jemma
+[2024-04-10 03:46:28] INFO root fetch - processPackages [notification-py]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-10 03:46:28] INFO root fetch - processPackages [taskara]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-10 03:46:28] INFO root fetch - processPackages [jemma]: New version: [0.1.1291] Old Version: [0.1.1290]
+[2024-04-10 03:46:28] INFO root fetch - processPackages [notification-py]: Downloading https://files.pythonhosted.org/packages/e5/cc/a65ec3343064ea5e1e8abdc78db5a4690dac5bca958c49a9244bb5443fa0/notification_py-0.0.7.tar.gz
+[2024-04-10 03:46:28] INFO root fetch - processPackages [bleak-retry-connector]: New version: [3.5.0] Old Version: [3.4.0]
+[2024-04-10 03:46:28] INFO root fetch - processPackages [taskara]: Downloading https://files.pythonhosted.org/packages/d6/1e/172ae85d48722a1e28b9526c0bb34465bd7920d0c8e6858e25a3f8c528a9/taskara-0.1.7.tar.gz
+[2024-04-10 03:46:28] INFO root fetch - processPackages [jemma]: Downloading https://files.pythonhosted.org/packages/05/a6/1a8fff3336ec1f6fd7cbf88ebc98cdfc4a12420b53cd927808d7dfef9768/jemma-0.1.1290.tar.gz
+[2024-04-10 03:46:28] WARNING root fetch - processPackages [pih-gateway]: Skipping, unable to determine old version
+[2024-04-10 03:46:28] INFO root fetch - processPackages [pih-gateway]: Start processing: cve-bin-tool
+[2024-04-10 03:46:28] WARNING root fetch - processPackages [xhap]: Skipping, unable to determine old version
+[2024-04-10 03:46:28] WARNING root fetch - processPackages [demo-package-tea-redcat-001]: Skipping, unable to determine old version
+[2024-04-10 03:46:28] INFO root fetch - main [MainThread]: End processing [pih-gateway] error
+[2024-04-10 03:46:28] INFO root fetch - processPackages [xhap]: Start processing: pih-mark
+[2024-04-10 03:46:28] INFO root fetch - main [MainThread]: End processing [xhap] error
+[2024-04-10 03:46:28] INFO root fetch - main [MainThread]: End processing [demo-package-tea-redcat-001] error
+[2024-04-10 03:46:28] INFO root fetch - processPackages [aws-cdk-lib]: New version: [2.99.1] Old Version: [2.99.0]
+[2024-04-10 03:46:28] INFO root fetch - processPackages [symbol-sdk-python]: New version: [3.2.0] Old Version: [3.1.0]
+[2024-04-10 03:46:28] INFO root fetch - processPackages [bleak-retry-connector]: Downloading https://files.pythonhosted.org/packages/ab/e9/9d1106ceb2316cd4204bd8026c4b8d43540bd8f249550a5fb0aa8a55e181/bleak_retry_connector-3.4.0.tar.gz
+[2024-04-10 03:46:28] INFO root fetch - processPackages [pih-mail]: New version: [0.15] Old Version: [0.14]
+[2024-04-10 03:46:28] INFO root fetch - processPackages [pih-mark]: New version: [0.12] Old Version: [0.11]
+[2024-04-10 03:46:28] INFO root fetch - processPackages [taskara]: Downloading https://files.pythonhosted.org/packages/c0/4f/e9467a6dd755091e2fe2294b58569b289c5252fd70463791829fd99fbfd7/taskara-0.1.8.tar.gz
+[2024-04-10 03:46:28] INFO root fetch - processPackages [cve-bin-tool]: New version: [3.3rc3] Old Version: [3.3rc2]
+[2024-04-10 03:46:28] INFO root fetch - processPackages [notification-py]: Downloading https://files.pythonhosted.org/packages/be/a3/c4534ceb28b8cde176a1761a9f6a35a342796bee2fd2157f39ecb400cf78/notification_py-0.0.8.tar.gz
+[2024-04-10 03:46:28] INFO root fetch - processPackages [taskara]: executing diffoscope
+[2024-04-10 03:46:28] INFO root fetch - processPackages [taskara]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskara-0.1.7.tar.gz tmp/taskara-0.1.8.tar.gz --markdown 20240410/t/taskara/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-10 03:46:28] INFO root fetch - processPackages [jemma]: Downloading https://files.pythonhosted.org/packages/92/b6/6364e276de2f8efeccf38b4ef9b4cdea8eba568082d93bfef7f1d3b4951c/jemma-0.1.1291.tar.gz
+[2024-04-10 03:46:28] INFO root fetch - processPackages [pih-mail]: Downloading https://files.pythonhosted.org/packages/74/17/57b6fc35292aa66f57ed8d8f11d3af19a52a25c9618de951ed5bcb4fe401/pih-mail-0.14.tar.gz
+[2024-04-10 03:46:28] INFO root fetch - processPackages [notification-py]: executing diffoscope
+[2024-04-10 03:46:28] INFO root fetch - processPackages [notification-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notification_py-0.0.7.tar.gz tmp/notification_py-0.0.8.tar.gz --markdown 20240410/n/notification-py/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-10 03:46:28] INFO root fetch - processPackages [aws-cdk-lib]: Downloading https://files.pythonhosted.org/packages/0f/db/d19c00a90c5a7580f01082ba3bc21088cd2da3ecd6cfc971452f2473a73c/aws-cdk-lib-2.99.0.tar.gz
+[2024-04-10 03:46:28] INFO root fetch - processPackages [symbol-sdk-python]: Downloading https://files.pythonhosted.org/packages/e7/fe/2ecc1d07d8a11d528af4621723a8dfccd981bec97e8c914e49457a6dce22/symbol_sdk_python-3.1.0.tar.gz
+[2024-04-10 03:46:28] INFO root fetch - processPackages [jemma]: executing diffoscope
+[2024-04-10 03:46:28] INFO root fetch - processPackages [jemma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jemma-0.1.1290.tar.gz tmp/jemma-0.1.1291.tar.gz --markdown 20240410/j/jemma/0.1.1290-0.1.1291/README.md --exclude *.pyd
+[2024-04-10 03:46:28] INFO root fetch - processPackages [bleak-retry-connector]: Downloading https://files.pythonhosted.org/packages/e6/f2/21af947a3b9f3f1bf0dbfe1dc7fb5ea6a7ef87dbf0bb7266a4d06d9c18e1/bleak_retry_connector-3.5.0.tar.gz
+[2024-04-10 03:46:28] INFO root fetch - processPackages [pih-mark]: Downloading https://files.pythonhosted.org/packages/06/c3/c3539af2ce8f924e429b73e25d24d02fd00980b8d680c1760e67cca6c8a3/pih-mark-0.11.tar.gz
+[2024-04-10 03:46:28] INFO root fetch - processPackages [bleak-retry-connector]: executing diffoscope
+[2024-04-10 03:46:28] INFO root fetch - processPackages [bleak-retry-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bleak_retry_connector-3.4.0.tar.gz tmp/bleak_retry_connector-3.5.0.tar.gz --markdown 20240410/b/bleak-retry-connector/3.4.0-3.5.0/README.md --exclude *.pyd
+[2024-04-10 03:46:29] WARNING root fetch - processPackages [aws-cdk-lib]: Skipping package: exceeds size limit 31429010>=10485760
+[2024-04-10 03:46:29] INFO root fetch - main [MainThread]: End processing [aws-cdk-lib] error
+[2024-04-10 03:46:29] INFO root fetch - processPackages [cve-bin-tool]: Downloading https://files.pythonhosted.org/packages/3a/11/5893c0aeb887d6b7ead4880ea140dd40574f277ee267782b7c63bbf93e35/cve-bin-tool-3.3rc2.tar.gz
+[2024-04-10 03:46:29] INFO root fetch - processPackages [symbol-sdk-python]: Downloading https://files.pythonhosted.org/packages/c2/27/13bd47573eef377b9b3466e5b0fb94380b73360780e2be160b97dd69cd53/symbol_sdk_python-3.2.0.tar.gz
+[2024-04-10 03:46:29] INFO root fetch - processPackages [pih-mail]: Downloading https://files.pythonhosted.org/packages/0c/13/cb8f2b7e5aafc191d15c23342bbb8fbd3c05f9c0e28dfbcde73dc3e32d6b/pih-mail-0.15.tar.gz
+[2024-04-10 03:46:29] INFO root fetch - processPackages [symbol-sdk-python]: executing diffoscope
+[2024-04-10 03:46:29] INFO root fetch - processPackages [symbol-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symbol_sdk_python-3.1.0.tar.gz tmp/symbol_sdk_python-3.2.0.tar.gz --markdown 20240410/s/symbol-sdk-python/3.1.0-3.2.0/README.md --exclude *.pyd
+[2024-04-10 03:46:29] INFO root fetch - processPackages [pih-mark]: Downloading https://files.pythonhosted.org/packages/b8/9b/c741e46d462eed31dc49bc184fb2d0b61b1f5a068a8cb799db2aaa47f38f/pih-mark-0.12.tar.gz
+[2024-04-10 03:46:29] INFO root fetch - processPackages [notification-py]: Remove: archive file [/home/abi/fetcher/tmp/notification_py-0.0.7.tar.gz]
+[2024-04-10 03:46:29] INFO root fetch - processPackages [notification-py]: Remove: archive file [/home/abi/fetcher/tmp/notification_py-0.0.8.tar.gz]
+[2024-04-10 03:46:29] INFO root fetch - main [MainThread]: End processing [notification-py]: success
+[2024-04-10 03:46:29] INFO root fetch - processPackages [pih-mail]: executing diffoscope
+[2024-04-10 03:46:29] INFO root fetch - processPackages [pih-mail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-mail-0.14.tar.gz tmp/pih-mail-0.15.tar.gz --markdown 20240410/p/pih-mail/0.14-0.15/README.md --exclude *.pyd
+[2024-04-10 03:46:29] INFO root fetch - processPackages [jemma]: Remove: archive file [/home/abi/fetcher/tmp/jemma-0.1.1290.tar.gz]
+[2024-04-10 03:46:29] INFO root fetch - processPackages [jemma]: Remove: archive file [/home/abi/fetcher/tmp/jemma-0.1.1291.tar.gz]
+[2024-04-10 03:46:29] INFO root fetch - main [MainThread]: End processing [jemma]: success
+[2024-04-10 03:46:29] INFO root fetch - processPackages [taskara]: Remove: archive file [/home/abi/fetcher/tmp/taskara-0.1.7.tar.gz]
+[2024-04-10 03:46:29] INFO root fetch - processPackages [taskara]: Remove: archive file [/home/abi/fetcher/tmp/taskara-0.1.8.tar.gz]
+[2024-04-10 03:46:29] INFO root fetch - main [MainThread]: End processing [taskara]: success
+[2024-04-10 03:46:29] INFO root fetch - processPackages [pih-mark]: executing diffoscope
+[2024-04-10 03:46:29] INFO root fetch - processPackages [pih-mark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-mark-0.11.tar.gz tmp/pih-mark-0.12.tar.gz --markdown 20240410/p/pih-mark/0.11-0.12/README.md --exclude *.pyd
+[2024-04-10 03:46:29] INFO root fetch - processPackages [bleak-retry-connector]: Remove: archive file [/home/abi/fetcher/tmp/bleak_retry_connector-3.4.0.tar.gz]
+[2024-04-10 03:46:29] INFO root fetch - processPackages [bleak-retry-connector]: Remove: archive file [/home/abi/fetcher/tmp/bleak_retry_connector-3.5.0.tar.gz]
+[2024-04-10 03:46:29] INFO root fetch - main [MainThread]: End processing [bleak-retry-connector]: success
+[2024-04-10 03:46:29] INFO root fetch - processPackages [cve-bin-tool]: Downloading https://files.pythonhosted.org/packages/65/49/f6d8b01174332afdf82cef164a4a8da5f7e78b662e37ab8db578f1c9d677/cve-bin-tool-3.3rc3.tar.gz
+[2024-04-10 03:46:29] INFO root fetch - processPackages [pih-mail]: Remove: archive file [/home/abi/fetcher/tmp/pih-mail-0.14.tar.gz]
+[2024-04-10 03:46:29] INFO root fetch - processPackages [pih-mail]: Remove: archive file [/home/abi/fetcher/tmp/pih-mail-0.15.tar.gz]
+[2024-04-10 03:46:29] INFO root fetch - main [MainThread]: End processing [pih-mail]: success
+[2024-04-10 03:46:30] INFO root fetch - processPackages [symbol-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/symbol_sdk_python-3.1.0.tar.gz]
+[2024-04-10 03:46:30] INFO root fetch - processPackages [symbol-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/symbol_sdk_python-3.2.0.tar.gz]
+[2024-04-10 03:46:30] INFO root fetch - main [MainThread]: End processing [symbol-sdk-python]: success
+[2024-04-10 03:46:30] INFO root fetch - processPackages [pih-mark]: Remove: archive file [/home/abi/fetcher/tmp/pih-mark-0.11.tar.gz]
+[2024-04-10 03:46:30] INFO root fetch - processPackages [pih-mark]: Remove: archive file [/home/abi/fetcher/tmp/pih-mark-0.12.tar.gz]
+[2024-04-10 03:46:30] INFO root fetch - main [MainThread]: End processing [pih-mark]: success
+[2024-04-10 03:46:30] INFO root fetch - processPackages [cve-bin-tool]: executing diffoscope
+[2024-04-10 03:46:30] INFO root fetch - processPackages [cve-bin-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cve-bin-tool-3.3rc2.tar.gz tmp/cve-bin-tool-3.3rc3.tar.gz --markdown 20240410/c/cve-bin-tool/3.3rc2-3.3rc3/README.md --exclude *.pyd
+[2024-04-10 03:46:33] INFO root fetch - processPackages [cve-bin-tool]: Remove: archive file [/home/abi/fetcher/tmp/cve-bin-tool-3.3rc2.tar.gz]
+[2024-04-10 03:46:33] INFO root fetch - processPackages [cve-bin-tool]: Remove: archive file [/home/abi/fetcher/tmp/cve-bin-tool-3.3rc3.tar.gz]
+[2024-04-10 03:46:33] INFO root fetch - main [MainThread]: End processing [cve-bin-tool]: success
+[2024-04-10 03:46:33] INFO root fetch - main [MainThread]: Store serial: [22694282]

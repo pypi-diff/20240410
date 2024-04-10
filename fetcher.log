@@ -12948,3 +12948,45 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 07:17:03] INFO root fetch - processPackages [napari-threedee]: Remove: archive file [/home/abi/fetcher/tmp/napari-threedee-0.0.9.tar.gz]
 [2024-04-10 07:17:03] INFO root fetch - main [MainThread]: End processing [napari-threedee]: success
 [2024-04-10 07:17:03] INFO root fetch - main [MainThread]: Store serial: [22695984]
+[2024-04-10 07:19:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22695984]
+[2024-04-10 07:19:12] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-10 07:19:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: litellm
+[2024-04-10 07:19:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alliance-platform-codegen
+[2024-04-10 07:19:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: resamp
+[2024-04-10 07:19:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: haskellian-asyn-iter
+[2024-04-10 07:19:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: VizAble
+[2024-04-10 07:19:12] WARNING root fetch - processPackages [haskellian-asyn-iter]: Skipping, unable to determine old version
+[2024-04-10 07:19:12] INFO root fetch - processPackages [resamp]: New version: [1.6.5] Old Version: [1.6.4]
+[2024-04-10 07:19:12] INFO root fetch - main [MainThread]: End processing [haskellian-asyn-iter] error
+[2024-04-10 07:19:12] INFO root fetch - processPackages [alliance-platform-codegen]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-10 07:19:12] INFO root fetch - processPackages [litellm]: New version: [1.9.dev0] Old Version: [1.9.5]
+[2024-04-10 07:19:12] INFO root fetch - processPackages [resamp]: Downloading https://files.pythonhosted.org/packages/a2/9d/548c3f9733862807db7a59f58f53788b7a90ddccfabf656c0baf0eb7198f/resamp-1.6.4.tar.gz
+[2024-04-10 07:19:12] INFO root fetch - processPackages [alliance-platform-codegen]: Downloading https://files.pythonhosted.org/packages/70/5f/7525e63a396aac10bf44702c3a9400ae97fc1c91b34c9758c9f24421496a/alliance_platform_codegen-0.0.1.tar.gz
+[2024-04-10 07:19:12] INFO root fetch - processPackages [VizAble]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-10 07:19:13] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/38/f3/1cbeaf4074e7b284cd140263ff165948d8f4cc8f5dd72c89be43a0469387/litellm-1.9.5.tar.gz
+[2024-04-10 07:19:13] INFO root fetch - processPackages [alliance-platform-codegen]: Downloading https://files.pythonhosted.org/packages/5e/ca/f55672a024182d6f0f759ffb66d494d5f6b60c853c0cafccbfe8f2e6295b/alliance_platform_codegen-0.0.2.tar.gz
+[2024-04-10 07:19:13] INFO root fetch - processPackages [VizAble]: Downloading https://files.pythonhosted.org/packages/18/8d/d2ba6b0ca25a73926dd99be55778e8cb683131ad342a25f56f6c92849f18/vizable-0.8.0.tar.gz
+[2024-04-10 07:19:13] INFO root fetch - processPackages [alliance-platform-codegen]: executing diffoscope
+[2024-04-10 07:19:13] INFO root fetch - processPackages [alliance-platform-codegen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alliance_platform_codegen-0.0.1.tar.gz tmp/alliance_platform_codegen-0.0.2.tar.gz --markdown 20240410/a/alliance-platform-codegen/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-10 07:19:13] INFO root fetch - processPackages [resamp]: Downloading https://files.pythonhosted.org/packages/01/92/4d70a6f237c25212074e9a0018ceecc08230e5f280e8f6bf02baff8c470f/resamp-1.6.5.tar.gz
+[2024-04-10 07:19:13] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/ad/6c/162b83e9cf68f5a94c30153e835414c3ee11c8602ffaacc9a032851dfa26/litellm-1.9.dev0.tar.gz
+[2024-04-10 07:19:13] INFO root fetch - processPackages [resamp]: executing diffoscope
+[2024-04-10 07:19:13] INFO root fetch - processPackages [resamp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resamp-1.6.4.tar.gz tmp/resamp-1.6.5.tar.gz --markdown 20240410/r/resamp/1.6.4-1.6.5/README.md --exclude *.pyd
+[2024-04-10 07:19:13] INFO root fetch - processPackages [VizAble]: Downloading https://files.pythonhosted.org/packages/23/d4/f19d13b2598cf35c961841cb981abb85c9f8cfc95fe4ba56c8feeadf30e3/vizable-0.9.0.tar.gz
+[2024-04-10 07:19:13] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2024-04-10 07:19:13] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-1.9.5.tar.gz tmp/litellm-1.9.dev0.tar.gz --markdown 20240410/l/litellm/1.9.5-1.9.dev0/README.md --exclude *.pyd
+[2024-04-10 07:19:13] INFO root fetch - processPackages [VizAble]: executing diffoscope
+[2024-04-10 07:19:13] INFO root fetch - processPackages [VizAble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vizable-0.8.0.tar.gz tmp/vizable-0.9.0.tar.gz --markdown 20240410/V/VizAble/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-10 07:19:13] INFO root fetch - processPackages [alliance-platform-codegen]: Remove: archive file [/home/abi/fetcher/tmp/alliance_platform_codegen-0.0.1.tar.gz]
+[2024-04-10 07:19:13] INFO root fetch - processPackages [alliance-platform-codegen]: Remove: archive file [/home/abi/fetcher/tmp/alliance_platform_codegen-0.0.2.tar.gz]
+[2024-04-10 07:19:13] INFO root fetch - main [MainThread]: End processing [alliance-platform-codegen]: success
+[2024-04-10 07:19:14] INFO root fetch - processPackages [resamp]: Remove: archive file [/home/abi/fetcher/tmp/resamp-1.6.4.tar.gz]
+[2024-04-10 07:19:14] INFO root fetch - processPackages [resamp]: Remove: archive file [/home/abi/fetcher/tmp/resamp-1.6.5.tar.gz]
+[2024-04-10 07:19:14] INFO root fetch - main [MainThread]: End processing [resamp]: success
+[2024-04-10 07:19:14] INFO root fetch - processPackages [VizAble]: Remove: archive file [/home/abi/fetcher/tmp/vizable-0.8.0.tar.gz]
+[2024-04-10 07:19:14] INFO root fetch - processPackages [VizAble]: Remove: archive file [/home/abi/fetcher/tmp/vizable-0.9.0.tar.gz]
+[2024-04-10 07:19:14] INFO root fetch - main [MainThread]: End processing [VizAble]: success
+[2024-04-10 07:19:14] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.5.tar.gz]
+[2024-04-10 07:19:14] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.dev0.tar.gz]
+[2024-04-10 07:19:14] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2024-04-10 07:19:14] INFO root fetch - main [MainThread]: Store serial: [22695999]

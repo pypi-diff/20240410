@@ -20473,3 +20473,78 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 12:37:17] INFO root fetch - processPackages [chartpy]: Remove: archive file [/home/abi/fetcher/tmp/chartpy-0.1.9.tar.gz]
 [2024-04-10 12:37:17] INFO root fetch - main [MainThread]: End processing [chartpy]: success
 [2024-04-10 12:37:17] INFO root fetch - main [MainThread]: Store serial: [22699027]
+[2024-04-10 12:39:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22699027]
+[2024-04-10 12:39:26] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-10 12:39:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbsite
+[2024-04-10 12:39:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: illumio-pylo
+[2024-04-10 12:39:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: airbyte-source-stripe
+[2024-04-10 12:39:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dbrepo
+[2024-04-10 12:39:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python-criteria
+[2024-04-10 12:39:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Quid
+[2024-04-10 12:39:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: luminesce-sdk
+[2024-04-10 12:39:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: freegenius
+[2024-04-10 12:39:26] INFO root fetch - processPackages [freegenius]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-10 12:39:26] INFO root fetch - processPackages [airbyte-source-stripe]: New version: [5.3.0.dev202404100538] Old Version: [5.3.0.dev202404092251]
+[2024-04-10 12:39:26] INFO root fetch - processPackages [luminesce-sdk]: New version: [2.1.1] Old Version: [2.0.99]
+[2024-04-10 12:39:26] INFO root fetch - processPackages [python-criteria]: New version: [0.4.0] Old Version: [0.3.6]
+[2024-04-10 12:39:26] INFO root fetch - processPackages [freegenius]: Downloading https://files.pythonhosted.org/packages/6f/a0/f28ee0e233993d710b958fb4eca9f4892fdc879db0894cb221c3c672db85/freegenius-0.0.8.tar.gz
+[2024-04-10 12:39:26] INFO root fetch - processPackages [Quid]: New version: [2.6.2] Old Version: [2.6.1]
+[2024-04-10 12:39:26] INFO root fetch - processPackages [illumio-pylo]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-04-10 12:39:26] INFO root fetch - processPackages [dbrepo]: New version: [1.4.2rc11] Old Version: [1.4.2rc10]
+[2024-04-10 12:39:26] INFO root fetch - processPackages [nbsite]: New version: [0.8.6a2] Old Version: [0.8.6a1]
+[2024-04-10 12:39:26] INFO root fetch - processPackages [airbyte-source-stripe]: Downloading https://files.pythonhosted.org/packages/6a/8b/51e05ddd24df5f76001294267160bfe429453848b4de8d9f47a457e12fd3/airbyte_source_stripe-5.3.0.dev202404092251.tar.gz
+[2024-04-10 12:39:26] INFO root fetch - processPackages [luminesce-sdk]: Downloading https://files.pythonhosted.org/packages/c9/9b/db0c2a879c62744430a540a0acfc0d7be954c3b4cd53257bfbe0096890e5/luminesce_sdk-2.0.99.tar.gz
+[2024-04-10 12:39:26] INFO root fetch - processPackages [python-criteria]: Downloading https://files.pythonhosted.org/packages/ae/75/3fa97b1ea82873d8805ae282f132945165cb9f4b62d208e00783d3930e56/python-criteria-0.3.6.tar.gz
+[2024-04-10 12:39:26] INFO root fetch - processPackages [Quid]: Downloading https://files.pythonhosted.org/packages/d5/92/754bd1c91d4df1f72892413eedae64593b586955745e76eccf1d6521676f/Quid-2.6.1.tar.gz
+[2024-04-10 12:39:26] INFO root fetch - processPackages [dbrepo]: Downloading https://files.pythonhosted.org/packages/59/e2/fe5769d97593fbd3b26d453531ce791ac8c4863786d91e2792ce76e4fc91/dbrepo-1.4.2rc10.tar.gz
+[2024-04-10 12:39:26] INFO root fetch - processPackages [nbsite]: Downloading https://files.pythonhosted.org/packages/d7/70/8e966c40dc73617b9c2233d40955ea2306ea9b154c4101b6dbace88b7d86/nbsite-0.8.6a1.tar.gz
+[2024-04-10 12:39:26] INFO root fetch - processPackages [illumio-pylo]: Downloading https://files.pythonhosted.org/packages/9f/3a/b1374946b63c80efdf293b823a2d4e658e9f09962d5020d9617022c6874d/illumio_pylo-0.3.2.tar.gz
+[2024-04-10 12:39:27] INFO root fetch - processPackages [freegenius]: Downloading https://files.pythonhosted.org/packages/64/a9/f3ae6b148a4bd786790a124582c069ff16ee88fb307a8ebff8181577bb4d/freegenius-0.0.9.tar.gz
+[2024-04-10 12:39:27] INFO root fetch - processPackages [luminesce-sdk]: Downloading https://files.pythonhosted.org/packages/f7/42/25e4902b9d9b42dd98d65136df221b152632aac8f33d228119bf0d61d5ca/luminesce_sdk-2.1.1.tar.gz
+[2024-04-10 12:39:27] INFO root fetch - processPackages [freegenius]: executing diffoscope
+[2024-04-10 12:39:27] INFO root fetch - processPackages [freegenius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freegenius-0.0.8.tar.gz tmp/freegenius-0.0.9.tar.gz --markdown 20240410/f/freegenius/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-10 12:39:27] INFO root fetch - processPackages [airbyte-source-stripe]: Downloading https://files.pythonhosted.org/packages/b5/5c/12e6171405dc81817cef5759b914381a4c8aa2b01783c3bc8df9fbea279a/airbyte_source_stripe-5.3.0.dev202404100538.tar.gz
+[2024-04-10 12:39:27] INFO root fetch - processPackages [python-criteria]: Downloading https://files.pythonhosted.org/packages/01/1a/c692d97d11de6b5bb86dd6f501bb44d05044437893ac02d88cd47fc4b027/python-criteria-0.4.0.tar.gz
+[2024-04-10 12:39:27] INFO root fetch - processPackages [luminesce-sdk]: executing diffoscope
+[2024-04-10 12:39:27] INFO root fetch - processPackages [luminesce-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce_sdk-2.0.99.tar.gz tmp/luminesce_sdk-2.1.1.tar.gz --markdown 20240410/l/luminesce-sdk/2.0.99-2.1.1/README.md --exclude *.pyd
+[2024-04-10 12:39:27] INFO root fetch - processPackages [Quid]: Downloading https://files.pythonhosted.org/packages/26/f2/4f551366035f099eeb1735941f51430ad627ecb58a2e5d6991a05c6dd26c/Quid-2.6.2.tar.gz
+[2024-04-10 12:39:27] INFO root fetch - processPackages [nbsite]: Downloading https://files.pythonhosted.org/packages/0d/a9/85824e6d3ae043e05ef49cd0604a7fb4c4b0b949895f26384f0f4ed4850d/nbsite-0.8.6a2.tar.gz
+[2024-04-10 12:39:27] INFO root fetch - processPackages [airbyte-source-stripe]: executing diffoscope
+[2024-04-10 12:39:27] INFO root fetch - processPackages [airbyte-source-stripe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_stripe-5.3.0.dev202404092251.tar.gz tmp/airbyte_source_stripe-5.3.0.dev202404100538.tar.gz --markdown 20240410/a/airbyte-source-stripe/5.3.0.dev202404092251-5.3.0.dev202404100538/README.md --exclude *.pyd
+[2024-04-10 12:39:27] INFO root fetch - processPackages [dbrepo]: Downloading https://files.pythonhosted.org/packages/58/85/b73496824d27ef095e4811480c0ccc5d7c9ef16ff956fd3ee952c4d0a86f/dbrepo-1.4.2rc11.tar.gz
+[2024-04-10 12:39:27] INFO root fetch - processPackages [python-criteria]: executing diffoscope
+[2024-04-10 12:39:27] INFO root fetch - processPackages [python-criteria]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-criteria-0.3.6.tar.gz tmp/python-criteria-0.4.0.tar.gz --markdown 20240410/p/python-criteria/0.3.6-0.4.0/README.md --exclude *.pyd
+[2024-04-10 12:39:27] INFO root fetch - processPackages [illumio-pylo]: Downloading https://files.pythonhosted.org/packages/ea/22/3b13d23245a6addf5fca189aaeb55957c8fe0ec39de9fe8aa87013eef65b/illumio_pylo-0.3.3.tar.gz
+[2024-04-10 12:39:27] INFO root fetch - processPackages [Quid]: executing diffoscope
+[2024-04-10 12:39:27] INFO root fetch - processPackages [Quid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Quid-2.6.1.tar.gz tmp/Quid-2.6.2.tar.gz --markdown 20240410/Q/Quid/2.6.1-2.6.2/README.md --exclude *.pyd
+[2024-04-10 12:39:27] INFO root fetch - processPackages [nbsite]: executing diffoscope
+[2024-04-10 12:39:27] INFO root fetch - processPackages [nbsite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbsite-0.8.6a1.tar.gz tmp/nbsite-0.8.6a2.tar.gz --markdown 20240410/n/nbsite/0.8.6a1-0.8.6a2/README.md --exclude *.pyd
+[2024-04-10 12:39:27] INFO root fetch - processPackages [dbrepo]: executing diffoscope
+[2024-04-10 12:39:27] INFO root fetch - processPackages [dbrepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbrepo-1.4.2rc10.tar.gz tmp/dbrepo-1.4.2rc11.tar.gz --markdown 20240410/d/dbrepo/1.4.2rc10-1.4.2rc11/README.md --exclude *.pyd
+[2024-04-10 12:39:27] INFO root fetch - processPackages [illumio-pylo]: executing diffoscope
+[2024-04-10 12:39:27] INFO root fetch - processPackages [illumio-pylo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/illumio_pylo-0.3.2.tar.gz tmp/illumio_pylo-0.3.3.tar.gz --markdown 20240410/i/illumio-pylo/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-04-10 12:39:28] INFO root fetch - processPackages [freegenius]: Remove: archive file [/home/abi/fetcher/tmp/freegenius-0.0.8.tar.gz]
+[2024-04-10 12:39:28] INFO root fetch - processPackages [freegenius]: Remove: archive file [/home/abi/fetcher/tmp/freegenius-0.0.9.tar.gz]
+[2024-04-10 12:39:28] INFO root fetch - main [MainThread]: End processing [freegenius]: success
+[2024-04-10 12:39:28] INFO root fetch - processPackages [python-criteria]: Remove: archive file [/home/abi/fetcher/tmp/python-criteria-0.3.6.tar.gz]
+[2024-04-10 12:39:28] INFO root fetch - processPackages [python-criteria]: Remove: archive file [/home/abi/fetcher/tmp/python-criteria-0.4.0.tar.gz]
+[2024-04-10 12:39:28] INFO root fetch - main [MainThread]: End processing [python-criteria]: success
+[2024-04-10 12:39:28] INFO root fetch - processPackages [Quid]: Remove: archive file [/home/abi/fetcher/tmp/Quid-2.6.1.tar.gz]
+[2024-04-10 12:39:28] INFO root fetch - processPackages [Quid]: Remove: archive file [/home/abi/fetcher/tmp/Quid-2.6.2.tar.gz]
+[2024-04-10 12:39:28] INFO root fetch - main [MainThread]: End processing [Quid]: success
+[2024-04-10 12:39:28] INFO root fetch - processPackages [nbsite]: Remove: archive file [/home/abi/fetcher/tmp/nbsite-0.8.6a1.tar.gz]
+[2024-04-10 12:39:28] INFO root fetch - processPackages [nbsite]: Remove: archive file [/home/abi/fetcher/tmp/nbsite-0.8.6a2.tar.gz]
+[2024-04-10 12:39:28] INFO root fetch - main [MainThread]: End processing [nbsite]: success
+[2024-04-10 12:39:28] INFO root fetch - processPackages [dbrepo]: Remove: archive file [/home/abi/fetcher/tmp/dbrepo-1.4.2rc10.tar.gz]
+[2024-04-10 12:39:28] INFO root fetch - processPackages [dbrepo]: Remove: archive file [/home/abi/fetcher/tmp/dbrepo-1.4.2rc11.tar.gz]
+[2024-04-10 12:39:28] INFO root fetch - main [MainThread]: End processing [dbrepo]: success
+[2024-04-10 12:39:28] INFO root fetch - processPackages [luminesce-sdk]: Remove: archive file [/home/abi/fetcher/tmp/luminesce_sdk-2.0.99.tar.gz]
+[2024-04-10 12:39:28] INFO root fetch - processPackages [luminesce-sdk]: Remove: archive file [/home/abi/fetcher/tmp/luminesce_sdk-2.1.1.tar.gz]
+[2024-04-10 12:39:28] INFO root fetch - main [MainThread]: End processing [luminesce-sdk]: success
+[2024-04-10 12:39:28] INFO root fetch - processPackages [airbyte-source-stripe]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_stripe-5.3.0.dev202404092251.tar.gz]
+[2024-04-10 12:39:28] INFO root fetch - processPackages [airbyte-source-stripe]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_stripe-5.3.0.dev202404100538.tar.gz]
+[2024-04-10 12:39:28] INFO root fetch - main [MainThread]: End processing [airbyte-source-stripe]: success
+[2024-04-10 12:39:28] INFO root fetch - processPackages [illumio-pylo]: Remove: archive file [/home/abi/fetcher/tmp/illumio_pylo-0.3.2.tar.gz]
+[2024-04-10 12:39:28] INFO root fetch - processPackages [illumio-pylo]: Remove: archive file [/home/abi/fetcher/tmp/illumio_pylo-0.3.3.tar.gz]
+[2024-04-10 12:39:28] INFO root fetch - main [MainThread]: End processing [illumio-pylo]: success
+[2024-04-10 12:39:28] INFO root fetch - main [MainThread]: Store serial: [22699052]

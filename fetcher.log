@@ -18387,3 +18387,84 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 11:09:00] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.5.5a117434-py2.py3-none-any.whl.zip]
 [2024-04-10 11:09:00] INFO root fetch - main [MainThread]: End processing [udata-front]: success
 [2024-04-10 11:09:00] INFO root fetch - main [MainThread]: Store serial: [22698212]
+[2024-04-10 11:11:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22698212]
+[2024-04-10 11:11:10] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-10 11:11:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rstream
+[2024-04-10 11:11:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: headline-gen
+[2024-04-10 11:11:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: promplate
+[2024-04-10 11:11:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openhexa.sdk
+[2024-04-10 11:11:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spid-cie-oidc
+[2024-04-10 11:11:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alibabacloud-avatar20220130-py2
+[2024-04-10 11:11:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pytheia
+[2024-04-10 11:11:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: optimagic
+[2024-04-10 11:11:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: alibabacloud-avatar20220130
+[2024-04-10 11:11:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: airbyte-source-facebook-marketing
+[2024-04-10 11:11:10] INFO root fetch - processPackages [openhexa.sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-10 11:11:10] WARNING root fetch - processPackages [headline-gen]: Skipping, unable to determine old version
+[2024-04-10 11:11:10] INFO root fetch - main [MainThread]: End processing [headline-gen] error
+[2024-04-10 11:11:10] INFO root fetch - processPackages [rstream]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-10 11:11:10] INFO root fetch - processPackages [alibabacloud-avatar20220130-py2]: New version: [2.5.3] Old Version: [2.5.2]
+[2024-04-10 11:11:10] INFO root fetch - processPackages [openhexa.sdk]: Downloading https://files.pythonhosted.org/packages/2d/63/6cf8c3d8c690624bf5da3eccae426000fc384f6f2b1e46094f46a261b21e/openhexa.sdk-0.1.8.tar.gz
+[2024-04-10 11:11:10] WARNING root fetch - processPackages [optimagic]: Skipping, unable to determine old version
+[2024-04-10 11:11:10] INFO root fetch - main [MainThread]: End processing [optimagic] error
+[2024-04-10 11:11:10] INFO root fetch - processPackages [alibabacloud-avatar20220130]: New version: [2.5.3] Old Version: [2.5.2]
+[2024-04-10 11:11:10] INFO root fetch - processPackages [spid-cie-oidc]: New version: [1.4.4] Old Version: [1.4.3]
+[2024-04-10 11:11:10] INFO root fetch - processPackages [pytheia]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-10 11:11:10] INFO root fetch - processPackages [promplate]: New version: [0.3.4.1] Old Version: [0.3.4]
+[2024-04-10 11:11:10] INFO root fetch - processPackages [airbyte-source-facebook-marketing]: New version: [3.0.0.dev202404041423] Old Version: [3.0.0.dev202404010923]
+[2024-04-10 11:11:10] INFO root fetch - processPackages [rstream]: Downloading https://files.pythonhosted.org/packages/b9/02/cda6be5ba5d1adb01bada1d2cfaec91e30f2d6ec2a048f9fa170aa87f94d/rstream-0.8.1.tar.gz
+[2024-04-10 11:11:10] INFO root fetch - processPackages [alibabacloud-avatar20220130-py2]: Downloading https://files.pythonhosted.org/packages/0d/83/c7fd636ae2bce153f6893ada85c4c4d2fcba444cae671d2da555e5587ea2/alibabacloud_avatar20220130_py2-2.5.2.tar.gz
+[2024-04-10 11:11:10] INFO root fetch - processPackages [promplate]: Downloading https://files.pythonhosted.org/packages/5d/c2/f9ecdb02a11f84ee03bd8c4d5955dcb52c44741e9c6be3d1ad3c19d397d6/promplate-0.3.4.tar.gz
+[2024-04-10 11:11:10] INFO root fetch - processPackages [openhexa.sdk]: Downloading https://files.pythonhosted.org/packages/01/47/9a54270a3486c1a1712ca7717008e6748264c1125692b213adfd2f68b21c/openhexa.sdk-0.1.9.tar.gz
+[2024-04-10 11:11:10] INFO root fetch - processPackages [alibabacloud-avatar20220130]: Downloading https://files.pythonhosted.org/packages/0e/99/dc59b8d7b74cb87f39e41077dd3e0ec27fd7ce6a2c0e13d3da8bd0ffdcdd/alibabacloud_avatar20220130-2.5.2.tar.gz
+[2024-04-10 11:11:10] INFO root fetch - processPackages [spid-cie-oidc]: Downloading https://files.pythonhosted.org/packages/ee/e6/471e8c13e6e5e3c9aa1e561d95e05ca8ca5049a24b665cb3f17f8f39f949/spid_cie_oidc-1.4.3.tar.gz
+[2024-04-10 11:11:10] INFO root fetch - processPackages [pytheia]: Downloading https://files.pythonhosted.org/packages/4d/5b/c35f3c5353e5da468be688a0285b498a560f0312af2828ee6e503d1b60b4/pytheia-0.2.1-cp39-cp39-manylinux_2_17_x86_64.whl
+[2024-04-10 11:11:10] INFO root fetch - processPackages [airbyte-source-facebook-marketing]: Downloading https://files.pythonhosted.org/packages/81/2e/c912b4ac72f342f15584882c7288ea5bdc074a4bfd44f7d37f480da773f3/airbyte_source_facebook_marketing-3.0.0.dev202404010923.tar.gz
+[2024-04-10 11:11:10] INFO root fetch - processPackages [openhexa.sdk]: executing diffoscope
+[2024-04-10 11:11:10] INFO root fetch - processPackages [openhexa.sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openhexa.sdk-0.1.8.tar.gz tmp/openhexa.sdk-0.1.9.tar.gz --markdown 20240410/o/openhexa.sdk/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-10 11:11:11] INFO root fetch - processPackages [rstream]: Downloading https://files.pythonhosted.org/packages/92/ef/61a6ea12a0afe157e759df9abbbb973d4d75526af47b4b5bddf4f613b288/rstream-0.9.0.tar.gz
+[2024-04-10 11:11:11] INFO root fetch - processPackages [alibabacloud-avatar20220130-py2]: Downloading https://files.pythonhosted.org/packages/89/3b/8c319e075ff34e76d996b86758b50233d5a9e555f34213383d86e4229e1f/alibabacloud_avatar20220130_py2-2.5.3.tar.gz
+[2024-04-10 11:11:11] INFO root fetch - processPackages [promplate]: Downloading https://files.pythonhosted.org/packages/b4/92/18f51a480554c80de73ccd52c29ad653823b89fb717e489650628c767cfa/promplate-0.3.4.1.tar.gz
+[2024-04-10 11:11:11] INFO root fetch - processPackages [rstream]: executing diffoscope
+[2024-04-10 11:11:11] INFO root fetch - processPackages [rstream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rstream-0.8.1.tar.gz tmp/rstream-0.9.0.tar.gz --markdown 20240410/r/rstream/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-04-10 11:11:11] INFO root fetch - processPackages [alibabacloud-avatar20220130-py2]: executing diffoscope
+[2024-04-10 11:11:11] INFO root fetch - processPackages [alibabacloud-avatar20220130-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_avatar20220130_py2-2.5.2.tar.gz tmp/alibabacloud_avatar20220130_py2-2.5.3.tar.gz --markdown 20240410/a/alibabacloud-avatar20220130-py2/2.5.2-2.5.3/README.md --exclude *.pyd
+[2024-04-10 11:11:11] INFO root fetch - processPackages [spid-cie-oidc]: Downloading https://files.pythonhosted.org/packages/0a/93/3dba794dcc1bacd1ab02c30612a3574fa91d46f621a7aaa75c9614fbeb49/spid_cie_oidc-1.4.4.tar.gz
+[2024-04-10 11:11:11] INFO root fetch - processPackages [promplate]: executing diffoscope
+[2024-04-10 11:11:11] INFO root fetch - processPackages [promplate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promplate-0.3.4.tar.gz tmp/promplate-0.3.4.1.tar.gz --markdown 20240410/p/promplate/0.3.4-0.3.4.1/README.md --exclude *.pyd
+[2024-04-10 11:11:11] INFO root fetch - processPackages [alibabacloud-avatar20220130]: Downloading https://files.pythonhosted.org/packages/91/fb/df49d7d05f68f376a09d4ce9eb0fdfdf3fabea8838b8cb47f092755d160e/alibabacloud_avatar20220130-2.5.3.tar.gz
+[2024-04-10 11:11:11] INFO root fetch - processPackages [airbyte-source-facebook-marketing]: Downloading https://files.pythonhosted.org/packages/3f/72/cd78f383b92dd9c221ce42e243c1fd60965eebee94be2829807af86dab8b/airbyte_source_facebook_marketing-3.0.0.dev202404041423.tar.gz
+[2024-04-10 11:11:11] INFO root fetch - processPackages [alibabacloud-avatar20220130]: executing diffoscope
+[2024-04-10 11:11:11] INFO root fetch - processPackages [alibabacloud-avatar20220130]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_avatar20220130-2.5.2.tar.gz tmp/alibabacloud_avatar20220130-2.5.3.tar.gz --markdown 20240410/a/alibabacloud-avatar20220130/2.5.2-2.5.3/README.md --exclude *.pyd
+[2024-04-10 11:11:11] INFO root fetch - processPackages [pytheia]: Downloading https://files.pythonhosted.org/packages/99/70/8e5c1ef3022862bca7e0eba4de4e2d71754088e5a908298558100671cbd9/pytheia-0.2.2-cp39-cp39-manylinux_2_17_x86_64.whl
+[2024-04-10 11:11:11] INFO root fetch - processPackages [airbyte-source-facebook-marketing]: executing diffoscope
+[2024-04-10 11:11:11] INFO root fetch - processPackages [airbyte-source-facebook-marketing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_facebook_marketing-3.0.0.dev202404010923.tar.gz tmp/airbyte_source_facebook_marketing-3.0.0.dev202404041423.tar.gz --markdown 20240410/a/airbyte-source-facebook-marketing/3.0.0.dev202404010923-3.0.0.dev202404041423/README.md --exclude *.pyd
+[2024-04-10 11:11:11] INFO root fetch - processPackages [spid-cie-oidc]: executing diffoscope
+[2024-04-10 11:11:11] INFO root fetch - processPackages [spid-cie-oidc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spid_cie_oidc-1.4.3.tar.gz tmp/spid_cie_oidc-1.4.4.tar.gz --markdown 20240410/s/spid-cie-oidc/1.4.3-1.4.4/README.md --exclude *.pyd
+[2024-04-10 11:11:11] INFO root fetch - processPackages [openhexa.sdk]: Remove: archive file [/home/abi/fetcher/tmp/openhexa.sdk-0.1.8.tar.gz]
+[2024-04-10 11:11:11] INFO root fetch - processPackages [openhexa.sdk]: Remove: archive file [/home/abi/fetcher/tmp/openhexa.sdk-0.1.9.tar.gz]
+[2024-04-10 11:11:11] INFO root fetch - main [MainThread]: End processing [openhexa.sdk]: success
+[2024-04-10 11:11:12] INFO root fetch - processPackages [alibabacloud-avatar20220130-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_avatar20220130_py2-2.5.2.tar.gz]
+[2024-04-10 11:11:12] INFO root fetch - processPackages [alibabacloud-avatar20220130-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_avatar20220130_py2-2.5.3.tar.gz]
+[2024-04-10 11:11:12] INFO root fetch - processPackages [rstream]: Remove: archive file [/home/abi/fetcher/tmp/rstream-0.8.1.tar.gz]
+[2024-04-10 11:11:12] INFO root fetch - main [MainThread]: End processing [alibabacloud-avatar20220130-py2]: success
+[2024-04-10 11:11:12] INFO root fetch - processPackages [rstream]: Remove: archive file [/home/abi/fetcher/tmp/rstream-0.9.0.tar.gz]
+[2024-04-10 11:11:12] INFO root fetch - main [MainThread]: End processing [rstream]: success
+[2024-04-10 11:11:12] INFO root fetch - processPackages [promplate]: Remove: archive file [/home/abi/fetcher/tmp/promplate-0.3.4.tar.gz]
+[2024-04-10 11:11:12] INFO root fetch - processPackages [promplate]: Remove: archive file [/home/abi/fetcher/tmp/promplate-0.3.4.1.tar.gz]
+[2024-04-10 11:11:12] INFO root fetch - main [MainThread]: End processing [promplate]: success
+[2024-04-10 11:11:12] INFO root fetch - processPackages [alibabacloud-avatar20220130]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_avatar20220130-2.5.2.tar.gz]
+[2024-04-10 11:11:12] INFO root fetch - processPackages [alibabacloud-avatar20220130]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_avatar20220130-2.5.3.tar.gz]
+[2024-04-10 11:11:12] INFO root fetch - main [MainThread]: End processing [alibabacloud-avatar20220130]: success
+[2024-04-10 11:11:12] INFO root fetch - processPackages [airbyte-source-facebook-marketing]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_facebook_marketing-3.0.0.dev202404010923.tar.gz]
+[2024-04-10 11:11:12] INFO root fetch - processPackages [airbyte-source-facebook-marketing]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_facebook_marketing-3.0.0.dev202404041423.tar.gz]
+[2024-04-10 11:11:12] INFO root fetch - main [MainThread]: End processing [airbyte-source-facebook-marketing]: success
+[2024-04-10 11:11:12] INFO root fetch - processPackages [pytheia]: executing diffoscope
+[2024-04-10 11:11:12] INFO root fetch - processPackages [pytheia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytheia-0.2.1-cp39-cp39-manylinux_2_17_x86_64.whl.zip tmp/pytheia-0.2.2-cp39-cp39-manylinux_2_17_x86_64.whl.zip --markdown 20240410/p/pytheia/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-10 11:11:13] INFO root fetch - processPackages [spid-cie-oidc]: Remove: archive file [/home/abi/fetcher/tmp/spid_cie_oidc-1.4.3.tar.gz]
+[2024-04-10 11:11:13] INFO root fetch - processPackages [spid-cie-oidc]: Remove: archive file [/home/abi/fetcher/tmp/spid_cie_oidc-1.4.4.tar.gz]
+[2024-04-10 11:11:13] INFO root fetch - main [MainThread]: End processing [spid-cie-oidc]: success
+[2024-04-10 11:11:57] INFO root fetch - processPackages [pytheia]: Remove: archive file [/home/abi/fetcher/tmp/pytheia-0.2.1-cp39-cp39-manylinux_2_17_x86_64.whl.zip]
+[2024-04-10 11:11:57] INFO root fetch - processPackages [pytheia]: Remove: archive file [/home/abi/fetcher/tmp/pytheia-0.2.2-cp39-cp39-manylinux_2_17_x86_64.whl.zip]
+[2024-04-10 11:11:57] INFO root fetch - main [MainThread]: End processing [pytheia]: success
+[2024-04-10 11:11:57] INFO root fetch - main [MainThread]: Store serial: [22698258]

@@ -14267,3 +14267,24 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 08:29:36] INFO root fetch - processPackages [pulumi-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mongodbatlas-3.9.2.tar.gz]
 [2024-04-10 08:29:36] INFO root fetch - main [MainThread]: End processing [pulumi-mongodbatlas]: success
 [2024-04-10 08:29:36] INFO root fetch - main [MainThread]: Store serial: [22696485]
+[2024-04-10 08:31:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22696485]
+[2024-04-10 08:31:46] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-10 08:31:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iii-api-helper
+[2024-04-10 08:31:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: strawberry-django-auth
+[2024-04-10 08:31:46] INFO root fetch - processPackages [iii-api-helper]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-10 08:31:46] INFO root fetch - processPackages [strawberry-django-auth]: New version: [0.376.6] Old Version: [0.376.5]
+[2024-04-10 08:31:46] INFO root fetch - processPackages [iii-api-helper]: Downloading https://files.pythonhosted.org/packages/2b/87/3ec24f67ddcf117569f64f40bbe99c9884baf3eadf42eb930622e1c2b35e/iii_api_helper-0.0.8.tar.gz
+[2024-04-10 08:31:46] INFO root fetch - processPackages [strawberry-django-auth]: Downloading https://files.pythonhosted.org/packages/87/6b/8065aba8dc37db6ea9cb9195e84950816cde6d4d02da37952c73309c2af2/strawberry_django_auth-0.376.5.tar.gz
+[2024-04-10 08:31:47] INFO root fetch - processPackages [iii-api-helper]: Downloading https://files.pythonhosted.org/packages/df/39/db373f60207c61e8415caed9d0d292767f5c23097ed67d6dd7bd7cf9a6f5/iii_api_helper-0.0.9.tar.gz
+[2024-04-10 08:31:47] INFO root fetch - processPackages [strawberry-django-auth]: Downloading https://files.pythonhosted.org/packages/ac/fc/01e9d4558fb7b7997a58f7600057cfa7410864ce6fcf5eba64cd35c4e07f/strawberry_django_auth-0.376.6.tar.gz
+[2024-04-10 08:31:47] INFO root fetch - processPackages [iii-api-helper]: executing diffoscope
+[2024-04-10 08:31:47] INFO root fetch - processPackages [iii-api-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iii_api_helper-0.0.8.tar.gz tmp/iii_api_helper-0.0.9.tar.gz --markdown 20240410/i/iii-api-helper/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-10 08:31:47] INFO root fetch - processPackages [strawberry-django-auth]: executing diffoscope
+[2024-04-10 08:31:47] INFO root fetch - processPackages [strawberry-django-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strawberry_django_auth-0.376.5.tar.gz tmp/strawberry_django_auth-0.376.6.tar.gz --markdown 20240410/s/strawberry-django-auth/0.376.5-0.376.6/README.md --exclude *.pyd
+[2024-04-10 08:31:47] INFO root fetch - processPackages [iii-api-helper]: Remove: archive file [/home/abi/fetcher/tmp/iii_api_helper-0.0.8.tar.gz]
+[2024-04-10 08:31:47] INFO root fetch - processPackages [iii-api-helper]: Remove: archive file [/home/abi/fetcher/tmp/iii_api_helper-0.0.9.tar.gz]
+[2024-04-10 08:31:47] INFO root fetch - main [MainThread]: End processing [iii-api-helper]: success
+[2024-04-10 08:31:48] INFO root fetch - processPackages [strawberry-django-auth]: Remove: archive file [/home/abi/fetcher/tmp/strawberry_django_auth-0.376.5.tar.gz]
+[2024-04-10 08:31:48] INFO root fetch - processPackages [strawberry-django-auth]: Remove: archive file [/home/abi/fetcher/tmp/strawberry_django_auth-0.376.6.tar.gz]
+[2024-04-10 08:31:48] INFO root fetch - main [MainThread]: End processing [strawberry-django-auth]: success
+[2024-04-10 08:31:48] INFO root fetch - main [MainThread]: Store serial: [22696493]

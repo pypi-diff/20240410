@@ -15905,3 +15905,18 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 09:33:23] INFO root fetch - processPackages [llm-benchmark]: Remove: archive file [/home/abi/fetcher/tmp/llm_benchmark-0.3.9.tar.gz]
 [2024-04-10 09:33:23] INFO root fetch - main [MainThread]: End processing [llm-benchmark]: success
 [2024-04-10 09:33:23] INFO root fetch - main [MainThread]: Store serial: [22697068]
+[2024-04-10 09:35:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22697068]
+[2024-04-10 09:35:33] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-10 09:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: promplate-recipes
+[2024-04-10 09:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chetoolbox
+[2024-04-10 09:35:33] WARNING root fetch - processPackages [promplate-recipes]: Skipping, unable to determine old version
+[2024-04-10 09:35:33] INFO root fetch - main [MainThread]: End processing [promplate-recipes] error
+[2024-04-10 09:35:33] INFO root fetch - processPackages [chetoolbox]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-10 09:35:33] INFO root fetch - processPackages [chetoolbox]: Downloading https://files.pythonhosted.org/packages/69/40/47552d5ce227023e16767569742b389b40112ca6817b4bec4b407b868406/chetoolbox-0.0.8.tar.gz
+[2024-04-10 09:35:33] INFO root fetch - processPackages [chetoolbox]: Downloading https://files.pythonhosted.org/packages/bc/56/c92657082327b6b55726bdaf8e7732690a913618828caa48d6680c8da784/chetoolbox-0.0.9.tar.gz
+[2024-04-10 09:35:34] INFO root fetch - processPackages [chetoolbox]: executing diffoscope
+[2024-04-10 09:35:34] INFO root fetch - processPackages [chetoolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chetoolbox-0.0.8.tar.gz tmp/chetoolbox-0.0.9.tar.gz --markdown 20240410/c/chetoolbox/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-10 09:35:34] INFO root fetch - processPackages [chetoolbox]: Remove: archive file [/home/abi/fetcher/tmp/chetoolbox-0.0.8.tar.gz]
+[2024-04-10 09:35:34] INFO root fetch - processPackages [chetoolbox]: Remove: archive file [/home/abi/fetcher/tmp/chetoolbox-0.0.9.tar.gz]
+[2024-04-10 09:35:34] INFO root fetch - main [MainThread]: End processing [chetoolbox]: success
+[2024-04-10 09:35:34] INFO root fetch - main [MainThread]: Store serial: [22697077]

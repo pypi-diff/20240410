@@ -7831,3 +7831,45 @@
 [2024-04-10 03:38:12] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip]
 [2024-04-10 03:38:12] INFO root fetch - main [MainThread]: End processing [pyAgrum-nightly]: success
 [2024-04-10 03:38:12] INFO root fetch - main [MainThread]: Store serial: [22694083]
+[2024-04-10 03:40:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22694083]
+[2024-04-10 03:40:22] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-10 03:40:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-bridge
+[2024-04-10 03:40:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: notification-py
+[2024-04-10 03:40:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sampa
+[2024-04-10 03:40:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pih-doc
+[2024-04-10 03:40:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: langkit
+[2024-04-10 03:40:22] INFO root fetch - processPackages [python-bridge]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-10 03:40:22] INFO root fetch - processPackages [notification-py]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-10 03:40:22] INFO root fetch - processPackages [langkit]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-10 03:40:22] INFO root fetch - processPackages [pih-doc]: New version: [0.13] Old Version: [0.11]
+[2024-04-10 03:40:22] WARNING root fetch - processPackages [sampa]: Skipping, unable to determine old version
+[2024-04-10 03:40:22] INFO root fetch - main [MainThread]: End processing [sampa] error
+[2024-04-10 03:40:22] INFO root fetch - processPackages [notification-py]: Downloading https://files.pythonhosted.org/packages/95/62/ec92e090c73ccc528ff24859b4a8037d955e2300f034109e49beb7d8fc46/notification_py-0.0.6.tar.gz
+[2024-04-10 03:40:22] INFO root fetch - processPackages [python-bridge]: Downloading https://files.pythonhosted.org/packages/c5/c9/b5b1d62afac8d93d29018f85100d08bc884a1dccba33a02d555fbf8fc920/python-bridge-0.0.8.tar.gz
+[2024-04-10 03:40:22] INFO root fetch - processPackages [langkit]: Downloading https://files.pythonhosted.org/packages/ce/e3/7969ef4cda66f7a8d2dc2a61af3bb067c395b8fc3c8bf9e6777139afa351/langkit-0.0.8.tar.gz
+[2024-04-10 03:40:22] INFO root fetch - processPackages [pih-doc]: Downloading https://files.pythonhosted.org/packages/15/dd/5c8e0c69cadabe16775f379bc000568df74c69441b12b0132c8ea97fbe3c/pih-doc-0.11.tar.gz
+[2024-04-10 03:40:22] INFO root fetch - processPackages [python-bridge]: Downloading https://files.pythonhosted.org/packages/1f/52/c4e5d94983ea8a5b67c53cc5dfeb6455843ec969b9cefd97071318edcff6/python-bridge-0.0.9.tar.gz
+[2024-04-10 03:40:22] INFO root fetch - processPackages [langkit]: Downloading https://files.pythonhosted.org/packages/32/28/704a6d98bd58a324050772e6b9dc1479ab2f09c77c3a83a38e3697af8ef3/langkit-0.0.9.tar.gz
+[2024-04-10 03:40:22] INFO root fetch - processPackages [python-bridge]: executing diffoscope
+[2024-04-10 03:40:22] INFO root fetch - processPackages [python-bridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-bridge-0.0.8.tar.gz tmp/python-bridge-0.0.9.tar.gz --markdown 20240410/p/python-bridge/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-10 03:40:22] INFO root fetch - processPackages [langkit]: executing diffoscope
+[2024-04-10 03:40:22] INFO root fetch - processPackages [langkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langkit-0.0.8.tar.gz tmp/langkit-0.0.9.tar.gz --markdown 20240410/l/langkit/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-10 03:40:23] INFO root fetch - processPackages [notification-py]: Downloading https://files.pythonhosted.org/packages/e5/cc/a65ec3343064ea5e1e8abdc78db5a4690dac5bca958c49a9244bb5443fa0/notification_py-0.0.7.tar.gz
+[2024-04-10 03:40:23] INFO root fetch - processPackages [pih-doc]: Downloading https://files.pythonhosted.org/packages/9a/a7/d4425bedfb06c5562cc405dd504381e22555f4e284956ae33ac20ea79b8f/pih-doc-0.13.tar.gz
+[2024-04-10 03:40:23] INFO root fetch - processPackages [notification-py]: executing diffoscope
+[2024-04-10 03:40:23] INFO root fetch - processPackages [notification-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notification_py-0.0.6.tar.gz tmp/notification_py-0.0.7.tar.gz --markdown 20240410/n/notification-py/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-10 03:40:23] INFO root fetch - processPackages [pih-doc]: executing diffoscope
+[2024-04-10 03:40:23] INFO root fetch - processPackages [pih-doc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-doc-0.11.tar.gz tmp/pih-doc-0.13.tar.gz --markdown 20240410/p/pih-doc/0.11-0.13/README.md --exclude *.pyd
+[2024-04-10 03:40:23] INFO root fetch - processPackages [python-bridge]: Remove: archive file [/home/abi/fetcher/tmp/python-bridge-0.0.8.tar.gz]
+[2024-04-10 03:40:23] INFO root fetch - processPackages [python-bridge]: Remove: archive file [/home/abi/fetcher/tmp/python-bridge-0.0.9.tar.gz]
+[2024-04-10 03:40:23] INFO root fetch - main [MainThread]: End processing [python-bridge]: success
+[2024-04-10 03:40:23] INFO root fetch - processPackages [langkit]: Remove: archive file [/home/abi/fetcher/tmp/langkit-0.0.8.tar.gz]
+[2024-04-10 03:40:23] INFO root fetch - processPackages [langkit]: Remove: archive file [/home/abi/fetcher/tmp/langkit-0.0.9.tar.gz]
+[2024-04-10 03:40:23] INFO root fetch - main [MainThread]: End processing [langkit]: success
+[2024-04-10 03:40:23] INFO root fetch - processPackages [notification-py]: Remove: archive file [/home/abi/fetcher/tmp/notification_py-0.0.6.tar.gz]
+[2024-04-10 03:40:23] INFO root fetch - processPackages [notification-py]: Remove: archive file [/home/abi/fetcher/tmp/notification_py-0.0.7.tar.gz]
+[2024-04-10 03:40:23] INFO root fetch - main [MainThread]: End processing [notification-py]: success
+[2024-04-10 03:40:23] INFO root fetch - processPackages [pih-doc]: Remove: archive file [/home/abi/fetcher/tmp/pih-doc-0.11.tar.gz]
+[2024-04-10 03:40:23] INFO root fetch - processPackages [pih-doc]: Remove: archive file [/home/abi/fetcher/tmp/pih-doc-0.13.tar.gz]
+[2024-04-10 03:40:23] INFO root fetch - main [MainThread]: End processing [pih-doc]: success
+[2024-04-10 03:40:23] INFO root fetch - main [MainThread]: Store serial: [22694114]

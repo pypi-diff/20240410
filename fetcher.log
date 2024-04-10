@@ -17875,3 +17875,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 10:49:52] INFO root fetch - processPackages [mysqlconnectautomation]: Remove: archive file [/home/abi/fetcher/tmp/mysqlconnectautomation-0.0.5.tar.gz]
 [2024-04-10 10:49:52] INFO root fetch - main [MainThread]: End processing [mysqlconnectautomation]: success
 [2024-04-10 10:49:52] INFO root fetch - main [MainThread]: Store serial: [22697976]
+[2024-04-10 10:51:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22697976]
+[2024-04-10 10:52:01] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-10 10:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dekgen
+[2024-04-10 10:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fireducks
+[2024-04-10 10:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: paicos
+[2024-04-10 10:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: firefw
+[2024-04-10 10:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: webwithpy
+[2024-04-10 10:52:01] INFO root fetch - processPackages [dekgen]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-10 10:52:01] INFO root fetch - processPackages [webwithpy]: New version: [0.7.4.3] Old Version: [0.7.4.2]
+[2024-04-10 10:52:02] INFO root fetch - processPackages [paicos]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-10 10:52:02] INFO root fetch - processPackages [fireducks]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-04-10 10:52:02] INFO root fetch - processPackages [firefw]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-04-10 10:52:02] INFO root fetch - processPackages [dekgen]: Downloading https://files.pythonhosted.org/packages/55/ca/bc39ed4f7ba1f2a43d1d5932cf09ce55c8c2a45f66d444a15214d233ffa8/dekgen-0.1.8.tar.gz
+[2024-04-10 10:52:02] INFO root fetch - processPackages [webwithpy]: Downloading https://files.pythonhosted.org/packages/10/1a/c27592996e083ac68080a3aa2825caedeb87028cf33a5bd6b2be9009d887/webwithpy-0.7.4.2.tar.gz
+[2024-04-10 10:52:02] INFO root fetch - processPackages [paicos]: Downloading https://files.pythonhosted.org/packages/c1/90/6229d333f196dae6331a78fbc75cc9af82aca14d808384e15c43b33486b1/paicos-0.1.8.tar.gz
+[2024-04-10 10:52:02] INFO root fetch - processPackages [fireducks]: Downloading https://files.pythonhosted.org/packages/78/0f/a290b2d62d096a4ab73149c01539d5df72bfbc19489f06fb7b655ca43850/fireducks-0.9.7-cp39-cp39-manylinux_2_28_x86_64.whl
+[2024-04-10 10:52:02] INFO root fetch - processPackages [firefw]: Downloading https://files.pythonhosted.org/packages/f9/48/d01a2249d8e2c6f24d4bfcc92d3d861c0612b9cd68284190260c62212aca/firefw-0.9.7-py3-none-any.whl
+[2024-04-10 10:52:02] INFO root fetch - processPackages [dekgen]: Downloading https://files.pythonhosted.org/packages/d7/e9/81205c4038ca752897f47f6a78838322c7bbbcbfe113b202bbe6b47bd10d/dekgen-0.1.9.tar.gz
+[2024-04-10 10:52:02] INFO root fetch - processPackages [webwithpy]: Downloading https://files.pythonhosted.org/packages/72/5e/a7a95855daf924f6738655b71685c80f07e79507c62c1e2e682beb79aa46/webwithpy-0.7.4.3.tar.gz
+[2024-04-10 10:52:02] INFO root fetch - processPackages [paicos]: Downloading https://files.pythonhosted.org/packages/77/53/a5577c8caaefb6424c1bb1310e0a0aee4247526456255b03e0d66ae26b9d/paicos-0.1.9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-10 10:52:02] INFO root fetch - processPackages [dekgen]: executing diffoscope
+[2024-04-10 10:52:02] INFO root fetch - processPackages [dekgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dekgen-0.1.8.tar.gz tmp/dekgen-0.1.9.tar.gz --markdown 20240410/d/dekgen/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-10 10:52:02] INFO root fetch - processPackages [webwithpy]: executing diffoscope
+[2024-04-10 10:52:02] INFO root fetch - processPackages [webwithpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webwithpy-0.7.4.2.tar.gz tmp/webwithpy-0.7.4.3.tar.gz --markdown 20240410/w/webwithpy/0.7.4.2-0.7.4.3/README.md --exclude *.pyd
+[2024-04-10 10:52:02] INFO root fetch - processPackages [firefw]: Downloading https://files.pythonhosted.org/packages/00/25/db8bd3c578ec6621a079f24b4b88efc3bc29f92bed8453db00cb5ea05799/firefw-0.9.8-py3-none-any.whl
+[2024-04-10 10:52:02] INFO root fetch - processPackages [firefw]: executing diffoscope
+[2024-04-10 10:52:02] INFO root fetch - processPackages [firefw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firefw-0.9.7-py3-none-any.whl.zip tmp/firefw-0.9.8-py3-none-any.whl.zip --markdown 20240410/f/firefw/0.9.7-0.9.8/README.md --exclude *.pyd
+[2024-04-10 10:52:03] INFO root fetch - processPackages [dekgen]: Remove: archive file [/home/abi/fetcher/tmp/dekgen-0.1.8.tar.gz]
+[2024-04-10 10:52:03] INFO root fetch - processPackages [dekgen]: Remove: archive file [/home/abi/fetcher/tmp/dekgen-0.1.9.tar.gz]
+[2024-04-10 10:52:03] INFO root fetch - main [MainThread]: End processing [dekgen]: success
+[2024-04-10 10:52:03] INFO root fetch - processPackages [webwithpy]: Remove: archive file [/home/abi/fetcher/tmp/webwithpy-0.7.4.2.tar.gz]
+[2024-04-10 10:52:03] INFO root fetch - processPackages [webwithpy]: Remove: archive file [/home/abi/fetcher/tmp/webwithpy-0.7.4.3.tar.gz]
+[2024-04-10 10:52:03] INFO root fetch - main [MainThread]: End processing [webwithpy]: success
+[2024-04-10 10:52:03] INFO root fetch - processPackages [paicos]: executing diffoscope
+[2024-04-10 10:52:03] INFO root fetch - processPackages [paicos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paicos-0.1.8.tar.gz tmp/paicos-0.1.9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240410/p/paicos/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-10 10:52:03] INFO root fetch - processPackages [firefw]: Remove: archive file [/home/abi/fetcher/tmp/firefw-0.9.7-py3-none-any.whl.zip]
+[2024-04-10 10:52:03] INFO root fetch - processPackages [firefw]: Remove: archive file [/home/abi/fetcher/tmp/firefw-0.9.8-py3-none-any.whl.zip]
+[2024-04-10 10:52:03] INFO root fetch - main [MainThread]: End processing [firefw]: success
+[2024-04-10 10:52:04] INFO root fetch - processPackages [paicos]: Remove: archive file [/home/abi/fetcher/tmp/paicos-0.1.8.tar.gz]
+[2024-04-10 10:52:04] INFO root fetch - processPackages [paicos]: Remove: archive file [/home/abi/fetcher/tmp/paicos-0.1.9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-10 10:52:04] INFO root fetch - main [MainThread]: End processing [paicos]: success
+[2024-04-10 10:52:04] INFO root fetch - processPackages [fireducks]: Downloading https://files.pythonhosted.org/packages/4e/b6/63f73d339120931c81ab9c435df1d08feaef965848223c3d32c513accc54/fireducks-0.9.8-cp39-cp39-manylinux_2_28_x86_64.whl
+[2024-04-10 10:52:06] INFO root fetch - processPackages [fireducks]: executing diffoscope
+[2024-04-10 10:52:06] INFO root fetch - processPackages [fireducks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fireducks-0.9.7-cp39-cp39-manylinux_2_28_x86_64.whl.zip tmp/fireducks-0.9.8-cp39-cp39-manylinux_2_28_x86_64.whl.zip --markdown 20240410/f/fireducks/0.9.7-0.9.8/README.md --exclude *.pyd
+[2024-04-10 10:53:51] INFO root fetch - processPackages [fireducks]: Remove: archive file [/home/abi/fetcher/tmp/fireducks-0.9.7-cp39-cp39-manylinux_2_28_x86_64.whl.zip]
+[2024-04-10 10:53:51] INFO root fetch - processPackages [fireducks]: Remove: archive file [/home/abi/fetcher/tmp/fireducks-0.9.8-cp39-cp39-manylinux_2_28_x86_64.whl.zip]
+[2024-04-10 10:53:51] INFO root fetch - main [MainThread]: End processing [fireducks]: success
+[2024-04-10 10:53:51] INFO root fetch - main [MainThread]: Store serial: [22697995]

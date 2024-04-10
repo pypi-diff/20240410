@@ -12510,3 +12510,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 06:46:19] INFO root fetch - processPackages [kmport]: Remove: archive file [/home/abi/fetcher/tmp/kmport-2.1.5.tar.gz]
 [2024-04-10 06:46:19] INFO root fetch - main [MainThread]: End processing [kmport]: success
 [2024-04-10 06:46:19] INFO root fetch - main [MainThread]: Store serial: [22695818]
+[2024-04-10 06:48:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22695818]
+[2024-04-10 06:48:28] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-10 06:48:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: AutoRAG
+[2024-04-10 06:48:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: browserpilot
+[2024-04-10 06:48:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addons-oca-management-system
+[2024-04-10 06:48:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: slangtorch
+[2024-04-10 06:48:28] ERROR root fetch - processPackages [slangtorch]: Unable to get metadata: No such project 'slangtorch'
+[2024-04-10 06:48:28] INFO root fetch - main [MainThread]: End processing [slangtorch] error
+[2024-04-10 06:48:28] INFO root fetch - processPackages [AutoRAG]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-10 06:48:28] INFO root fetch - processPackages [odoo-addons-oca-management-system]: New version: [16.0.20240409.0] Old Version: [16.0.20240328.0]
+[2024-04-10 06:48:28] INFO root fetch - processPackages [browserpilot]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-10 06:48:28] INFO root fetch - processPackages [browserpilot]: Downloading https://files.pythonhosted.org/packages/de/61/722090eef93bd163ddd3d6a39bbccd7204256ee8da1ae9fd3905ef323441/browserpilot-0.2.8.tar.gz
+[2024-04-10 06:48:28] INFO root fetch - processPackages [odoo-addons-oca-management-system]: Downloading https://files.pythonhosted.org/packages/aa/6c/6be0522ad60e86e61ab615352a595e2afad61a5af75c08ea9240aac11062/odoo_addons_oca_management_system-16.0.20240328.0-py3-none-any.whl
+[2024-04-10 06:48:29] INFO root fetch - processPackages [AutoRAG]: Downloading https://files.pythonhosted.org/packages/86/56/9531a1d6f21863956d7f782b055a212b37880369903d22271db791955831/AutoRAG-0.1.1.tar.gz
+[2024-04-10 06:48:29] INFO root fetch - processPackages [odoo-addons-oca-management-system]: Downloading https://files.pythonhosted.org/packages/95/b4/90c0fe724364875ccdb71a30767608a02cb60404f751040090fdf4bc2cee/odoo_addons_oca_management_system-16.0.20240409.0-py3-none-any.whl
+[2024-04-10 06:48:29] INFO root fetch - processPackages [browserpilot]: Downloading https://files.pythonhosted.org/packages/41/33/61bf9755b7b95de4e1d44705fddce22a362b22b8f9d914b2fbfb27b66162/browserpilot-0.2.9.tar.gz
+[2024-04-10 06:48:29] INFO root fetch - processPackages [odoo-addons-oca-management-system]: executing diffoscope
+[2024-04-10 06:48:29] INFO root fetch - processPackages [odoo-addons-oca-management-system]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_management_system-16.0.20240328.0-py3-none-any.whl.zip tmp/odoo_addons_oca_management_system-16.0.20240409.0-py3-none-any.whl.zip --markdown 20240410/o/odoo-addons-oca-management-system/16.0.20240328.0-16.0.20240409.0/README.md --exclude *.pyd
+[2024-04-10 06:48:29] INFO root fetch - processPackages [browserpilot]: executing diffoscope
+[2024-04-10 06:48:29] INFO root fetch - processPackages [browserpilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/browserpilot-0.2.8.tar.gz tmp/browserpilot-0.2.9.tar.gz --markdown 20240410/b/browserpilot/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-10 06:48:29] INFO root fetch - processPackages [AutoRAG]: Downloading https://files.pythonhosted.org/packages/b1/c9/041b1c286dcfd44e5fdf186934613e7ab316c06f2c4920a091a4ff4537c0/AutoRAG-0.1.2.tar.gz
+[2024-04-10 06:48:29] INFO root fetch - processPackages [AutoRAG]: executing diffoscope
+[2024-04-10 06:48:29] INFO root fetch - processPackages [AutoRAG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AutoRAG-0.1.1.tar.gz tmp/AutoRAG-0.1.2.tar.gz --markdown 20240410/A/AutoRAG/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-10 06:48:29] INFO root fetch - processPackages [odoo-addons-oca-management-system]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_management_system-16.0.20240328.0-py3-none-any.whl.zip]
+[2024-04-10 06:48:29] INFO root fetch - processPackages [odoo-addons-oca-management-system]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_management_system-16.0.20240409.0-py3-none-any.whl.zip]
+[2024-04-10 06:48:29] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-management-system]: success
+[2024-04-10 06:48:30] INFO root fetch - processPackages [browserpilot]: Remove: archive file [/home/abi/fetcher/tmp/browserpilot-0.2.8.tar.gz]
+[2024-04-10 06:48:30] INFO root fetch - processPackages [browserpilot]: Remove: archive file [/home/abi/fetcher/tmp/browserpilot-0.2.9.tar.gz]
+[2024-04-10 06:48:30] INFO root fetch - main [MainThread]: End processing [browserpilot]: success
+[2024-04-10 06:48:31] INFO root fetch - processPackages [AutoRAG]: Remove: archive file [/home/abi/fetcher/tmp/AutoRAG-0.1.1.tar.gz]
+[2024-04-10 06:48:31] INFO root fetch - processPackages [AutoRAG]: Remove: archive file [/home/abi/fetcher/tmp/AutoRAG-0.1.2.tar.gz]
+[2024-04-10 06:48:31] INFO root fetch - main [MainThread]: End processing [AutoRAG]: success
+[2024-04-10 06:48:31] INFO root fetch - main [MainThread]: Store serial: [22695830]

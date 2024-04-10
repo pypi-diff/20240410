@@ -11583,3 +11583,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 06:03:29] INFO root fetch - processPackages [pygpt-net]: Remove: archive file [/home/abi/fetcher/tmp/pygpt_net-2.1.9.tar.gz]
 [2024-04-10 06:03:29] INFO root fetch - main [MainThread]: End processing [pygpt-net]: success
 [2024-04-10 06:03:29] INFO root fetch - main [MainThread]: Store serial: [22695524]
+[2024-04-10 06:05:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22695524]
+[2024-04-10 06:05:37] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-10 06:05:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: logrich
+[2024-04-10 06:05:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mxlm
+[2024-04-10 06:05:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ros-cdk-amqp
+[2024-04-10 06:05:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-product-harmonized-system-delivery
+[2024-04-10 06:05:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rp2
+[2024-04-10 06:05:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chromedriver-binary
+[2024-04-10 06:05:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ros-cdk-iot
+[2024-04-10 06:05:38] INFO root fetch - processPackages [mxlm]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-10 06:05:38] INFO root fetch - processPackages [odoo-addon-product-harmonized-system-delivery]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.0.0.9]
+[2024-04-10 06:05:38] INFO root fetch - processPackages [chromedriver-binary]: New version: [99.0.4844.51.0] Old Version: [99.0.4844.35.0]
+[2024-04-10 06:05:38] INFO root fetch - processPackages [ros-cdk-amqp]: New version: [1.0.9] Old Version: [1.0.24]
+[2024-04-10 06:05:38] INFO root fetch - processPackages [odoo-addon-product-harmonized-system-delivery]: Downloading https://files.pythonhosted.org/packages/29/c1/b6eb322fe2e4a06e4512155a5f61aac2e5a9878963a8dfa5f19519e26a9a/odoo_addon_product_harmonized_system_delivery-16.0.1.0.0.9-py3-none-any.whl
+[2024-04-10 06:05:38] INFO root fetch - processPackages [logrich]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-10 06:05:38] INFO root fetch - processPackages [rp2]: New version: [1.5.1] Old Version: [1.5.0]
+[2024-04-10 06:05:38] INFO root fetch - processPackages [mxlm]: Downloading https://files.pythonhosted.org/packages/b6/3d/5eed7d026eb436c31fc163700f8305220f018edb54bde9ceb361dead0459/mxlm-0.0.3.tar.gz
+[2024-04-10 06:05:38] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/50/a2/f36a3d2f2aa37ccc496e5f81d594f06e3965b836712da14b4b01d2f05ca8/chromedriver-binary-99.0.4844.35.0.tar.gz
+[2024-04-10 06:05:38] INFO root fetch - processPackages [ros-cdk-iot]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-10 06:05:38] INFO root fetch - processPackages [ros-cdk-amqp]: Downloading https://files.pythonhosted.org/packages/00/85/38c78382b2477aab0e34f3642a2495e3e749404e36207de58604f19260dc/ros-cdk-amqp-1.0.24.tar.gz
+[2024-04-10 06:05:38] INFO root fetch - processPackages [logrich]: Downloading https://files.pythonhosted.org/packages/0a/aa/89a3162ebd1166ddd05c8d9f9e9954ac2b6ddbaa857a4a19577e4195b0d4/logrich-1.0.3.tar.gz
+[2024-04-10 06:05:38] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/d9/eb/3bd2a308b9e6f7441fbed7b759578bddade2cb983bb4ffe7fc3777863314/chromedriver-binary-99.0.4844.51.0.tar.gz
+[2024-04-10 06:05:38] INFO root fetch - processPackages [odoo-addon-product-harmonized-system-delivery]: Downloading https://files.pythonhosted.org/packages/77/26/729c9c5ae34cec30e5357d9d696b900733ec50bf4b7690cc0ce74ef1be3d/odoo_addon_product_harmonized_system_delivery-17.0.1.0.0.2-py3-none-any.whl
+[2024-04-10 06:05:38] INFO root fetch - processPackages [ros-cdk-iot]: Downloading https://files.pythonhosted.org/packages/9a/a7/afc8d729cf01f8e1c18e4ad0d7d2962c10f67b0f335e366caaef535df179/ros-cdk-iot-1.0.8.tar.gz
+[2024-04-10 06:05:38] INFO root fetch - processPackages [rp2]: Downloading https://files.pythonhosted.org/packages/a0/0d/4459cd8f417aece3ff6d7f89e25bcee2a07116b22aa25b04672e5bd37575/rp2-1.5.0.tar.gz
+[2024-04-10 06:05:38] INFO root fetch - processPackages [mxlm]: Downloading https://files.pythonhosted.org/packages/73/4f/65e01e438b8eb2e53ce8348bba8c50da2522c3596120e378acdd0ecffa4b/mxlm-0.0.4.tar.gz
+[2024-04-10 06:05:38] INFO root fetch - processPackages [chromedriver-binary]: executing diffoscope
+[2024-04-10 06:05:38] INFO root fetch - processPackages [chromedriver-binary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver-binary-99.0.4844.35.0.tar.gz tmp/chromedriver-binary-99.0.4844.51.0.tar.gz --markdown 20240410/c/chromedriver-binary/99.0.4844.35.0-99.0.4844.51.0/README.md --exclude *.pyd
+[2024-04-10 06:05:38] INFO root fetch - processPackages [odoo-addon-product-harmonized-system-delivery]: executing diffoscope
+[2024-04-10 06:05:38] INFO root fetch - processPackages [odoo-addon-product-harmonized-system-delivery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_harmonized_system_delivery-16.0.1.0.0.9-py3-none-any.whl.zip tmp/odoo_addon_product_harmonized_system_delivery-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240410/o/odoo-addon-product-harmonized-system-delivery/16.0.1.0.0.9-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-04-10 06:05:38] INFO root fetch - processPackages [mxlm]: executing diffoscope
+[2024-04-10 06:05:38] INFO root fetch - processPackages [mxlm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mxlm-0.0.3.tar.gz tmp/mxlm-0.0.4.tar.gz --markdown 20240410/m/mxlm/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-10 06:05:38] INFO root fetch - processPackages [logrich]: Downloading https://files.pythonhosted.org/packages/9c/05/6c26c6545c2ca20d3ec5039ab97362bbb7f12ccc841e4edc8ca9e8e39d16/logrich-1.0.4.tar.gz
+[2024-04-10 06:05:38] INFO root fetch - processPackages [ros-cdk-amqp]: Downloading https://files.pythonhosted.org/packages/d7/ad/61d03bd408d928f74b9f6c370de5b6f4e36e5a47277670769bdd04a65ea8/ros-cdk-amqp-1.0.9.tar.gz
+[2024-04-10 06:05:38] INFO root fetch - processPackages [ros-cdk-iot]: Downloading https://files.pythonhosted.org/packages/20/c3/9d1c46b23ce26ca76a9a8993273ec9f333655246a215eaec7452e417c917/ros-cdk-iot-1.0.9.tar.gz
+[2024-04-10 06:05:38] INFO root fetch - processPackages [ros-cdk-amqp]: executing diffoscope
+[2024-04-10 06:05:38] INFO root fetch - processPackages [ros-cdk-amqp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-amqp-1.0.24.tar.gz tmp/ros-cdk-amqp-1.0.9.tar.gz --markdown 20240410/r/ros-cdk-amqp/1.0.24-1.0.9/README.md --exclude *.pyd
+[2024-04-10 06:05:38] INFO root fetch - processPackages [ros-cdk-iot]: executing diffoscope
+[2024-04-10 06:05:38] INFO root fetch - processPackages [ros-cdk-iot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-iot-1.0.8.tar.gz tmp/ros-cdk-iot-1.0.9.tar.gz --markdown 20240410/r/ros-cdk-iot/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-10 06:05:39] INFO root fetch - processPackages [logrich]: executing diffoscope
+[2024-04-10 06:05:39] INFO root fetch - processPackages [logrich]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logrich-1.0.3.tar.gz tmp/logrich-1.0.4.tar.gz --markdown 20240410/l/logrich/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-10 06:05:39] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.35.0.tar.gz]
+[2024-04-10 06:05:39] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.51.0.tar.gz]
+[2024-04-10 06:05:39] INFO root fetch - main [MainThread]: End processing [chromedriver-binary]: success
+[2024-04-10 06:05:39] INFO root fetch - processPackages [rp2]: Downloading https://files.pythonhosted.org/packages/91/e0/b40886e608f34e74d494b8d8a7d5182091a957161a822b3c5976c7e0a3dd/rp2-1.5.1.tar.gz
+[2024-04-10 06:05:39] INFO root fetch - processPackages [odoo-addon-product-harmonized-system-delivery]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_harmonized_system_delivery-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2024-04-10 06:05:39] INFO root fetch - processPackages [odoo-addon-product-harmonized-system-delivery]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_harmonized_system_delivery-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-10 06:05:39] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-harmonized-system-delivery]: success
+[2024-04-10 06:05:39] INFO root fetch - processPackages [mxlm]: Remove: archive file [/home/abi/fetcher/tmp/mxlm-0.0.3.tar.gz]
+[2024-04-10 06:05:39] INFO root fetch - processPackages [mxlm]: Remove: archive file [/home/abi/fetcher/tmp/mxlm-0.0.4.tar.gz]
+[2024-04-10 06:05:39] INFO root fetch - main [MainThread]: End processing [mxlm]: success
+[2024-04-10 06:05:39] INFO root fetch - processPackages [ros-cdk-iot]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-iot-1.0.8.tar.gz]
+[2024-04-10 06:05:39] INFO root fetch - processPackages [ros-cdk-iot]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-iot-1.0.9.tar.gz]
+[2024-04-10 06:05:39] INFO root fetch - main [MainThread]: End processing [ros-cdk-iot]: success
+[2024-04-10 06:05:39] INFO root fetch - processPackages [ros-cdk-amqp]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-amqp-1.0.24.tar.gz]
+[2024-04-10 06:05:39] INFO root fetch - processPackages [ros-cdk-amqp]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-amqp-1.0.9.tar.gz]
+[2024-04-10 06:05:39] INFO root fetch - main [MainThread]: End processing [ros-cdk-amqp]: success
+[2024-04-10 06:05:39] INFO root fetch - processPackages [logrich]: Remove: archive file [/home/abi/fetcher/tmp/logrich-1.0.3.tar.gz]
+[2024-04-10 06:05:39] INFO root fetch - processPackages [logrich]: Remove: archive file [/home/abi/fetcher/tmp/logrich-1.0.4.tar.gz]
+[2024-04-10 06:05:39] INFO root fetch - main [MainThread]: End processing [logrich]: success
+[2024-04-10 06:05:40] INFO root fetch - processPackages [rp2]: executing diffoscope
+[2024-04-10 06:05:40] INFO root fetch - processPackages [rp2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rp2-1.5.0.tar.gz tmp/rp2-1.5.1.tar.gz --markdown 20240410/r/rp2/1.5.0-1.5.1/README.md --exclude *.pyd
+[2024-04-10 06:05:41] INFO root fetch - processPackages [rp2]: Remove: archive file [/home/abi/fetcher/tmp/rp2-1.5.0.tar.gz]
+[2024-04-10 06:05:41] INFO root fetch - processPackages [rp2]: Remove: archive file [/home/abi/fetcher/tmp/rp2-1.5.1.tar.gz]
+[2024-04-10 06:05:41] INFO root fetch - main [MainThread]: End processing [rp2]: success
+[2024-04-10 06:05:41] INFO root fetch - main [MainThread]: Store serial: [22695541]

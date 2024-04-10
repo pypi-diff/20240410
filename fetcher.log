@@ -13868,3 +13868,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 08:11:43] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240409.tar.gz]
 [2024-04-10 08:11:43] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2024-04-10 08:11:43] INFO root fetch - main [MainThread]: Store serial: [22696365]
+[2024-04-10 08:13:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22696365]
+[2024-04-10 08:13:52] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-10 08:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addons-oca-stock-logistics-barcode
+[2024-04-10 08:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: redmost
+[2024-04-10 08:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gentccode
+[2024-04-10 08:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pretext
+[2024-04-10 08:13:53] INFO root fetch - processPackages [gentccode]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-10 08:13:53] INFO root fetch - processPackages [gentccode]: Downloading https://files.pythonhosted.org/packages/f7/27/e21aaff4c4c8d95e29a06ad1dc1d02b3ffb0e94e3875a9677d856b0c3728/gentccode-0.2.1.tar.gz
+[2024-04-10 08:13:53] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-barcode]: New version: [16.0.20240325.0] Old Version: [16.0.20231220.0]
+[2024-04-10 08:13:53] INFO root fetch - processPackages [redmost]: New version: [0.4.5] Old Version: [0.4.4]
+[2024-04-10 08:13:53] INFO root fetch - processPackages [pretext]: New version: [2.3.9.dev20240302] Old Version: [2.3.9.dev20240229]
+[2024-04-10 08:13:53] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-barcode]: Downloading https://files.pythonhosted.org/packages/51/96/b7d8ab5becf2f710faf6a6791a7ccd0f1c6fd3e5695ca5517b37a2a215d1/odoo_addons_oca_stock_logistics_barcode-16.0.20231220.0-py3-none-any.whl
+[2024-04-10 08:13:53] INFO root fetch - processPackages [redmost]: Downloading https://files.pythonhosted.org/packages/25/0e/a39a04f827151548878cf2849d75aed9a8d1d60862d1b72738dfd4350d49/redmost-0.4.4.tar.gz
+[2024-04-10 08:13:53] INFO root fetch - processPackages [gentccode]: Downloading https://files.pythonhosted.org/packages/f1/9a/d27b63f85cd5b6b419df8e7e0d7e854717ef29cac9e00b6cf3790f1a08bf/gentccode-0.2.2.tar.gz
+[2024-04-10 08:13:53] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/ce/64/85bc57578fbf3322df1cb4958d7c6cf0dda4d8184eb5611f8245cb5d98eb/pretext-2.3.9.dev20240229.tar.gz
+[2024-04-10 08:13:53] INFO root fetch - processPackages [gentccode]: executing diffoscope
+[2024-04-10 08:13:53] INFO root fetch - processPackages [gentccode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gentccode-0.2.1.tar.gz tmp/gentccode-0.2.2.tar.gz --markdown 20240410/g/gentccode/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-10 08:13:53] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-barcode]: Downloading https://files.pythonhosted.org/packages/34/96/18982f1c9fd8124412f81320f0a7a89a3eff7cc81f3a6aef60187cc8c831/odoo_addons_oca_stock_logistics_barcode-16.0.20240325.0-py3-none-any.whl
+[2024-04-10 08:13:53] INFO root fetch - processPackages [redmost]: Downloading https://files.pythonhosted.org/packages/26/37/97f208c6ce035511075a907ed05a339d72998ca399a98d68b80c25d76c78/redmost-0.4.5.tar.gz
+[2024-04-10 08:13:53] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-barcode]: executing diffoscope
+[2024-04-10 08:13:53] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-barcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_stock_logistics_barcode-16.0.20231220.0-py3-none-any.whl.zip tmp/odoo_addons_oca_stock_logistics_barcode-16.0.20240325.0-py3-none-any.whl.zip --markdown 20240410/o/odoo-addons-oca-stock-logistics-barcode/16.0.20231220.0-16.0.20240325.0/README.md --exclude *.pyd
+[2024-04-10 08:13:53] INFO root fetch - processPackages [redmost]: executing diffoscope
+[2024-04-10 08:13:53] INFO root fetch - processPackages [redmost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redmost-0.4.4.tar.gz tmp/redmost-0.4.5.tar.gz --markdown 20240410/r/redmost/0.4.4-0.4.5/README.md --exclude *.pyd
+[2024-04-10 08:13:54] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/3f/2d/22e687f1fb945aeb16176a4f9c25da1aab63664c88cd2966d7ad79f1b144/pretext-2.3.9.dev20240302.tar.gz
+[2024-04-10 08:13:54] INFO root fetch - processPackages [gentccode]: Remove: archive file [/home/abi/fetcher/tmp/gentccode-0.2.1.tar.gz]
+[2024-04-10 08:13:54] INFO root fetch - processPackages [gentccode]: Remove: archive file [/home/abi/fetcher/tmp/gentccode-0.2.2.tar.gz]
+[2024-04-10 08:13:54] INFO root fetch - main [MainThread]: End processing [gentccode]: success
+[2024-04-10 08:13:54] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-barcode]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_stock_logistics_barcode-16.0.20231220.0-py3-none-any.whl.zip]
+[2024-04-10 08:13:54] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-barcode]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_stock_logistics_barcode-16.0.20240325.0-py3-none-any.whl.zip]
+[2024-04-10 08:13:54] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-stock-logistics-barcode]: success
+[2024-04-10 08:13:54] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2024-04-10 08:13:54] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-2.3.9.dev20240229.tar.gz tmp/pretext-2.3.9.dev20240302.tar.gz --markdown 20240410/p/pretext/2.3.9.dev20240229-2.3.9.dev20240302/README.md --exclude *.pyd
+[2024-04-10 08:13:54] INFO root fetch - processPackages [redmost]: Remove: archive file [/home/abi/fetcher/tmp/redmost-0.4.4.tar.gz]
+[2024-04-10 08:13:54] INFO root fetch - processPackages [redmost]: Remove: archive file [/home/abi/fetcher/tmp/redmost-0.4.5.tar.gz]
+[2024-04-10 08:13:54] INFO root fetch - main [MainThread]: End processing [redmost]: success
+[2024-04-10 08:13:58] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-2.3.9.dev20240229.tar.gz]
+[2024-04-10 08:13:58] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-2.3.9.dev20240302.tar.gz]
+[2024-04-10 08:13:58] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2024-04-10 08:13:58] INFO root fetch - main [MainThread]: Store serial: [22696376]

@@ -12695,3 +12695,27 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 06:57:26] INFO root fetch - processPackages [dali-rp2]: Remove: archive file [/home/abi/fetcher/tmp/dali-rp2-0.6.9.tar.gz]
 [2024-04-10 06:57:26] INFO root fetch - main [MainThread]: End processing [dali-rp2]: success
 [2024-04-10 06:57:26] INFO root fetch - main [MainThread]: Store serial: [22695889]
+[2024-04-10 06:59:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22695889]
+[2024-04-10 06:59:34] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-10 06:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fileorg
+[2024-04-10 06:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-sale-product-company
+[2024-04-10 06:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addons-oca-multi-company
+[2024-04-10 06:59:35] WARNING root fetch - processPackages [fileorg]: Skipping, unable to determine old version
+[2024-04-10 06:59:35] INFO root fetch - main [MainThread]: End processing [fileorg] error
+[2024-04-10 06:59:35] INFO root fetch - processPackages [odoo-addon-sale-product-company]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2024-04-10 06:59:35] INFO root fetch - processPackages [odoo-addons-oca-multi-company]: New version: [16.0.20240409.0] Old Version: [16.0.20240328.0]
+[2024-04-10 06:59:35] INFO root fetch - processPackages [odoo-addons-oca-multi-company]: Downloading https://files.pythonhosted.org/packages/e5/9d/d9ee279b728b13b5c681d74b698922715096507654e740e3183915207433/odoo_addons_oca_multi_company-16.0.20240328.0-py3-none-any.whl
+[2024-04-10 06:59:35] INFO root fetch - processPackages [odoo-addon-sale-product-company]: Downloading https://files.pythonhosted.org/packages/d0/b4/b2adc3f5749852ea6e2314fdc8772714ed9db7f740c8b5b92164c14c960b/odoo_addon_sale_product_company-16.0.1.0.0.2-py3-none-any.whl
+[2024-04-10 06:59:35] INFO root fetch - processPackages [odoo-addons-oca-multi-company]: Downloading https://files.pythonhosted.org/packages/b2/e6/92311a61a839ed19787e957863500c9df3154f9827fd6246399895f7cbec/odoo_addons_oca_multi_company-16.0.20240409.0-py3-none-any.whl
+[2024-04-10 06:59:35] INFO root fetch - processPackages [odoo-addon-sale-product-company]: Downloading https://files.pythonhosted.org/packages/57/cf/9595dfc3273b217ee5d644465f204f9a9085d0b3b5e022c2e0c4ee6ebb24/odoo_addon_sale_product_company-16.0.1.0.0.3-py3-none-any.whl
+[2024-04-10 06:59:35] INFO root fetch - processPackages [odoo-addons-oca-multi-company]: executing diffoscope
+[2024-04-10 06:59:35] INFO root fetch - processPackages [odoo-addons-oca-multi-company]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_multi_company-16.0.20240328.0-py3-none-any.whl.zip tmp/odoo_addons_oca_multi_company-16.0.20240409.0-py3-none-any.whl.zip --markdown 20240410/o/odoo-addons-oca-multi-company/16.0.20240328.0-16.0.20240409.0/README.md --exclude *.pyd
+[2024-04-10 06:59:35] INFO root fetch - processPackages [odoo-addon-sale-product-company]: executing diffoscope
+[2024-04-10 06:59:35] INFO root fetch - processPackages [odoo-addon-sale-product-company]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_product_company-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_sale_product_company-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240410/o/odoo-addon-sale-product-company/16.0.1.0.0.2-16.0.1.0.0.3/README.md --exclude *.pyd
+[2024-04-10 06:59:36] INFO root fetch - processPackages [odoo-addons-oca-multi-company]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_multi_company-16.0.20240328.0-py3-none-any.whl.zip]
+[2024-04-10 06:59:36] INFO root fetch - processPackages [odoo-addons-oca-multi-company]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_multi_company-16.0.20240409.0-py3-none-any.whl.zip]
+[2024-04-10 06:59:36] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-multi-company]: success
+[2024-04-10 06:59:36] INFO root fetch - processPackages [odoo-addon-sale-product-company]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_product_company-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-10 06:59:36] INFO root fetch - processPackages [odoo-addon-sale-product-company]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_product_company-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-10 06:59:36] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-product-company]: success
+[2024-04-10 06:59:36] INFO root fetch - main [MainThread]: Store serial: [22695898]

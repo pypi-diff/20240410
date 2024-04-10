@@ -23171,3 +23171,36 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-10 14:09:35] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2024-04-10 14:09:35] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2024-04-10 14:09:35] INFO root fetch - main [MainThread]: Store serial: [22700672]
+[2024-04-10 14:11:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22700672]
+[2024-04-10 14:11:45] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-10 14:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openmetadata-ingestion
+[2024-04-10 14:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: glove-semantic-explorer
+[2024-04-10 14:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ripe.atlas.tools
+[2024-04-10 14:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: apibara
+[2024-04-10 14:11:45] INFO root fetch - processPackages [openmetadata-ingestion]: New version: [1.3.3.0rc1] Old Version: [1.3.2.0rc3]
+[2024-04-10 14:11:45] INFO root fetch - processPackages [apibara]: New version: [0.8.0] Old Version: [0.7.5]
+[2024-04-10 14:11:45] WARNING root fetch - processPackages [glove-semantic-explorer]: Skipping, unable to determine old version
+[2024-04-10 14:11:45] INFO root fetch - processPackages [ripe.atlas.tools]: New version: [3.1.1] Old Version: [3.1.0]
+[2024-04-10 14:11:45] INFO root fetch - main [MainThread]: End processing [glove-semantic-explorer] error
+[2024-04-10 14:11:45] INFO root fetch - processPackages [ripe.atlas.tools]: Downloading https://files.pythonhosted.org/packages/e9/24/044646a301656dfee54098537c85371f18d9d847923f0d2ea50ad61a3ce3/ripe.atlas.tools-3.1.0-py3-none-any.whl
+[2024-04-10 14:11:45] INFO root fetch - processPackages [apibara]: Downloading https://files.pythonhosted.org/packages/b4/77/3430303e6c0b7cffc0fae87440c87890d512e5d3cae07f1e4512e7f90eea/apibara-0.7.5.tar.gz
+[2024-04-10 14:11:45] INFO root fetch - processPackages [openmetadata-ingestion]: Downloading https://files.pythonhosted.org/packages/79/ad/88441d3f003261f37e9b4040223e4cca35b1b108e6d92bcca7e0c0e66012/openmetadata-ingestion-1.3.2.0rc3.tar.gz
+[2024-04-10 14:11:45] INFO root fetch - processPackages [ripe.atlas.tools]: Downloading https://files.pythonhosted.org/packages/85/dd/eb26b239d4cf9a108cc1c7898368abcf9c327f92530845ab6c526e2b9ed4/ripe.atlas.tools-3.1.1.tar.gz
+[2024-04-10 14:11:46] INFO root fetch - processPackages [apibara]: Downloading https://files.pythonhosted.org/packages/7d/b7/6aabccd0a298ca33571c3cefe0bd1fc2426513a0dbbc27208001784b1fbb/apibara-0.8.0.tar.gz
+[2024-04-10 14:11:46] INFO root fetch - processPackages [openmetadata-ingestion]: Downloading https://files.pythonhosted.org/packages/0e/55/524a1a462b318ceb0eefe34b02f2913fb45850c71def27ee8d022ea75e21/openmetadata-ingestion-1.3.3.0rc1.tar.gz
+[2024-04-10 14:11:46] INFO root fetch - processPackages [ripe.atlas.tools]: executing diffoscope
+[2024-04-10 14:11:46] INFO root fetch - processPackages [ripe.atlas.tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ripe.atlas.tools-3.1.0-py3-none-any.whl.zip tmp/ripe.atlas.tools-3.1.1.tar.gz --markdown 20240410/r/ripe.atlas.tools/3.1.0-3.1.1/README.md --exclude *.pyd
+[2024-04-10 14:11:46] INFO root fetch - processPackages [apibara]: executing diffoscope
+[2024-04-10 14:11:46] INFO root fetch - processPackages [apibara]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apibara-0.7.5.tar.gz tmp/apibara-0.8.0.tar.gz --markdown 20240410/a/apibara/0.7.5-0.8.0/README.md --exclude *.pyd
+[2024-04-10 14:11:46] INFO root fetch - processPackages [openmetadata-ingestion]: executing diffoscope
+[2024-04-10 14:11:46] INFO root fetch - processPackages [openmetadata-ingestion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmetadata-ingestion-1.3.2.0rc3.tar.gz tmp/openmetadata-ingestion-1.3.3.0rc1.tar.gz --markdown 20240410/o/openmetadata-ingestion/1.3.2.0rc3-1.3.3.0rc1/README.md --exclude *.pyd
+[2024-04-10 14:11:47] INFO root fetch - processPackages [ripe.atlas.tools]: Remove: archive file [/home/abi/fetcher/tmp/ripe.atlas.tools-3.1.0-py3-none-any.whl.zip]
+[2024-04-10 14:11:47] INFO root fetch - processPackages [ripe.atlas.tools]: Remove: archive file [/home/abi/fetcher/tmp/ripe.atlas.tools-3.1.1.tar.gz]
+[2024-04-10 14:11:47] INFO root fetch - main [MainThread]: End processing [ripe.atlas.tools]: success
+[2024-04-10 14:11:47] INFO root fetch - processPackages [apibara]: Remove: archive file [/home/abi/fetcher/tmp/apibara-0.7.5.tar.gz]
+[2024-04-10 14:11:47] INFO root fetch - processPackages [apibara]: Remove: archive file [/home/abi/fetcher/tmp/apibara-0.8.0.tar.gz]
+[2024-04-10 14:11:47] INFO root fetch - main [MainThread]: End processing [apibara]: success
+[2024-04-10 14:11:55] INFO root fetch - processPackages [openmetadata-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata-ingestion-1.3.2.0rc3.tar.gz]
+[2024-04-10 14:11:55] INFO root fetch - processPackages [openmetadata-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata-ingestion-1.3.3.0rc1.tar.gz]
+[2024-04-10 14:11:55] INFO root fetch - main [MainThread]: End processing [openmetadata-ingestion]: success
+[2024-04-10 14:11:55] INFO root fetch - main [MainThread]: Store serial: [22700687]

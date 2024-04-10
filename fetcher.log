@@ -8415,3 +8415,51 @@
 [2024-04-10 03:50:56] INFO root fetch - processPackages [nuon]: Remove: archive file [/home/abi/fetcher/tmp/nuon-0.19.94.tar.gz]
 [2024-04-10 03:50:56] INFO root fetch - main [MainThread]: End processing [nuon]: success
 [2024-04-10 03:50:56] INFO root fetch - main [MainThread]: Store serial: [22694303]
+[2024-04-10 03:53:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22694303]
+[2024-04-10 03:53:06] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-10 03:53:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datascope-experiments
+[2024-04-10 03:53:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nhmail
+[2024-04-10 03:53:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jhu
+[2024-04-10 03:53:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: erdantic
+[2024-04-10 03:53:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: test-tele
+[2024-04-10 03:53:06] INFO root fetch - processPackages [datascope-experiments]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-10 03:53:06] INFO root fetch - processPackages [erdantic]: New version: [1.0.0rc1] Old Version: [0.7.1]
+[2024-04-10 03:53:06] INFO root fetch - processPackages [datascope-experiments]: Downloading https://files.pythonhosted.org/packages/45/04/38d90a22277d9e206a1f680f99cbfda58ca9cb856a5fdfdcee40e032f0e8/datascope-experiments-0.0.8.tar.gz
+[2024-04-10 03:53:06] INFO root fetch - processPackages [nhmail]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-10 03:53:06] INFO root fetch - processPackages [test-tele]: New version: [0.0.4.9.9.8] Old Version: [0.0.4.9.9.7]
+[2024-04-10 03:53:06] INFO root fetch - processPackages [jhu]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-04-10 03:53:06] INFO root fetch - processPackages [erdantic]: Downloading https://files.pythonhosted.org/packages/5f/b1/2eefdc59b07c55fa5793531d90c9478d475b3c5b604e61974343be71f489/erdantic-0.7.1.tar.gz
+[2024-04-10 03:53:06] INFO root fetch - processPackages [datascope-experiments]: Downloading https://files.pythonhosted.org/packages/b1/bc/05ddc96ba1314c3a59709691d24646790023b2b8b38620c39e9ae4412371/datascope-experiments-0.0.9.tar.gz
+[2024-04-10 03:53:06] INFO root fetch - processPackages [nhmail]: Downloading https://files.pythonhosted.org/packages/c4/4e/b49f63d69a1eae2cdfdbbc510324bf372492e02b0fe0afb1246aca62df4f/nhmail-1.0.2.tar.gz
+[2024-04-10 03:53:06] INFO root fetch - processPackages [test-tele]: Downloading https://files.pythonhosted.org/packages/2e/32/dbac3573209f401eed9c7d9ee6f7b6b62059950e5eefb9cce2df47b84c69/test_tele-0.0.4.9.9.7.tar.gz
+[2024-04-10 03:53:07] INFO root fetch - processPackages [datascope-experiments]: executing diffoscope
+[2024-04-10 03:53:07] INFO root fetch - processPackages [datascope-experiments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datascope-experiments-0.0.8.tar.gz tmp/datascope-experiments-0.0.9.tar.gz --markdown 20240410/d/datascope-experiments/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-10 03:53:07] INFO root fetch - processPackages [jhu]: Downloading https://files.pythonhosted.org/packages/79/5b/c74803d905ba4c1763455877f9a20f28bd6f6abf2a52ace513682c355556/jhu-1.4.0.tar.gz
+[2024-04-10 03:53:07] INFO root fetch - processPackages [erdantic]: Downloading https://files.pythonhosted.org/packages/9c/39/c79b15c606efa80a9853a18b1f6b9d762919a9d3181ef5750d62db51ffaf/erdantic-1.0.0rc1.tar.gz
+[2024-04-10 03:53:07] INFO root fetch - processPackages [test-tele]: Downloading https://files.pythonhosted.org/packages/8e/d0/627fec080a15f207b3bcb7e1bbfd70a97902ff757ff1adf9e238f12e8bae/test_tele-0.0.4.9.9.8.tar.gz
+[2024-04-10 03:53:07] INFO root fetch - processPackages [erdantic]: executing diffoscope
+[2024-04-10 03:53:07] INFO root fetch - processPackages [erdantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erdantic-0.7.1.tar.gz tmp/erdantic-1.0.0rc1.tar.gz --markdown 20240410/e/erdantic/0.7.1-1.0.0rc1/README.md --exclude *.pyd
+[2024-04-10 03:53:07] INFO root fetch - processPackages [jhu]: Downloading https://files.pythonhosted.org/packages/f5/14/f71a548a7fa0ff1773aa06667f19e771cbca80468f87e92184b1e21649de/jhu-1.4.1.tar.gz
+[2024-04-10 03:53:07] INFO root fetch - processPackages [test-tele]: executing diffoscope
+[2024-04-10 03:53:07] INFO root fetch - processPackages [test-tele]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_tele-0.0.4.9.9.7.tar.gz tmp/test_tele-0.0.4.9.9.8.tar.gz --markdown 20240410/t/test-tele/0.0.4.9.9.7-0.0.4.9.9.8/README.md --exclude *.pyd
+[2024-04-10 03:53:07] INFO root fetch - processPackages [nhmail]: Downloading https://files.pythonhosted.org/packages/a6/f7/d16e712524d663592ae483ee6aeeee9107a0b981bae77ad47af411e432e4/nhmail-1.0.3.tar.gz
+[2024-04-10 03:53:07] INFO root fetch - processPackages [jhu]: executing diffoscope
+[2024-04-10 03:53:07] INFO root fetch - processPackages [jhu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jhu-1.4.0.tar.gz tmp/jhu-1.4.1.tar.gz --markdown 20240410/j/jhu/1.4.0-1.4.1/README.md --exclude *.pyd
+[2024-04-10 03:53:07] INFO root fetch - processPackages [nhmail]: executing diffoscope
+[2024-04-10 03:53:07] INFO root fetch - processPackages [nhmail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nhmail-1.0.2.tar.gz tmp/nhmail-1.0.3.tar.gz --markdown 20240410/n/nhmail/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-10 03:53:07] INFO root fetch - processPackages [datascope-experiments]: Remove: archive file [/home/abi/fetcher/tmp/datascope-experiments-0.0.8.tar.gz]
+[2024-04-10 03:53:07] INFO root fetch - processPackages [datascope-experiments]: Remove: archive file [/home/abi/fetcher/tmp/datascope-experiments-0.0.9.tar.gz]
+[2024-04-10 03:53:07] INFO root fetch - main [MainThread]: End processing [datascope-experiments]: success
+[2024-04-10 03:53:07] INFO root fetch - processPackages [erdantic]: Remove: archive file [/home/abi/fetcher/tmp/erdantic-0.7.1.tar.gz]
+[2024-04-10 03:53:07] INFO root fetch - processPackages [erdantic]: Remove: archive file [/home/abi/fetcher/tmp/erdantic-1.0.0rc1.tar.gz]
+[2024-04-10 03:53:07] INFO root fetch - main [MainThread]: End processing [erdantic]: success
+[2024-04-10 03:53:08] INFO root fetch - processPackages [jhu]: Remove: archive file [/home/abi/fetcher/tmp/jhu-1.4.0.tar.gz]
+[2024-04-10 03:53:08] INFO root fetch - processPackages [jhu]: Remove: archive file [/home/abi/fetcher/tmp/jhu-1.4.1.tar.gz]
+[2024-04-10 03:53:08] INFO root fetch - main [MainThread]: End processing [jhu]: success
+[2024-04-10 03:53:08] INFO root fetch - processPackages [test-tele]: Remove: archive file [/home/abi/fetcher/tmp/test_tele-0.0.4.9.9.7.tar.gz]
+[2024-04-10 03:53:08] INFO root fetch - processPackages [test-tele]: Remove: archive file [/home/abi/fetcher/tmp/test_tele-0.0.4.9.9.8.tar.gz]
+[2024-04-10 03:53:08] INFO root fetch - main [MainThread]: End processing [test-tele]: success
+[2024-04-10 03:53:08] INFO root fetch - processPackages [nhmail]: Remove: archive file [/home/abi/fetcher/tmp/nhmail-1.0.2.tar.gz]
+[2024-04-10 03:53:08] INFO root fetch - processPackages [nhmail]: Remove: archive file [/home/abi/fetcher/tmp/nhmail-1.0.3.tar.gz]
+[2024-04-10 03:53:08] INFO root fetch - main [MainThread]: End processing [nhmail]: success
+[2024-04-10 03:53:08] INFO root fetch - main [MainThread]: Store serial: [22694316]

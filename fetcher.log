@@ -20021,3 +20021,54 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 12:16:56] INFO root fetch - processPackages [zrb-ollama]: Remove: archive file [/home/abi/fetcher/tmp/zrb_ollama-0.0.9.tar.gz]
 [2024-04-10 12:16:56] INFO root fetch - main [MainThread]: End processing [zrb-ollama]: success
 [2024-04-10 12:16:56] INFO root fetch - main [MainThread]: Store serial: [22698859]
+[2024-04-10 12:19:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22698859]
+[2024-04-10 12:19:04] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-10 12:19:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: checkov
+[2024-04-10 12:19:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fractal-server
+[2024-04-10 12:19:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zrb-noto
+[2024-04-10 12:19:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: school-sdk
+[2024-04-10 12:19:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: CosmoTech-SupplyChain
+[2024-04-10 12:19:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vision_oslo_extension
+[2024-04-10 12:19:04] WARNING root fetch - processPackages [zrb-noto]: Skipping, unable to determine old version
+[2024-04-10 12:19:04] INFO root fetch - main [MainThread]: End processing [zrb-noto] error
+[2024-04-10 12:19:04] INFO root fetch - processPackages [checkov]: New version: [3.2.9] Old Version: [3.2.8]
+[2024-04-10 12:19:04] INFO root fetch - processPackages [CosmoTech-SupplyChain]: New version: [5.3.0] Old Version: [5.2.2]
+[2024-04-10 12:19:04] INFO root fetch - processPackages [school-sdk]: New version: [1.6.0] Old Version: [1.5.0]
+[2024-04-10 12:19:05] INFO root fetch - processPackages [fractal-server]: New version: [2.0.0a4] Old Version: [2.0.0a3]
+[2024-04-10 12:19:05] INFO root fetch - processPackages [vision_oslo_extension]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-10 12:19:05] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/88/07/1509be74cf47a29b012a6f7477139e57bee2a7d01634b6bd6a71d095ace8/checkov-3.2.8.tar.gz
+[2024-04-10 12:19:05] INFO root fetch - processPackages [fractal-server]: Downloading https://files.pythonhosted.org/packages/d8/93/ecc34fe799dcf96479b12e45197909665a0763342e14225ab2c38167b9c8/fractal_server-2.0.0a3.tar.gz
+[2024-04-10 12:19:05] INFO root fetch - processPackages [school-sdk]: Downloading https://files.pythonhosted.org/packages/cd/54/58da230c9db5237a2f7f891e3c3954523e08e31dd846ee49199445813a4f/school-sdk-1.5.0.tar.gz
+[2024-04-10 12:19:05] INFO root fetch - processPackages [CosmoTech-SupplyChain]: Downloading https://files.pythonhosted.org/packages/3b/47/f118da657ecca5bb154f7db8055dc3d94948beea8ee063270fd955662d7f/CosmoTech-SupplyChain-5.2.2.tar.gz
+[2024-04-10 12:19:05] INFO root fetch - processPackages [vision_oslo_extension]: Downloading https://files.pythonhosted.org/packages/21/e8/2ab2a076032be1561dabf3383b60491609ee3efb26d894bdc129006278b3/vision_oslo_extension-1.0.0.tar.gz
+[2024-04-10 12:19:05] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/8b/2e/76e1600c8d7d81ec9b7cc207e032f23feed398a5b54e6698055f7c5e0f8f/checkov-3.2.9.tar.gz
+[2024-04-10 12:19:05] INFO root fetch - processPackages [fractal-server]: Downloading https://files.pythonhosted.org/packages/41/c2/72564ac788d290f8b14cc5b205b06ccca0af04c3c62e6ec603939d170ca6/fractal_server-2.0.0a4.tar.gz
+[2024-04-10 12:19:05] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2024-04-10 12:19:05] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-3.2.8.tar.gz tmp/checkov-3.2.9.tar.gz --markdown 20240410/c/checkov/3.2.8-3.2.9/README.md --exclude *.pyd
+[2024-04-10 12:19:05] INFO root fetch - processPackages [school-sdk]: Downloading https://files.pythonhosted.org/packages/a7/02/5b1bafc67867b4433b0d0b7889e5bef4a418548a3763eb869598c7b65d03/school-sdk-1.6.0.tar.gz
+[2024-04-10 12:19:05] INFO root fetch - processPackages [CosmoTech-SupplyChain]: Downloading https://files.pythonhosted.org/packages/3e/4e/851486b27ae876e64644dbd58884904827634180d87c27bbc0a6596753f2/CosmoTech-SupplyChain-5.3.0.tar.gz
+[2024-04-10 12:19:05] INFO root fetch - processPackages [fractal-server]: executing diffoscope
+[2024-04-10 12:19:05] INFO root fetch - processPackages [fractal-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fractal_server-2.0.0a3.tar.gz tmp/fractal_server-2.0.0a4.tar.gz --markdown 20240410/f/fractal-server/2.0.0a3-2.0.0a4/README.md --exclude *.pyd
+[2024-04-10 12:19:05] INFO root fetch - processPackages [CosmoTech-SupplyChain]: executing diffoscope
+[2024-04-10 12:19:05] INFO root fetch - processPackages [CosmoTech-SupplyChain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CosmoTech-SupplyChain-5.2.2.tar.gz tmp/CosmoTech-SupplyChain-5.3.0.tar.gz --markdown 20240410/C/CosmoTech-SupplyChain/5.2.2-5.3.0/README.md --exclude *.pyd
+[2024-04-10 12:19:05] INFO root fetch - processPackages [school-sdk]: executing diffoscope
+[2024-04-10 12:19:05] INFO root fetch - processPackages [school-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/school-sdk-1.5.0.tar.gz tmp/school-sdk-1.6.0.tar.gz --markdown 20240410/s/school-sdk/1.5.0-1.6.0/README.md --exclude *.pyd
+[2024-04-10 12:19:06] INFO root fetch - processPackages [vision_oslo_extension]: Downloading https://files.pythonhosted.org/packages/29/69/514b36e6cb264efce4acc050be3bc9371892a38b4bb25971a12ad04c69b9/vision_oslo_extension-1.0.1.tar.gz
+[2024-04-10 12:19:06] INFO root fetch - processPackages [school-sdk]: Remove: archive file [/home/abi/fetcher/tmp/school-sdk-1.5.0.tar.gz]
+[2024-04-10 12:19:06] INFO root fetch - processPackages [school-sdk]: Remove: archive file [/home/abi/fetcher/tmp/school-sdk-1.6.0.tar.gz]
+[2024-04-10 12:19:06] INFO root fetch - main [MainThread]: End processing [school-sdk]: success
+[2024-04-10 12:19:06] INFO root fetch - processPackages [CosmoTech-SupplyChain]: Remove: archive file [/home/abi/fetcher/tmp/CosmoTech-SupplyChain-5.2.2.tar.gz]
+[2024-04-10 12:19:06] INFO root fetch - processPackages [CosmoTech-SupplyChain]: Remove: archive file [/home/abi/fetcher/tmp/CosmoTech-SupplyChain-5.3.0.tar.gz]
+[2024-04-10 12:19:06] INFO root fetch - main [MainThread]: End processing [CosmoTech-SupplyChain]: success
+[2024-04-10 12:19:06] INFO root fetch - processPackages [fractal-server]: Remove: archive file [/home/abi/fetcher/tmp/fractal_server-2.0.0a3.tar.gz]
+[2024-04-10 12:19:06] INFO root fetch - processPackages [fractal-server]: Remove: archive file [/home/abi/fetcher/tmp/fractal_server-2.0.0a4.tar.gz]
+[2024-04-10 12:19:06] INFO root fetch - main [MainThread]: End processing [fractal-server]: success
+[2024-04-10 12:19:07] INFO root fetch - processPackages [vision_oslo_extension]: executing diffoscope
+[2024-04-10 12:19:07] INFO root fetch - processPackages [vision_oslo_extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vision_oslo_extension-1.0.0.tar.gz tmp/vision_oslo_extension-1.0.1.tar.gz --markdown 20240410/v/vision_oslo_extension/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-10 12:19:09] INFO root fetch - processPackages [vision_oslo_extension]: Remove: archive file [/home/abi/fetcher/tmp/vision_oslo_extension-1.0.0.tar.gz]
+[2024-04-10 12:19:09] INFO root fetch - processPackages [vision_oslo_extension]: Remove: archive file [/home/abi/fetcher/tmp/vision_oslo_extension-1.0.1.tar.gz]
+[2024-04-10 12:19:09] INFO root fetch - main [MainThread]: End processing [vision_oslo_extension]: success
+[2024-04-10 12:19:14] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.8.tar.gz]
+[2024-04-10 12:19:14] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.9.tar.gz]
+[2024-04-10 12:19:14] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2024-04-10 12:19:14] INFO root fetch - main [MainThread]: Store serial: [22698876]

@@ -21117,3 +21117,38 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 12:59:59] INFO root fetch - processPackages [streamlit-browser-session-storage]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-browser-session-storage-0.0.8.tar.gz]
 [2024-04-10 12:59:59] INFO root fetch - main [MainThread]: End processing [streamlit-browser-session-storage]: success
 [2024-04-10 12:59:59] INFO root fetch - main [MainThread]: Store serial: [22699487]
+[2024-04-10 13:02:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22699487]
+[2024-04-10 13:02:08] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-10 13:02:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dcicutils
+[2024-04-10 13:02:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chrontext
+[2024-04-10 13:02:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Products.urban
+[2024-04-10 13:02:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: airbyte-source-shopify
+[2024-04-10 13:02:08] INFO root fetch - processPackages [dcicutils]: New version: [8.8.2.1b2] Old Version: [8.8.2.1b1]
+[2024-04-10 13:02:09] INFO root fetch - processPackages [Products.urban]: New version: [2.7.9] Old Version: [2.7.8]
+[2024-04-10 13:02:09] INFO root fetch - processPackages [airbyte-source-shopify]: New version: [2.0.5.dev202404101100] Old Version: [2.0.5.dev202404081102]
+[2024-04-10 13:02:09] INFO root fetch - processPackages [chrontext]: New version: [0.8.6] Old Version: [0.8.4]
+[2024-04-10 13:02:09] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/81/ef/c4cdd210bac742594e8f4d0d72bb564c1cd6f70cb062c7cbd8fa365ea47d/dcicutils-8.8.2.1b1.tar.gz
+[2024-04-10 13:02:09] INFO root fetch - processPackages [airbyte-source-shopify]: Downloading https://files.pythonhosted.org/packages/4e/85/32e53718da8efa192c434e61ac9dd353f5121cc8ca3eca612d04b1e6af46/airbyte_source_shopify-2.0.5.dev202404081102.tar.gz
+[2024-04-10 13:02:09] INFO root fetch - processPackages [Products.urban]: Downloading https://files.pythonhosted.org/packages/62/cf/1ffb24c7205fcd21981095d8787cc318af5c5db4ae86ce3f94784b119e50/Products.urban-2.7.8.tar.gz
+[2024-04-10 13:02:09] INFO root fetch - processPackages [chrontext]: Downloading https://files.pythonhosted.org/packages/9e/b2/aa0b9ad3c1a497b8caf91799f84e201d74a1115afc65a1b40408cb2b8268/chrontext-0.8.4.tar.gz
+[2024-04-10 13:02:09] WARNING root fetch - processPackages [Products.urban]: Skipping package: exceeds size limit 20169294>=10485760
+[2024-04-10 13:02:09] INFO root fetch - main [MainThread]: End processing [Products.urban] error
+[2024-04-10 13:02:09] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/ba/08/6a0c5133090c2609374e754f3065826ab06720072ce1a2d1d1860c8f6e4c/dcicutils-8.8.2.1b2.tar.gz
+[2024-04-10 13:02:09] INFO root fetch - processPackages [dcicutils]: executing diffoscope
+[2024-04-10 13:02:09] INFO root fetch - processPackages [dcicutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicutils-8.8.2.1b1.tar.gz tmp/dcicutils-8.8.2.1b2.tar.gz --markdown 20240410/d/dcicutils/8.8.2.1b1-8.8.2.1b2/README.md --exclude *.pyd
+[2024-04-10 13:02:09] INFO root fetch - processPackages [airbyte-source-shopify]: Downloading https://files.pythonhosted.org/packages/2b/a5/3a7f24f311364b7fa8c2c0b28a5d4bc791399ed583ed26886640c9d0cb76/airbyte_source_shopify-2.0.5.dev202404101100.tar.gz
+[2024-04-10 13:02:09] INFO root fetch - processPackages [airbyte-source-shopify]: executing diffoscope
+[2024-04-10 13:02:09] INFO root fetch - processPackages [airbyte-source-shopify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_shopify-2.0.5.dev202404081102.tar.gz tmp/airbyte_source_shopify-2.0.5.dev202404101100.tar.gz --markdown 20240410/a/airbyte-source-shopify/2.0.5.dev202404081102-2.0.5.dev202404101100/README.md --exclude *.pyd
+[2024-04-10 13:02:10] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.8.2.1b1.tar.gz]
+[2024-04-10 13:02:10] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.8.2.1b2.tar.gz]
+[2024-04-10 13:02:10] INFO root fetch - main [MainThread]: End processing [dcicutils]: success
+[2024-04-10 13:02:10] INFO root fetch - processPackages [airbyte-source-shopify]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_shopify-2.0.5.dev202404081102.tar.gz]
+[2024-04-10 13:02:10] INFO root fetch - processPackages [airbyte-source-shopify]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_shopify-2.0.5.dev202404101100.tar.gz]
+[2024-04-10 13:02:10] INFO root fetch - main [MainThread]: End processing [airbyte-source-shopify]: success
+[2024-04-10 13:02:11] INFO root fetch - processPackages [chrontext]: Downloading https://files.pythonhosted.org/packages/70/e1/ae8bf58f995580488fd7faa0bc8d055e9fd071a338edaeeebba74a811aec/chrontext-0.8.6.tar.gz
+[2024-04-10 13:02:13] INFO root fetch - processPackages [chrontext]: executing diffoscope
+[2024-04-10 13:02:13] INFO root fetch - processPackages [chrontext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chrontext-0.8.4.tar.gz tmp/chrontext-0.8.6.tar.gz --markdown 20240410/c/chrontext/0.8.4-0.8.6/README.md --exclude *.pyd
+[2024-04-10 13:02:16] INFO root fetch - processPackages [chrontext]: Remove: archive file [/home/abi/fetcher/tmp/chrontext-0.8.4.tar.gz]
+[2024-04-10 13:02:16] INFO root fetch - processPackages [chrontext]: Remove: archive file [/home/abi/fetcher/tmp/chrontext-0.8.6.tar.gz]
+[2024-04-10 13:02:16] INFO root fetch - main [MainThread]: End processing [chrontext]: success
+[2024-04-10 13:02:16] INFO root fetch - main [MainThread]: Store serial: [22699502]

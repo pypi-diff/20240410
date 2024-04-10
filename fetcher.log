@@ -11051,3 +11051,66 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 05:41:35] INFO root fetch - processPackages [ros-cdk-imm]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-imm-1.0.9.tar.gz]
 [2024-04-10 05:41:35] INFO root fetch - main [MainThread]: End processing [ros-cdk-imm]: success
 [2024-04-10 05:41:35] INFO root fetch - main [MainThread]: Store serial: [22695300]
+[2024-04-10 05:43:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22695300]
+[2024-04-10 05:43:44] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-10 05:43:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyecif
+[2024-04-10 05:43:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ros-cdk-resourcemanager
+[2024-04-10 05:43:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nuon
+[2024-04-10 05:43:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chamferdist
+[2024-04-10 05:43:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ros-cdk-cddc
+[2024-04-10 05:43:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: oceanum
+[2024-04-10 05:43:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fast-plate-ocr
+[2024-04-10 05:43:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ros-cdk-gpdb
+[2024-04-10 05:43:44] WARNING root fetch - processPackages [pyecif]: Skipping, unable to determine old version
+[2024-04-10 05:43:44] INFO root fetch - main [MainThread]: End processing [pyecif] error
+[2024-04-10 05:43:44] INFO root fetch - processPackages [nuon]: New version: [0.19.95] Old Version: [0.19.94]
+[2024-04-10 05:43:44] INFO root fetch - processPackages [oceanum]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-04-10 05:43:44] INFO root fetch - processPackages [ros-cdk-gpdb]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-10 05:43:44] INFO root fetch - processPackages [nuon]: Downloading https://files.pythonhosted.org/packages/6e/c1/4e78bc87b23bd764681017382f2ec7917bf6733fe14bbbe237d2bf0d48fd/nuon-0.19.94.tar.gz
+[2024-04-10 05:43:44] INFO root fetch - processPackages [ros-cdk-cddc]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-10 05:43:44] ERROR root fetch - processPackages [fast-plate-ocr]: Unable to get metadata: No such project 'fast-plate-ocr'
+[2024-04-10 05:43:44] INFO root fetch - main [MainThread]: End processing [fast-plate-ocr] error
+[2024-04-10 05:43:44] INFO root fetch - processPackages [ros-cdk-resourcemanager]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-10 05:43:44] INFO root fetch - processPackages [chamferdist]: New version: [1.0.3] Old Version: [1.0.1]
+[2024-04-10 05:43:44] INFO root fetch - processPackages [ros-cdk-resourcemanager]: Downloading https://files.pythonhosted.org/packages/ea/d4/41dc4df3979387f5363b04abeac772a2dc5cad91d72d6ed239f79ae787af/ros-cdk-resourcemanager-1.0.8.tar.gz
+[2024-04-10 05:43:44] INFO root fetch - processPackages [oceanum]: Downloading https://files.pythonhosted.org/packages/57/ed/935840882fb2e119b107f69f3f9b67b25107aa1acd866accb4eb44166804/oceanum-0.9.7.tar.gz
+[2024-04-10 05:43:44] INFO root fetch - processPackages [ros-cdk-cddc]: Downloading https://files.pythonhosted.org/packages/0e/ff/b3d167b53d82837916c46bc8e6f1f431ad83cacafab4b0478a927a81c840/ros-cdk-cddc-1.0.8.tar.gz
+[2024-04-10 05:43:45] INFO root fetch - processPackages [chamferdist]: Downloading https://files.pythonhosted.org/packages/5e/8a/9e6d3c3b3e5d46325781423766c207b12a052cf6fb0e1d9b55ff457c58e6/chamferdist-1.0.1.tar.gz
+[2024-04-10 05:43:45] INFO root fetch - processPackages [ros-cdk-gpdb]: Downloading https://files.pythonhosted.org/packages/0d/55/52a8a0970bce608e95a31412a886c5a4255f6399d6abbd92076b383c87e6/ros-cdk-gpdb-1.0.8.tar.gz
+[2024-04-10 05:43:45] INFO root fetch - processPackages [nuon]: Downloading https://files.pythonhosted.org/packages/10/06/9b31a507b44e6d7c5ebf657847200b86505428df8c7c50cb89e918c41d37/nuon-0.19.95.tar.gz
+[2024-04-10 05:43:45] INFO root fetch - processPackages [nuon]: executing diffoscope
+[2024-04-10 05:43:45] INFO root fetch - processPackages [nuon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nuon-0.19.94.tar.gz tmp/nuon-0.19.95.tar.gz --markdown 20240410/n/nuon/0.19.94-0.19.95/README.md --exclude *.pyd
+[2024-04-10 05:43:45] INFO root fetch - processPackages [chamferdist]: Downloading https://files.pythonhosted.org/packages/40/5c/a986d924f3aea3609c613fc6dfb3258ff3b4d98bf301329cbc34029dc62c/chamferdist-1.0.3.tar.gz
+[2024-04-10 05:43:45] INFO root fetch - processPackages [ros-cdk-cddc]: Downloading https://files.pythonhosted.org/packages/4c/31/86dd2c5e585276d59653d1c1f4e4e497f8df96aebe034b16097904065906/ros-cdk-cddc-1.0.9.tar.gz
+[2024-04-10 05:43:45] INFO root fetch - processPackages [ros-cdk-resourcemanager]: Downloading https://files.pythonhosted.org/packages/68/d7/0f5bf4ad63980275960221fb5a538dcf1e091552a537918fdba515755016/ros-cdk-resourcemanager-1.0.9.tar.gz
+[2024-04-10 05:43:45] INFO root fetch - processPackages [oceanum]: Downloading https://files.pythonhosted.org/packages/d6/84/c1ff2f83b55b69b2f4e65d205b4e2a9f88f1070aa1310d7fd5b4a1df7df1/oceanum-0.9.8.tar.gz
+[2024-04-10 05:43:45] INFO root fetch - processPackages [chamferdist]: executing diffoscope
+[2024-04-10 05:43:45] INFO root fetch - processPackages [chamferdist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chamferdist-1.0.1.tar.gz tmp/chamferdist-1.0.3.tar.gz --markdown 20240410/c/chamferdist/1.0.1-1.0.3/README.md --exclude *.pyd
+[2024-04-10 05:43:45] INFO root fetch - processPackages [ros-cdk-cddc]: executing diffoscope
+[2024-04-10 05:43:45] INFO root fetch - processPackages [ros-cdk-cddc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-cddc-1.0.8.tar.gz tmp/ros-cdk-cddc-1.0.9.tar.gz --markdown 20240410/r/ros-cdk-cddc/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-10 05:43:45] INFO root fetch - processPackages [ros-cdk-gpdb]: Downloading https://files.pythonhosted.org/packages/e0/8f/37ee614c35ae949ef462e9673f2af4b97c34e35457de9b877a6dbccabd58/ros-cdk-gpdb-1.0.9.tar.gz
+[2024-04-10 05:43:45] INFO root fetch - processPackages [ros-cdk-resourcemanager]: executing diffoscope
+[2024-04-10 05:43:45] INFO root fetch - processPackages [ros-cdk-resourcemanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-resourcemanager-1.0.8.tar.gz tmp/ros-cdk-resourcemanager-1.0.9.tar.gz --markdown 20240410/r/ros-cdk-resourcemanager/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-10 05:43:45] INFO root fetch - processPackages [oceanum]: executing diffoscope
+[2024-04-10 05:43:45] INFO root fetch - processPackages [oceanum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oceanum-0.9.7.tar.gz tmp/oceanum-0.9.8.tar.gz --markdown 20240410/o/oceanum/0.9.7-0.9.8/README.md --exclude *.pyd
+[2024-04-10 05:43:45] INFO root fetch - processPackages [ros-cdk-gpdb]: executing diffoscope
+[2024-04-10 05:43:45] INFO root fetch - processPackages [ros-cdk-gpdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-gpdb-1.0.8.tar.gz tmp/ros-cdk-gpdb-1.0.9.tar.gz --markdown 20240410/r/ros-cdk-gpdb/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-10 05:43:46] INFO root fetch - processPackages [ros-cdk-cddc]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cddc-1.0.8.tar.gz]
+[2024-04-10 05:43:46] INFO root fetch - processPackages [ros-cdk-cddc]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cddc-1.0.9.tar.gz]
+[2024-04-10 05:43:46] INFO root fetch - main [MainThread]: End processing [ros-cdk-cddc]: success
+[2024-04-10 05:43:46] INFO root fetch - processPackages [chamferdist]: Remove: archive file [/home/abi/fetcher/tmp/chamferdist-1.0.1.tar.gz]
+[2024-04-10 05:43:46] INFO root fetch - processPackages [chamferdist]: Remove: archive file [/home/abi/fetcher/tmp/chamferdist-1.0.3.tar.gz]
+[2024-04-10 05:43:46] INFO root fetch - main [MainThread]: End processing [chamferdist]: success
+[2024-04-10 05:43:46] INFO root fetch - processPackages [ros-cdk-resourcemanager]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-resourcemanager-1.0.8.tar.gz]
+[2024-04-10 05:43:46] INFO root fetch - processPackages [ros-cdk-resourcemanager]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-resourcemanager-1.0.9.tar.gz]
+[2024-04-10 05:43:46] INFO root fetch - main [MainThread]: End processing [ros-cdk-resourcemanager]: success
+[2024-04-10 05:43:46] INFO root fetch - processPackages [ros-cdk-gpdb]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-gpdb-1.0.8.tar.gz]
+[2024-04-10 05:43:46] INFO root fetch - processPackages [ros-cdk-gpdb]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-gpdb-1.0.9.tar.gz]
+[2024-04-10 05:43:46] INFO root fetch - main [MainThread]: End processing [ros-cdk-gpdb]: success
+[2024-04-10 05:43:46] INFO root fetch - processPackages [oceanum]: Remove: archive file [/home/abi/fetcher/tmp/oceanum-0.9.7.tar.gz]
+[2024-04-10 05:43:46] INFO root fetch - processPackages [oceanum]: Remove: archive file [/home/abi/fetcher/tmp/oceanum-0.9.8.tar.gz]
+[2024-04-10 05:43:46] INFO root fetch - main [MainThread]: End processing [oceanum]: success
+[2024-04-10 05:43:47] INFO root fetch - processPackages [nuon]: Remove: archive file [/home/abi/fetcher/tmp/nuon-0.19.94.tar.gz]
+[2024-04-10 05:43:47] INFO root fetch - processPackages [nuon]: Remove: archive file [/home/abi/fetcher/tmp/nuon-0.19.95.tar.gz]
+[2024-04-10 05:43:47] INFO root fetch - main [MainThread]: End processing [nuon]: success
+[2024-04-10 05:43:47] INFO root fetch - main [MainThread]: Store serial: [22695321]

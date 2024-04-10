@@ -9679,3 +9679,27 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 04:39:39] INFO root fetch - processPackages [gplugins]: Remove: archive file [/home/abi/fetcher/tmp/gplugins-0.9.9.tar.gz]
 [2024-04-10 04:39:39] INFO root fetch - main [MainThread]: End processing [gplugins]: success
 [2024-04-10 04:39:39] INFO root fetch - main [MainThread]: Store serial: [22694715]
+[2024-04-10 04:41:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22694715]
+[2024-04-10 04:41:50] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-10 04:41:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: solargazer
+[2024-04-10 04:41:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py2docfx
+[2024-04-10 04:41:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ros-cdk-flink
+[2024-04-10 04:41:50] INFO root fetch - processPackages [py2docfx]: New version: [0.1.3rc1683981] Old Version: [0.1.3.dev1686559]
+[2024-04-10 04:41:50] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/36/25/166b0c2f5d9e65a639f728dd728f15ed37d8c23401ccb1eb2560f3e6f5b7/py2docfx-0.1.3.dev1686559-py3-none-any.whl
+[2024-04-10 04:41:50] WARNING root fetch - processPackages [solargazer]: Skipping, unable to determine old version
+[2024-04-10 04:41:50] INFO root fetch - main [MainThread]: End processing [solargazer] error
+[2024-04-10 04:41:50] INFO root fetch - processPackages [ros-cdk-flink]: New version: [1.0.9] Old Version: [1.0.24]
+[2024-04-10 04:41:50] INFO root fetch - processPackages [ros-cdk-flink]: Downloading https://files.pythonhosted.org/packages/80/dd/d191ac23ed0b3502c8e75e943073b8e1107169b40793ed6e65392d130e26/ros-cdk-flink-1.0.24.tar.gz
+[2024-04-10 04:41:50] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/79/ae/516984fab4915e74a8979453921316075ba1794d28377cb985d9228d8500/py2docfx-0.1.3rc1683981-py3-none-any.whl
+[2024-04-10 04:41:50] INFO root fetch - processPackages [py2docfx]: executing diffoscope
+[2024-04-10 04:41:50] INFO root fetch - processPackages [py2docfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py2docfx-0.1.3.dev1686559-py3-none-any.whl.zip tmp/py2docfx-0.1.3rc1683981-py3-none-any.whl.zip --markdown 20240410/p/py2docfx/0.1.3.dev1686559-0.1.3rc1683981/README.md --exclude *.pyd
+[2024-04-10 04:41:51] INFO root fetch - processPackages [ros-cdk-flink]: Downloading https://files.pythonhosted.org/packages/f2/00/f5879934bb70a838d477bc00430b57a3ea9532957136a859951f55675817/ros-cdk-flink-1.0.9.tar.gz
+[2024-04-10 04:41:51] INFO root fetch - processPackages [ros-cdk-flink]: executing diffoscope
+[2024-04-10 04:41:51] INFO root fetch - processPackages [ros-cdk-flink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-flink-1.0.24.tar.gz tmp/ros-cdk-flink-1.0.9.tar.gz --markdown 20240410/r/ros-cdk-flink/1.0.24-1.0.9/README.md --exclude *.pyd
+[2024-04-10 04:41:51] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.3.dev1686559-py3-none-any.whl.zip]
+[2024-04-10 04:41:51] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.3rc1683981-py3-none-any.whl.zip]
+[2024-04-10 04:41:51] INFO root fetch - main [MainThread]: End processing [py2docfx]: success
+[2024-04-10 04:41:51] INFO root fetch - processPackages [ros-cdk-flink]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-flink-1.0.24.tar.gz]
+[2024-04-10 04:41:51] INFO root fetch - processPackages [ros-cdk-flink]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-flink-1.0.9.tar.gz]
+[2024-04-10 04:41:51] INFO root fetch - main [MainThread]: End processing [ros-cdk-flink]: success
+[2024-04-10 04:41:51] INFO root fetch - main [MainThread]: Store serial: [22694724]

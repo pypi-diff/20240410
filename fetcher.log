@@ -13572,3 +13572,18 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 07:54:15] INFO root fetch - processPackages [odoo-addon-sale-order-type]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_order_type-17.0.1.0.0.4-py3-none-any.whl.zip]
 [2024-04-10 07:54:15] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-order-type]: success
 [2024-04-10 07:54:15] INFO root fetch - main [MainThread]: Store serial: [22696249]
+[2024-04-10 07:56:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22696249]
+[2024-04-10 07:56:24] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-10 07:56:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bttc
+[2024-04-10 07:56:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: controller-manager
+[2024-04-10 07:56:24] INFO root fetch - processPackages [bttc]: New version: [0.0.73.6] Old Version: [0.0.73.5]
+[2024-04-10 07:56:24] WARNING root fetch - processPackages [controller-manager]: Skipping, unable to determine old version
+[2024-04-10 07:56:24] INFO root fetch - main [MainThread]: End processing [controller-manager] error
+[2024-04-10 07:56:24] INFO root fetch - processPackages [bttc]: Downloading https://files.pythonhosted.org/packages/3a/9b/32e3b69243a0ebc218ea0fe8d18ca3c3b3d000ff8552868df559a192bc90/bttc-0.0.73.5.tar.gz
+[2024-04-10 07:56:24] INFO root fetch - processPackages [bttc]: Downloading https://files.pythonhosted.org/packages/dc/1e/838537182e661ab021be99426c60c5ffa1fc7dff404434b50a79deb362b2/bttc-0.0.73.6.tar.gz
+[2024-04-10 07:56:24] INFO root fetch - processPackages [bttc]: executing diffoscope
+[2024-04-10 07:56:24] INFO root fetch - processPackages [bttc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bttc-0.0.73.5.tar.gz tmp/bttc-0.0.73.6.tar.gz --markdown 20240410/b/bttc/0.0.73.5-0.0.73.6/README.md --exclude *.pyd
+[2024-04-10 07:56:25] INFO root fetch - processPackages [bttc]: Remove: archive file [/home/abi/fetcher/tmp/bttc-0.0.73.5.tar.gz]
+[2024-04-10 07:56:25] INFO root fetch - processPackages [bttc]: Remove: archive file [/home/abi/fetcher/tmp/bttc-0.0.73.6.tar.gz]
+[2024-04-10 07:56:25] INFO root fetch - main [MainThread]: End processing [bttc]: success
+[2024-04-10 07:56:25] INFO root fetch - main [MainThread]: Store serial: [22696257]

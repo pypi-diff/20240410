@@ -10202,3 +10202,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 05:06:00] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-0.0.99-py39-none-any.whl.zip]
 [2024-04-10 05:06:00] INFO root fetch - main [MainThread]: End processing [OZI]: success
 [2024-04-10 05:06:00] INFO root fetch - main [MainThread]: Store serial: [22694902]
+[2024-04-10 05:08:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22694902]
+[2024-04-10 05:08:08] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-10 05:08:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: huojiweiguoba
+[2024-04-10 05:08:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytruncreg
+[2024-04-10 05:08:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cmdguicomponents
+[2024-04-10 05:08:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bm25s
+[2024-04-10 05:08:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ros-cdk-sag
+[2024-04-10 05:08:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: inovopy
+[2024-04-10 05:08:08] INFO root fetch - processPackages [huojiweiguoba]: New version: [9.0] Old Version: [8.0]
+[2024-04-10 05:08:09] INFO root fetch - processPackages [inovopy]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-10 05:08:09] INFO root fetch - processPackages [huojiweiguoba]: Downloading https://files.pythonhosted.org/packages/9b/6f/b64a46e83d6bfc0f46bb336114ec9f43e3939f86a70108c310351b4f02b4/huojiweiguoba-8.0.tar.gz
+[2024-04-10 05:08:09] INFO root fetch - processPackages [inovopy]: Downloading https://files.pythonhosted.org/packages/67/c9/964831088c936d90d8d0f89184744d717b38a28ed5b211a5e4b98e3a5d60/inovopy-0.0.3.tar.gz
+[2024-04-10 05:08:09] WARNING root fetch - processPackages [cmdguicomponents]: Skipping, unable to determine old version
+[2024-04-10 05:08:09] INFO root fetch - main [MainThread]: End processing [cmdguicomponents] error
+[2024-04-10 05:08:09] ERROR root fetch - processPackages [bm25s]: Unable to get metadata: No such project 'bm25s'
+[2024-04-10 05:08:09] INFO root fetch - main [MainThread]: End processing [bm25s] error
+[2024-04-10 05:08:09] WARNING root fetch - processPackages [pytruncreg]: Skipping, unable to determine old version
+[2024-04-10 05:08:09] INFO root fetch - main [MainThread]: End processing [pytruncreg] error
+[2024-04-10 05:08:09] INFO root fetch - processPackages [ros-cdk-sag]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-10 05:08:09] INFO root fetch - processPackages [huojiweiguoba]: Downloading https://files.pythonhosted.org/packages/3a/79/586f36e886e9e8dcfc4129b51554721e3019a3b5fc5ca074d349a5747db3/huojiweiguoba-9.0.tar.gz
+[2024-04-10 05:08:09] INFO root fetch - processPackages [ros-cdk-sag]: Downloading https://files.pythonhosted.org/packages/a4/cf/1f2f8df6724976c41029e16f8ad223e35d1d77ad6d91af18b3836483b763/ros-cdk-sag-1.0.8.tar.gz
+[2024-04-10 05:08:09] INFO root fetch - processPackages [huojiweiguoba]: executing diffoscope
+[2024-04-10 05:08:09] INFO root fetch - processPackages [huojiweiguoba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huojiweiguoba-8.0.tar.gz tmp/huojiweiguoba-9.0.tar.gz --markdown 20240410/h/huojiweiguoba/8.0-9.0/README.md --exclude *.pyd
+[2024-04-10 05:08:09] INFO root fetch - processPackages [inovopy]: Downloading https://files.pythonhosted.org/packages/95/46/a58b4503e51a7b3c9d8563282e2b880a5c5f2db8baae20e2ec1f0de09767/inovopy-0.0.4.tar.gz
+[2024-04-10 05:08:09] INFO root fetch - processPackages [inovopy]: executing diffoscope
+[2024-04-10 05:08:09] INFO root fetch - processPackages [inovopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inovopy-0.0.3.tar.gz tmp/inovopy-0.0.4.tar.gz --markdown 20240410/i/inovopy/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-10 05:08:09] INFO root fetch - processPackages [ros-cdk-sag]: Downloading https://files.pythonhosted.org/packages/f1/a2/17222b86429962a14aa6fa255dd53af222cd467cb5733dc5b29058ef12e0/ros-cdk-sag-1.0.9.tar.gz
+[2024-04-10 05:08:09] INFO root fetch - processPackages [huojiweiguoba]: Remove: archive file [/home/abi/fetcher/tmp/huojiweiguoba-8.0.tar.gz]
+[2024-04-10 05:08:09] INFO root fetch - processPackages [huojiweiguoba]: Remove: archive file [/home/abi/fetcher/tmp/huojiweiguoba-9.0.tar.gz]
+[2024-04-10 05:08:09] INFO root fetch - main [MainThread]: End processing [huojiweiguoba]: success
+[2024-04-10 05:08:09] INFO root fetch - processPackages [ros-cdk-sag]: executing diffoscope
+[2024-04-10 05:08:09] INFO root fetch - processPackages [ros-cdk-sag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-sag-1.0.8.tar.gz tmp/ros-cdk-sag-1.0.9.tar.gz --markdown 20240410/r/ros-cdk-sag/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-10 05:08:10] INFO root fetch - processPackages [inovopy]: Remove: archive file [/home/abi/fetcher/tmp/inovopy-0.0.3.tar.gz]
+[2024-04-10 05:08:10] INFO root fetch - processPackages [inovopy]: Remove: archive file [/home/abi/fetcher/tmp/inovopy-0.0.4.tar.gz]
+[2024-04-10 05:08:10] INFO root fetch - main [MainThread]: End processing [inovopy]: success
+[2024-04-10 05:08:10] INFO root fetch - processPackages [ros-cdk-sag]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-sag-1.0.8.tar.gz]
+[2024-04-10 05:08:10] INFO root fetch - processPackages [ros-cdk-sag]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-sag-1.0.9.tar.gz]
+[2024-04-10 05:08:10] INFO root fetch - main [MainThread]: End processing [ros-cdk-sag]: success
+[2024-04-10 05:08:10] INFO root fetch - main [MainThread]: Store serial: [22694925]

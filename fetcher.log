@@ -11114,3 +11114,60 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 05:43:47] INFO root fetch - processPackages [nuon]: Remove: archive file [/home/abi/fetcher/tmp/nuon-0.19.95.tar.gz]
 [2024-04-10 05:43:47] INFO root fetch - main [MainThread]: End processing [nuon]: success
 [2024-04-10 05:43:47] INFO root fetch - main [MainThread]: Store serial: [22695321]
+[2024-04-10 05:45:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22695321]
+[2024-04-10 05:45:57] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-10 05:45:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytest-fly
+[2024-04-10 05:45:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ros-cdk-polardb
+[2024-04-10 05:45:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ip-check
+[2024-04-10 05:45:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: headline-gen
+[2024-04-10 05:45:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ros-cdk-ram
+[2024-04-10 05:45:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scAtlasVAE
+[2024-04-10 05:45:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ros-cdk-sae
+[2024-04-10 05:45:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyhdl-pi-if
+[2024-04-10 05:45:57] WARNING root fetch - processPackages [pytest-fly]: Skipping, unable to determine old version
+[2024-04-10 05:45:57] INFO root fetch - main [MainThread]: End processing [pytest-fly] error
+[2024-04-10 05:45:57] INFO root fetch - processPackages [scAtlasVAE]: New version: [1.0.3a3] Old Version: [1.0.3a2]
+[2024-04-10 05:45:57] INFO root fetch - processPackages [ip-check]: New version: [1.5.5] Old Version: [1.5.4]
+[2024-04-10 05:45:57] INFO root fetch - processPackages [ros-cdk-ram]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-10 05:45:57] INFO root fetch - processPackages [ip-check]: Downloading https://files.pythonhosted.org/packages/e9/1b/e05d1ee9657421f60a0ef207af84e83a72dcfd9799b678f15ad7e21d409b/ip_check-1.5.4-py3-none-any.whl
+[2024-04-10 05:45:57] INFO root fetch - processPackages [ros-cdk-sae]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-10 05:45:57] INFO root fetch - processPackages [scAtlasVAE]: Downloading https://files.pythonhosted.org/packages/58/af/058ff908aa55da7d8cbc210dc53206180bf817c30ba2091af7d99df3e142/scAtlasVAE-1.0.3a2-py3-none-any.whl
+[2024-04-10 05:45:57] WARNING root fetch - processPackages [pyhdl-pi-if]: Skipping, unable to determine old version
+[2024-04-10 05:45:57] WARNING root fetch - processPackages [headline-gen]: Skipping, unable to determine old version
+[2024-04-10 05:45:57] INFO root fetch - main [MainThread]: End processing [pyhdl-pi-if] error
+[2024-04-10 05:45:57] INFO root fetch - main [MainThread]: End processing [headline-gen] error
+[2024-04-10 05:45:57] INFO root fetch - processPackages [ros-cdk-polardb]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-10 05:45:57] INFO root fetch - processPackages [ros-cdk-ram]: Downloading https://files.pythonhosted.org/packages/72/1c/1dd143ca0b5dbde3c0227f0effa0e20ec8e19e4d87115a3c00dd4fff8639/ros-cdk-ram-1.0.8.tar.gz
+[2024-04-10 05:45:57] INFO root fetch - processPackages [ros-cdk-polardb]: Downloading https://files.pythonhosted.org/packages/0f/c8/9a5db89a18dd5f161ed58b6d586eaadf865536c6a5fe35c121bf3e0efdda/ros-cdk-polardb-1.0.8.tar.gz
+[2024-04-10 05:45:57] INFO root fetch - processPackages [scAtlasVAE]: Downloading https://files.pythonhosted.org/packages/bc/dd/b9c9c5e99bcfb65ade27d56e9a76de1f462179ae6fd7dbf2fcad847d192d/scAtlasVAE-1.0.3a3-py3-none-any.whl
+[2024-04-10 05:45:57] INFO root fetch - processPackages [ros-cdk-sae]: Downloading https://files.pythonhosted.org/packages/95/5e/26a5585a5fe36ef898857f1c85d833bf8557f57253b91175c353fd8db132/ros-cdk-sae-1.0.8.tar.gz
+[2024-04-10 05:45:58] INFO root fetch - processPackages [scAtlasVAE]: executing diffoscope
+[2024-04-10 05:45:58] INFO root fetch - processPackages [scAtlasVAE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scAtlasVAE-1.0.3a2-py3-none-any.whl.zip tmp/scAtlasVAE-1.0.3a3-py3-none-any.whl.zip --markdown 20240410/s/scAtlasVAE/1.0.3a2-1.0.3a3/README.md --exclude *.pyd
+[2024-04-10 05:45:58] INFO root fetch - processPackages [ip-check]: Downloading https://files.pythonhosted.org/packages/71/f4/ef84be0c92ad131b4a715f4c5579572ca4185aa51247bbb6ee011dfd98c0/ip_check-1.5.5-py3-none-any.whl
+[2024-04-10 05:45:58] INFO root fetch - processPackages [ip-check]: executing diffoscope
+[2024-04-10 05:45:58] INFO root fetch - processPackages [ip-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ip_check-1.5.4-py3-none-any.whl.zip tmp/ip_check-1.5.5-py3-none-any.whl.zip --markdown 20240410/i/ip-check/1.5.4-1.5.5/README.md --exclude *.pyd
+[2024-04-10 05:45:58] INFO root fetch - processPackages [ros-cdk-ram]: Downloading https://files.pythonhosted.org/packages/01/77/29a2ece550d18a242fa77432a9ade1af180f7a002d1dd1548235638e66b7/ros-cdk-ram-1.0.9.tar.gz
+[2024-04-10 05:45:58] INFO root fetch - processPackages [ros-cdk-polardb]: Downloading https://files.pythonhosted.org/packages/e2/12/7039c84cbcf40b6fcc004c1438f54386d07f7d7a5964d065f39645f43348/ros-cdk-polardb-1.0.9.tar.gz
+[2024-04-10 05:45:58] INFO root fetch - processPackages [ros-cdk-sae]: Downloading https://files.pythonhosted.org/packages/48/72/cff8a4b003968402d7e15cd02a1e7cd2c3942986f32ecbb5f5f318c01237/ros-cdk-sae-1.0.9.tar.gz
+[2024-04-10 05:45:58] INFO root fetch - processPackages [ros-cdk-ram]: executing diffoscope
+[2024-04-10 05:45:58] INFO root fetch - processPackages [ros-cdk-ram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-ram-1.0.8.tar.gz tmp/ros-cdk-ram-1.0.9.tar.gz --markdown 20240410/r/ros-cdk-ram/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-10 05:45:58] INFO root fetch - processPackages [ros-cdk-sae]: executing diffoscope
+[2024-04-10 05:45:58] INFO root fetch - processPackages [ros-cdk-sae]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-sae-1.0.8.tar.gz tmp/ros-cdk-sae-1.0.9.tar.gz --markdown 20240410/r/ros-cdk-sae/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-10 05:45:58] INFO root fetch - processPackages [ros-cdk-polardb]: executing diffoscope
+[2024-04-10 05:45:58] INFO root fetch - processPackages [ros-cdk-polardb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-polardb-1.0.8.tar.gz tmp/ros-cdk-polardb-1.0.9.tar.gz --markdown 20240410/r/ros-cdk-polardb/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-10 05:45:58] INFO root fetch - processPackages [scAtlasVAE]: Remove: archive file [/home/abi/fetcher/tmp/scAtlasVAE-1.0.3a2-py3-none-any.whl.zip]
+[2024-04-10 05:45:58] INFO root fetch - processPackages [scAtlasVAE]: Remove: archive file [/home/abi/fetcher/tmp/scAtlasVAE-1.0.3a3-py3-none-any.whl.zip]
+[2024-04-10 05:45:58] INFO root fetch - main [MainThread]: End processing [scAtlasVAE]: success
+[2024-04-10 05:45:58] INFO root fetch - processPackages [ip-check]: Remove: archive file [/home/abi/fetcher/tmp/ip_check-1.5.4-py3-none-any.whl.zip]
+[2024-04-10 05:45:58] INFO root fetch - processPackages [ip-check]: Remove: archive file [/home/abi/fetcher/tmp/ip_check-1.5.5-py3-none-any.whl.zip]
+[2024-04-10 05:45:58] INFO root fetch - main [MainThread]: End processing [ip-check]: success
+[2024-04-10 05:45:59] INFO root fetch - processPackages [ros-cdk-sae]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-sae-1.0.8.tar.gz]
+[2024-04-10 05:45:59] INFO root fetch - processPackages [ros-cdk-sae]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-sae-1.0.9.tar.gz]
+[2024-04-10 05:45:59] INFO root fetch - main [MainThread]: End processing [ros-cdk-sae]: success
+[2024-04-10 05:45:59] INFO root fetch - processPackages [ros-cdk-ram]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ram-1.0.8.tar.gz]
+[2024-04-10 05:45:59] INFO root fetch - processPackages [ros-cdk-ram]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ram-1.0.9.tar.gz]
+[2024-04-10 05:45:59] INFO root fetch - main [MainThread]: End processing [ros-cdk-ram]: success
+[2024-04-10 05:45:59] INFO root fetch - processPackages [ros-cdk-polardb]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-polardb-1.0.8.tar.gz]
+[2024-04-10 05:45:59] INFO root fetch - processPackages [ros-cdk-polardb]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-polardb-1.0.9.tar.gz]
+[2024-04-10 05:45:59] INFO root fetch - main [MainThread]: End processing [ros-cdk-polardb]: success
+[2024-04-10 05:45:59] INFO root fetch - main [MainThread]: Store serial: [22695346]

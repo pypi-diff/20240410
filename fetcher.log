@@ -3001,3 +3001,83 @@
 [2024-04-10 02:19:47] INFO root fetch - processPackages [draggable-line-chart]: Remove: archive file [/home/abi/fetcher/tmp/draggable-line-chart-0.2.1.tar.gz]
 [2024-04-10 02:19:47] INFO root fetch - main [MainThread]: End processing [draggable-line-chart]: success
 [2024-04-10 02:19:47] INFO root fetch - main [MainThread]: Store serial: [22692318]
+[2024-04-10 02:21:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22692318]
+[2024-04-10 02:21:57] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-10 02:21:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: NEURON-nightly
+[2024-04-10 02:21:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdklabs.cdk-ethereum-node
+[2024-04-10 02:21:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-aurora-globaldatabase
+[2024-04-10 02:21:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: np-services
+[2024-04-10 02:21:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: htmltagparse
+[2024-04-10 02:21:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: weedata
+[2024-04-10 02:21:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: direnumerate
+[2024-04-10 02:21:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: neon-messagebus-mq-connector
+[2024-04-10 02:21:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-purchase-blanket-order
+[2024-04-10 02:21:57] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-10 02:21:57] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2024-04-10 02:21:57] INFO root fetch - processPackages [NEURON-nightly]: New version: [9.0a1.dev209] Old Version: [9.0a1.dev204]
+[2024-04-10 02:21:57] INFO root fetch - processPackages [direnumerate]: New version: [3.2rc2] Old Version: [3.2rc1]
+[2024-04-10 02:21:57] INFO root fetch - processPackages [htmltagparse]: New version: [2.0] Old Version: [1.0]
+[2024-04-10 02:21:57] INFO root fetch - processPackages [weedata]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-10 02:21:57] INFO root fetch - processPackages [np-services]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-10 02:21:57] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Downloading https://files.pythonhosted.org/packages/d8/1a/417af84315b2d52f6063ccf2072677259777d28fb73cab91e17879faaa26/cdklabs.cdk-ethereum-node-0.0.98.tar.gz
+[2024-04-10 02:21:57] INFO root fetch - processPackages [odoo-addon-purchase-blanket-order]: New version: [16.0.2.1.0] Old Version: [16.0.2.0.1.8]
+[2024-04-10 02:21:57] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2024-04-10 02:21:57] INFO root fetch - processPackages [neon-messagebus-mq-connector]: New version: [0.4.1a2] Old Version: [0.4.1a1]
+[2024-04-10 02:21:57] INFO root fetch - processPackages [NEURON-nightly]: Downloading https://files.pythonhosted.org/packages/0d/b7/2feae411cdd9e57d4f09c87fcbb2cae09ea47a9b40713a88633c2482ba7f/NEURON_nightly-9.0a1.dev204-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-10 02:21:57] INFO root fetch - processPackages [direnumerate]: Downloading https://files.pythonhosted.org/packages/3e/37/f0eaa5cc2e2e69314f15c1aa5ba0c84d834692ab11baeb538b0e3717c183/direnumerate-3.2rc1.tar.gz
+[2024-04-10 02:21:57] INFO root fetch - processPackages [htmltagparse]: Downloading https://files.pythonhosted.org/packages/41/50/60646843308e5ea263676301bb98181d2aa4d9f8704426649a6987d4bc24/htmltagparse-1.0.tar.gz
+[2024-04-10 02:21:57] INFO root fetch - processPackages [np-services]: Downloading https://files.pythonhosted.org/packages/84/ea/e2c9fa9f279604d3bbe3a9ea1c4a5c8d74703945b63aeb2fa63d134cd299/np_services-0.1.8.tar.gz
+[2024-04-10 02:21:57] INFO root fetch - processPackages [weedata]: Downloading https://files.pythonhosted.org/packages/bf/1c/636f830a6ad34fbf64be767a4b52c5fc9336b89f8cedf4ef7a0851e0eecf/weedata-0.2.1.tar.gz
+[2024-04-10 02:21:57] WARNING root fetch - processPackages [NEURON-nightly]: Skipping package: exceeds size limit 17255985>=10485760
+[2024-04-10 02:21:57] INFO root fetch - main [MainThread]: End processing [NEURON-nightly] error
+[2024-04-10 02:21:57] INFO root fetch - processPackages [odoo-addon-purchase-blanket-order]: Downloading https://files.pythonhosted.org/packages/fe/c1/25fa860358c1501a8228d5f702eeeacb4b575f7725ec700b89fc026904ba/odoo_addon_purchase_blanket_order-16.0.2.0.1.8-py3-none-any.whl
+[2024-04-10 02:21:57] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Downloading https://files.pythonhosted.org/packages/2d/d8/3fd98f927d9988f7c189f488b1829ac7aa7f855bf93f6030e3bed9af9a97/cdklabs.cdk-ethereum-node-0.0.99.tar.gz
+[2024-04-10 02:21:57] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2024-04-10 02:21:58] INFO root fetch - processPackages [neon-messagebus-mq-connector]: Downloading https://files.pythonhosted.org/packages/c4/ac/8869b0d6b87e98c39b6e781896fc81f9e5c598bed96182b23e2174be0e95/neon-messagebus-mq-connector-0.4.1a1.tar.gz
+[2024-04-10 02:21:58] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: executing diffoscope
+[2024-04-10 02:21:58] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-ethereum-node-0.0.98.tar.gz tmp/cdklabs.cdk-ethereum-node-0.0.99.tar.gz --markdown 20240410/c/cdklabs.cdk-ethereum-node/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-10 02:21:58] INFO root fetch - processPackages [htmltagparse]: Downloading https://files.pythonhosted.org/packages/27/cc/7183d5c4644e650b238a70eb2da11179a8fe49636b133075fb51860e30db/htmltagparse-2.0.tar.gz
+[2024-04-10 02:21:58] INFO root fetch - processPackages [odoo-addon-purchase-blanket-order]: Downloading https://files.pythonhosted.org/packages/15/6e/d871e5a7d82eeadf97cac1a6ccfa8ed9dc5d010cb4a2d0eb472bf552d824/odoo_addon_purchase_blanket_order-16.0.2.1.0-py3-none-any.whl
+[2024-04-10 02:21:58] INFO root fetch - processPackages [np-services]: Downloading https://files.pythonhosted.org/packages/42/01/4536fc7214f13ced23502af87e9b291e777b027674d29341527a660e1ef6/np_services-0.1.9.tar.gz
+[2024-04-10 02:21:58] INFO root fetch - processPackages [neon-messagebus-mq-connector]: Downloading https://files.pythonhosted.org/packages/d3/24/7ebb2be26a3ceca726c477ec77f578cbe111770d717afa88a34a7a644e4a/neon-messagebus-mq-connector-0.4.1a2.tar.gz
+[2024-04-10 02:21:58] INFO root fetch - processPackages [weedata]: Downloading https://files.pythonhosted.org/packages/bd/21/72124789250d148a582baa2bdf258487db37985991ced41a4d98663dac06/weedata-0.2.2.tar.gz
+[2024-04-10 02:21:58] INFO root fetch - processPackages [direnumerate]: Downloading https://files.pythonhosted.org/packages/1d/fd/9b041cd9dcb1381a97555bd15f029a8638efb8be61bac57eb5fd011c1634/direnumerate-3.2rc2.tar.gz
+[2024-04-10 02:21:58] INFO root fetch - processPackages [htmltagparse]: executing diffoscope
+[2024-04-10 02:21:58] INFO root fetch - processPackages [htmltagparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htmltagparse-1.0.tar.gz tmp/htmltagparse-2.0.tar.gz --markdown 20240410/h/htmltagparse/1.0-2.0/README.md --exclude *.pyd
+[2024-04-10 02:21:58] INFO root fetch - processPackages [np-services]: executing diffoscope
+[2024-04-10 02:21:58] INFO root fetch - processPackages [np-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_services-0.1.8.tar.gz tmp/np_services-0.1.9.tar.gz --markdown 20240410/n/np-services/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-10 02:21:58] INFO root fetch - processPackages [odoo-addon-purchase-blanket-order]: executing diffoscope
+[2024-04-10 02:21:58] INFO root fetch - processPackages [odoo-addon-purchase-blanket-order]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_blanket_order-16.0.2.0.1.8-py3-none-any.whl.zip tmp/odoo_addon_purchase_blanket_order-16.0.2.1.0-py3-none-any.whl.zip --markdown 20240410/o/odoo-addon-purchase-blanket-order/16.0.2.0.1.8-16.0.2.1.0/README.md --exclude *.pyd
+[2024-04-10 02:21:58] INFO root fetch - processPackages [direnumerate]: executing diffoscope
+[2024-04-10 02:21:58] INFO root fetch - processPackages [direnumerate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/direnumerate-3.2rc1.tar.gz tmp/direnumerate-3.2rc2.tar.gz --markdown 20240410/d/direnumerate/3.2rc1-3.2rc2/README.md --exclude *.pyd
+[2024-04-10 02:21:58] INFO root fetch - processPackages [neon-messagebus-mq-connector]: executing diffoscope
+[2024-04-10 02:21:58] INFO root fetch - processPackages [neon-messagebus-mq-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-messagebus-mq-connector-0.4.1a1.tar.gz tmp/neon-messagebus-mq-connector-0.4.1a2.tar.gz --markdown 20240410/n/neon-messagebus-mq-connector/0.4.1a1-0.4.1a2/README.md --exclude *.pyd
+[2024-04-10 02:21:58] INFO root fetch - processPackages [weedata]: executing diffoscope
+[2024-04-10 02:21:58] INFO root fetch - processPackages [weedata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weedata-0.2.1.tar.gz tmp/weedata-0.2.2.tar.gz --markdown 20240410/w/weedata/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-10 02:21:58] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-ethereum-node-0.0.98.tar.gz]
+[2024-04-10 02:21:58] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-ethereum-node-0.0.99.tar.gz]
+[2024-04-10 02:21:58] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-ethereum-node]: success
+[2024-04-10 02:21:59] INFO root fetch - processPackages [htmltagparse]: Remove: archive file [/home/abi/fetcher/tmp/htmltagparse-1.0.tar.gz]
+[2024-04-10 02:21:59] INFO root fetch - processPackages [htmltagparse]: Remove: archive file [/home/abi/fetcher/tmp/htmltagparse-2.0.tar.gz]
+[2024-04-10 02:21:59] INFO root fetch - main [MainThread]: End processing [htmltagparse]: success
+[2024-04-10 02:21:59] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2024-04-10 02:21:59] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20240410/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/README.md --exclude *.pyd
+[2024-04-10 02:21:59] INFO root fetch - processPackages [np-services]: Remove: archive file [/home/abi/fetcher/tmp/np_services-0.1.8.tar.gz]
+[2024-04-10 02:21:59] INFO root fetch - processPackages [np-services]: Remove: archive file [/home/abi/fetcher/tmp/np_services-0.1.9.tar.gz]
+[2024-04-10 02:21:59] INFO root fetch - main [MainThread]: End processing [np-services]: success
+[2024-04-10 02:21:59] INFO root fetch - processPackages [direnumerate]: Remove: archive file [/home/abi/fetcher/tmp/direnumerate-3.2rc1.tar.gz]
+[2024-04-10 02:21:59] INFO root fetch - processPackages [direnumerate]: Remove: archive file [/home/abi/fetcher/tmp/direnumerate-3.2rc2.tar.gz]
+[2024-04-10 02:21:59] INFO root fetch - main [MainThread]: End processing [direnumerate]: success
+[2024-04-10 02:21:59] INFO root fetch - processPackages [neon-messagebus-mq-connector]: Remove: archive file [/home/abi/fetcher/tmp/neon-messagebus-mq-connector-0.4.1a1.tar.gz]
+[2024-04-10 02:21:59] INFO root fetch - processPackages [neon-messagebus-mq-connector]: Remove: archive file [/home/abi/fetcher/tmp/neon-messagebus-mq-connector-0.4.1a2.tar.gz]
+[2024-04-10 02:21:59] INFO root fetch - main [MainThread]: End processing [neon-messagebus-mq-connector]: success
+[2024-04-10 02:21:59] INFO root fetch - processPackages [odoo-addon-purchase-blanket-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_blanket_order-16.0.2.0.1.8-py3-none-any.whl.zip]
+[2024-04-10 02:21:59] INFO root fetch - processPackages [odoo-addon-purchase-blanket-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_blanket_order-16.0.2.1.0-py3-none-any.whl.zip]
+[2024-04-10 02:21:59] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-blanket-order]: success
+[2024-04-10 02:21:59] INFO root fetch - processPackages [weedata]: Remove: archive file [/home/abi/fetcher/tmp/weedata-0.2.1.tar.gz]
+[2024-04-10 02:21:59] INFO root fetch - processPackages [weedata]: Remove: archive file [/home/abi/fetcher/tmp/weedata-0.2.2.tar.gz]
+[2024-04-10 02:21:59] INFO root fetch - main [MainThread]: End processing [weedata]: success
+[2024-04-10 02:21:59] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2024-04-10 02:21:59] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2024-04-10 02:21:59] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2024-04-10 02:21:59] INFO root fetch - main [MainThread]: Store serial: [22692348]

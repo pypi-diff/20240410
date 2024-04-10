@@ -22236,3 +22236,39 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-10 13:34:09] INFO root fetch - processPackages [django-oscarbot]: Remove: archive file [/home/abi/fetcher/tmp/django-oscarbot-0.9.tar.gz]
 [2024-04-10 13:34:09] INFO root fetch - main [MainThread]: End processing [django-oscarbot]: success
 [2024-04-10 13:34:09] INFO root fetch - main [MainThread]: Store serial: [22700128]
+[2024-04-10 13:36:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22700128]
+[2024-04-10 13:36:17] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-10 13:36:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dualPredictor
+[2024-04-10 13:36:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ctpcrunch
+[2024-04-10 13:36:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyhelper-utils
+[2024-04-10 13:36:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ramodels
+[2024-04-10 13:36:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: molecule-ll
+[2024-04-10 13:36:18] WARNING root fetch - processPackages [ctpcrunch]: Skipping, unable to determine old version
+[2024-04-10 13:36:18] INFO root fetch - main [MainThread]: End processing [ctpcrunch] error
+[2024-04-10 13:36:18] INFO root fetch - processPackages [pyhelper-utils]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-10 13:36:18] INFO root fetch - processPackages [dualPredictor]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-10 13:36:18] WARNING root fetch - processPackages [molecule-ll]: Skipping, unable to determine old version
+[2024-04-10 13:36:18] INFO root fetch - main [MainThread]: End processing [molecule-ll] error
+[2024-04-10 13:36:18] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2024-04-10 13:36:18] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2024-04-10 13:36:18] INFO root fetch - processPackages [pyhelper-utils]: Downloading https://files.pythonhosted.org/packages/a2/08/fca0974cc4b4cb5026a2117a828431e602f7a9221cdf8bac1922ffa8cbe5/pyhelper_utils-0.0.7.tar.gz
+[2024-04-10 13:36:18] INFO root fetch - processPackages [dualPredictor]: Downloading https://files.pythonhosted.org/packages/e7/54/51274cbeebc7d04b762bc473f017365fc936576735d4f90470be00204845/dualPredictor-0.0.7.tar.gz
+[2024-04-10 13:36:18] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2024-04-10 13:36:18] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2024-04-10 13:36:18] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20240410/r/ramodels/9.7.2-9.7.3/README.md --exclude *.pyd
+[2024-04-10 13:36:18] INFO root fetch - processPackages [pyhelper-utils]: Downloading https://files.pythonhosted.org/packages/b0/79/7f514832f284b942b0701ed9c59de4c8e6ea368ae1637fe0e5bbf4346cec/pyhelper_utils-0.0.8.tar.gz
+[2024-04-10 13:36:18] INFO root fetch - processPackages [dualPredictor]: Downloading https://files.pythonhosted.org/packages/b3/99/b2c5ae81b8c8c7a346d3d6f8192907802692d0c7a72ec5a607adecbd0202/dualPredictor-0.0.8.tar.gz
+[2024-04-10 13:36:18] INFO root fetch - processPackages [pyhelper-utils]: executing diffoscope
+[2024-04-10 13:36:18] INFO root fetch - processPackages [pyhelper-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhelper_utils-0.0.7.tar.gz tmp/pyhelper_utils-0.0.8.tar.gz --markdown 20240410/p/pyhelper-utils/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-10 13:36:18] INFO root fetch - processPackages [dualPredictor]: executing diffoscope
+[2024-04-10 13:36:18] INFO root fetch - processPackages [dualPredictor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dualPredictor-0.0.7.tar.gz tmp/dualPredictor-0.0.8.tar.gz --markdown 20240410/d/dualPredictor/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-10 13:36:19] INFO root fetch - processPackages [pyhelper-utils]: Remove: archive file [/home/abi/fetcher/tmp/pyhelper_utils-0.0.7.tar.gz]
+[2024-04-10 13:36:19] INFO root fetch - processPackages [pyhelper-utils]: Remove: archive file [/home/abi/fetcher/tmp/pyhelper_utils-0.0.8.tar.gz]
+[2024-04-10 13:36:19] INFO root fetch - main [MainThread]: End processing [pyhelper-utils]: success
+[2024-04-10 13:36:19] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.2.tar.gz]
+[2024-04-10 13:36:19] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
+[2024-04-10 13:36:19] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2024-04-10 13:36:19] INFO root fetch - processPackages [dualPredictor]: Remove: archive file [/home/abi/fetcher/tmp/dualPredictor-0.0.7.tar.gz]
+[2024-04-10 13:36:19] INFO root fetch - processPackages [dualPredictor]: Remove: archive file [/home/abi/fetcher/tmp/dualPredictor-0.0.8.tar.gz]
+[2024-04-10 13:36:19] INFO root fetch - main [MainThread]: End processing [dualPredictor]: success
+[2024-04-10 13:36:19] INFO root fetch - main [MainThread]: Store serial: [22700147]

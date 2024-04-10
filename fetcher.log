@@ -11928,3 +11928,54 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 06:16:38] INFO root fetch - processPackages [ros-cdk-eais]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-eais-1.0.24.tar.gz]
 [2024-04-10 06:16:38] INFO root fetch - main [MainThread]: End processing [ros-cdk-eais]: success
 [2024-04-10 06:16:38] INFO root fetch - main [MainThread]: Store serial: [22695623]
+[2024-04-10 06:18:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22695623]
+[2024-04-10 06:18:47] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-10 06:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ros-cdk-eais
+[2024-04-10 06:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nakamon
+[2024-04-10 06:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ros-cdk-cen
+[2024-04-10 06:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: notification-py
+[2024-04-10 06:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ros-cdk-vs
+[2024-04-10 06:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gliner-spacy
+[2024-04-10 06:18:47] INFO root fetch - processPackages [ros-cdk-eais]: New version: [1.0.24] Old Version: [1.0.23]
+[2024-04-10 06:18:47] INFO root fetch - processPackages [notification-py]: New version: [1.0.1] Old Version: [0.0.9]
+[2024-04-10 06:18:47] INFO root fetch - processPackages [ros-cdk-eais]: Downloading https://files.pythonhosted.org/packages/eb/ff/6e2e0a5286ff86cd2ff567121fa65c3bd05ff89ff012ae47382cb9157663/ros-cdk-eais-1.0.23.tar.gz
+[2024-04-10 06:18:47] INFO root fetch - processPackages [notification-py]: Downloading https://files.pythonhosted.org/packages/7b/b9/db93173f86455aca87420afcdfbc3116912eeb355772f86954f6f0c58c2a/notification_py-0.0.9.tar.gz
+[2024-04-10 06:18:47] INFO root fetch - processPackages [ros-cdk-cen]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-10 06:18:47] WARNING root fetch - processPackages [nakamon]: Skipping, unable to determine old version
+[2024-04-10 06:18:47] INFO root fetch - main [MainThread]: End processing [nakamon] error
+[2024-04-10 06:18:47] INFO root fetch - processPackages [gliner-spacy]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-10 06:18:47] INFO root fetch - processPackages [ros-cdk-vs]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-10 06:18:47] INFO root fetch - processPackages [ros-cdk-eais]: Downloading https://files.pythonhosted.org/packages/48/8b/e2f88c5d338592c02f3f0dba1aecb7ae8115e90a20512be2f92505fb7d42/ros-cdk-eais-1.0.24.tar.gz
+[2024-04-10 06:18:47] INFO root fetch - processPackages [ros-cdk-cen]: Downloading https://files.pythonhosted.org/packages/c6/1a/44dc78838de5568cfea2978afc02f9ea03693d8fb6e5742e1fc9de316693/ros-cdk-cen-1.0.8.tar.gz
+[2024-04-10 06:18:47] INFO root fetch - processPackages [ros-cdk-vs]: Downloading https://files.pythonhosted.org/packages/63/47/f3e83c87c7102979fc64bad872c7b2d7df605c677917442044f3f992bad2/ros-cdk-vs-1.0.8.tar.gz
+[2024-04-10 06:18:47] INFO root fetch - processPackages [gliner-spacy]: Downloading https://files.pythonhosted.org/packages/82/15/1f9e06916eeaad1f4f2579ab4279299dc2f175e92d1e78ba711ce77f8e74/gliner-spacy-0.0.3.tar.gz
+[2024-04-10 06:18:47] INFO root fetch - processPackages [notification-py]: Downloading https://files.pythonhosted.org/packages/50/5e/deb0c1cea44f493c58f827839306d0330c6fe24bf973687219cdda778b70/notification_py-1.0.1.tar.gz
+[2024-04-10 06:18:47] INFO root fetch - processPackages [ros-cdk-eais]: executing diffoscope
+[2024-04-10 06:18:47] INFO root fetch - processPackages [ros-cdk-eais]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-eais-1.0.23.tar.gz tmp/ros-cdk-eais-1.0.24.tar.gz --markdown 20240410/r/ros-cdk-eais/1.0.23-1.0.24/README.md --exclude *.pyd
+[2024-04-10 06:18:47] INFO root fetch - processPackages [notification-py]: executing diffoscope
+[2024-04-10 06:18:47] INFO root fetch - processPackages [notification-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notification_py-0.0.9.tar.gz tmp/notification_py-1.0.1.tar.gz --markdown 20240410/n/notification-py/0.0.9-1.0.1/README.md --exclude *.pyd
+[2024-04-10 06:18:47] INFO root fetch - processPackages [ros-cdk-cen]: Downloading https://files.pythonhosted.org/packages/86/5b/bae43ed1278bcdbc996a7b6e198266f6009b65943be76f375c3a452f49b4/ros-cdk-cen-1.0.9.tar.gz
+[2024-04-10 06:18:47] INFO root fetch - processPackages [gliner-spacy]: Downloading https://files.pythonhosted.org/packages/bb/47/30b01854133b8483e850f22ed14f92254872332a334295577a1824d2e77b/gliner-spacy-0.0.4.tar.gz
+[2024-04-10 06:18:48] INFO root fetch - processPackages [ros-cdk-vs]: Downloading https://files.pythonhosted.org/packages/43/76/f18d031c57455622c197aad71e5c0e372bfbbc2f0ff57f3c4dfb6ff20e73/ros-cdk-vs-1.0.9.tar.gz
+[2024-04-10 06:18:48] INFO root fetch - processPackages [ros-cdk-vs]: executing diffoscope
+[2024-04-10 06:18:48] INFO root fetch - processPackages [ros-cdk-vs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-vs-1.0.8.tar.gz tmp/ros-cdk-vs-1.0.9.tar.gz --markdown 20240410/r/ros-cdk-vs/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-10 06:18:48] INFO root fetch - processPackages [ros-cdk-cen]: executing diffoscope
+[2024-04-10 06:18:48] INFO root fetch - processPackages [ros-cdk-cen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-cen-1.0.8.tar.gz tmp/ros-cdk-cen-1.0.9.tar.gz --markdown 20240410/r/ros-cdk-cen/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-10 06:18:48] INFO root fetch - processPackages [gliner-spacy]: executing diffoscope
+[2024-04-10 06:18:48] INFO root fetch - processPackages [gliner-spacy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gliner-spacy-0.0.3.tar.gz tmp/gliner-spacy-0.0.4.tar.gz --markdown 20240410/g/gliner-spacy/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-10 06:18:48] INFO root fetch - processPackages [notification-py]: Remove: archive file [/home/abi/fetcher/tmp/notification_py-0.0.9.tar.gz]
+[2024-04-10 06:18:48] INFO root fetch - processPackages [notification-py]: Remove: archive file [/home/abi/fetcher/tmp/notification_py-1.0.1.tar.gz]
+[2024-04-10 06:18:48] INFO root fetch - main [MainThread]: End processing [notification-py]: success
+[2024-04-10 06:18:48] INFO root fetch - processPackages [ros-cdk-eais]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-eais-1.0.23.tar.gz]
+[2024-04-10 06:18:48] INFO root fetch - processPackages [ros-cdk-eais]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-eais-1.0.24.tar.gz]
+[2024-04-10 06:18:48] INFO root fetch - main [MainThread]: End processing [ros-cdk-eais]: success
+[2024-04-10 06:18:48] INFO root fetch - processPackages [gliner-spacy]: Remove: archive file [/home/abi/fetcher/tmp/gliner-spacy-0.0.3.tar.gz]
+[2024-04-10 06:18:48] INFO root fetch - processPackages [gliner-spacy]: Remove: archive file [/home/abi/fetcher/tmp/gliner-spacy-0.0.4.tar.gz]
+[2024-04-10 06:18:48] INFO root fetch - main [MainThread]: End processing [gliner-spacy]: success
+[2024-04-10 06:18:48] INFO root fetch - processPackages [ros-cdk-vs]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-vs-1.0.8.tar.gz]
+[2024-04-10 06:18:48] INFO root fetch - processPackages [ros-cdk-vs]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-vs-1.0.9.tar.gz]
+[2024-04-10 06:18:48] INFO root fetch - main [MainThread]: End processing [ros-cdk-vs]: success
+[2024-04-10 06:18:48] INFO root fetch - processPackages [ros-cdk-cen]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cen-1.0.8.tar.gz]
+[2024-04-10 06:18:48] INFO root fetch - processPackages [ros-cdk-cen]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cen-1.0.9.tar.gz]
+[2024-04-10 06:18:48] INFO root fetch - main [MainThread]: End processing [ros-cdk-cen]: success
+[2024-04-10 06:18:48] INFO root fetch - main [MainThread]: Store serial: [22695639]

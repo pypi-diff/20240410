@@ -17142,3 +17142,72 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 10:22:33] INFO root fetch - processPackages [myRIO-library]: Remove: archive file [/home/abi/fetcher/tmp/myRIO_library-1.2.1.tar.gz]
 [2024-04-10 10:22:33] INFO root fetch - main [MainThread]: End processing [myRIO-library]: success
 [2024-04-10 10:22:33] INFO root fetch - main [MainThread]: Store serial: [22697617]
+[2024-04-10 10:24:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22697617]
+[2024-04-10 10:24:44] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-10 10:24:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: swarmauri
+[2024-04-10 10:24:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: concurrent_tasks
+[2024-04-10 10:24:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-azure
+[2024-04-10 10:24:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: maybenot
+[2024-04-10 10:24:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyProfQueue
+[2024-04-10 10:24:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dekgen
+[2024-04-10 10:24:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: streamlit-google-auth
+[2024-04-10 10:24:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tsq
+[2024-04-10 10:24:44] INFO root fetch - processPackages [swarmauri]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-10 10:24:44] INFO root fetch - processPackages [PyProfQueue]: New version: [0.1.1] Old Version: [0.1]
+[2024-04-10 10:24:44] INFO root fetch - processPackages [pulumi-azure]: New version: [5.9.0a1654522381] Old Version: [5.9.0a1654274095]
+[2024-04-10 10:24:44] INFO root fetch - processPackages [streamlit-google-auth]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-04-10 10:24:44] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/6f/f9/130aeeef865461afb5cc003721ceb7c3ebcd9ef2fe49fd812b8532fb5035/swarmauri-0.1.8.tar.gz
+[2024-04-10 10:24:44] INFO root fetch - processPackages [concurrent_tasks]: New version: [1.7.2] Old Version: [1.7.1]
+[2024-04-10 10:24:44] WARNING root fetch - processPackages [maybenot]: Skipping, unable to determine old version
+[2024-04-10 10:24:44] INFO root fetch - processPackages [pulumi-azure]: Downloading https://files.pythonhosted.org/packages/95/6d/184badcdda1d8846e82c25063e340f60ddbf5b018a98c303e4bb5aa0a6ff/pulumi_azure-5.9.0a1654274095.tar.gz
+[2024-04-10 10:24:44] INFO root fetch - main [MainThread]: End processing [maybenot] error
+[2024-04-10 10:24:44] INFO root fetch - processPackages [tsq]: New version: [0.0.16] Old Version: [0.0.15]
+[2024-04-10 10:24:44] INFO root fetch - processPackages [dekgen]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-10 10:24:44] INFO root fetch - processPackages [streamlit-google-auth]: Downloading https://files.pythonhosted.org/packages/e2/87/a77bb366b04ca989eba89fefd91102756781cfbf1951a01c543d21a59b04/streamlit-google-auth-1.1.3.tar.gz
+[2024-04-10 10:24:44] INFO root fetch - processPackages [PyProfQueue]: Downloading https://files.pythonhosted.org/packages/0b/13/557832b87296b70854168e79b76efb5ae5f13ec300fe0dd0f99c54ffab79/PyProfQueue-0.1.tar.gz
+[2024-04-10 10:24:44] INFO root fetch - processPackages [concurrent_tasks]: Downloading https://files.pythonhosted.org/packages/1e/2a/63b7808d14608e0e9c02983bbfd05bc4854f9aec53439de46ba9b7d5a379/concurrent_tasks-1.7.1.tar.gz
+[2024-04-10 10:24:44] INFO root fetch - processPackages [tsq]: Downloading https://files.pythonhosted.org/packages/f8/2c/3163964374ca3c1d19597b2f09777439535379ea6d8c5db3360e1b3bea99/tsq-0.0.15.tar.gz
+[2024-04-10 10:24:44] INFO root fetch - processPackages [dekgen]: Downloading https://files.pythonhosted.org/packages/55/ca/bc39ed4f7ba1f2a43d1d5932cf09ce55c8c2a45f66d444a15214d233ffa8/dekgen-0.1.8.tar.gz
+[2024-04-10 10:24:44] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/c7/70/0b55d158ba42355a67cda5d200e3d5817bac0a8e9ce2da2bf294eb6b03ec/swarmauri-0.1.9.tar.gz
+[2024-04-10 10:24:44] INFO root fetch - processPackages [streamlit-google-auth]: Downloading https://files.pythonhosted.org/packages/17/9f/20c2a563b05146f7c4190ec3f2ed935dfc210421809229dbcdfecb237095/streamlit-google-auth-1.1.4.tar.gz
+[2024-04-10 10:24:44] INFO root fetch - processPackages [pulumi-azure]: Downloading https://files.pythonhosted.org/packages/19/1b/87a51c6988d790ed8bfb430670a85c499af09d14d21430448a37baa7fb64/pulumi_azure-5.9.0a1654522381.tar.gz
+[2024-04-10 10:24:44] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-04-10 10:24:44] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.8.tar.gz tmp/swarmauri-0.1.9.tar.gz --markdown 20240410/s/swarmauri/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-10 10:24:44] INFO root fetch - processPackages [streamlit-google-auth]: executing diffoscope
+[2024-04-10 10:24:44] INFO root fetch - processPackages [streamlit-google-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-google-auth-1.1.3.tar.gz tmp/streamlit-google-auth-1.1.4.tar.gz --markdown 20240410/s/streamlit-google-auth/1.1.3-1.1.4/README.md --exclude *.pyd
+[2024-04-10 10:24:44] INFO root fetch - processPackages [PyProfQueue]: Downloading https://files.pythonhosted.org/packages/28/fc/b83adfd1cab0f0b957637faa3235bb1caadc4df0199204be386faf382531/PyProfQueue-0.1.1.tar.gz
+[2024-04-10 10:24:44] INFO root fetch - processPackages [concurrent_tasks]: Downloading https://files.pythonhosted.org/packages/07/0a/a14889cb725683dd8eb050dd61c76b868ac238b633b7337421db8a326ad6/concurrent_tasks-1.7.2.tar.gz
+[2024-04-10 10:24:45] INFO root fetch - processPackages [tsq]: Downloading https://files.pythonhosted.org/packages/4c/96/b3c1c418622f5792b6b6c50e3f251c4a3860714106a517a83955d0a1b2a5/tsq-0.0.16.tar.gz
+[2024-04-10 10:24:45] INFO root fetch - processPackages [PyProfQueue]: executing diffoscope
+[2024-04-10 10:24:45] INFO root fetch - processPackages [PyProfQueue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyProfQueue-0.1.tar.gz tmp/PyProfQueue-0.1.1.tar.gz --markdown 20240410/P/PyProfQueue/0.1-0.1.1/README.md --exclude *.pyd
+[2024-04-10 10:24:45] INFO root fetch - processPackages [dekgen]: Downloading https://files.pythonhosted.org/packages/d7/e9/81205c4038ca752897f47f6a78838322c7bbbcbfe113b202bbe6b47bd10d/dekgen-0.1.9.tar.gz
+[2024-04-10 10:24:45] INFO root fetch - processPackages [concurrent_tasks]: executing diffoscope
+[2024-04-10 10:24:45] INFO root fetch - processPackages [concurrent_tasks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/concurrent_tasks-1.7.1.tar.gz tmp/concurrent_tasks-1.7.2.tar.gz --markdown 20240410/c/concurrent_tasks/1.7.1-1.7.2/README.md --exclude *.pyd
+[2024-04-10 10:24:45] INFO root fetch - processPackages [dekgen]: executing diffoscope
+[2024-04-10 10:24:45] INFO root fetch - processPackages [dekgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dekgen-0.1.8.tar.gz tmp/dekgen-0.1.9.tar.gz --markdown 20240410/d/dekgen/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-10 10:24:45] INFO root fetch - processPackages [pulumi-azure]: executing diffoscope
+[2024-04-10 10:24:45] INFO root fetch - processPackages [pulumi-azure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azure-5.9.0a1654274095.tar.gz tmp/pulumi_azure-5.9.0a1654522381.tar.gz --markdown 20240410/p/pulumi-azure/5.9.0a1654274095-5.9.0a1654522381/README.md --exclude *.pyd
+[2024-04-10 10:24:45] INFO root fetch - processPackages [tsq]: executing diffoscope
+[2024-04-10 10:24:45] INFO root fetch - processPackages [tsq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsq-0.0.15.tar.gz tmp/tsq-0.0.16.tar.gz --markdown 20240410/t/tsq/0.0.15-0.0.16/README.md --exclude *.pyd
+[2024-04-10 10:24:45] INFO root fetch - processPackages [PyProfQueue]: Remove: archive file [/home/abi/fetcher/tmp/PyProfQueue-0.1.tar.gz]
+[2024-04-10 10:24:45] INFO root fetch - processPackages [PyProfQueue]: Remove: archive file [/home/abi/fetcher/tmp/PyProfQueue-0.1.1.tar.gz]
+[2024-04-10 10:24:45] INFO root fetch - main [MainThread]: End processing [PyProfQueue]: success
+[2024-04-10 10:24:45] INFO root fetch - processPackages [streamlit-google-auth]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-google-auth-1.1.3.tar.gz]
+[2024-04-10 10:24:45] INFO root fetch - processPackages [streamlit-google-auth]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-google-auth-1.1.4.tar.gz]
+[2024-04-10 10:24:45] INFO root fetch - main [MainThread]: End processing [streamlit-google-auth]: success
+[2024-04-10 10:24:45] INFO root fetch - processPackages [dekgen]: Remove: archive file [/home/abi/fetcher/tmp/dekgen-0.1.8.tar.gz]
+[2024-04-10 10:24:45] INFO root fetch - processPackages [dekgen]: Remove: archive file [/home/abi/fetcher/tmp/dekgen-0.1.9.tar.gz]
+[2024-04-10 10:24:45] INFO root fetch - main [MainThread]: End processing [dekgen]: success
+[2024-04-10 10:24:45] INFO root fetch - processPackages [tsq]: Remove: archive file [/home/abi/fetcher/tmp/tsq-0.0.15.tar.gz]
+[2024-04-10 10:24:45] INFO root fetch - processPackages [tsq]: Remove: archive file [/home/abi/fetcher/tmp/tsq-0.0.16.tar.gz]
+[2024-04-10 10:24:45] INFO root fetch - main [MainThread]: End processing [tsq]: success
+[2024-04-10 10:24:46] INFO root fetch - processPackages [concurrent_tasks]: Remove: archive file [/home/abi/fetcher/tmp/concurrent_tasks-1.7.1.tar.gz]
+[2024-04-10 10:24:46] INFO root fetch - processPackages [concurrent_tasks]: Remove: archive file [/home/abi/fetcher/tmp/concurrent_tasks-1.7.2.tar.gz]
+[2024-04-10 10:24:46] INFO root fetch - main [MainThread]: End processing [concurrent_tasks]: success
+[2024-04-10 10:24:46] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.8.tar.gz]
+[2024-04-10 10:24:46] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.9.tar.gz]
+[2024-04-10 10:24:46] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-04-10 10:24:54] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654274095.tar.gz]
+[2024-04-10 10:24:54] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654522381.tar.gz]
+[2024-04-10 10:24:54] INFO root fetch - main [MainThread]: End processing [pulumi-azure]: success
+[2024-04-10 10:24:54] INFO root fetch - main [MainThread]: Store serial: [22697645]

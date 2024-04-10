@@ -3327,3 +3327,18 @@
 [2024-04-10 02:35:07] INFO root fetch - processPackages [llama-cpp-agent]: Remove: archive file [/home/abi/fetcher/tmp/llama-cpp-agent-0.0.9.tar.gz]
 [2024-04-10 02:35:07] INFO root fetch - main [MainThread]: End processing [llama-cpp-agent]: success
 [2024-04-10 02:35:07] INFO root fetch - main [MainThread]: Store serial: [22692449]
+[2024-04-10 02:37:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22692449]
+[2024-04-10 02:37:16] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-10 02:37:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: notification-py
+[2024-04-10 02:37:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: state-machine-semaphore
+[2024-04-10 02:37:16] INFO root fetch - processPackages [state-machine-semaphore]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-10 02:37:16] WARNING root fetch - processPackages [notification-py]: Skipping, unable to determine old version
+[2024-04-10 02:37:16] INFO root fetch - main [MainThread]: End processing [notification-py] error
+[2024-04-10 02:37:16] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/fa/f7/eea494ef2079699969c054c97478b7e0d5db0ce186fbb2708d9a243b4366/state-machine-semaphore-0.1.98.tar.gz
+[2024-04-10 02:37:16] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/80/0f/c73e069a7ceff3d9f61065aa4b5b338bc0b9f4f933b94a97692457bfa317/state-machine-semaphore-0.1.99.tar.gz
+[2024-04-10 02:37:16] INFO root fetch - processPackages [state-machine-semaphore]: executing diffoscope
+[2024-04-10 02:37:16] INFO root fetch - processPackages [state-machine-semaphore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/state-machine-semaphore-0.1.98.tar.gz tmp/state-machine-semaphore-0.1.99.tar.gz --markdown 20240410/s/state-machine-semaphore/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-10 02:37:17] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.98.tar.gz]
+[2024-04-10 02:37:17] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.99.tar.gz]
+[2024-04-10 02:37:17] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
+[2024-04-10 02:37:17] INFO root fetch - main [MainThread]: Store serial: [22692455]

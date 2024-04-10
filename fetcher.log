@@ -20853,3 +20853,45 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 12:46:27] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-1.9.0a1693981063.tar.gz]
 [2024-04-10 12:46:27] INFO root fetch - main [MainThread]: End processing [pulumi-oci]: success
 [2024-04-10 12:46:27] INFO root fetch - main [MainThread]: Store serial: [22699296]
+[2024-04-10 12:48:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22699296]
+[2024-04-10 12:48:37] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-10 12:48:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: easyaddition-quicklyfix
+[2024-04-10 12:48:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: finbourne-access-sdk
+[2024-04-10 12:48:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: GeneralSQL
+[2024-04-10 12:48:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: monviso
+[2024-04-10 12:48:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: h5py
+[2024-04-10 12:48:37] WARNING root fetch - processPackages [easyaddition-quicklyfix]: Skipping, unable to determine old version
+[2024-04-10 12:48:37] INFO root fetch - main [MainThread]: End processing [easyaddition-quicklyfix] error
+[2024-04-10 12:48:37] INFO root fetch - processPackages [GeneralSQL]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-04-10 12:48:37] INFO root fetch - processPackages [h5py]: New version: [3.9.0] Old Version: [3.8.0]
+[2024-04-10 12:48:37] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [2.1.1] Old Version: [2.0.99]
+[2024-04-10 12:48:37] INFO root fetch - processPackages [GeneralSQL]: Downloading https://files.pythonhosted.org/packages/08/ab/e84f76fabe67c3ab45cdcb08a3f937217bd347f841ce006856814570ce37/GeneralSQL-1.3.0.tar.gz
+[2024-04-10 12:48:37] INFO root fetch - processPackages [monviso]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-10 12:48:37] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/b9/9d/d9e34bbe69c5c09e1bebcf6e1fb0172dabee5038a4993f822163ff8df7cf/finbourne_access_sdk-2.0.99.tar.gz
+[2024-04-10 12:48:37] INFO root fetch - processPackages [h5py]: Downloading https://files.pythonhosted.org/packages/69/f4/3172bb63d3c57e24aec42bb93fcf1da4102752701ab5ad10b3ded00d0c5b/h5py-3.8.0.tar.gz
+[2024-04-10 12:48:37] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/5c/cc/205f3dd1b9ee795d111c605047d91e9ed7b633c80367c76b481141f26b9a/finbourne_access_sdk-2.1.1.tar.gz
+[2024-04-10 12:48:37] INFO root fetch - processPackages [monviso]: Downloading https://files.pythonhosted.org/packages/a3/cd/8ff782f22d458bbc2e35913f9ea0e93d7e90eecc875770b03e59015cdcdb/monviso-0.1.3.tar.gz
+[2024-04-10 12:48:37] INFO root fetch - processPackages [GeneralSQL]: Downloading https://files.pythonhosted.org/packages/28/a4/de6d113b385506bbef674cf19140a89765b7fc0a3f4b89c1a06a952c0fc8/GeneralSQL-1.3.1.tar.gz
+[2024-04-10 12:48:37] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2024-04-10 12:48:37] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_access_sdk-2.0.99.tar.gz tmp/finbourne_access_sdk-2.1.1.tar.gz --markdown 20240410/f/finbourne-access-sdk/2.0.99-2.1.1/README.md --exclude *.pyd
+[2024-04-10 12:48:38] INFO root fetch - processPackages [GeneralSQL]: executing diffoscope
+[2024-04-10 12:48:38] INFO root fetch - processPackages [GeneralSQL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GeneralSQL-1.3.0.tar.gz tmp/GeneralSQL-1.3.1.tar.gz --markdown 20240410/G/GeneralSQL/1.3.0-1.3.1/README.md --exclude *.pyd
+[2024-04-10 12:48:38] INFO root fetch - processPackages [h5py]: Downloading https://files.pythonhosted.org/packages/57/ea/e59bf321fdbfed5ada0b856b3ed1d319733adaebe55aeb132673b5aa8501/h5py-3.9.0.tar.gz
+[2024-04-10 12:48:38] INFO root fetch - processPackages [monviso]: Downloading https://files.pythonhosted.org/packages/b5/a6/3952d7d6bbc048ad055edc866f41bcd51d0dcb0a062dd7648e7da70d8085/monviso-0.1.4.tar.gz
+[2024-04-10 12:48:38] INFO root fetch - processPackages [h5py]: executing diffoscope
+[2024-04-10 12:48:38] INFO root fetch - processPackages [h5py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h5py-3.8.0.tar.gz tmp/h5py-3.9.0.tar.gz --markdown 20240410/h/h5py/3.8.0-3.9.0/README.md --exclude *.pyd
+[2024-04-10 12:48:38] INFO root fetch - processPackages [monviso]: executing diffoscope
+[2024-04-10 12:48:38] INFO root fetch - processPackages [monviso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monviso-0.1.3.tar.gz tmp/monviso-0.1.4.tar.gz --markdown 20240410/m/monviso/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-10 12:48:38] INFO root fetch - processPackages [GeneralSQL]: Remove: archive file [/home/abi/fetcher/tmp/GeneralSQL-1.3.0.tar.gz]
+[2024-04-10 12:48:38] INFO root fetch - processPackages [GeneralSQL]: Remove: archive file [/home/abi/fetcher/tmp/GeneralSQL-1.3.1.tar.gz]
+[2024-04-10 12:48:38] INFO root fetch - main [MainThread]: End processing [GeneralSQL]: success
+[2024-04-10 12:48:39] INFO root fetch - processPackages [monviso]: Remove: archive file [/home/abi/fetcher/tmp/monviso-0.1.3.tar.gz]
+[2024-04-10 12:48:39] INFO root fetch - processPackages [monviso]: Remove: archive file [/home/abi/fetcher/tmp/monviso-0.1.4.tar.gz]
+[2024-04-10 12:48:39] INFO root fetch - main [MainThread]: End processing [monviso]: success
+[2024-04-10 12:48:39] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.0.99.tar.gz]
+[2024-04-10 12:48:39] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.1.tar.gz]
+[2024-04-10 12:48:39] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2024-04-10 12:48:40] INFO root fetch - processPackages [h5py]: Remove: archive file [/home/abi/fetcher/tmp/h5py-3.8.0.tar.gz]
+[2024-04-10 12:48:40] INFO root fetch - processPackages [h5py]: Remove: archive file [/home/abi/fetcher/tmp/h5py-3.9.0.tar.gz]
+[2024-04-10 12:48:40] INFO root fetch - main [MainThread]: End processing [h5py]: success
+[2024-04-10 12:48:40] INFO root fetch - main [MainThread]: Store serial: [22699371]

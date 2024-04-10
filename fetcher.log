@@ -19456,3 +19456,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 11:54:04] INFO root fetch - processPackages [sqlalchemy-risingwave]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy-risingwave-1.1.0.tar.gz]
 [2024-04-10 11:54:04] INFO root fetch - main [MainThread]: End processing [sqlalchemy-risingwave]: success
 [2024-04-10 11:54:04] INFO root fetch - main [MainThread]: Store serial: [22698643]
+[2024-04-10 11:56:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22698643]
+[2024-04-10 11:56:13] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-10 11:56:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sunholo
+[2024-04-10 11:56:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cpg-workflows
+[2024-04-10 11:56:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytse-filter
+[2024-04-10 11:56:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: remotion-lambda
+[2024-04-10 11:56:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dls-python-copier-template-example
+[2024-04-10 11:56:14] INFO root fetch - processPackages [cpg-workflows]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-10 11:56:14] INFO root fetch - processPackages [sunholo]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-10 11:56:14] INFO root fetch - processPackages [pytse-filter]: New version: [1.26] Old Version: [1.24]
+[2024-04-10 11:56:14] INFO root fetch - processPackages [dls-python-copier-template-example]: New version: [0.5.1] Old Version: [0.4]
+[2024-04-10 11:56:14] INFO root fetch - processPackages [remotion-lambda]: New version: [4.1.0a12] Old Version: [4.0.98]
+[2024-04-10 11:56:14] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/cc/35/0cc2a83f59b1ddd740a568e10894833a89bedfc91b8ebd172a427676694a/sunholo-0.8.8.tar.gz
+[2024-04-10 11:56:14] INFO root fetch - processPackages [cpg-workflows]: Downloading https://files.pythonhosted.org/packages/97/85/ebcf50223506f96abcfa077315ab244e192faa632ed400789582dcf565e0/cpg-workflows-1.9.0.tar.gz
+[2024-04-10 11:56:14] INFO root fetch - processPackages [pytse-filter]: Downloading https://files.pythonhosted.org/packages/03/07/fff5cc3eb2eb637a3a71c1da78089930975ed0a889a2680116885dff2c76/pytse_filter-1.24.tar.gz
+[2024-04-10 11:56:14] INFO root fetch - processPackages [dls-python-copier-template-example]: Downloading https://files.pythonhosted.org/packages/4c/4b/76474dc6f106bbc7c3443c86466dc8b06c87730cb1360ba5b12f809c4744/dls-python-copier-template-example-0.4.tar.gz
+[2024-04-10 11:56:14] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/f4/84/78248df3236e593119b75003e77cf5b5bd0761e53dc91c6a148cb0571cf9/sunholo-0.8.9.tar.gz
+[2024-04-10 11:56:14] INFO root fetch - processPackages [remotion-lambda]: Downloading https://files.pythonhosted.org/packages/3f/c5/94eff7677b9dca598bdba065311eeb371512d0bb7b2ded018d2bffb1597a/remotion_lambda-4.0.98.tar.gz
+[2024-04-10 11:56:14] INFO root fetch - processPackages [cpg-workflows]: Downloading https://files.pythonhosted.org/packages/0d/82/bd0cb905c3b340f5cd9b1eb95911c5444e8ba0f6369afc3c60336fed7e14/cpg-workflows-1.9.1.tar.gz
+[2024-04-10 11:56:14] INFO root fetch - processPackages [sunholo]: executing diffoscope
+[2024-04-10 11:56:14] INFO root fetch - processPackages [sunholo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunholo-0.8.8.tar.gz tmp/sunholo-0.8.9.tar.gz --markdown 20240410/s/sunholo/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-04-10 11:56:14] INFO root fetch - processPackages [cpg-workflows]: executing diffoscope
+[2024-04-10 11:56:14] INFO root fetch - processPackages [cpg-workflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpg-workflows-1.9.0.tar.gz tmp/cpg-workflows-1.9.1.tar.gz --markdown 20240410/c/cpg-workflows/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-04-10 11:56:14] INFO root fetch - processPackages [dls-python-copier-template-example]: Downloading https://files.pythonhosted.org/packages/25/8b/c6fe8e08ed6087e9db21e7c63a5a7e080ab1283dfe286e7d53546e661914/dls-python-copier-template-example-0.5.1.tar.gz
+[2024-04-10 11:56:14] INFO root fetch - processPackages [pytse-filter]: Downloading https://files.pythonhosted.org/packages/13/a3/eada2b5f0cd3c0a1509df6afad530aa6082213810f47694d831ab0bacb02/pytse_filter-1.26-py3-none-any.whl
+[2024-04-10 11:56:14] INFO root fetch - processPackages [remotion-lambda]: Downloading https://files.pythonhosted.org/packages/e2/46/7d3e726fcba2427f51b340f14b65270f6df2b6123085c439b9855a0ab1cd/remotion_lambda-4.1.0a12.tar.gz
+[2024-04-10 11:56:14] INFO root fetch - processPackages [dls-python-copier-template-example]: executing diffoscope
+[2024-04-10 11:56:14] INFO root fetch - processPackages [dls-python-copier-template-example]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dls-python-copier-template-example-0.4.tar.gz tmp/dls-python-copier-template-example-0.5.1.tar.gz --markdown 20240410/d/dls-python-copier-template-example/0.4-0.5.1/README.md --exclude *.pyd
+[2024-04-10 11:56:14] INFO root fetch - processPackages [pytse-filter]: executing diffoscope
+[2024-04-10 11:56:14] INFO root fetch - processPackages [pytse-filter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytse_filter-1.24.tar.gz tmp/pytse_filter-1.26-py3-none-any.whl.zip --markdown 20240410/p/pytse-filter/1.24-1.26/README.md --exclude *.pyd
+[2024-04-10 11:56:15] INFO root fetch - processPackages [remotion-lambda]: executing diffoscope
+[2024-04-10 11:56:15] INFO root fetch - processPackages [remotion-lambda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotion_lambda-4.0.98.tar.gz tmp/remotion_lambda-4.1.0a12.tar.gz --markdown 20240410/r/remotion-lambda/4.0.98-4.1.0a12/README.md --exclude *.pyd
+[2024-04-10 11:56:15] INFO root fetch - processPackages [cpg-workflows]: Remove: archive file [/home/abi/fetcher/tmp/cpg-workflows-1.9.0.tar.gz]
+[2024-04-10 11:56:15] INFO root fetch - processPackages [cpg-workflows]: Remove: archive file [/home/abi/fetcher/tmp/cpg-workflows-1.9.1.tar.gz]
+[2024-04-10 11:56:15] INFO root fetch - main [MainThread]: End processing [cpg-workflows]: success
+[2024-04-10 11:56:15] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.8.tar.gz]
+[2024-04-10 11:56:15] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.9.tar.gz]
+[2024-04-10 11:56:15] INFO root fetch - main [MainThread]: End processing [sunholo]: success
+[2024-04-10 11:56:15] INFO root fetch - processPackages [pytse-filter]: Remove: archive file [/home/abi/fetcher/tmp/pytse_filter-1.24.tar.gz]
+[2024-04-10 11:56:15] INFO root fetch - processPackages [pytse-filter]: Remove: archive file [/home/abi/fetcher/tmp/pytse_filter-1.26-py3-none-any.whl.zip]
+[2024-04-10 11:56:15] INFO root fetch - main [MainThread]: End processing [pytse-filter]: success
+[2024-04-10 11:56:15] INFO root fetch - processPackages [dls-python-copier-template-example]: Remove: archive file [/home/abi/fetcher/tmp/dls-python-copier-template-example-0.4.tar.gz]
+[2024-04-10 11:56:15] INFO root fetch - processPackages [dls-python-copier-template-example]: Remove: archive file [/home/abi/fetcher/tmp/dls-python-copier-template-example-0.5.1.tar.gz]
+[2024-04-10 11:56:15] INFO root fetch - main [MainThread]: End processing [dls-python-copier-template-example]: success
+[2024-04-10 11:56:15] INFO root fetch - processPackages [remotion-lambda]: Remove: archive file [/home/abi/fetcher/tmp/remotion_lambda-4.0.98.tar.gz]
+[2024-04-10 11:56:15] INFO root fetch - processPackages [remotion-lambda]: Remove: archive file [/home/abi/fetcher/tmp/remotion_lambda-4.1.0a12.tar.gz]
+[2024-04-10 11:56:15] INFO root fetch - main [MainThread]: End processing [remotion-lambda]: success
+[2024-04-10 11:56:15] INFO root fetch - main [MainThread]: Store serial: [22698661]

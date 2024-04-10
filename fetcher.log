@@ -12543,3 +12543,53 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-04-10 06:48:31] INFO root fetch - processPackages [AutoRAG]: Remove: archive file [/home/abi/fetcher/tmp/AutoRAG-0.1.2.tar.gz]
 [2024-04-10 06:48:31] INFO root fetch - main [MainThread]: End processing [AutoRAG]: success
 [2024-04-10 06:48:31] INFO root fetch - main [MainThread]: Store serial: [22695830]
+[2024-04-10 06:50:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22695830]
+[2024-04-10 06:50:40] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-10 06:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: RTRASmall
+[2024-04-10 06:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bioat
+[2024-04-10 06:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quickstart-vdk
+[2024-04-10 06:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dyff-schema
+[2024-04-10 06:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aiovantage
+[2024-04-10 06:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ilovetea
+[2024-04-10 06:50:40] INFO root fetch - processPackages [ilovetea]: New version: [0.1.3] Old Version: [0.1.1]
+[2024-04-10 06:50:40] INFO root fetch - processPackages [dyff-schema]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-04-10 06:50:40] INFO root fetch - processPackages [bioat]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-10 06:50:40] INFO root fetch - processPackages [aiovantage]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-10 06:50:40] INFO root fetch - processPackages [dyff-schema]: Downloading https://files.pythonhosted.org/packages/41/87/6ae48c9cd0d6d31558b161c84d8b9807456d53ad393e56610b2036b79a11/dyff-schema-0.3.2.tar.gz
+[2024-04-10 06:50:40] WARNING root fetch - processPackages [RTRASmall]: Skipping, unable to determine old version
+[2024-04-10 06:50:40] INFO root fetch - main [MainThread]: End processing [RTRASmall] error
+[2024-04-10 06:50:40] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.999091100.dev13356] Old Version: [0.2.998635022.dev13355]
+[2024-04-10 06:50:40] INFO root fetch - processPackages [bioat]: Downloading https://files.pythonhosted.org/packages/04/87/27733a666503696419c4a4b25800eae50415192d02274519b748829963d0/bioat-0.9.0.tar.gz
+[2024-04-10 06:50:41] INFO root fetch - processPackages [aiovantage]: Downloading https://files.pythonhosted.org/packages/72/e5/5dfbb0e9c046fef186f2710c1bd3539b76fcab3d242023bbc5464a1a07d1/aiovantage-0.8.1.tar.gz
+[2024-04-10 06:50:41] INFO root fetch - processPackages [ilovetea]: Downloading https://files.pythonhosted.org/packages/14/26/2af96dec01cf1456fc04291330ce16071f475a04db69f2f70f31089ffe9b/ilovetea-0.1.3.tar.gz
+[2024-04-10 06:50:41] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/e3/a6/b7424a3be777980068df32f41ef9085422b79289fef725cba5cabf2b502e/quickstart-vdk-0.2.998635022.dev13355.tar.gz
+[2024-04-10 06:50:41] INFO root fetch - processPackages [bioat]: Downloading https://files.pythonhosted.org/packages/9b/66/f85222000d903dd3fc4dcf94a27d2dc8e169f2a275a156acaa6341e21d37/bioat-0.9.1.tar.gz
+[2024-04-10 06:50:41] INFO root fetch - processPackages [ilovetea]: executing diffoscope
+[2024-04-10 06:50:41] INFO root fetch - processPackages [ilovetea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ilovetea-0.1.1.tar.gz tmp/ilovetea-0.1.3.tar.gz --markdown 20240410/i/ilovetea/0.1.1-0.1.3/README.md --exclude *.pyd
+[2024-04-10 06:50:41] INFO root fetch - processPackages [dyff-schema]: Downloading https://files.pythonhosted.org/packages/82/79/13e138e5f395cfe4baa8af6a326d15ee5f0e15d4389aabb5f8ae90e36167/dyff-schema-0.3.3.tar.gz
+[2024-04-10 06:50:41] INFO root fetch - processPackages [bioat]: executing diffoscope
+[2024-04-10 06:50:41] INFO root fetch - processPackages [bioat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioat-0.9.0.tar.gz tmp/bioat-0.9.1.tar.gz --markdown 20240410/b/bioat/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-10 06:50:41] INFO root fetch - processPackages [dyff-schema]: executing diffoscope
+[2024-04-10 06:50:41] INFO root fetch - processPackages [dyff-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dyff-schema-0.3.2.tar.gz tmp/dyff-schema-0.3.3.tar.gz --markdown 20240410/d/dyff-schema/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-04-10 06:50:41] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/fa/72/2a48eb94b876fa0c01eda0450a3e80c80101dd5fdfe10124d5474b64f5fd/quickstart-vdk-0.2.999091100.dev13356.tar.gz
+[2024-04-10 06:50:41] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2024-04-10 06:50:41] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz --markdown 20240410/q/quickstart-vdk/0.2.998635022.dev13355-0.2.999091100.dev13356/README.md --exclude *.pyd
+[2024-04-10 06:50:41] INFO root fetch - processPackages [aiovantage]: Downloading https://files.pythonhosted.org/packages/e9/c3/9e6e3482705c499ce6777b2321f94c71e47b59ae1de3ccd2845eb9c4485a/aiovantage-0.9.0.tar.gz
+[2024-04-10 06:50:41] INFO root fetch - processPackages [ilovetea]: Remove: archive file [/home/abi/fetcher/tmp/ilovetea-0.1.1.tar.gz]
+[2024-04-10 06:50:41] INFO root fetch - processPackages [ilovetea]: Remove: archive file [/home/abi/fetcher/tmp/ilovetea-0.1.3.tar.gz]
+[2024-04-10 06:50:41] INFO root fetch - main [MainThread]: End processing [ilovetea]: success
+[2024-04-10 06:50:41] INFO root fetch - processPackages [aiovantage]: executing diffoscope
+[2024-04-10 06:50:41] INFO root fetch - processPackages [aiovantage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240410:/home/abi/fetcher/20240410:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiovantage-0.8.1.tar.gz tmp/aiovantage-0.9.0.tar.gz --markdown 20240410/a/aiovantage/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-04-10 06:50:42] INFO root fetch - processPackages [bioat]: Remove: archive file [/home/abi/fetcher/tmp/bioat-0.9.0.tar.gz]
+[2024-04-10 06:50:42] INFO root fetch - processPackages [bioat]: Remove: archive file [/home/abi/fetcher/tmp/bioat-0.9.1.tar.gz]
+[2024-04-10 06:50:42] INFO root fetch - main [MainThread]: End processing [bioat]: success
+[2024-04-10 06:50:42] INFO root fetch - processPackages [dyff-schema]: Remove: archive file [/home/abi/fetcher/tmp/dyff-schema-0.3.2.tar.gz]
+[2024-04-10 06:50:42] INFO root fetch - processPackages [dyff-schema]: Remove: archive file [/home/abi/fetcher/tmp/dyff-schema-0.3.3.tar.gz]
+[2024-04-10 06:50:42] INFO root fetch - main [MainThread]: End processing [dyff-schema]: success
+[2024-04-10 06:50:42] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz]
+[2024-04-10 06:50:42] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz]
+[2024-04-10 06:50:42] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2024-04-10 06:50:42] INFO root fetch - processPackages [aiovantage]: Remove: archive file [/home/abi/fetcher/tmp/aiovantage-0.8.1.tar.gz]
+[2024-04-10 06:50:42] INFO root fetch - processPackages [aiovantage]: Remove: archive file [/home/abi/fetcher/tmp/aiovantage-0.9.0.tar.gz]
+[2024-04-10 06:50:42] INFO root fetch - main [MainThread]: End processing [aiovantage]: success
+[2024-04-10 06:50:42] INFO root fetch - main [MainThread]: Store serial: [22695853]
